@@ -2,7 +2,6 @@
 base_url = http://localhost:9401/marva/dancer/api/
 
 [git]
-username = your-github-username
 token = ghp_xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 commit_name = NDMSO
 commit_email = NDMSO@users.noreply.github.com

@@ -53,7 +53,6 @@ def sync_profiles(config_path):
     if not base_url.endswith("/"):
         base_url += "/"
 
-    git_username = config.get("git", "username")
     git_token = config.get("git", "token")
     commit_name = config.get("git", "commit_name")
     commit_email = config.get("git", "commit_email")
