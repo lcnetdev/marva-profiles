@@ -750,7 +750,7 @@ lc:RT:MIBluRayDVD:Event,Event,bf:Event,rdfs:label,Event,FALSE,TRUE,literal,,,,,,
 ,,,bf:date,Date of event,FALSE,TRUE,literal,,,,,,,,,
 lc:RT:MIBluRayDVD:FileType,File type,bf:FileType,owl:sameAs,Lookup,FALSE,FALSE,,,,http://id.loc.gov/vocabulary/mfiletype,IRIstem,,,,bf:FileType,http://original.rdatoolkit.org/3.19.2.html
 lc:RT:MIBluRayDVD:Instance,BIBFRAME Instance,bf:Instance,bf:instanceOf,Instance of,FALSE,FALSE,bnode,,lc:RT:MIBluRayDVD:Work,,,,,,,
-,,,bf:title,Title information,TRUE,TRUE,bnode,,lc:RT:InstanceTitle | lc:RT:Title:VarTitle | lc:RT:ParallelTitle,,,,,,,https://original.rdatoolkit.org/rdachp2_rda2-3376.html
+,,,bf:title,Title information,TRUE,TRUE,bnode,,lc:RT:InstanceTitle | lc:RT:Title:VarTitle | lc:RT:ParallelTitle,,,,,,,
 ,,,bf:responsibilityStatement,Statement of responsibility,FALSE,TRUE,literal,,,,,,,,,http://original.rdatoolkit.org/2.4.2.html
 ,,,bf:editionStatement,Edition statement,FALSE,TRUE,literal,,,,,,,,,http://original.rdatoolkit.org/2.5.html
 ,,,bf:provisionActivity,Provision activity,FALSE,TRUE,bnode,,lc:RT:PubInfoNew | lc:RT:DistInfoNew | lc:RT:ManuInfoNew | lc:RT:ProdInfoNew,,,,,,,https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates-ProvisionActivity(264)
