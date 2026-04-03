@@ -1,6 +1,6 @@
 [
   {
-    "id": "98557f57-c27b-40cd-af0c-3b4bab120f4c",
+    "id": "751e64f0-e062-4de7-8471-8d497b701a6a",
     "name": "config",
     "configType": "startingPoints",
     "json": [
@@ -13,7 +13,7 @@
               "http://id.loc.gov/ontologies/bibframe/Instance"
             ],
             "useResourceTemplates": [
-              "lc:RT:bf2:Monograph:Instance"
+              "lc:RT:Monograph:Instance"
             ]
           },
           {
@@ -22,53 +22,30 @@
               "http://id.loc.gov/ontologies/bibframe/Work"
             ],
             "useResourceTemplates": [
-              "lc:RT:bf2:Monograph:Work"
+              "lc:RT:Monograph:Work"
             ]
           }
         ]
       },
       {
-        "menuGroup": "IBC description",
+        "menuGroup": "Notated Music: Multi",
         "menuItems": [
+          {
+            "label": "Work",
+            "type": [
+              "http://id.loc.gov/ontologies/bibframe/Work"
+            ],
+            "useResourceTemplates": [
+              "lc:RT:NotatedMusicMulti:Work"
+            ]
+          },
           {
             "label": "Instance",
             "type": [
               "http://id.loc.gov/ontologies/bibframe/Instance"
             ],
             "useResourceTemplates": [
-              "lc:RT:bf2:Ibc:Instance"
-            ]
-          },
-          {
-            "label": "Work",
-            "type": [
-              "http://id.loc.gov/ontologies/bibframe/Work"
-            ],
-            "useResourceTemplates": [
-              "lc:RT:bf2:Ibc:Work"
-            ]
-          }
-        ]
-      },
-      {
-        "menuGroup": "Notated Music",
-        "menuItems": [
-          {
-            "label": "Create Work",
-            "type": [
-              "http://id.loc.gov/ontologies/bibframe/Work"
-            ],
-            "useResourceTemplates": [
-              "lc:RT:bf2:NotatedMusic:Work"
-            ]
-          },
-          {
-            "label": "Create Instance",
-            "type": [
-              "http://id.loc.gov/ontologies/bibframe/Instance"
-            ],
-            "useResourceTemplates": [
-              "lc:RT:bf2:NotatedMusic:Instance"
+              "lc:RT:NotatedMusicNew:Instance"
             ]
           }
         ]
@@ -82,7 +59,7 @@
               "http://id.loc.gov/ontologies/bibframe/Instance"
             ],
             "useResourceTemplates": [
-              "lc:RT:bf2:Serial:Instance"
+              "lc:RT:Serial:Instance"
             ]
           },
           {
@@ -91,7 +68,7 @@
               "http://id.loc.gov/ontologies/bibframe/Work"
             ],
             "useResourceTemplates": [
-              "lc:RT:bf2:Serial:Work"
+              "lc:RT:Serial:Work"
             ]
           }
         ]
@@ -105,7 +82,7 @@
               "http://id.loc.gov/ontologies/bibframe/Instance"
             ],
             "useResourceTemplates": [
-              "lc:RT:bf2:Cartographic:Instance"
+              "lc:RT:Cartographic:Instance"
             ]
           },
           {
@@ -114,7 +91,7 @@
               "http://id.loc.gov/ontologies/bibframe/Work"
             ],
             "useResourceTemplates": [
-              "lc:RT:bf2:Cartographic:Work"
+              "lc:RT:Cartographic:Work"
             ]
           }
         ]
@@ -128,7 +105,7 @@
               "http://id.loc.gov/ontologies/bibframe/Instance"
             ],
             "useResourceTemplates": [
-              "lc:RT:bf2:SoundRecording:Instance"
+              "lc:RT:SoundRecording:Instance"
             ]
           },
           {
@@ -137,7 +114,7 @@
               "http://id.loc.gov/ontologies/bibframe/Work"
             ],
             "useResourceTemplates": [
-              "lc:RT:bf2:SoundRecording:Work"
+              "lc:RT:SoundRecording:Work"
             ]
           }
         ]
@@ -151,7 +128,7 @@
               "http://id.loc.gov/ontologies/bibframe/Instance"
             ],
             "useResourceTemplates": [
-              "lc:RT:bf2:SoundCDR:Instance"
+              "lc:RT:SoundCDR:Instance"
             ]
           },
           {
@@ -160,7 +137,7 @@
               "http://id.loc.gov/ontologies/bibframe/Work"
             ],
             "useResourceTemplates": [
-              "lc:RT:bf2:SoundCDR:Work"
+              "lc:RT:SoundCDR:Work"
             ]
           }
         ]
@@ -174,7 +151,7 @@
               "http://id.loc.gov/ontologies/bibframe/Instance"
             ],
             "useResourceTemplates": [
-              "lc:RT:bf2:Analog:Instance"
+              "lc:RT:Analog:Instance"
             ]
           },
           {
@@ -183,7 +160,7 @@
               "http://id.loc.gov/ontologies/bibframe/Work"
             ],
             "useResourceTemplates": [
-              "lc:RT:bf2:Analog:Work"
+              "lc:RT:Analog:Work"
             ]
           }
         ]
@@ -197,7 +174,7 @@
               "http://id.loc.gov/ontologies/bibframe/Instance"
             ],
             "useResourceTemplates": [
-              "lc:RT:bf2:SoundCassette:Instance"
+              "lc:RT:SoundCassette:Instance"
             ]
           },
           {
@@ -206,7 +183,7 @@
               "http://id.loc.gov/ontologies/bibframe/Work"
             ],
             "useResourceTemplates": [
-              "lc:RT:bf2:SoundCassette:Work"
+              "lc:RT:SoundCassette:Work"
             ]
           }
         ]
@@ -220,7 +197,7 @@
               "http://id.loc.gov/ontologies/bibframe/Instance"
             ],
             "useResourceTemplates": [
-              "lc:RT:bf2:MIBluRayDVD:Instance"
+              "lc:RT:MIBluRayDVD:Instance"
             ]
           },
           {
@@ -229,7 +206,7 @@
               "http://id.loc.gov/ontologies/bibframe/Work"
             ],
             "useResourceTemplates": [
-              "lc:RT:bf2:MIBluRayDVD:Work"
+              "lc:RT:MIBluRayDVD:Work"
             ]
           }
         ]
@@ -243,7 +220,7 @@
               "http://id.loc.gov/ontologies/bibframe/Instance"
             ],
             "useResourceTemplates": [
-              "lc:RT:bf2:VideoCassette:Instance"
+              "lc:RT:VideoCassette:Instance"
             ]
           },
           {
@@ -252,7 +229,7 @@
               "http://id.loc.gov/ontologies/bibframe/Work"
             ],
             "useResourceTemplates": [
-              "lc:RT:bf2:VideoCassette:Work"
+              "lc:RT:VideoCassette:Work"
             ]
           }
         ]
@@ -266,7 +243,7 @@
               "http://id.loc.gov/ontologies/bibframe/Instance"
             ],
             "useResourceTemplates": [
-              "lc:RT:bf2:35mmFeatureFilm:Instance"
+              "lc:RT:35mmFeatureFilm:Instance"
             ]
           },
           {
@@ -275,48 +252,7 @@
               "http://id.loc.gov/ontologies/bibframe/Work"
             ],
             "useResourceTemplates": [
-              "lc:RT:bf2:35mmFeatureFilm:Work"
-            ]
-          }
-        ]
-      },
-      {
-        "menuGroup": "Mixed Materials",
-        "menuItems": [
-          {
-            "label": "Monograph Instance",
-            "type": [
-              "http://id.loc.gov/ontologies/bibframe/Instance"
-            ],
-            "useResourceTemplates": [
-              "lc:RT:bf2:TestMixedMat:Print"
-            ]
-          },
-          {
-            "label": "Sound Recording Instance",
-            "type": [
-              "http://id.loc.gov/ontologies/bibframe/Instance"
-            ],
-            "useResourceTemplates": [
-              "lc:RT:bf2:TestMixedMat:InstanceSR"
-            ]
-          },
-          {
-            "label": "Video Recording Instance",
-            "type": [
-              "http://id.loc.gov/ontologies/bibframe/Instance"
-            ],
-            "useResourceTemplates": [
-              "lc:RT:bf2:TestMixedMat:InstanceVR"
-            ]
-          },
-          {
-            "label": "Work",
-            "type": [
-              "http://id.loc.gov/ontologies/bibframe/Work"
-            ],
-            "useResourceTemplates": [
-              "lc:RT:bf2:TestMixedMat:Work"
+              "lc:RT:35mmFeatureFilm:Work"
             ]
           }
         ]
@@ -330,7 +266,7 @@
               "http://id.loc.gov/ontologies/bibframe/Instance"
             ],
             "useResourceTemplates": [
-              "lc:RT:bf2:RareMat:Instance"
+              "lc:RT:RareMat:Instance"
             ]
           },
           {
@@ -339,13 +275,13 @@
               "http://id.loc.gov/ontologies/bibframe/Work"
             ],
             "useResourceTemplates": [
-              "lc:RT:bf2:RareMat:Work"
+              "lc:RT:RareMat:Work"
             ]
           }
         ]
       },
       {
-        "menuGroup": "Monograph Collection",
+        "menuGroup": "Prints & Photographs",
         "menuItems": [
           {
             "label": "Instance",
@@ -353,7 +289,7 @@
               "http://id.loc.gov/ontologies/bibframe/Instance"
             ],
             "useResourceTemplates": [
-              "lc:RT:bf2:MonoColl:Instance"
+              "lc:RT:PrintPhoto:Instance"
             ]
           },
           {
@@ -362,30 +298,7 @@
               "http://id.loc.gov/ontologies/bibframe/Work"
             ],
             "useResourceTemplates": [
-              "lc:RT:bf2:MonoColl:Work"
-            ]
-          }
-        ]
-      },
-      {
-        "menuGroup": "Prints & Photographs test",
-        "menuItems": [
-          {
-            "label": "Instance",
-            "type": [
-              "http://id.loc.gov/ontologies/bibframe/Instance"
-            ],
-            "useResourceTemplates": [
-              "lc:RT:bf2:PrintPhoto:Instance"
-            ]
-          },
-          {
-            "label": "Work",
-            "type": [
-              "http://id.loc.gov/ontologies/bibframe/Work"
-            ],
-            "useResourceTemplates": [
-              "lc:RT:bf2:PrintPhoto:Work"
+              "lc:RT:PrintPhoto:Work"
             ]
           }
         ]
@@ -399,39 +312,7 @@
               "http://id.loc.gov/ontologies/bibframe/Hub"
             ],
             "useResourceTemplates": [
-              "lc:RT:bf2:HubBasic:Hub"
-            ]
-          }
-        ]
-      },
-      {
-        "menuGroup": "Official RDA Monograph",
-        "menuItems": [
-          {
-            "label": "Hub",
-            "type": [
-              "http://id.loc.gov/ontologies/bibframe/Hub"
-            ],
-            "useResourceTemplates": [
-              "lc:OfficialRDA:Monograph:Hub"
-            ]
-          },
-          {
-            "label": "Instance",
-            "type": [
-              "http://id.loc.gov/ontologies/bibframe/Instance"
-            ],
-            "useResourceTemplates": [
-              "lc:RT:OfficialRDA:Monograph:Instance"
-            ]
-          },
-          {
-            "label": "Work",
-            "type": [
-              "http://id.loc.gov/ontologies/bibframe/Work"
-            ],
-            "useResourceTemplates": [
-              "lc:OfficialRDA:Monograph:Expression:Work"
+              "lc:RT:HubBasic:Hub"
             ]
           }
         ]
