@@ -181,7 +181,17 @@ def main():
         print(f"Error: config file not found: {args.config}", file=sys.stderr)
         sys.exit(1)
 
-    sync_profiles(args.config)
+    try:
+        sync_profiles(args.config)
+    except requests.exceptions.ConnectionError as e:
+        print(f"ERROR: could not connect to API: {e}", file=sys.stderr)
+        sys.exit(1)
+    except requests.exceptions.HTTPError as e:
+        print(f"ERROR: API returned an error: {e}", file=sys.stderr)
+        sys.exit(1)
+    except Exception as e:
+        print(f"ERROR: {e}", file=sys.stderr)
+        sys.exit(1)
 
 
 if __name__ == "__main__":
