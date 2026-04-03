@@ -111,16 +111,23 @@ def sync_profiles(config_path):
     env["GIT_COMMITTER_EMAIL"] = commit_email
 
     def git(*args):
-        return subprocess.run(
+        result = subprocess.run(
             ["git"] + list(args),
             cwd=repo_root,
             env=env,
             capture_output=True,
             text=True,
         )
+        if result.stdout.strip():
+            print(f"  [git {args[0]}] {result.stdout.strip()}")
+        if result.returncode != 0:
+            print(f"  ERROR [git {args[0]}]: {result.stderr.strip()}", file=sys.stderr)
+        return result
 
     # Stage all changes
-    git("add", "-A")
+    result = git("add", "-A")
+    if result.returncode != 0:
+        sys.exit(1)
 
     # Check if there are changes to commit
     status = git("status", "--porcelain")
@@ -128,11 +135,16 @@ def sync_profiles(config_path):
         print("No changes to commit.")
         return
 
-    git("commit", "-m", "Update MARVA profiles")
+    result = git("commit", "-m", "Update MARVA profiles")
+    if result.returncode != 0:
+        sys.exit(1)
 
     # Push using token auth
     # Get the current remote URL and inject credentials
     remote_result = git("remote", "get-url", "origin")
+    if remote_result.returncode != 0:
+        print("ERROR: could not get remote URL. Is 'origin' configured?", file=sys.stderr)
+        sys.exit(1)
     remote_url = remote_result.stdout.strip()
 
     if remote_url.startswith("https://"):
@@ -142,13 +154,16 @@ def sync_profiles(config_path):
             netloc=f"{git_username}:{git_token}@{parsed.hostname}"
             + (f":{parsed.port}" if parsed.port else "")
         ).geturl()
-        git("push", authed_url, "HEAD")
+        result = git("push", authed_url, "HEAD")
     elif remote_url.startswith("git@"):
-        # SSH - just push normally, assume keys are set up
-        git("push", "origin", "HEAD")
+        result = git("push", "origin", "HEAD")
     else:
         print(f"Warning: unrecognized remote URL format: {remote_url}")
-        git("push", "origin", "HEAD")
+        result = git("push", "origin", "HEAD")
+
+    if result.returncode != 0:
+        print("ERROR: push failed!", file=sys.stderr)
+        sys.exit(1)
 
     print("Done.")
 
