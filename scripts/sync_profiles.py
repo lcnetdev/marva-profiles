@@ -157,7 +157,7 @@ def sync_profiles(config_path):
         # Inject credentials into the URL for the push
         parsed = urllib.parse.urlparse(remote_url)
         authed_url = parsed._replace(
-            netloc=f"{git_username}:{git_token}@{parsed.hostname}"
+            netloc=f"x-access-token:{git_token}@{parsed.hostname}"
             + (f":{parsed.port}" if parsed.port else "")
         ).geturl()
         result = git("push", authed_url, f"HEAD:{branch}")
