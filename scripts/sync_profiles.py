@@ -112,7 +112,7 @@ def sync_profiles(config_path):
 
     def git(*args):
         result = subprocess.run(
-            ["git"] + list(args),
+            ["git", "-c", f"safe.directory={repo_root}"] + list(args),
             cwd=repo_root,
             env=env,
             capture_output=True,
