@@ -1,0 +1,441 @@
+[
+  {
+    "id": "92472380-5b86-440d-8f4e-c62bef76b935",
+    "name": "config",
+    "configType": "startingPoints",
+    "json": [
+      {
+        "menuGroup": "Monograph",
+        "menuItems": [
+          {
+            "label": "Instance",
+            "type": [
+              "http://id.loc.gov/ontologies/bibframe/Instance"
+            ],
+            "useResourceTemplates": [
+              "lc:RT:bf2:Monograph:Instance"
+            ]
+          },
+          {
+            "label": "Work",
+            "type": [
+              "http://id.loc.gov/ontologies/bibframe/Work"
+            ],
+            "useResourceTemplates": [
+              "lc:RT:bf2:Monograph:Work"
+            ]
+          }
+        ]
+      },
+      {
+        "menuGroup": "IBC description",
+        "menuItems": [
+          {
+            "label": "Instance",
+            "type": [
+              "http://id.loc.gov/ontologies/bibframe/Instance"
+            ],
+            "useResourceTemplates": [
+              "lc:RT:bf2:Ibc:Instance"
+            ]
+          },
+          {
+            "label": "Work",
+            "type": [
+              "http://id.loc.gov/ontologies/bibframe/Work"
+            ],
+            "useResourceTemplates": [
+              "lc:RT:bf2:Ibc:Work"
+            ]
+          }
+        ]
+      },
+      {
+        "menuGroup": "Notated Music",
+        "menuItems": [
+          {
+            "label": "Create Work",
+            "type": [
+              "http://id.loc.gov/ontologies/bibframe/Work"
+            ],
+            "useResourceTemplates": [
+              "lc:RT:bf2:NotatedMusic:Work"
+            ]
+          },
+          {
+            "label": "Create Instance",
+            "type": [
+              "http://id.loc.gov/ontologies/bibframe/Instance"
+            ],
+            "useResourceTemplates": [
+              "lc:RT:bf2:NotatedMusic:Instance"
+            ]
+          }
+        ]
+      },
+      {
+        "menuGroup": "Serial",
+        "menuItems": [
+          {
+            "label": "Instance",
+            "type": [
+              "http://id.loc.gov/ontologies/bibframe/Instance"
+            ],
+            "useResourceTemplates": [
+              "lc:RT:bf2:Serial:Instance"
+            ]
+          },
+          {
+            "label": "Work",
+            "type": [
+              "http://id.loc.gov/ontologies/bibframe/Work"
+            ],
+            "useResourceTemplates": [
+              "lc:RT:bf2:Serial:Work"
+            ]
+          }
+        ]
+      },
+      {
+        "menuGroup": "Cartographic",
+        "menuItems": [
+          {
+            "label": "Instance",
+            "type": [
+              "http://id.loc.gov/ontologies/bibframe/Instance"
+            ],
+            "useResourceTemplates": [
+              "lc:RT:bf2:Cartographic:Instance"
+            ]
+          },
+          {
+            "label": "Work",
+            "type": [
+              "http://id.loc.gov/ontologies/bibframe/Work"
+            ],
+            "useResourceTemplates": [
+              "lc:RT:bf2:Cartographic:Work"
+            ]
+          }
+        ]
+      },
+      {
+        "menuGroup": "Sound Recording: Audio CD",
+        "menuItems": [
+          {
+            "label": "Instance",
+            "type": [
+              "http://id.loc.gov/ontologies/bibframe/Instance"
+            ],
+            "useResourceTemplates": [
+              "lc:RT:bf2:SoundRecording:Instance"
+            ]
+          },
+          {
+            "label": "Work",
+            "type": [
+              "http://id.loc.gov/ontologies/bibframe/Work"
+            ],
+            "useResourceTemplates": [
+              "lc:RT:bf2:SoundRecording:Work"
+            ]
+          }
+        ]
+      },
+      {
+        "menuGroup": "Sound Recording: Audio CD-R",
+        "menuItems": [
+          {
+            "label": "Instance",
+            "type": [
+              "http://id.loc.gov/ontologies/bibframe/Instance"
+            ],
+            "useResourceTemplates": [
+              "lc:RT:bf2:SoundCDR:Instance"
+            ]
+          },
+          {
+            "label": "Work",
+            "type": [
+              "http://id.loc.gov/ontologies/bibframe/Work"
+            ],
+            "useResourceTemplates": [
+              "lc:RT:bf2:SoundCDR:Work"
+            ]
+          }
+        ]
+      },
+      {
+        "menuGroup": "Sound Recording: Analog",
+        "menuItems": [
+          {
+            "label": "Instance",
+            "type": [
+              "http://id.loc.gov/ontologies/bibframe/Instance"
+            ],
+            "useResourceTemplates": [
+              "lc:RT:bf2:Analog:Instance"
+            ]
+          },
+          {
+            "label": "Work",
+            "type": [
+              "http://id.loc.gov/ontologies/bibframe/Work"
+            ],
+            "useResourceTemplates": [
+              "lc:RT:bf2:Analog:Work"
+            ]
+          }
+        ]
+      },
+      {
+        "menuGroup": "Sound Recording: Cassette",
+        "menuItems": [
+          {
+            "label": "Instance",
+            "type": [
+              "http://id.loc.gov/ontologies/bibframe/Instance"
+            ],
+            "useResourceTemplates": [
+              "lc:RT:bf2:SoundCassette:Instance"
+            ]
+          },
+          {
+            "label": "Work",
+            "type": [
+              "http://id.loc.gov/ontologies/bibframe/Work"
+            ],
+            "useResourceTemplates": [
+              "lc:RT:bf2:SoundCassette:Work"
+            ]
+          }
+        ]
+      },
+      {
+        "menuGroup": "Moving Image: DVD",
+        "menuItems": [
+          {
+            "label": "Instance",
+            "type": [
+              "http://id.loc.gov/ontologies/bibframe/Instance"
+            ],
+            "useResourceTemplates": [
+              "lc:RT:bf2:MIBluRayDVD:Instance"
+            ]
+          },
+          {
+            "label": "Work",
+            "type": [
+              "http://id.loc.gov/ontologies/bibframe/Work"
+            ],
+            "useResourceTemplates": [
+              "lc:RT:bf2:MIBluRayDVD:Work"
+            ]
+          }
+        ]
+      },
+      {
+        "menuGroup": "Moving Image: Videocassette",
+        "menuItems": [
+          {
+            "label": "Instance",
+            "type": [
+              "http://id.loc.gov/ontologies/bibframe/Instance"
+            ],
+            "useResourceTemplates": [
+              "lc:RT:bf2:VideoCassette:Instance"
+            ]
+          },
+          {
+            "label": "Work",
+            "type": [
+              "http://id.loc.gov/ontologies/bibframe/Work"
+            ],
+            "useResourceTemplates": [
+              "lc:RT:bf2:VideoCassette:Work"
+            ]
+          }
+        ]
+      },
+      {
+        "menuGroup": "Moving Image: Film",
+        "menuItems": [
+          {
+            "label": "Instance",
+            "type": [
+              "http://id.loc.gov/ontologies/bibframe/Instance"
+            ],
+            "useResourceTemplates": [
+              "lc:RT:bf2:35mmFeatureFilm:Instance"
+            ]
+          },
+          {
+            "label": "Work",
+            "type": [
+              "http://id.loc.gov/ontologies/bibframe/Work"
+            ],
+            "useResourceTemplates": [
+              "lc:RT:bf2:35mmFeatureFilm:Work"
+            ]
+          }
+        ]
+      },
+      {
+        "menuGroup": "Mixed Materials",
+        "menuItems": [
+          {
+            "label": "Monograph Instance",
+            "type": [
+              "http://id.loc.gov/ontologies/bibframe/Instance"
+            ],
+            "useResourceTemplates": [
+              "lc:RT:bf2:TestMixedMat:Print"
+            ]
+          },
+          {
+            "label": "Sound Recording Instance",
+            "type": [
+              "http://id.loc.gov/ontologies/bibframe/Instance"
+            ],
+            "useResourceTemplates": [
+              "lc:RT:bf2:TestMixedMat:InstanceSR"
+            ]
+          },
+          {
+            "label": "Video Recording Instance",
+            "type": [
+              "http://id.loc.gov/ontologies/bibframe/Instance"
+            ],
+            "useResourceTemplates": [
+              "lc:RT:bf2:TestMixedMat:InstanceVR"
+            ]
+          },
+          {
+            "label": "Work",
+            "type": [
+              "http://id.loc.gov/ontologies/bibframe/Work"
+            ],
+            "useResourceTemplates": [
+              "lc:RT:bf2:TestMixedMat:Work"
+            ]
+          }
+        ]
+      },
+      {
+        "menuGroup": "Rare Materials",
+        "menuItems": [
+          {
+            "label": "Instance",
+            "type": [
+              "http://id.loc.gov/ontologies/bibframe/Instance"
+            ],
+            "useResourceTemplates": [
+              "lc:RT:bf2:RareMat:Instance"
+            ]
+          },
+          {
+            "label": "Work",
+            "type": [
+              "http://id.loc.gov/ontologies/bibframe/Work"
+            ],
+            "useResourceTemplates": [
+              "lc:RT:bf2:RareMat:Work"
+            ]
+          }
+        ]
+      },
+      {
+        "menuGroup": "Monograph Collection",
+        "menuItems": [
+          {
+            "label": "Instance",
+            "type": [
+              "http://id.loc.gov/ontologies/bibframe/Instance"
+            ],
+            "useResourceTemplates": [
+              "lc:RT:bf2:MonoColl:Instance"
+            ]
+          },
+          {
+            "label": "Work",
+            "type": [
+              "http://id.loc.gov/ontologies/bibframe/Work"
+            ],
+            "useResourceTemplates": [
+              "lc:RT:bf2:MonoColl:Work"
+            ]
+          }
+        ]
+      },
+      {
+        "menuGroup": "Prints & Photographs test",
+        "menuItems": [
+          {
+            "label": "Instance",
+            "type": [
+              "http://id.loc.gov/ontologies/bibframe/Instance"
+            ],
+            "useResourceTemplates": [
+              "lc:RT:bf2:PrintPhoto:Instance"
+            ]
+          },
+          {
+            "label": "Work",
+            "type": [
+              "http://id.loc.gov/ontologies/bibframe/Work"
+            ],
+            "useResourceTemplates": [
+              "lc:RT:bf2:PrintPhoto:Work"
+            ]
+          }
+        ]
+      },
+      {
+        "menuGroup": "Hub",
+        "menuItems": [
+          {
+            "label": "Hub",
+            "type": [
+              "http://id.loc.gov/ontologies/bibframe/Hub"
+            ],
+            "useResourceTemplates": [
+              "lc:RT:bf2:HubBasic:Hub"
+            ]
+          }
+        ]
+      },
+      {
+        "menuGroup": "Official RDA Monograph",
+        "menuItems": [
+          {
+            "label": "Hub",
+            "type": [
+              "http://id.loc.gov/ontologies/bibframe/Hub"
+            ],
+            "useResourceTemplates": [
+              "lc:OfficialRDA:Monograph:Hub"
+            ]
+          },
+          {
+            "label": "Instance",
+            "type": [
+              "http://id.loc.gov/ontologies/bibframe/Instance"
+            ],
+            "useResourceTemplates": [
+              "lc:RT:OfficialRDA:Monograph:Instance"
+            ]
+          },
+          {
+            "label": "Work",
+            "type": [
+              "http://id.loc.gov/ontologies/bibframe/Work"
+            ],
+            "useResourceTemplates": [
+              "lc:OfficialRDA:Monograph:Expression:Work"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]
