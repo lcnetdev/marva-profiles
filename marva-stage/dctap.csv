@@ -933,7 +933,7 @@ lc:RT:Monograph:Work,BIBFRAME Work,bf:Work,bf:expressionOf,Expression of [search
 ,,,bf:originPlace,Country of origin of the Work,FALSE,TRUE,,,,http://id.loc.gov/vocabulary/countries,IRIstem,,,,bf:Place,http://original.rdatoolkit.org/6.5.html
 ,,,bf:temporalCoverage,(Time) coverage of the content,FALSE,TRUE,literal,,,,,,,,,http://original.rdatoolkit.org/7.3.html
 ,,,bf:contentAccessibility,Accessibility content,FALSE,TRUE,bnode,,lc:RT:ContAccess,,,,,,,
-,,,bf:dissertation,Dissertation,FALSE,TRUE,bnode,,lc:RT:Monograph:Dissertation,,,,,,,http://original.rdatoolkit.org/7.9.html
+,,,bf:dissertation,Dissertation,FALSE,TRUE,bnode,,lc:RT:Monograph:Dissertation,,,,,,,https://www.loc.gov/aba/rda/mgd/work/mg-w-thesisDissertationInformation-01.pdf
 ,,,bflc:creatorCharacteristic,Creator characteristic,FALSE,TRUE,,,,http://id.loc.gov/authorities/demographicTerms/collection_LCDGT_General,IRIstem,,,,bflc:CreatorCharacteristic,
 ,,,bf:hasInstance,Add BIBFRAME Instance,FALSE,TRUE,bnode,,lc:RT:Monograph:Instance,,,,,,,
 lc:RT:MonographNR:Contents,Contents note,bf:TableOfContents,rdfs:label,Contents note,FALSE,TRUE,,,,,,,,,,
