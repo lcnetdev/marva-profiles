@@ -139,8 +139,14 @@ def sync_profiles(config_path):
     if result.returncode != 0:
         sys.exit(1)
 
+    # Get current branch name
+    branch_result = git("rev-parse", "--abbrev-ref", "HEAD")
+    if branch_result.returncode != 0:
+        print("ERROR: could not determine current branch", file=sys.stderr)
+        sys.exit(1)
+    branch = branch_result.stdout.strip()
+
     # Push using token auth
-    # Get the current remote URL and inject credentials
     remote_result = git("remote", "get-url", "origin")
     if remote_result.returncode != 0:
         print("ERROR: could not get remote URL. Is 'origin' configured?", file=sys.stderr)
@@ -154,12 +160,12 @@ def sync_profiles(config_path):
             netloc=f"{git_username}:{git_token}@{parsed.hostname}"
             + (f":{parsed.port}" if parsed.port else "")
         ).geturl()
-        result = git("push", authed_url, "HEAD")
+        result = git("push", authed_url, f"HEAD:{branch}")
     elif remote_url.startswith("git@"):
-        result = git("push", "origin", "HEAD")
+        result = git("push", "origin", branch)
     else:
         print(f"Warning: unrecognized remote URL format: {remote_url}")
-        result = git("push", "origin", "HEAD")
+        result = git("push", "origin", branch)
 
     if result.returncode != 0:
         print("ERROR: push failed!", file=sys.stderr)

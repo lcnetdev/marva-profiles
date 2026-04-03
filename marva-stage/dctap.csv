@@ -8,7 +8,7 @@ lc:OfficialRDA:Monograph:Expression:Work,BIBFRAME Work / RDA Expression,https://
 ,,,bf:note,note on expression,false,true,bnode,,lc:RT:bf2:Note,,,,,,,https://access.rdatoolkit.org/en-US_ala-9bcdee0a-0051-3aff-bb30-fdce5aa37216
 ,,,bflc:relationship,related expression of expression,false,true,bnode,,lc:RT:bf2:RelatedExpression,,,,,,,https://access.rdatoolkit.org/en-US_ala-458a5896-b879-3c9d-a0d7-065110c3968c
 ,,,bf:identifiedBy,authorized access point for expression,false,true,literal,,,,,,,,,https://access.rdatoolkit.org/en-US_ala-7af61468-85ab-3d86-ad8d-4a1158edb7c7
-,,,bf:hasInstance,Add RDA Manifestation,false,true,bnode,,lc:RT:bf2:Monograph:Instance,,,,,,,
+,,,bf:hasInstance,Add RDA Manifestation ,false,true,bnode,,lc:RT:bf2:Monograph:Instance,,,,,,,
 lc:OfficialRDA:Monograph:Hub,BIBFRAME Hub / RDA Work / RDA Representative Expression,https://id.loc.gov/resources/Hub,https://id.loc.gov/ontologies/bibframe/contribution,creator agent of work,false,true,bnode,,lc:RT:bflc:Agents:PrimaryContribution,,,,,,bf:PrimaryContribution,https://access.rdatoolkit.org/en-US_ala-6277a869-961d-379f-8ae8-7ec159052a26
 ,,,bf:title,preferred title of work,false,true,bnode,,lc:RT:bf2:WorkTitle,,,,,,,https://access.rdatoolkit.org/en-US_ala-f21836a5-7397-341a-bd4c-bd641e765511
 ,,,bf:VariantTitle,variant title of work,false,true,bnode,,lc:RT:bf2:Title:VarTitle,,,,,,,https://access.rdatoolkit.org/en-US_ala-f21836a5-7397-341a-bd4c-bd641e765511
