@@ -160,7 +160,7 @@ def sync_profiles(config_path):
             netloc=f"x-access-token:{git_token}@{parsed.hostname}"
             + (f":{parsed.port}" if parsed.port else "")
         ).geturl()
-        result = git("push", authed_url, f"HEAD:{branch}")
+        result = git("-c", "credential.helper=", "push", authed_url, f"HEAD:{branch}")
     elif remote_url.startswith("git@"):
         result = git("push", "origin", branch)
     else:
