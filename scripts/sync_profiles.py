@@ -109,6 +109,7 @@ def sync_profiles(config_path):
     env["GIT_AUTHOR_EMAIL"] = commit_email
     env["GIT_COMMITTER_NAME"] = commit_name
     env["GIT_COMMITTER_EMAIL"] = commit_email
+    env["GIT_TERMINAL_PROMPT"] = "0"
 
     def git(*args):
         result = subprocess.run(
