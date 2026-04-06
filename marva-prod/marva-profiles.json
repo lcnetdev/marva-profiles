@@ -1,6 +1,6 @@
 [
   {
-    "id": "c85b81fb-40eb-4c56-b5db-4ac224049c8c",
+    "id": "fa3330a5-b19a-4d0a-ad75-00f91563026a",
     "name": "BIBFRAME 2.0 Moving Image",
     "configType": "profile",
     "json": {
@@ -1930,8 +1930,7 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                },
-                "remark": "Idiomatic property used for structured values."
+                }
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/status",
@@ -3598,7 +3597,7 @@
                   ],
                   "defaults": [
                     {
-                      "defaultLiteral": "United States, Library of Congress",
+                      "defaultLiteral": "United States. Library of Congress",
                       "defaultURI": "http://id.loc.gov/vocabulary/organizations/dlc"
                     }
                   ],
@@ -3633,8 +3632,7 @@
                     }
                   ],
                   "valueDataType": {}
-                },
-                "remark": "https://original.rdatoolkit.org/3.16.2.html"
+                }
               }
             ]
           },
@@ -3662,8 +3660,7 @@
                     }
                   ],
                   "valueDataType": {}
-                },
-                "remark": "https://original.rdatoolkit.org/3.16.3.html"
+                }
               }
             ]
           },
@@ -3710,8 +3707,7 @@
                   ],
                   "defaults": [],
                   "valueDataType": {}
-                },
-                "remark": "https://original.rdatoolkit.org/3.17.2.html"
+                }
               }
             ]
           },
@@ -3732,8 +3728,7 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                },
-                "remark": "https://original.rdatoolkit.org/3.17.3.html"
+                }
               }
             ]
           },
@@ -3906,8 +3901,7 @@
                   ],
                   "defaults": [],
                   "valueDataType": {}
-                },
-                "remark": "https://original.rdatoolkit.org/7.18.html"
+                }
               }
             ]
           },
@@ -3935,8 +3929,7 @@
                     }
                   ],
                   "valueDataType": {}
-                },
-                "remark": "https://original.rdatoolkit.org/3.16.2.html"
+                }
               }
             ]
           },
@@ -4379,14 +4372,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-04-06T18:41:23.692Z",
-      "updateDate": "2026-04-06T18:41:23.692Z"
+      "createDate": "2026-04-06T19:09:10.339Z",
+      "updateDate": "2026-04-06T19:09:10.339Z"
     },
-    "created": "2026-04-06T18:41:23.692Z",
-    "modified": "2026-04-06T18:41:23.692Z"
+    "created": "2026-04-06T19:09:10.339Z",
+    "modified": "2026-04-06T19:09:10.339Z"
   },
   {
-    "id": "d98dae69-fdfa-4eda-8c6e-c1efffa5c834",
+    "id": "0544cf85-dadc-47c8-b792-45b58198285e",
     "name": "BIBFRAME 2.0 Admin Metadata",
     "configType": "profile",
     "json": {
@@ -4884,14 +4877,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-04-06T18:41:23.693Z",
-      "updateDate": "2026-04-06T18:41:23.693Z"
+      "createDate": "2026-04-06T19:09:10.340Z",
+      "updateDate": "2026-04-06T19:09:10.340Z"
     },
-    "created": "2026-04-06T18:41:23.693Z",
-    "modified": "2026-04-06T18:41:23.693Z"
+    "created": "2026-04-06T19:09:10.340Z",
+    "modified": "2026-04-06T19:09:10.340Z"
   },
   {
-    "id": "ac1a2e47-1def-4f2a-bf48-e6382cb398d8",
+    "id": "d882eb5d-bc54-4784-90a9-2e33df6d51b5",
     "name": "BIBFRAME 2.0 Agents",
     "configType": "profile",
     "json": {
@@ -7216,14 +7209,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-04-06T18:41:23.701Z",
-      "updateDate": "2026-04-06T18:41:23.701Z"
+      "createDate": "2026-04-06T19:09:10.350Z",
+      "updateDate": "2026-04-06T19:09:10.350Z"
     },
-    "created": "2026-04-06T18:41:23.701Z",
-    "modified": "2026-04-06T18:41:23.701Z"
+    "created": "2026-04-06T19:09:10.350Z",
+    "modified": "2026-04-06T19:09:10.350Z"
   },
   {
-    "id": "8eaf7ea5-18cf-4387-946b-00b06d6c5d44",
+    "id": "93c44855-f6f6-4a95-89ec-0cd249eb001a",
     "name": "BIBFRAME 2.0 RWO",
     "configType": "profile",
     "json": {
@@ -8174,14 +8167,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-04-06T18:41:23.705Z",
-      "updateDate": "2026-04-06T18:41:23.705Z"
+      "createDate": "2026-04-06T19:09:10.353Z",
+      "updateDate": "2026-04-06T19:09:10.353Z"
     },
-    "created": "2026-04-06T18:41:23.705Z",
-    "modified": "2026-04-06T18:41:23.705Z"
+    "created": "2026-04-06T19:09:10.353Z",
+    "modified": "2026-04-06T19:09:10.353Z"
   },
   {
-    "id": "072e5d73-748f-431e-81ab-77c66a86aa4c",
+    "id": "107feba0-76fc-4cef-b4de-2a6119213c99",
     "name": "BIBFRAME 2.0 Agents Contribution",
     "configType": "profile",
     "json": {
@@ -8425,14 +8418,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-04-06T18:41:23.706Z",
-      "updateDate": "2026-04-06T18:41:23.706Z"
+      "createDate": "2026-04-06T19:09:10.354Z",
+      "updateDate": "2026-04-06T19:09:10.354Z"
     },
-    "created": "2026-04-06T18:41:23.706Z",
-    "modified": "2026-04-06T18:41:23.706Z"
+    "created": "2026-04-06T19:09:10.354Z",
+    "modified": "2026-04-06T19:09:10.354Z"
   },
   {
-    "id": "cafbad4f-19c2-423e-adfc-a5a48353f98f",
+    "id": "c064334f-4704-48e1-a6cb-fb6a73b877b1",
     "name": "BIBFRAME 2.0 Sound Recording-Analog",
     "configType": "profile",
     "json": {
@@ -10472,8 +10465,7 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                },
-                "remark": "Idiomatic property used for structured values."
+                }
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/status",
@@ -11819,8 +11811,7 @@
                     }
                   ],
                   "valueDataType": {}
-                },
-                "remark": "https://original.rdatoolkit.org/3.16.2.html"
+                }
               }
             ]
           },
@@ -11848,8 +11839,7 @@
                     }
                   ],
                   "valueDataType": {}
-                },
-                "remark": "https://original.rdatoolkit.org/3.16.3.html"
+                }
               }
             ]
           },
@@ -11872,8 +11862,7 @@
                   ],
                   "defaults": [],
                   "valueDataType": {}
-                },
-                "remark": "https://original.rdatoolkit.org/3.16.8.html"
+                }
               }
             ]
           },
@@ -11896,8 +11885,7 @@
                   ],
                   "defaults": [],
                   "valueDataType": {}
-                },
-                "remark": "https://original.rdatoolkit.org/3.16.9.html"
+                }
               }
             ]
           },
@@ -12620,14 +12608,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-04-06T18:41:23.722Z",
-      "updateDate": "2026-04-06T18:41:23.722Z"
+      "createDate": "2026-04-06T19:09:10.371Z",
+      "updateDate": "2026-04-06T19:09:10.371Z"
     },
-    "created": "2026-04-06T18:41:23.722Z",
-    "modified": "2026-04-06T18:41:23.722Z"
+    "created": "2026-04-06T19:09:10.371Z",
+    "modified": "2026-04-06T19:09:10.371Z"
   },
   {
-    "id": "dc3d3b91-182e-4062-824f-ed83283eac72",
+    "id": "011adf9d-6fed-44a7-9371-c717e7d2841c",
     "name": "BIBFRAME 2.0 Cartographic TEST",
     "configType": "profile",
     "json": {
@@ -14158,8 +14146,7 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                },
-                "remark": "Idiomatic property used for structured values."
+                }
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/status",
@@ -16159,14 +16146,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-04-06T18:41:23.735Z",
-      "updateDate": "2026-04-06T18:41:23.735Z"
+      "createDate": "2026-04-06T19:09:10.386Z",
+      "updateDate": "2026-04-06T19:09:10.386Z"
     },
-    "created": "2026-04-06T18:41:23.735Z",
-    "modified": "2026-04-06T18:41:23.735Z"
+    "created": "2026-04-06T19:09:10.386Z",
+    "modified": "2026-04-06T19:09:10.386Z"
   },
   {
-    "id": "7ea1e8de-5f59-4d7f-b2c2-03d0a00935f0",
+    "id": "4c3ae48a-93b2-42eb-b075-85adf3610b6e",
     "name": "BIBFRAME 2.0 Classification",
     "configType": "profile",
     "json": {
@@ -16563,14 +16550,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-04-06T18:41:23.736Z",
-      "updateDate": "2026-04-06T18:41:23.736Z"
+      "createDate": "2026-04-06T19:09:10.387Z",
+      "updateDate": "2026-04-06T19:09:10.387Z"
     },
-    "created": "2026-04-06T18:41:23.736Z",
-    "modified": "2026-04-06T18:41:23.736Z"
+    "created": "2026-04-06T19:09:10.387Z",
+    "modified": "2026-04-06T19:09:10.387Z"
   },
   {
-    "id": "5e7df23b-c1e2-4484-ab71-4384740a046a",
+    "id": "99e439fc-1128-431e-83b2-0b64162afa2d",
     "name": "BIBFRAME 2.0 Form",
     "configType": "profile",
     "json": {
@@ -16697,14 +16684,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-04-06T18:41:23.737Z",
-      "updateDate": "2026-04-06T18:41:23.737Z"
+      "createDate": "2026-04-06T19:09:10.388Z",
+      "updateDate": "2026-04-06T19:09:10.388Z"
     },
-    "created": "2026-04-06T18:41:23.737Z",
-    "modified": "2026-04-06T18:41:23.737Z"
+    "created": "2026-04-06T19:09:10.388Z",
+    "modified": "2026-04-06T19:09:10.388Z"
   },
   {
-    "id": "6d73a326-7697-45f8-953d-9b4203a564a6",
+    "id": "4b3973e7-e282-4be2-ba7a-bc0cd89900c2",
     "name": "Test BF Hub",
     "configType": "profile",
     "json": {
@@ -17455,14 +17442,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-04-06T18:41:23.739Z",
-      "updateDate": "2026-04-06T18:41:23.739Z"
+      "createDate": "2026-04-06T19:09:10.390Z",
+      "updateDate": "2026-04-06T19:09:10.390Z"
     },
-    "created": "2026-04-06T18:41:23.739Z",
-    "modified": "2026-04-06T18:41:23.739Z"
+    "created": "2026-04-06T19:09:10.390Z",
+    "modified": "2026-04-06T19:09:10.390Z"
   },
   {
-    "id": "2389c70c-845d-4d21-9da1-0334d52afa03",
+    "id": "7e1ece30-05fb-4753-b931-d42b114600f5",
     "name": "BF Hub",
     "configType": "profile",
     "json": {
@@ -18301,14 +18288,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-04-06T18:41:23.743Z",
-      "updateDate": "2026-04-06T18:41:23.743Z"
+      "createDate": "2026-04-06T19:09:10.394Z",
+      "updateDate": "2026-04-06T19:09:10.394Z"
     },
-    "created": "2026-04-06T18:41:23.743Z",
-    "modified": "2026-04-06T18:41:23.743Z"
+    "created": "2026-04-06T19:09:10.394Z",
+    "modified": "2026-04-06T19:09:10.394Z"
   },
   {
-    "id": "313e970b-8fb2-4764-8f20-2e5906298e58",
+    "id": "ef4b5317-11ea-4b46-a028-0bf3f64e8c1b",
     "name": "Original BF (origbf)",
     "configType": "profile",
     "json": {
@@ -21890,7 +21877,7 @@
                   ],
                   "defaults": [
                     {
-                      "defaultLiteral": "United States, Library of Congress",
+                      "defaultLiteral": "United States. Library of Congress",
                       "defaultURI": "http://id.loc.gov/vocabulary/organizations/dlc"
                     }
                   ],
@@ -22015,8 +22002,7 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                },
-                "remark": "Idiomatic property used for structured values."
+                }
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/status",
@@ -23366,14 +23352,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-04-06T18:41:23.761Z",
-      "updateDate": "2026-04-06T18:41:23.761Z"
+      "createDate": "2026-04-06T19:09:10.413Z",
+      "updateDate": "2026-04-06T19:09:10.413Z"
     },
-    "created": "2026-04-06T18:41:23.761Z",
-    "modified": "2026-04-06T18:41:23.761Z"
+    "created": "2026-04-06T19:09:10.413Z",
+    "modified": "2026-04-06T19:09:10.413Z"
   },
   {
-    "id": "fed4d115-071c-4b48-9d80-af7b64369ff8",
+    "id": "d2452af7-d7ea-4345-89db-fd53394fce99",
     "name": "BIBFRAME 2.0 Identifiers",
     "configType": "profile",
     "json": {
@@ -24737,14 +24723,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-04-06T18:41:23.767Z",
-      "updateDate": "2026-04-06T18:41:23.767Z"
+      "createDate": "2026-04-06T19:09:10.419Z",
+      "updateDate": "2026-04-06T19:09:10.419Z"
     },
-    "created": "2026-04-06T18:41:23.767Z",
-    "modified": "2026-04-06T18:41:23.767Z"
+    "created": "2026-04-06T19:09:10.419Z",
+    "modified": "2026-04-06T19:09:10.419Z"
   },
   {
-    "id": "dc0f2089-852f-4320-9585-e08e56b9ec7a",
+    "id": "56dd1b03-4830-4c75-b458-894f4c9b0164",
     "name": "BIBFRAME 2.0 Item",
     "configType": "profile",
     "json": {
@@ -25216,14 +25202,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-04-06T18:41:23.770Z",
-      "updateDate": "2026-04-06T18:41:23.770Z"
+      "createDate": "2026-04-06T19:09:10.422Z",
+      "updateDate": "2026-04-06T19:09:10.422Z"
     },
-    "created": "2026-04-06T18:41:23.770Z",
-    "modified": "2026-04-06T18:41:23.770Z"
+    "created": "2026-04-06T19:09:10.422Z",
+    "modified": "2026-04-06T19:09:10.422Z"
   },
   {
-    "id": "66fdc360-4e11-43cc-ac28-ddd742b866bc",
+    "id": "cb9bf98c-85b7-4527-b8be-bc8620e56495",
     "name": "BIBFRAME 2.0 Language",
     "configType": "profile",
     "json": {
@@ -25361,14 +25347,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-04-06T18:41:23.770Z",
-      "updateDate": "2026-04-06T18:41:23.770Z"
+      "createDate": "2026-04-06T19:09:10.423Z",
+      "updateDate": "2026-04-06T19:09:10.423Z"
     },
-    "created": "2026-04-06T18:41:23.770Z",
-    "modified": "2026-04-06T18:41:23.770Z"
+    "created": "2026-04-06T19:09:10.423Z",
+    "modified": "2026-04-06T19:09:10.423Z"
   },
   {
-    "id": "b0fb2f34-b55e-4080-b2a0-6e02ecdf61ac",
+    "id": "e319a07f-b58d-4933-b0a3-673cbb9f3b54",
     "name": "BIBFRAME 2.0 Moving Image-DVD",
     "configType": "profile",
     "json": {
@@ -27350,8 +27336,7 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                },
-                "remark": "Idiomatic property used for structured values."
+                }
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/status",
@@ -28882,8 +28867,7 @@
                     }
                   ],
                   "valueDataType": {}
-                },
-                "remark": "https://original.rdatoolkit.org/3.16.2.html"
+                }
               }
             ]
           },
@@ -28911,8 +28895,7 @@
                     }
                   ],
                   "valueDataType": {}
-                },
-                "remark": "https://original.rdatoolkit.org/3.16.3.html"
+                }
               }
             ]
           },
@@ -28935,8 +28918,7 @@
                   ],
                   "defaults": [],
                   "valueDataType": {}
-                },
-                "remark": "https://original.rdatoolkit.org/3.16.9.html"
+                }
               }
             ]
           },
@@ -28983,8 +28965,7 @@
                   ],
                   "defaults": [],
                   "valueDataType": {}
-                },
-                "remark": "https://original.rdatoolkit.org/3.19.6.html"
+                }
               }
             ]
           },
@@ -29029,8 +29010,7 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                },
-                "remark": "https://original.rdatoolkit.org/3.19.5.html"
+                }
               }
             ]
           },
@@ -29260,7 +29240,7 @@
                   ],
                   "defaults": [
                     {
-                      "defaultLiteral": "United States, Library of Congress",
+                      "defaultLiteral": "United States. Library of Congress",
                       "defaultURI": "http://id.loc.gov/vocabulary/organizations/dlc"
                     }
                   ],
@@ -29739,14 +29719,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-04-06T18:41:23.787Z",
-      "updateDate": "2026-04-06T18:41:23.787Z"
+      "createDate": "2026-04-06T19:09:10.440Z",
+      "updateDate": "2026-04-06T19:09:10.440Z"
     },
-    "created": "2026-04-06T18:41:23.787Z",
-    "modified": "2026-04-06T18:41:23.787Z"
+    "created": "2026-04-06T19:09:10.440Z",
+    "modified": "2026-04-06T19:09:10.440Z"
   },
   {
-    "id": "7f8199da-55db-497f-871a-dc77ee13772e",
+    "id": "614564e5-a608-455f-b1c2-295bb2e7894f",
     "name": "BIBFRAME 2.0 Monograph",
     "configType": "profile",
     "json": {
@@ -31276,8 +31256,7 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                },
-                "remark": "Idiomatic property used for structured values."
+                }
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/status",
@@ -33262,7 +33241,7 @@
                   ],
                   "defaults": [
                     {
-                      "defaultLiteral": "United States, Library of Congress",
+                      "defaultLiteral": "United States. Library of Congress",
                       "defaultURI": "http://id.loc.gov/vocabulary/organizations/dlc"
                     }
                   ],
@@ -34095,14 +34074,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-04-06T18:41:23.805Z",
-      "updateDate": "2026-04-06T18:41:23.805Z"
+      "createDate": "2026-04-06T19:09:10.456Z",
+      "updateDate": "2026-04-06T19:09:10.456Z"
     },
-    "created": "2026-04-06T18:41:23.805Z",
-    "modified": "2026-04-06T18:41:23.805Z"
+    "created": "2026-04-06T19:09:10.456Z",
+    "modified": "2026-04-06T19:09:10.456Z"
   },
   {
-    "id": "c1fc78c8-1f54-48df-a2b6-cea83065ed6a",
+    "id": "6e0f8ff8-2d2f-48e6-945d-76a9dfe4d032",
     "name": "BIBFRAME 2.0 Notated Music",
     "configType": "profile",
     "json": {
@@ -36055,8 +36034,7 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                },
-                "remark": "Idiomatic property used for structured values."
+                }
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/status",
@@ -37980,14 +37958,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-04-06T18:41:23.819Z",
-      "updateDate": "2026-04-06T18:41:23.819Z"
+      "createDate": "2026-04-06T19:09:10.471Z",
+      "updateDate": "2026-04-06T19:09:10.471Z"
     },
-    "created": "2026-04-06T18:41:23.819Z",
-    "modified": "2026-04-06T18:41:23.819Z"
+    "created": "2026-04-06T19:09:10.471Z",
+    "modified": "2026-04-06T19:09:10.471Z"
   },
   {
-    "id": "7f1adf30-eebd-4026-a99d-1f35985874be",
+    "id": "a3fcaa7e-cc14-4271-97f7-7b1e77ae94cd",
     "name": "BIBFRAME 2.0 Note",
     "configType": "profile",
     "json": {
@@ -38050,8 +38028,7 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                },
-                "remark": "Idiomatic property used for structured values."
+                }
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/status",
@@ -38106,7 +38083,7 @@
                   ],
                   "defaults": [
                     {
-                      "defaultLiteral": "United States, Library of Congress",
+                      "defaultLiteral": "United States. Library of Congress",
                       "defaultURI": "http://id.loc.gov/vocabulary/organizations/dlc"
                     }
                   ],
@@ -38385,14 +38362,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-04-06T18:41:23.821Z",
-      "updateDate": "2026-04-06T18:41:23.821Z"
+      "createDate": "2026-04-06T19:09:10.473Z",
+      "updateDate": "2026-04-06T19:09:10.473Z"
     },
-    "created": "2026-04-06T18:41:23.821Z",
-    "modified": "2026-04-06T18:41:23.821Z"
+    "created": "2026-04-06T19:09:10.473Z",
+    "modified": "2026-04-06T19:09:10.473Z"
   },
   {
-    "id": "786264c2-3b04-4979-9e6e-a11d5349b79b",
+    "id": "bd6365fe-7f2e-4744-9bdd-3d28b8d2cbfa",
     "name": "BIBFRAME 2.0 Place",
     "configType": "profile",
     "json": {
@@ -38426,14 +38403,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-04-06T18:41:23.821Z",
-      "updateDate": "2026-04-06T18:41:23.821Z"
+      "createDate": "2026-04-06T19:09:10.473Z",
+      "updateDate": "2026-04-06T19:09:10.473Z"
     },
-    "created": "2026-04-06T18:41:23.821Z",
-    "modified": "2026-04-06T18:41:23.821Z"
+    "created": "2026-04-06T19:09:10.473Z",
+    "modified": "2026-04-06T19:09:10.473Z"
   },
   {
-    "id": "898d6bf0-29bd-4a82-bdfa-0d78365373b1",
+    "id": "36d6ee55-9d0d-41e8-b1b5-ccbab8d96802",
     "name": "Prints & Photographs",
     "configType": "profile",
     "json": {
@@ -40191,8 +40168,7 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                },
-                "remark": "Idiomatic property used for structured values."
+                }
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/status",
@@ -41259,7 +41235,7 @@
                   ],
                   "defaults": [
                     {
-                      "defaultLiteral": "United States, Library of Congress",
+                      "defaultLiteral": "United States. Library of Congress",
                       "defaultURI": "http://id.loc.gov/vocabulary/organizations/dlc"
                     }
                   ],
@@ -41792,14 +41768,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-04-06T18:41:23.834Z",
-      "updateDate": "2026-04-06T18:41:23.834Z"
+      "createDate": "2026-04-06T19:09:10.486Z",
+      "updateDate": "2026-04-06T19:09:10.486Z"
     },
-    "created": "2026-04-06T18:41:23.834Z",
-    "modified": "2026-04-06T18:41:23.834Z"
+    "created": "2026-04-06T19:09:10.486Z",
+    "modified": "2026-04-06T19:09:10.486Z"
   },
   {
-    "id": "5908e623-67f9-4784-a1f6-12b28c1524b5",
+    "id": "c33f1b87-2a25-46fe-80dd-7c759ccb89a5",
     "name": "BIBFRAME 2.0 Publication, Distribution, Manufacturer Activity",
     "configType": "profile",
     "json": {
@@ -42136,14 +42112,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-04-06T18:41:23.835Z",
-      "updateDate": "2026-04-06T18:41:23.835Z"
+      "createDate": "2026-04-06T19:09:10.487Z",
+      "updateDate": "2026-04-06T19:09:10.487Z"
     },
-    "created": "2026-04-06T18:41:23.835Z",
-    "modified": "2026-04-06T18:41:23.835Z"
+    "created": "2026-04-06T19:09:10.487Z",
+    "modified": "2026-04-06T19:09:10.487Z"
   },
   {
-    "id": "330c2195-0d5b-46c6-a81e-a670287d9233",
+    "id": "47bdfdc7-b705-44d8-b57c-ce84e67073b6",
     "name": "BIBFRAME 2.0 Rare Materials",
     "configType": "profile",
     "json": {
@@ -43999,8 +43975,7 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                },
-                "remark": "Idiomatic property used for structured values."
+                }
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/status",
@@ -45050,7 +45025,7 @@
                   ],
                   "defaults": [
                     {
-                      "defaultLiteral": "United States, Library of Congress",
+                      "defaultLiteral": "United States. Library of Congress",
                       "defaultURI": "http://id.loc.gov/vocabulary/organizations/dlc"
                     }
                   ],
@@ -45660,14 +45635,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-04-06T18:41:23.848Z",
-      "updateDate": "2026-04-06T18:41:23.848Z"
+      "createDate": "2026-04-06T19:09:10.501Z",
+      "updateDate": "2026-04-06T19:09:10.501Z"
     },
-    "created": "2026-04-06T18:41:23.848Z",
-    "modified": "2026-04-06T18:41:23.848Z"
+    "created": "2026-04-06T19:09:10.501Z",
+    "modified": "2026-04-06T19:09:10.501Z"
   },
   {
-    "id": "81017dad-9bc2-4b15-81c9-0a18e3dafe2a",
+    "id": "1de29a3e-9462-49c9-87b5-bb3113873ee0",
     "name": "BIBFRAME 2.0 Related Works and Expressions",
     "configType": "profile",
     "json": {
@@ -46067,14 +46042,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-04-06T18:41:23.850Z",
-      "updateDate": "2026-04-06T18:41:23.850Z"
+      "createDate": "2026-04-06T19:09:10.502Z",
+      "updateDate": "2026-04-06T19:09:10.502Z"
     },
-    "created": "2026-04-06T18:41:23.850Z",
-    "modified": "2026-04-06T18:41:23.850Z"
+    "created": "2026-04-06T19:09:10.502Z",
+    "modified": "2026-04-06T19:09:10.502Z"
   },
   {
-    "id": "0b9de414-d620-489d-87e8-45c3ae807090",
+    "id": "94f92787-9daa-42d5-ab86-53f8b8d7e295",
     "name": "BIBFRAME 2.0 Serial",
     "configType": "profile",
     "json": {
@@ -48515,8 +48490,7 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                },
-                "remark": "Idiomatic property used for structured values."
+                }
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/status",
@@ -50626,14 +50600,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-04-06T18:41:23.866Z",
-      "updateDate": "2026-04-06T18:41:23.866Z"
+      "createDate": "2026-04-06T19:09:10.519Z",
+      "updateDate": "2026-04-06T19:09:10.519Z"
     },
-    "created": "2026-04-06T18:41:23.866Z",
-    "modified": "2026-04-06T18:41:23.866Z"
+    "created": "2026-04-06T19:09:10.519Z",
+    "modified": "2026-04-06T19:09:10.519Z"
   },
   {
-    "id": "766fffed-4851-416b-9766-f7aa070bce0d",
+    "id": "494a06a5-1829-4ec0-93d5-a764b5f351d3",
     "name": "BIBFRAME 2.0 Series Information",
     "configType": "profile",
     "json": {
@@ -50925,14 +50899,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-04-06T18:41:23.867Z",
-      "updateDate": "2026-04-06T18:41:23.867Z"
+      "createDate": "2026-04-06T19:09:10.520Z",
+      "updateDate": "2026-04-06T19:09:10.520Z"
     },
-    "created": "2026-04-06T18:41:23.867Z",
-    "modified": "2026-04-06T18:41:23.867Z"
+    "created": "2026-04-06T19:09:10.520Z",
+    "modified": "2026-04-06T19:09:10.520Z"
   },
   {
-    "id": "2fb7c5e3-d508-4e51-9d7d-5ce7be422509",
+    "id": "a3b62584-0fdc-41df-8c66-9972a7f5b84d",
     "name": "BIBFRAME 2.0 Sound Recording-Audio CD-R",
     "configType": "profile",
     "json": {
@@ -52952,8 +52926,7 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                },
-                "remark": "Idiomatic property used for structured values."
+                }
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/status",
@@ -54264,8 +54237,7 @@
                     }
                   ],
                   "valueDataType": {}
-                },
-                "remark": "https://original.rdatoolkit.org/3.16.2.html"
+                }
               }
             ]
           },
@@ -54293,8 +54265,7 @@
                     }
                   ],
                   "valueDataType": {}
-                },
-                "remark": "https://original.rdatoolkit.org/3.16.3.html"
+                }
               }
             ]
           },
@@ -54319,8 +54290,7 @@
                     }
                   ],
                   "valueDataType": {}
-                },
-                "remark": "https://original.rdatoolkit.org/3.16.4.html"
+                }
               }
             ]
           },
@@ -54343,8 +54313,7 @@
                   ],
                   "defaults": [],
                   "valueDataType": {}
-                },
-                "remark": "https://original.rdatoolkit.org/3.16.8.html"
+                }
               }
             ]
           },
@@ -54367,8 +54336,7 @@
                   ],
                   "defaults": [],
                   "valueDataType": {}
-                },
-                "remark": "https://original.rdatoolkit.org/3.16.9.html"
+                }
               }
             ]
           },
@@ -54414,8 +54382,7 @@
                   ],
                   "defaults": [],
                   "valueDataType": {}
-                },
-                "remark": "https://original.rdatoolkit.org/3.19.2.html"
+                }
               }
             ]
           },
@@ -54438,8 +54405,7 @@
                   ],
                   "defaults": [],
                   "valueDataType": {}
-                },
-                "remark": "https://original.rdatoolkit.org/3.19.3.html"
+                }
               }
             ]
           },
@@ -55160,14 +55126,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-04-06T18:41:23.883Z",
-      "updateDate": "2026-04-06T18:41:23.883Z"
+      "createDate": "2026-04-06T19:09:10.536Z",
+      "updateDate": "2026-04-06T19:09:10.536Z"
     },
-    "created": "2026-04-06T18:41:23.883Z",
-    "modified": "2026-04-06T18:41:23.883Z"
+    "created": "2026-04-06T19:09:10.536Z",
+    "modified": "2026-04-06T19:09:10.536Z"
   },
   {
-    "id": "8d480024-3270-4c30-ad7a-02370fcc901a",
+    "id": "cfa04f02-ed02-4ba5-8492-984d92fc2458",
     "name": "BIBFRAME 2.0 Sound Recording-Audio Cassette",
     "configType": "profile",
     "json": {
@@ -57062,8 +57028,7 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                },
-                "remark": "Idiomatic property used for structured values."
+                }
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/status",
@@ -58462,8 +58427,7 @@
                     }
                   ],
                   "valueDataType": {}
-                },
-                "remark": "https://original.rdatoolkit.org/3.16.2.html"
+                }
               }
             ]
           },
@@ -58491,8 +58455,7 @@
                     }
                   ],
                   "valueDataType": {}
-                },
-                "remark": "https://original.rdatoolkit.org/3.16.3.html"
+                }
               }
             ]
           },
@@ -58515,8 +58478,7 @@
                   ],
                   "defaults": [],
                   "valueDataType": {}
-                },
-                "remark": "https://original.rdatoolkit.org/3.16.8.html"
+                }
               }
             ]
           },
@@ -58539,8 +58501,7 @@
                   ],
                   "defaults": [],
                   "valueDataType": {}
-                },
-                "remark": "https://original.rdatoolkit.org/3.16.9.html"
+                }
               }
             ]
           },
@@ -59284,14 +59245,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-04-06T18:41:23.898Z",
-      "updateDate": "2026-04-06T18:41:23.898Z"
+      "createDate": "2026-04-06T19:09:10.551Z",
+      "updateDate": "2026-04-06T19:09:10.551Z"
     },
-    "created": "2026-04-06T18:41:23.898Z",
-    "modified": "2026-04-06T18:41:23.898Z"
+    "created": "2026-04-06T19:09:10.551Z",
+    "modified": "2026-04-06T19:09:10.551Z"
   },
   {
-    "id": "de67f5b5-3ab8-4594-9855-b2dac381b079",
+    "id": "c0a9fa79-7f1f-446c-98d5-5c69bbeca8be",
     "name": "BIBFRAME 2.0 Sound Recording-Audio CD",
     "configType": "profile",
     "json": {
@@ -61272,8 +61233,7 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                },
-                "remark": "Idiomatic property used for structured values."
+                }
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/status",
@@ -62584,8 +62544,7 @@
                     }
                   ],
                   "valueDataType": {}
-                },
-                "remark": "https://original.rdatoolkit.org/3.16.2.html"
+                }
               }
             ]
           },
@@ -62613,8 +62572,7 @@
                     }
                   ],
                   "valueDataType": {}
-                },
-                "remark": "https://original.rdatoolkit.org/3.16.3.html"
+                }
               }
             ]
           },
@@ -62639,8 +62597,7 @@
                     }
                   ],
                   "valueDataType": {}
-                },
-                "remark": "https://original.rdatoolkit.org/3.16.4.html"
+                }
               }
             ]
           },
@@ -62663,8 +62620,7 @@
                   ],
                   "defaults": [],
                   "valueDataType": {}
-                },
-                "remark": "https://original.rdatoolkit.org/3.16.8.html"
+                }
               }
             ]
           },
@@ -62687,8 +62643,7 @@
                   ],
                   "defaults": [],
                   "valueDataType": {}
-                },
-                "remark": "https://original.rdatoolkit.org/3.16.9.html"
+                }
               }
             ]
           },
@@ -62734,8 +62689,7 @@
                   ],
                   "defaults": [],
                   "valueDataType": {}
-                },
-                "remark": "https://original.rdatoolkit.org/3.19.2.html"
+                }
               }
             ]
           },
@@ -62758,8 +62712,7 @@
                   ],
                   "defaults": [],
                   "valueDataType": {}
-                },
-                "remark": "https://original.rdatoolkit.org/3.19.3.html"
+                }
               }
             ]
           },
@@ -63480,14 +63433,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-04-06T18:41:23.914Z",
-      "updateDate": "2026-04-06T18:41:23.914Z"
+      "createDate": "2026-04-06T19:09:10.567Z",
+      "updateDate": "2026-04-06T19:09:10.567Z"
     },
-    "created": "2026-04-06T18:41:23.914Z",
-    "modified": "2026-04-06T18:41:23.914Z"
+    "created": "2026-04-06T19:09:10.567Z",
+    "modified": "2026-04-06T19:09:10.567Z"
   },
   {
-    "id": "2760cc44-7c26-4d73-aa3f-bf8d4aab517d",
+    "id": "0f4c5b71-b1e4-497c-899f-249d0e0919dd",
     "name": "BIBFRAME 2.0 Title Information",
     "configType": "profile",
     "json": {
@@ -64083,14 +64036,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-04-06T18:41:23.916Z",
-      "updateDate": "2026-04-06T18:41:23.916Z"
+      "createDate": "2026-04-06T19:09:10.570Z",
+      "updateDate": "2026-04-06T19:09:10.570Z"
     },
-    "created": "2026-04-06T18:41:23.916Z",
-    "modified": "2026-04-06T18:41:23.916Z"
+    "created": "2026-04-06T19:09:10.570Z",
+    "modified": "2026-04-06T19:09:10.570Z"
   },
   {
-    "id": "476e0ff9-69a6-4d32-8d9c-7758b84dc481",
+    "id": "7b31acff-d124-4de3-97f0-cbcdd1a5ca39",
     "name": "BIBFRAME 2.0 Topic",
     "configType": "profile",
     "json": {
@@ -66454,14 +66407,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-04-06T18:41:23.924Z",
-      "updateDate": "2026-04-06T18:41:23.924Z"
+      "createDate": "2026-04-06T19:09:10.578Z",
+      "updateDate": "2026-04-06T19:09:10.578Z"
     },
-    "created": "2026-04-06T18:41:23.924Z",
-    "modified": "2026-04-06T18:41:23.924Z"
+    "created": "2026-04-06T19:09:10.578Z",
+    "modified": "2026-04-06T19:09:10.578Z"
   },
   {
-    "id": "975eb5ec-e566-4dbf-8db0-3f42a7f2a265",
+    "id": "f1839e81-9114-4e2c-b8ba-73fa85fd0c7e",
     "name": "BIBFRAME 2.0 Agents Primary Contribution",
     "configType": "profile",
     "json": {
@@ -66638,10 +66591,10 @@
       }
     },
     "metadata": {
-      "createDate": "2026-04-06T18:41:23.925Z",
-      "updateDate": "2026-04-06T18:41:23.925Z"
+      "createDate": "2026-04-06T19:09:10.578Z",
+      "updateDate": "2026-04-06T19:09:10.578Z"
     },
-    "created": "2026-04-06T18:41:23.925Z",
-    "modified": "2026-04-06T18:41:23.925Z"
+    "created": "2026-04-06T19:09:10.578Z",
+    "modified": "2026-04-06T19:09:10.578Z"
   }
 ]
