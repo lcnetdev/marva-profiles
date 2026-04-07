@@ -1,6 +1,6 @@
 [
   {
-    "id": "8c3d3c0e-05e6-47db-8f76-9e464f331a6d",
+    "id": "af6aacf1-f887-48b3-bfe3-68a52e5de400",
     "name": "BIBFRAME 2.0 Moving Image",
     "configType": "profile",
     "json": {
@@ -2116,8 +2116,7 @@
                   ],
                   "defaults": [],
                   "valueDataType": {}
-                },
-                "remark": "A human-readable name for the subject."
+                }
               }
             ]
           },
@@ -4327,14 +4326,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-04-06T20:30:43.751Z",
-      "updateDate": "2026-04-06T20:30:43.751Z"
+      "createDate": "2026-04-07T14:00:02.312Z",
+      "updateDate": "2026-04-07T14:00:02.312Z"
     },
-    "created": "2026-04-06T20:30:43.751Z",
-    "modified": "2026-04-06T20:30:43.751Z"
+    "created": "2026-04-07T14:00:02.312Z",
+    "modified": "2026-04-07T14:00:02.312Z"
   },
   {
-    "id": "8ebc2631-e56e-4e07-9008-97d5838a9168",
+    "id": "912d23dd-4027-40ca-bc70-cf821ed9e267",
     "name": "BIBFRAME 2.0 Admin Metadata",
     "configType": "profile",
     "json": {
@@ -4830,14 +4829,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-04-06T20:30:43.752Z",
-      "updateDate": "2026-04-06T20:30:43.752Z"
+      "createDate": "2026-04-07T14:00:02.314Z",
+      "updateDate": "2026-04-07T14:00:02.314Z"
     },
-    "created": "2026-04-06T20:30:43.752Z",
-    "modified": "2026-04-06T20:30:43.752Z"
+    "created": "2026-04-07T14:00:02.314Z",
+    "modified": "2026-04-07T14:00:02.314Z"
   },
   {
-    "id": "352f3075-2504-4c53-ba5e-2c17fdfc9c80",
+    "id": "b80170b7-4953-4ac1-8fff-728d63f138e8",
     "name": "BIBFRAME 2.0 Agents",
     "configType": "profile",
     "json": {
@@ -7079,14 +7078,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-04-06T20:30:43.760Z",
-      "updateDate": "2026-04-06T20:30:43.760Z"
+      "createDate": "2026-04-07T14:00:02.322Z",
+      "updateDate": "2026-04-07T14:00:02.322Z"
     },
-    "created": "2026-04-06T20:30:43.760Z",
-    "modified": "2026-04-06T20:30:43.760Z"
+    "created": "2026-04-07T14:00:02.322Z",
+    "modified": "2026-04-07T14:00:02.322Z"
   },
   {
-    "id": "2763d798-cda5-4ab3-8079-b424b364c220",
+    "id": "37be0f6e-4348-410f-8d77-5bd6f2e8f5bc",
     "name": "BIBFRAME 2.0 RWO",
     "configType": "profile",
     "json": {
@@ -8014,14 +8013,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-04-06T20:30:43.763Z",
-      "updateDate": "2026-04-06T20:30:43.763Z"
+      "createDate": "2026-04-07T14:00:02.325Z",
+      "updateDate": "2026-04-07T14:00:02.325Z"
     },
-    "created": "2026-04-06T20:30:43.763Z",
-    "modified": "2026-04-06T20:30:43.763Z"
+    "created": "2026-04-07T14:00:02.325Z",
+    "modified": "2026-04-07T14:00:02.325Z"
   },
   {
-    "id": "824129e8-c260-4fd1-be34-dcd803570d4a",
+    "id": "f92ce011-30c9-45a4-9791-fa19b42aec03",
     "name": "BIBFRAME 2.0 Agents Contribution",
     "configType": "profile",
     "json": {
@@ -8265,14 +8264,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-04-06T20:30:43.764Z",
-      "updateDate": "2026-04-06T20:30:43.764Z"
+      "createDate": "2026-04-07T14:00:02.326Z",
+      "updateDate": "2026-04-07T14:00:02.326Z"
     },
-    "created": "2026-04-06T20:30:43.764Z",
-    "modified": "2026-04-06T20:30:43.764Z"
+    "created": "2026-04-07T14:00:02.326Z",
+    "modified": "2026-04-07T14:00:02.326Z"
   },
   {
-    "id": "ac95142d-3de4-4852-98cb-74c346f53d42",
+    "id": "78982887-384f-4aac-be71-993b5970ca8b",
     "name": "BIBFRAME 2.0 Sound Recording-Analog",
     "configType": "profile",
     "json": {
@@ -10206,8 +10205,7 @@
                   ],
                   "defaults": [],
                   "valueDataType": {}
-                },
-                "remark": "A human-readable name for the subject."
+                }
               }
             ]
           },
@@ -12424,14 +12422,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-04-06T20:30:43.780Z",
-      "updateDate": "2026-04-06T20:30:43.780Z"
+      "createDate": "2026-04-07T14:00:02.345Z",
+      "updateDate": "2026-04-07T14:00:02.345Z"
     },
-    "created": "2026-04-06T20:30:43.780Z",
-    "modified": "2026-04-06T20:30:43.780Z"
+    "created": "2026-04-07T14:00:02.345Z",
+    "modified": "2026-04-07T14:00:02.345Z"
   },
   {
-    "id": "b0a30b47-4596-4d6b-83a2-fc2e65578545",
+    "id": "6c58e1ef-fbf5-47ba-ac8b-6e002e3472f6",
     "name": "BIBFRAME 2.0 Cartographic TEST",
     "configType": "profile",
     "json": {
@@ -14095,8 +14093,7 @@
                   ],
                   "defaults": [],
                   "valueDataType": {}
-                },
-                "remark": "A human-readable name for the subject."
+                }
               }
             ]
           },
@@ -15933,14 +15930,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-04-06T20:30:43.794Z",
-      "updateDate": "2026-04-06T20:30:43.794Z"
+      "createDate": "2026-04-07T14:00:02.360Z",
+      "updateDate": "2026-04-07T14:00:02.360Z"
     },
-    "created": "2026-04-06T20:30:43.794Z",
-    "modified": "2026-04-06T20:30:43.794Z"
+    "created": "2026-04-07T14:00:02.360Z",
+    "modified": "2026-04-07T14:00:02.360Z"
   },
   {
-    "id": "5cbed1f3-83e7-433b-b533-2cbd3a566d3d",
+    "id": "976218fc-a674-4b5a-8bf0-6b46e39c1d98",
     "name": "BIBFRAME 2.0 Classification",
     "configType": "profile",
     "json": {
@@ -16337,14 +16334,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-04-06T20:30:43.795Z",
-      "updateDate": "2026-04-06T20:30:43.795Z"
+      "createDate": "2026-04-07T14:00:02.361Z",
+      "updateDate": "2026-04-07T14:00:02.361Z"
     },
-    "created": "2026-04-06T20:30:43.795Z",
-    "modified": "2026-04-06T20:30:43.795Z"
+    "created": "2026-04-07T14:00:02.361Z",
+    "modified": "2026-04-07T14:00:02.361Z"
   },
   {
-    "id": "2dd79a1a-58a3-4a95-8b34-2ce16d30c79d",
+    "id": "530bac51-b923-4b60-9e41-8efc5799bcad",
     "name": "BIBFRAME 2.0 Form",
     "configType": "profile",
     "json": {
@@ -16471,14 +16468,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-04-06T20:30:43.795Z",
-      "updateDate": "2026-04-06T20:30:43.795Z"
+      "createDate": "2026-04-07T14:00:02.362Z",
+      "updateDate": "2026-04-07T14:00:02.362Z"
     },
-    "created": "2026-04-06T20:30:43.795Z",
-    "modified": "2026-04-06T20:30:43.795Z"
+    "created": "2026-04-07T14:00:02.362Z",
+    "modified": "2026-04-07T14:00:02.362Z"
   },
   {
-    "id": "44d5c7da-fc57-40e3-b022-204f84be7a3c",
+    "id": "1c75539f-9bb3-45f4-9c1c-e771d622b9ae",
     "name": "Test BF Hub",
     "configType": "profile",
     "json": {
@@ -17227,14 +17224,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-04-06T20:30:43.798Z",
-      "updateDate": "2026-04-06T20:30:43.798Z"
+      "createDate": "2026-04-07T14:00:02.364Z",
+      "updateDate": "2026-04-07T14:00:02.364Z"
     },
-    "created": "2026-04-06T20:30:43.798Z",
-    "modified": "2026-04-06T20:30:43.798Z"
+    "created": "2026-04-07T14:00:02.364Z",
+    "modified": "2026-04-07T14:00:02.364Z"
   },
   {
-    "id": "50bcea6b-e14d-4101-a163-ec1c738c36a7",
+    "id": "fab48e57-bb03-4c9b-8019-61fc0e60f34e",
     "name": "BF Hub",
     "configType": "profile",
     "json": {
@@ -18073,14 +18070,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-04-06T20:30:43.801Z",
-      "updateDate": "2026-04-06T20:30:43.801Z"
+      "createDate": "2026-04-07T14:00:02.368Z",
+      "updateDate": "2026-04-07T14:00:02.368Z"
     },
-    "created": "2026-04-06T20:30:43.801Z",
-    "modified": "2026-04-06T20:30:43.801Z"
+    "created": "2026-04-07T14:00:02.368Z",
+    "modified": "2026-04-07T14:00:02.368Z"
   },
   {
-    "id": "bd3e994f-f333-4093-9859-91f9c76b638c",
+    "id": "97df678f-f1c9-4036-83e1-21d9d7a2f27d",
     "name": "Original BF (origbf)",
     "configType": "profile",
     "json": {
@@ -21874,8 +21871,7 @@
                   ],
                   "defaults": [],
                   "valueDataType": {}
-                },
-                "remark": "A human-readable name for the subject."
+                }
               }
             ]
           },
@@ -23111,14 +23107,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-04-06T20:30:43.819Z",
-      "updateDate": "2026-04-06T20:30:43.819Z"
+      "createDate": "2026-04-07T14:00:02.387Z",
+      "updateDate": "2026-04-07T14:00:02.387Z"
     },
-    "created": "2026-04-06T20:30:43.819Z",
-    "modified": "2026-04-06T20:30:43.819Z"
+    "created": "2026-04-07T14:00:02.387Z",
+    "modified": "2026-04-07T14:00:02.387Z"
   },
   {
-    "id": "9bb9e68b-b511-4857-a8ea-34c848447504",
+    "id": "f450cd3a-77ac-474f-bf04-1838e527322a",
     "name": "BIBFRAME 2.0 Identifiers",
     "configType": "profile",
     "json": {
@@ -24482,14 +24478,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-04-06T20:30:43.826Z",
-      "updateDate": "2026-04-06T20:30:43.826Z"
+      "createDate": "2026-04-07T14:00:02.393Z",
+      "updateDate": "2026-04-07T14:00:02.393Z"
     },
-    "created": "2026-04-06T20:30:43.826Z",
-    "modified": "2026-04-06T20:30:43.826Z"
+    "created": "2026-04-07T14:00:02.393Z",
+    "modified": "2026-04-07T14:00:02.393Z"
   },
   {
-    "id": "785e8fbb-edbd-4a40-aa7a-5707eef2d590",
+    "id": "5c6233a0-1aed-47e6-9c10-0c1221da9375",
     "name": "BIBFRAME 2.0 Item",
     "configType": "profile",
     "json": {
@@ -24961,14 +24957,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-04-06T20:30:43.828Z",
-      "updateDate": "2026-04-06T20:30:43.828Z"
+      "createDate": "2026-04-07T14:00:02.396Z",
+      "updateDate": "2026-04-07T14:00:02.396Z"
     },
-    "created": "2026-04-06T20:30:43.828Z",
-    "modified": "2026-04-06T20:30:43.828Z"
+    "created": "2026-04-07T14:00:02.396Z",
+    "modified": "2026-04-07T14:00:02.396Z"
   },
   {
-    "id": "3879ac52-e6d6-4342-86ca-93fb3950f3c2",
+    "id": "9d0d5e7b-c510-4b42-a996-c39686a4ce7d",
     "name": "BIBFRAME 2.0 Language",
     "configType": "profile",
     "json": {
@@ -25106,14 +25102,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-04-06T20:30:43.828Z",
-      "updateDate": "2026-04-06T20:30:43.828Z"
+      "createDate": "2026-04-07T14:00:02.396Z",
+      "updateDate": "2026-04-07T14:00:02.396Z"
     },
-    "created": "2026-04-06T20:30:43.828Z",
-    "modified": "2026-04-06T20:30:43.828Z"
+    "created": "2026-04-07T14:00:02.396Z",
+    "modified": "2026-04-07T14:00:02.396Z"
   },
   {
-    "id": "1a007e35-5cfb-457e-8b9d-06997cb8650f",
+    "id": "0aa1dc10-b236-426f-80d5-4347d9cbb944",
     "name": "BIBFRAME 2.0 Moving Image-DVD",
     "configType": "profile",
     "json": {
@@ -26982,8 +26978,7 @@
                   ],
                   "defaults": [],
                   "valueDataType": {}
-                },
-                "remark": "A human-readable name for the subject."
+                }
               }
             ]
           },
@@ -29438,14 +29433,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-04-06T20:30:43.846Z",
-      "updateDate": "2026-04-06T20:30:43.846Z"
+      "createDate": "2026-04-07T14:00:02.412Z",
+      "updateDate": "2026-04-07T14:00:02.412Z"
     },
-    "created": "2026-04-06T20:30:43.846Z",
-    "modified": "2026-04-06T20:30:43.846Z"
+    "created": "2026-04-07T14:00:02.412Z",
+    "modified": "2026-04-07T14:00:02.412Z"
   },
   {
-    "id": "66f55365-3d6b-40c1-9347-5e520b92070b",
+    "id": "dee26163-23db-429f-8a40-b4ba551a662e",
     "name": "BIBFRAME 2.0 Monograph",
     "configType": "profile",
     "json": {
@@ -31071,8 +31066,7 @@
                   ],
                   "defaults": [],
                   "valueDataType": {}
-                },
-                "remark": "A human-readable name for the subject."
+                }
               }
             ]
           },
@@ -33776,14 +33770,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-04-06T20:30:43.863Z",
-      "updateDate": "2026-04-06T20:30:43.863Z"
+      "createDate": "2026-04-07T14:00:02.428Z",
+      "updateDate": "2026-04-07T14:00:02.428Z"
     },
-    "created": "2026-04-06T20:30:43.863Z",
-    "modified": "2026-04-06T20:30:43.863Z"
+    "created": "2026-04-07T14:00:02.428Z",
+    "modified": "2026-04-07T14:00:02.428Z"
   },
   {
-    "id": "0393c84e-1531-48a7-b7bb-436d47253185",
+    "id": "4a7fb6b6-1c54-4f85-b111-cff787226106",
     "name": "BIBFRAME 2.0 Notated Music",
     "configType": "profile",
     "json": {
@@ -35628,8 +35622,7 @@
                   ],
                   "defaults": [],
                   "valueDataType": {}
-                },
-                "remark": "A human-readable name for the subject."
+                }
               }
             ]
           },
@@ -37627,14 +37620,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-04-06T20:30:43.877Z",
-      "updateDate": "2026-04-06T20:30:43.877Z"
+      "createDate": "2026-04-07T14:00:02.443Z",
+      "updateDate": "2026-04-07T14:00:02.443Z"
     },
-    "created": "2026-04-06T20:30:43.877Z",
-    "modified": "2026-04-06T20:30:43.877Z"
+    "created": "2026-04-07T14:00:02.443Z",
+    "modified": "2026-04-07T14:00:02.443Z"
   },
   {
-    "id": "f5aa1cdb-24a6-437a-8ba1-45ab06c9eb60",
+    "id": "d1e9ba90-4821-429f-af2e-3983025eab97",
     "name": "BIBFRAME 2.0 Note",
     "configType": "profile",
     "json": {
@@ -38031,14 +38024,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-04-06T20:30:43.879Z",
-      "updateDate": "2026-04-06T20:30:43.879Z"
+      "createDate": "2026-04-07T14:00:02.445Z",
+      "updateDate": "2026-04-07T14:00:02.445Z"
     },
-    "created": "2026-04-06T20:30:43.879Z",
-    "modified": "2026-04-06T20:30:43.879Z"
+    "created": "2026-04-07T14:00:02.445Z",
+    "modified": "2026-04-07T14:00:02.445Z"
   },
   {
-    "id": "8b89371c-5241-497c-ade8-ab88442d919e",
+    "id": "1aed777b-6f52-4357-b800-f47d34d8231d",
     "name": "BIBFRAME 2.0 Place",
     "configType": "profile",
     "json": {
@@ -38072,14 +38065,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-04-06T20:30:43.879Z",
-      "updateDate": "2026-04-06T20:30:43.879Z"
+      "createDate": "2026-04-07T14:00:02.445Z",
+      "updateDate": "2026-04-07T14:00:02.445Z"
     },
-    "created": "2026-04-06T20:30:43.879Z",
-    "modified": "2026-04-06T20:30:43.879Z"
+    "created": "2026-04-07T14:00:02.445Z",
+    "modified": "2026-04-07T14:00:02.445Z"
   },
   {
-    "id": "5a9e0b0b-8533-463e-a145-8a41b09e291b",
+    "id": "dda9b0d7-db41-42b1-bd7d-a6448a4f159d",
     "name": "Prints & Photographs",
     "configType": "profile",
     "json": {
@@ -39752,8 +39745,7 @@
                   ],
                   "defaults": [],
                   "valueDataType": {}
-                },
-                "remark": "A human-readable name for the subject."
+                }
               }
             ]
           },
@@ -41414,14 +41406,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-04-06T20:30:43.892Z",
-      "updateDate": "2026-04-06T20:30:43.892Z"
+      "createDate": "2026-04-07T14:00:02.458Z",
+      "updateDate": "2026-04-07T14:00:02.458Z"
     },
-    "created": "2026-04-06T20:30:43.892Z",
-    "modified": "2026-04-06T20:30:43.892Z"
+    "created": "2026-04-07T14:00:02.458Z",
+    "modified": "2026-04-07T14:00:02.458Z"
   },
   {
-    "id": "02e732e5-9d8d-45be-bf53-daa0bdff1364",
+    "id": "8fb9103e-7bbf-4843-a24d-36b00eaa7209",
     "name": "BIBFRAME 2.0 Publication, Distribution, Manufacturer Activity",
     "configType": "profile",
     "json": {
@@ -41758,14 +41750,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-04-06T20:30:43.893Z",
-      "updateDate": "2026-04-06T20:30:43.893Z"
+      "createDate": "2026-04-07T14:00:02.459Z",
+      "updateDate": "2026-04-07T14:00:02.459Z"
     },
-    "created": "2026-04-06T20:30:43.893Z",
-    "modified": "2026-04-06T20:30:43.893Z"
+    "created": "2026-04-07T14:00:02.459Z",
+    "modified": "2026-04-07T14:00:02.459Z"
   },
   {
-    "id": "53167197-2019-4cd3-9be2-62f59548a820",
+    "id": "7ea9ac4f-977c-43ae-8737-e4551f294c06",
     "name": "BIBFRAME 2.0 Rare Materials",
     "configType": "profile",
     "json": {
@@ -43278,8 +43270,7 @@
                   ],
                   "defaults": [],
                   "valueDataType": {}
-                },
-                "remark": "A human-readable name for the subject."
+                }
               }
             ]
           },
@@ -45262,14 +45253,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-04-06T20:30:43.906Z",
-      "updateDate": "2026-04-06T20:30:43.906Z"
+      "createDate": "2026-04-07T14:00:02.472Z",
+      "updateDate": "2026-04-07T14:00:02.472Z"
     },
-    "created": "2026-04-06T20:30:43.906Z",
-    "modified": "2026-04-06T20:30:43.906Z"
+    "created": "2026-04-07T14:00:02.472Z",
+    "modified": "2026-04-07T14:00:02.472Z"
   },
   {
-    "id": "57090ce1-4670-4d82-abaa-f32cc9f10602",
+    "id": "501bb6ea-285c-4ddf-9274-8e22aab9dc90",
     "name": "BIBFRAME 2.0 Related Works and Expressions",
     "configType": "profile",
     "json": {
@@ -45669,14 +45660,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-04-06T20:30:43.908Z",
-      "updateDate": "2026-04-06T20:30:43.908Z"
+      "createDate": "2026-04-07T14:00:02.474Z",
+      "updateDate": "2026-04-07T14:00:02.474Z"
     },
-    "created": "2026-04-06T20:30:43.908Z",
-    "modified": "2026-04-06T20:30:43.908Z"
+    "created": "2026-04-07T14:00:02.474Z",
+    "modified": "2026-04-07T14:00:02.474Z"
   },
   {
-    "id": "624a1c22-4576-4633-9a44-33ae60b89301",
+    "id": "895aaae0-c65d-4b76-80ce-f7ee7d42daaf",
     "name": "BIBFRAME 2.0 Serial",
     "configType": "profile",
     "json": {
@@ -45793,8 +45784,7 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                },
-                "remark": "https://original.rdatoolkit.org/6.4.html"
+                }
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/originPlace",
@@ -45812,8 +45802,7 @@
                   "valueDataType": {
                     "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Place"
                   }
-                },
-                "remark": "https://original.rdatoolkit.org/6.5.html"
+                }
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/temporalCoverage",
@@ -45827,8 +45816,7 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                },
-                "remark": "https://original.rdatoolkit.org/7.3.html"
+                }
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/identifiedBy",
@@ -45861,8 +45849,7 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                },
-                "remark": "https://original.rdatoolkit.org/7.7.html"
+                }
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/contribution",
@@ -45880,8 +45867,7 @@
                   "valueDataType": {
                     "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Contribution"
                   }
-                },
-                "remark": "https://original.rdatoolkit.org/19.3.html"
+                }
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/geographicCoverage",
@@ -45915,8 +45901,7 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                },
-                "remark": "http://original.rdatoolkit.org/rdachp23_rda23-12.html"
+                }
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/classification",
@@ -45983,8 +45968,7 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                },
-                "remark": "https://original.rdatoolkit.org/7.10.html"
+                }
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/content",
@@ -46007,8 +45991,7 @@
                   "valueDataType": {
                     "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Content"
                   }
-                },
-                "remark": "https://original.rdatoolkit.org/6.9.html"
+                }
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/language",
@@ -46079,8 +46062,7 @@
                   "valueDataType": {
                     "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Script"
                   }
-                },
-                "remark": "https://original.rdatoolkit.org/7.13.2.html"
+                }
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/illustrativeContent",
@@ -46098,8 +46080,7 @@
                   "valueDataType": {
                     "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Illustration"
                   }
-                },
-                "remark": "https://original.rdatoolkit.org/7.15.html"
+                }
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/colorContent",
@@ -46117,8 +46098,7 @@
                   "valueDataType": {
                     "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/ColorContent"
                   }
-                },
-                "remark": "https://original.rdatoolkit.org/7.17.html"
+                }
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/supplementaryContent",
@@ -46136,8 +46116,7 @@
                   "valueDataType": {
                     "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/SupplementaryContent"
                   }
-                },
-                "remark": "https://original.rdatoolkit.org/7.16.html"
+                }
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/electronicLocator",
@@ -46262,8 +46241,7 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                },
-                "remark": "https://original.rdatoolkit.org/rdachp2_rda2-3376.html"
+                }
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/responsibilityStatement",
@@ -46277,8 +46255,7 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                },
-                "remark": "https://original.rdatoolkit.org/2.4.2.html"
+                }
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/editionStatement",
@@ -46292,8 +46269,7 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                },
-                "remark": "https://original.rdatoolkit.org/2.5.html"
+                }
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/provisionActivity",
@@ -46327,8 +46303,7 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                },
-                "remark": "https://original.rdatoolkit.org/2.11.html"
+                }
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/issuance",
@@ -46351,8 +46326,7 @@
                   "valueDataType": {
                     "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Issuance"
                   }
-                },
-                "remark": "https://original.rdatoolkit.org/2.13.html"
+                }
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/frequency",
@@ -46368,8 +46342,7 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                },
-                "remark": "https://original.rdatoolkit.org/2.14.html"
+                }
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/firstIssue",
@@ -46383,8 +46356,7 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                },
-                "remark": "https://original.rdatoolkit.org/2.6.2.html"
+                }
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/lastIssue",
@@ -46398,8 +46370,7 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                },
-                "remark": "https://original.rdatoolkit.org/2.6.4.html"
+                }
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/identifiedBy",
@@ -46446,8 +46417,7 @@
                   "valueDataType": {
                     "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Media"
                   }
-                },
-                "remark": "https://original.rdatoolkit.org/3.2.html"
+                }
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/carrier",
@@ -46470,8 +46440,7 @@
                   "valueDataType": {
                     "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Carrier"
                   }
-                },
-                "remark": "https://original.rdatoolkit.org/3.3.html"
+                }
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/extent",
@@ -46487,8 +46456,7 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                },
-                "remark": "https://original.rdatoolkit.org/3.4.html"
+                }
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/dimensions",
@@ -46502,8 +46470,7 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                },
-                "remark": "https://original.rdatoolkit.org/3.5.html"
+                }
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/note",
@@ -46519,8 +46486,7 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                },
-                "remark": "https://original.rdatoolkit.org/2.17.html"
+                }
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/acquisitionSource",
@@ -46552,8 +46518,7 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                },
-                "remark": "https://original.rdatoolkit.org/7.16.html"
+                }
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/electronicLocator",
@@ -46569,8 +46534,7 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                },
-                "remark": "http://access.rdatoolkit.org/4.6.html"
+                }
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bflc/projectedProvisionDate",
@@ -46600,8 +46564,7 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                },
-                "remark": "Item which is an example of the described Instance."
+                }
               }
             ]
           },
@@ -46624,8 +46587,7 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                },
-                "remark": "http://access.rdatoolkit.org/4.6.html"
+                }
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/classification",
@@ -46706,8 +46668,7 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                },
-                "remark": "http://access.rdatoolkit.org/rdachp4_rda4-93.html"
+                }
               }
             ]
           },
@@ -46728,8 +46689,7 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                },
-                "remark": "http://access.rdatoolkit.org/rdachp2_rda2-5592.html"
+                }
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/firstIssue",
@@ -46743,8 +46703,7 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                },
-                "remark": "http://access.rdatoolkit.org/rdachp2_rda2-5667.html"
+                }
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/lastIssue",
@@ -46758,8 +46717,7 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                },
-                "remark": "http://access.rdatoolkit.org/rdachp2_rda2-5759.html"
+                }
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/lastIssue",
@@ -46773,8 +46731,7 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                },
-                "remark": "http://access.rdatoolkit.org/rdachp2_rda2-5813.html"
+                }
               }
             ]
           },
@@ -46799,8 +46756,7 @@
                   "valueDataType": {
                     "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Frequency"
                   }
-                },
-                "remark": "http://access.rdatoolkit.org/2.14.html"
+                }
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/date",
@@ -47766,8 +47722,7 @@
                   ],
                   "defaults": [],
                   "valueDataType": {}
-                },
-                "remark": "A human-readable name for the subject."
+                }
               }
             ]
           },
@@ -50227,14 +50182,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-04-06T20:30:43.925Z",
-      "updateDate": "2026-04-06T20:30:43.925Z"
+      "createDate": "2026-04-07T14:00:02.491Z",
+      "updateDate": "2026-04-07T14:00:02.491Z"
     },
-    "created": "2026-04-06T20:30:43.925Z",
-    "modified": "2026-04-06T20:30:43.925Z"
+    "created": "2026-04-07T14:00:02.491Z",
+    "modified": "2026-04-07T14:00:02.491Z"
   },
   {
-    "id": "09583bb3-1ad5-472b-97bd-093f70b6b17f",
+    "id": "8c88a2a9-d5c8-4572-b2b7-5860394d3e7f",
     "name": "BIBFRAME 2.0 Series Information",
     "configType": "profile",
     "json": {
@@ -50526,14 +50481,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-04-06T20:30:43.926Z",
-      "updateDate": "2026-04-06T20:30:43.926Z"
+      "createDate": "2026-04-07T14:00:02.492Z",
+      "updateDate": "2026-04-07T14:00:02.492Z"
     },
-    "created": "2026-04-06T20:30:43.926Z",
-    "modified": "2026-04-06T20:30:43.926Z"
+    "created": "2026-04-07T14:00:02.492Z",
+    "modified": "2026-04-07T14:00:02.492Z"
   },
   {
-    "id": "1e983317-f755-4b79-bbfe-025b430636ac",
+    "id": "0176cc5f-cd44-435b-8589-9cacd10a07e0",
     "name": "BIBFRAME 2.0 Sound Recording-Audio CD-R",
     "configType": "profile",
     "json": {
@@ -50687,8 +50642,7 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                },
-                "remark": "https://original.rdatoolkit.org/7.21.html"
+                }
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/ensemble",
@@ -50722,8 +50676,7 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                },
-                "remark": "https://original.rdatoolkit.org/6.16.html"
+                }
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/keyMode",
@@ -50739,8 +50692,7 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                },
-                "remark": "https://original.rdatoolkit.org/6.17.html"
+                }
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/intendedAudience",
@@ -50756,8 +50708,7 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                },
-                "remark": "https://original.rdatoolkit.org/7.7.html"
+                }
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/temporalCoverage",
@@ -50771,8 +50722,7 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                },
-                "remark": "https://original.rdatoolkit.org/7.3.html"
+                }
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/geographicCoverage",
@@ -50824,8 +50774,7 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                },
-                "remark": "http://original.rdatoolkit.org/rdachp23_rda23-12.html"
+                }
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/note",
@@ -50873,8 +50822,7 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                },
-                "remark": "https://original.rdatoolkit.org/7.10.html"
+                }
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/content",
@@ -50897,8 +50845,7 @@
                   "valueDataType": {
                     "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Content"
                   }
-                },
-                "remark": "https://original.rdatoolkit.org/6.9.html"
+                }
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/capture",
@@ -50914,8 +50861,7 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                },
-                "remark": "https://original.rdatoolkit.org/7.11.html"
+                }
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/supplementaryContent",
@@ -50933,8 +50879,7 @@
                   "valueDataType": {
                     "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/SupplementaryContent"
                   }
-                },
-                "remark": "https://original.rdatoolkit.org/7.16.html"
+                }
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/originDate",
@@ -50950,8 +50895,7 @@
                   "valueDataType": {
                     "dataTypeURI": "http://www.loc.gov/standards/datetime/pre-submission.html"
                   }
-                },
-                "remark": "https://original.rdatoolkit.org/6.4.html"
+                }
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/originPlace",
@@ -50969,8 +50913,7 @@
                   "valueDataType": {
                     "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Place"
                   }
-                },
-                "remark": "https://original.rdatoolkit.org/6.5.html"
+                }
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/relation",
@@ -51061,8 +51004,7 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                },
-                "remark": "https://original.rdatoolkit.org/rdachp2_rda2-3376.html"
+                }
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/responsibilityStatement",
@@ -51076,8 +51018,7 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                },
-                "remark": "https://original.rdatoolkit.org/2.4.2.html"
+                }
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/editionStatement",
@@ -51091,8 +51032,7 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                },
-                "remark": "https://original.rdatoolkit.org/2.5.html"
+                }
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/provisionActivity",
@@ -51126,8 +51066,7 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                },
-                "remark": "https://original.rdatoolkit.org/2.11.html"
+                }
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/issuance",
@@ -51150,8 +51089,7 @@
                   "valueDataType": {
                     "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Issuance"
                   }
-                },
-                "remark": "https://original.rdatoolkit.org/2.13.html"
+                }
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/identifiedBy",
@@ -51195,8 +51133,7 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                },
-                "remark": "https://original.rdatoolkit.org/2.17.html"
+                }
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/supplementaryContent",
@@ -51212,8 +51149,7 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                },
-                "remark": "https://original.rdatoolkit.org/7.16.html"
+                }
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/media",
@@ -51236,8 +51172,7 @@
                   "valueDataType": {
                     "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Media"
                   }
-                },
-                "remark": "https://original.rdatoolkit.org/3.2.html"
+                }
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/carrier",
@@ -51260,8 +51195,7 @@
                   "valueDataType": {
                     "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Carrier"
                   }
-                },
-                "remark": "https://original.rdatoolkit.org/3.3.html"
+                }
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/extent",
@@ -51277,8 +51211,7 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                },
-                "remark": "https://original.rdatoolkit.org/3.4.html"
+                }
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/dimensions",
@@ -51292,8 +51225,7 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                },
-                "remark": "https://original.rdatoolkit.org/3.5.html"
+                }
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/duration",
@@ -51307,8 +51239,7 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                },
-                "remark": "http://original.rdatoolkit.org/rdachp7_rda7-1572.html"
+                }
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/baseMaterial",
@@ -51331,8 +51262,7 @@
                   "valueDataType": {
                     "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/BaseMaterial"
                   }
-                },
-                "remark": "https://original.rdatoolkit.org/3.6.html"
+                }
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/productionMethod",
@@ -51355,8 +51285,7 @@
                   "valueDataType": {
                     "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/ProductionMethod"
                   }
-                },
-                "remark": "https://original.rdatoolkit.org/3.9.html"
+                }
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/generation",
@@ -51374,8 +51303,7 @@
                   "valueDataType": {
                     "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Generation"
                   }
-                },
-                "remark": "https://original.rdatoolkit.org/3.10.html"
+                }
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/soundCharacteristic",
@@ -51396,8 +51324,7 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                },
-                "remark": "https://original.rdatoolkit.org/3.16.html"
+                }
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/digitalCharacteristic",
@@ -51414,8 +51341,7 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                },
-                "remark": "https://original.rdatoolkit.org/3.19.html"
+                }
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/systemRequirement",
@@ -51431,8 +51357,7 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                },
-                "remark": "https://original.rdatoolkit.org/3.20.html"
+                }
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/electronicLocator",
@@ -51448,8 +51373,7 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                },
-                "remark": "http://access.rdatoolkit.org/4.6.html"
+                }
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/hasItem",
@@ -51488,8 +51412,7 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                },
-                "remark": "http://access.rdatoolkit.org/4.6.html"
+                }
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/contribution",
@@ -52478,8 +52401,7 @@
                   ],
                   "defaults": [],
                   "valueDataType": {}
-                },
-                "remark": "A human-readable name for the subject."
+                }
               }
             ]
           },
@@ -54753,14 +54675,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-04-06T20:30:43.942Z",
-      "updateDate": "2026-04-06T20:30:43.942Z"
+      "createDate": "2026-04-07T14:00:02.508Z",
+      "updateDate": "2026-04-07T14:00:02.508Z"
     },
-    "created": "2026-04-06T20:30:43.942Z",
-    "modified": "2026-04-06T20:30:43.942Z"
+    "created": "2026-04-07T14:00:02.508Z",
+    "modified": "2026-04-07T14:00:02.508Z"
   },
   {
-    "id": "86c010a6-7258-41b5-b9ca-4bade7d1306e",
+    "id": "598a8238-5277-4eaa-beb0-380b2899482a",
     "name": "BIBFRAME 2.0 Sound Recording-Audio Cassette",
     "configType": "profile",
     "json": {
@@ -54861,8 +54783,7 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                },
-                "remark": "https://original.rdatoolkit.org/7.21.html"
+                }
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/ensemble",
@@ -54896,8 +54817,7 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                },
-                "remark": "https://original.rdatoolkit.org/6.16.html"
+                }
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/keyMode",
@@ -54913,8 +54833,7 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                },
-                "remark": "https://original.rdatoolkit.org/6.17.html"
+                }
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/intendedAudience",
@@ -54930,8 +54849,7 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                },
-                "remark": "https://original.rdatoolkit.org/7.7.html"
+                }
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/temporalCoverage",
@@ -54945,8 +54863,7 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                },
-                "remark": "https://original.rdatoolkit.org/7.3.html"
+                }
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/geographicCoverage",
@@ -54998,8 +54915,7 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                },
-                "remark": "http://original.rdatoolkit.org/rdachp23_rda23-12.html"
+                }
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/note",
@@ -55047,8 +54963,7 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                },
-                "remark": "https://original.rdatoolkit.org/7.10.html"
+                }
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/content",
@@ -55071,8 +54986,7 @@
                   "valueDataType": {
                     "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Content"
                   }
-                },
-                "remark": "https://original.rdatoolkit.org/6.9.html"
+                }
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/language",
@@ -55141,8 +55055,7 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                },
-                "remark": "https://original.rdatoolkit.org/7.11.html"
+                }
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/supplementaryContent",
@@ -55160,8 +55073,7 @@
                   "valueDataType": {
                     "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/SupplementaryContent"
                   }
-                },
-                "remark": "https://original.rdatoolkit.org/7.16.html"
+                }
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/originDate",
@@ -55177,8 +55089,7 @@
                   "valueDataType": {
                     "dataTypeURI": "http://www.loc.gov/standards/datetime/pre-submission.html"
                   }
-                },
-                "remark": "https://original.rdatoolkit.org/6.4.html"
+                }
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/originPlace",
@@ -55196,8 +55107,7 @@
                   "valueDataType": {
                     "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Place"
                   }
-                },
-                "remark": "https://original.rdatoolkit.org/6.5.html"
+                }
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/relation",
@@ -55288,8 +55198,7 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                },
-                "remark": "https://original.rdatoolkit.org/rdachp2_rda2-3376.html"
+                }
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/responsibilityStatement",
@@ -55303,8 +55212,7 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                },
-                "remark": "https://original.rdatoolkit.org/2.4.2.html"
+                }
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/editionStatement",
@@ -55318,8 +55226,7 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                },
-                "remark": "https://original.rdatoolkit.org/2.5.html"
+                }
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/provisionActivity",
@@ -55353,8 +55260,7 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                },
-                "remark": "https://original.rdatoolkit.org/2.11.html"
+                }
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/issuance",
@@ -55377,8 +55283,7 @@
                   "valueDataType": {
                     "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Issuance"
                   }
-                },
-                "remark": "https://original.rdatoolkit.org/2.13.html"
+                }
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/identifiedBy",
@@ -55422,8 +55327,7 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                },
-                "remark": "https://original.rdatoolkit.org/2.17.html"
+                }
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/supplementaryContent",
@@ -55439,8 +55343,7 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                },
-                "remark": "https://original.rdatoolkit.org/7.16.html"
+                }
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/media",
@@ -55463,8 +55366,7 @@
                   "valueDataType": {
                     "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Media"
                   }
-                },
-                "remark": "https://original.rdatoolkit.org/3.2.html"
+                }
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/carrier",
@@ -55487,8 +55389,7 @@
                   "valueDataType": {
                     "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Carrier"
                   }
-                },
-                "remark": "https://original.rdatoolkit.org/3.3.html"
+                }
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/extent",
@@ -55504,8 +55405,7 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                },
-                "remark": "https://original.rdatoolkit.org/3.4.html"
+                }
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/dimensions",
@@ -55519,8 +55419,7 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                },
-                "remark": "https://original.rdatoolkit.org/3.5.html"
+                }
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/duration",
@@ -55534,8 +55433,7 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                },
-                "remark": "http://original.rdatoolkit.org/rdachp7_rda7-1572.html"
+                }
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/baseMaterial",
@@ -55558,8 +55456,7 @@
                   "valueDataType": {
                     "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/BaseMaterial"
                   }
-                },
-                "remark": "https://original.rdatoolkit.org/3.6.html"
+                }
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/soundCharacteristic",
@@ -55580,8 +55477,7 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                },
-                "remark": "https://original.rdatoolkit.org/3.16.html"
+                }
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/systemRequirement",
@@ -55597,8 +55493,7 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                },
-                "remark": "https://original.rdatoolkit.org/3.20.html"
+                }
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/electronicLocator",
@@ -55614,8 +55509,7 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                },
-                "remark": "http://access.rdatoolkit.org/4.6.html"
+                }
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/hasItem",
@@ -55654,8 +55548,7 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                },
-                "remark": "http://access.rdatoolkit.org/4.6.html"
+                }
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/contribution",
@@ -55712,8 +55605,7 @@
                   ],
                   "defaults": [],
                   "valueDataType": {}
-                },
-                "remark": "https://original.rdatoolkit.org/3.16.4.html"
+                }
               }
             ]
           },
@@ -56580,8 +56472,7 @@
                   ],
                   "defaults": [],
                   "valueDataType": {}
-                },
-                "remark": "A human-readable name for the subject."
+                }
               }
             ]
           },
@@ -58872,14 +58763,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-04-06T20:30:43.957Z",
-      "updateDate": "2026-04-06T20:30:43.957Z"
+      "createDate": "2026-04-07T14:00:02.523Z",
+      "updateDate": "2026-04-07T14:00:02.523Z"
     },
-    "created": "2026-04-06T20:30:43.957Z",
-    "modified": "2026-04-06T20:30:43.957Z"
+    "created": "2026-04-07T14:00:02.523Z",
+    "modified": "2026-04-07T14:00:02.523Z"
   },
   {
-    "id": "fcbfe8d7-bbc6-4e25-80cc-3e2dff2eebac",
+    "id": "44114eac-90f0-4737-838b-60defbe600fd",
     "name": "BIBFRAME 2.0 Sound Recording-Audio CD",
     "configType": "profile",
     "json": {
@@ -59035,8 +58926,7 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                },
-                "remark": "https://original.rdatoolkit.org/7.21.html"
+                }
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/ensemble",
@@ -59070,8 +58960,7 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                },
-                "remark": "https://original.rdatoolkit.org/6.16.html"
+                }
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/keyMode",
@@ -59087,8 +58976,7 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                },
-                "remark": "https://original.rdatoolkit.org/6.17.html"
+                }
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/intendedAudience",
@@ -59104,8 +58992,7 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                },
-                "remark": "https://original.rdatoolkit.org/7.7.html"
+                }
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/temporalCoverage",
@@ -59119,8 +59006,7 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                },
-                "remark": "https://original.rdatoolkit.org/7.3.html"
+                }
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/geographicCoverage",
@@ -59172,8 +59058,7 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                },
-                "remark": "http://original.rdatoolkit.org/rdachp23_rda23-12.html"
+                }
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/note",
@@ -59221,8 +59106,7 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                },
-                "remark": "https://original.rdatoolkit.org/7.10.html"
+                }
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/content",
@@ -59245,8 +59129,7 @@
                   "valueDataType": {
                     "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Content"
                   }
-                },
-                "remark": "https://original.rdatoolkit.org/6.9.html"
+                }
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/capture",
@@ -59262,8 +59145,7 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                },
-                "remark": "https://original.rdatoolkit.org/7.11.html"
+                }
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/supplementaryContent",
@@ -59281,8 +59163,7 @@
                   "valueDataType": {
                     "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/SupplementaryContent"
                   }
-                },
-                "remark": "https://original.rdatoolkit.org/7.16.html"
+                }
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/originDate",
@@ -59298,8 +59179,7 @@
                   "valueDataType": {
                     "dataTypeURI": "http://www.loc.gov/standards/datetime/pre-submission.html"
                   }
-                },
-                "remark": "https://original.rdatoolkit.org/6.4.html"
+                }
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/originPlace",
@@ -59317,8 +59197,7 @@
                   "valueDataType": {
                     "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Place"
                   }
-                },
-                "remark": "https://original.rdatoolkit.org/6.5.html"
+                }
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/relation",
@@ -59411,8 +59290,7 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                },
-                "remark": "https://original.rdatoolkit.org/rdachp2_rda2-3376.html"
+                }
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/responsibilityStatement",
@@ -59426,8 +59304,7 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                },
-                "remark": "https://original.rdatoolkit.org/2.4.2.html"
+                }
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/editionStatement",
@@ -59441,8 +59318,7 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                },
-                "remark": "https://original.rdatoolkit.org/2.5.html"
+                }
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/provisionActivity",
@@ -59476,8 +59352,7 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                },
-                "remark": "https://original.rdatoolkit.org/2.11.html"
+                }
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/issuance",
@@ -59500,8 +59375,7 @@
                   "valueDataType": {
                     "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Issuance"
                   }
-                },
-                "remark": "https://original.rdatoolkit.org/2.13.html"
+                }
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/identifiedBy",
@@ -59545,8 +59419,7 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                },
-                "remark": "https://original.rdatoolkit.org/2.17.html"
+                }
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/supplementaryContent",
@@ -59562,8 +59435,7 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                },
-                "remark": "https://original.rdatoolkit.org/7.16.html"
+                }
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/media",
@@ -59586,8 +59458,7 @@
                   "valueDataType": {
                     "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Media"
                   }
-                },
-                "remark": "https://original.rdatoolkit.org/3.2.html"
+                }
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/carrier",
@@ -59610,8 +59481,7 @@
                   "valueDataType": {
                     "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Carrier"
                   }
-                },
-                "remark": "https://original.rdatoolkit.org/3.3.html"
+                }
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/extent",
@@ -59627,8 +59497,7 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                },
-                "remark": "https://original.rdatoolkit.org/3.4.html"
+                }
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/dimensions",
@@ -59642,8 +59511,7 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                },
-                "remark": "https://original.rdatoolkit.org/3.5.html"
+                }
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/duration",
@@ -59657,8 +59525,7 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                },
-                "remark": "http://original.rdatoolkit.org/rdachp7_rda7-1572.html"
+                }
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/baseMaterial",
@@ -59681,8 +59548,7 @@
                   "valueDataType": {
                     "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/BaseMaterial"
                   }
-                },
-                "remark": "https://original.rdatoolkit.org/3.6.html"
+                }
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/soundCharacteristic",
@@ -59703,8 +59569,7 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                },
-                "remark": "https://original.rdatoolkit.org/3.16.html"
+                }
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/digitalCharacteristic",
@@ -59721,8 +59586,7 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                },
-                "remark": "https://original.rdatoolkit.org/3.19.html"
+                }
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/systemRequirement",
@@ -59738,8 +59602,7 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                },
-                "remark": "https://original.rdatoolkit.org/3.20.html"
+                }
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/electronicLocator",
@@ -59755,8 +59618,7 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                },
-                "remark": "http://access.rdatoolkit.org/4.6.html"
+                }
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/hasItem",
@@ -59795,8 +59657,7 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                },
-                "remark": "http://access.rdatoolkit.org/4.6.html"
+                }
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/contribution",
@@ -60785,8 +60646,7 @@
                   ],
                   "defaults": [],
                   "valueDataType": {}
-                },
-                "remark": "A human-readable name for the subject."
+                }
               }
             ]
           },
@@ -63060,14 +62920,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-04-06T20:30:43.973Z",
-      "updateDate": "2026-04-06T20:30:43.973Z"
+      "createDate": "2026-04-07T14:00:02.539Z",
+      "updateDate": "2026-04-07T14:00:02.539Z"
     },
-    "created": "2026-04-06T20:30:43.973Z",
-    "modified": "2026-04-06T20:30:43.973Z"
+    "created": "2026-04-07T14:00:02.539Z",
+    "modified": "2026-04-07T14:00:02.539Z"
   },
   {
-    "id": "d2fe0e08-3751-47da-bf4a-4f932a299fdf",
+    "id": "c030138f-7dd0-44ea-a038-884a0de4c457",
     "name": "BIBFRAME 2.0 Title Information",
     "configType": "profile",
     "json": {
@@ -63663,14 +63523,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-04-06T20:30:43.975Z",
-      "updateDate": "2026-04-06T20:30:43.975Z"
+      "createDate": "2026-04-07T14:00:02.543Z",
+      "updateDate": "2026-04-07T14:00:02.543Z"
     },
-    "created": "2026-04-06T20:30:43.975Z",
-    "modified": "2026-04-06T20:30:43.975Z"
+    "created": "2026-04-07T14:00:02.543Z",
+    "modified": "2026-04-07T14:00:02.543Z"
   },
   {
-    "id": "6f09d227-cefc-4d63-80d7-753c10cae84a",
+    "id": "2fdd28d6-d3a3-43a4-a4a0-60d44a3bf8fd",
     "name": "BIBFRAME 2.0 Topic",
     "configType": "profile",
     "json": {
@@ -63939,8 +63799,7 @@
                   ],
                   "defaults": [],
                   "valueDataType": {}
-                },
-                "remark": "A human-readable name for the subject."
+                }
               }
             ]
           },
@@ -65968,14 +65827,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-04-06T20:30:43.984Z",
-      "updateDate": "2026-04-06T20:30:43.984Z"
+      "createDate": "2026-04-07T14:00:02.552Z",
+      "updateDate": "2026-04-07T14:00:02.552Z"
     },
-    "created": "2026-04-06T20:30:43.984Z",
-    "modified": "2026-04-06T20:30:43.984Z"
+    "created": "2026-04-07T14:00:02.552Z",
+    "modified": "2026-04-07T14:00:02.552Z"
   },
   {
-    "id": "b7fe80c9-d8be-4289-84a2-d8053d7a4961",
+    "id": "0c66ade6-0982-4de1-ba51-884be172c013",
     "name": "BIBFRAME 2.0 Agents Primary Contribution",
     "configType": "profile",
     "json": {
@@ -66152,10 +66011,10 @@
       }
     },
     "metadata": {
-      "createDate": "2026-04-06T20:30:43.985Z",
-      "updateDate": "2026-04-06T20:30:43.985Z"
+      "createDate": "2026-04-07T14:00:02.553Z",
+      "updateDate": "2026-04-07T14:00:02.553Z"
     },
-    "created": "2026-04-06T20:30:43.985Z",
-    "modified": "2026-04-06T20:30:43.985Z"
+    "created": "2026-04-07T14:00:02.553Z",
+    "modified": "2026-04-07T14:00:02.553Z"
   }
 ]
