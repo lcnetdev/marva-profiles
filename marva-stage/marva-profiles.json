@@ -1,6 +1,6 @@
 [
   {
-    "id": "8fd0f4c2-da48-4d45-95cb-1a1ebd242ba3",
+    "id": "7d9e6d5b-5639-407d-964c-bb42fcce7938",
     "name": "BIBFRAME 2.0 Moving Image",
     "configType": "profile",
     "json": {
@@ -2047,7 +2047,7 @@
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/role",
                 "propertyLabel": "Relationship designator(s)",
                 "mandatory": "FALSE",
-                "repeatable": "TRUE",
+                "repeatable": "true",
                 "type": "lookup",
                 "resourceTemplates": [],
                 "valueConstraint": {
@@ -2095,7 +2095,7 @@
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/role",
                 "propertyLabel": "Relationship designator",
                 "mandatory": "FALSE",
-                "repeatable": "TRUE",
+                "repeatable": "true",
                 "type": "lookup",
                 "resourceTemplates": [],
                 "valueConstraint": {
@@ -2110,6 +2110,24 @@
                   }
                 },
                 "remark": "https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates-AgentRolesMarva+cataloging+updates#Marvacatalogingupdates-AgentRoles"
+              },
+              {
+                "propertyURI": "http://id.loc.gov/ontologies/bflc/creatorCharacteristic",
+                "propertyLabel": "Creator characteristics",
+                "mandatory": "false",
+                "repeatable": "true",
+                "type": "lookup",
+                "resourceTemplates": [],
+                "valueConstraint": {
+                  "valueTemplateRefs": [],
+                  "useValuesFrom": [
+                    "http://id.loc.gov/authorities/demographicTerms/collection_LCDGT_General"
+                  ],
+                  "defaults": [],
+                  "valueDataType": {
+                    "dataTypeURI": "http://id.loc.gov/ontologies/bflc/CreatorCharacteristic"
+                  }
+                }
               }
             ]
           },
@@ -4099,14 +4117,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-04-06T19:00:03.144Z",
-      "updateDate": "2026-04-06T19:00:03.144Z"
+      "createDate": "2026-04-07T18:51:02.461Z",
+      "updateDate": "2026-04-07T18:51:02.461Z"
     },
-    "created": "2026-04-06T19:00:03.144Z",
-    "modified": "2026-04-06T19:00:03.144Z"
+    "created": "2026-04-07T18:51:02.461Z",
+    "modified": "2026-04-07T18:51:02.461Z"
   },
   {
-    "id": "671565f8-34fa-49a3-8e0e-1c7fd327aec7",
+    "id": "f62e9593-2033-4de3-a269-90ccd66da5de",
     "name": "Three-dimensional object",
     "configType": "profile",
     "json": {
@@ -4699,14 +4717,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-04-06T19:00:03.146Z",
-      "updateDate": "2026-04-06T19:00:03.146Z"
+      "createDate": "2026-04-07T18:51:02.463Z",
+      "updateDate": "2026-04-07T18:51:02.463Z"
     },
-    "created": "2026-04-06T19:00:03.146Z",
-    "modified": "2026-04-06T19:00:03.146Z"
+    "created": "2026-04-07T18:51:02.463Z",
+    "modified": "2026-04-07T18:51:02.463Z"
   },
   {
-    "id": "664f1fb0-6824-44e4-828a-b1ec07907663",
+    "id": "4f6f5dc1-bb9a-441e-9873-4763c766378a",
     "name": "BIBFRAME 2.0 Admin Metadata",
     "configType": "profile",
     "json": {
@@ -5263,14 +5281,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-04-06T19:00:03.148Z",
-      "updateDate": "2026-04-06T19:00:03.148Z"
+      "createDate": "2026-04-07T18:51:02.465Z",
+      "updateDate": "2026-04-07T18:51:02.465Z"
     },
-    "created": "2026-04-06T19:00:03.148Z",
-    "modified": "2026-04-06T19:00:03.148Z"
+    "created": "2026-04-07T18:51:02.465Z",
+    "modified": "2026-04-07T18:51:02.465Z"
   },
   {
-    "id": "b291c9ff-222a-48f2-ab75-9243786f1354",
+    "id": "ded55341-9e0d-4602-85be-6f74b4e9d5e2",
     "name": "BIBFRAME 2.0 Agents",
     "configType": "profile",
     "json": {
@@ -7992,14 +8010,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-04-06T19:00:03.157Z",
-      "updateDate": "2026-04-06T19:00:03.157Z"
+      "createDate": "2026-04-07T18:51:02.475Z",
+      "updateDate": "2026-04-07T18:51:02.475Z"
     },
-    "created": "2026-04-06T19:00:03.157Z",
-    "modified": "2026-04-06T19:00:03.157Z"
+    "created": "2026-04-07T18:51:02.475Z",
+    "modified": "2026-04-07T18:51:02.475Z"
   },
   {
-    "id": "0e561f66-7af2-4cba-acad-cbafe79df1e8",
+    "id": "2ff890e7-4eda-4cd0-83d2-10e508af5632",
     "name": "BIBFRAME 2.0 RWO",
     "configType": "profile",
     "json": {
@@ -8948,14 +8966,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-04-06T19:00:03.160Z",
-      "updateDate": "2026-04-06T19:00:03.160Z"
+      "createDate": "2026-04-07T18:51:02.478Z",
+      "updateDate": "2026-04-07T18:51:02.478Z"
     },
-    "created": "2026-04-06T19:00:03.160Z",
-    "modified": "2026-04-06T19:00:03.160Z"
+    "created": "2026-04-07T18:51:02.478Z",
+    "modified": "2026-04-07T18:51:02.478Z"
   },
   {
-    "id": "ebe244e2-7aca-4496-8117-b78f3329d859",
+    "id": "6f83b809-4a96-4182-aaa8-7d62132a8a03",
     "name": "BIBFRAME 2.0 Agents Contribution",
     "configType": "profile",
     "json": {
@@ -8993,7 +9011,7 @@
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/role",
                 "propertyLabel": "Relationship designator(s)",
                 "mandatory": "FALSE",
-                "repeatable": "TRUE",
+                "repeatable": "true",
                 "type": "lookup",
                 "resourceTemplates": [],
                 "valueConstraint": {
@@ -9196,14 +9214,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-04-06T19:00:03.161Z",
-      "updateDate": "2026-04-06T19:00:03.161Z"
+      "createDate": "2026-04-07T18:51:02.479Z",
+      "updateDate": "2026-04-07T18:51:02.479Z"
     },
-    "created": "2026-04-06T19:00:03.161Z",
-    "modified": "2026-04-06T19:00:03.161Z"
+    "created": "2026-04-07T18:51:02.479Z",
+    "modified": "2026-04-07T18:51:02.479Z"
   },
   {
-    "id": "b01cc70c-4177-4de4-a596-98578d10f798",
+    "id": "b02b7aa1-c0f3-45dd-8fe0-e7b12c40e0c7",
     "name": "BIBFRAME 2.0 Sound Recording-Analog",
     "configType": "profile",
     "json": {
@@ -10222,7 +10240,7 @@
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/role",
                 "propertyLabel": "Relationship designator",
                 "mandatory": "FALSE",
-                "repeatable": "TRUE",
+                "repeatable": "true",
                 "type": "lookup",
                 "resourceTemplates": [],
                 "valueConstraint": {
@@ -10237,6 +10255,24 @@
                   }
                 },
                 "remark": "https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates-AgentRolesMarva+cataloging+updates#Marvacatalogingupdates-AgentRoles"
+              },
+              {
+                "propertyURI": "http://id.loc.gov/ontologies/bflc/creatorCharacteristic",
+                "propertyLabel": "Creator characteristics",
+                "mandatory": "false",
+                "repeatable": "true",
+                "type": "lookup",
+                "resourceTemplates": [],
+                "valueConstraint": {
+                  "valueTemplateRefs": [],
+                  "useValuesFrom": [
+                    "http://id.loc.gov/authorities/demographicTerms/collection_LCDGT_General"
+                  ],
+                  "defaults": [],
+                  "valueDataType": {
+                    "dataTypeURI": "http://id.loc.gov/ontologies/bflc/CreatorCharacteristic"
+                  }
+                }
               }
             ]
           },
@@ -10521,7 +10557,7 @@
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/role",
                 "propertyLabel": "Relationship designator(s)",
                 "mandatory": "FALSE",
-                "repeatable": "TRUE",
+                "repeatable": "true",
                 "type": "lookup",
                 "resourceTemplates": [],
                 "valueConstraint": {
@@ -13339,14 +13375,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-04-06T19:00:03.178Z",
-      "updateDate": "2026-04-06T19:00:03.178Z"
+      "createDate": "2026-04-07T18:51:02.495Z",
+      "updateDate": "2026-04-07T18:51:02.495Z"
     },
-    "created": "2026-04-06T19:00:03.178Z",
-    "modified": "2026-04-06T19:00:03.178Z"
+    "created": "2026-04-07T18:51:02.495Z",
+    "modified": "2026-04-07T18:51:02.495Z"
   },
   {
-    "id": "cb8370a6-aba8-4fe5-a2f0-ab0b3bb2899a",
+    "id": "f11982da-f182-4b81-bfbe-d81bd0144898",
     "name": "BIBFRAME 2.0 Cartographic",
     "configType": "profile",
     "json": {
@@ -14461,7 +14497,7 @@
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/role",
                 "propertyLabel": "Relationship designator",
                 "mandatory": "FALSE",
-                "repeatable": "TRUE",
+                "repeatable": "true",
                 "type": "lookup",
                 "resourceTemplates": [],
                 "valueConstraint": {
@@ -14476,6 +14512,24 @@
                   }
                 },
                 "remark": "https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates-AgentRolesMarva+cataloging+updates#Marvacatalogingupdates-AgentRoles"
+              },
+              {
+                "propertyURI": "http://id.loc.gov/ontologies/bflc/creatorCharacteristic",
+                "propertyLabel": "Creator characteristics",
+                "mandatory": "false",
+                "repeatable": "true",
+                "type": "lookup",
+                "resourceTemplates": [],
+                "valueConstraint": {
+                  "valueTemplateRefs": [],
+                  "useValuesFrom": [
+                    "http://id.loc.gov/authorities/demographicTerms/collection_LCDGT_General"
+                  ],
+                  "defaults": [],
+                  "valueDataType": {
+                    "dataTypeURI": "http://id.loc.gov/ontologies/bflc/CreatorCharacteristic"
+                  }
+                }
               }
             ]
           },
@@ -14760,7 +14814,7 @@
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/role",
                 "propertyLabel": "Relationship designator(s)",
                 "mandatory": "FALSE",
-                "repeatable": "TRUE",
+                "repeatable": "true",
                 "type": "lookup",
                 "resourceTemplates": [],
                 "valueConstraint": {
@@ -16934,14 +16988,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-04-06T19:00:03.192Z",
-      "updateDate": "2026-04-06T19:00:03.192Z"
+      "createDate": "2026-04-07T18:51:02.509Z",
+      "updateDate": "2026-04-07T18:51:02.509Z"
     },
-    "created": "2026-04-06T19:00:03.192Z",
-    "modified": "2026-04-06T19:00:03.192Z"
+    "created": "2026-04-07T18:51:02.509Z",
+    "modified": "2026-04-07T18:51:02.509Z"
   },
   {
-    "id": "54fe7bc4-a93a-4840-bf83-1018143a3488",
+    "id": "797fed20-7f8f-441b-863c-f3f91caeb466",
     "name": "BIBFRAME 2.0 Classification",
     "configType": "profile",
     "json": {
@@ -17493,14 +17547,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-04-06T19:00:03.195Z",
-      "updateDate": "2026-04-06T19:00:03.195Z"
+      "createDate": "2026-04-07T18:51:02.510Z",
+      "updateDate": "2026-04-07T18:51:02.510Z"
     },
-    "created": "2026-04-06T19:00:03.195Z",
-    "modified": "2026-04-06T19:00:03.195Z"
+    "created": "2026-04-07T18:51:02.510Z",
+    "modified": "2026-04-07T18:51:02.510Z"
   },
   {
-    "id": "dd94b341-7bc7-498e-9f79-8339f04f0f93",
+    "id": "2eaec50e-eb79-4512-bd85-1e7490a8d487",
     "name": "BIBFRAME 2.0 Form",
     "configType": "profile",
     "json": {
@@ -17742,14 +17796,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-04-06T19:00:03.196Z",
-      "updateDate": "2026-04-06T19:00:03.196Z"
+      "createDate": "2026-04-07T18:51:02.511Z",
+      "updateDate": "2026-04-07T18:51:02.511Z"
     },
-    "created": "2026-04-06T19:00:03.196Z",
-    "modified": "2026-04-06T19:00:03.196Z"
+    "created": "2026-04-07T18:51:02.511Z",
+    "modified": "2026-04-07T18:51:02.511Z"
   },
   {
-    "id": "f983853c-f624-4451-9e27-ff3d3c5b6d5f",
+    "id": "6386d9fc-2bc2-45c8-b35c-503bc9a184c0",
     "name": "GPO Monograph",
     "configType": "profile",
     "json": {
@@ -18161,7 +18215,7 @@
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/role",
                 "propertyLabel": "Relationship designator",
                 "mandatory": "FALSE",
-                "repeatable": "TRUE",
+                "repeatable": "true",
                 "type": "lookup",
                 "resourceTemplates": [],
                 "valueConstraint": {
@@ -18176,6 +18230,24 @@
                   }
                 },
                 "remark": "https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates-AgentRolesMarva+cataloging+updates#Marvacatalogingupdates-AgentRoles"
+              },
+              {
+                "propertyURI": "http://id.loc.gov/ontologies/bflc/creatorCharacteristic",
+                "propertyLabel": "Creator characteristics",
+                "mandatory": "false",
+                "repeatable": "true",
+                "type": "lookup",
+                "resourceTemplates": [],
+                "valueConstraint": {
+                  "valueTemplateRefs": [],
+                  "useValuesFrom": [
+                    "http://id.loc.gov/authorities/demographicTerms/collection_LCDGT_General"
+                  ],
+                  "defaults": [],
+                  "valueDataType": {
+                    "dataTypeURI": "http://id.loc.gov/ontologies/bflc/CreatorCharacteristic"
+                  }
+                }
               }
             ]
           },
@@ -19774,14 +19846,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-04-06T19:00:03.203Z",
-      "updateDate": "2026-04-06T19:00:03.203Z"
+      "createDate": "2026-04-07T18:51:02.519Z",
+      "updateDate": "2026-04-07T18:51:02.519Z"
     },
-    "created": "2026-04-06T19:00:03.203Z",
-    "modified": "2026-04-06T19:00:03.203Z"
+    "created": "2026-04-07T18:51:02.519Z",
+    "modified": "2026-04-07T18:51:02.519Z"
   },
   {
-    "id": "f33684a1-982d-419d-899d-9d1a258e89e9",
+    "id": "3bbbd9b7-891e-44a5-8a54-096c17a0fdf7",
     "name": "GPO Serial",
     "configType": "profile",
     "json": {
@@ -20878,7 +20950,7 @@
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/role",
                 "propertyLabel": "Relationship designator",
                 "mandatory": "FALSE",
-                "repeatable": "TRUE",
+                "repeatable": "true",
                 "type": "lookup",
                 "resourceTemplates": [],
                 "valueConstraint": {
@@ -20893,6 +20965,24 @@
                   }
                 },
                 "remark": "https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates-AgentRolesMarva+cataloging+updates#Marvacatalogingupdates-AgentRoles"
+              },
+              {
+                "propertyURI": "http://id.loc.gov/ontologies/bflc/creatorCharacteristic",
+                "propertyLabel": "Creator characteristics",
+                "mandatory": "false",
+                "repeatable": "true",
+                "type": "lookup",
+                "resourceTemplates": [],
+                "valueConstraint": {
+                  "valueTemplateRefs": [],
+                  "useValuesFrom": [
+                    "http://id.loc.gov/authorities/demographicTerms/collection_LCDGT_General"
+                  ],
+                  "defaults": [],
+                  "valueDataType": {
+                    "dataTypeURI": "http://id.loc.gov/ontologies/bflc/CreatorCharacteristic"
+                  }
+                }
               }
             ]
           },
@@ -21481,7 +21571,7 @@
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/role",
                 "propertyLabel": "Relationship designator(s)",
                 "mandatory": "FALSE",
-                "repeatable": "TRUE",
+                "repeatable": "true",
                 "type": "lookup",
                 "resourceTemplates": [],
                 "valueConstraint": {
@@ -24218,14 +24308,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-04-06T19:00:03.221Z",
-      "updateDate": "2026-04-06T19:00:03.221Z"
+      "createDate": "2026-04-07T18:51:02.536Z",
+      "updateDate": "2026-04-07T18:51:02.536Z"
     },
-    "created": "2026-04-06T19:00:03.221Z",
-    "modified": "2026-04-06T19:00:03.221Z"
+    "created": "2026-04-07T18:51:02.536Z",
+    "modified": "2026-04-07T18:51:02.536Z"
   },
   {
-    "id": "ed48df02-7518-44a6-be8a-566713b78ff2",
+    "id": "3ddce8ef-1e2d-45d3-8774-ef2cf029941a",
     "name": "Test BF hub",
     "configType": "profile",
     "json": {
@@ -25076,14 +25166,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-04-06T19:00:03.226Z",
-      "updateDate": "2026-04-06T19:00:03.226Z"
+      "createDate": "2026-04-07T18:51:02.538Z",
+      "updateDate": "2026-04-07T18:51:02.538Z"
     },
-    "created": "2026-04-06T19:00:03.226Z",
-    "modified": "2026-04-06T19:00:03.226Z"
+    "created": "2026-04-07T18:51:02.538Z",
+    "modified": "2026-04-07T18:51:02.538Z"
   },
   {
-    "id": "e7803bf9-5cda-4c96-95b3-599441ded8c1",
+    "id": "e9ae8c17-8d71-4a83-ab66-ffc41246b061",
     "name": "BF Hub",
     "configType": "profile",
     "json": {
@@ -25296,7 +25386,7 @@
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/role",
                 "propertyLabel": "Relationship designator",
                 "mandatory": "FALSE",
-                "repeatable": "TRUE",
+                "repeatable": "true",
                 "type": "lookup",
                 "resourceTemplates": [],
                 "valueConstraint": {
@@ -25311,6 +25401,24 @@
                   }
                 },
                 "remark": "https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates-AgentRolesMarva+cataloging+updates#Marvacatalogingupdates-AgentRoles"
+              },
+              {
+                "propertyURI": "http://id.loc.gov/ontologies/bflc/creatorCharacteristic",
+                "propertyLabel": "Creator characteristics",
+                "mandatory": "false",
+                "repeatable": "true",
+                "type": "lookup",
+                "resourceTemplates": [],
+                "valueConstraint": {
+                  "valueTemplateRefs": [],
+                  "useValuesFrom": [
+                    "http://id.loc.gov/authorities/demographicTerms/collection_LCDGT_General"
+                  ],
+                  "defaults": [],
+                  "valueDataType": {
+                    "dataTypeURI": "http://id.loc.gov/ontologies/bflc/CreatorCharacteristic"
+                  }
+                }
               }
             ]
           },
@@ -25907,14 +26015,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-04-06T19:00:03.229Z",
-      "updateDate": "2026-04-06T19:00:03.229Z"
+      "createDate": "2026-04-07T18:51:02.542Z",
+      "updateDate": "2026-04-07T18:51:02.542Z"
     },
-    "created": "2026-04-06T19:00:03.229Z",
-    "modified": "2026-04-06T19:00:03.229Z"
+    "created": "2026-04-07T18:51:02.542Z",
+    "modified": "2026-04-07T18:51:02.542Z"
   },
   {
-    "id": "0f61f4d8-f8f7-4428-9b8c-4e8786f98bb8",
+    "id": "269ce440-0c7e-4413-871e-dae8b464d202",
     "name": "IBC description",
     "configType": "profile",
     "json": {
@@ -26395,7 +26503,7 @@
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/role",
                 "propertyLabel": "Relationship designator",
                 "mandatory": "FALSE",
-                "repeatable": "TRUE",
+                "repeatable": "true",
                 "type": "lookup",
                 "resourceTemplates": [],
                 "valueConstraint": {
@@ -26410,6 +26518,24 @@
                   }
                 },
                 "remark": "https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates-AgentRolesMarva+cataloging+updates#Marvacatalogingupdates-AgentRoles"
+              },
+              {
+                "propertyURI": "http://id.loc.gov/ontologies/bflc/creatorCharacteristic",
+                "propertyLabel": "Creator characteristics",
+                "mandatory": "false",
+                "repeatable": "true",
+                "type": "lookup",
+                "resourceTemplates": [],
+                "valueConstraint": {
+                  "valueTemplateRefs": [],
+                  "useValuesFrom": [
+                    "http://id.loc.gov/authorities/demographicTerms/collection_LCDGT_General"
+                  ],
+                  "defaults": [],
+                  "valueDataType": {
+                    "dataTypeURI": "http://id.loc.gov/ontologies/bflc/CreatorCharacteristic"
+                  }
+                }
               }
             ]
           },
@@ -29513,7 +29639,7 @@
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/role",
                 "propertyLabel": "Relationship designator(s)",
                 "mandatory": "FALSE",
-                "repeatable": "TRUE",
+                "repeatable": "true",
                 "type": "lookup",
                 "resourceTemplates": [],
                 "valueConstraint": {
@@ -30900,14 +31026,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-04-06T19:00:03.249Z",
-      "updateDate": "2026-04-06T19:00:03.249Z"
+      "createDate": "2026-04-07T18:51:02.560Z",
+      "updateDate": "2026-04-07T18:51:02.560Z"
     },
-    "created": "2026-04-06T19:00:03.249Z",
-    "modified": "2026-04-06T19:00:03.249Z"
+    "created": "2026-04-07T18:51:02.560Z",
+    "modified": "2026-04-07T18:51:02.560Z"
   },
   {
-    "id": "52856194-db2e-4051-a024-cdeb534b0570",
+    "id": "ca98f231-1f46-4462-a14d-120a3dbaaeaf",
     "name": "BIBFRAME 2.0 Identifiers",
     "configType": "profile",
     "json": {
@@ -32489,14 +32615,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-04-06T19:00:03.257Z",
-      "updateDate": "2026-04-06T19:00:03.257Z"
+      "createDate": "2026-04-07T18:51:02.568Z",
+      "updateDate": "2026-04-07T18:51:02.568Z"
     },
-    "created": "2026-04-06T19:00:03.257Z",
-    "modified": "2026-04-06T19:00:03.257Z"
+    "created": "2026-04-07T18:51:02.568Z",
+    "modified": "2026-04-07T18:51:02.568Z"
   },
   {
-    "id": "d96f306f-feff-4930-be62-825c4100c5ee",
+    "id": "78baf90b-bcbf-43d6-9988-7f91b773a773",
     "name": "BIBFRAME 2.0 Item",
     "configType": "profile",
     "json": {
@@ -33005,7 +33131,7 @@
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/role",
                 "propertyLabel": "Relationship designator(s)",
                 "mandatory": "FALSE",
-                "repeatable": "TRUE",
+                "repeatable": "true",
                 "type": "lookup",
                 "resourceTemplates": [],
                 "valueConstraint": {
@@ -33233,14 +33359,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-04-06T19:00:03.261Z",
-      "updateDate": "2026-04-06T19:00:03.261Z"
+      "createDate": "2026-04-07T18:51:02.571Z",
+      "updateDate": "2026-04-07T18:51:02.571Z"
     },
-    "created": "2026-04-06T19:00:03.261Z",
-    "modified": "2026-04-06T19:00:03.261Z"
+    "created": "2026-04-07T18:51:02.571Z",
+    "modified": "2026-04-07T18:51:02.571Z"
   },
   {
-    "id": "d1ee4f22-073e-4d76-b5a5-ad66e28373e2",
+    "id": "b64e7941-505c-4ca3-bc76-426eaf1fcb02",
     "name": "BIBFRAME 2.0 Language",
     "configType": "profile",
     "json": {
@@ -33364,14 +33490,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-04-06T19:00:03.261Z",
-      "updateDate": "2026-04-06T19:00:03.261Z"
+      "createDate": "2026-04-07T18:51:02.571Z",
+      "updateDate": "2026-04-07T18:51:02.571Z"
     },
-    "created": "2026-04-06T19:00:03.261Z",
-    "modified": "2026-04-06T19:00:03.261Z"
+    "created": "2026-04-07T18:51:02.571Z",
+    "modified": "2026-04-07T18:51:02.571Z"
   },
   {
-    "id": "97c9a04c-4668-4e71-9be2-8141f474c940",
+    "id": "ecb67dbf-0129-4321-8b46-1c6486b5864c",
     "name": "BIBFRAME 2.0 Moving Image-DVD",
     "configType": "profile",
     "json": {
@@ -35133,7 +35259,7 @@
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/role",
                 "propertyLabel": "Relationship designator",
                 "mandatory": "FALSE",
-                "repeatable": "TRUE",
+                "repeatable": "true",
                 "type": "lookup",
                 "resourceTemplates": [],
                 "valueConstraint": {
@@ -35148,6 +35274,24 @@
                   }
                 },
                 "remark": "https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates-AgentRolesMarva+cataloging+updates#Marvacatalogingupdates-AgentRoles"
+              },
+              {
+                "propertyURI": "http://id.loc.gov/ontologies/bflc/creatorCharacteristic",
+                "propertyLabel": "Creator characteristics",
+                "mandatory": "false",
+                "repeatable": "true",
+                "type": "lookup",
+                "resourceTemplates": [],
+                "valueConstraint": {
+                  "valueTemplateRefs": [],
+                  "useValuesFrom": [
+                    "http://id.loc.gov/authorities/demographicTerms/collection_LCDGT_General"
+                  ],
+                  "defaults": [],
+                  "valueDataType": {
+                    "dataTypeURI": "http://id.loc.gov/ontologies/bflc/CreatorCharacteristic"
+                  }
+                }
               }
             ]
           },
@@ -35181,7 +35325,7 @@
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/role",
                 "propertyLabel": "Relationship designator(s)",
                 "mandatory": "FALSE",
-                "repeatable": "TRUE",
+                "repeatable": "true",
                 "type": "lookup",
                 "resourceTemplates": [],
                 "valueConstraint": {
@@ -37866,14 +38010,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-04-06T19:00:03.279Z",
-      "updateDate": "2026-04-06T19:00:03.279Z"
+      "createDate": "2026-04-07T18:51:02.588Z",
+      "updateDate": "2026-04-07T18:51:02.588Z"
     },
-    "created": "2026-04-06T19:00:03.279Z",
-    "modified": "2026-04-06T19:00:03.279Z"
+    "created": "2026-04-07T18:51:02.588Z",
+    "modified": "2026-04-07T18:51:02.588Z"
   },
   {
-    "id": "7da83cd1-4249-4b8f-8b4e-ec98325d6d25",
+    "id": "a48cb2a8-88a4-46e9-b5f3-a3219ffc00cb",
     "name": "Monograph Collection",
     "configType": "profile",
     "json": {
@@ -38812,7 +38956,7 @@
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/role",
                 "propertyLabel": "Relationship designator(s)",
                 "mandatory": "FALSE",
-                "repeatable": "TRUE",
+                "repeatable": "true",
                 "type": "lookup",
                 "resourceTemplates": [],
                 "valueConstraint": {
@@ -40811,14 +40955,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-04-06T19:00:03.291Z",
-      "updateDate": "2026-04-06T19:00:03.291Z"
+      "createDate": "2026-04-07T18:51:02.599Z",
+      "updateDate": "2026-04-07T18:51:02.599Z"
     },
-    "created": "2026-04-06T19:00:03.291Z",
-    "modified": "2026-04-06T19:00:03.291Z"
+    "created": "2026-04-07T18:51:02.599Z",
+    "modified": "2026-04-07T18:51:02.599Z"
   },
   {
-    "id": "76c84f4d-6af4-40e5-908c-6854d6a781bf",
+    "id": "dee379eb-3a81-4e48-9669-70b860ca0964",
     "name": "BIBFRAME 2.0 Monograph TEST",
     "configType": "profile",
     "json": {
@@ -41968,7 +42112,7 @@
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/role",
                 "propertyLabel": "Relationship designator",
                 "mandatory": "FALSE",
-                "repeatable": "TRUE",
+                "repeatable": "true",
                 "type": "lookup",
                 "resourceTemplates": [],
                 "valueConstraint": {
@@ -41983,6 +42127,24 @@
                   }
                 },
                 "remark": "https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates-AgentRolesMarva+cataloging+updates#Marvacatalogingupdates-AgentRoles"
+              },
+              {
+                "propertyURI": "http://id.loc.gov/ontologies/bflc/creatorCharacteristic",
+                "propertyLabel": "Creator characteristics",
+                "mandatory": "false",
+                "repeatable": "true",
+                "type": "lookup",
+                "resourceTemplates": [],
+                "valueConstraint": {
+                  "valueTemplateRefs": [],
+                  "useValuesFrom": [
+                    "http://id.loc.gov/authorities/demographicTerms/collection_LCDGT_General"
+                  ],
+                  "defaults": [],
+                  "valueDataType": {
+                    "dataTypeURI": "http://id.loc.gov/ontologies/bflc/CreatorCharacteristic"
+                  }
+                }
               }
             ]
           },
@@ -42267,7 +42429,7 @@
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/role",
                 "propertyLabel": "Relationship designator(s)",
                 "mandatory": "FALSE",
-                "repeatable": "TRUE",
+                "repeatable": "true",
                 "type": "lookup",
                 "resourceTemplates": [],
                 "valueConstraint": {
@@ -45103,14 +45265,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-04-06T19:00:03.307Z",
-      "updateDate": "2026-04-06T19:00:03.307Z"
+      "createDate": "2026-04-07T18:51:02.615Z",
+      "updateDate": "2026-04-07T18:51:02.615Z"
     },
-    "created": "2026-04-06T19:00:03.307Z",
-    "modified": "2026-04-06T19:00:03.307Z"
+    "created": "2026-04-07T18:51:02.615Z",
+    "modified": "2026-04-07T18:51:02.615Z"
   },
   {
-    "id": "c46d0f0c-3be2-4031-a722-72326f3e7a51",
+    "id": "2bdbf5a4-6dbb-4564-a2a0-a7b56636e26a",
     "name": "BIBFRAME 2.0 Monograph (Non-Latin)",
     "configType": "profile",
     "json": {
@@ -46097,7 +46259,7 @@
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/role",
                 "propertyLabel": "Relationship designator",
                 "mandatory": "FALSE",
-                "repeatable": "TRUE",
+                "repeatable": "true",
                 "type": "lookup",
                 "resourceTemplates": [],
                 "valueConstraint": {
@@ -46112,6 +46274,24 @@
                   }
                 },
                 "remark": "https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates-AgentRolesMarva+cataloging+updates#Marvacatalogingupdates-AgentRoles"
+              },
+              {
+                "propertyURI": "http://id.loc.gov/ontologies/bflc/creatorCharacteristic",
+                "propertyLabel": "Creator characteristics",
+                "mandatory": "false",
+                "repeatable": "true",
+                "type": "lookup",
+                "resourceTemplates": [],
+                "valueConstraint": {
+                  "valueTemplateRefs": [],
+                  "useValuesFrom": [
+                    "http://id.loc.gov/authorities/demographicTerms/collection_LCDGT_General"
+                  ],
+                  "defaults": [],
+                  "valueDataType": {
+                    "dataTypeURI": "http://id.loc.gov/ontologies/bflc/CreatorCharacteristic"
+                  }
+                }
               }
             ]
           },
@@ -46443,7 +46623,7 @@
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/role",
                 "propertyLabel": "Relationship designator(s)",
                 "mandatory": "FALSE",
-                "repeatable": "TRUE",
+                "repeatable": "true",
                 "type": "lookup",
                 "resourceTemplates": [],
                 "valueConstraint": {
@@ -48372,14 +48552,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-04-06T19:00:03.321Z",
-      "updateDate": "2026-04-06T19:00:03.321Z"
+      "createDate": "2026-04-07T18:51:02.627Z",
+      "updateDate": "2026-04-07T18:51:02.627Z"
     },
-    "created": "2026-04-06T19:00:03.321Z",
-    "modified": "2026-04-06T19:00:03.321Z"
+    "created": "2026-04-07T18:51:02.627Z",
+    "modified": "2026-04-07T18:51:02.627Z"
   },
   {
-    "id": "f2021ccc-f3a5-4b6e-9ee7-1cb24e90c3e3",
+    "id": "f6f3d3da-b76a-453d-9090-a2716a9b4d54",
     "name": "BIBFRAME 2.0 Notated Music",
     "configType": "profile",
     "json": {
@@ -49414,7 +49594,7 @@
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/role",
                 "propertyLabel": "Relationship designator",
                 "mandatory": "FALSE",
-                "repeatable": "TRUE",
+                "repeatable": "true",
                 "type": "lookup",
                 "resourceTemplates": [],
                 "valueConstraint": {
@@ -49429,6 +49609,24 @@
                   }
                 },
                 "remark": "https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates-AgentRolesMarva+cataloging+updates#Marvacatalogingupdates-AgentRoles"
+              },
+              {
+                "propertyURI": "http://id.loc.gov/ontologies/bflc/creatorCharacteristic",
+                "propertyLabel": "Creator characteristics",
+                "mandatory": "false",
+                "repeatable": "true",
+                "type": "lookup",
+                "resourceTemplates": [],
+                "valueConstraint": {
+                  "valueTemplateRefs": [],
+                  "useValuesFrom": [
+                    "http://id.loc.gov/authorities/demographicTerms/collection_LCDGT_General"
+                  ],
+                  "defaults": [],
+                  "valueDataType": {
+                    "dataTypeURI": "http://id.loc.gov/ontologies/bflc/CreatorCharacteristic"
+                  }
+                }
               }
             ]
           },
@@ -50287,7 +50485,7 @@
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/role",
                 "propertyLabel": "Relationship designator(s)",
                 "mandatory": "FALSE",
-                "repeatable": "TRUE",
+                "repeatable": "true",
                 "type": "lookup",
                 "resourceTemplates": [],
                 "valueConstraint": {
@@ -52189,14 +52387,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-04-06T19:00:03.336Z",
-      "updateDate": "2026-04-06T19:00:03.336Z"
+      "createDate": "2026-04-07T18:51:02.641Z",
+      "updateDate": "2026-04-07T18:51:02.641Z"
     },
-    "created": "2026-04-06T19:00:03.336Z",
-    "modified": "2026-04-06T19:00:03.336Z"
+    "created": "2026-04-07T18:51:02.641Z",
+    "modified": "2026-04-07T18:51:02.641Z"
   },
   {
-    "id": "820707f6-9614-4ec1-bdef-063a945dfd58",
+    "id": "083dc7e5-47cc-4677-99c9-be9192a961d3",
     "name": "Work, Related Work(s), Instance for Notated Music",
     "configType": "profile",
     "json": {
@@ -52778,7 +52976,7 @@
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/role",
                 "propertyLabel": "Relationship designator",
                 "mandatory": "FALSE",
-                "repeatable": "TRUE",
+                "repeatable": "true",
                 "type": "lookup",
                 "resourceTemplates": [],
                 "valueConstraint": {
@@ -52793,6 +52991,24 @@
                   }
                 },
                 "remark": "https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates-AgentRolesMarva+cataloging+updates#Marvacatalogingupdates-AgentRoles"
+              },
+              {
+                "propertyURI": "http://id.loc.gov/ontologies/bflc/creatorCharacteristic",
+                "propertyLabel": "Creator characteristics",
+                "mandatory": "false",
+                "repeatable": "true",
+                "type": "lookup",
+                "resourceTemplates": [],
+                "valueConstraint": {
+                  "valueTemplateRefs": [],
+                  "useValuesFrom": [
+                    "http://id.loc.gov/authorities/demographicTerms/collection_LCDGT_General"
+                  ],
+                  "defaults": [],
+                  "valueDataType": {
+                    "dataTypeURI": "http://id.loc.gov/ontologies/bflc/CreatorCharacteristic"
+                  }
+                }
               }
             ]
           },
@@ -55488,7 +55704,7 @@
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/role",
                 "propertyLabel": "Relationship designator(s)",
                 "mandatory": "FALSE",
-                "repeatable": "TRUE",
+                "repeatable": "true",
                 "type": "lookup",
                 "resourceTemplates": [],
                 "valueConstraint": {
@@ -56566,14 +56782,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-04-06T19:00:03.351Z",
-      "updateDate": "2026-04-06T19:00:03.351Z"
+      "createDate": "2026-04-07T18:51:02.656Z",
+      "updateDate": "2026-04-07T18:51:02.656Z"
     },
-    "created": "2026-04-06T19:00:03.351Z",
-    "modified": "2026-04-06T19:00:03.351Z"
+    "created": "2026-04-07T18:51:02.656Z",
+    "modified": "2026-04-07T18:51:02.656Z"
   },
   {
-    "id": "cbdd5e63-d10b-4177-a7d7-fa877a95979c",
+    "id": "c99e13a2-66aa-4598-857d-c0396f597c94",
     "name": "Notated Music",
     "configType": "profile",
     "json": {
@@ -57459,7 +57675,7 @@
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/role",
                 "propertyLabel": "Relationship designator",
                 "mandatory": "FALSE",
-                "repeatable": "TRUE",
+                "repeatable": "true",
                 "type": "lookup",
                 "resourceTemplates": [],
                 "valueConstraint": {
@@ -57474,6 +57690,24 @@
                   }
                 },
                 "remark": "https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates-AgentRolesMarva+cataloging+updates#Marvacatalogingupdates-AgentRoles"
+              },
+              {
+                "propertyURI": "http://id.loc.gov/ontologies/bflc/creatorCharacteristic",
+                "propertyLabel": "Creator characteristics",
+                "mandatory": "false",
+                "repeatable": "true",
+                "type": "lookup",
+                "resourceTemplates": [],
+                "valueConstraint": {
+                  "valueTemplateRefs": [],
+                  "useValuesFrom": [
+                    "http://id.loc.gov/authorities/demographicTerms/collection_LCDGT_General"
+                  ],
+                  "defaults": [],
+                  "valueDataType": {
+                    "dataTypeURI": "http://id.loc.gov/ontologies/bflc/CreatorCharacteristic"
+                  }
+                }
               }
             ]
           },
@@ -57758,7 +57992,7 @@
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/role",
                 "propertyLabel": "Relationship designator(s)",
                 "mandatory": "FALSE",
-                "repeatable": "TRUE",
+                "repeatable": "true",
                 "type": "lookup",
                 "resourceTemplates": [],
                 "valueConstraint": {
@@ -60466,14 +60700,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-04-06T19:00:03.366Z",
-      "updateDate": "2026-04-06T19:00:03.366Z"
+      "createDate": "2026-04-07T18:51:02.670Z",
+      "updateDate": "2026-04-07T18:51:02.670Z"
     },
-    "created": "2026-04-06T19:00:03.366Z",
-    "modified": "2026-04-06T19:00:03.366Z"
+    "created": "2026-04-07T18:51:02.670Z",
+    "modified": "2026-04-07T18:51:02.670Z"
   },
   {
-    "id": "a1a966fd-0412-4b24-91d8-58abc5fd8e45",
+    "id": "0940056f-0c02-45ca-aced-3b06c04f0e8d",
     "name": "BIBFRAME 2.0 Note",
     "configType": "profile",
     "json": {
@@ -60845,14 +61079,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-04-06T19:00:03.367Z",
-      "updateDate": "2026-04-06T19:00:03.367Z"
+      "createDate": "2026-04-07T18:51:02.672Z",
+      "updateDate": "2026-04-07T18:51:02.672Z"
     },
-    "created": "2026-04-06T19:00:03.367Z",
-    "modified": "2026-04-06T19:00:03.367Z"
+    "created": "2026-04-07T18:51:02.672Z",
+    "modified": "2026-04-07T18:51:02.672Z"
   },
   {
-    "id": "d8a5bc1a-ea0e-4dda-9704-4ac07718ab5f",
+    "id": "52a1d74c-0f38-48ec-a9b1-3341f7b0ab23",
     "name": "BIBFRAME Official RDA Monograph",
     "configType": "profile",
     "json": {
@@ -61816,7 +62050,7 @@
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/role",
                 "propertyLabel": "Relationship designator",
                 "mandatory": "FALSE",
-                "repeatable": "TRUE",
+                "repeatable": "true",
                 "type": "lookup",
                 "resourceTemplates": [],
                 "valueConstraint": {
@@ -61831,6 +62065,24 @@
                   }
                 },
                 "remark": "https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates-AgentRolesMarva+cataloging+updates#Marvacatalogingupdates-AgentRoles"
+              },
+              {
+                "propertyURI": "http://id.loc.gov/ontologies/bflc/creatorCharacteristic",
+                "propertyLabel": "Creator characteristics",
+                "mandatory": "false",
+                "repeatable": "true",
+                "type": "lookup",
+                "resourceTemplates": [],
+                "valueConstraint": {
+                  "valueTemplateRefs": [],
+                  "useValuesFrom": [
+                    "http://id.loc.gov/authorities/demographicTerms/collection_LCDGT_General"
+                  ],
+                  "defaults": [],
+                  "valueDataType": {
+                    "dataTypeURI": "http://id.loc.gov/ontologies/bflc/CreatorCharacteristic"
+                  }
+                }
               }
             ]
           },
@@ -64976,7 +65228,7 @@
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/role",
                 "propertyLabel": "Relationship designator(s)",
                 "mandatory": "FALSE",
-                "repeatable": "TRUE",
+                "repeatable": "true",
                 "type": "lookup",
                 "resourceTemplates": [],
                 "valueConstraint": {
@@ -66200,14 +66452,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-04-06T19:00:03.386Z",
-      "updateDate": "2026-04-06T19:00:03.386Z"
+      "createDate": "2026-04-07T18:51:02.693Z",
+      "updateDate": "2026-04-07T18:51:02.693Z"
     },
-    "created": "2026-04-06T19:00:03.386Z",
-    "modified": "2026-04-06T19:00:03.386Z"
+    "created": "2026-04-07T18:51:02.693Z",
+    "modified": "2026-04-07T18:51:02.693Z"
   },
   {
-    "id": "7003c0ed-2342-4a26-b23f-3d634d63b0dc",
+    "id": "df483810-4ebb-4961-86f5-1769a9ba4683",
     "name": "PMO Medium of Performance",
     "configType": "profile",
     "json": {
@@ -68240,14 +68492,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-04-06T19:00:03.393Z",
-      "updateDate": "2026-04-06T19:00:03.393Z"
+      "createDate": "2026-04-07T18:51:02.700Z",
+      "updateDate": "2026-04-07T18:51:02.700Z"
     },
-    "created": "2026-04-06T19:00:03.393Z",
-    "modified": "2026-04-06T19:00:03.393Z"
+    "created": "2026-04-07T18:51:02.700Z",
+    "modified": "2026-04-07T18:51:02.700Z"
   },
   {
-    "id": "8465465e-5991-4d7b-a0fd-a8596affde6d",
+    "id": "3623962a-c99f-4370-8f36-2aedc2c682f7",
     "name": "BIBFRAME 2.0 Place",
     "configType": "profile",
     "json": {
@@ -68394,14 +68646,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-04-06T19:00:03.395Z",
-      "updateDate": "2026-04-06T19:00:03.395Z"
+      "createDate": "2026-04-07T18:51:02.700Z",
+      "updateDate": "2026-04-07T18:51:02.700Z"
     },
-    "created": "2026-04-06T19:00:03.395Z",
-    "modified": "2026-04-06T19:00:03.395Z"
+    "created": "2026-04-07T18:51:02.700Z",
+    "modified": "2026-04-07T18:51:02.700Z"
   },
   {
-    "id": "96e63ac2-d026-4ef5-b5e7-bfd8caa3d86c",
+    "id": "1290cb74-c69e-4f94-b94b-ce938d104d60",
     "name": "Prints & Photographs Collection",
     "configType": "profile",
     "json": {
@@ -69792,7 +70044,7 @@
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/role",
                 "propertyLabel": "Relationship designator",
                 "mandatory": "FALSE",
-                "repeatable": "TRUE",
+                "repeatable": "true",
                 "type": "lookup",
                 "resourceTemplates": [],
                 "valueConstraint": {
@@ -69807,6 +70059,24 @@
                   }
                 },
                 "remark": "https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates-AgentRolesMarva+cataloging+updates#Marvacatalogingupdates-AgentRoles"
+              },
+              {
+                "propertyURI": "http://id.loc.gov/ontologies/bflc/creatorCharacteristic",
+                "propertyLabel": "Creator characteristics",
+                "mandatory": "false",
+                "repeatable": "true",
+                "type": "lookup",
+                "resourceTemplates": [],
+                "valueConstraint": {
+                  "valueTemplateRefs": [],
+                  "useValuesFrom": [
+                    "http://id.loc.gov/authorities/demographicTerms/collection_LCDGT_General"
+                  ],
+                  "defaults": [],
+                  "valueDataType": {
+                    "dataTypeURI": "http://id.loc.gov/ontologies/bflc/CreatorCharacteristic"
+                  }
+                }
               }
             ]
           },
@@ -69840,7 +70110,7 @@
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/role",
                 "propertyLabel": "Relationship designator(s)",
                 "mandatory": "FALSE",
-                "repeatable": "TRUE",
+                "repeatable": "true",
                 "type": "lookup",
                 "resourceTemplates": [],
                 "valueConstraint": {
@@ -71707,14 +71977,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-04-06T19:00:03.408Z",
-      "updateDate": "2026-04-06T19:00:03.408Z"
+      "createDate": "2026-04-07T18:51:02.713Z",
+      "updateDate": "2026-04-07T18:51:02.713Z"
     },
-    "created": "2026-04-06T19:00:03.408Z",
-    "modified": "2026-04-06T19:00:03.408Z"
+    "created": "2026-04-07T18:51:02.713Z",
+    "modified": "2026-04-07T18:51:02.713Z"
   },
   {
-    "id": "ea8e3ff8-9576-4457-8955-153a8bcb9871",
+    "id": "ee7347b1-fcc6-4a1e-9389-acf9503c5339",
     "name": "Prints & Photographs",
     "configType": "profile",
     "json": {
@@ -73150,7 +73420,7 @@
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/role",
                 "propertyLabel": "Relationship designator",
                 "mandatory": "FALSE",
-                "repeatable": "TRUE",
+                "repeatable": "true",
                 "type": "lookup",
                 "resourceTemplates": [],
                 "valueConstraint": {
@@ -73165,6 +73435,24 @@
                   }
                 },
                 "remark": "https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates-AgentRolesMarva+cataloging+updates#Marvacatalogingupdates-AgentRoles"
+              },
+              {
+                "propertyURI": "http://id.loc.gov/ontologies/bflc/creatorCharacteristic",
+                "propertyLabel": "Creator characteristics",
+                "mandatory": "false",
+                "repeatable": "true",
+                "type": "lookup",
+                "resourceTemplates": [],
+                "valueConstraint": {
+                  "valueTemplateRefs": [],
+                  "useValuesFrom": [
+                    "http://id.loc.gov/authorities/demographicTerms/collection_LCDGT_General"
+                  ],
+                  "defaults": [],
+                  "valueDataType": {
+                    "dataTypeURI": "http://id.loc.gov/ontologies/bflc/CreatorCharacteristic"
+                  }
+                }
               }
             ]
           },
@@ -73198,7 +73486,7 @@
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/role",
                 "propertyLabel": "Relationship designator(s)",
                 "mandatory": "FALSE",
-                "repeatable": "TRUE",
+                "repeatable": "true",
                 "type": "lookup",
                 "resourceTemplates": [],
                 "valueConstraint": {
@@ -74900,14 +75188,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-04-06T19:00:03.422Z",
-      "updateDate": "2026-04-06T19:00:03.422Z"
+      "createDate": "2026-04-07T18:51:02.726Z",
+      "updateDate": "2026-04-07T18:51:02.726Z"
     },
-    "created": "2026-04-06T19:00:03.422Z",
-    "modified": "2026-04-06T19:00:03.422Z"
+    "created": "2026-04-07T18:51:02.726Z",
+    "modified": "2026-04-07T18:51:02.726Z"
   },
   {
-    "id": "adc80d6e-6007-432f-89f6-ebdfd23e1257",
+    "id": "0b42212e-ef7d-49cd-942f-f1b947bc81a4",
     "name": "BIBFRAME 2.0 Publication, Distribution, Manufacturer Activity",
     "configType": "profile",
     "json": {
@@ -75243,14 +75531,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-04-06T19:00:03.423Z",
-      "updateDate": "2026-04-06T19:00:03.423Z"
+      "createDate": "2026-04-07T18:51:02.727Z",
+      "updateDate": "2026-04-07T18:51:02.727Z"
     },
-    "created": "2026-04-06T19:00:03.423Z",
-    "modified": "2026-04-06T19:00:03.423Z"
+    "created": "2026-04-07T18:51:02.727Z",
+    "modified": "2026-04-07T18:51:02.727Z"
   },
   {
-    "id": "8ae992c3-807b-473a-9550-388259cbcbf0",
+    "id": "cff3d5f8-36f4-4896-abb0-729dba333a96",
     "name": "BIBFRAME 2.0 Rare Materials",
     "configType": "profile",
     "json": {
@@ -76439,7 +76727,7 @@
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/role",
                 "propertyLabel": "Relationship designator",
                 "mandatory": "FALSE",
-                "repeatable": "TRUE",
+                "repeatable": "true",
                 "type": "lookup",
                 "resourceTemplates": [],
                 "valueConstraint": {
@@ -76454,6 +76742,24 @@
                   }
                 },
                 "remark": "https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates-AgentRolesMarva+cataloging+updates#Marvacatalogingupdates-AgentRoles"
+              },
+              {
+                "propertyURI": "http://id.loc.gov/ontologies/bflc/creatorCharacteristic",
+                "propertyLabel": "Creator characteristics",
+                "mandatory": "false",
+                "repeatable": "true",
+                "type": "lookup",
+                "resourceTemplates": [],
+                "valueConstraint": {
+                  "valueTemplateRefs": [],
+                  "useValuesFrom": [
+                    "http://id.loc.gov/authorities/demographicTerms/collection_LCDGT_General"
+                  ],
+                  "defaults": [],
+                  "valueDataType": {
+                    "dataTypeURI": "http://id.loc.gov/ontologies/bflc/CreatorCharacteristic"
+                  }
+                }
               }
             ]
           },
@@ -76738,7 +77044,7 @@
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/role",
                 "propertyLabel": "Relationship designator(s)",
                 "mandatory": "FALSE",
-                "repeatable": "TRUE",
+                "repeatable": "true",
                 "type": "lookup",
                 "resourceTemplates": [],
                 "valueConstraint": {
@@ -78831,14 +79137,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-04-06T19:00:03.437Z",
-      "updateDate": "2026-04-06T19:00:03.437Z"
+      "createDate": "2026-04-07T18:51:02.743Z",
+      "updateDate": "2026-04-07T18:51:02.743Z"
     },
-    "created": "2026-04-06T19:00:03.437Z",
-    "modified": "2026-04-06T19:00:03.437Z"
+    "created": "2026-04-07T18:51:02.743Z",
+    "modified": "2026-04-07T18:51:02.743Z"
   },
   {
-    "id": "2eff69b1-ff72-4d2b-93b3-ddd943b6742b",
+    "id": "b51fd7d3-b85b-4362-9ecb-1dbf33969bb5",
     "name": "BIBFRAME 2.0 Related Works and Expressions",
     "configType": "profile",
     "json": {
@@ -79230,14 +79536,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-04-06T19:00:03.438Z",
-      "updateDate": "2026-04-06T19:00:03.438Z"
+      "createDate": "2026-04-07T18:51:02.745Z",
+      "updateDate": "2026-04-07T18:51:02.745Z"
     },
-    "created": "2026-04-06T19:00:03.438Z",
-    "modified": "2026-04-06T19:00:03.438Z"
+    "created": "2026-04-07T18:51:02.745Z",
+    "modified": "2026-04-07T18:51:02.745Z"
   },
   {
-    "id": "6e05b5dc-1568-4144-9f4b-85e039afe078",
+    "id": "ee9dbd8a-e4f0-4caa-acdd-bd088829acab",
     "name": "BIBFRAME 2.0 Serial",
     "configType": "profile",
     "json": {
@@ -80643,7 +80949,7 @@
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/role",
                 "propertyLabel": "Relationship designator",
                 "mandatory": "FALSE",
-                "repeatable": "TRUE",
+                "repeatable": "true",
                 "type": "lookup",
                 "resourceTemplates": [],
                 "valueConstraint": {
@@ -80658,6 +80964,24 @@
                   }
                 },
                 "remark": "https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates-AgentRolesMarva+cataloging+updates#Marvacatalogingupdates-AgentRoles"
+              },
+              {
+                "propertyURI": "http://id.loc.gov/ontologies/bflc/creatorCharacteristic",
+                "propertyLabel": "Creator characteristics",
+                "mandatory": "false",
+                "repeatable": "true",
+                "type": "lookup",
+                "resourceTemplates": [],
+                "valueConstraint": {
+                  "valueTemplateRefs": [],
+                  "useValuesFrom": [
+                    "http://id.loc.gov/authorities/demographicTerms/collection_LCDGT_General"
+                  ],
+                  "defaults": [],
+                  "valueDataType": {
+                    "dataTypeURI": "http://id.loc.gov/ontologies/bflc/CreatorCharacteristic"
+                  }
+                }
               }
             ]
           },
@@ -81246,7 +81570,7 @@
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/role",
                 "propertyLabel": "Relationship designator(s)",
                 "mandatory": "FALSE",
-                "repeatable": "TRUE",
+                "repeatable": "true",
                 "type": "lookup",
                 "resourceTemplates": [],
                 "valueConstraint": {
@@ -83759,14 +84083,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-04-06T19:00:03.457Z",
-      "updateDate": "2026-04-06T19:00:03.457Z"
+      "createDate": "2026-04-07T18:51:02.762Z",
+      "updateDate": "2026-04-07T18:51:02.762Z"
     },
-    "created": "2026-04-06T19:00:03.457Z",
-    "modified": "2026-04-06T19:00:03.457Z"
+    "created": "2026-04-07T18:51:02.762Z",
+    "modified": "2026-04-07T18:51:02.762Z"
   },
   {
-    "id": "f28e8ad0-9e0e-485b-9b73-64154458d4ef",
+    "id": "e4b325ee-a54a-42fa-b040-efa146ab0148",
     "name": "BIBFRAME 2.0 Series Information",
     "configType": "profile",
     "json": {
@@ -84097,14 +84421,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-04-06T19:00:03.458Z",
-      "updateDate": "2026-04-06T19:00:03.458Z"
+      "createDate": "2026-04-07T18:51:02.764Z",
+      "updateDate": "2026-04-07T18:51:02.764Z"
     },
-    "created": "2026-04-06T19:00:03.458Z",
-    "modified": "2026-04-06T19:00:03.458Z"
+    "created": "2026-04-07T18:51:02.764Z",
+    "modified": "2026-04-07T18:51:02.764Z"
   },
   {
-    "id": "4c6f4681-7881-4998-b353-54709bf36b35",
+    "id": "cf0aa282-5f7d-4cd7-b186-e16055b9766e",
     "name": "Test Simple Authority",
     "configType": "profile",
     "json": {
@@ -84271,14 +84595,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-04-06T19:00:03.459Z",
-      "updateDate": "2026-04-06T19:00:03.459Z"
+      "createDate": "2026-04-07T18:51:02.764Z",
+      "updateDate": "2026-04-07T18:51:02.764Z"
     },
-    "created": "2026-04-06T19:00:03.459Z",
-    "modified": "2026-04-06T19:00:03.459Z"
+    "created": "2026-04-07T18:51:02.764Z",
+    "modified": "2026-04-07T18:51:02.764Z"
   },
   {
-    "id": "b780d83e-d519-4f32-bbf7-355aa3c764b4",
+    "id": "389aa078-a1fa-4f01-8897-3da195480a4b",
     "name": "BIBFRAME 2.0 Sound Record-Audio CD",
     "configType": "profile",
     "json": {
@@ -85234,7 +85558,7 @@
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/role",
                 "propertyLabel": "Relationship designator",
                 "mandatory": "FALSE",
-                "repeatable": "TRUE",
+                "repeatable": "true",
                 "type": "lookup",
                 "resourceTemplates": [],
                 "valueConstraint": {
@@ -85249,6 +85573,24 @@
                   }
                 },
                 "remark": "https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates-AgentRolesMarva+cataloging+updates#Marvacatalogingupdates-AgentRoles"
+              },
+              {
+                "propertyURI": "http://id.loc.gov/ontologies/bflc/creatorCharacteristic",
+                "propertyLabel": "Creator characteristics",
+                "mandatory": "false",
+                "repeatable": "true",
+                "type": "lookup",
+                "resourceTemplates": [],
+                "valueConstraint": {
+                  "valueTemplateRefs": [],
+                  "useValuesFrom": [
+                    "http://id.loc.gov/authorities/demographicTerms/collection_LCDGT_General"
+                  ],
+                  "defaults": [],
+                  "valueDataType": {
+                    "dataTypeURI": "http://id.loc.gov/ontologies/bflc/CreatorCharacteristic"
+                  }
+                }
               }
             ]
           },
@@ -85533,7 +85875,7 @@
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/role",
                 "propertyLabel": "Relationship designator(s)",
                 "mandatory": "FALSE",
-                "repeatable": "TRUE",
+                "repeatable": "true",
                 "type": "lookup",
                 "resourceTemplates": [],
                 "valueConstraint": {
@@ -88390,14 +88732,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-04-06T19:00:03.476Z",
-      "updateDate": "2026-04-06T19:00:03.476Z"
+      "createDate": "2026-04-07T18:51:02.780Z",
+      "updateDate": "2026-04-07T18:51:02.780Z"
     },
-    "created": "2026-04-06T19:00:03.476Z",
-    "modified": "2026-04-06T19:00:03.476Z"
+    "created": "2026-04-07T18:51:02.780Z",
+    "modified": "2026-04-07T18:51:02.780Z"
   },
   {
-    "id": "7f52112c-d432-477f-b292-0391988d534e",
+    "id": "2dc38d93-5918-442a-a4b1-1c775de2a062",
     "name": "BIBFRAME 2.0 Sound Recording-Audio CD-R",
     "configType": "profile",
     "json": {
@@ -89392,7 +89734,7 @@
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/role",
                 "propertyLabel": "Relationship designator",
                 "mandatory": "FALSE",
-                "repeatable": "TRUE",
+                "repeatable": "true",
                 "type": "lookup",
                 "resourceTemplates": [],
                 "valueConstraint": {
@@ -89407,6 +89749,24 @@
                   }
                 },
                 "remark": "https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates-AgentRolesMarva+cataloging+updates#Marvacatalogingupdates-AgentRoles"
+              },
+              {
+                "propertyURI": "http://id.loc.gov/ontologies/bflc/creatorCharacteristic",
+                "propertyLabel": "Creator characteristics",
+                "mandatory": "false",
+                "repeatable": "true",
+                "type": "lookup",
+                "resourceTemplates": [],
+                "valueConstraint": {
+                  "valueTemplateRefs": [],
+                  "useValuesFrom": [
+                    "http://id.loc.gov/authorities/demographicTerms/collection_LCDGT_General"
+                  ],
+                  "defaults": [],
+                  "valueDataType": {
+                    "dataTypeURI": "http://id.loc.gov/ontologies/bflc/CreatorCharacteristic"
+                  }
+                }
               }
             ]
           },
@@ -89691,7 +90051,7 @@
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/role",
                 "propertyLabel": "Relationship designator(s)",
                 "mandatory": "FALSE",
-                "repeatable": "TRUE",
+                "repeatable": "true",
                 "type": "lookup",
                 "resourceTemplates": [],
                 "valueConstraint": {
@@ -92548,14 +92908,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-04-06T19:00:03.492Z",
-      "updateDate": "2026-04-06T19:00:03.492Z"
+      "createDate": "2026-04-07T18:51:02.795Z",
+      "updateDate": "2026-04-07T18:51:02.795Z"
     },
-    "created": "2026-04-06T19:00:03.492Z",
-    "modified": "2026-04-06T19:00:03.492Z"
+    "created": "2026-04-07T18:51:02.795Z",
+    "modified": "2026-04-07T18:51:02.795Z"
   },
   {
-    "id": "1ad76d37-9410-4c2a-b482-8f873f76e6a0",
+    "id": "341d1901-7a64-4f15-aafe-15ba8a8b55fa",
     "name": "BIBFRAME 2.0 Sound Recording-Audio Cassette",
     "configType": "profile",
     "json": {
@@ -93519,7 +93879,7 @@
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/role",
                 "propertyLabel": "Relationship designator",
                 "mandatory": "FALSE",
-                "repeatable": "TRUE",
+                "repeatable": "true",
                 "type": "lookup",
                 "resourceTemplates": [],
                 "valueConstraint": {
@@ -93534,6 +93894,24 @@
                   }
                 },
                 "remark": "https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates-AgentRolesMarva+cataloging+updates#Marvacatalogingupdates-AgentRoles"
+              },
+              {
+                "propertyURI": "http://id.loc.gov/ontologies/bflc/creatorCharacteristic",
+                "propertyLabel": "Creator characteristics",
+                "mandatory": "false",
+                "repeatable": "true",
+                "type": "lookup",
+                "resourceTemplates": [],
+                "valueConstraint": {
+                  "valueTemplateRefs": [],
+                  "useValuesFrom": [
+                    "http://id.loc.gov/authorities/demographicTerms/collection_LCDGT_General"
+                  ],
+                  "defaults": [],
+                  "valueDataType": {
+                    "dataTypeURI": "http://id.loc.gov/ontologies/bflc/CreatorCharacteristic"
+                  }
+                }
               }
             ]
           },
@@ -93818,7 +94196,7 @@
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/role",
                 "propertyLabel": "Relationship designator(s)",
                 "mandatory": "FALSE",
-                "repeatable": "TRUE",
+                "repeatable": "true",
                 "type": "lookup",
                 "resourceTemplates": [],
                 "valueConstraint": {
@@ -96606,14 +96984,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-04-06T19:00:03.509Z",
-      "updateDate": "2026-04-06T19:00:03.509Z"
+      "createDate": "2026-04-07T18:51:02.810Z",
+      "updateDate": "2026-04-07T18:51:02.810Z"
     },
-    "created": "2026-04-06T19:00:03.509Z",
-    "modified": "2026-04-06T19:00:03.509Z"
+    "created": "2026-04-07T18:51:02.810Z",
+    "modified": "2026-04-07T18:51:02.810Z"
   },
   {
-    "id": "1800e16b-dbdb-46b8-b873-437cd9d2f75e",
+    "id": "4a6c30b4-c73f-41bb-9cd3-b8f303e48557",
     "name": "Subjects",
     "configType": "profile",
     "json": {
@@ -96946,14 +97324,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-04-06T19:00:03.510Z",
-      "updateDate": "2026-04-06T19:00:03.510Z"
+      "createDate": "2026-04-07T18:51:02.812Z",
+      "updateDate": "2026-04-07T18:51:02.812Z"
     },
-    "created": "2026-04-06T19:00:03.510Z",
-    "modified": "2026-04-06T19:00:03.510Z"
+    "created": "2026-04-07T18:51:02.812Z",
+    "modified": "2026-04-07T18:51:02.812Z"
   },
   {
-    "id": "3c484d12-203a-4c67-8123-8b9c0362bb2b",
+    "id": "570698dd-8133-495c-bd68-4f826428c9b9",
     "name": "BIBFRAME 2.0 Title Information",
     "configType": "profile",
     "json": {
@@ -97610,14 +97988,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-04-06T19:00:03.513Z",
-      "updateDate": "2026-04-06T19:00:03.513Z"
+      "createDate": "2026-04-07T18:51:02.814Z",
+      "updateDate": "2026-04-07T18:51:02.814Z"
     },
-    "created": "2026-04-06T19:00:03.513Z",
-    "modified": "2026-04-06T19:00:03.513Z"
+    "created": "2026-04-07T18:51:02.814Z",
+    "modified": "2026-04-07T18:51:02.814Z"
   },
   {
-    "id": "3247d91d-ceb4-4b64-a1d4-80d7013ba46e",
+    "id": "b474033d-9233-4b3e-9e49-0ada84d16ea7",
     "name": "BIBFRAME 2.0 Topic",
     "configType": "profile",
     "json": {
@@ -98167,14 +98545,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-04-06T19:00:03.515Z",
-      "updateDate": "2026-04-06T19:00:03.515Z"
+      "createDate": "2026-04-07T18:51:02.818Z",
+      "updateDate": "2026-04-07T18:51:02.818Z"
     },
-    "created": "2026-04-06T19:00:03.515Z",
-    "modified": "2026-04-06T19:00:03.515Z"
+    "created": "2026-04-07T18:51:02.818Z",
+    "modified": "2026-04-07T18:51:02.818Z"
   },
   {
-    "id": "3a999c26-8181-449d-ba63-bb8fe6ffb0f0",
+    "id": "d2eb099c-a816-46f8-97dd-f4b918008465",
     "name": "BIBFRAME 2.0 Videocassette",
     "configType": "profile",
     "json": {
@@ -99836,7 +100214,7 @@
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/role",
                 "propertyLabel": "Relationship designator(s)",
                 "mandatory": "FALSE",
-                "repeatable": "TRUE",
+                "repeatable": "true",
                 "type": "lookup",
                 "resourceTemplates": [],
                 "valueConstraint": {
@@ -102419,14 +102797,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-04-06T19:00:03.532Z",
-      "updateDate": "2026-04-06T19:00:03.532Z"
+      "createDate": "2026-04-07T18:51:02.833Z",
+      "updateDate": "2026-04-07T18:51:02.833Z"
     },
-    "created": "2026-04-06T19:00:03.532Z",
-    "modified": "2026-04-06T19:00:03.532Z"
+    "created": "2026-04-07T18:51:02.833Z",
+    "modified": "2026-04-07T18:51:02.833Z"
   },
   {
-    "id": "e7932ccf-b14c-4310-a278-29b50ed7229e",
+    "id": "a0b02cc7-fffc-4e46-b72b-28e33f2d2de8",
     "name": "BIBFRAME 2.0 Extra menus",
     "configType": "profile",
     "json": {
@@ -103522,14 +103900,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-04-06T19:00:03.537Z",
-      "updateDate": "2026-04-06T19:00:03.537Z"
+      "createDate": "2026-04-07T18:51:02.839Z",
+      "updateDate": "2026-04-07T18:51:02.839Z"
     },
-    "created": "2026-04-06T19:00:03.537Z",
-    "modified": "2026-04-06T19:00:03.537Z"
+    "created": "2026-04-07T18:51:02.839Z",
+    "modified": "2026-04-07T18:51:02.839Z"
   },
   {
-    "id": "ecfbca80-0571-4ca4-aa07-58dd57aebafb",
+    "id": "138fa009-5981-4291-9ec2-09ae07d0a078",
     "name": "Test Manuscripts (DACS)",
     "configType": "profile",
     "json": {
@@ -103920,7 +104298,7 @@
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/role",
                 "propertyLabel": "Relationship designator(s)",
                 "mandatory": "FALSE",
-                "repeatable": "TRUE",
+                "repeatable": "true",
                 "type": "lookup",
                 "resourceTemplates": [],
                 "valueConstraint": {
@@ -104620,14 +104998,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-04-06T19:00:03.543Z",
-      "updateDate": "2026-04-06T19:00:03.543Z"
+      "createDate": "2026-04-07T18:51:02.843Z",
+      "updateDate": "2026-04-07T18:51:02.843Z"
     },
-    "created": "2026-04-06T19:00:03.543Z",
-    "modified": "2026-04-06T19:00:03.543Z"
+    "created": "2026-04-07T18:51:02.843Z",
+    "modified": "2026-04-07T18:51:02.843Z"
   },
   {
-    "id": "34a58231-9c32-4d12-9f2c-2b38992e6196",
+    "id": "bece9a01-de7b-4dec-8763-a950db74faf8",
     "name": "Test Mixed Materials",
     "configType": "profile",
     "json": {
@@ -106307,7 +106685,7 @@
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/role",
                 "propertyLabel": "Relationship designator",
                 "mandatory": "FALSE",
-                "repeatable": "TRUE",
+                "repeatable": "true",
                 "type": "lookup",
                 "resourceTemplates": [],
                 "valueConstraint": {
@@ -106322,6 +106700,24 @@
                   }
                 },
                 "remark": "https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates-AgentRolesMarva+cataloging+updates#Marvacatalogingupdates-AgentRoles"
+              },
+              {
+                "propertyURI": "http://id.loc.gov/ontologies/bflc/creatorCharacteristic",
+                "propertyLabel": "Creator characteristics",
+                "mandatory": "false",
+                "repeatable": "true",
+                "type": "lookup",
+                "resourceTemplates": [],
+                "valueConstraint": {
+                  "valueTemplateRefs": [],
+                  "useValuesFrom": [
+                    "http://id.loc.gov/authorities/demographicTerms/collection_LCDGT_General"
+                  ],
+                  "defaults": [],
+                  "valueDataType": {
+                    "dataTypeURI": "http://id.loc.gov/ontologies/bflc/CreatorCharacteristic"
+                  }
+                }
               }
             ]
           },
@@ -106700,7 +107096,7 @@
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/role",
                 "propertyLabel": "Relationship designator(s)",
                 "mandatory": "FALSE",
-                "repeatable": "TRUE",
+                "repeatable": "true",
                 "type": "lookup",
                 "resourceTemplates": [],
                 "valueConstraint": {
@@ -109554,14 +109950,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-04-06T19:00:03.564Z",
-      "updateDate": "2026-04-06T19:00:03.564Z"
+      "createDate": "2026-04-07T18:51:02.864Z",
+      "updateDate": "2026-04-07T18:51:02.864Z"
     },
-    "created": "2026-04-06T19:00:03.564Z",
-    "modified": "2026-04-06T19:00:03.564Z"
+    "created": "2026-04-07T18:51:02.864Z",
+    "modified": "2026-04-07T18:51:02.864Z"
   },
   {
-    "id": "ff2f328b-b782-43a8-9968-5047b02143ae",
+    "id": "927fb954-fce7-4f2f-9547-6f751c945da4",
     "name": "Test profile for RDA Work",
     "configType": "profile",
     "json": {
@@ -112324,10 +112720,10 @@
       }
     },
     "metadata": {
-      "createDate": "2026-04-06T19:00:03.569Z",
-      "updateDate": "2026-04-06T19:00:03.569Z"
+      "createDate": "2026-04-07T18:51:02.870Z",
+      "updateDate": "2026-04-07T18:51:02.870Z"
     },
-    "created": "2026-04-06T19:00:03.569Z",
-    "modified": "2026-04-06T19:00:03.569Z"
+    "created": "2026-04-07T18:51:02.870Z",
+    "modified": "2026-04-07T18:51:02.870Z"
   }
 ]
