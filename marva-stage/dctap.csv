@@ -318,7 +318,7 @@ lc:RT:Analog:Instance,BIBFRAME Instance,bf:Instance,bf:instanceOf,Instance of,FA
 ,,,bf:provisionActivity,Provision activity,FALSE,TRUE,bnode,,lc:RT:PubInfoNew | lc:RT:ManuInfoNew | lc:RT:DistInfoNew | lc:RT:ProdInfoNew,,,,,,,https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates-ProvisionActivity(264)
 ,,,bf:copyrightDate,Copyright date,FALSE,TRUE,literal,,,,,,,,,
 ,,,bf:issuance,Mode of issuance,FALSE,TRUE,,,,http://id.loc.gov/vocabulary/issuance,IRIstem,,single unit,http://id.loc.gov/vocabulary/issuance/mono,bf:Issuance,
-,,,bf:identifiedBy,Identifiers,FALSE,TRUE,bnode,,lc:RT:Identifiers:LCCN | lc:RT:Identifiers:AudioIssue | lc:RT:Identifiers:Matrix | lc:RT:Identifiers:UPC | lc:RT:Identifiers:EAN | lc:RT:Identifiers:ISBN | lc:RT:Identifiers:Copyright | lc:RT:Identifiers:Other | lc:RT:Identifiers:Local | lc:RT:Identifiers:Distributor | lc:RT:Identifiers:ISRC | lc:RT:Identifiers:ISMN | lc:RT:Identifiers:Gtin14 | lc:RT:Identifiers:Oclc,,,,,,,
+,,,bf:identifiedBy,Identifiers,FALSE,TRUE,bnode,,lc:RT:Identifiers:LCCN|lc:RT:Identifiers:AudioIssue|lc:RT:Identifiers:Matrix|lc:RT:Identifiers:UPC|lc:RT:Identifiers:EAN|lc:RT:Identifiers:ISBN|lc:RT:Identifiers:Copyright|lc:RT:Identifiers:Other|lc:RT:Identifiers:Local|lc:RT:Identifiers:Distributor|lc:RT:Identifiers:ISRC|lc:RT:Identifiers:ISMN|lc:RT:Identifiers:Gtin14|lc:RT:Identifiers:Oclc|lc:RT:Identifiers:PubNumber,,,,,,,
 ,,,bf:note,Notes about the Instance,FALSE,TRUE,bnode,,lc:RT:Note,,,,,,,
 ,,,bf:supplementaryContent,Supplementary content URL,FALSE,TRUE,bnode,,lc:RT:SupplContentNote,,,,,,,
 ,,,bf:media,Media type,FALSE,TRUE,,,,http://id.loc.gov/vocabulary/mediaTypes,IRIstem,,audio,http://id.loc.gov/vocabulary/mediaTypes/s,bf:Media,
