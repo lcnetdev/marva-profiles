@@ -708,6 +708,7 @@ lc:RT:bf2:Monograph:Work,BIBFRAME Work,bf:Work,bf:expressionOf,Expression of [se
 ,,,bf:relation,Search related work/series,false,true,bnode,,lc:RT:bf2:RelWorkLookup,,,,,,,https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates-Hubs(240;X00X10X11with$t;X30)
 ,,,bf:relation,Input transcribed series,false,true,bnode,,lc:RT:bf2:SeriesHub,,,,,,,https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates-Series(490;8XX)
 ,,,bf:relation,Related work not held by LC,false,true,bnode,,lc:RT:bf2:RelWorkInput,,,,,,,
+,,,bf:capture,Event/Capture,,true,bnode,,lc:RT:bf2:Capture,,,,,,,
 ,,,bf:originDate,Date of Work,false,true,literal,,,,,,,,,
 ,,,bf:originPlace,Country of origin of the Work,false,true,,,,http://preprod.id.loc.gov/vocabulary/countries,IRIstem,,,,bf:Place,
 ,,,bf:temporalCoverage,(Time) coverage of the content,false,true,literal,,,,,,,,,

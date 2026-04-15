@@ -935,6 +935,7 @@ lc:RT:Monograph:Work,BIBFRAME Work,bf:Work,bf:expressionOf,Expression of [search
 ,,,bf:originPlace,Country of origin of the Work,FALSE,TRUE,,,,http://id.loc.gov/vocabulary/countries,IRIstem,,,,bf:Place,
 ,,,bf:temporalCoverage,(Time) coverage of the content,FALSE,TRUE,literal,,,,,,,,,
 ,,,bf:contentAccessibility,Accessibility content,FALSE,TRUE,bnode,,lc:RT:ContAccess,,,,,,,
+,,,bf:capture,Event/Capture,,,bnode,,lc:RT:Capture,,,,,,,
 ,,,bf:dissertation,Dissertation,FALSE,TRUE,bnode,,lc:RT:Monograph:Dissertation,,,,,,,https://www.loc.gov/aba/rda/mgd/work/mg-w-thesisDissertationInformation-01.pdf
 ,,,bflc:creatorCharacteristic,Creator characteristic,FALSE,TRUE,,,,http://id.loc.gov/authorities/demographicTerms/collection_LCDGT_General,IRIstem,,,,bflc:CreatorCharacteristic,
 ,,,bf:hasInstance,Add BIBFRAME Instance,FALSE,TRUE,bnode,,lc:RT:Monograph:Instance,,,,,,,
