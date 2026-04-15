@@ -884,8 +884,8 @@ lc:RT:Monograph:Instance,BIBFRAME Instance,bf:Instance,bf:instanceOf,Instance of
 ,,,bf:editionStatement,Edition statement,FALSE,TRUE,literal,,,,,,,,,
 ,,,bf:provisionActivity,Provision activity,FALSE,TRUE,bnode,,lc:RT:PubInfoNew | lc:RT:DistInfoNew | lc:RT:ManuInfoNew | lc:RT:ProdInfoNew,,,,,,,https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates-ProvisionActivity(264)
 ,,,bf:copyrightDate,Copyright date,FALSE,TRUE,literal,,,,,,,,,
-,,,bf:identifiedBy,Identifiers,FALSE,TRUE,bnode,,lc:RT:Identifiers:LCCN | lc:RT:Identifiers:ISBN | lc:RT:Identifiers:Oclc | lc:RT:Identifiers:Other | lc:RT:Identifiers:Local | lc:RT:Identifiers:EAN | lc:RT:Identifiers:Nbn,,,,,,,
 ,,,bf:issuance,Mode of issuance,TRUE,TRUE,,,,http://id.loc.gov/vocabulary/issuance,IRIstem,,single unit,http://id.loc.gov/vocabulary/issuance/mono,bf:Issuance,
+,,,bf:identifiedBy,Identifiers,FALSE,TRUE,bnode,,lc:RT:Identifiers:LCCN | lc:RT:Identifiers:ISBN | lc:RT:Identifiers:Oclc | lc:RT:Identifiers:Other | lc:RT:Identifiers:Local | lc:RT:Identifiers:EAN | lc:RT:Identifiers:Nbn,,,,,,,
 ,,,bf:extent,Physical description,FALSE,TRUE,bnode,,lc:RT:Extent,,,,,,,
 ,,,bf:dimensions,Dimensions,FALSE,TRUE,literal,,,,,,,,,
 ,,,bf:media,Media type,TRUE,TRUE,,,,http://id.loc.gov/vocabulary/mediaTypes,IRIstem,,unmediated,http://id.loc.gov/vocabulary/mediaTypes/n,bf:Media,
@@ -893,6 +893,7 @@ lc:RT:Monograph:Instance,BIBFRAME Instance,bf:Instance,bf:instanceOf,Instance of
 ,,,bf:note,Notes about the Instance,FALSE,TRUE,bnode,,lc:RT:Note,,,,,,,
 ,,,bf:supplementaryContent,Supplementary content URL,FALSE,TRUE,bnode,,lc:RT:SupplContentNote,,,,,,,
 ,,,bf:immediateAcquisition,Immediate source of acquisition note,FALSE,TRUE,bnode,,lc:RT:ImmAcqSource,,,,,,,
+,,,bf:systemRequirement,System requirement,,,bnode,,lc:RT:SysReq,,,,,,bf:SystemRequirement,
 ,,,bf:acquisitionSource,Acquisitions identifiers,FALSE,TRUE,bnode,,lc:RT:AcqSource,,,,,,,
 ,,,bf:usageAndAccessPolicy,Access policy,FALSE,TRUE,bnode,,lc:RT:Item:Access,,,,,,,
 ,,,bf:notation,Braille?,FALSE,TRUE,,,,http://id.loc.gov/vocabulary/mtactile,IRIstem,,,,bf:TactileNotation,
