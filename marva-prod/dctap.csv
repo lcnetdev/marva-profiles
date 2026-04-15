@@ -677,6 +677,7 @@ lc:RT:bf2:Monograph:Instance,BIBFRAME Instance,bf:Instance,bf:instanceOf,Instanc
 ,,,bf:electronicLocator,URL of Instance,false,true,bnode,,lc:RT:bf2:URL,,,,,,,
 ,,,bflc:projectedProvisionDate,Projected publication date (YYMM),false,false,literal,,,,,,,,,
 ,,,bf:hasItem,Has Item,false,true,bnode,,lc:RT:bf2:Monograph:Item,,,,,,,
+,,,bf:systemRequirement,System requirement,,true,bnode,,lc:RT:bf2:SysReq,,,,,,bf:SystemRequirement,
 lc:RT:bf2:Monograph:Item,BIBFRAME Item,bf:Item,bf:electronicLocator,URL of Item,false,true,bnode,,lc:RT:bf2:URL,,,,,,,
 ,,,bf:contribution,Collection/contribution,false,true,bnode,,lc:RT:bf2:Agents:bfContribution,,,,,,bf:Contribution,
 ,,,bf:note,Notes about the Item,false,true,bnode,,lc:RT:bf2:NoteLc,,,,,,,
