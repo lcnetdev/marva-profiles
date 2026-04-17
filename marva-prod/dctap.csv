@@ -1239,8 +1239,6 @@ lc:RT:bf2:TypeRec2,Type of recording (analog),bf:RecordingMethod,bf:RecordingMet
 lc:RT:bf2:URL,URL,rdfs:Resource,owl:sameAs,URL,false,true,literal,,,,,,,,,
 lc:RT:bf2:WorkTitle,Work title,bf:Title,bflc:nonSortNum,Non-sort character count,false,true,literal,,,,,,,,,
 ,,,bf:mainTitle,Preferred title for Work,false,false,literal,,,,,,,,,
-,,,bf:partNumber,Part number,false,true,literal,,,,,,,,,
-,,,bf:partName,Part name,false,true,literal,,,,,,,,,
 lc:RT:bflc:Agents:PrimaryContribution,Primary contribution,bf:PrimaryContribution,bf:agent,Primary contributor,false,false,bnode,,lc:RT:bf2:Agent:bfPerson | lc:RT:bf2:Agent:bfFamily | lc:RT:bf2:Agent:bfCorp | lc:RT:bf2:Agent:bfJurisdiction | lc:RT:bf2:Agent:bfConf,,,,,,bf:PrimaryContribution,https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates
 ,,,bf:role,Relationship designator,false,true,,,,https://preprod.id.loc.gov/vocabulary/relators,IRIstem,,,,bf:Role,https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates-AgentRoles
 lc:RT:bflc:TranscribedTitle,Transliterated title,bflc:TransliteratedTitle,bflc:nonSortNum,Non-sort character count,false,true,literal,,,,,,,,,

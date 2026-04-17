@@ -1,6 +1,6 @@
 [
   {
-    "id": "b9aa7e02-44fd-4a49-9973-d968d279a267",
+    "id": "3d3e3880-dbbd-4dfe-9ef1-24818c74f775",
     "name": "BIBFRAME 2.0 Moving Image",
     "configType": "profile",
     "json": {
@@ -1363,34 +1363,6 @@
                 "propertyLabel": "Title",
                 "mandatory": "FALSE",
                 "repeatable": "FALSE",
-                "type": "literal",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [],
-                  "useValuesFrom": [],
-                  "defaults": [],
-                  "valueDataType": {}
-                }
-              },
-              {
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/partNumber",
-                "propertyLabel": "Part number",
-                "mandatory": "FALSE",
-                "repeatable": "TRUE",
-                "type": "literal",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [],
-                  "useValuesFrom": [],
-                  "defaults": [],
-                  "valueDataType": {}
-                }
-              },
-              {
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/partName",
-                "propertyLabel": "Part name",
-                "mandatory": "FALSE",
-                "repeatable": "TRUE",
                 "type": "literal",
                 "resourceTemplates": [],
                 "valueConstraint": {
@@ -4137,14 +4109,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-04-16T14:00:02.705Z",
-      "updateDate": "2026-04-16T14:00:02.705Z"
+      "createDate": "2026-04-17T13:00:01.844Z",
+      "updateDate": "2026-04-17T13:00:01.844Z"
     },
-    "created": "2026-04-16T14:00:02.705Z",
-    "modified": "2026-04-16T14:00:02.705Z"
+    "created": "2026-04-17T13:00:01.844Z",
+    "modified": "2026-04-17T13:00:01.844Z"
   },
   {
-    "id": "2a2853e3-ca16-4d94-a257-53393836e422",
+    "id": "3b087ad8-ac47-46d5-bd41-ab409cc382e0",
     "name": "Three-dimensional object",
     "configType": "profile",
     "json": {
@@ -4334,34 +4306,6 @@
                 "propertyLabel": "Title",
                 "mandatory": "FALSE",
                 "repeatable": "FALSE",
-                "type": "literal",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [],
-                  "useValuesFrom": [],
-                  "defaults": [],
-                  "valueDataType": {}
-                }
-              },
-              {
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/partNumber",
-                "propertyLabel": "Part number",
-                "mandatory": "FALSE",
-                "repeatable": "TRUE",
-                "type": "literal",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [],
-                  "useValuesFrom": [],
-                  "defaults": [],
-                  "valueDataType": {}
-                }
-              },
-              {
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/partName",
-                "propertyLabel": "Part name",
-                "mandatory": "FALSE",
-                "repeatable": "TRUE",
                 "type": "literal",
                 "resourceTemplates": [],
                 "valueConstraint": {
@@ -4737,14 +4681,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-04-16T14:00:02.707Z",
-      "updateDate": "2026-04-16T14:00:02.707Z"
+      "createDate": "2026-04-17T13:00:01.849Z",
+      "updateDate": "2026-04-17T13:00:01.849Z"
     },
-    "created": "2026-04-16T14:00:02.707Z",
-    "modified": "2026-04-16T14:00:02.707Z"
+    "created": "2026-04-17T13:00:01.849Z",
+    "modified": "2026-04-17T13:00:01.849Z"
   },
   {
-    "id": "143d0b6f-bc73-42bc-92a8-d502f5ff08db",
+    "id": "b59d1a74-a767-4acb-97fb-9414775e16b5",
     "name": "BIBFRAME 2.0 Admin Metadata",
     "configType": "profile",
     "json": {
@@ -5301,14 +5245,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-04-16T14:00:02.709Z",
-      "updateDate": "2026-04-16T14:00:02.709Z"
+      "createDate": "2026-04-17T13:00:01.850Z",
+      "updateDate": "2026-04-17T13:00:01.850Z"
     },
-    "created": "2026-04-16T14:00:02.709Z",
-    "modified": "2026-04-16T14:00:02.709Z"
+    "created": "2026-04-17T13:00:01.850Z",
+    "modified": "2026-04-17T13:00:01.850Z"
   },
   {
-    "id": "e935d268-3ece-4dd7-9905-faf8b0052058",
+    "id": "0a808485-e63c-4219-b53e-4a55ecd98eae",
     "name": "BIBFRAME 2.0 Agents",
     "configType": "profile",
     "json": {
@@ -8030,14 +7974,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-04-16T14:00:02.719Z",
-      "updateDate": "2026-04-16T14:00:02.719Z"
+      "createDate": "2026-04-17T13:00:01.865Z",
+      "updateDate": "2026-04-17T13:00:01.865Z"
     },
-    "created": "2026-04-16T14:00:02.719Z",
-    "modified": "2026-04-16T14:00:02.719Z"
+    "created": "2026-04-17T13:00:01.865Z",
+    "modified": "2026-04-17T13:00:01.865Z"
   },
   {
-    "id": "59d6a339-b95a-417d-93ef-13142d0c06ed",
+    "id": "fa9c6d42-5867-4e74-95a1-989b940fcec5",
     "name": "BIBFRAME 2.0 RWO",
     "configType": "profile",
     "json": {
@@ -8986,14 +8930,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-04-16T14:00:02.724Z",
-      "updateDate": "2026-04-16T14:00:02.724Z"
+      "createDate": "2026-04-17T13:00:01.870Z",
+      "updateDate": "2026-04-17T13:00:01.870Z"
     },
-    "created": "2026-04-16T14:00:02.724Z",
-    "modified": "2026-04-16T14:00:02.724Z"
+    "created": "2026-04-17T13:00:01.870Z",
+    "modified": "2026-04-17T13:00:01.870Z"
   },
   {
-    "id": "93a313c3-3298-498f-a8eb-35d924a15e5d",
+    "id": "a93d623a-3233-4a41-9ef1-e3096a3660c6",
     "name": "BIBFRAME 2.0 Agents Contribution",
     "configType": "profile",
     "json": {
@@ -9254,14 +9198,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-04-16T14:00:02.725Z",
-      "updateDate": "2026-04-16T14:00:02.725Z"
+      "createDate": "2026-04-17T13:00:01.871Z",
+      "updateDate": "2026-04-17T13:00:01.871Z"
     },
-    "created": "2026-04-16T14:00:02.725Z",
-    "modified": "2026-04-16T14:00:02.725Z"
+    "created": "2026-04-17T13:00:01.871Z",
+    "modified": "2026-04-17T13:00:01.871Z"
   },
   {
-    "id": "fea4af0d-87ca-4ef3-bfc5-6eb8a71ee807",
+    "id": "73edfd46-adf8-43f9-9117-8a30206aa51a",
     "name": "BIBFRAME 2.0 Sound Recording-Analog",
     "configType": "profile",
     "json": {
@@ -10341,34 +10285,6 @@
                 "propertyLabel": "Title",
                 "mandatory": "FALSE",
                 "repeatable": "FALSE",
-                "type": "literal",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [],
-                  "useValuesFrom": [],
-                  "defaults": [],
-                  "valueDataType": {}
-                }
-              },
-              {
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/partNumber",
-                "propertyLabel": "Part number",
-                "mandatory": "FALSE",
-                "repeatable": "TRUE",
-                "type": "literal",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [],
-                  "useValuesFrom": [],
-                  "defaults": [],
-                  "valueDataType": {}
-                }
-              },
-              {
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/partName",
-                "propertyLabel": "Part name",
-                "mandatory": "FALSE",
-                "repeatable": "TRUE",
                 "type": "literal",
                 "resourceTemplates": [],
                 "valueConstraint": {
@@ -13487,14 +13403,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-04-16T14:00:02.744Z",
-      "updateDate": "2026-04-16T14:00:02.744Z"
+      "createDate": "2026-04-17T13:00:01.893Z",
+      "updateDate": "2026-04-17T13:00:01.893Z"
     },
-    "created": "2026-04-16T14:00:02.744Z",
-    "modified": "2026-04-16T14:00:02.744Z"
+    "created": "2026-04-17T13:00:01.893Z",
+    "modified": "2026-04-17T13:00:01.893Z"
   },
   {
-    "id": "9e37d723-cd41-44b6-b36e-c4383999f9e2",
+    "id": "dddd286b-420e-430f-b13c-19b9b9692fac",
     "name": "BIBFRAME 2.0 Cartographic",
     "configType": "profile",
     "json": {
@@ -14669,34 +14585,6 @@
                 "propertyLabel": "Title",
                 "mandatory": "FALSE",
                 "repeatable": "FALSE",
-                "type": "literal",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [],
-                  "useValuesFrom": [],
-                  "defaults": [],
-                  "valueDataType": {}
-                }
-              },
-              {
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/partNumber",
-                "propertyLabel": "Part number",
-                "mandatory": "FALSE",
-                "repeatable": "TRUE",
-                "type": "literal",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [],
-                  "useValuesFrom": [],
-                  "defaults": [],
-                  "valueDataType": {}
-                }
-              },
-              {
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/partName",
-                "propertyLabel": "Part name",
-                "mandatory": "FALSE",
-                "repeatable": "TRUE",
                 "type": "literal",
                 "resourceTemplates": [],
                 "valueConstraint": {
@@ -17120,14 +17008,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-04-16T14:00:02.759Z",
-      "updateDate": "2026-04-16T14:00:02.759Z"
+      "createDate": "2026-04-17T13:00:01.910Z",
+      "updateDate": "2026-04-17T13:00:01.910Z"
     },
-    "created": "2026-04-16T14:00:02.759Z",
-    "modified": "2026-04-16T14:00:02.759Z"
+    "created": "2026-04-17T13:00:01.910Z",
+    "modified": "2026-04-17T13:00:01.910Z"
   },
   {
-    "id": "6a0dd983-0406-4803-b8d7-003eb7b36882",
+    "id": "c76c1fe5-ad8c-4702-a0ce-b6c12a8b1de4",
     "name": "BIBFRAME 2.0 Classification",
     "configType": "profile",
     "json": {
@@ -17679,14 +17567,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-04-16T14:00:02.762Z",
-      "updateDate": "2026-04-16T14:00:02.762Z"
+      "createDate": "2026-04-17T13:00:01.913Z",
+      "updateDate": "2026-04-17T13:00:01.913Z"
     },
-    "created": "2026-04-16T14:00:02.762Z",
-    "modified": "2026-04-16T14:00:02.762Z"
+    "created": "2026-04-17T13:00:01.913Z",
+    "modified": "2026-04-17T13:00:01.913Z"
   },
   {
-    "id": "a13d998b-eb91-4ca6-97e8-826c699011a2",
+    "id": "a6a02a19-77ac-4370-944f-402e40d0c612",
     "name": "BIBFRAME 2.0 Form",
     "configType": "profile",
     "json": {
@@ -17928,14 +17816,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-04-16T14:00:02.763Z",
-      "updateDate": "2026-04-16T14:00:02.763Z"
+      "createDate": "2026-04-17T13:00:01.914Z",
+      "updateDate": "2026-04-17T13:00:01.914Z"
     },
-    "created": "2026-04-16T14:00:02.763Z",
-    "modified": "2026-04-16T14:00:02.763Z"
+    "created": "2026-04-17T13:00:01.914Z",
+    "modified": "2026-04-17T13:00:01.914Z"
   },
   {
-    "id": "3abb03c2-7a67-4172-98ee-3d480f74f32e",
+    "id": "e27cec99-d719-4fde-aca6-d696d5814884",
     "name": "GPO Monograph",
     "configType": "profile",
     "json": {
@@ -19978,14 +19866,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-04-16T14:00:02.773Z",
-      "updateDate": "2026-04-16T14:00:02.773Z"
+      "createDate": "2026-04-17T13:00:01.926Z",
+      "updateDate": "2026-04-17T13:00:01.926Z"
     },
-    "created": "2026-04-16T14:00:02.773Z",
-    "modified": "2026-04-16T14:00:02.773Z"
+    "created": "2026-04-17T13:00:01.926Z",
+    "modified": "2026-04-17T13:00:01.926Z"
   },
   {
-    "id": "0d4acd70-2bb1-4096-b4d8-ab2a2e55a163",
+    "id": "3b63ee36-7d19-4e64-96f9-04c979e15324",
     "name": "GPO Serial",
     "configType": "profile",
     "json": {
@@ -21142,34 +21030,6 @@
                 "propertyLabel": "Title",
                 "mandatory": "FALSE",
                 "repeatable": "FALSE",
-                "type": "literal",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [],
-                  "useValuesFrom": [],
-                  "defaults": [],
-                  "valueDataType": {}
-                }
-              },
-              {
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/partNumber",
-                "propertyLabel": "Part number",
-                "mandatory": "FALSE",
-                "repeatable": "TRUE",
-                "type": "literal",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [],
-                  "useValuesFrom": [],
-                  "defaults": [],
-                  "valueDataType": {}
-                }
-              },
-              {
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/partName",
-                "propertyLabel": "Part name",
-                "mandatory": "FALSE",
-                "repeatable": "TRUE",
                 "type": "literal",
                 "resourceTemplates": [],
                 "valueConstraint": {
@@ -24460,14 +24320,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-04-16T14:00:02.792Z",
-      "updateDate": "2026-04-16T14:00:02.792Z"
+      "createDate": "2026-04-17T13:00:01.951Z",
+      "updateDate": "2026-04-17T13:00:01.951Z"
     },
-    "created": "2026-04-16T14:00:02.792Z",
-    "modified": "2026-04-16T14:00:02.792Z"
+    "created": "2026-04-17T13:00:01.951Z",
+    "modified": "2026-04-17T13:00:01.951Z"
   },
   {
-    "id": "62c27ac6-db79-40ce-a51c-bdc49c17e1b2",
+    "id": "3c4734da-c725-4498-bfe4-70889dc95df1",
     "name": "Test BF hub",
     "configType": "profile",
     "json": {
@@ -25318,14 +25178,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-04-16T14:00:02.795Z",
-      "updateDate": "2026-04-16T14:00:02.795Z"
+      "createDate": "2026-04-17T13:00:01.956Z",
+      "updateDate": "2026-04-17T13:00:01.956Z"
     },
-    "created": "2026-04-16T14:00:02.795Z",
-    "modified": "2026-04-16T14:00:02.795Z"
+    "created": "2026-04-17T13:00:01.956Z",
+    "modified": "2026-04-17T13:00:01.956Z"
   },
   {
-    "id": "4103856d-6a06-4e9b-b454-26f8b5ea564b",
+    "id": "05416b83-8b8f-4187-a531-937af1550c14",
     "name": "BF Hub",
     "configType": "profile",
     "json": {
@@ -26167,14 +26027,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-04-16T14:00:02.799Z",
-      "updateDate": "2026-04-16T14:00:02.799Z"
+      "createDate": "2026-04-17T13:00:01.961Z",
+      "updateDate": "2026-04-17T13:00:01.961Z"
     },
-    "created": "2026-04-16T14:00:02.799Z",
-    "modified": "2026-04-16T14:00:02.799Z"
+    "created": "2026-04-17T13:00:01.961Z",
+    "modified": "2026-04-17T13:00:01.961Z"
   },
   {
-    "id": "0bf257ff-5cc1-4dc6-8073-7d8e7eadc292",
+    "id": "7ab7ba1f-712d-43ec-aef3-e409b47599f6",
     "name": "IBC description",
     "configType": "profile",
     "json": {
@@ -26715,34 +26575,6 @@
                 "propertyLabel": "Title",
                 "mandatory": "FALSE",
                 "repeatable": "FALSE",
-                "type": "literal",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [],
-                  "useValuesFrom": [],
-                  "defaults": [],
-                  "valueDataType": {}
-                }
-              },
-              {
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/partNumber",
-                "propertyLabel": "Part number",
-                "mandatory": "FALSE",
-                "repeatable": "TRUE",
-                "type": "literal",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [],
-                  "useValuesFrom": [],
-                  "defaults": [],
-                  "valueDataType": {}
-                }
-              },
-              {
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/partName",
-                "propertyLabel": "Part name",
-                "mandatory": "FALSE",
-                "repeatable": "TRUE",
                 "type": "literal",
                 "resourceTemplates": [],
                 "valueConstraint": {
@@ -31327,14 +31159,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-04-16T14:00:02.820Z",
-      "updateDate": "2026-04-16T14:00:02.820Z"
+      "createDate": "2026-04-17T13:00:01.999Z",
+      "updateDate": "2026-04-17T13:00:01.999Z"
     },
-    "created": "2026-04-16T14:00:02.820Z",
-    "modified": "2026-04-16T14:00:02.820Z"
+    "created": "2026-04-17T13:00:01.999Z",
+    "modified": "2026-04-17T13:00:01.999Z"
   },
   {
-    "id": "f0696bc4-af02-4c6a-8b5a-2d506e49848a",
+    "id": "8701db05-c0f8-4c0b-bae1-812876612b27",
     "name": "BIBFRAME 2.0 Identifiers",
     "configType": "profile",
     "json": {
@@ -32916,14 +32748,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-04-16T14:00:02.828Z",
-      "updateDate": "2026-04-16T14:00:02.828Z"
+      "createDate": "2026-04-17T13:00:02.012Z",
+      "updateDate": "2026-04-17T13:00:02.012Z"
     },
-    "created": "2026-04-16T14:00:02.828Z",
-    "modified": "2026-04-16T14:00:02.828Z"
+    "created": "2026-04-17T13:00:02.012Z",
+    "modified": "2026-04-17T13:00:02.012Z"
   },
   {
-    "id": "828039e0-747f-4bc1-8d96-24c53919016b",
+    "id": "2d0c30f0-764f-4cfe-8907-4d24a0d78198",
     "name": "BIBFRAME 2.0 Item",
     "configType": "profile",
     "json": {
@@ -33680,14 +33512,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-04-16T14:00:02.832Z",
-      "updateDate": "2026-04-16T14:00:02.832Z"
+      "createDate": "2026-04-17T13:00:02.018Z",
+      "updateDate": "2026-04-17T13:00:02.018Z"
     },
-    "created": "2026-04-16T14:00:02.832Z",
-    "modified": "2026-04-16T14:00:02.832Z"
+    "created": "2026-04-17T13:00:02.018Z",
+    "modified": "2026-04-17T13:00:02.018Z"
   },
   {
-    "id": "1f664083-8c2e-4428-98d8-cd157c990629",
+    "id": "18f9c25d-e972-4c59-af06-73490dbf4542",
     "name": "BIBFRAME 2.0 Language",
     "configType": "profile",
     "json": {
@@ -33811,14 +33643,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-04-16T14:00:02.833Z",
-      "updateDate": "2026-04-16T14:00:02.833Z"
+      "createDate": "2026-04-17T13:00:02.018Z",
+      "updateDate": "2026-04-17T13:00:02.018Z"
     },
-    "created": "2026-04-16T14:00:02.833Z",
-    "modified": "2026-04-16T14:00:02.833Z"
+    "created": "2026-04-17T13:00:02.018Z",
+    "modified": "2026-04-17T13:00:02.018Z"
   },
   {
-    "id": "fec5b821-ac93-42ff-bf5d-c4c79f844052",
+    "id": "4d268655-deec-4802-a37b-395583ae2c63",
     "name": "BIBFRAME 2.0 Moving Image-DVD",
     "configType": "profile",
     "json": {
@@ -35148,34 +34980,6 @@
                 "propertyLabel": "Title",
                 "mandatory": "FALSE",
                 "repeatable": "FALSE",
-                "type": "literal",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [],
-                  "useValuesFrom": [],
-                  "defaults": [],
-                  "valueDataType": {}
-                }
-              },
-              {
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/partNumber",
-                "propertyLabel": "Part number",
-                "mandatory": "FALSE",
-                "repeatable": "TRUE",
-                "type": "literal",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [],
-                  "useValuesFrom": [],
-                  "defaults": [],
-                  "valueDataType": {}
-                }
-              },
-              {
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/partName",
-                "propertyLabel": "Part name",
-                "mandatory": "FALSE",
-                "repeatable": "TRUE",
                 "type": "literal",
                 "resourceTemplates": [],
                 "valueConstraint": {
@@ -38351,14 +38155,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-04-16T14:00:02.853Z",
-      "updateDate": "2026-04-16T14:00:02.853Z"
+      "createDate": "2026-04-17T13:00:02.044Z",
+      "updateDate": "2026-04-17T13:00:02.044Z"
     },
-    "created": "2026-04-16T14:00:02.853Z",
-    "modified": "2026-04-16T14:00:02.853Z"
+    "created": "2026-04-17T13:00:02.044Z",
+    "modified": "2026-04-17T13:00:02.044Z"
   },
   {
-    "id": "103c0b15-ebc5-4324-807b-211fcb1c07a3",
+    "id": "a046d63d-7faa-4eb2-b078-6b54ebc40126",
     "name": "Monograph Collection",
     "configType": "profile",
     "json": {
@@ -39040,34 +38844,6 @@
                 "propertyLabel": "Title",
                 "mandatory": "FALSE",
                 "repeatable": "FALSE",
-                "type": "literal",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [],
-                  "useValuesFrom": [],
-                  "defaults": [],
-                  "valueDataType": {}
-                }
-              },
-              {
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/partNumber",
-                "propertyLabel": "Part number",
-                "mandatory": "FALSE",
-                "repeatable": "TRUE",
-                "type": "literal",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [],
-                  "useValuesFrom": [],
-                  "defaults": [],
-                  "valueDataType": {}
-                }
-              },
-              {
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/partName",
-                "propertyLabel": "Part name",
-                "mandatory": "FALSE",
-                "repeatable": "TRUE",
                 "type": "literal",
                 "resourceTemplates": [],
                 "valueConstraint": {
@@ -41316,14 +41092,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-04-16T14:00:02.866Z",
-      "updateDate": "2026-04-16T14:00:02.866Z"
+      "createDate": "2026-04-17T13:00:02.061Z",
+      "updateDate": "2026-04-17T13:00:02.061Z"
     },
-    "created": "2026-04-16T14:00:02.866Z",
-    "modified": "2026-04-16T14:00:02.866Z"
+    "created": "2026-04-17T13:00:02.061Z",
+    "modified": "2026-04-17T13:00:02.061Z"
   },
   {
-    "id": "b6b0cd0c-4e17-4d14-ae43-f59cf9ed46a1",
+    "id": "ab64d318-90eb-47b0-b30f-b5689ad0387f",
     "name": "BIBFRAME 2.0 Monograph TEST",
     "configType": "profile",
     "json": {
@@ -42567,34 +42343,6 @@
                 "propertyLabel": "Title",
                 "mandatory": "FALSE",
                 "repeatable": "FALSE",
-                "type": "literal",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [],
-                  "useValuesFrom": [],
-                  "defaults": [],
-                  "valueDataType": {}
-                }
-              },
-              {
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/partNumber",
-                "propertyLabel": "Part number",
-                "mandatory": "FALSE",
-                "repeatable": "TRUE",
-                "type": "literal",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [],
-                  "useValuesFrom": [],
-                  "defaults": [],
-                  "valueDataType": {}
-                }
-              },
-              {
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/partName",
-                "propertyLabel": "Part name",
-                "mandatory": "FALSE",
-                "repeatable": "TRUE",
                 "type": "literal",
                 "resourceTemplates": [],
                 "valueConstraint": {
@@ -45775,14 +45523,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-04-16T14:00:02.885Z",
-      "updateDate": "2026-04-16T14:00:02.885Z"
+      "createDate": "2026-04-17T13:00:02.083Z",
+      "updateDate": "2026-04-17T13:00:02.083Z"
     },
-    "created": "2026-04-16T14:00:02.885Z",
-    "modified": "2026-04-16T14:00:02.885Z"
+    "created": "2026-04-17T13:00:02.083Z",
+    "modified": "2026-04-17T13:00:02.083Z"
   },
   {
-    "id": "b0738b31-ec07-453c-b010-9a0715d46cdf",
+    "id": "9a7a8fb5-3be1-432e-91c9-b3dd7f0a4f9a",
     "name": "BIBFRAME 2.0 Monograph (Non-Latin)",
     "configType": "profile",
     "json": {
@@ -46829,34 +46577,6 @@
                 "propertyLabel": "Title",
                 "mandatory": "FALSE",
                 "repeatable": "FALSE",
-                "type": "literal",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [],
-                  "useValuesFrom": [],
-                  "defaults": [],
-                  "valueDataType": {}
-                }
-              },
-              {
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/partNumber",
-                "propertyLabel": "Part number",
-                "mandatory": "FALSE",
-                "repeatable": "TRUE",
-                "type": "literal",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [],
-                  "useValuesFrom": [],
-                  "defaults": [],
-                  "valueDataType": {}
-                }
-              },
-              {
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/partName",
-                "propertyLabel": "Part name",
-                "mandatory": "FALSE",
-                "repeatable": "TRUE",
                 "type": "literal",
                 "resourceTemplates": [],
                 "valueConstraint": {
@@ -49082,14 +48802,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-04-16T14:00:02.898Z",
-      "updateDate": "2026-04-16T14:00:02.898Z"
+      "createDate": "2026-04-17T13:00:02.109Z",
+      "updateDate": "2026-04-17T13:00:02.109Z"
     },
-    "created": "2026-04-16T14:00:02.898Z",
-    "modified": "2026-04-16T14:00:02.898Z"
+    "created": "2026-04-17T13:00:02.109Z",
+    "modified": "2026-04-17T13:00:02.109Z"
   },
   {
-    "id": "14556bc2-378a-463b-8cff-a75a9e8c873b",
+    "id": "316724d3-d01a-4368-8eca-11b391e89f84",
     "name": "BIBFRAME 2.0 Notated Music",
     "configType": "profile",
     "json": {
@@ -50184,34 +49904,6 @@
                 "propertyLabel": "Title",
                 "mandatory": "FALSE",
                 "repeatable": "FALSE",
-                "type": "literal",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [],
-                  "useValuesFrom": [],
-                  "defaults": [],
-                  "valueDataType": {}
-                }
-              },
-              {
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/partNumber",
-                "propertyLabel": "Part number",
-                "mandatory": "FALSE",
-                "repeatable": "TRUE",
-                "type": "literal",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [],
-                  "useValuesFrom": [],
-                  "defaults": [],
-                  "valueDataType": {}
-                }
-              },
-              {
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/partName",
-                "propertyLabel": "Part name",
-                "mandatory": "FALSE",
-                "repeatable": "TRUE",
                 "type": "literal",
                 "resourceTemplates": [],
                 "valueConstraint": {
@@ -52937,14 +52629,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-04-16T14:00:02.916Z",
-      "updateDate": "2026-04-16T14:00:02.916Z"
+      "createDate": "2026-04-17T13:00:02.133Z",
+      "updateDate": "2026-04-17T13:00:02.133Z"
     },
-    "created": "2026-04-16T14:00:02.916Z",
-    "modified": "2026-04-16T14:00:02.916Z"
+    "created": "2026-04-17T13:00:02.133Z",
+    "modified": "2026-04-17T13:00:02.133Z"
   },
   {
-    "id": "4b53e4c0-126f-4511-b3bc-aa4107c13da6",
+    "id": "6f5058e2-ae1a-4714-be85-827001c3d725",
     "name": "Work, Related Work(s), Instance for Notated Music",
     "configType": "profile",
     "json": {
@@ -53586,34 +53278,6 @@
                 "propertyLabel": "Title",
                 "mandatory": "FALSE",
                 "repeatable": "FALSE",
-                "type": "literal",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [],
-                  "useValuesFrom": [],
-                  "defaults": [],
-                  "valueDataType": {}
-                }
-              },
-              {
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/partNumber",
-                "propertyLabel": "Part number",
-                "mandatory": "FALSE",
-                "repeatable": "TRUE",
-                "type": "literal",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [],
-                  "useValuesFrom": [],
-                  "defaults": [],
-                  "valueDataType": {}
-                }
-              },
-              {
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/partName",
-                "propertyLabel": "Part name",
-                "mandatory": "FALSE",
-                "repeatable": "TRUE",
                 "type": "literal",
                 "resourceTemplates": [],
                 "valueConstraint": {
@@ -57352,14 +57016,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-04-16T14:00:02.938Z",
-      "updateDate": "2026-04-16T14:00:02.938Z"
+      "createDate": "2026-04-17T13:00:02.156Z",
+      "updateDate": "2026-04-17T13:00:02.156Z"
     },
-    "created": "2026-04-16T14:00:02.938Z",
-    "modified": "2026-04-16T14:00:02.938Z"
+    "created": "2026-04-17T13:00:02.156Z",
+    "modified": "2026-04-17T13:00:02.156Z"
   },
   {
-    "id": "f3671010-ee08-44bb-bed6-36acdda84362",
+    "id": "3369fe2c-65ef-4048-ad1a-aff139d3210c",
     "name": "Notated Music",
     "configType": "profile",
     "json": {
@@ -58305,34 +57969,6 @@
                 "propertyLabel": "Title",
                 "mandatory": "FALSE",
                 "repeatable": "FALSE",
-                "type": "literal",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [],
-                  "useValuesFrom": [],
-                  "defaults": [],
-                  "valueDataType": {}
-                }
-              },
-              {
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/partNumber",
-                "propertyLabel": "Part number",
-                "mandatory": "FALSE",
-                "repeatable": "TRUE",
-                "type": "literal",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [],
-                  "useValuesFrom": [],
-                  "defaults": [],
-                  "valueDataType": {}
-                }
-              },
-              {
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/partName",
-                "propertyLabel": "Part name",
-                "mandatory": "FALSE",
-                "repeatable": "TRUE",
                 "type": "literal",
                 "resourceTemplates": [],
                 "valueConstraint": {
@@ -61290,14 +60926,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-04-16T14:00:02.957Z",
-      "updateDate": "2026-04-16T14:00:02.957Z"
+      "createDate": "2026-04-17T13:00:02.179Z",
+      "updateDate": "2026-04-17T13:00:02.179Z"
     },
-    "created": "2026-04-16T14:00:02.957Z",
-    "modified": "2026-04-16T14:00:02.957Z"
+    "created": "2026-04-17T13:00:02.179Z",
+    "modified": "2026-04-17T13:00:02.179Z"
   },
   {
-    "id": "5a5488da-2cce-49b2-a4c7-365a33881f5c",
+    "id": "79b5e375-78a8-404c-867a-483bd3d5ed5e",
     "name": "BIBFRAME 2.0 Note",
     "configType": "profile",
     "json": {
@@ -61669,14 +61305,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-04-16T14:00:02.960Z",
-      "updateDate": "2026-04-16T14:00:02.960Z"
+      "createDate": "2026-04-17T13:00:02.181Z",
+      "updateDate": "2026-04-17T13:00:02.181Z"
     },
-    "created": "2026-04-16T14:00:02.960Z",
-    "modified": "2026-04-16T14:00:02.960Z"
+    "created": "2026-04-17T13:00:02.181Z",
+    "modified": "2026-04-17T13:00:02.181Z"
   },
   {
-    "id": "1f038a82-5496-4c66-96b4-e454181bbc48",
+    "id": "4593e013-e9f3-47d9-977a-1271fb8e20e2",
     "name": "BIBFRAME Official RDA Monograph",
     "configType": "profile",
     "json": {
@@ -62700,34 +62336,6 @@
                 "propertyLabel": "Title",
                 "mandatory": "FALSE",
                 "repeatable": "FALSE",
-                "type": "literal",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [],
-                  "useValuesFrom": [],
-                  "defaults": [],
-                  "valueDataType": {}
-                }
-              },
-              {
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/partNumber",
-                "propertyLabel": "Part number",
-                "mandatory": "FALSE",
-                "repeatable": "TRUE",
-                "type": "literal",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [],
-                  "useValuesFrom": [],
-                  "defaults": [],
-                  "valueDataType": {}
-                }
-              },
-              {
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/partName",
-                "propertyLabel": "Part name",
-                "mandatory": "FALSE",
-                "repeatable": "TRUE",
                 "type": "literal",
                 "resourceTemplates": [],
                 "valueConstraint": {
@@ -67191,14 +66799,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-04-16T14:00:02.986Z",
-      "updateDate": "2026-04-16T14:00:02.986Z"
+      "createDate": "2026-04-17T13:00:02.205Z",
+      "updateDate": "2026-04-17T13:00:02.205Z"
     },
-    "created": "2026-04-16T14:00:02.986Z",
-    "modified": "2026-04-16T14:00:02.986Z"
+    "created": "2026-04-17T13:00:02.205Z",
+    "modified": "2026-04-17T13:00:02.205Z"
   },
   {
-    "id": "c8f5cc4d-754e-43a2-8bc7-8f18a20f41bd",
+    "id": "e5327817-1190-4aa1-945d-e47db02e6e56",
     "name": "PMO Medium of Performance",
     "configType": "profile",
     "json": {
@@ -69231,14 +68839,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-04-16T14:00:02.995Z",
-      "updateDate": "2026-04-16T14:00:02.995Z"
+      "createDate": "2026-04-17T13:00:02.216Z",
+      "updateDate": "2026-04-17T13:00:02.216Z"
     },
-    "created": "2026-04-16T14:00:02.995Z",
-    "modified": "2026-04-16T14:00:02.995Z"
+    "created": "2026-04-17T13:00:02.216Z",
+    "modified": "2026-04-17T13:00:02.216Z"
   },
   {
-    "id": "2b0fc862-9584-44c2-adc7-e4f69e22995c",
+    "id": "efde9284-7ef9-4d84-992d-db1261bd55ec",
     "name": "BIBFRAME 2.0 Place",
     "configType": "profile",
     "json": {
@@ -69385,14 +68993,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-04-16T14:00:02.996Z",
-      "updateDate": "2026-04-16T14:00:02.996Z"
+      "createDate": "2026-04-17T13:00:02.217Z",
+      "updateDate": "2026-04-17T13:00:02.217Z"
     },
-    "created": "2026-04-16T14:00:02.996Z",
-    "modified": "2026-04-16T14:00:02.996Z"
+    "created": "2026-04-17T13:00:02.217Z",
+    "modified": "2026-04-17T13:00:02.217Z"
   },
   {
-    "id": "9b1d7a5e-ed46-4d15-898f-68f056528fca",
+    "id": "6bb4d400-f079-4549-8fa4-e8b8c605be7c",
     "name": "Prints & Photographs Collection",
     "configType": "profile",
     "json": {
@@ -70524,34 +70132,6 @@
                 "propertyLabel": "Title",
                 "mandatory": "FALSE",
                 "repeatable": "FALSE",
-                "type": "literal",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [],
-                  "useValuesFrom": [],
-                  "defaults": [],
-                  "valueDataType": {}
-                }
-              },
-              {
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/partNumber",
-                "propertyLabel": "Part number",
-                "mandatory": "FALSE",
-                "repeatable": "TRUE",
-                "type": "literal",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [],
-                  "useValuesFrom": [],
-                  "defaults": [],
-                  "valueDataType": {}
-                }
-              },
-              {
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/partName",
-                "propertyLabel": "Part name",
-                "mandatory": "FALSE",
-                "repeatable": "TRUE",
                 "type": "literal",
                 "resourceTemplates": [],
                 "valueConstraint": {
@@ -72736,14 +72316,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-04-16T14:00:03.013Z",
-      "updateDate": "2026-04-16T14:00:03.013Z"
+      "createDate": "2026-04-17T13:00:02.232Z",
+      "updateDate": "2026-04-17T13:00:02.232Z"
     },
-    "created": "2026-04-16T14:00:03.013Z",
-    "modified": "2026-04-16T14:00:03.013Z"
+    "created": "2026-04-17T13:00:02.232Z",
+    "modified": "2026-04-17T13:00:02.232Z"
   },
   {
-    "id": "af2de897-9e86-4c1a-80d3-558bccde53b4",
+    "id": "317ef24d-33ca-4bf4-96f5-4831c772b6a3",
     "name": "Prints & Photographs",
     "configType": "profile",
     "json": {
@@ -73920,34 +73500,6 @@
                 "propertyLabel": "Title",
                 "mandatory": "FALSE",
                 "repeatable": "FALSE",
-                "type": "literal",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [],
-                  "useValuesFrom": [],
-                  "defaults": [],
-                  "valueDataType": {}
-                }
-              },
-              {
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/partNumber",
-                "propertyLabel": "Part number",
-                "mandatory": "FALSE",
-                "repeatable": "TRUE",
-                "type": "literal",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [],
-                  "useValuesFrom": [],
-                  "defaults": [],
-                  "valueDataType": {}
-                }
-              },
-              {
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/partName",
-                "propertyLabel": "Part name",
-                "mandatory": "FALSE",
-                "repeatable": "TRUE",
                 "type": "literal",
                 "resourceTemplates": [],
                 "valueConstraint": {
@@ -75967,14 +75519,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-04-16T14:00:03.029Z",
-      "updateDate": "2026-04-16T14:00:03.029Z"
+      "createDate": "2026-04-17T13:00:02.247Z",
+      "updateDate": "2026-04-17T13:00:02.247Z"
     },
-    "created": "2026-04-16T14:00:03.029Z",
-    "modified": "2026-04-16T14:00:03.029Z"
+    "created": "2026-04-17T13:00:02.247Z",
+    "modified": "2026-04-17T13:00:02.247Z"
   },
   {
-    "id": "10cf2b49-dad5-4191-bbd5-ab3444d03625",
+    "id": "33ad52e0-c090-492e-a23e-cec23349b897",
     "name": "BIBFRAME 2.0 Publication, Distribution, Manufacturer Activity",
     "configType": "profile",
     "json": {
@@ -76310,14 +75862,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-04-16T14:00:03.031Z",
-      "updateDate": "2026-04-16T14:00:03.031Z"
+      "createDate": "2026-04-17T13:00:02.248Z",
+      "updateDate": "2026-04-17T13:00:02.248Z"
     },
-    "created": "2026-04-16T14:00:03.031Z",
-    "modified": "2026-04-16T14:00:03.031Z"
+    "created": "2026-04-17T13:00:02.248Z",
+    "modified": "2026-04-17T13:00:02.248Z"
   },
   {
-    "id": "1da99a56-37ba-429f-b814-312c4442817b",
+    "id": "0736197e-37c6-46b0-a8a9-b57251bbb549",
     "name": "BIBFRAME 2.0 Rare Materials",
     "configType": "profile",
     "json": {
@@ -77566,34 +77118,6 @@
                 "propertyLabel": "Title",
                 "mandatory": "FALSE",
                 "repeatable": "FALSE",
-                "type": "literal",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [],
-                  "useValuesFrom": [],
-                  "defaults": [],
-                  "valueDataType": {}
-                }
-              },
-              {
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/partNumber",
-                "propertyLabel": "Part number",
-                "mandatory": "FALSE",
-                "repeatable": "TRUE",
-                "type": "literal",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [],
-                  "useValuesFrom": [],
-                  "defaults": [],
-                  "valueDataType": {}
-                }
-              },
-              {
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/partName",
-                "propertyLabel": "Part name",
-                "mandatory": "FALSE",
-                "repeatable": "TRUE",
                 "type": "literal",
                 "resourceTemplates": [],
                 "valueConstraint": {
@@ -79936,14 +79460,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-04-16T14:00:03.047Z",
-      "updateDate": "2026-04-16T14:00:03.047Z"
+      "createDate": "2026-04-17T13:00:02.263Z",
+      "updateDate": "2026-04-17T13:00:02.263Z"
     },
-    "created": "2026-04-16T14:00:03.047Z",
-    "modified": "2026-04-16T14:00:03.047Z"
+    "created": "2026-04-17T13:00:02.263Z",
+    "modified": "2026-04-17T13:00:02.263Z"
   },
   {
-    "id": "75e8492f-4be2-42c7-ad9c-eceb1dc096c9",
+    "id": "c8f083aa-a375-4944-9c99-714948a79656",
     "name": "BIBFRAME 2.0 Related Works and Expressions",
     "configType": "profile",
     "json": {
@@ -80335,14 +79859,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-04-16T14:00:03.049Z",
-      "updateDate": "2026-04-16T14:00:03.049Z"
+      "createDate": "2026-04-17T13:00:02.265Z",
+      "updateDate": "2026-04-17T13:00:02.265Z"
     },
-    "created": "2026-04-16T14:00:03.049Z",
-    "modified": "2026-04-16T14:00:03.049Z"
+    "created": "2026-04-17T13:00:02.265Z",
+    "modified": "2026-04-17T13:00:02.265Z"
   },
   {
-    "id": "ae9e920e-bbbb-418c-9f03-3d80397b123b",
+    "id": "1182381a-9961-430b-aac7-b21512c3ad08",
     "name": "BIBFRAME 2.0 Serial",
     "configType": "profile",
     "json": {
@@ -81808,34 +81332,6 @@
                 "propertyLabel": "Title",
                 "mandatory": "FALSE",
                 "repeatable": "FALSE",
-                "type": "literal",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [],
-                  "useValuesFrom": [],
-                  "defaults": [],
-                  "valueDataType": {}
-                }
-              },
-              {
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/partNumber",
-                "propertyLabel": "Part number",
-                "mandatory": "FALSE",
-                "repeatable": "TRUE",
-                "type": "literal",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [],
-                  "useValuesFrom": [],
-                  "defaults": [],
-                  "valueDataType": {}
-                }
-              },
-              {
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/partName",
-                "propertyLabel": "Part name",
-                "mandatory": "FALSE",
-                "repeatable": "TRUE",
                 "type": "literal",
                 "resourceTemplates": [],
                 "valueConstraint": {
@@ -84902,14 +84398,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-04-16T14:00:03.067Z",
-      "updateDate": "2026-04-16T14:00:03.067Z"
+      "createDate": "2026-04-17T13:00:02.285Z",
+      "updateDate": "2026-04-17T13:00:02.285Z"
     },
-    "created": "2026-04-16T14:00:03.067Z",
-    "modified": "2026-04-16T14:00:03.067Z"
+    "created": "2026-04-17T13:00:02.285Z",
+    "modified": "2026-04-17T13:00:02.285Z"
   },
   {
-    "id": "44a03459-c1ca-4270-b398-4130a84a0f55",
+    "id": "fe5c1700-d43d-40ba-b053-7497d8193f3e",
     "name": "BIBFRAME 2.0 Series Information",
     "configType": "profile",
     "json": {
@@ -85240,14 +84736,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-04-16T14:00:03.068Z",
-      "updateDate": "2026-04-16T14:00:03.068Z"
+      "createDate": "2026-04-17T13:00:02.287Z",
+      "updateDate": "2026-04-17T13:00:02.287Z"
     },
-    "created": "2026-04-16T14:00:03.068Z",
-    "modified": "2026-04-16T14:00:03.068Z"
+    "created": "2026-04-17T13:00:02.287Z",
+    "modified": "2026-04-17T13:00:02.287Z"
   },
   {
-    "id": "2ef4ef0e-f142-45c6-8d0d-22c1a5ce2cc0",
+    "id": "28326e5d-6b76-4913-8ef2-0640b6a4b539",
     "name": "Test Simple Authority",
     "configType": "profile",
     "json": {
@@ -85414,14 +84910,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-04-16T14:00:03.069Z",
-      "updateDate": "2026-04-16T14:00:03.069Z"
+      "createDate": "2026-04-17T13:00:02.288Z",
+      "updateDate": "2026-04-17T13:00:02.288Z"
     },
-    "created": "2026-04-16T14:00:03.069Z",
-    "modified": "2026-04-16T14:00:03.069Z"
+    "created": "2026-04-17T13:00:02.288Z",
+    "modified": "2026-04-17T13:00:02.288Z"
   },
   {
-    "id": "581230ea-ed84-4ac3-a6c5-baebe9a6ed60",
+    "id": "3cbd30fa-b49e-4c85-b704-532ad1212e93",
     "name": "BIBFRAME 2.0 Sound Record-Audio CD",
     "configType": "profile",
     "json": {
@@ -86437,34 +85933,6 @@
                 "propertyLabel": "Title",
                 "mandatory": "FALSE",
                 "repeatable": "FALSE",
-                "type": "literal",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [],
-                  "useValuesFrom": [],
-                  "defaults": [],
-                  "valueDataType": {}
-                }
-              },
-              {
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/partNumber",
-                "propertyLabel": "Part number",
-                "mandatory": "FALSE",
-                "repeatable": "TRUE",
-                "type": "literal",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [],
-                  "useValuesFrom": [],
-                  "defaults": [],
-                  "valueDataType": {}
-                }
-              },
-              {
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/partName",
-                "propertyLabel": "Part name",
-                "mandatory": "FALSE",
-                "repeatable": "TRUE",
                 "type": "literal",
                 "resourceTemplates": [],
                 "valueConstraint": {
@@ -89571,14 +89039,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-04-16T14:00:03.089Z",
-      "updateDate": "2026-04-16T14:00:03.089Z"
+      "createDate": "2026-04-17T13:00:02.308Z",
+      "updateDate": "2026-04-17T13:00:02.308Z"
     },
-    "created": "2026-04-16T14:00:03.089Z",
-    "modified": "2026-04-16T14:00:03.089Z"
+    "created": "2026-04-17T13:00:02.308Z",
+    "modified": "2026-04-17T13:00:02.308Z"
   },
   {
-    "id": "e0ba37cf-4cbd-429e-b74c-a5e3482c4664",
+    "id": "d80d178d-a149-4ae6-9681-8869ea7c3fbb",
     "name": "BIBFRAME 2.0 Sound Recording-Audio CD-R",
     "configType": "profile",
     "json": {
@@ -90641,34 +90109,6 @@
                   "defaults": [],
                   "valueDataType": {}
                 }
-              },
-              {
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/partNumber",
-                "propertyLabel": "Part number",
-                "mandatory": "FALSE",
-                "repeatable": "TRUE",
-                "type": "literal",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [],
-                  "useValuesFrom": [],
-                  "defaults": [],
-                  "valueDataType": {}
-                }
-              },
-              {
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/partName",
-                "propertyLabel": "Part name",
-                "mandatory": "FALSE",
-                "repeatable": "TRUE",
-                "type": "literal",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [],
-                  "useValuesFrom": [],
-                  "defaults": [],
-                  "valueDataType": {}
-                }
               }
             ]
           },
@@ -93767,14 +93207,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-04-16T14:00:03.106Z",
-      "updateDate": "2026-04-16T14:00:03.106Z"
+      "createDate": "2026-04-17T13:00:02.335Z",
+      "updateDate": "2026-04-17T13:00:02.335Z"
     },
-    "created": "2026-04-16T14:00:03.106Z",
-    "modified": "2026-04-16T14:00:03.106Z"
+    "created": "2026-04-17T13:00:02.335Z",
+    "modified": "2026-04-17T13:00:02.335Z"
   },
   {
-    "id": "a95826de-80a1-4879-a961-c0366894ed5a",
+    "id": "cddd9ea5-36f0-40be-a6df-1b2c237bf0d9",
     "name": "BIBFRAME 2.0 Sound Recording-Audio Cassette",
     "configType": "profile",
     "json": {
@@ -94798,34 +94238,6 @@
                 "propertyLabel": "Title",
                 "mandatory": "FALSE",
                 "repeatable": "FALSE",
-                "type": "literal",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [],
-                  "useValuesFrom": [],
-                  "defaults": [],
-                  "valueDataType": {}
-                }
-              },
-              {
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/partNumber",
-                "propertyLabel": "Part number",
-                "mandatory": "FALSE",
-                "repeatable": "TRUE",
-                "type": "literal",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [],
-                  "useValuesFrom": [],
-                  "defaults": [],
-                  "valueDataType": {}
-                }
-              },
-              {
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/partName",
-                "propertyLabel": "Part name",
-                "mandatory": "FALSE",
-                "repeatable": "TRUE",
                 "type": "literal",
                 "resourceTemplates": [],
                 "valueConstraint": {
@@ -97863,14 +97275,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-04-16T14:00:03.127Z",
-      "updateDate": "2026-04-16T14:00:03.127Z"
+      "createDate": "2026-04-17T13:00:02.359Z",
+      "updateDate": "2026-04-17T13:00:02.359Z"
     },
-    "created": "2026-04-16T14:00:03.127Z",
-    "modified": "2026-04-16T14:00:03.127Z"
+    "created": "2026-04-17T13:00:02.359Z",
+    "modified": "2026-04-17T13:00:02.359Z"
   },
   {
-    "id": "d7168b86-5783-4033-9c00-cbc01f043c9b",
+    "id": "010d83f9-5128-4713-ac3e-e0802a1011f2",
     "name": "Subjects",
     "configType": "profile",
     "json": {
@@ -98203,14 +97615,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-04-16T14:00:03.128Z",
-      "updateDate": "2026-04-16T14:00:03.128Z"
+      "createDate": "2026-04-17T13:00:02.361Z",
+      "updateDate": "2026-04-17T13:00:02.361Z"
     },
-    "created": "2026-04-16T14:00:03.128Z",
-    "modified": "2026-04-16T14:00:03.128Z"
+    "created": "2026-04-17T13:00:02.361Z",
+    "modified": "2026-04-17T13:00:02.361Z"
   },
   {
-    "id": "37f758c2-3829-446d-8ba7-ce6e41fe484f",
+    "id": "01a7c348-8f93-41e9-903e-2c20b0879ee0",
     "name": "BIBFRAME 2.0 Title Information",
     "configType": "profile",
     "json": {
@@ -98396,34 +97808,6 @@
                 "propertyLabel": "Title",
                 "mandatory": "FALSE",
                 "repeatable": "FALSE",
-                "type": "literal",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [],
-                  "useValuesFrom": [],
-                  "defaults": [],
-                  "valueDataType": {}
-                }
-              },
-              {
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/partNumber",
-                "propertyLabel": "Part number",
-                "mandatory": "FALSE",
-                "repeatable": "TRUE",
-                "type": "literal",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [],
-                  "useValuesFrom": [],
-                  "defaults": [],
-                  "valueDataType": {}
-                }
-              },
-              {
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/partName",
-                "propertyLabel": "Part name",
-                "mandatory": "FALSE",
-                "repeatable": "TRUE",
                 "type": "literal",
                 "resourceTemplates": [],
                 "valueConstraint": {
@@ -98867,14 +98251,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-04-16T14:00:03.131Z",
-      "updateDate": "2026-04-16T14:00:03.131Z"
+      "createDate": "2026-04-17T13:00:02.364Z",
+      "updateDate": "2026-04-17T13:00:02.364Z"
     },
-    "created": "2026-04-16T14:00:03.131Z",
-    "modified": "2026-04-16T14:00:03.131Z"
+    "created": "2026-04-17T13:00:02.364Z",
+    "modified": "2026-04-17T13:00:02.364Z"
   },
   {
-    "id": "a50a376f-214a-488f-adbf-47c4694957e5",
+    "id": "aedc5937-3a7a-4d52-b69e-0cf9ce1ac8b3",
     "name": "BIBFRAME 2.0 Topic",
     "configType": "profile",
     "json": {
@@ -99424,14 +98808,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-04-16T14:00:03.134Z",
-      "updateDate": "2026-04-16T14:00:03.134Z"
+      "createDate": "2026-04-17T13:00:02.367Z",
+      "updateDate": "2026-04-17T13:00:02.367Z"
     },
-    "created": "2026-04-16T14:00:03.134Z",
-    "modified": "2026-04-16T14:00:03.134Z"
+    "created": "2026-04-17T13:00:02.367Z",
+    "modified": "2026-04-17T13:00:02.367Z"
   },
   {
-    "id": "0de14f5a-0344-4810-b4d4-8773b427dbf6",
+    "id": "f88019dc-9756-435d-a0f6-0dcdd26ca5d9",
     "name": "BIBFRAME 2.0 Videocassette",
     "configType": "profile",
     "json": {
@@ -100663,34 +100047,6 @@
                 "propertyLabel": "Title",
                 "mandatory": "FALSE",
                 "repeatable": "FALSE",
-                "type": "literal",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [],
-                  "useValuesFrom": [],
-                  "defaults": [],
-                  "valueDataType": {}
-                }
-              },
-              {
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/partNumber",
-                "propertyLabel": "Part number",
-                "mandatory": "FALSE",
-                "repeatable": "TRUE",
-                "type": "literal",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [],
-                  "useValuesFrom": [],
-                  "defaults": [],
-                  "valueDataType": {}
-                }
-              },
-              {
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/partName",
-                "propertyLabel": "Part name",
-                "mandatory": "FALSE",
-                "repeatable": "TRUE",
                 "type": "literal",
                 "resourceTemplates": [],
                 "valueConstraint": {
@@ -103696,14 +103052,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-04-16T14:00:03.154Z",
-      "updateDate": "2026-04-16T14:00:03.154Z"
+      "createDate": "2026-04-17T13:00:02.389Z",
+      "updateDate": "2026-04-17T13:00:02.389Z"
     },
-    "created": "2026-04-16T14:00:03.154Z",
-    "modified": "2026-04-16T14:00:03.154Z"
+    "created": "2026-04-17T13:00:02.389Z",
+    "modified": "2026-04-17T13:00:02.389Z"
   },
   {
-    "id": "9dd0c459-2048-476e-be86-11a2136b0e76",
+    "id": "676b6174-366d-450d-babc-f996fddc753c",
     "name": "BIBFRAME 2.0 Extra menus",
     "configType": "profile",
     "json": {
@@ -104799,14 +104155,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-04-16T14:00:03.160Z",
-      "updateDate": "2026-04-16T14:00:03.160Z"
+      "createDate": "2026-04-17T13:00:02.398Z",
+      "updateDate": "2026-04-17T13:00:02.398Z"
     },
-    "created": "2026-04-16T14:00:03.160Z",
-    "modified": "2026-04-16T14:00:03.160Z"
+    "created": "2026-04-17T13:00:02.398Z",
+    "modified": "2026-04-17T13:00:02.398Z"
   },
   {
-    "id": "05087aaa-f122-4b93-920c-3f36981dfb64",
+    "id": "2846d758-1a8a-46f5-a3df-3917c7bf357d",
     "name": "Test Manuscripts (DACS)",
     "configType": "profile",
     "json": {
@@ -105128,34 +104484,6 @@
                 "propertyLabel": "Title",
                 "mandatory": "FALSE",
                 "repeatable": "FALSE",
-                "type": "literal",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [],
-                  "useValuesFrom": [],
-                  "defaults": [],
-                  "valueDataType": {}
-                }
-              },
-              {
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/partNumber",
-                "propertyLabel": "Part number",
-                "mandatory": "FALSE",
-                "repeatable": "TRUE",
-                "type": "literal",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [],
-                  "useValuesFrom": [],
-                  "defaults": [],
-                  "valueDataType": {}
-                }
-              },
-              {
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/partName",
-                "propertyLabel": "Part name",
-                "mandatory": "FALSE",
-                "repeatable": "TRUE",
                 "type": "literal",
                 "resourceTemplates": [],
                 "valueConstraint": {
@@ -105917,14 +105245,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-04-16T14:00:03.165Z",
-      "updateDate": "2026-04-16T14:00:03.165Z"
+      "createDate": "2026-04-17T13:00:02.404Z",
+      "updateDate": "2026-04-17T13:00:02.404Z"
     },
-    "created": "2026-04-16T14:00:03.165Z",
-    "modified": "2026-04-16T14:00:03.165Z"
+    "created": "2026-04-17T13:00:02.404Z",
+    "modified": "2026-04-17T13:00:02.404Z"
   },
   {
-    "id": "d096b707-c09a-4701-9804-ac029dde2793",
+    "id": "557fb118-576d-4a1f-aa3f-a9327c4c6bcc",
     "name": "Test Mixed Materials",
     "configType": "profile",
     "json": {
@@ -107664,34 +106992,6 @@
                 "propertyLabel": "Title",
                 "mandatory": "FALSE",
                 "repeatable": "FALSE",
-                "type": "literal",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [],
-                  "useValuesFrom": [],
-                  "defaults": [],
-                  "valueDataType": {}
-                }
-              },
-              {
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/partNumber",
-                "propertyLabel": "Part number",
-                "mandatory": "FALSE",
-                "repeatable": "TRUE",
-                "type": "literal",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [],
-                  "useValuesFrom": [],
-                  "defaults": [],
-                  "valueDataType": {}
-                }
-              },
-              {
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/partName",
-                "propertyLabel": "Part name",
-                "mandatory": "FALSE",
-                "repeatable": "TRUE",
                 "type": "literal",
                 "resourceTemplates": [],
                 "valueConstraint": {
@@ -110889,14 +110189,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-04-16T14:00:03.187Z",
-      "updateDate": "2026-04-16T14:00:03.187Z"
+      "createDate": "2026-04-17T13:00:02.435Z",
+      "updateDate": "2026-04-17T13:00:02.435Z"
     },
-    "created": "2026-04-16T14:00:03.187Z",
-    "modified": "2026-04-16T14:00:03.187Z"
+    "created": "2026-04-17T13:00:02.435Z",
+    "modified": "2026-04-17T13:00:02.435Z"
   },
   {
-    "id": "35557beb-222b-48bc-8b3b-88080c699a65",
+    "id": "e636121d-8ebd-4a02-acf0-bfc0a2adbd27",
     "name": "Test profile for RDA Work",
     "configType": "profile",
     "json": {
@@ -113659,10 +112959,10 @@
       }
     },
     "metadata": {
-      "createDate": "2026-04-16T14:00:03.193Z",
-      "updateDate": "2026-04-16T14:00:03.193Z"
+      "createDate": "2026-04-17T13:00:02.443Z",
+      "updateDate": "2026-04-17T13:00:02.443Z"
     },
-    "created": "2026-04-16T14:00:03.193Z",
-    "modified": "2026-04-16T14:00:03.193Z"
+    "created": "2026-04-17T13:00:02.443Z",
+    "modified": "2026-04-17T13:00:02.443Z"
   }
 ]

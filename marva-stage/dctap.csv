@@ -1901,8 +1901,6 @@ lc:RT:VideoCassette:Work,BIBFRAME Work,bf:Work,bf:expressionOf,Expression of [se
 ,,,bf:hasInstance,Add BIBFRAME Instance,FALSE,TRUE,bnode,,lc:RT:VideoCassette:Instance,,,,,,,
 lc:RT:WorkTitle,Work title,bf:Title,bflc:nonSortNum,Non-sort character count,FALSE,TRUE,literal,,,,,,,,,
 ,,,bf:mainTitle,Title,FALSE,FALSE,literal,,,,,,,,,
-,,,bf:partNumber,Part number,FALSE,TRUE,literal,,,,,,,,,
-,,,bf:partName,Part name,FALSE,TRUE,literal,,,,,,,,,
 lc:RT:bflc:Agents:PrimaryContribution,Primary contribution,bf:PrimaryContribution,bf:agent,Primary contributor,FALSE,TRUE,bnode,,lc:RT:Agent:bfPerson | lc:RT:Agent:bfCorp | lc:RT:Agent:bfConf | lc:RT:Agent:bfJurisdiction | lc:RT:Agent:bfFamily,,,,,,bf:PrimaryContribution,"https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates-Contributors(1XX,6XX,7XX)"
 ,,,bf:role,Relationship designator,FALSE,true,IRI,,,http://id.loc.gov/vocabulary/relators | https://id.loc.gov/vocabulary/rbmsrel,IRIstem,,,,bf:Role,https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates-AgentRolesMarva+cataloging+updates#Marvacatalogingupdates-AgentRoles
 ,,,bflc:creatorCharacteristic,Creator characteristics,,true,IRI,,,http://id.loc.gov/authorities/demographicTerms/collection_LCDGT_General,IRIstem,,,,bflc:CreatorCharacteristic,
