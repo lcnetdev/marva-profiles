@@ -706,7 +706,7 @@ lc:RT:bf2:Monograph:Work,BIBFRAME Work,bf:Work,bf:expressionOf,Expression of [se
 ,,,bf:supplementaryContent,Supplementary content,false,true,,,,http://preprod.id.loc.gov/vocabulary/msupplcont,IRIstem,,,,bf:SupplementaryContent,https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates-MonographConsiderations(andMARC008)
 ,,,bflc:governmentPubType,Government publication,false,true,,,,http://preprod.id.loc.gov/vocabulary/mgovtpubtype,IRIstem,,,,bflc:GovernmentPubType,https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates-MonographConsiderations(andMARC008)
 ,,,bf:relation,Search related work/series,false,true,bnode,,lc:RT:bf2:RelWorkLookup,,,,,,,https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates-Hubs(240;X00X10X11with$t;X30)
-,,,bf:relation,Input transcribed series,false,true,bnode,,lc:RT:bf2:SeriesHub,,,,,,,https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates-Series(490;8XX)
+,,,bf:relation,Input transcribed series,false,true,bnode,,lc:RT:bf2:SeriesHub,,,,,,,
 ,,,bf:relation,Related work not held by LC,false,true,bnode,,lc:RT:bf2:RelWorkInput,,,,,,,
 ,,,bf:capture,Event/Capture,,true,bnode,,lc:RT:bf2:Capture,,,,,,,
 ,,,bf:originDate,Date of Work,false,true,literal,,,,,,,,,
@@ -1029,7 +1029,7 @@ lc:RT:bf2:Serial:Work,BIBFRAME Work,bf:Work,bf:contribution,Creator of Work,fals
 lc:RT:bf2:SeriesHub,Input transcribed series,bf:Relation,bf:associatedResource,Series Hub,false,true,bnode,,lc:RT:bf2:SeriesHubInput,,,,,,bf:Series,
 ,,,bf:seriesEnumeration,Series enumeration,false,true,literal,,,,,,,,,
 ,,,bflc:appliesTo,Applies to,false,true,bnode,,lc:RT:bf2:AppliesTo,,,,,,,
-,,,bf:relationship,Relationship,false,true,,,,http://preprod.id.loc.gov/vocabulary/relationship,IRIstem,,Series,http://id.loc.gov/vocabulary/relationship/series,bf:Relationship,
+,,,bf:relationship,Relationship,false,true,IRI,,,http://preprod.id.loc.gov/vocabulary/relationship,IRIstem,,Series,http://id.loc.gov/vocabulary/relationship/series,bf:Relationship,
 lc:RT:bf2:SeriesHubInput,Series (input),bf:Series,bf:title,Title,false,true,bnode,,lc:RT:bf2:SeriesHubTitle,,,,,,,
 ,,,bf:status,Status,false,true,,,,http://id.loc.gov/vocabulary/mstatus,IRIstem,,transcribed,http://id.loc.gov/vocabulary/mstatus/t,bf:Status,
 ,,,bf:identifiedBy,ISSN,false,true,bnode,,lc:RT:bf2:SeriesHubIssn,,,,,,,
