@@ -369,8 +369,8 @@ lc:RT:AppliesTo,Applies to,bflc:AppliesTo,rdfs:label,Applies to,FALSE,TRUE,liter
 lc:RT:Audience,Intended Audience,bf:IntendedAudience,bf:IntendedAudience,Lookup,FALSE,TRUE,,,,http://preprod.id.loc.gov/vocabulary/maudience|http://preprod.id.loc.gov/authorities/demographicTerms,IRIstem,,,,,
 ,,,bf:source,Source,FALSE,TRUE,,,,http://id.loc.gov/vocabulary/subjectSchemes,IRIstem,,lcdgt,http://id.loc.gov/vocabulary/subjectSchemes/lcdgt,bf:Source,
 lc:RT:BroadStand,Broadcast standard,bf:BroadcastStandard,bf:BroadcastStandard,Lookup,FALSE,TRUE,,,,http://id.loc.gov/vocabulary/mbroadstd,IRIstem,,,,,
-lc:RT:Capture,Capture information,bf:Capture,bf:place,Place of capture,FALSE,TRUE,,,,http://id.loc.gov/authorities/names | http://id.loc.gov/authorities/subjects,IRIstem,,,,bf:Place,http://original.rdatoolkit.org/7.11.2.html
-,,,bf:date,Date of capture,FALSE,TRUE,literal,,,,,,,,,http://original.rdatoolkit.org/7.11.3.html
+lc:RT:Capture,Capture information,bf:Capture,bf:place,Place of capture,FALSE,TRUE,,,,http://id.loc.gov/authorities/names | http://id.loc.gov/authorities/subjects,IRIstem,,,,bf:Place,
+,,,bf:date,Date of capture,FALSE,TRUE,literal,,,,,,,,,
 ,,,bf:note,Capture note,FALSE,TRUE,bnode,,lc:RT:NoteSimple,,,,,,,
 ,,,bflc:appliesTo,Applies to,FALSE,TRUE,bnode,,lc:RT:AppliesTo,,,,,,,
 lc:RT:CaptureStorage,Capture and storage,bf:CaptureStorage,owl:sameAs,Lookup,FALSE,TRUE,,,,http://id.loc.gov/vocabulary/mcapturestorage,IRIstem,,,,,
@@ -437,7 +437,7 @@ lc:RT:Components,Subject components,bf:Topic,mads:componentList,Search subject c
 ,,,bf:source,Thesaurus,FALSE,TRUE,,,,http://id.loc.gov/vocabulary/subjectSchemes,IRIstem,,,,bf:Source,
 lc:RT:ContAccess,Accessibility content,bf:ContentAccessibility,rdfs:label,Accessibility content,FALSE,TRUE,literal,,,,,,,,,
 lc:RT:Contents,Contents note,bf:TableOfContents,rdfs:label,Contents note,FALSE,TRUE,literal,,,,,,,,,
-,,,bf:electronicLocator,URL for Contents note,FALSE,TRUE,bnode,,lc:RT:URL,,,,,,,Idiomatic property used for structured values.
+,,,bf:electronicLocator,URL for Contents note,FALSE,TRUE,bnode,,lc:RT:URL,,,,,,,
 ,,,bf:status,Partial or incomplete?,FALSE,TRUE,,,,http://id.loc.gov/vocabulary/mstatus,IRIstem,,,,bf:Status,
 lc:RT:DACS:Instance,Instance,bf:Instance,bf:title,Title information,FALSE,TRUE,bnode,,lc:RT:InstanceTitle | lc:RT:Title:VarTitle | lc:RT:Title:CollTitle,,,,,,,
 ,,,bf:issuance,Mode of Issuance,FALSE,TRUE,,,,http://id.loc.gov/vocabulary/issuance,IRIstem,,single unit,http://id.loc.gov/vocabulary/issuance/mono,bf:Issuance,
@@ -471,11 +471,11 @@ lc:RT:Extent,Extent,bf:Extent,rdfs:label,Extent,FALSE,TRUE,literal,,,,,,,,,
 lc:RT:ExtentExtra,Extent and Applies to,bf:Extent,rdfs:label,Extent,,TRUE,literal,,,,,,,,,
 ,,,bf:note,Physical details note,,TRUE,bnode,,lc:RT:Note,,,,,,,
 ,,,bflc:appliesTo,Applies to,,,bnode,,lc:RT:AppliesTo,,,,,,,
-lc:RT:FileSize,File size,bf:FileSize,rdfs:label,File size,FALSE,TRUE,literal,,,,,,,,,http://original.rdatoolkit.org/3.19.4.html
-lc:RT:FileType,File type,bf:FileType,bf:FileType,Lookup,FALSE,FALSE,,,,http://id.loc.gov/vocabulary/mfiletype,IRIstem,,,,,http://original.rdatoolkit.org/3.19.2.html
-lc:RT:Form,Genre/Form,bf:GenreForm,owl:sameAs,Search LCGFT,FALSE,FALSE,,,,http://id.loc.gov/authorities/genreForms,IRIstem,,,,,"https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates-GenreForm(655,some008values)"
+lc:RT:FileSize,File size,bf:FileSize,rdfs:label,File size,FALSE,TRUE,literal,,,,,,,,,
+lc:RT:FileType,File type,bf:FileType,bf:FileType,Lookup,FALSE,FALSE,,,,http://id.loc.gov/vocabulary/mfiletype,IRIstem,,,,,
+lc:RT:Form,Genre/Form,bf:GenreForm,owl:sameAs,Search LCGFT,FALSE,FALSE,,,,http://id.loc.gov/authorities/genreForms,IRIstem,,,,,
 ,,,bf:source,Thesaurus,FALSE,TRUE,,,,http://id.loc.gov/vocabulary/genreFormSchemes,IRIstem,,lcgft,http://id.loc.gov/vocabulary/genreFormSchemes/lcgft,bf:Source,
-lc:RT:Form:Geog,Geographic coverage,bf:GeographicCoverage,bf:geographicCoverage,Search LCNAF or LCSH,FALSE,TRUE,,,,http://id.loc.gov/authorities/geographics,IRIstem,,,,,https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates-GeographicCoverage(043)
+lc:RT:Form:Geog,Geographic coverage,bf:GeographicCoverage,bf:geographicCoverage,Search LCNAF or LCSH,FALSE,TRUE,,,,http://id.loc.gov/authorities/geographics,IRIstem,,,,,
 lc:RT:GPOClass,SuDoc number,bf:Classification,rdfs:label,SuDoc number,FALSE,TRUE,literal,,,,,,,,,
 ,,,bf:source,Source of number,FALSE,TRUE,,,,http://id.loc.gov/vocabulary/classSchemes,IRIstem,,Superintendent of Documents classification system,http://id.loc.gov/vocabulary/classSchemes/sudocs,bf:Source,
 ,,,bf:status,Canceled/invalid?,FALSE,TRUE,,,,http://id.loc.gov/vocabulary/mstatus,IRIstem,,,,bf:Status,
@@ -908,7 +908,7 @@ lc:RT:Monograph:Item,BIBFRAME Item,bf:Item,bf:electronicLocator,URL of Item,FALS
 ,,,bf:custodialHistory,Custodial history/Provenance,FALSE,TRUE,literal,,,,,,,,,
 lc:RT:Monograph:Work,BIBFRAME Work,bf:Work,bf:expressionOf,Expression of [search for a Hub],FALSE,TRUE,,,,https://id.loc.gov/resources/hubs,IRIstem,,,,bf:Hub,https://bibframe.org/docs/view/documentation-marva-manual/work-description/expression-hub.md
 ,,,bf:contribution,Creator,FALSE,TRUE,bnode,,lc:RT:bflc:Agents:PrimaryContribution,,,,,,bf:PrimaryContribution,
-,,,bf:title,Title information,TRUE,TRUE,bnode,,lc:RT:WorkTitle | lc:RT:Title:VarTitle | lc:RT:ParallelTitle,,,,,,,https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates-Work/ExpressionTitles
+,,,bf:title,Title information,TRUE,TRUE,bnode,,lc:RT:WorkTitle | lc:RT:Title:VarTitle | lc:RT:ParallelTitle,,,,,,,https://bibframe.org/docs/view/documentation-marva-manual/work-description/title-information.md
 ,,,bf:contribution,Contributors,FALSE,TRUE,bnode,,lc:RT:Agents:Contribution,,,,,,bf:Contribution,
 ,,,bf:note,Notes about the Work,FALSE,TRUE,bnode,,lc:RT:Note,,,,,,,
 ,,,bf:tableOfContents,Contents,FALSE,TRUE,bnode,,lc:RT:Contents,,,,,,,
@@ -919,24 +919,24 @@ lc:RT:Monograph:Work,BIBFRAME Work,bf:Work,bf:expressionOf,Expression of [search
 ,,,bf:classification,Classification numbers,FALSE,TRUE,bnode,,lc:RT:LCC | lc:RT:DDC | lc:RT:NLM | lc:RT:NAL | lc:RT:OtherClass,,,,,,,
 ,,,bf:intendedAudience,Intended audience,FALSE,TRUE,bnode,,lc:RT:Audience,,,,,,,
 ,,,bf:content,Content type,TRUE,TRUE,,,,http://id.loc.gov/vocabulary/contentTypes,IRIstem,,text,http://id.loc.gov/vocabulary/contentTypes/txt,bf:Content,
-,,,bf:language,"Language (008 [1st], 041 $a [others])",FALSE,TRUE,,,,http://id.loc.gov/vocabulary/languages,IRIstem,,,,bf:Language,https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates-Languages(041)
+,,,bf:language,"Language (008 [1st], 041 $a [others])",FALSE,TRUE,,,,http://id.loc.gov/vocabulary/languages,IRIstem,,,,bf:Language,https://bibframe.org/docs/view/documentation-marva-manual/work-description/language.md
 ,,,bf:language,ISO 639-3 language (MARC 041 $a),FALSE,TRUE,,,,http://id.loc.gov/vocabulary/iso639-3,IRIstem,,,,bf:Language,
-,,,bf:accompaniedBy,Language resource (041 $bdefgt),FALSE,TRUE,bnode,,lc:RT:LangResource,,,,,,,https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates-Languages(041)
+,,,bf:accompaniedBy,Language resource (041 $bdefgt),FALSE,TRUE,bnode,,lc:RT:LangResource,,,,,,,https://bibframe.org/docs/view/documentation-marva-manual/work-description/language.md
 ,,,bf:note,Language note (041 $hijkmnpqr),FALSE,TRUE,bnode,,lc:RT:LangNote,,,,,,,
 ,,,bf:notation,Notation note,FALSE,TRUE,bnode,,lc:RT:Notation,,,,,,,
 ,,,bf:illustrativeContent,Illustrative content,FALSE,TRUE,,,,http://id.loc.gov/vocabulary/millus,IRIstem,,,,bf:Illustration,
 ,,,bf:colorContent,Color content,FALSE,TRUE,,,,http://id.loc.gov/vocabulary/mcolor,IRIstem,,,,bf:ColorContent,
 ,,,bf:supplementaryContent,Supplementary content,FALSE,FALSE,,,,http://id.loc.gov/vocabulary/msupplcont,IRIstem,,,,bf:SupplementaryContent,
 ,,,bflc:governmentPubType,Government publication,FALSE,TRUE,,,,http://id.loc.gov/vocabulary/mgovtpubtype,IRIstem,,,,bflc:GovernmentPubType,
-,,,bf:relation,Search related work/series,FALSE,TRUE,bnode,,lc:RT:RelWorkLookup,,,,,,,"https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates-Hubs(240;X00,X10,X11with$t;X30)"
-,,,bf:relation,Input transcribed series,FALSE,TRUE,bnode,,lc:RT:SeriesHub,,,,,,bf:Relation,"https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates-Series(490,8XX)"
+,,,bf:relation,Search related work/series,FALSE,TRUE,bnode,,lc:RT:RelWorkLookup,,,,,,,https://bibframe.org/docs/view/documentation-marva-manual/work-description/search-related-work.md
+,,,bf:relation,Input transcribed series,FALSE,TRUE,bnode,,lc:RT:SeriesHub,,,,,,bf:Relation,https://bibframe.org/docs/view/documentation-marva-manual/work-description/input-transcribed-series.md
 ,,,bf:relation,Related work not held by LC,FALSE,TRUE,bnode,,lc:RT:RelWorkInput,,,,,,,
 ,,,bf:originDate,Date of Work,FALSE,TRUE,literal,,,,,,,,,
 ,,,bf:originPlace,Country of origin of the Work,FALSE,TRUE,,,,http://id.loc.gov/vocabulary/countries,IRIstem,,,,bf:Place,
 ,,,bf:temporalCoverage,(Time) coverage of the content,FALSE,TRUE,literal,,,,,,,,,
 ,,,bf:contentAccessibility,Accessibility content,FALSE,TRUE,bnode,,lc:RT:ContAccess,,,,,,,
 ,,,bf:capture,Event/Capture,,,bnode,,lc:RT:Capture,,,,,,,
-,,,bf:dissertation,Dissertation,FALSE,TRUE,bnode,,lc:RT:Monograph:Dissertation,,,,,,,https://www.loc.gov/aba/rda/mgd/work/mg-w-thesisDissertationInformation-01.pdf
+,,,bf:dissertation,Dissertation,FALSE,TRUE,bnode,,lc:RT:Monograph:Dissertation,,,,,,,https://bibframe.org/docs/view/documentation-marva-manual/work-description/dissertation.md
 ,,,bflc:creatorCharacteristic,Creator characteristic,FALSE,TRUE,,,,http://id.loc.gov/authorities/demographicTerms/collection_LCDGT_General,IRIstem,,,,bflc:CreatorCharacteristic,
 ,,,bf:hasInstance,Add BIBFRAME Instance,FALSE,TRUE,bnode,,lc:RT:Monograph:Instance,,,,,,,
 lc:RT:MonographNR:Contents,Contents note,bf:TableOfContents,rdfs:label,Contents note,FALSE,TRUE,,,,,,,,,,
@@ -1215,8 +1215,8 @@ lc:RT:PlaceMadsCountry,Hierarchical place - elements,mads:HierarchicalGeographic
 ,,,mads:State,State,FALSE,TRUE,literal,,,,,,,,,
 ,,,mads:County,County,FALSE,TRUE,literal,,,,,,,,,
 ,,,mads:City,City,FALSE,TRUE,literal,,,,,,,,,
-lc:RT:Playback,Playback channels,bf:PlaybackChannels,bf:PlaybackChannels,Lookup,FALSE,FALSE,,,,http://id.loc.gov/vocabulary/mplayback,IRIstem,,,,,http://original.rdatoolkit.org/3.16.8.html
-lc:RT:PlayingSpeed,Playing speed,bf:PlayingSpeed,rdfs:label,Playing speed,FALSE,TRUE,literal,,,,,,,,,http://original.rdatoolkit.org/3.16.4.html
+lc:RT:Playback,Playback channels,bf:PlaybackChannels,bf:PlaybackChannels,Lookup,FALSE,FALSE,,,,http://id.loc.gov/vocabulary/mplayback,IRIstem,,,,,
+lc:RT:PlayingSpeed,Playing speed,bf:PlayingSpeed,rdfs:label,Playing speed,FALSE,TRUE,literal,,,,,,,,,
 lc:RT:PrintGroup:AcqSource,Source of acquisition,bf:AcquisitionSource,bf:identifiedBy,Identifier,FALSE,TRUE,bnode,,lc:RT:Identifiers:StockNumber,,,,,,,
 ,,,bf:acquisitionTerms,Terms of acquisition,FALSE,TRUE,literal,,,,,,,,,
 lc:RT:PrintGroup:Arrangement,Arrangement of materials,bf:CollectionArrangement,rdfs:label,Arrangement of materials,FALSE,TRUE,literal,,,,,,,,,
@@ -1343,7 +1343,7 @@ lc:RT:ProdInfoNew,Production,bf:Production,bf:date,EDTF date (to/from 008),FALSE
 ,,,bflc:simplePlace,Place (to/from 26X $a),FALSE,TRUE,literal,,,,,,,,,
 ,,,bflc:simpleAgent,Name (to/from 26X $b),FALSE,TRUE,literal,,,,,,,,,
 ,,,bflc:simpleDate,Date (to/from 26X $c),FALSE,TRUE,literal,,,,,,,,,
-lc:RT:ProjFormat,Presentation format,bf:PresentationFormat,bf:PresentationFormat,Lookup,FALSE,FALSE,,,,http://id.loc.gov/vocabulary/mpresformat,IRIstem,,,,,http://original.rdatoolkit.org/3.17.2.html
+lc:RT:ProjFormat,Presentation format,bf:PresentationFormat,bf:PresentationFormat,Lookup,FALSE,FALSE,,,,http://id.loc.gov/vocabulary/mpresformat,IRIstem,,,,,
 lc:RT:ProjSpeed,Projection speed,bf:ProjectionSpeed,rdfs:label,Projection speed,FALSE,TRUE,literal,,,,,,,,,
 lc:RT:PubInfoNew,Publication,bf:Publication,bf:date,EDTF date (to/from 008),FALSE,FALSE,literal,,,,,,,,,
 ,,,bf:place,Search place of publication (to/from 008),FALSE,TRUE,IRI,,,http://id.loc.gov/vocabulary/countries,IRIstem,,,,bf:Place,
@@ -1415,9 +1415,9 @@ lc:RT:RareMat:Work,BIBFRAME Work,bf:Work,bf:expressionOf,Expression of [search f
 ,,,bf:relation,Input transcribed series,FALSE,TRUE,bnode,,lc:RT:SeriesHub,,,,,,bf:Relation,"https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates-Series(490,8XX)"
 ,,,bf:hasInstance,Add BIBFRAME Instance,FALSE,TRUE,bnode,,lc:RT:RareMat:Instance,,,,,,,
 lc:RT:RecGen,Recording generation,bf:Generation,bf:Generation,Lookup,FALSE,FALSE,,,,http://id.loc.gov/vocabulary/mgeneration,IRIstem,,,,,
-lc:RT:RecMedium,Recording medium (optical),bf:RecordingMedium,bf:RecordingMedium,Lookup,FALSE,FALSE,,,,http://id.loc.gov/vocabulary/mrecmedium,IRIstem,,,,,http://original.rdatoolkit.org/3.16.3.html
-lc:RT:RecMedium2,Recording medium (magnetic),bf:RecordingMedium,bf:RecordingMedium,Lookup,FALSE,FALSE,,,,http://id.loc.gov/vocabulary/mrecmedium,IRIstem,,,,,http://original.rdatoolkit.org/3.16.3.html
-lc:RT:RegEncoding,Regional encoding,bf:RegionalEncoding,bf:RegionalEncoding,Lookup,FALSE,FALSE,,,,http://id.loc.gov/vocabulary/mregencoding,IRIstem,,,,,http://original.rdatoolkit.org/3.19.6.3.html
+lc:RT:RecMedium,Recording medium (optical),bf:RecordingMedium,bf:RecordingMedium,Lookup,FALSE,FALSE,,,,http://id.loc.gov/vocabulary/mrecmedium,IRIstem,,,,,
+lc:RT:RecMedium2,Recording medium (magnetic),bf:RecordingMedium,bf:RecordingMedium,Lookup,FALSE,FALSE,,,,http://id.loc.gov/vocabulary/mrecmedium,IRIstem,,,,,
+lc:RT:RegEncoding,Regional encoding,bf:RegionalEncoding,bf:RegionalEncoding,Lookup,FALSE,FALSE,,,,http://id.loc.gov/vocabulary/mregencoding,IRIstem,,,,,
 lc:RT:RelWorkInput,Related work not in LC catalog,bf:Relation,bf:title,Title,FALSE,TRUE,bnode,,lc:RT:RelWorkInputTitle,,,,,,,
 ,,,bf:contribution,Contributor,FALSE,TRUE,bnode,,lc:RT:Agent:bfPerson | lc:RT:Agent:bfCorp | lc:RT:Agent:bfConf | lc:RT:Agent:bfFamily | lc:RT:Agent:bfJurisdiction,,,,,,bf:Contribution,
 ,,,bf:identifiedBy,Identifiers,FALSE,TRUE,bnode,,lc:RT:RelWorkInputNumber,,,,,,,
@@ -1430,7 +1430,7 @@ lc:RT:RelWorkInputTitle,Input title,bf:Title,bflc:nonSortNum,Non-sort character 
 lc:RT:RelWorkLookup,Search related work/series,bf:Relation,bf:associatedResource,Search related works/series,FALSE,TRUE,,,,https://preprod-8088.id.loc.gov/resources/works/ | https://preprod-8088.id.loc.gov/resources/hubs/,IRIstem,,,,,
 ,,,bf:seriesEnumeration,Series enumeration (if applicable),FALSE,TRUE,literal,,,,,,,,,
 ,,,bf:relationship,Relationship designator,FALSE,TRUE,,,,http://id.loc.gov/vocabulary/relationship,IRIstem,,,,bf:Relationship,
-lc:RT:Resolution,Resolution,bf:Resolution,rdfs:label,Resolution,FALSE,TRUE,literal,,,,,,,,,http://original.rdatoolkit.org/3.19.5.html
+lc:RT:Resolution,Resolution,bf:Resolution,rdfs:label,Resolution,FALSE,TRUE,literal,,,,,,,,,
 lc:RT:Serial:EnumerationAndChronology,Enumeration and chronology,bf:EnumerationAndChronology,bf:firstIssue,Alphanumeric designation of First issue or Part of sequence,FALSE,TRUE,literal,,,,,,,,,
 ,,,bf:firstIssue,Chronological designation of First issue or Part of sequence,FALSE,TRUE,literal,,,,,,,,,
 ,,,bf:lastIssue,Alphanumeric designation of Last issue or Part of sequence,FALSE,TRUE,literal,,,,,,,,,
@@ -1690,7 +1690,7 @@ lc:RT:SoundCassette:Work,BIBFRAME Work,bf:Work,bf:expressionOf,Expression of [se
 ,,,bf:relation,Input transcribed series,FALSE,TRUE,bnode,,lc:RT:SeriesHub,,,,,,bf:Relation,"https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates-Series(490,8XX)"
 ,,,bf:hasInstance,Add BIBFRAME Instance,FALSE,TRUE,bnode,,lc:RT:SoundCassette:Instance,,,,,,,
 lc:RT:SoundContent,Sound content,bf:SoundContent,bf:SoundContent,Lookup,FALSE,FALSE,,,,http://id.loc.gov/vocabulary/msoundcontent,IRIstem,,,,,
-lc:RT:SpecPlayback,Special playback characteristic,bf:PlaybackCharacteristic,bf:PlaybackCharacteristic,Lookup,FALSE,FALSE,,,,http://id.loc.gov/vocabulary/mspecplayback,IRIstem,,,,,http://original.rdatoolkit.org/3.16.9.html
+lc:RT:SpecPlayback,Special playback characteristic,bf:PlaybackCharacteristic,bf:PlaybackCharacteristic,Lookup,FALSE,FALSE,,,,http://id.loc.gov/vocabulary/mspecplayback,IRIstem,,,,,
 lc:RT:SubjectAgent,Subject-Agent,bf:Agent,mads:authoritativeLabel,Agents,FALSE,TRUE,,,,,,,,,,
 lc:RT:Subjects:AgentS,Single Person,bf:Person,owl:sameAs,Search LCNAF,FALSE,TRUE,,,,http://id.loc.gov/authorities/names,IRIstem,,,,,
 lc:RT:Subjects:Complex,Subject components,bf:Topic,mads:componentList,Search Subject components,FALSE,TRUE,bnode,,lc:RT:Topic:madsTopic | lc:RT:Topic:madsGeographic | lc:RT:Topic:madsTemporal | lc:RT:Topic:madsGenreForm,,,,,,mads:ComplexSubject,
@@ -1827,8 +1827,8 @@ lc:RT:Topic:madsTemporal,Chronological subdivision,mads:Temporal,owl:sameAs,Sear
 lc:RT:Topic:madsTopic,Heading or topical subdivision,mads:Topic,mads:Topic,Search LCSH/LCNAF,FALSE,TRUE,,,,http://id.loc.gov/authorities/subjects | http://id.loc.gov/authorities/names | https://id.loc.gov/resources/hubs/suggest2,IRIstem,,,,,
 lc:RT:Topic:madsTopicSubdivision,Topical subdivision,mads:Topic,owl:sameAs,Search LCSH,FALSE,TRUE,,,,http://id.loc.gov/authorities/subjects,IRIstem,,,,,
 lc:RT:TopicSearch,Search subjects,bf:Topic,mads:authoritativeLabel,Search LCSH/LCNAF,FALSE,TRUE,,,,http://id.loc.gov/authorities/subjects | http://id.loc.gov/authorities/names,IRIstem,,,,,
-lc:RT:TypeRec,Type of recording (digital),bf:RecordingMethod,bf:RecordingMethod,Lookup,FALSE,FALSE,,,,http://id.loc.gov/vocabulary/mrectype,IRIstem,,,,,http://original.rdatoolkit.org/3.16.2.html
-lc:RT:TypeRec2,Type of recording (analog),bf:RecordingMethod,bf:RecordingMethod,Lookup,FALSE,FALSE,,,,http://id.loc.gov/vocabulary/mrectype,IRIstem,,,,,http://original.rdatoolkit.org/3.16.2.html
+lc:RT:TypeRec,Type of recording (digital),bf:RecordingMethod,bf:RecordingMethod,Lookup,FALSE,FALSE,,,,http://id.loc.gov/vocabulary/mrectype,IRIstem,,,,,
+lc:RT:TypeRec2,Type of recording (analog),bf:RecordingMethod,bf:RecordingMethod,Lookup,FALSE,FALSE,,,,http://id.loc.gov/vocabulary/mrectype,IRIstem,,,,,
 lc:RT:URL,URL,rdfs:Resource,owl:sameAs,URL,FALSE,TRUE,literal,,,,,,,,,
 lc:RT:VidFormat,Video format,bf:VideoFormat,bf:VideoFormat,Lookup,FALSE,TRUE,,,,http://id.loc.gov/vocabulary/mvidformat,IRIstem,,,,,
 lc:RT:VideoCassette:Aspect,Aspect ratio (numeric),bf:AspectRatio,rdf:value,Numerical values of Aspect ratio,FALSE,TRUE,literal,,,,,,,,,
