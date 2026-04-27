@@ -146,70 +146,70 @@ isbd","http://id.loc.gov/vocabulary/descriptionConventions/rda
 http://id.loc.gov/vocabulary/descriptionConventions/isbd",,
 ,,,bf:descriptionAuthentication,Description authentication,FALSE,TRUE,literal,,,,,,pcc,http://id.loc.gov/vocabulary/marcauthen/pcc,bf:DescriptionAuthentication,
 lc:RT:Agent:Conference,Create conference name,bf:Meeting,owl:sameAs,Search LCNAF,FALSE,TRUE,,,,http://id.loc.gov/authorities/names,IRIstem,,,,,
-,,,rdfs:label,Preferred Name for Conference (RDA 11.2.2) CORE ELEMENT,FALSE,TRUE,literal,,,,,,,,,http://access.rdatoolkit.org/rdachp11_rda11-1207.html
-,,,mads:associatedLocale,Place Associated with Conference (RDA 11.3) CORE ELEMENT,FALSE,TRUE,bnode,,lc:RT:Agents:RWO:LocationOfConference | lc:RT:Agents:RWO:OtherPlace,,,,,,,http://access.rdatoolkit.org/rdachp11_rda11-4146.html
-,,,mads:establishDate,Date Associated with Conference (RDA 11.4) CORE ELEMENT,FALSE,TRUE,bnode,,lc:RT:Agents:RWO:Dates,,,,,,,http://access.rdatoolkit.org/rdachp11_rda11-4502.html
-,,,mads:organization,Associated Institution (RDA 11.5) CORE IF ...,FALSE,TRUE,bnode,,lc:RT:Agents:RWO:Affiliation,,,,,,,http://access.rdatoolkit.org/rdachp11_rda11-4671.html
-,,,rdf:value,"Number of a Conference, Etc. (RDA 11.6) CORE ELEMENT",FALSE,TRUE,literal,,,,,,,,,http://access.rdatoolkit.org/rdachp11_rda11-10741.html
-,,,mads:entityDescriptor,Other Designation Associated with Conference (RDA 11.7) CORE IF ...,FALSE,TRUE,literal,,,,,,,,,http://access.rdatoolkit.org/rdachp11_rda11-4726.html
-,,,mads:associatedLanguage,Language of Conference (RDA 11.8),FALSE,TRUE,bnode,,lc:RT:Agents:RWO:AssociatedLanguage,,,,,,,http://access.rdatoolkit.org/rdachp11_rda11-4993.html
-,,,mads:fieldOfActivity,Field of Activity of Conference (RDA 11.10),FALSE,TRUE,bnode,,lc:RT:Agents:RWO:FieldofActivity,,,,,,,http://access.rdatoolkit.org/rdachp11_rda11-5056.html
-,,,mads:note,Conference History (RDA 11.11),FALSE,TRUE,bnode,,lc:RT:Agent:Note,,,,,,,http://access.rdatoolkit.org/rdachp11_rda11-5084.html
-,,,mads:hasIdentifier,Identifier for the Conference (RDA 11.12) CORE ELEMENT,FALSE,TRUE,bnode,,lc:RT:Agent:Identifier,,,,,,,http://access.rdatoolkit.org/rdachp11_rda11-5119.html
-,,,mads:authoritativeLabel,Authorized Access Point for the Conference (RDA 11.13.1),FALSE,TRUE,literal,,,,,,,,,http://access.rdatoolkit.org/rdachp11_rda11-5161.html
-,,,mads:hasVariant,Variant Access Point Representing a Conference (RDA 11.13.2),FALSE,TRUE,bnode,,lc:RT:Agents:VariantAgents,,,,,,,http://access.rdatoolkit.org/rdachp11_rda11-5591.html
-,,,mads:hasRelatedAuthority,Related Agents (RDA Chapter 30),FALSE,TRUE,bnode,,lc:RT:Agents:RelatedAgents,,,,,,,http://access.rdatoolkit.org/rdachp30_rda30-28.html
-,,,mads:hasSource,Source Consulted (RDA 8.12),FALSE,TRUE,bnode,,lc:RT:Agents:Source,,,,,,,http://access.rdatoolkit.org/rdachp8_rda8-479.html
+,,,rdfs:label,Preferred Name for Conference (RDA 11.2.2) CORE ELEMENT,FALSE,TRUE,literal,,,,,,,,,
+,,,mads:associatedLocale,Place Associated with Conference (RDA 11.3) CORE ELEMENT,FALSE,TRUE,bnode,,lc:RT:Agents:RWO:LocationOfConference | lc:RT:Agents:RWO:OtherPlace,,,,,,,
+,,,mads:establishDate,Date Associated with Conference (RDA 11.4) CORE ELEMENT,FALSE,TRUE,bnode,,lc:RT:Agents:RWO:Dates,,,,,,,
+,,,mads:organization,Associated Institution (RDA 11.5) CORE IF ...,FALSE,TRUE,bnode,,lc:RT:Agents:RWO:Affiliation,,,,,,,
+,,,rdf:value,"Number of a Conference, Etc. (RDA 11.6) CORE ELEMENT",FALSE,TRUE,literal,,,,,,,,,
+,,,mads:entityDescriptor,Other Designation Associated with Conference (RDA 11.7) CORE IF ...,FALSE,TRUE,literal,,,,,,,,,
+,,,mads:associatedLanguage,Language of Conference (RDA 11.8),FALSE,TRUE,bnode,,lc:RT:Agents:RWO:AssociatedLanguage,,,,,,,
+,,,mads:fieldOfActivity,Field of Activity of Conference (RDA 11.10),FALSE,TRUE,bnode,,lc:RT:Agents:RWO:FieldofActivity,,,,,,,
+,,,mads:note,Conference History (RDA 11.11),FALSE,TRUE,bnode,,lc:RT:Agent:Note,,,,,,,
+,,,mads:hasIdentifier,Identifier for the Conference (RDA 11.12) CORE ELEMENT,FALSE,TRUE,bnode,,lc:RT:Agent:Identifier,,,,,,,
+,,,mads:authoritativeLabel,Authorized Access Point for the Conference (RDA 11.13.1),FALSE,TRUE,literal,,,,,,,,,
+,,,mads:hasVariant,Variant Access Point Representing a Conference (RDA 11.13.2),FALSE,TRUE,bnode,,lc:RT:Agents:VariantAgents,,,,,,,
+,,,mads:hasRelatedAuthority,Related Agents (RDA Chapter 30),FALSE,TRUE,bnode,,lc:RT:Agents:RelatedAgents,,,,,,,
+,,,mads:hasSource,Source Consulted (RDA 8.12),FALSE,TRUE,bnode,,lc:RT:Agents:Source,,,,,,,
 lc:RT:Agent:CorporateBody,Create corporate body name,bf:Organization,owl:sameAs,Search LCNAF,FALSE,TRUE,,,,http://id.loc.gov/authorities/names,IRIstem,,,,,
-,,,rdfs:label,Preferred Name for Corporate Body (RDA 11.2.2) CORE ELEMENT,FALSE,TRUE,literal,,,,,,,,,http://access.rdatoolkit.org/rdachp11_rda11-1207.html
-,,,mads:associatedLocale,Place Associated with Corporate Body (RDA 11.3),FALSE,TRUE,bnode,,lc:RT:Agents:RWO:OtherPlace,,,,,,,http://access.rdatoolkit.org/rdachp11_rda11-4146.html
-,,,mads:establishDate,Date Associated with Corporate Body (RDA 11.4) CORE ELEMENT,FALSE,TRUE,bnode,,lc:RT:Agents:RWO:Dates,,,,,,,http://access.rdatoolkit.org/rdachp11_rda11-4502.html
-,,,mads:organization,Associated Institution (RDA 11.5),FALSE,TRUE,bnode,,lc:RT:Agents:RWO:Affiliation,,,,,,,http://access.rdatoolkit.org/rdachp11_rda11-4671.html
-,,,mads:entityDescriptor,Other Designation Associated with Corporate Body (RDA 11.7),FALSE,TRUE,literal,,,,,,,,,http://access.rdatoolkit.org/rdachp11_rda11-4726.html
-,,,mads:associatedLanguage,Language of Corporate Body (RDA 11.8),FALSE,TRUE,bnode,,lc:RT:Agents:RWO:AssociatedLanguage,,,,,,,http://access.rdatoolkit.org/rdachp11_rda11-4992.html
-,,,mads:hasAffiliationAddress,Address of Corporate Body (RDA 11.9),FALSE,TRUE,bnode,,lc:RT:Agents:Addresses | lc:RT:Agents:Addresses:Extended,,,,,,,http://access.rdatoolkit.org/rdachp11_rda11-5024.html
-,,,mads:fieldOfActivity,Field of Activity of Corporate Body (RDA 11.10),FALSE,TRUE,bnode,,lc:RT:Agents:RWO:FieldofActivity,,,,,,,http://access.rdatoolkit.org/rdachp11_rda11-5056.html
-,,,mads:note,Corporate History (RDA 11.11),FALSE,TRUE,bnode,,lc:RT:Agent:Note,,,,,,,http://access.rdatoolkit.org/rdachp11_rda11-5084.html
-,,,mads:hasIdentifier,Identifier for the Corporate Body (RDA 11.12) CORE ELEMENT,FALSE,TRUE,bnode,,lc:RT:Agent:Identifier,,,,,,,http://access.rdatoolkit.org/rdachp11_rda11-5119.html
-,,,mads:authoritativeLabel,Authorized Access Point for the Corporate Body (RDA 11.13.1),FALSE,TRUE,literal,,,,,,,,,http://access.rdatoolkit.org/rdachp11_rda11-5161.html
-,,,mads:hasVariant,Variant Access Point Representing a Corporate Body (RDA 11.13.2),FALSE,TRUE,bnode,,lc:RT:Agents:VariantAgents,,,,,,,http://access.rdatoolkit.org/rdachp11_rda11-5591.html
-,,,mads:hasRelatedAuthority,Related Agents (RDA Chapter 30),FALSE,TRUE,bnode,,lc:RT:Agents:RelatedAgents,,,,,,,http://access.rdatoolkit.org/rdachp30_rda30-28.html
-,,,mads:hasSource,Source Consulted (RDA 8.12),FALSE,TRUE,bnode,,lc:RT:Agents:Source,,,,,,,http://access.rdatoolkit.org/rdachp8_rda8-479.html
+,,,rdfs:label,Preferred Name for Corporate Body (RDA 11.2.2) CORE ELEMENT,FALSE,TRUE,literal,,,,,,,,,
+,,,mads:associatedLocale,Place Associated with Corporate Body (RDA 11.3),FALSE,TRUE,bnode,,lc:RT:Agents:RWO:OtherPlace,,,,,,,
+,,,mads:establishDate,Date Associated with Corporate Body (RDA 11.4) CORE ELEMENT,FALSE,TRUE,bnode,,lc:RT:Agents:RWO:Dates,,,,,,,
+,,,mads:organization,Associated Institution (RDA 11.5),FALSE,TRUE,bnode,,lc:RT:Agents:RWO:Affiliation,,,,,,,
+,,,mads:entityDescriptor,Other Designation Associated with Corporate Body (RDA 11.7),FALSE,TRUE,literal,,,,,,,,,
+,,,mads:associatedLanguage,Language of Corporate Body (RDA 11.8),FALSE,TRUE,bnode,,lc:RT:Agents:RWO:AssociatedLanguage,,,,,,,
+,,,mads:hasAffiliationAddress,Address of Corporate Body (RDA 11.9),FALSE,TRUE,bnode,,lc:RT:Agents:Addresses | lc:RT:Agents:Addresses:Extended,,,,,,,
+,,,mads:fieldOfActivity,Field of Activity of Corporate Body (RDA 11.10),FALSE,TRUE,bnode,,lc:RT:Agents:RWO:FieldofActivity,,,,,,,
+,,,mads:note,Corporate History (RDA 11.11),FALSE,TRUE,bnode,,lc:RT:Agent:Note,,,,,,,
+,,,mads:hasIdentifier,Identifier for the Corporate Body (RDA 11.12) CORE ELEMENT,FALSE,TRUE,bnode,,lc:RT:Agent:Identifier,,,,,,,
+,,,mads:authoritativeLabel,Authorized Access Point for the Corporate Body (RDA 11.13.1),FALSE,TRUE,literal,,,,,,,,,
+,,,mads:hasVariant,Variant Access Point Representing a Corporate Body (RDA 11.13.2),FALSE,TRUE,bnode,,lc:RT:Agents:VariantAgents,,,,,,,
+,,,mads:hasRelatedAuthority,Related Agents (RDA Chapter 30),FALSE,TRUE,bnode,,lc:RT:Agents:RelatedAgents,,,,,,,
+,,,mads:hasSource,Source Consulted (RDA 8.12),FALSE,TRUE,bnode,,lc:RT:Agents:Source,,,,,,,
 lc:RT:Agent:Family,Create family name,bf:Family,owl:sameAs,Search LCNAF,FALSE,TRUE,,,,http://id.loc.gov/authorities/names,IRIstem,,,,,
-,,,rdfs:label,Preferred Name for Family (RDA 10.2.2) CORE ELEMENT,FALSE,TRUE,literal,,,,,,,,,http://access.rdatoolkit.org/rdachp10_rda10-241.html
-,,,mads:FamilyNameElement,Type of Family (RDA 10.3) CORE ELEMENT,FALSE,TRUE,literal,,,,,,,,,http://access.rdatoolkit.org/rdachp10_rda10-468.html
-,,,mads:DateNameElement,Date Associated with Family (RDA 10.4),FALSE,TRUE,bnode,,lc:RT:Agents:RWO:Dates,,,,,,,http://access.rdatoolkit.org/rdachp10_rda10-487.html
-,,,mads:associatedLocale,Place Associated with Family (RDA 10.5),FALSE,TRUE,bnode,,lc:RT:Agents:RWO:OtherPlace,,,,,,,http://access.rdatoolkit.org/rdachp10_rda10-516.html
-,,,mads:prominentFamilyMember,Prominent Member of Family (RDA 10.6),FALSE,TRUE,,,,,,,,,,http://access.rdatoolkit.org/rdachp10_rda10-549.html
-,,,mads:honoraryTitle,Hereditary Title (RDA 10.7),FALSE,TRUE,literal,,,,,,,,,http://access.rdatoolkit.org/rdachp10_rda10-592.html
-,,,mads:associatedLanguage,Language of Family (RDA 10.8),FALSE,TRUE,bnode,,lc:RT:Agents:RWO:AssociatedLanguage,,,,,,,http://access.rdatoolkit.org/rdachp10_rda10-9952.html
-,,,mads:note,Family History (RDA 10.9),FALSE,TRUE,bnode,,lc:RT:Agent:Note,,,,,,,http://access.rdatoolkit.org/rdachp10_rda10-625.html
-,,,mads:hasIdentifier,Identifier for Family (RDA 10.10),FALSE,TRUE,bnode,,lc:RT:Agent:Identifier,,,,,,,http://access.rdatoolkit.org/rdachp10_rda10-657.html
-,,,mads:authoritativeLabel,Authorized Access Point Representing the Family (RDA 10.11.1),FALSE,TRUE,bnode,,lc:RT:Agents:RWO:IdentifiedbyAuthority,,,,,,,http://access.rdatoolkit.org/rdachp10_rda10-678.html
-,,,mads:hasVariant,Variant Access Point Representing the Family (RDA 10.11.2),FALSE,TRUE,bnode,,lc:RT:Agents:VariantAgents,,,,,,,http://access.rdatoolkit.org/rdachp10_rda10-761.html
-,,,mads:hasRelatedAuthority,Related Agents (RDA Chapter 30),FALSE,TRUE,bnode,,lc:RT:Agents:RelatedAgents,,,,,,,http://access.rdatoolkit.org/rdachp30_rda30-28.html
-,,,mads:hasSource,Source Consulted (RDA 8.12),FALSE,TRUE,bnode,,lc:RT:Agents:Source,,,,,,,http://access.rdatoolkit.org/rdachp8_rda8-479.html
+,,,rdfs:label,Preferred Name for Family (RDA 10.2.2) CORE ELEMENT,FALSE,TRUE,literal,,,,,,,,,
+,,,mads:FamilyNameElement,Type of Family (RDA 10.3) CORE ELEMENT,FALSE,TRUE,literal,,,,,,,,,
+,,,mads:DateNameElement,Date Associated with Family (RDA 10.4),FALSE,TRUE,bnode,,lc:RT:Agents:RWO:Dates,,,,,,,
+,,,mads:associatedLocale,Place Associated with Family (RDA 10.5),FALSE,TRUE,bnode,,lc:RT:Agents:RWO:OtherPlace,,,,,,,
+,,,mads:prominentFamilyMember,Prominent Member of Family (RDA 10.6),FALSE,TRUE,,,,,,,,,,
+,,,mads:honoraryTitle,Hereditary Title (RDA 10.7),FALSE,TRUE,literal,,,,,,,,,
+,,,mads:associatedLanguage,Language of Family (RDA 10.8),FALSE,TRUE,bnode,,lc:RT:Agents:RWO:AssociatedLanguage,,,,,,,
+,,,mads:note,Family History (RDA 10.9),FALSE,TRUE,bnode,,lc:RT:Agent:Note,,,,,,,
+,,,mads:hasIdentifier,Identifier for Family (RDA 10.10),FALSE,TRUE,bnode,,lc:RT:Agent:Identifier,,,,,,,
+,,,mads:authoritativeLabel,Authorized Access Point Representing the Family (RDA 10.11.1),FALSE,TRUE,bnode,,lc:RT:Agents:RWO:IdentifiedbyAuthority,,,,,,,
+,,,mads:hasVariant,Variant Access Point Representing the Family (RDA 10.11.2),FALSE,TRUE,bnode,,lc:RT:Agents:VariantAgents,,,,,,,
+,,,mads:hasRelatedAuthority,Related Agents (RDA Chapter 30),FALSE,TRUE,bnode,,lc:RT:Agents:RelatedAgents,,,,,,,
+,,,mads:hasSource,Source Consulted (RDA 8.12),FALSE,TRUE,bnode,,lc:RT:Agents:Source,,,,,,,
 lc:RT:Agent:Identifier,Identifier,mads:Identifier,rdf:value,Identifier,FALSE,TRUE,literal,,,,,,,,,
 ,,,bf:source,Source of identifier,FALSE,TRUE,bnode,,lc:RT:Agent:Identifier:Source,,,,,,,
 lc:RT:Agent:Identifier:Source,Source,bf:Source,rdfs:label,Source of identifier,FALSE,TRUE,literal,,,,,,,,,
 lc:RT:Agent:Jurisdiction,Create jurisdiction name,bf:Jurisdiction,owl:sameAs,Search LCNAF,FALSE,TRUE,,,,http://id.loc.gov/authorities/names,IRIstem,,,,,
-,,,rdfs:label,Preferred Name for Place (RDA 16.2.2),FALSE,TRUE,literal,,,,,,,,,http://access.rdatoolkit.org/rdachp16_rda16-322.html
-,,,mads:hasIdentifier,Identifier for Place (RDA 9.18),FALSE,TRUE,bnode,,lc:RT:Agent:Identifier,,,,,,,http://access.rdatoolkit.org/rdachp16_rda16-768.html
-,,,mads:authoritativeLabel,Authorized Access Point for the Place (RDA 11.13.1.1),FALSE,TRUE,literal,,,,,,,,,http://access.rdatoolkit.org/rdachp11_rda11-5163.html
-,,,mads:hasVariant,Variant Access Point Representing the Place (RDA 11.13.2),FALSE,TRUE,bnode,,lc:RT:Agents:VariantAgents,,,,,,,http://access.rdatoolkit.org/rdachp11_rda11-5591.html
-,,,mads:hasRelatedAuthority,Related Agents (RDA Chapter 30),FALSE,TRUE,bnode,,lc:RT:Agents:RelatedAgents,,,,,,,http://access.rdatoolkit.org/rdachp30_rda30-28.html
-,,,mads:hasSource,Source Consulted (RDA 8.12),FALSE,TRUE,bnode,,lc:RT:Agents:Source,,,,,,,http://access.rdatoolkit.org/rdachp8_rda8-479.html
+,,,rdfs:label,Preferred Name for Place (RDA 16.2.2),FALSE,TRUE,literal,,,,,,,,,
+,,,mads:hasIdentifier,Identifier for Place (RDA 9.18),FALSE,TRUE,bnode,,lc:RT:Agent:Identifier,,,,,,,
+,,,mads:authoritativeLabel,Authorized Access Point for the Place (RDA 11.13.1.1),FALSE,TRUE,literal,,,,,,,,,
+,,,mads:hasVariant,Variant Access Point Representing the Place (RDA 11.13.2),FALSE,TRUE,bnode,,lc:RT:Agents:VariantAgents,,,,,,,
+,,,mads:hasRelatedAuthority,Related Agents (RDA Chapter 30),FALSE,TRUE,bnode,,lc:RT:Agents:RelatedAgents,,,,,,,
+,,,mads:hasSource,Source Consulted (RDA 8.12),FALSE,TRUE,bnode,,lc:RT:Agents:Source,,,,,,,
 lc:RT:Agent:Note,Note,mads:note,rdfs:label,Note,FALSE,TRUE,literal,,,,,,,,,
 lc:RT:Agent:Person,Create personal name,bf:Person,owl:sameAs,Search LCNAF,FALSE,TRUE,,,,http://id.loc.gov/authorities/names,IRIstem,,,,,
-,,,rdfs:label,Preferred Name for Person (RDA 9.2.2) CORE ELEMENT,FALSE,TRUE,literal,,,,,,,,mads:PersonalName,http://access.rdatoolkit.org/rdachp9_rda9-822.html
-,,,mads:fullerName,Fuller Form of Name (RDA 9.5) CORE IF ...,FALSE,TRUE,literal,,,,,,,,,http://www.loc.gov/mads/rdf/v1#
-,,,mads:isIdentifiedByAuthority,Other Identifying Attributes (RDA 9.6-9.11),FALSE,TRUE,bnode,,lc:RT:Agents:RWO:IdentifiedbyAuthority,,,,,,,http://access.rdatoolkit.org/rdachp9_rda9-5161.html
-,,,mads:hasAffiliationAddress,Address of Person (RDA 9.12),FALSE,TRUE,bnode,,lc:RT:Agents:Addresses | lc:RT:Agents:Addresses:Extended,,,,,,,http://access.rdatoolkit.org/rdachp9_rda9-5161.html
-,,,mads:note,Biographical Information (RDA 9.17),FALSE,TRUE,bnode,,lc:RT:Agent:Note,,,,,,,http://access.rdatoolkit.org/rdachp9_rda9-5392.html
-,,,mads:hasIdentifier,Identifier for the Person (RDA 9.18),FALSE,TRUE,bnode,,lc:RT:Agent:Identifier,,,,,,,http://access.rdatoolkit.org/rdachp9_rda9-5421.html
-,,,mads:hasVariant,Variant Access Point Representing a Person (RDA 9.19.2),FALSE,TRUE,bnode,,lc:RT:Agents:VariantAgents,,,,,,,http://access.rdatoolkit.org/rdachp9_rda9-5726.html
-,,,mads:hasRelatedAuthority,Related Agents (RDA Chapter 30),FALSE,TRUE,bnode,,lc:RT:Agents:RelatedAgents,,,,,,,http://access.rdatoolkit.org/rdachp30_rda30-28.html
-,,,mads:hasSource,Source Consulted (RDA 8.12),FALSE,TRUE,bnode,,lc:RT:Agents:Source,,,,,,,http://access.rdatoolkit.org/rdachp8_rda8-479.html
+,,,rdfs:label,Preferred Name for Person (RDA 9.2.2) CORE ELEMENT,FALSE,TRUE,literal,,,,,,,,mads:PersonalName,
+,,,mads:fullerName,Fuller Form of Name (RDA 9.5) CORE IF ...,FALSE,TRUE,literal,,,,,,,,,
+,,,mads:isIdentifiedByAuthority,Other Identifying Attributes (RDA 9.6-9.11),FALSE,TRUE,bnode,,lc:RT:Agents:RWO:IdentifiedbyAuthority,,,,,,,
+,,,mads:hasAffiliationAddress,Address of Person (RDA 9.12),FALSE,TRUE,bnode,,lc:RT:Agents:Addresses | lc:RT:Agents:Addresses:Extended,,,,,,,
+,,,mads:note,Biographical Information (RDA 9.17),FALSE,TRUE,bnode,,lc:RT:Agent:Note,,,,,,,
+,,,mads:hasIdentifier,Identifier for the Person (RDA 9.18),FALSE,TRUE,bnode,,lc:RT:Agent:Identifier,,,,,,,
+,,,mads:hasVariant,Variant Access Point Representing a Person (RDA 9.19.2),FALSE,TRUE,bnode,,lc:RT:Agents:VariantAgents,,,,,,,
+,,,mads:hasRelatedAuthority,Related Agents (RDA Chapter 30),FALSE,TRUE,bnode,,lc:RT:Agents:RelatedAgents,,,,,,,
+,,,mads:hasSource,Source Consulted (RDA 8.12),FALSE,TRUE,bnode,,lc:RT:Agents:Source,,,,,,,
 lc:RT:Agent:PersonTest,Create personal name test,mads:PersonalName,bflc:marcKey,Heading,FALSE,TRUE,literal,,,,,,,,,
 ,,,mads:hasVariant,Variant heading,FALSE,TRUE,bnode,,lc:RT:Agent:PersonTest1,,,,,,,
 ,,,mads:fullerName,Fuller form of name,FALSE,TRUE,literal,,,,,,,,,
@@ -234,9 +234,9 @@ lc:RT:Agent:bfCorp,Corporate body,bf:Organization,owl:sameAs,Search LCNAF,FALSE,
 lc:RT:Agent:bfFamily,Family,bf:Family,owl:sameAs,Search LCNAF,FALSE,TRUE,,,,http://preprod.id.loc.gov/authorities/names,IRIstem,,,,,
 lc:RT:Agent:bfJurisdiction,Jurisdiction,bf:Jurisdiction,owl:sameAs,Search LCNAF,FALSE,TRUE,,,,http://preprod.id.loc.gov/authorities/names,IRIstem,,,,,
 lc:RT:Agent:bfPerson,Person,bf:Person,owl:sameAs,Search LCNAF,FALSE,TRUE,,,,http://preprod.id.loc.gov/authorities/names,IRIstem,,,,,
-lc:RT:Agents:Addresses,Addresses,mads:Address,mads:Address,Address of Person (RDA 9.12),FALSE,TRUE,literal,,,,,,,,,http://access.rdatoolkit.org/rdachp9_rda9-5161.html
+lc:RT:Agents:Addresses,Addresses,mads:Address,mads:Address,Address of Person (RDA 9.12),FALSE,TRUE,literal,,,,,,,,,
 ,,,mads:email,Email Address of Person,FALSE,TRUE,literal,,,,,,,,,
-,,,mads:AffiliationAddress,Address of Corporate Body (RDA 11.9),FALSE,TRUE,literal,,,,,,,,,http://access.rdatoolkit.org/rdachp11_rda11-5022.html
+,,,mads:AffiliationAddress,Address of Corporate Body (RDA 11.9),FALSE,TRUE,literal,,,,,,,,,
 ,,,mads:email,Email Address of Corporate Body,FALSE,TRUE,literal,,,,,,,,,
 lc:RT:Agents:Addresses:Extended,"Addresses, extended",mads:Address,mads:streetAddress,Street Address 1,FALSE,TRUE,literal,,,,,,,,,
 ,,,mads:extendedAddress,Street Address 2,FALSE,TRUE,literal,,,,,,,,,
@@ -253,7 +253,7 @@ lc:RT:Agents:RWO:Affiliation,Affiliation,mads:Affiliation,mads:authoritativeLabe
 ,,,mads:affiliationEnd,Affiliation End Date,FALSE,TRUE,literal,,,,,,,,,
 lc:RT:Agents:RWO:AssociatedLanguage,Associated Language,mads:Language,mads:associatedLanguage,"Language of Agent (RDA 9.14, RDA 10.8, RDA 11.8)",FALSE,TRUE,,,,,,,,,mads:Language,
 lc:RT:Agents:RWO:Country,Associated Locale: Country,mads:Geographic,mads:associatedLocale,Search LCNAF,FALSE,TRUE,,,,,,,,,mads:Country,
-,,,mads:associatedLocale,Input Country Associated with Person (RDA 9.10),FALSE,TRUE,literal,,,,,,,,,http://access.rdatoolkit.org/rdachp9_rda9-5089.html
+,,,mads:associatedLocale,Input Country Associated with Person (RDA 9.10),FALSE,TRUE,literal,,,,,,,,,
 ,,,mads:activityStartDate,Start Date Associated with Country,FALSE,TRUE,literal,,,,,,,,,
 ,,,mads:activityEndDate,End Date Associated with Country,FALSE,TRUE,literal,,,,,,,,,
 lc:RT:Agents:RWO:Dates,Dates,mads:RWO,mads:activityStartDate,Period of Activity Start Date,FALSE,TRUE,literal,,,,,,,,,
@@ -266,47 +266,47 @@ lc:RT:Agents:RWO:FieldofActivity,Field of Activity,mads:RWO,mads:fieldOfActivity
 ,,,mads:activityEndDate,Field of Activity End Date,FALSE,TRUE,literal,,,,,,,,,
 lc:RT:Agents:RWO:Gender,Gender,mads:RWO,mads:gender,Search LCDGT/LCSH,FALSE,TRUE,,,,,,,,,mads:gender,
 ,,,mads:DateNameElement,Dates Associated with Gender,FALSE,TRUE,bnode,,lc:RT:Agents:RWO:Dates,,,,,,,
-lc:RT:Agents:RWO:HonoraryTitle,Honorary Title,mads:honoraryTitle,mads:honoraryTitle,Honorary Title (RDA 9.4),FALSE,TRUE,literal,,,,,,,,,http://access.rdatoolkit.org/rdachp9_rda9-4631.html
-lc:RT:Agents:RWO:IdentifiedbyAuthority,Other Identifying Attributes,mads:RWO,rdfs:label,Authorized Access Point for the Person (RDA 9.19),FALSE,TRUE,literal,,,,,,,,,http://access.rdatoolkit.org/rdachp9_rda9-5464.html
-,,,mads:birthDate,Date of Birth (RDA 9.3.2) CORE ELEMENT,FALSE,TRUE,literal,,,,,,,,,http://access.rdatoolkit.org/rdachp9_rda9-4490.html
-,,,mads:deathDate,Date of Death (RDA 9.3.3) CORE ELEMENT,FALSE,TRUE,literal,,,,,,,,,http://access.rdatoolkit.org/rdachp9_rda9-4542.html
-,,,mads:RWO,Period of Activity of Person (RDA 9.3.4) CORE IF...,FALSE,TRUE,bnode,,lc:RT:Agents:RWO:Dates,,,,,,,http://access.rdatoolkit.org/rdachp9_rda9-4588.html
-,,,mads:TermsOfAddressNameElement,Title of Person (RDA 9.4) CORE IF ...,FALSE,TRUE,literal,,,,,,,,,http://access.rdatoolkit.org/rdachp9_rda9-4631.html
-,,,mads:honoraryTitle,Honorary Title (RDA 9.4),FALSE,TRUE,literal,,,,,,,,,http://access.rdatoolkit.org/rdachp9_rda9-4631.html
-,,,mads:entityDescriptor,Other Designation Associated with Person (RDA 9.6) CORE IF ...,FALSE,TRUE,literal,,,,,,,,,http://access.rdatoolkit.org/rdachp9_rda9-4980.html
-,,,mads:associatedLanguage,Language of Person (RDA 9.14),FALSE,TRUE,bnode,,lc:RT:Agents:RWO:AssociatedLanguage,,,,,,,http://access.rdatoolkit.org/rdachp9_rda9-5213.html
-,,,mads:gender,Gender (RDA 9.7),FALSE,TRUE,bnode,,lc:RT:Agents:RWO:Gender,,,,,,,http://access.rdatoolkit.org/rdachp9_rda9-5004.html
-,,,mads:associatedLocale,Associated Places for Persons (RDA 9.8 - 9.11),FALSE,TRUE,bnode,,lc:RT:Agents:RWO:PlaceofBirth | lc:RT:Agents:RWO:PlaceofDeath | lc:RT:Agents:RWO:Country | lc:RT:Agents:RWO:PlaceOfResidence,,,,,,,http://access.rdatoolkit.org/rdachp9_rda9-5029.html
-,,,mads:hasAffiliation,Affilation (RDA 9.13),FALSE,TRUE,bnode,,lc:RT:Agents:RWO:Affiliation,,,,,,,http://access.rdatoolkit.org/rdachp11_rda11-5022.html
-,,,mads:fieldOfActivity,Field of Activity of Person (RDA 9.15),FALSE,TRUE,bnode,,lc:RT:Agents:RWO:FieldofActivity,,,,,,,http://access.rdatoolkit.org/rdachp9_rda9-5242.html
-,,,mads:occupation,Profession or Occupation (RDA 9.16),FALSE,TRUE,bnode,,lc:RT:Agents:RWO:Occupation,,,,,,,http://access.rdatoolkit.org/rdachp9_rda9-5315.html
-,,,mads:prominentFamilyMember,Prominent Member of Family (RDA 10.6),FALSE,TRUE,,,,,,,,,,http://access.rdatoolkit.org/rdachp10_rda10-549.html
+lc:RT:Agents:RWO:HonoraryTitle,Honorary Title,mads:honoraryTitle,mads:honoraryTitle,Honorary Title (RDA 9.4),FALSE,TRUE,literal,,,,,,,,,
+lc:RT:Agents:RWO:IdentifiedbyAuthority,Other Identifying Attributes,mads:RWO,rdfs:label,Authorized Access Point for the Person (RDA 9.19),FALSE,TRUE,literal,,,,,,,,,
+,,,mads:birthDate,Date of Birth (RDA 9.3.2) CORE ELEMENT,FALSE,TRUE,literal,,,,,,,,,
+,,,mads:deathDate,Date of Death (RDA 9.3.3) CORE ELEMENT,FALSE,TRUE,literal,,,,,,,,,
+,,,mads:RWO,Period of Activity of Person (RDA 9.3.4) CORE IF...,FALSE,TRUE,bnode,,lc:RT:Agents:RWO:Dates,,,,,,,
+,,,mads:TermsOfAddressNameElement,Title of Person (RDA 9.4) CORE IF ...,FALSE,TRUE,literal,,,,,,,,,
+,,,mads:honoraryTitle,Honorary Title (RDA 9.4),FALSE,TRUE,literal,,,,,,,,,
+,,,mads:entityDescriptor,Other Designation Associated with Person (RDA 9.6) CORE IF ...,FALSE,TRUE,literal,,,,,,,,,
+,,,mads:associatedLanguage,Language of Person (RDA 9.14),FALSE,TRUE,bnode,,lc:RT:Agents:RWO:AssociatedLanguage,,,,,,,
+,,,mads:gender,Gender (RDA 9.7),FALSE,TRUE,bnode,,lc:RT:Agents:RWO:Gender,,,,,,,
+,,,mads:associatedLocale,Associated Places for Persons (RDA 9.8 - 9.11),FALSE,TRUE,bnode,,lc:RT:Agents:RWO:PlaceofBirth | lc:RT:Agents:RWO:PlaceofDeath | lc:RT:Agents:RWO:Country | lc:RT:Agents:RWO:PlaceOfResidence,,,,,,,
+,,,mads:hasAffiliation,Affilation (RDA 9.13),FALSE,TRUE,bnode,,lc:RT:Agents:RWO:Affiliation,,,,,,,
+,,,mads:fieldOfActivity,Field of Activity of Person (RDA 9.15),FALSE,TRUE,bnode,,lc:RT:Agents:RWO:FieldofActivity,,,,,,,
+,,,mads:occupation,Profession or Occupation (RDA 9.16),FALSE,TRUE,bnode,,lc:RT:Agents:RWO:Occupation,,,,,,,
+,,,mads:prominentFamilyMember,Prominent Member of Family (RDA 10.6),FALSE,TRUE,,,,,,,,,,
 lc:RT:Agents:RWO:LocationOfConference,Associated Locale: Location of Conference,mads:Geographic,mads:associatedLocale,Search Location,FALSE,TRUE,,,,,,,,,mads:Geographic,
-,,,mads:associatedLocale,"Input Location of Conference, Etc. (RDA 11.3.2)",FALSE,TRUE,literal,,,,,,,,,http://access.rdatoolkit.org/rdachp11_rda11-4164.html
+,,,mads:associatedLocale,"Input Location of Conference, Etc. (RDA 11.3.2)",FALSE,TRUE,literal,,,,,,,,,
 lc:RT:Agents:RWO:Occupation,Occupation,mads:Occupation,mads:authoritativeLabel,Search LCSH/LCDGT,FALSE,TRUE,,,,,,,,,mads:Occupation,
-,,,rdfs:label,Input Profession or Occupation (RDA 9.16),FALSE,TRUE,literal,,,,,,,,mads:Occupation,http://access.rdatoolkit.org/rdachp9_rda9-5315.html
+,,,rdfs:label,Input Profession or Occupation (RDA 9.16),FALSE,TRUE,literal,,,,,,,,mads:Occupation,
 ,,,mads:activityStartDate,Start Date Associated with Profession or Occupation,FALSE,TRUE,literal,,,,,,,,,
 ,,,mads:activityEndDate,End Date Associated with Profession or Occupation,FALSE,TRUE,literal,,,,,,,,,
 lc:RT:Agents:RWO:OtherPlace,Associated Locale: Other Associated Place,mads:Geographic,mads:associatedLocale,Search LCNAF/LCSH,FALSE,TRUE,,,,,,,,,mads:Geographic,
-,,,mads:associatedLocale,Input Other Place Associated with Corporate Body (RDA 11.3.3),FALSE,TRUE,literal,,,,,,,,,http://access.rdatoolkit.org/rdachp11_rda11-4260.html
+,,,mads:associatedLocale,Input Other Place Associated with Corporate Body (RDA 11.3.3),FALSE,TRUE,literal,,,,,,,,,
 ,,,mads:activityStartDate,Other Place Start Date,FALSE,TRUE,literal,,,,,,,,,
 ,,,mads:activityEndDate,Other Place End Date,FALSE,TRUE,literal,,,,,,,,,
 lc:RT:Agents:RWO:PlaceOfResidence,Associated Locale: Place of Residence,mads:Geographic,mads:associatedLocale,Search LCNAF/LCSH,FALSE,TRUE,,,,,,,,,mads:Geographic,
-,,,mads:associatedLocale,Input Place of Residence (RDA 9.11),FALSE,TRUE,literal,,,,,,,,,http://access.rdatoolkit.org/rdachp9_rda9-5121.html
+,,,mads:associatedLocale,Input Place of Residence (RDA 9.11),FALSE,TRUE,literal,,,,,,,,,
 ,,,mads:activityStartDate,Place of Residence Start Date,FALSE,TRUE,literal,,,,,,,,,
 ,,,mads:activityEndDate,Place of Residence End Date,FALSE,TRUE,literal,,,,,,,,,
 lc:RT:Agents:RWO:PlaceofBirth,Associated Locale: Place of Birth,mads:Geographic,mads:birthPlace,Search LCNAF,FALSE,TRUE,,,,,,,,,mads:Geographic,
 ,,,mads:birthPlace,Input Place of Birth (RDA 9.8),FALSE,TRUE,literal,,,,,,,,,
 lc:RT:Agents:RWO:PlaceofDeath,Associated Locale: Place of Death,mads:Geographic,mads:deathPlace,Search LCNAF,FALSE,TRUE,,,,,,,,,mads:Geographic,
-,,,mads:deathPlace,Input Place of Death (RDA 9.9),FALSE,TRUE,literal,,,,,,,,,http://access.rdatoolkit.org/rdachp9_rda9-5062.html
-lc:RT:Agents:RWO:ProminentFamilyMember,Prominent Family Member,mads:prominentFamilyMember,mads:authoritativeLabel,Prominent Member of Family (RDA 10.6),FALSE,TRUE,,,,,,,,,mads:prominentFamilyMember,http://access.rdatoolkit.org/rdachp10_rda10-549.html
+,,,mads:deathPlace,Input Place of Death (RDA 9.9),FALSE,TRUE,literal,,,,,,,,,
+lc:RT:Agents:RWO:ProminentFamilyMember,Prominent Family Member,mads:prominentFamilyMember,mads:authoritativeLabel,Prominent Member of Family (RDA 10.6),FALSE,TRUE,,,,,,,,,mads:prominentFamilyMember,
 lc:RT:Agents:RelatedAgents,Related agents,mads:Authority,owl:sameAs,Search agents,FALSE,TRUE,,,,http://id.loc.gov/authorities/names,IRIstem,,,,mads:Authority,
-,,,rdfs:label,Relationship designator,FALSE,TRUE,bnode,,lc:RT:Agent:Role,,,,,,bf:Role,http://access.rdatoolkit.org/rdaappk_rdak-15.html
-lc:RT:Agents:Source,Sources consulted and cataloger's notes,mads:Source,mads:citationSource,Source Consulted (RDA 8.12),FALSE,TRUE,literal,,,,,,,,,http://access.rdatoolkit.org/rdachp8_rda8-479.html
-,,,mads:citationNote,Source Consulted Note (RDA 8.12),FALSE,TRUE,literal,,,,,,,,,http://access.rdatoolkit.org/rdachp8_rda8-479.html
-,,,mads:citationStatus,Source Citation Status (RDA 8.12),FALSE,TRUE,literal,,,,,,,,,http://access.rdatoolkit.org/rdachp8_rda8-479.html
-,,,mads:editorialNote,Cataloger's Note (RDA 8.13),FALSE,TRUE,literal,,,,,,,,,http://access.rdatoolkit.org/rdachp8_rda8-531.html
-lc:RT:Agents:VariantAgents,Variant access points representing agents,mads:hasVariant,mads:hasVariant,Variant Access Point Representing an Agent,FALSE,TRUE,literal,,,,,,,,,http://access.rdatoolkit.org/rdachp9_rda9-5726.html
+,,,rdfs:label,Relationship designator,FALSE,TRUE,bnode,,lc:RT:Agent:Role,,,,,,bf:Role,
+lc:RT:Agents:Source,Sources consulted and cataloger's notes,mads:Source,mads:citationSource,Source Consulted (RDA 8.12),FALSE,TRUE,literal,,,,,,,,,
+,,,mads:citationNote,Source Consulted Note (RDA 8.12),FALSE,TRUE,literal,,,,,,,,,
+,,,mads:citationStatus,Source Citation Status (RDA 8.12),FALSE,TRUE,literal,,,,,,,,,
+,,,mads:editorialNote,Cataloger's Note (RDA 8.13),FALSE,TRUE,literal,,,,,,,,,
+lc:RT:Agents:VariantAgents,Variant access points representing agents,mads:hasVariant,mads:hasVariant,Variant Access Point Representing an Agent,FALSE,TRUE,literal,,,,,,,,,
 lc:RT:Agents:bfContribution,Collection/contribution,bf:Contribution,bf:agent,Search LCNAF,FALSE,TRUE,bnode,,lc:RT:Agent:bfPerson | lc:RT:Agent:bfCorp | lc:RT:Agent:bfConf | lc:RT:Agent:bfFamily | lc:RT:Agent:bfJurisdiction,,,,,,,
 ,,,bf:role,Relationship designator(s),FALSE,TRUE,,,,http://id.loc.gov/vocabulary/relators,IRIstem,,,,bf:Role,
 ,,,bflc:applicableInstitution,Applicable institution,FALSE,TRUE,,,,http://id.loc.gov/vocabulary/organizations,IRIstem,,DLC,http://id.loc.gov/vocabulary/organizations/dlc,bflc:Agent,
@@ -315,7 +315,7 @@ lc:RT:Analog:Instance,BIBFRAME Instance,bf:Instance,bf:instanceOf,Instance of,FA
 ,,,bf:title,Title information,TRUE,TRUE,bnode,,lc:RT:InstanceTitle | lc:RT:Title:VarTitle | lc:RT:ParallelTitle,,,,,,,
 ,,,bf:responsibilityStatement,Statement of responsibility,FALSE,TRUE,literal,,,,,,,,,
 ,,,bf:editionStatement,Edition statement,FALSE,TRUE,literal,,,,,,,,,
-,,,bf:provisionActivity,Provision activity,FALSE,TRUE,bnode,,lc:RT:PubInfoNew | lc:RT:ManuInfoNew | lc:RT:DistInfoNew | lc:RT:ProdInfoNew,,,,,,,https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates-ProvisionActivity(264)
+,,,bf:provisionActivity,Provision activity,FALSE,TRUE,bnode,,lc:RT:PubInfoNew | lc:RT:ManuInfoNew | lc:RT:DistInfoNew | lc:RT:ProdInfoNew,,,,,,,
 ,,,bf:copyrightDate,Copyright date,FALSE,TRUE,literal,,,,,,,,,
 ,,,bf:issuance,Mode of issuance,FALSE,TRUE,,,,http://id.loc.gov/vocabulary/issuance,IRIstem,,single unit,http://id.loc.gov/vocabulary/issuance/mono,bf:Issuance,
 ,,,bf:identifiedBy,Identifiers,FALSE,TRUE,bnode,,lc:RT:Identifiers:LCCN|lc:RT:Identifiers:AudioIssue|lc:RT:Identifiers:Matrix|lc:RT:Identifiers:UPC|lc:RT:Identifiers:EAN|lc:RT:Identifiers:ISBN|lc:RT:Identifiers:Copyright|lc:RT:Identifiers:Other|lc:RT:Identifiers:Local|lc:RT:Identifiers:Distributor|lc:RT:Identifiers:ISRC|lc:RT:Identifiers:ISMN|lc:RT:Identifiers:Gtin14|lc:RT:Identifiers:Oclc|lc:RT:Identifiers:PubNumber,,,,,,,
@@ -340,11 +340,11 @@ lc:RT:Analog:PlayingSpeed,Playing speed,bf:PlayingSpeed,bf:PlayingSpeed,Playing 
 lc:RT:Analog:Sound6,Groove characteristic,bf:GrooveCharacteristic,bf:GrooveCharacteristic,Lookup,FALSE,FALSE,,,,http://id.loc.gov/vocabulary/mgroove,IRIstem,,,,,
 lc:RT:Analog:Work,BIBFRAME Work,bf:Work,bf:expressionOf,Expression of [search for a Hub],,,,,,https://id.loc.gov/resources/hubs,IRIstem,,,,bf:Hub,
 ,,,bf:contribution,Creator,FALSE,TRUE,bnode,,lc:RT:bflc:Agents:PrimaryContribution,,,,,,bf:PrimaryContribution,
-,,,bf:title,Title,TRUE,TRUE,bnode,,lc:RT:WorkTitle | lc:RT:Title:VarTitle | lc:RT:ParallelTitle,,,,,,,https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates-Work/ExpressionTitles
+,,,bf:title,Title,TRUE,TRUE,bnode,,lc:RT:WorkTitle | lc:RT:Title:VarTitle | lc:RT:ParallelTitle,,,,,,,
 ,,,bf:contribution,Contributions,FALSE,TRUE,bnode,,lc:RT:Agents:Contribution,,,,,,bf:Contribution,
-,,,bf:language,"Language (008 [1st], 041 $a [others])",FALSE,TRUE,,,,http://id.loc.gov/vocabulary/languages,IRIstem,,,,bf:Language,https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates-Languages(041)
-,,,bf:accompaniedBy,Language resource (041 $bdefgt),FALSE,TRUE,bnode,,lc:RT:LangResource,,,,,,,https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates-Languages(041)
-,,,bf:note,Language note (041 $hijkmnpqr),FALSE,TRUE,bnode,,lc:RT:LangNote,,,,,,,https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates-Languages(041)
+,,,bf:language,"Language (008 [1st], 041 $a [others])",FALSE,TRUE,,,,http://id.loc.gov/vocabulary/languages,IRIstem,,,,bf:Language,
+,,,bf:accompaniedBy,Language resource (041 $bdefgt),FALSE,TRUE,bnode,,lc:RT:LangResource,,,,,,,
+,,,bf:note,Language note (041 $hijkmnpqr),FALSE,TRUE,bnode,,lc:RT:LangNote,,,,,,,
 ,,,bf:musicMedium,Medium of performance statement,FALSE,TRUE,bnode,,lc:RT:MOPStatement,,,,,,,
 ,,,bf:ensemble,Ensemble,FALSE,TRUE,bnode,,lc:RT:PMOMedPerf:Ensemble,,,,,,,
 ,,,bf:identifiedBy,Identifiers,FALSE,TRUE,bnode,,lc:RT:Identifiers:OpusNumber|lc:RT:Identifiers:ThematicCatalog|lc:RT:Identifiers:SerialNumber|lc:RT:Identifiers:Matrix,,,,,,,
@@ -384,7 +384,7 @@ lc:RT:Cartographic:Instance,BIBFRAME Instance,bf:Instance,bf:instanceOf,Instance
 ,,,bf:title,Title information,TRUE,TRUE,bnode,,lc:RT:InstanceTitle | lc:RT:Title:VarTitle | lc:RT:ParallelTitle,,,,,,,
 ,,,bf:responsibilityStatement,Statement of responsibility,FALSE,TRUE,literal,,,,,,,,,
 ,,,bf:editionStatement,Edition statement,FALSE,TRUE,literal,,,,,,,,,
-,,,bf:provisionActivity,Provision activity,FALSE,TRUE,bnode,,lc:RT:PubInfoNew | lc:RT:ManuInfoNew | lc:RT:DistInfoNew | lc:RT:ProdInfoNew,,,,,,,https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates-ProvisionActivity(264)
+,,,bf:provisionActivity,Provision activity,FALSE,TRUE,bnode,,lc:RT:PubInfoNew | lc:RT:ManuInfoNew | lc:RT:DistInfoNew | lc:RT:ProdInfoNew,,,,,,,
 ,,,bf:copyrightDate,Copyright date,FALSE,TRUE,literal,,,,,,,,,
 ,,,bf:issuance,Mode of issuance,FALSE,TRUE,,,,http://id.loc.gov/vocabulary/issuance,IRIstem,,single unit,http://id.loc.gov/vocabulary/issuance/mono,bf:Issuance,
 ,,,bf:identifiedBy,Identifiers,FALSE,TRUE,bnode,,lc:RT:Identifiers:ISBN | lc:RT:Identifiers:Oclc | lc:RT:Identifiers:Other | lc:RT:Identifiers:Local | lc:RT:Identifiers:ReportNum | lc:RT:Identifiers:LCCN,,,,,,,
@@ -408,7 +408,7 @@ lc:RT:Cartographic:ObjectType,Cartographic object type,bf:CartographicObjectType
 ,,,bf:count,Object count,FALSE,TRUE,literal,,,,,,,,,
 lc:RT:Cartographic:ScaleNew,Numeric scale value,bf:Scale,rdf:value,Scale value (ex: 1:100),FALSE,TRUE,literal,,,,,,,,,
 lc:RT:Cartographic:Work,BIBFRAME Work,bf:Work,bf:contribution,Creator,FALSE,TRUE,bnode,,lc:RT:bflc:Agents:PrimaryContribution,,,,,,bf:PrimaryContribution,
-,,,bf:title,Title information,TRUE,TRUE,bnode,,lc:RT:WorkTitle | lc:RT:Title:VarTitle | lc:RT:ParallelTitle,,,,,,,https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates-Work/ExpressionTitles
+,,,bf:title,Title information,TRUE,TRUE,bnode,,lc:RT:WorkTitle | lc:RT:Title:VarTitle | lc:RT:ParallelTitle,,,,,,,
 ,,,bf:contribution,Contributors,FALSE,TRUE,bnode,,lc:RT:Agents:Contribution,,,,,,bf:Contribution,
 ,,,bf:note,Notes about the Work,FALSE,TRUE,bnode,,lc:RT:Note,,,,,,,
 ,,,bf:tableOfContents,Contents,FALSE,TRUE,bnode,,lc:RT:Contents,,,,,,,
@@ -419,9 +419,9 @@ lc:RT:Cartographic:Work,BIBFRAME Work,bf:Work,bf:contribution,Creator,FALSE,TRUE
 ,,,bf:classification,Classification numbers,FALSE,TRUE,bnode,,lc:RT:LCC | lc:RT:DDC | lc:RT:GPOClass,,,,,,,
 ,,,bf:intendedAudience,Intended audience,FALSE,TRUE,bnode,,lc:RT:Audience,,,,,,,
 ,,,bf:content,Content type,FALSE,TRUE,,,,http://id.loc.gov/vocabulary/contentTypes,IRIstem,,cartographic image,http://id.loc.gov/vocabulary/contentTypes/cri,bf:Content,
-,,,bf:language,"Language (008 [1st], 041 $a [others])",FALSE,TRUE,,,,http://id.loc.gov/vocabulary/languages,IRIstem,,,,bf:Language,https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates-Languages(041)
-,,,bf:accompaniedBy,Language resource (041 $bdefgt),FALSE,TRUE,bnode,,lc:RT:LangResource,,,,,,,https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates-Languages(041)
-,,,bf:note,Language note (041 $hijkmnpqr),FALSE,TRUE,bnode,,lc:RT:LangNote,,,,,,,https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates-Languages(041)
+,,,bf:language,"Language (008 [1st], 041 $a [others])",FALSE,TRUE,,,,http://id.loc.gov/vocabulary/languages,IRIstem,,,,bf:Language,
+,,,bf:accompaniedBy,Language resource (041 $bdefgt),FALSE,TRUE,bnode,,lc:RT:LangResource,,,,,,,
+,,,bf:note,Language note (041 $hijkmnpqr),FALSE,TRUE,bnode,,lc:RT:LangNote,,,,,,,
 ,,,bf:colorContent,Color content,FALSE,TRUE,,,,http://id.loc.gov/vocabulary/mcolor,IRIstem,,,,bf:ColorContent,
 ,,,bf:supplementaryContent,Supplementary content,FALSE,TRUE,,,,http://id.loc.gov/vocabulary/msupplcont,IRIstem,,,,bf:SupplementaryContent,
 ,,,bflc:governmentPubType,Government publication,FALSE,TRUE,,,,http://id.loc.gov/vocabulary/mgovtpubtype,IRIstem,,,,bflc:GovernmentPubType,
@@ -430,8 +430,8 @@ lc:RT:Cartographic:Work,BIBFRAME Work,bf:Work,bf:contribution,Creator,FALSE,TRUE
 ,,,bf:scale,Numeric scale value,FALSE,TRUE,bnode,,lc:RT:Cartographic:ScaleNew,,,,,,,
 ,,,bf:notation,Script,FALSE,TRUE,,,,http://id.loc.gov/vocabulary/mscript,IRIstem,,,,bf:Script,
 ,,,bf:temporalCoverage,(Time) coverage of the content,FALSE,TRUE,literal,,,,,,,,,
-,,,bf:relation,Search related work/series,FALSE,TRUE,bnode,,lc:RT:RelWorkLookup,,,,,,,"https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates-Hubs(240;X00,X10,X11with$t;X30)"
-,,,bf:relation,Input transcribed series,FALSE,TRUE,bnode,,lc:RT:SeriesHub,,,,,,bf:Relation,"https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates-Series(490,8XX)"
+,,,bf:relation,Search related work/series,FALSE,TRUE,bnode,,lc:RT:RelWorkLookup,,,,,,,
+,,,bf:relation,Input transcribed series,FALSE,TRUE,bnode,,lc:RT:SeriesHub,,,,,,bf:Relation,
 ,,,bf:hasInstance,Add BIBFRAME Instance,FALSE,TRUE,bnode,,lc:RT:Cartographic:Instance,,,,,,,
 lc:RT:Components,Subject components,bf:Topic,mads:componentList,Search subject components,FALSE,TRUE,bnode,,lc:RT:Topic:madsTopic | lc:RT:Topic:madsGeographic | lc:RT:Topic:madsTemporal,,,,,,mads:ComplexSubject,
 ,,,bf:source,Thesaurus,FALSE,TRUE,,,,http://id.loc.gov/vocabulary/subjectSchemes,IRIstem,,,,bf:Source,
@@ -588,15 +588,15 @@ lc:RT:HubBasic:Hub,Hub,bf:Hub,bf:contribution,Primary contributor,FALSE,FALSE,bn
 ,,,bf:originDate,Date work created,FALSE,FALSE,literal,,,,,,,,,
 ,,,rdf:type,Type,FALSE,TRUE,,,,http://id.loc.gov/vocabulary/resourceTypes | http://id.loc.gov/vocabulary/bflcTypes | http://id.loc.gov/vocabulary/bfTypes,IRIstem,,,,,
 ,,,bf:language,Language,FALSE,TRUE,,,,http://id.loc.gov/vocabulary/languages,IRIstem,,,,bf:Language,
-,,,bf:relation,Search related work,FALSE,TRUE,bnode,,lc:RT:RelWorkLookup,,,,,,,"https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates-Hubs(240;X00,X10,X11with$t;X30)"
+,,,bf:relation,Search related work,FALSE,TRUE,bnode,,lc:RT:RelWorkLookup,,,,,,,
 ,,,bf:note,Note,FALSE,TRUE,bnode,,lc:RT:Note,,,,,,,
 ,,,bf:identifiedBy,Identifiers,FALSE,TRUE,bnode,,lc:RT:Identifiers:Other | lc:RT:Identifiers:LCCN | lc:RT:Identifiers:Oclc | lc:RT:Identifiers:Local,,,,,,,
 ,,,bflc:marcKey,MARC label,FALSE,TRUE,literal,,,,,,,,,
 lc:RT:Ibc:Instance,BIBFRAME Instance,bf:Instance,bf:instanceOf,Instance of,FALSE,FALSE,bnode,,lc:RT:Monograph:Work,,,,,,,
-,,,bf:title,Title information,TRUE,TRUE,bnode,,lc:RT:InstanceTitle | lc:RT:Title:VarTitle | lc:RT:ParallelTitle,,,,,,,https://original.rdatoolkit.org/rdachp2_rda2-3376.html
+,,,bf:title,Title information,TRUE,TRUE,bnode,,lc:RT:InstanceTitle | lc:RT:Title:VarTitle | lc:RT:ParallelTitle,,,,,,,
 ,,,bf:responsibilityStatement,Statement of responsibility,FALSE,TRUE,literal,,,,,,,,,
 ,,,bf:editionStatement,Edition statement,FALSE,TRUE,literal,,,,,,,,,
-,,,bf:provisionActivity,Provision activity,FALSE,TRUE,bnode,,lc:RT:PubInfoNew | lc:RT:DistInfoNew | lc:RT:ManuInfoNew | lc:RT:ProdInfoNew,,,,,,,https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates-ProvisionActivity(264)
+,,,bf:provisionActivity,Provision activity,FALSE,TRUE,bnode,,lc:RT:PubInfoNew | lc:RT:DistInfoNew | lc:RT:ManuInfoNew | lc:RT:ProdInfoNew,,,,,,,
 ,,,bf:identifiedBy,Identifiers,FALSE,TRUE,bnode,,lc:RT:Identifiers:LCCN | lc:RT:Identifiers:ISBN | lc:RT:Identifiers:Local,,,,,,,
 ,,,bf:media,Media type,TRUE,TRUE,,,,http://id.loc.gov/vocabulary/mediaTypes,IRIstem,,unmediated,http://id.loc.gov/vocabulary/mediaTypes/n,bf:Media,
 ,,,bf:carrier,Carrier type,TRUE,TRUE,,,,http://id.loc.gov/vocabulary/carriers,IRIstem,,volume,http://id.loc.gov/vocabulary/carriers/nc,bf:Carrier,
@@ -610,11 +610,11 @@ lc:RT:Ibc:Item,BIBFRAME Item,bf:Item,bf:electronicLocator,URL of Item,FALSE,TRUE
 ,,,bf:note,Notes about the Item,FALSE,TRUE,bnode,,lc:RT:NoteLc,,,,,,,
 ,,,bf:enumerationAndChronology,Enumeration and chronology of Item,FALSE,TRUE,bnode,,lc:RT:Item:Enumeration | lc:RT:Item:Chronology,,,,,,,
 lc:RT:Ibc:Work,BIBFRAME Work,bf:Work,bf:contribution,Creator of Work,FALSE,TRUE,bnode,,lc:RT:bflc:Agents:PrimaryContribution,,,,,,bf:PrimaryContribution,
-,,,bf:title,Title information,TRUE,TRUE,bnode,,lc:RT:WorkTitle | lc:RT:Title:VarTitle | lc:RT:ParallelTitle,,,,,,,https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates-Work/ExpressionTitles
+,,,bf:title,Title information,TRUE,TRUE,bnode,,lc:RT:WorkTitle | lc:RT:Title:VarTitle | lc:RT:ParallelTitle,,,,,,,
 ,,,bf:content,Content type,TRUE,TRUE,,,,http://id.loc.gov/vocabulary/contentTypes,IRIstem,,text,http://id.loc.gov/vocabulary/contentTypes/txt,bf:Content,
-,,,bf:language,"Language (008 [1st], 041 $a [others])",FALSE,TRUE,,,,http://id.loc.gov/vocabulary/languages,IRIstem,,,,bf:Language,https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates-Languages(041)
+,,,bf:language,"Language (008 [1st], 041 $a [others])",FALSE,TRUE,,,,http://id.loc.gov/vocabulary/languages,IRIstem,,,,bf:Language,
 ,,,bf:classification,LC call number,FALSE,TRUE,bnode,,lc:RT:LCC,,,,,,,
-,,,bf:relation,Input transcribed series,FALSE,TRUE,bnode,,lc:RT:SeriesHub,,,,,,,"https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates-Series(490,8XX)"
+,,,bf:relation,Input transcribed series,FALSE,TRUE,bnode,,lc:RT:SeriesHub,,,,,,,
 ,,,bf:hasInstance,Add BIBFRAME Instance,FALSE,TRUE,bnode,,lc:RT:Monograph:Instance,,,,,,,
 lc:RT:Identifiers:Agent,Assigner,bf:Organization,rdfs:label,Assigner,FALSE,TRUE,literal,,,,,,,,,
 lc:RT:Identifiers:Agent2,ISSN agency,bf:Agent,bf:code,ISSN centre,FALSE,TRUE,literal,,,,,,,,,
