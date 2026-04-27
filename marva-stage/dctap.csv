@@ -43,7 +43,7 @@ lc:RT:35mmFeatureFilm:Instance,BIBFRAME Instance,bf:Instance,bf:instanceOf,Insta
 ,,,bf:title,Title information,TRUE,TRUE,bnode,,lc:RT:InstanceTitle | lc:RT:Title:VarTitle | lc:RT:ParallelTitle,,,,,,,
 ,,,bf:responsibilityStatement,Statement of responsibility,FALSE,TRUE,literal,,,,,,,,,
 ,,,bf:editionStatement,Edition statement,FALSE,TRUE,literal,,,,,,,,,
-,,,bf:provisionActivity,Provision activity,FALSE,TRUE,bnode,,lc:RT:ProdInfoNew | lc:RT:PubInfoNew | lc:RT:DistInfoNew | lc:RT:ManuInfoNew,,,,,,,https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates-ProvisionActivity(264)
+,,,bf:provisionActivity,Provision activity,FALSE,TRUE,bnode,,lc:RT:ProdInfoNew | lc:RT:PubInfoNew | lc:RT:DistInfoNew | lc:RT:ManuInfoNew,,,,,,,
 ,,,bf:copyrightDate,Copyright date,FALSE,TRUE,literal,,,,,,,,,
 ,,,bf:originPlace,Place of origin,FALSE,TRUE,,,,http://id.loc.gov/authorities/names,IRIstem,,,,bf:Place,
 ,,,bf:issuance,Mode of issuance,FALSE,TRUE,,,,http://id.loc.gov/vocabulary/issuance,IRIstem,,single unit,http://id.loc.gov/vocabulary/issuance/mono,bf:Issuance,
@@ -76,7 +76,7 @@ lc:RT:35mmFeatureFilm:Item,BIBFRAME Item,bf:Item,bf:contribution,Collection/cont
 ,,,bf:aspectRatio,Aspect ratio (numeric),FALSE,TRUE,bnode,,lc:RT:MIBluRayDVD:Aspect,,,,,,,
 ,,,bf:digitalCharacteristic,Digital file characteristics,FALSE,TRUE,bnode,,lc:RT:MIBluRayDVD:FileType | lc:RT:MIBluRayDVD:EncFmt,,,,,,,
 lc:RT:35mmFeatureFilm:Work,BIBFRAME Work,bf:Work,bf:expressionOf,Expression of [search for a Hub],,,bnode,,,https://preprod-8080.id.loc.gov/resources/hubs/,IRIstem,,,,bf:Hub,
-,,,bf:title,Title information,TRUE,TRUE,bnode,,lc:RT:WorkTitle | lc:RT:Title:VarTitle | lc:RT:ParallelTitle,,,,,,,https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates-Work/ExpressionTitles
+,,,bf:title,Title information,TRUE,TRUE,bnode,,lc:RT:WorkTitle | lc:RT:Title:VarTitle | lc:RT:ParallelTitle,,,,,,,
 ,,,bf:originPlace,Place of origin of the Work,FALSE,TRUE,,,,http://id.loc.gov/authorities/names,IRIstem,,,,bf:Place,
 ,,,bf:originDate,Date of Work,FALSE,TRUE,literal,,,,,,,,,
 ,,,bf:historyOfWork,History of the Work,FALSE,TRUE,literal,,,,,,,,,
@@ -244,8 +244,8 @@ lc:RT:Agents:Addresses:Extended,"Addresses, extended",mads:Address,mads:streetAd
 ,,,mads:state,State,FALSE,TRUE,literal,,,,,,,,,
 ,,,mads:country,Country,FALSE,TRUE,literal,,,,,,,,,
 ,,,mads:postcode,Zip Code or Post Code,FALSE,TRUE,literal,,,,,,,,,
-lc:RT:Agents:Contribution,Contribution,bf:Contribution,bf:agent,Agent,false,true,bnode,,lc:RT:Agent:bfPerson | lc:RT:Agent:bfCorp | lc:RT:Agent:bfConf | lc:RT:Agent:bfJurisdiction | lc:RT:Agent:bfFamily,,,,,,,"https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates-Contributors(1XX,6XX,7XX)"
-,,,bf:role,Relationship designator(s),FALSE,true,IRI,,,http://id.loc.gov/vocabulary/relators | https://id.loc.gov/vocabulary/rbmsrel,IRIstem,,,,bf:Role,https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates-AgentRolesMarva+cataloging+updates#Marvacatalogingupdates-AgentRoles
+lc:RT:Agents:Contribution,Contribution,bf:Contribution,bf:agent,Agent,false,true,bnode,,lc:RT:Agent:bfPerson | lc:RT:Agent:bfCorp | lc:RT:Agent:bfConf | lc:RT:Agent:bfJurisdiction | lc:RT:Agent:bfFamily,,,,,,,
+,,,bf:role,Relationship designator(s),FALSE,true,IRI,,,http://id.loc.gov/vocabulary/relators | https://id.loc.gov/vocabulary/rbmsrel,IRIstem,,,,bf:Role,
 ,,,bflc:creatorCharacteristic,Creator characteristics,,true,IRI,,,http://id.loc.gov/authorities/demographicTerms/collection_LCDGT_General,IRIstem,,,,bflc:CreatorCharacteristic,
 lc:RT:Agents:RWO:Affiliation,Affiliation,mads:Affiliation,mads:authoritativeLabel,Search LCNAF,FALSE,TRUE,,,,,,,,,mads:Affiliation,
 ,,,mads:Affiliation,"Input Affiliation (RDA 9.13, RDA 11.5)",FALSE,TRUE,literal,,,,,,,,,
@@ -819,19 +819,7 @@ lc:RT:MIBluRayDVD:Work,BIBFRAME Work,bf:Work,bf:expressionOf,Expression of [sear
 ,,,bf:relation,Search related work/series,FALSE,TRUE,bnode,,lc:RT:RelWorkLookup,,,,,,,"https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates-Hubs(240;X00,X10,X11with$t;X30)"
 ,,,bf:relation,Input transcribed series,FALSE,TRUE,bnode,,lc:RT:SeriesHub,,,,,,bf:Relation,"https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates-Series(490,8XX)"
 ,,,bf:hasInstance,Add BIBFRAME Instance,FALSE,TRUE,bnode,,lc:RT:MIBluRayDVD:Instance,,,,,,,
-lc:RT:MOPEnsemble,Ensemble,bf:MusicEnsemble,bf:MusicEnsemble,Ensemble lookup,FALSE,FALSE,,,,http://id.loc.gov/authorities/performanceMediums,IRIstem,,,,bf:MusicEnsemble,
-,,,bf:count,Number,FALSE,TRUE,literal,,,,,,,,,
-,,,bf:ensembleType,Type of ensemble,FALSE,TRUE,literal,,,,,,,,,
-,,,bf:note,Note,FALSE,TRUE,bnode,,lc:RT:Note,,,,,,,
-lc:RT:MOPInstrument,Instrument,bf:MusicInstrument,bf:MusicInstrument,Instrument lookup,FALSE,FALSE,,,,http://id.loc.gov/authorities/performanceMediums,IRIstem,,,,bf:MusicInstrument,
-,,,bf:count,Number,FALSE,TRUE,literal,,,,,,,,,
-,,,bf:instrumentalType,Type of instrument,FALSE,TRUE,literal,,,,,,,,,
-,,,bf:note,Note,FALSE,TRUE,bnode,,lc:RT:Note,,,,,,,
 lc:RT:MOPStatement,Medium of performance statement,bf:MusicMedium,rdfs:label,Medium of performance text,FALSE,TRUE,literal,,,,,,,,,
-lc:RT:MOPVoice,Voice,bf:MusicVoice,bf:MusicVoice,Voice lookup,FALSE,FALSE,,,,http://id.loc.gov/authorities/performanceMediums,IRIstem,,,,bf:MusicVoice,
-,,,bf:count,Number,FALSE,TRUE,literal,,,,,,,,,
-,,,bf:voiceType,Type of voice,FALSE,TRUE,literal,,,,,,,,,
-,,,bf:note,Note,FALSE,TRUE,bnode,,lc:RT:Note,,,,,,,
 lc:RT:ManuInfoNew,Manufacture,bf:Manufacture,bf:date,EDTF date (to/from 008),FALSE,TRUE,literal,,,,,,,,,
 ,,,bf:place,Search place of publication (to/from 008),FALSE,TRUE,,,,http://id.loc.gov/vocabulary/countries,IRIstem,,,,bf:Place,
 ,,,bflc:simplePlace,Place (to/from 26X $a),FALSE,TRUE,literal,,,,,,,,,
@@ -1169,7 +1157,7 @@ lc:RT:OtherClass,Other classification,bf:Classification,bf:classificationPortion
 ,,,bf:assigner,Assigner,FALSE,TRUE,IRI,,,http://id.loc.gov/vocabulary/organizations,IRIstem,,,,bf:Agent,
 lc:RT:PMOAgentPerf,"Agent, Role, Medium of Performance (test)",bf:Contribution,bf:agent,Agent,FALSE,TRUE,bnode,,lc:RT:Agent:Person,,,,,,,
 ,,,bf:role,Role,FALSE,TRUE,bnode,,lc:RT:Agent:Role,,,,,,,
-,,,pom:hasMediumOfPerformance,Medium of Performance,FALSE,TRUE,,,,http://id.loc.gov/authorities/performanceMediums,IRIstem,,,,,
+,,,bf:hasMediumOfPerformance,Medium of Performance,FALSE,TRUE,,,,http://id.loc.gov/authorities/performanceMediums,IRIstem,,,,,
 lc:RT:PMOMedPerf:DecMedTest,Declared Medium (unused),pom:DeclaredMedium,pom:hasMediumPart,has Medium Part,FALSE,TRUE,bnode,,lc:RT:PMOMedPerf:MedPart2,,,,,,,
 ,,,pom:hasMediumPart,OR has Doubling Medium Part,FALSE,TRUE,bnode,,lc:RT:PMOMedPerf:Doubling,,,,,,,
 ,,,pom:hasDistinctPartCount,Total Distinct Part Count,FALSE,TRUE,literal,,,,,,,,,
@@ -1901,8 +1889,8 @@ lc:RT:VideoCassette:Work,BIBFRAME Work,bf:Work,bf:expressionOf,Expression of [se
 ,,,bf:hasInstance,Add BIBFRAME Instance,FALSE,TRUE,bnode,,lc:RT:VideoCassette:Instance,,,,,,,
 lc:RT:WorkTitle,Work title,bf:Title,bflc:nonSortNum,Non-sort character count,FALSE,TRUE,literal,,,,,,,,,
 ,,,bf:mainTitle,Title,FALSE,FALSE,literal,,,,,,,,,
-lc:RT:bflc:Agents:PrimaryContribution,Primary contribution,bf:PrimaryContribution,bf:agent,Primary contributor,FALSE,TRUE,bnode,,lc:RT:Agent:bfPerson | lc:RT:Agent:bfCorp | lc:RT:Agent:bfConf | lc:RT:Agent:bfJurisdiction | lc:RT:Agent:bfFamily,,,,,,bf:PrimaryContribution,"https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates-Contributors(1XX,6XX,7XX)"
-,,,bf:role,Relationship designator,FALSE,true,IRI,,,http://id.loc.gov/vocabulary/relators | https://id.loc.gov/vocabulary/rbmsrel,IRIstem,,,,bf:Role,https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates-AgentRolesMarva+cataloging+updates#Marvacatalogingupdates-AgentRoles
+lc:RT:bflc:Agents:PrimaryContribution,Primary contribution,bf:PrimaryContribution,bf:agent,Primary contributor,FALSE,TRUE,bnode,,lc:RT:Agent:bfPerson | lc:RT:Agent:bfCorp | lc:RT:Agent:bfConf | lc:RT:Agent:bfJurisdiction | lc:RT:Agent:bfFamily,,,,,,bf:PrimaryContribution,https://bibframe.org/docs/view/documentation-marva-manual/work-description/contributors.md
+,,,bf:role,Relationship designator,FALSE,true,IRI,,,http://id.loc.gov/vocabulary/relators | https://id.loc.gov/vocabulary/rbmsrel,IRIstem,,,,bf:Role,
 ,,,bflc:creatorCharacteristic,Creator characteristics,,true,IRI,,,http://id.loc.gov/authorities/demographicTerms/collection_LCDGT_General,IRIstem,,,,bflc:CreatorCharacteristic,
 lc:RT:bflc:TranscribedTitle,Transliterated title,bf:TransliteratedTitle,bflc:nonSortNum,Non-sort character count,FALSE,TRUE,literal,,,,,,,,,
 ,,,bf:mainTitle,Title,FALSE,FALSE,literal,,,,,,,,,
@@ -2240,9 +2228,6 @@ lc:profile:Xtras,BIBFRAME 2.0 Extra menus,,dcterms:hasPart,Has Shape,,,bnode,,lc
 ,,,dcterms:hasPart,Has Shape,,,bnode,,lc:RT:TypeRec2,,,,,,,
 ,,,dcterms:hasPart,Has Shape,,,bnode,,lc:RT:URL,,,,,,,
 ,,,dcterms:hasPart,Has Shape,,,bnode,,lc:RT:VidFormat,,,,,,,
-,,,dcterms:hasPart,Has Shape,,,bnode,,lc:RT:MOPInstrument,,,,,,,
-,,,dcterms:hasPart,Has Shape,,,bnode,,lc:RT:MOPVoice,,,,,,,
-,,,dcterms:hasPart,Has Shape,,,bnode,,lc:RT:MOPEnsemble,,,,,,,
 ,,,dcterms:hasPart,Has Shape,,,bnode,,lc:RT:MOPStatement,,,,,,,
 ,,,dcterms:hasPart,Has Shape,,,bnode,,lc:RT:MIBluRayDVD:EncFmt,,,,,,,
 ,,,dcterms:hasPart,Has Shape,,,bnode,,lc:RT:MIBluRayDVD:FileType,,,,,,,
