@@ -895,8 +895,8 @@ lc:RT:Monograph:Item,BIBFRAME Item,bf:Item,bf:electronicLocator,URL of Item,FALS
 ,,,bf:immediateAcquisition,Immediate source of acquisition,FALSE,TRUE,bnode,,lc:RT:ImmAcqSource,,,,,,,
 ,,,bf:custodialHistory,Custodial history/Provenance,FALSE,TRUE,literal,,,,,,,,,
 lc:RT:Monograph:Work,BIBFRAME Work,bf:Work,bf:expressionOf,Expression of [search for a Hub],FALSE,TRUE,,,,https://id.loc.gov/resources/hubs,IRIstem,,,,bf:Hub,https://bibframe.org/docs/view/documentation-marva-manual/work-description/expression-hub.md
-,,,bf:contribution,Creator,FALSE,TRUE,bnode,,lc:RT:bflc:Agents:PrimaryContribution,,,,,,bf:PrimaryContribution,
-,,,bf:title,Title information,TRUE,TRUE,bnode,,lc:RT:WorkTitle | lc:RT:Title:VarTitle | lc:RT:ParallelTitle,,,,,,,https://bibframe.org/docs/view/documentation-marva-manual/work-description/title-information.md
+,,,bf:contribution,Creator,FALSE,true,bnode,,lc:RT:bflc:Agents:PrimaryContribution,,,,,,bf:PrimaryContribution,
+,,,bf:title,Title information,true,TRUE,bnode,,lc:RT:WorkTitle | lc:RT:Title:VarTitle | lc:RT:ParallelTitle,,,,,,,https://bibframe.org/docs/view/documentation-marva-manual/work-description/title-information.md
 ,,,bf:contribution,Contributors,FALSE,true,bnode,,lc:RT:Agents:Contribution,,,,,,bf:Contribution,
 ,,,bf:note,Notes about the Work,FALSE,TRUE,bnode,,lc:RT:Note,,,,,,,
 ,,,bf:tableOfContents,Contents,FALSE,TRUE,bnode,,lc:RT:Contents,,,,,,,
