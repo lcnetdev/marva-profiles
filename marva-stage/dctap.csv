@@ -380,6 +380,7 @@ lc:RT:Cartographic:Attributes,Cartographic attributes,bf:Cartographic,bf:coordin
 lc:RT:Cartographic:DataType,Cartographic data type,bf:CartographicDataType,rdfs:label,Cartographic data type,FALSE,TRUE,literal,,,,,,,,,
 lc:RT:Cartographic:EncodingFormat,Encoding format,bf:EncodingFormat,owl:sameAs,Digital image format,FALSE,TRUE,,,,http://id.loc.gov/vocabulary/mencformat,IRIstem,,,,,
 lc:RT:Cartographic:FileType,File type,bf:FileType,owl:sameAs,File type,FALSE,TRUE,,,,http://id.loc.gov/vocabulary/mfiletype,IRIstem,,,,,
+lc:RT:Cartographic:Geog,Geographic coverage,bf:GeographicCoverage,rdfs:label,Input LCC,,true,,,,,,,,,,
 lc:RT:Cartographic:Instance,BIBFRAME Instance,bf:Instance,bf:instanceOf,Instance of,FALSE,FALSE,bnode,,lc:RT:Cartographic:Work,,,,,,,
 ,,,bf:title,Title information,TRUE,TRUE,bnode,,lc:RT:InstanceTitle | lc:RT:Title:VarTitle | lc:RT:ParallelTitle,,,,,,,
 ,,,bf:responsibilityStatement,Statement of responsibility,FALSE,TRUE,literal,,,,,,,,,
