@@ -1231,7 +1231,7 @@ lc:RT:bf2:Topic:madsGenreForm,Form subdivision,mads:GenreForm,mads:GenreForm,Sea
 lc:RT:bf2:Topic:madsGeogHeading,Geographic heading,mads:Geographic,mads:Geographic,Search LCNAF/LCSH,false,true,,,,http://preprod.id.loc.gov/authorities/names | http://id.loc.gov/authorities/subjects,IRIstem,,,,,
 lc:RT:bf2:Topic:madsGeographic,Geographic subdivision,mads:Geographic,mads:Geographic,Search LCNAF/LCSH,false,true,,,,http://preprod.id.loc.gov/authorities/names | http://id.loc.gov/authorities/subjects,IRIstem,,,,,
 lc:RT:bf2:Topic:madsTemporal,Chronological subdivision,mads:Temporal,mads:Temporal,Search LCSH,false,true,,,,http://id.loc.gov/authorities/subjects,IRIstem,,,,,
-lc:RT:bf2:Topic:madsTopic,Heading or topical subdivision,bf:Topic,bf:Topic,Search LCSH/LCNAF,false,true,,,,http://id.loc.gov/authorities/subjects | http://preprod.id.loc.gov/authorities/names,IRIstem,,,,,
+lc:RT:bf2:Topic:madsTopic,Heading or topical subdivision,mads:Topic,mads:Topic,Search LCSH/LCNAF,false,true,,,,http://id.loc.gov/authorities/subjects | http://preprod.id.loc.gov/authorities/names,IRIstem,,,,,
 lc:RT:bf2:Topic:madsTopicSubdivision,Topical subdivision,mads:Topic,mads:Topic,Search LCSH,false,true,,,,http://id.loc.gov/authorities/subjects,IRIstem,,,,,
 lc:RT:bf2:TopicSearch,Search subjects,bf:Topic,mads:authoritativeLabel,Search LCSH/LCNAF,false,true,,,,http://id.loc.gov/authorities/subjects | http://id.loc.gov/authorities/names,IRIstem,,,,,
 lc:RT:bf2:TypeRec,Type of recording (digital),bf:RecordingMethod,bf:RecordingMethod,Lookup,false,false,,,,http://id.loc.gov/vocabulary/mrectype,IRIstem,,digital,http://id.loc.gov/vocabulary/mrectype/digital,,

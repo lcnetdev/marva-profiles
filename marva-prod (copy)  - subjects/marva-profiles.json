@@ -1,6 +1,6 @@
 [
   {
-    "id": "c18070b0-fa8c-433a-8b7f-78d43bfcf879",
+    "id": "073c7407-7dad-495b-ab25-aadc505fb71b",
     "name": "BIBFRAME 2.0 Moving Image",
     "configType": "profile",
     "json": {
@@ -3882,11 +3882,11 @@
           },
           {
             "id": "lc:RT:bf2:Topic:madsTopic",
-            "resourceURI": "http://id.loc.gov/ontologies/bibframe/Topic",
+            "resourceURI": "http://www.loc.gov/mads/rdf/v1#Topic",
             "resourceLabel": "Heading or topical subdivision",
             "propertyTemplates": [
               {
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/Topic",
+                "propertyURI": "http://www.loc.gov/mads/rdf/v1#Topic",
                 "propertyLabel": "Search LCSH/LCNAF",
                 "mandatory": "false",
                 "repeatable": "true",
@@ -4298,14 +4298,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-05-08T12:41:47.777Z",
-      "updateDate": "2026-05-08T12:41:47.777Z"
+      "createDate": "2026-05-08T13:17:46.198Z",
+      "updateDate": "2026-05-08T13:17:46.198Z"
     },
-    "created": "2026-05-08T12:41:47.777Z",
-    "modified": "2026-05-08T12:41:47.777Z"
+    "created": "2026-05-08T13:17:46.198Z",
+    "modified": "2026-05-08T13:17:46.198Z"
   },
   {
-    "id": "ec424dfe-3e34-4189-847e-a773ab7f3414",
+    "id": "f9bfbec8-be34-4271-a80e-462066e1f18e",
     "name": "BIBFRAME 2.0 Admin Metadata",
     "configType": "profile",
     "json": {
@@ -4801,14 +4801,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-05-08T12:41:47.779Z",
-      "updateDate": "2026-05-08T12:41:47.779Z"
+      "createDate": "2026-05-08T13:17:46.200Z",
+      "updateDate": "2026-05-08T13:17:46.200Z"
     },
-    "created": "2026-05-08T12:41:47.779Z",
-    "modified": "2026-05-08T12:41:47.779Z"
+    "created": "2026-05-08T13:17:46.200Z",
+    "modified": "2026-05-08T13:17:46.200Z"
   },
   {
-    "id": "c0d10442-5bd4-4598-9277-12cf4185ce79",
+    "id": "be67e827-f13c-48c1-9f8a-34cbe8e66be7",
     "name": "BIBFRAME 2.0 Agents",
     "configType": "profile",
     "json": {
@@ -7050,14 +7050,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-05-08T12:41:47.790Z",
-      "updateDate": "2026-05-08T12:41:47.790Z"
+      "createDate": "2026-05-08T13:17:46.208Z",
+      "updateDate": "2026-05-08T13:17:46.208Z"
     },
-    "created": "2026-05-08T12:41:47.790Z",
-    "modified": "2026-05-08T12:41:47.790Z"
+    "created": "2026-05-08T13:17:46.208Z",
+    "modified": "2026-05-08T13:17:46.208Z"
   },
   {
-    "id": "5ca7b183-2484-45d7-8efd-4fd41c2d98b7",
+    "id": "114bd4d2-117b-425b-8b8f-4c9e3eb64012",
     "name": "BIBFRAME 2.0 RWO",
     "configType": "profile",
     "json": {
@@ -7985,14 +7985,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-05-08T12:41:47.793Z",
-      "updateDate": "2026-05-08T12:41:47.793Z"
+      "createDate": "2026-05-08T13:17:46.213Z",
+      "updateDate": "2026-05-08T13:17:46.213Z"
     },
-    "created": "2026-05-08T12:41:47.793Z",
-    "modified": "2026-05-08T12:41:47.793Z"
+    "created": "2026-05-08T13:17:46.213Z",
+    "modified": "2026-05-08T13:17:46.213Z"
   },
   {
-    "id": "91a212bc-2dc4-4b4d-9f09-f01da92d5e8b",
+    "id": "e32f591a-267f-4661-a64f-34df1b449a7f",
     "name": "BIBFRAME 2.0 Agents Contribution",
     "configType": "profile",
     "json": {
@@ -8236,14 +8236,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-05-08T12:41:47.794Z",
-      "updateDate": "2026-05-08T12:41:47.794Z"
+      "createDate": "2026-05-08T13:17:46.214Z",
+      "updateDate": "2026-05-08T13:17:46.214Z"
     },
-    "created": "2026-05-08T12:41:47.794Z",
-    "modified": "2026-05-08T12:41:47.794Z"
+    "created": "2026-05-08T13:17:46.214Z",
+    "modified": "2026-05-08T13:17:46.214Z"
   },
   {
-    "id": "6129ccce-ce35-432a-99f4-f5c2f5f746f8",
+    "id": "b0e46c49-d476-423a-9b62-7fa036315991",
     "name": "BIBFRAME 2.0 Sound Recording-Analog",
     "configType": "profile",
     "json": {
@@ -12136,11 +12136,11 @@
           },
           {
             "id": "lc:RT:bf2:Topic:madsTopic",
-            "resourceURI": "http://id.loc.gov/ontologies/bibframe/Topic",
+            "resourceURI": "http://www.loc.gov/mads/rdf/v1#Topic",
             "resourceLabel": "Heading or topical subdivision",
             "propertyTemplates": [
               {
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/Topic",
+                "propertyURI": "http://www.loc.gov/mads/rdf/v1#Topic",
                 "propertyLabel": "Search LCSH/LCNAF",
                 "mandatory": "false",
                 "repeatable": "true",
@@ -12418,14 +12418,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-05-08T12:41:47.818Z",
-      "updateDate": "2026-05-08T12:41:47.818Z"
+      "createDate": "2026-05-08T13:17:46.232Z",
+      "updateDate": "2026-05-08T13:17:46.232Z"
     },
-    "created": "2026-05-08T12:41:47.818Z",
-    "modified": "2026-05-08T12:41:47.818Z"
+    "created": "2026-05-08T13:17:46.232Z",
+    "modified": "2026-05-08T13:17:46.232Z"
   },
   {
-    "id": "0c352308-6505-455a-87cc-2bb12c3449ff",
+    "id": "f6c485cd-76c1-4020-9f1a-1bf1fbb113f0",
     "name": "BIBFRAME 2.0 Cartographic TEST",
     "configType": "profile",
     "json": {
@@ -15589,11 +15589,11 @@
           },
           {
             "id": "lc:RT:bf2:Topic:madsTopic",
-            "resourceURI": "http://id.loc.gov/ontologies/bibframe/Topic",
+            "resourceURI": "http://www.loc.gov/mads/rdf/v1#Topic",
             "resourceLabel": "Heading or topical subdivision",
             "propertyTemplates": [
               {
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/Topic",
+                "propertyURI": "http://www.loc.gov/mads/rdf/v1#Topic",
                 "propertyLabel": "Search LCSH/LCNAF",
                 "mandatory": "false",
                 "repeatable": "true",
@@ -15898,14 +15898,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-05-08T12:41:47.836Z",
-      "updateDate": "2026-05-08T12:41:47.836Z"
+      "createDate": "2026-05-08T13:17:46.247Z",
+      "updateDate": "2026-05-08T13:17:46.247Z"
     },
-    "created": "2026-05-08T12:41:47.836Z",
-    "modified": "2026-05-08T12:41:47.836Z"
+    "created": "2026-05-08T13:17:46.247Z",
+    "modified": "2026-05-08T13:17:46.247Z"
   },
   {
-    "id": "37ed3c23-39e4-4d08-809c-11092f64be5d",
+    "id": "fe78319c-df24-4f34-b2cd-4fe4a05277ba",
     "name": "BIBFRAME 2.0 Classification",
     "configType": "profile",
     "json": {
@@ -16302,14 +16302,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-05-08T12:41:47.837Z",
-      "updateDate": "2026-05-08T12:41:47.837Z"
+      "createDate": "2026-05-08T13:17:46.249Z",
+      "updateDate": "2026-05-08T13:17:46.249Z"
     },
-    "created": "2026-05-08T12:41:47.837Z",
-    "modified": "2026-05-08T12:41:47.837Z"
+    "created": "2026-05-08T13:17:46.249Z",
+    "modified": "2026-05-08T13:17:46.249Z"
   },
   {
-    "id": "0a1a1397-b3e8-422c-a76d-119416aa889b",
+    "id": "071ff14a-6a4d-4b06-ad5e-14c32f0e9190",
     "name": "BIBFRAME 2.0 Form",
     "configType": "profile",
     "json": {
@@ -16436,14 +16436,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-05-08T12:41:47.838Z",
-      "updateDate": "2026-05-08T12:41:47.838Z"
+      "createDate": "2026-05-08T13:17:46.250Z",
+      "updateDate": "2026-05-08T13:17:46.250Z"
     },
-    "created": "2026-05-08T12:41:47.838Z",
-    "modified": "2026-05-08T12:41:47.838Z"
+    "created": "2026-05-08T13:17:46.250Z",
+    "modified": "2026-05-08T13:17:46.250Z"
   },
   {
-    "id": "a1d5329d-917a-4542-b4d9-9b661c209d4f",
+    "id": "afbb7476-2542-4546-afd5-c4f1834d6285",
     "name": "Test BF Hub",
     "configType": "profile",
     "json": {
@@ -17192,14 +17192,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-05-08T12:41:47.842Z",
-      "updateDate": "2026-05-08T12:41:47.842Z"
+      "createDate": "2026-05-08T13:17:46.252Z",
+      "updateDate": "2026-05-08T13:17:46.252Z"
     },
-    "created": "2026-05-08T12:41:47.842Z",
-    "modified": "2026-05-08T12:41:47.842Z"
+    "created": "2026-05-08T13:17:46.252Z",
+    "modified": "2026-05-08T13:17:46.252Z"
   },
   {
-    "id": "3c8132bb-82c9-4345-9907-cf1c4abd16a6",
+    "id": "90112525-9354-428d-bd90-2e93aa5d5e60",
     "name": "BF Hub",
     "configType": "profile",
     "json": {
@@ -18038,14 +18038,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-05-08T12:41:47.847Z",
-      "updateDate": "2026-05-08T12:41:47.847Z"
+      "createDate": "2026-05-08T13:17:46.256Z",
+      "updateDate": "2026-05-08T13:17:46.256Z"
     },
-    "created": "2026-05-08T12:41:47.847Z",
-    "modified": "2026-05-08T12:41:47.847Z"
+    "created": "2026-05-08T13:17:46.256Z",
+    "modified": "2026-05-08T13:17:46.256Z"
   },
   {
-    "id": "dae0fa65-f0db-411d-bae5-a418538b83d1",
+    "id": "c5683828-67d8-4500-9b02-3fc0bc12fa99",
     "name": "Original BF (origbf)",
     "configType": "profile",
     "json": {
@@ -22937,11 +22937,11 @@
           },
           {
             "id": "lc:RT:bf2:Topic:madsTopic",
-            "resourceURI": "http://id.loc.gov/ontologies/bibframe/Topic",
+            "resourceURI": "http://www.loc.gov/mads/rdf/v1#Topic",
             "resourceLabel": "Heading or topical subdivision",
             "propertyTemplates": [
               {
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/Topic",
+                "propertyURI": "http://www.loc.gov/mads/rdf/v1#Topic",
                 "propertyLabel": "Search LCSH/LCNAF",
                 "mandatory": "false",
                 "repeatable": "true",
@@ -23173,14 +23173,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-05-08T12:41:47.871Z",
-      "updateDate": "2026-05-08T12:41:47.871Z"
+      "createDate": "2026-05-08T13:17:46.277Z",
+      "updateDate": "2026-05-08T13:17:46.277Z"
     },
-    "created": "2026-05-08T12:41:47.871Z",
-    "modified": "2026-05-08T12:41:47.871Z"
+    "created": "2026-05-08T13:17:46.277Z",
+    "modified": "2026-05-08T13:17:46.277Z"
   },
   {
-    "id": "7b0753cf-8113-4c88-9a4f-3e7e372a2c0b",
+    "id": "457aa7c8-3963-4b23-8b36-0fc3a298f60c",
     "name": "BIBFRAME 2.0 Identifiers",
     "configType": "profile",
     "json": {
@@ -24544,14 +24544,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-05-08T12:41:47.880Z",
-      "updateDate": "2026-05-08T12:41:47.880Z"
+      "createDate": "2026-05-08T13:17:46.285Z",
+      "updateDate": "2026-05-08T13:17:46.285Z"
     },
-    "created": "2026-05-08T12:41:47.880Z",
-    "modified": "2026-05-08T12:41:47.880Z"
+    "created": "2026-05-08T13:17:46.285Z",
+    "modified": "2026-05-08T13:17:46.285Z"
   },
   {
-    "id": "2dbf692b-3bcd-4063-9971-557e82432d39",
+    "id": "c127dbb1-99b0-472a-ad01-ba1ca059e66c",
     "name": "BIBFRAME 2.0 Item",
     "configType": "profile",
     "json": {
@@ -25023,14 +25023,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-05-08T12:41:47.883Z",
-      "updateDate": "2026-05-08T12:41:47.883Z"
+      "createDate": "2026-05-08T13:17:46.288Z",
+      "updateDate": "2026-05-08T13:17:46.288Z"
     },
-    "created": "2026-05-08T12:41:47.883Z",
-    "modified": "2026-05-08T12:41:47.883Z"
+    "created": "2026-05-08T13:17:46.288Z",
+    "modified": "2026-05-08T13:17:46.288Z"
   },
   {
-    "id": "909530a5-3aa5-4bec-a7c3-411fccfe8569",
+    "id": "40c65559-8f29-4492-a7b9-d4a5770f29ab",
     "name": "BIBFRAME 2.0 Language",
     "configType": "profile",
     "json": {
@@ -25168,14 +25168,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-05-08T12:41:47.884Z",
-      "updateDate": "2026-05-08T12:41:47.884Z"
+      "createDate": "2026-05-08T13:17:46.289Z",
+      "updateDate": "2026-05-08T13:17:46.289Z"
     },
-    "created": "2026-05-08T12:41:47.884Z",
-    "modified": "2026-05-08T12:41:47.884Z"
+    "created": "2026-05-08T13:17:46.289Z",
+    "modified": "2026-05-08T13:17:46.289Z"
   },
   {
-    "id": "43715d5d-aca7-4790-a1b9-a849d595503f",
+    "id": "8d302ebd-21b5-4a03-a10b-a7d75b3d7776",
     "name": "BIBFRAME 2.0 Moving Image-DVD",
     "configType": "profile",
     "json": {
@@ -29141,11 +29141,11 @@
           },
           {
             "id": "lc:RT:bf2:Topic:madsTopic",
-            "resourceURI": "http://id.loc.gov/ontologies/bibframe/Topic",
+            "resourceURI": "http://www.loc.gov/mads/rdf/v1#Topic",
             "resourceLabel": "Heading or topical subdivision",
             "propertyTemplates": [
               {
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/Topic",
+                "propertyURI": "http://www.loc.gov/mads/rdf/v1#Topic",
                 "propertyLabel": "Search LCSH/LCNAF",
                 "mandatory": "false",
                 "repeatable": "true",
@@ -29471,14 +29471,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-05-08T12:41:47.907Z",
-      "updateDate": "2026-05-08T12:41:47.907Z"
+      "createDate": "2026-05-08T13:17:46.307Z",
+      "updateDate": "2026-05-08T13:17:46.307Z"
     },
-    "created": "2026-05-08T12:41:47.907Z",
-    "modified": "2026-05-08T12:41:47.907Z"
+    "created": "2026-05-08T13:17:46.307Z",
+    "modified": "2026-05-08T13:17:46.307Z"
   },
   {
-    "id": "148025e5-d2ab-4d63-a8e3-2823ef63cb58",
+    "id": "8ee15b28-0937-440a-b287-da3ac1169a0b",
     "name": "BIBFRAME 2.0 Monograph",
     "configType": "profile",
     "json": {
@@ -33487,11 +33487,11 @@
           },
           {
             "id": "lc:RT:bf2:Topic:madsTopic",
-            "resourceURI": "http://id.loc.gov/ontologies/bibframe/Topic",
+            "resourceURI": "http://www.loc.gov/mads/rdf/v1#Topic",
             "resourceLabel": "Heading or topical subdivision",
             "propertyTemplates": [
               {
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/Topic",
+                "propertyURI": "http://www.loc.gov/mads/rdf/v1#Topic",
                 "propertyLabel": "Search LCSH/LCNAF",
                 "mandatory": "false",
                 "repeatable": "true",
@@ -33906,14 +33906,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-05-08T12:41:47.932Z",
-      "updateDate": "2026-05-08T12:41:47.932Z"
+      "createDate": "2026-05-08T13:17:46.324Z",
+      "updateDate": "2026-05-08T13:17:46.324Z"
     },
-    "created": "2026-05-08T12:41:47.932Z",
-    "modified": "2026-05-08T12:41:47.932Z"
+    "created": "2026-05-08T13:17:46.324Z",
+    "modified": "2026-05-08T13:17:46.324Z"
   },
   {
-    "id": "96a7a13f-581f-40ea-b654-a9198b6d1e10",
+    "id": "e971fa7f-b336-48c0-a8f3-904fad71f9fc",
     "name": "BIBFRAME 2.0 Notated Music",
     "configType": "profile",
     "json": {
@@ -37425,11 +37425,11 @@
           },
           {
             "id": "lc:RT:bf2:Topic:madsTopic",
-            "resourceURI": "http://id.loc.gov/ontologies/bibframe/Topic",
+            "resourceURI": "http://www.loc.gov/mads/rdf/v1#Topic",
             "resourceLabel": "Heading or topical subdivision",
             "propertyTemplates": [
               {
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/Topic",
+                "propertyURI": "http://www.loc.gov/mads/rdf/v1#Topic",
                 "propertyLabel": "Search LCSH/LCNAF",
                 "mandatory": "false",
                 "repeatable": "true",
@@ -37728,14 +37728,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-05-08T12:41:47.955Z",
-      "updateDate": "2026-05-08T12:41:47.955Z"
+      "createDate": "2026-05-08T13:17:46.341Z",
+      "updateDate": "2026-05-08T13:17:46.341Z"
     },
-    "created": "2026-05-08T12:41:47.955Z",
-    "modified": "2026-05-08T12:41:47.955Z"
+    "created": "2026-05-08T13:17:46.341Z",
+    "modified": "2026-05-08T13:17:46.341Z"
   },
   {
-    "id": "7b503b53-1597-4f00-bb63-ce2502f861f1",
+    "id": "52c083ac-d6a3-4828-b80d-bb9fdf524fb2",
     "name": "BIBFRAME 2.0 Note",
     "configType": "profile",
     "json": {
@@ -38132,14 +38132,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-05-08T12:41:47.958Z",
-      "updateDate": "2026-05-08T12:41:47.958Z"
+      "createDate": "2026-05-08T13:17:46.343Z",
+      "updateDate": "2026-05-08T13:17:46.343Z"
     },
-    "created": "2026-05-08T12:41:47.958Z",
-    "modified": "2026-05-08T12:41:47.958Z"
+    "created": "2026-05-08T13:17:46.343Z",
+    "modified": "2026-05-08T13:17:46.343Z"
   },
   {
-    "id": "6337f54a-2b80-4cad-955b-2bff04343271",
+    "id": "5afc0196-242c-4a58-906c-343226d13277",
     "name": "BIBFRAME 2.0 Place",
     "configType": "profile",
     "json": {
@@ -38173,14 +38173,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-05-08T12:41:47.958Z",
-      "updateDate": "2026-05-08T12:41:47.958Z"
+      "createDate": "2026-05-08T13:17:46.343Z",
+      "updateDate": "2026-05-08T13:17:46.343Z"
     },
-    "created": "2026-05-08T12:41:47.958Z",
-    "modified": "2026-05-08T12:41:47.958Z"
+    "created": "2026-05-08T13:17:46.343Z",
+    "modified": "2026-05-08T13:17:46.343Z"
   },
   {
-    "id": "14a17a43-c4a1-446b-be1b-56f5475bde36",
+    "id": "501db753-67ca-4a2f-95e9-b0b6129d7914",
     "name": "Prints & Photographs",
     "configType": "profile",
     "json": {
@@ -41193,11 +41193,11 @@
           },
           {
             "id": "lc:RT:bf2:Topic:madsTopic",
-            "resourceURI": "http://id.loc.gov/ontologies/bibframe/Topic",
+            "resourceURI": "http://www.loc.gov/mads/rdf/v1#Topic",
             "resourceLabel": "Heading or topical subdivision",
             "propertyTemplates": [
               {
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/Topic",
+                "propertyURI": "http://www.loc.gov/mads/rdf/v1#Topic",
                 "propertyLabel": "Search LCSH/LCNAF",
                 "mandatory": "false",
                 "repeatable": "true",
@@ -41486,14 +41486,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-05-08T12:41:47.976Z",
-      "updateDate": "2026-05-08T12:41:47.976Z"
+      "createDate": "2026-05-08T13:17:46.357Z",
+      "updateDate": "2026-05-08T13:17:46.357Z"
     },
-    "created": "2026-05-08T12:41:47.976Z",
-    "modified": "2026-05-08T12:41:47.976Z"
+    "created": "2026-05-08T13:17:46.357Z",
+    "modified": "2026-05-08T13:17:46.357Z"
   },
   {
-    "id": "a2ba2af2-192e-4ee8-bdff-158deb830914",
+    "id": "9669e44c-26fa-4f5e-8dfb-c3e86d8477e5",
     "name": "BIBFRAME 2.0 Publication, Distribution, Manufacturer Activity",
     "configType": "profile",
     "json": {
@@ -41830,14 +41830,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-05-08T12:41:47.978Z",
-      "updateDate": "2026-05-08T12:41:47.978Z"
+      "createDate": "2026-05-08T13:17:46.358Z",
+      "updateDate": "2026-05-08T13:17:46.358Z"
     },
-    "created": "2026-05-08T12:41:47.978Z",
-    "modified": "2026-05-08T12:41:47.978Z"
+    "created": "2026-05-08T13:17:46.358Z",
+    "modified": "2026-05-08T13:17:46.358Z"
   },
   {
-    "id": "64889c7b-ad61-4690-a2e7-54004c8fe32c",
+    "id": "bc8960b9-2c7c-46aa-bd42-8d4bd116abbb",
     "name": "BIBFRAME 2.0 Rare Materials",
     "configType": "profile",
     "json": {
@@ -45022,11 +45022,11 @@
           },
           {
             "id": "lc:RT:bf2:Topic:madsTopic",
-            "resourceURI": "http://id.loc.gov/ontologies/bibframe/Topic",
+            "resourceURI": "http://www.loc.gov/mads/rdf/v1#Topic",
             "resourceLabel": "Heading or topical subdivision",
             "propertyTemplates": [
               {
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/Topic",
+                "propertyURI": "http://www.loc.gov/mads/rdf/v1#Topic",
                 "propertyLabel": "Search LCSH/LCNAF",
                 "mandatory": "false",
                 "repeatable": "true",
@@ -45305,14 +45305,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-05-08T12:41:47.998Z",
-      "updateDate": "2026-05-08T12:41:47.998Z"
+      "createDate": "2026-05-08T13:17:46.373Z",
+      "updateDate": "2026-05-08T13:17:46.373Z"
     },
-    "created": "2026-05-08T12:41:47.998Z",
-    "modified": "2026-05-08T12:41:47.998Z"
+    "created": "2026-05-08T13:17:46.373Z",
+    "modified": "2026-05-08T13:17:46.373Z"
   },
   {
-    "id": "fb45cec1-5f3d-404d-8f87-14973f95017a",
+    "id": "42eadcdd-37d3-406c-a77f-a878dfaac7d3",
     "name": "BIBFRAME 2.0 Related Works and Expressions",
     "configType": "profile",
     "json": {
@@ -45712,14 +45712,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-05-08T12:41:48.004Z",
-      "updateDate": "2026-05-08T12:41:48.004Z"
+      "createDate": "2026-05-08T13:17:46.375Z",
+      "updateDate": "2026-05-08T13:17:46.375Z"
     },
-    "created": "2026-05-08T12:41:48.004Z",
-    "modified": "2026-05-08T12:41:48.004Z"
+    "created": "2026-05-08T13:17:46.375Z",
+    "modified": "2026-05-08T13:17:46.375Z"
   },
   {
-    "id": "9cd5ab85-2f7a-46b4-a10e-af5e8344f31d",
+    "id": "08470c12-a672-4c30-8586-3dcfbc781eeb",
     "name": "BIBFRAME 2.0 Serial",
     "configType": "profile",
     "json": {
@@ -49811,11 +49811,11 @@
           },
           {
             "id": "lc:RT:bf2:Topic:madsTopic",
-            "resourceURI": "http://id.loc.gov/ontologies/bibframe/Topic",
+            "resourceURI": "http://www.loc.gov/mads/rdf/v1#Topic",
             "resourceLabel": "Heading or topical subdivision",
             "propertyTemplates": [
               {
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/Topic",
+                "propertyURI": "http://www.loc.gov/mads/rdf/v1#Topic",
                 "propertyLabel": "Search LCSH/LCNAF",
                 "mandatory": "false",
                 "repeatable": "true",
@@ -50206,14 +50206,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-05-08T12:41:48.027Z",
-      "updateDate": "2026-05-08T12:41:48.027Z"
+      "createDate": "2026-05-08T13:17:46.395Z",
+      "updateDate": "2026-05-08T13:17:46.395Z"
     },
-    "created": "2026-05-08T12:41:48.027Z",
-    "modified": "2026-05-08T12:41:48.027Z"
+    "created": "2026-05-08T13:17:46.395Z",
+    "modified": "2026-05-08T13:17:46.395Z"
   },
   {
-    "id": "1b07da27-07f8-4eb1-8ba5-e2c207180a01",
+    "id": "0cb173d6-2816-48ca-bbcf-b81bb10cab2b",
     "name": "BIBFRAME 2.0 Series Information",
     "configType": "profile",
     "json": {
@@ -50505,14 +50505,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-05-08T12:41:48.028Z",
-      "updateDate": "2026-05-08T12:41:48.028Z"
+      "createDate": "2026-05-08T13:17:46.396Z",
+      "updateDate": "2026-05-08T13:17:46.396Z"
     },
-    "created": "2026-05-08T12:41:48.028Z",
-    "modified": "2026-05-08T12:41:48.028Z"
+    "created": "2026-05-08T13:17:46.396Z",
+    "modified": "2026-05-08T13:17:46.396Z"
   },
   {
-    "id": "0358ab59-b2a9-46bf-a646-b524f115d8f2",
+    "id": "01de0750-ec20-465a-9b9a-aa507494ee5b",
     "name": "BIBFRAME 2.0 Sound Recording-Audio CD-R",
     "configType": "profile",
     "json": {
@@ -54389,11 +54389,11 @@
           },
           {
             "id": "lc:RT:bf2:Topic:madsTopic",
-            "resourceURI": "http://id.loc.gov/ontologies/bibframe/Topic",
+            "resourceURI": "http://www.loc.gov/mads/rdf/v1#Topic",
             "resourceLabel": "Heading or topical subdivision",
             "propertyTemplates": [
               {
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/Topic",
+                "propertyURI": "http://www.loc.gov/mads/rdf/v1#Topic",
                 "propertyLabel": "Search LCSH/LCNAF",
                 "mandatory": "false",
                 "repeatable": "true",
@@ -54671,14 +54671,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-05-08T12:41:48.053Z",
-      "updateDate": "2026-05-08T12:41:48.053Z"
+      "createDate": "2026-05-08T13:17:46.414Z",
+      "updateDate": "2026-05-08T13:17:46.414Z"
     },
-    "created": "2026-05-08T12:41:48.053Z",
-    "modified": "2026-05-08T12:41:48.053Z"
+    "created": "2026-05-08T13:17:46.414Z",
+    "modified": "2026-05-08T13:17:46.414Z"
   },
   {
-    "id": "bbc47157-04b0-4f35-9703-c47f33e9174a",
+    "id": "740cc45c-9996-4eeb-a0f9-8637e3c8e03c",
     "name": "BIBFRAME 2.0 Sound Recording-Audio Cassette",
     "configType": "profile",
     "json": {
@@ -58449,11 +58449,11 @@
           },
           {
             "id": "lc:RT:bf2:Topic:madsTopic",
-            "resourceURI": "http://id.loc.gov/ontologies/bibframe/Topic",
+            "resourceURI": "http://www.loc.gov/mads/rdf/v1#Topic",
             "resourceLabel": "Heading or topical subdivision",
             "propertyTemplates": [
               {
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/Topic",
+                "propertyURI": "http://www.loc.gov/mads/rdf/v1#Topic",
                 "propertyLabel": "Search LCSH/LCNAF",
                 "mandatory": "false",
                 "repeatable": "true",
@@ -58731,14 +58731,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-05-08T12:41:48.074Z",
-      "updateDate": "2026-05-08T12:41:48.074Z"
+      "createDate": "2026-05-08T13:17:46.431Z",
+      "updateDate": "2026-05-08T13:17:46.431Z"
     },
-    "created": "2026-05-08T12:41:48.074Z",
-    "modified": "2026-05-08T12:41:48.074Z"
+    "created": "2026-05-08T13:17:46.431Z",
+    "modified": "2026-05-08T13:17:46.431Z"
   },
   {
-    "id": "f675da54-885d-478a-b50b-7665772759ee",
+    "id": "44c22f1c-646a-4af7-9fd7-81821767ef24",
     "name": "BIBFRAME 2.0 Sound Recording-Audio CD",
     "configType": "profile",
     "json": {
@@ -62578,11 +62578,11 @@
           },
           {
             "id": "lc:RT:bf2:Topic:madsTopic",
-            "resourceURI": "http://id.loc.gov/ontologies/bibframe/Topic",
+            "resourceURI": "http://www.loc.gov/mads/rdf/v1#Topic",
             "resourceLabel": "Heading or topical subdivision",
             "propertyTemplates": [
               {
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/Topic",
+                "propertyURI": "http://www.loc.gov/mads/rdf/v1#Topic",
                 "propertyLabel": "Search LCSH/LCNAF",
                 "mandatory": "false",
                 "repeatable": "true",
@@ -62860,14 +62860,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-05-08T12:41:48.096Z",
-      "updateDate": "2026-05-08T12:41:48.096Z"
+      "createDate": "2026-05-08T13:17:46.448Z",
+      "updateDate": "2026-05-08T13:17:46.448Z"
     },
-    "created": "2026-05-08T12:41:48.096Z",
-    "modified": "2026-05-08T12:41:48.096Z"
+    "created": "2026-05-08T13:17:46.448Z",
+    "modified": "2026-05-08T13:17:46.448Z"
   },
   {
-    "id": "0cf94127-d69c-40eb-b77c-1b294dd2c787",
+    "id": "6390856c-d131-4787-b742-b3989fa95364",
     "name": "BIBFRAME 2.0 Title Information",
     "configType": "profile",
     "json": {
@@ -63435,14 +63435,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-05-08T12:41:48.101Z",
-      "updateDate": "2026-05-08T12:41:48.101Z"
+      "createDate": "2026-05-08T13:17:46.450Z",
+      "updateDate": "2026-05-08T13:17:46.450Z"
     },
-    "created": "2026-05-08T12:41:48.101Z",
-    "modified": "2026-05-08T12:41:48.101Z"
+    "created": "2026-05-08T13:17:46.450Z",
+    "modified": "2026-05-08T13:17:46.450Z"
   },
   {
-    "id": "c881cb14-10d0-4717-938f-c04f96fecbf7",
+    "id": "493d93c6-9724-4617-8972-43f60ce480a6",
     "name": "BIBFRAME 2.0 Topic",
     "configType": "profile",
     "json": {
@@ -63553,11 +63553,11 @@
           },
           {
             "id": "lc:RT:bf2:Topic:madsTopic",
-            "resourceURI": "http://id.loc.gov/ontologies/bibframe/Topic",
+            "resourceURI": "http://www.loc.gov/mads/rdf/v1#Topic",
             "resourceLabel": "Heading or topical subdivision",
             "propertyTemplates": [
               {
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/Topic",
+                "propertyURI": "http://www.loc.gov/mads/rdf/v1#Topic",
                 "propertyLabel": "Search LCSH/LCNAF",
                 "mandatory": "false",
                 "repeatable": "true",
@@ -65739,14 +65739,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-05-08T12:41:48.111Z",
-      "updateDate": "2026-05-08T12:41:48.111Z"
+      "createDate": "2026-05-08T13:17:46.460Z",
+      "updateDate": "2026-05-08T13:17:46.460Z"
     },
-    "created": "2026-05-08T12:41:48.111Z",
-    "modified": "2026-05-08T12:41:48.111Z"
+    "created": "2026-05-08T13:17:46.460Z",
+    "modified": "2026-05-08T13:17:46.460Z"
   },
   {
-    "id": "e93d8cb0-88e8-40e2-a905-ce41171ed57a",
+    "id": "fb254cb6-ede3-4839-8e7f-66b7a396c2e3",
     "name": "BIBFRAME 2.0 Agents Primary Contribution",
     "configType": "profile",
     "json": {
@@ -65923,10 +65923,10 @@
       }
     },
     "metadata": {
-      "createDate": "2026-05-08T12:41:48.112Z",
-      "updateDate": "2026-05-08T12:41:48.112Z"
+      "createDate": "2026-05-08T13:17:46.461Z",
+      "updateDate": "2026-05-08T13:17:46.461Z"
     },
-    "created": "2026-05-08T12:41:48.112Z",
-    "modified": "2026-05-08T12:41:48.112Z"
+    "created": "2026-05-08T13:17:46.461Z",
+    "modified": "2026-05-08T13:17:46.461Z"
   }
 ]
