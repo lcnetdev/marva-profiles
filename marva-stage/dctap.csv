@@ -1690,7 +1690,7 @@ lc:RT:SoundContent,Sound content,bf:SoundContent,bf:SoundContent,Lookup,FALSE,FA
 lc:RT:SpecPlayback,Special playback characteristic,bf:PlaybackCharacteristic,bf:PlaybackCharacteristic,Lookup,FALSE,FALSE,,,,http://id.loc.gov/vocabulary/mspecplayback,IRIstem,,,,,
 lc:RT:SubjectAgent,Subject-Agent,bf:Agent,mads:authoritativeLabel,Agents,FALSE,TRUE,,,,,,,,,,
 lc:RT:Subjects:AgentS,Single Person,bf:Person,owl:sameAs,Search LCNAF,FALSE,TRUE,,,,http://id.loc.gov/authorities/names,IRIstem,,,,,
-lc:RT:Subjects:Complex,Subject components,bf:Topic,mads:componentList,Search Subject components,FALSE,TRUE,bnode,,lc:RT:Topic:madsTopic | lc:RT:Topic:madsGeographic | lc:RT:Topic:madsTemporal | lc:RT:Topic:madsGenreForm,,,,,,mads:ComplexSubject,
+lc:RT:Subjects:Complex,Subject components,bf:Topic,mads:componentList,Search Subject components,FALSE,TRUE,bnode,,lc:RT:Topic:madsTopic | lc:RT:Topic:madsGeographic | lc:RT:Topic:madsTemporal | lc:RT:Topic:madsGenreForm,,,,,,bf:Topic,
 ,,,bf:source,Source of subject heading,FALSE,TRUE,,,,http://id.loc.gov/vocabulary/subjectSchemes,IRIstem,,"lcsh
 lcshac","http://id.loc.gov/authorities/subjects
 http://id.loc.gov/authorities/childrensSubjects",bf:Source,
