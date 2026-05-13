@@ -916,7 +916,7 @@ lc:RT:Monograph:Work,BIBFRAME Work,bf:Work,bf:expressionOf,Expression of [search
 ,,,bf:classification,Classification numbers,FALSE,true,bnode,,lc:RT:LCC | lc:RT:DDC | lc:RT:NLM | lc:RT:NAL | lc:RT:OtherClass,,,,,,,
 ,,,bf:intendedAudience,Intended audience,FALSE,TRUE,bnode,,lc:RT:Audience,,,,,,,
 ,,,bf:content,Content type,true,TRUE,IRI,,,http://id.loc.gov/vocabulary/contentTypes,IRIstem,,text,http://id.loc.gov/vocabulary/contentTypes/txt,bf:Content,
-,,,bf:language,"Language (008 [1st], 041 $a [others])",FALSE,TRUE,IRI,,,http://id.loc.gov/vocabulary/languages,IRIstem,,,,bf:Language,https://bibframe.org/docs/view/documentation-marva-manual/work-description/language.md
+,,,bf:language,"Language (008 [1st], 041 $a [others])",true,TRUE,IRI,,,http://id.loc.gov/vocabulary/languages,IRIstem,,,,bf:Language,https://bibframe.org/docs/view/documentation-marva-manual/work-description/language.md
 ,,,bf:language,ISO 639-3 language (MARC 041 $a),FALSE,TRUE,,,,http://id.loc.gov/vocabulary/iso639-3,IRIstem,,,,bf:Language,
 ,,,bf:accompaniedBy,Language resource (041 $bdefgt),FALSE,TRUE,bnode,,lc:RT:LangResource,,,,,,,https://bibframe.org/docs/view/documentation-marva-manual/work-description/language.md
 ,,,bf:note,Language note (041 $hijkmnpqr),FALSE,TRUE,bnode,,lc:RT:LangNote,,,,,,,
