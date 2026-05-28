@@ -1,6 +1,6 @@
 [
   {
-    "id": "787cee8a-7339-402c-b056-fa3b85bc579e",
+    "id": "77be618b-a834-4024-a9fe-fdf430f8216d",
     "name": "config",
     "configType": "startingPoints",
     "json": [
@@ -313,6 +313,29 @@
             ],
             "useResourceTemplates": [
               "lc:RT:HubBasic:Hub"
+            ]
+          }
+        ]
+      },
+      {
+        "menuGroup": "3DObject",
+        "menuItems": [
+          {
+            "label": "Instance",
+            "type": [
+              "http://id.loc.gov/ontologies/bibframe/Instance"
+            ],
+            "useResourceTemplates": [
+              "lc:RT:3DObject:Instance"
+            ]
+          },
+          {
+            "label": "Work",
+            "type": [
+              "http://id.loc.gov/ontologies/bibframe/Work"
+            ],
+            "useResourceTemplates": [
+              "lc:RT:3DObject:Work"
             ]
           }
         ]
