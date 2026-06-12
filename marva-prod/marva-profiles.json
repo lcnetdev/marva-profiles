@@ -1,6 +1,6 @@
 [
   {
-    "id": "02166e36-fa03-4038-b06c-b0de14ae303d",
+    "id": "b9c1be7c-7dbd-496d-b4d8-63a1cb5c03aa",
     "name": "BIBFRAME 2.0 Moving Image",
     "configType": "profile",
     "json": {
@@ -1459,7 +1459,8 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                }
+                },
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/instance-description/title-information.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/partNumber",
@@ -1568,7 +1569,8 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                }
+                },
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/instance-description/title-information.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/partNumber",
@@ -2531,7 +2533,8 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                }
+                },
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/instance-description/title-information.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/partNumber",
@@ -2594,7 +2597,8 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                }
+                },
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/instance-description/provision-activity.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/place",
@@ -2626,7 +2630,8 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                }
+                },
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/instance-description/provision-activity.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bflc/simpleAgent",
@@ -2675,7 +2680,8 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                }
+                },
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/instance-description/provision-activity.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/place",
@@ -2707,7 +2713,8 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                }
+                },
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/instance-description/provision-activity.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bflc/simpleAgent",
@@ -2756,7 +2763,8 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                }
+                },
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/instance-description/provision-activity.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/place",
@@ -2788,7 +2796,8 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                }
+                },
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/instance-description/provision-activity.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bflc/simpleAgent",
@@ -2837,7 +2846,8 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                }
+                },
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/instance-description/provision-activity.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/place",
@@ -2869,7 +2879,8 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                }
+                },
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/instance-description/provision-activity.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bflc/simpleAgent",
@@ -4297,14 +4308,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-06-11T13:17:40.963Z",
-      "updateDate": "2026-06-11T13:17:40.963Z"
+      "createDate": "2026-06-12T15:57:53.008Z",
+      "updateDate": "2026-06-12T15:57:53.008Z"
     },
-    "created": "2026-06-11T13:17:40.963Z",
-    "modified": "2026-06-11T13:17:40.963Z"
+    "created": "2026-06-12T15:57:53.008Z",
+    "modified": "2026-06-12T15:57:53.008Z"
   },
   {
-    "id": "f0f8b9f4-fa06-4807-ad98-3d0183648cf5",
+    "id": "3083f25f-b054-4a5a-b0e1-1ce3edc4050a",
     "name": "BIBFRAME 2.0 Admin Metadata",
     "configType": "profile",
     "json": {
@@ -4800,14 +4811,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-06-11T13:17:40.975Z",
-      "updateDate": "2026-06-11T13:17:40.975Z"
+      "createDate": "2026-06-12T15:57:53.009Z",
+      "updateDate": "2026-06-12T15:57:53.009Z"
     },
-    "created": "2026-06-11T13:17:40.975Z",
-    "modified": "2026-06-11T13:17:40.975Z"
+    "created": "2026-06-12T15:57:53.009Z",
+    "modified": "2026-06-12T15:57:53.009Z"
   },
   {
-    "id": "cb687e18-0b2f-4350-9b08-b13dc441fefa",
+    "id": "22a82eb1-76d7-46ab-9237-b50bdc9a276a",
     "name": "BIBFRAME 2.0 Agents",
     "configType": "profile",
     "json": {
@@ -7049,14 +7060,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-06-11T13:17:41.021Z",
-      "updateDate": "2026-06-11T13:17:41.021Z"
+      "createDate": "2026-06-12T15:57:53.018Z",
+      "updateDate": "2026-06-12T15:57:53.018Z"
     },
-    "created": "2026-06-11T13:17:41.021Z",
-    "modified": "2026-06-11T13:17:41.021Z"
+    "created": "2026-06-12T15:57:53.018Z",
+    "modified": "2026-06-12T15:57:53.018Z"
   },
   {
-    "id": "9d9c6626-1e0f-4ce8-a50f-633aa40a0d3d",
+    "id": "0876f880-84ac-4a2d-9613-c7299920f826",
     "name": "BIBFRAME 2.0 RWO",
     "configType": "profile",
     "json": {
@@ -7984,14 +7995,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-06-11T13:17:41.047Z",
-      "updateDate": "2026-06-11T13:17:41.047Z"
+      "createDate": "2026-06-12T15:57:53.022Z",
+      "updateDate": "2026-06-12T15:57:53.022Z"
     },
-    "created": "2026-06-11T13:17:41.047Z",
-    "modified": "2026-06-11T13:17:41.047Z"
+    "created": "2026-06-12T15:57:53.022Z",
+    "modified": "2026-06-12T15:57:53.022Z"
   },
   {
-    "id": "35226eda-a2b2-4254-bc6e-43d077897cee",
+    "id": "26065a73-4851-422f-941c-7157502a1522",
     "name": "BIBFRAME 2.0 Agents Contribution",
     "configType": "profile",
     "json": {
@@ -8235,14 +8246,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-06-11T13:17:41.053Z",
-      "updateDate": "2026-06-11T13:17:41.053Z"
+      "createDate": "2026-06-12T15:57:53.023Z",
+      "updateDate": "2026-06-12T15:57:53.023Z"
     },
-    "created": "2026-06-11T13:17:41.053Z",
-    "modified": "2026-06-11T13:17:41.053Z"
+    "created": "2026-06-12T15:57:53.023Z",
+    "modified": "2026-06-12T15:57:53.023Z"
   },
   {
-    "id": "601b803b-a688-4366-9aa9-36bd44e3e662",
+    "id": "8325cb98-25f3-4f13-a934-88cb4f7262b9",
     "name": "BIBFRAME 2.0 Sound Recording-Analog",
     "configType": "profile",
     "json": {
@@ -9345,7 +9356,8 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                }
+                },
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/instance-description/title-information.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/partNumber",
@@ -9454,7 +9466,8 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                }
+                },
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/instance-description/title-information.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/partNumber",
@@ -10557,7 +10570,8 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                }
+                },
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/instance-description/title-information.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/partNumber",
@@ -10620,7 +10634,8 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                }
+                },
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/instance-description/provision-activity.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/place",
@@ -10652,7 +10667,8 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                }
+                },
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/instance-description/provision-activity.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bflc/simpleAgent",
@@ -10701,7 +10717,8 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                }
+                },
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/instance-description/provision-activity.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/place",
@@ -10733,7 +10750,8 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                }
+                },
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/instance-description/provision-activity.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bflc/simpleAgent",
@@ -10782,7 +10800,8 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                }
+                },
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/instance-description/provision-activity.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/place",
@@ -10814,7 +10833,8 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                }
+                },
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/instance-description/provision-activity.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bflc/simpleAgent",
@@ -10863,7 +10883,8 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                }
+                },
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/instance-description/provision-activity.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/place",
@@ -10895,7 +10916,8 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                }
+                },
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/instance-description/provision-activity.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bflc/simpleAgent",
@@ -12435,14 +12457,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-06-11T13:17:41.107Z",
-      "updateDate": "2026-06-11T13:17:41.107Z"
+      "createDate": "2026-06-12T15:57:53.041Z",
+      "updateDate": "2026-06-12T15:57:53.041Z"
     },
-    "created": "2026-06-11T13:17:41.107Z",
-    "modified": "2026-06-11T13:17:41.107Z"
+    "created": "2026-06-12T15:57:53.041Z",
+    "modified": "2026-06-12T15:57:53.041Z"
   },
   {
-    "id": "a77162a8-e80e-4c2b-a7c7-94b03e52f496",
+    "id": "a66243d7-935d-4b25-adb1-6dd1deb66b96",
     "name": "BIBFRAME 2.0 Cartographic TEST",
     "configType": "profile",
     "json": {
@@ -13633,7 +13655,8 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                }
+                },
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/instance-description/title-information.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/partNumber",
@@ -13742,7 +13765,8 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                }
+                },
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/instance-description/title-information.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/partNumber",
@@ -14599,7 +14623,8 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                }
+                },
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/instance-description/title-information.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/partNumber",
@@ -14662,7 +14687,8 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                }
+                },
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/instance-description/provision-activity.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/place",
@@ -14694,7 +14720,8 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                }
+                },
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/instance-description/provision-activity.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bflc/simpleAgent",
@@ -14743,7 +14770,8 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                }
+                },
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/instance-description/provision-activity.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/place",
@@ -14775,7 +14803,8 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                }
+                },
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/instance-description/provision-activity.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bflc/simpleAgent",
@@ -14824,7 +14853,8 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                }
+                },
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/instance-description/provision-activity.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/place",
@@ -14856,7 +14886,8 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                }
+                },
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/instance-description/provision-activity.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bflc/simpleAgent",
@@ -14905,7 +14936,8 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                }
+                },
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/instance-description/provision-activity.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/place",
@@ -14937,7 +14969,8 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                }
+                },
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/instance-description/provision-activity.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bflc/simpleAgent",
@@ -15933,14 +15966,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-06-11T13:17:41.129Z",
-      "updateDate": "2026-06-11T13:17:41.129Z"
+      "createDate": "2026-06-12T15:57:53.056Z",
+      "updateDate": "2026-06-12T15:57:53.056Z"
     },
-    "created": "2026-06-11T13:17:41.129Z",
-    "modified": "2026-06-11T13:17:41.129Z"
+    "created": "2026-06-12T15:57:53.056Z",
+    "modified": "2026-06-12T15:57:53.056Z"
   },
   {
-    "id": "f9bfc9bf-307c-434d-9083-de486b709857",
+    "id": "c4650796-240f-4a98-8b24-2a2f6cecc3cb",
     "name": "BIBFRAME 2.0 Classification",
     "configType": "profile",
     "json": {
@@ -16337,14 +16370,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-06-11T13:17:41.131Z",
-      "updateDate": "2026-06-11T13:17:41.131Z"
+      "createDate": "2026-06-12T15:57:53.059Z",
+      "updateDate": "2026-06-12T15:57:53.059Z"
     },
-    "created": "2026-06-11T13:17:41.131Z",
-    "modified": "2026-06-11T13:17:41.131Z"
+    "created": "2026-06-12T15:57:53.059Z",
+    "modified": "2026-06-12T15:57:53.059Z"
   },
   {
-    "id": "1b7ee0f0-533f-489d-a048-c9601f5a9dbd",
+    "id": "41d0f0ad-0402-428e-9c91-45f552d5fbbc",
     "name": "BIBFRAME 2.0 Form",
     "configType": "profile",
     "json": {
@@ -16471,14 +16504,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-06-11T13:17:41.132Z",
-      "updateDate": "2026-06-11T13:17:41.132Z"
+      "createDate": "2026-06-12T15:57:53.059Z",
+      "updateDate": "2026-06-12T15:57:53.059Z"
     },
-    "created": "2026-06-11T13:17:41.132Z",
-    "modified": "2026-06-11T13:17:41.132Z"
+    "created": "2026-06-12T15:57:53.059Z",
+    "modified": "2026-06-12T15:57:53.059Z"
   },
   {
-    "id": "14a353b5-5572-42d5-9ace-3e3c3c67f8e7",
+    "id": "d0566b22-dca0-4e51-87b1-213aee8132be",
     "name": "Test BF Hub",
     "configType": "profile",
     "json": {
@@ -17227,14 +17260,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-06-11T13:17:41.137Z",
-      "updateDate": "2026-06-11T13:17:41.137Z"
+      "createDate": "2026-06-12T15:57:53.062Z",
+      "updateDate": "2026-06-12T15:57:53.062Z"
     },
-    "created": "2026-06-11T13:17:41.137Z",
-    "modified": "2026-06-11T13:17:41.137Z"
+    "created": "2026-06-12T15:57:53.062Z",
+    "modified": "2026-06-12T15:57:53.062Z"
   },
   {
-    "id": "c22dcbb4-e56b-4b28-92e0-8952fe31aa16",
+    "id": "acdf8fba-0676-4a54-b5b6-1e00019ab4be",
     "name": "BF Hub",
     "configType": "profile",
     "json": {
@@ -17497,7 +17530,8 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                }
+                },
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/instance-description/title-information.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/partNumber",
@@ -17560,7 +17594,8 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                }
+                },
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/instance-description/title-information.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/partNumber",
@@ -18073,14 +18108,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-06-11T13:17:41.146Z",
-      "updateDate": "2026-06-11T13:17:41.146Z"
+      "createDate": "2026-06-12T15:57:53.066Z",
+      "updateDate": "2026-06-12T15:57:53.066Z"
     },
-    "created": "2026-06-11T13:17:41.146Z",
-    "modified": "2026-06-11T13:17:41.146Z"
+    "created": "2026-06-12T15:57:53.066Z",
+    "modified": "2026-06-12T15:57:53.066Z"
   },
   {
-    "id": "d6b198cf-6a41-4d42-8e9c-2a59ef1872d3",
+    "id": "80c0a235-860a-4e19-8bc2-3a33fbdb4aae",
     "name": "Original BF (origbf)",
     "configType": "profile",
     "json": {
@@ -18630,7 +18665,8 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                }
+                },
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/instance-description/title-information.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/partNumber",
@@ -18739,7 +18775,8 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                }
+                },
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/instance-description/title-information.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/partNumber",
@@ -19958,7 +19995,8 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                }
+                },
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/instance-description/title-information.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/partNumber",
@@ -20021,7 +20059,8 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                }
+                },
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/instance-description/provision-activity.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/place",
@@ -20053,7 +20092,8 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                }
+                },
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/instance-description/provision-activity.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bflc/simpleAgent",
@@ -20102,7 +20142,8 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                }
+                },
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/instance-description/provision-activity.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/place",
@@ -20134,7 +20175,8 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                }
+                },
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/instance-description/provision-activity.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bflc/simpleAgent",
@@ -20183,7 +20225,8 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                }
+                },
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/instance-description/provision-activity.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/place",
@@ -20215,7 +20258,8 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                }
+                },
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/instance-description/provision-activity.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bflc/simpleAgent",
@@ -20264,7 +20308,8 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                }
+                },
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/instance-description/provision-activity.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/place",
@@ -20296,7 +20341,8 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                }
+                },
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/instance-description/provision-activity.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bflc/simpleAgent",
@@ -23228,14 +23274,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-06-11T13:17:41.184Z",
-      "updateDate": "2026-06-11T13:17:41.184Z"
+      "createDate": "2026-06-12T15:57:53.087Z",
+      "updateDate": "2026-06-12T15:57:53.087Z"
     },
-    "created": "2026-06-11T13:17:41.184Z",
-    "modified": "2026-06-11T13:17:41.184Z"
+    "created": "2026-06-12T15:57:53.087Z",
+    "modified": "2026-06-12T15:57:53.087Z"
   },
   {
-    "id": "5ee37d3d-100d-4920-a9bb-a0a4b51c71d0",
+    "id": "51ac7df0-e4ee-43b7-bc2e-d54e2f57075a",
     "name": "BIBFRAME 2.0 Identifiers",
     "configType": "profile",
     "json": {
@@ -24599,14 +24645,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-06-11T13:17:41.195Z",
-      "updateDate": "2026-06-11T13:17:41.195Z"
+      "createDate": "2026-06-12T15:57:53.093Z",
+      "updateDate": "2026-06-12T15:57:53.093Z"
     },
-    "created": "2026-06-11T13:17:41.195Z",
-    "modified": "2026-06-11T13:17:41.195Z"
+    "created": "2026-06-12T15:57:53.093Z",
+    "modified": "2026-06-12T15:57:53.093Z"
   },
   {
-    "id": "10d3c62f-6792-4054-a3bb-c98a16fd4693",
+    "id": "a0f39076-465e-41f3-90ef-e1af546c35a3",
     "name": "BIBFRAME 2.0 Item",
     "configType": "profile",
     "json": {
@@ -25080,14 +25126,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-06-11T13:17:41.198Z",
-      "updateDate": "2026-06-11T13:17:41.198Z"
+      "createDate": "2026-06-12T15:57:53.096Z",
+      "updateDate": "2026-06-12T15:57:53.096Z"
     },
-    "created": "2026-06-11T13:17:41.198Z",
-    "modified": "2026-06-11T13:17:41.198Z"
+    "created": "2026-06-12T15:57:53.096Z",
+    "modified": "2026-06-12T15:57:53.096Z"
   },
   {
-    "id": "ee9d4b11-d98e-4c3c-9ce1-cc7eede6f748",
+    "id": "58378f50-b3f9-43be-9672-8d806438328c",
     "name": "BIBFRAME 2.0 Language",
     "configType": "profile",
     "json": {
@@ -25225,14 +25271,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-06-11T13:17:41.199Z",
-      "updateDate": "2026-06-11T13:17:41.199Z"
+      "createDate": "2026-06-12T15:57:53.096Z",
+      "updateDate": "2026-06-12T15:57:53.096Z"
     },
-    "created": "2026-06-11T13:17:41.199Z",
-    "modified": "2026-06-11T13:17:41.199Z"
+    "created": "2026-06-12T15:57:53.096Z",
+    "modified": "2026-06-12T15:57:53.096Z"
   },
   {
-    "id": "4e41df59-c316-4d43-a8f2-234e4a6e97b2",
+    "id": "48cc7067-0702-4562-a6d1-fe1981c3383e",
     "name": "BIBFRAME 2.0 Moving Image-DVD",
     "configType": "profile",
     "json": {
@@ -26550,7 +26596,8 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                }
+                },
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/instance-description/title-information.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/partNumber",
@@ -26659,7 +26706,8 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                }
+                },
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/instance-description/title-information.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/partNumber",
@@ -27757,7 +27805,8 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                }
+                },
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/instance-description/title-information.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/partNumber",
@@ -27820,7 +27869,8 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                }
+                },
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/instance-description/provision-activity.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/place",
@@ -27852,7 +27902,8 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                }
+                },
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/instance-description/provision-activity.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bflc/simpleAgent",
@@ -27901,7 +27952,8 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                }
+                },
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/instance-description/provision-activity.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/place",
@@ -27933,7 +27985,8 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                }
+                },
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/instance-description/provision-activity.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bflc/simpleAgent",
@@ -27982,7 +28035,8 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                }
+                },
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/instance-description/provision-activity.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/place",
@@ -28014,7 +28068,8 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                }
+                },
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/instance-description/provision-activity.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bflc/simpleAgent",
@@ -28063,7 +28118,8 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                }
+                },
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/instance-description/provision-activity.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/place",
@@ -28095,7 +28151,8 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                }
+                },
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/instance-description/provision-activity.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bflc/simpleAgent",
@@ -29546,14 +29603,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-06-11T13:17:41.233Z",
-      "updateDate": "2026-06-11T13:17:41.233Z"
+      "createDate": "2026-06-12T15:57:53.115Z",
+      "updateDate": "2026-06-12T15:57:53.115Z"
     },
-    "created": "2026-06-11T13:17:41.233Z",
-    "modified": "2026-06-11T13:17:41.233Z"
+    "created": "2026-06-12T15:57:53.115Z",
+    "modified": "2026-06-12T15:57:53.115Z"
   },
   {
-    "id": "1800337e-8315-4bb9-81d9-c7218044debc",
+    "id": "8f98a0ee-f10e-4c03-8300-91fee27fcaf7",
     "name": "BIBFRAME 2.0 Monograph",
     "configType": "profile",
     "json": {
@@ -30788,7 +30845,8 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                }
+                },
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/instance-description/title-information.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/partNumber",
@@ -30897,7 +30955,8 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                }
+                },
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/instance-description/title-information.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/partNumber",
@@ -32252,7 +32311,8 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                }
+                },
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/instance-description/title-information.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/partNumber",
@@ -32315,7 +32375,8 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                }
+                },
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/instance-description/provision-activity.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/place",
@@ -32347,7 +32408,8 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                }
+                },
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/instance-description/provision-activity.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bflc/simpleAgent",
@@ -32396,7 +32458,8 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                }
+                },
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/instance-description/provision-activity.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/place",
@@ -32428,7 +32491,8 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                }
+                },
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/instance-description/provision-activity.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bflc/simpleAgent",
@@ -32477,7 +32541,8 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                }
+                },
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/instance-description/provision-activity.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/place",
@@ -32509,7 +32574,8 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                }
+                },
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/instance-description/provision-activity.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bflc/simpleAgent",
@@ -32558,7 +32624,8 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                }
+                },
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/instance-description/provision-activity.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/place",
@@ -32590,7 +32657,8 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                }
+                },
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/instance-description/provision-activity.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bflc/simpleAgent",
@@ -34001,14 +34069,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-06-11T13:17:41.259Z",
-      "updateDate": "2026-06-11T13:17:41.259Z"
+      "createDate": "2026-06-12T15:57:53.133Z",
+      "updateDate": "2026-06-12T15:57:53.133Z"
     },
-    "created": "2026-06-11T13:17:41.259Z",
-    "modified": "2026-06-11T13:17:41.259Z"
+    "created": "2026-06-12T15:57:53.133Z",
+    "modified": "2026-06-12T15:57:53.133Z"
   },
   {
-    "id": "db9b6960-932e-4d53-9118-caf700df6ae3",
+    "id": "16325c88-7f1c-4de2-8449-68fd07c75908",
     "name": "BIBFRAME 2.0 Notated Music",
     "configType": "profile",
     "json": {
@@ -35063,7 +35131,8 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                }
+                },
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/instance-description/title-information.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/partNumber",
@@ -35172,7 +35241,8 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                }
+                },
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/instance-description/title-information.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/partNumber",
@@ -36335,7 +36405,8 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                }
+                },
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/instance-description/title-information.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/partNumber",
@@ -36419,7 +36490,8 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                }
+                },
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/instance-description/provision-activity.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/place",
@@ -36451,7 +36523,8 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                }
+                },
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/instance-description/provision-activity.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bflc/simpleAgent",
@@ -36500,7 +36573,8 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                }
+                },
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/instance-description/provision-activity.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/place",
@@ -36532,7 +36606,8 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                }
+                },
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/instance-description/provision-activity.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bflc/simpleAgent",
@@ -36581,7 +36656,8 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                }
+                },
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/instance-description/provision-activity.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/place",
@@ -36613,7 +36689,8 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                }
+                },
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/instance-description/provision-activity.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bflc/simpleAgent",
@@ -36662,7 +36739,8 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                }
+                },
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/instance-description/provision-activity.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/place",
@@ -36694,7 +36772,8 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                }
+                },
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/instance-description/provision-activity.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bflc/simpleAgent",
@@ -37962,14 +38041,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-06-11T13:17:41.287Z",
-      "updateDate": "2026-06-11T13:17:41.287Z"
+      "createDate": "2026-06-12T15:57:53.149Z",
+      "updateDate": "2026-06-12T15:57:53.149Z"
     },
-    "created": "2026-06-11T13:17:41.287Z",
-    "modified": "2026-06-11T13:17:41.287Z"
+    "created": "2026-06-12T15:57:53.149Z",
+    "modified": "2026-06-12T15:57:53.149Z"
   },
   {
-    "id": "ae3aece0-6540-4f80-be6d-8f85d6aa96e0",
+    "id": "1fe9706c-6e44-4bcf-8e56-f75fee3efd2a",
     "name": "BIBFRAME 2.0 Note",
     "configType": "profile",
     "json": {
@@ -38366,14 +38445,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-06-11T13:17:41.290Z",
-      "updateDate": "2026-06-11T13:17:41.290Z"
+      "createDate": "2026-06-12T15:57:53.151Z",
+      "updateDate": "2026-06-12T15:57:53.151Z"
     },
-    "created": "2026-06-11T13:17:41.290Z",
-    "modified": "2026-06-11T13:17:41.290Z"
+    "created": "2026-06-12T15:57:53.151Z",
+    "modified": "2026-06-12T15:57:53.151Z"
   },
   {
-    "id": "08bb3ad7-46b2-4e2c-b123-ffad699a6062",
+    "id": "b7264fe8-8f3e-42c5-866d-3ebca8197766",
     "name": "BIBFRAME 2.0 Place",
     "configType": "profile",
     "json": {
@@ -38407,14 +38486,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-06-11T13:17:41.291Z",
-      "updateDate": "2026-06-11T13:17:41.291Z"
+      "createDate": "2026-06-12T15:57:53.152Z",
+      "updateDate": "2026-06-12T15:57:53.152Z"
     },
-    "created": "2026-06-11T13:17:41.291Z",
-    "modified": "2026-06-11T13:17:41.291Z"
+    "created": "2026-06-12T15:57:53.152Z",
+    "modified": "2026-06-12T15:57:53.152Z"
   },
   {
-    "id": "89ba9f97-d3b7-462a-935f-9bc69cbe0056",
+    "id": "4ebdc6a0-f73a-4918-bbbe-3555ecb66738",
     "name": "Prints & Photographs",
     "configType": "profile",
     "json": {
@@ -39636,7 +39715,8 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                }
+                },
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/instance-description/title-information.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/partNumber",
@@ -39745,7 +39825,8 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                }
+                },
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/instance-description/title-information.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/partNumber",
@@ -40435,7 +40516,8 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                }
+                },
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/instance-description/title-information.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/partNumber",
@@ -40519,7 +40601,8 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                }
+                },
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/instance-description/provision-activity.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/place",
@@ -40551,7 +40634,8 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                }
+                },
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/instance-description/provision-activity.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bflc/simpleAgent",
@@ -40600,7 +40684,8 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                }
+                },
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/instance-description/provision-activity.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/place",
@@ -40632,7 +40717,8 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                }
+                },
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/instance-description/provision-activity.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bflc/simpleAgent",
@@ -41719,14 +41805,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-06-11T13:17:41.324Z",
-      "updateDate": "2026-06-11T13:17:41.324Z"
+      "createDate": "2026-06-12T15:57:53.166Z",
+      "updateDate": "2026-06-12T15:57:53.166Z"
     },
-    "created": "2026-06-11T13:17:41.324Z",
-    "modified": "2026-06-11T13:17:41.324Z"
+    "created": "2026-06-12T15:57:53.166Z",
+    "modified": "2026-06-12T15:57:53.166Z"
   },
   {
-    "id": "f9bc6aa0-77da-42bf-acf6-83304529a5bc",
+    "id": "0f4b5a3d-1d5e-4cf9-af6f-b3e2850da3c1",
     "name": "BIBFRAME 2.0 Publication, Distribution, Manufacturer Activity",
     "configType": "profile",
     "json": {
@@ -41752,7 +41838,8 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                }
+                },
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/instance-description/provision-activity.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/place",
@@ -41784,7 +41871,8 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                }
+                },
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/instance-description/provision-activity.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bflc/simpleAgent",
@@ -41833,7 +41921,8 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                }
+                },
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/instance-description/provision-activity.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/place",
@@ -41865,7 +41954,8 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                }
+                },
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/instance-description/provision-activity.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bflc/simpleAgent",
@@ -41914,7 +42004,8 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                }
+                },
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/instance-description/provision-activity.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/place",
@@ -41946,7 +42037,8 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                }
+                },
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/instance-description/provision-activity.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bflc/simpleAgent",
@@ -41995,7 +42087,8 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                }
+                },
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/instance-description/provision-activity.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/place",
@@ -42027,7 +42120,8 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                }
+                },
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/instance-description/provision-activity.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bflc/simpleAgent",
@@ -42063,14 +42157,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-06-11T13:17:41.326Z",
-      "updateDate": "2026-06-11T13:17:41.326Z"
+      "createDate": "2026-06-12T15:57:53.167Z",
+      "updateDate": "2026-06-12T15:57:53.167Z"
     },
-    "created": "2026-06-11T13:17:41.326Z",
-    "modified": "2026-06-11T13:17:41.326Z"
+    "created": "2026-06-12T15:57:53.167Z",
+    "modified": "2026-06-12T15:57:53.167Z"
   },
   {
-    "id": "acfae1a3-e85a-416a-a785-ce21620b30cf",
+    "id": "18dc138b-cfb0-4e8f-8405-3eba9a26317b",
     "name": "BIBFRAME 2.0 Rare Materials",
     "configType": "profile",
     "json": {
@@ -43272,7 +43366,8 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                }
+                },
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/instance-description/title-information.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/partNumber",
@@ -43381,7 +43476,8 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                }
+                },
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/instance-description/title-information.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/partNumber",
@@ -44179,7 +44275,8 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                }
+                },
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/instance-description/title-information.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/partNumber",
@@ -44263,7 +44360,8 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                }
+                },
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/instance-description/provision-activity.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/place",
@@ -44295,7 +44393,8 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                }
+                },
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/instance-description/provision-activity.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bflc/simpleAgent",
@@ -44344,7 +44443,8 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                }
+                },
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/instance-description/provision-activity.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/place",
@@ -44376,7 +44476,8 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                }
+                },
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/instance-description/provision-activity.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bflc/simpleAgent",
@@ -44425,7 +44526,8 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                }
+                },
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/instance-description/provision-activity.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/place",
@@ -44457,7 +44559,8 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                }
+                },
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/instance-description/provision-activity.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bflc/simpleAgent",
@@ -44506,7 +44609,8 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                }
+                },
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/instance-description/provision-activity.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/place",
@@ -44538,7 +44642,8 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                }
+                },
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/instance-description/provision-activity.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bflc/simpleAgent",
@@ -45579,14 +45684,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-06-11T13:17:41.360Z",
-      "updateDate": "2026-06-11T13:17:41.360Z"
+      "createDate": "2026-06-12T15:57:53.181Z",
+      "updateDate": "2026-06-12T15:57:53.181Z"
     },
-    "created": "2026-06-11T13:17:41.360Z",
-    "modified": "2026-06-11T13:17:41.360Z"
+    "created": "2026-06-12T15:57:53.181Z",
+    "modified": "2026-06-12T15:57:53.181Z"
   },
   {
-    "id": "1b6a68cd-a58a-4126-8cbb-3cfce65c68dc",
+    "id": "56129cca-a48c-40b6-ab67-e80eb5a20f81",
     "name": "BIBFRAME 2.0 Related Works and Expressions",
     "configType": "profile",
     "json": {
@@ -45986,14 +46091,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-06-11T13:17:41.363Z",
-      "updateDate": "2026-06-11T13:17:41.363Z"
+      "createDate": "2026-06-12T15:57:53.183Z",
+      "updateDate": "2026-06-12T15:57:53.183Z"
     },
-    "created": "2026-06-11T13:17:41.363Z",
-    "modified": "2026-06-11T13:17:41.363Z"
+    "created": "2026-06-12T15:57:53.183Z",
+    "modified": "2026-06-12T15:57:53.183Z"
   },
   {
-    "id": "162e4e91-a044-4d72-92b8-9bff4277892d",
+    "id": "9d868a46-2986-4c8a-a2f3-e78d7c7366e9",
     "name": "BIBFRAME 2.0 Serial",
     "configType": "profile",
     "json": {
@@ -47366,7 +47471,8 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                }
+                },
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/instance-description/title-information.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/partNumber",
@@ -47575,7 +47681,8 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                }
+                },
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/instance-description/title-information.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/partNumber",
@@ -48817,7 +48924,8 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                }
+                },
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/instance-description/title-information.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/partNumber",
@@ -48880,7 +48988,8 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                }
+                },
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/instance-description/provision-activity.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/place",
@@ -48912,7 +49021,8 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                }
+                },
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/instance-description/provision-activity.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bflc/simpleAgent",
@@ -48961,7 +49071,8 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                }
+                },
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/instance-description/provision-activity.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/place",
@@ -48993,7 +49104,8 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                }
+                },
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/instance-description/provision-activity.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bflc/simpleAgent",
@@ -49042,7 +49154,8 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                }
+                },
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/instance-description/provision-activity.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/place",
@@ -49074,7 +49187,8 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                }
+                },
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/instance-description/provision-activity.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bflc/simpleAgent",
@@ -50498,14 +50612,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-06-11T13:17:41.420Z",
-      "updateDate": "2026-06-11T13:17:41.420Z"
+      "createDate": "2026-06-12T15:57:53.201Z",
+      "updateDate": "2026-06-12T15:57:53.201Z"
     },
-    "created": "2026-06-11T13:17:41.420Z",
-    "modified": "2026-06-11T13:17:41.420Z"
+    "created": "2026-06-12T15:57:53.201Z",
+    "modified": "2026-06-12T15:57:53.201Z"
   },
   {
-    "id": "f3d1a961-c333-4a75-8ab2-c2f8b50b5487",
+    "id": "247df0d9-6cf7-4127-a4e1-52fb9e6d3000",
     "name": "BIBFRAME 2.0 Series Information",
     "configType": "profile",
     "json": {
@@ -50797,14 +50911,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-06-11T13:17:41.422Z",
-      "updateDate": "2026-06-11T13:17:41.422Z"
+      "createDate": "2026-06-12T15:57:53.203Z",
+      "updateDate": "2026-06-12T15:57:53.203Z"
     },
-    "created": "2026-06-11T13:17:41.422Z",
-    "modified": "2026-06-11T13:17:41.422Z"
+    "created": "2026-06-12T15:57:53.203Z",
+    "modified": "2026-06-12T15:57:53.203Z"
   },
   {
-    "id": "1133323e-f636-46be-9096-b0ce5328eeb3",
+    "id": "2d61b9c5-338d-4b76-bd96-f6d1073dced2",
     "name": "BIBFRAME 2.0 Sound Recording-Audio CD-R",
     "configType": "profile",
     "json": {
@@ -51885,7 +51999,8 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                }
+                },
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/instance-description/title-information.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/partNumber",
@@ -51994,7 +52109,8 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                }
+                },
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/instance-description/title-information.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/partNumber",
@@ -53062,7 +53178,8 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                }
+                },
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/instance-description/title-information.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/partNumber",
@@ -53125,7 +53242,8 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                }
+                },
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/instance-description/provision-activity.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/place",
@@ -53157,7 +53275,8 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                }
+                },
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/instance-description/provision-activity.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bflc/simpleAgent",
@@ -53206,7 +53325,8 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                }
+                },
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/instance-description/provision-activity.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/place",
@@ -53238,7 +53358,8 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                }
+                },
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/instance-description/provision-activity.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bflc/simpleAgent",
@@ -53287,7 +53408,8 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                }
+                },
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/instance-description/provision-activity.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/place",
@@ -53319,7 +53441,8 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                }
+                },
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/instance-description/provision-activity.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bflc/simpleAgent",
@@ -53368,7 +53491,8 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                }
+                },
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/instance-description/provision-activity.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/place",
@@ -53400,7 +53524,8 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                }
+                },
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/instance-description/provision-activity.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bflc/simpleAgent",
@@ -54981,14 +55106,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-06-11T13:17:41.447Z",
-      "updateDate": "2026-06-11T13:17:41.447Z"
+      "createDate": "2026-06-12T15:57:53.220Z",
+      "updateDate": "2026-06-12T15:57:53.220Z"
     },
-    "created": "2026-06-11T13:17:41.447Z",
-    "modified": "2026-06-11T13:17:41.447Z"
+    "created": "2026-06-12T15:57:53.220Z",
+    "modified": "2026-06-12T15:57:53.220Z"
   },
   {
-    "id": "2e836919-87f7-424d-8262-95f687049927",
+    "id": "4a6e753f-ca34-418a-9427-e37a5b434011",
     "name": "BIBFRAME 2.0 Sound Recording-Audio Cassette",
     "configType": "profile",
     "json": {
@@ -56034,7 +56159,8 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                }
+                },
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/instance-description/title-information.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/partNumber",
@@ -56143,7 +56269,8 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                }
+                },
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/instance-description/title-information.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/partNumber",
@@ -57211,7 +57338,8 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                }
+                },
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/instance-description/title-information.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/partNumber",
@@ -57274,7 +57402,8 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                }
+                },
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/instance-description/provision-activity.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/place",
@@ -57306,7 +57435,8 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                }
+                },
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/instance-description/provision-activity.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bflc/simpleAgent",
@@ -57355,7 +57485,8 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                }
+                },
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/instance-description/provision-activity.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/place",
@@ -57387,7 +57518,8 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                }
+                },
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/instance-description/provision-activity.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bflc/simpleAgent",
@@ -57436,7 +57568,8 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                }
+                },
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/instance-description/provision-activity.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/place",
@@ -57468,7 +57601,8 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                }
+                },
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/instance-description/provision-activity.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bflc/simpleAgent",
@@ -57517,7 +57651,8 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                }
+                },
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/instance-description/provision-activity.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/place",
@@ -57549,7 +57684,8 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                }
+                },
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/instance-description/provision-activity.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bflc/simpleAgent",
@@ -59059,14 +59195,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-06-11T13:17:41.472Z",
-      "updateDate": "2026-06-11T13:17:41.472Z"
+      "createDate": "2026-06-12T15:57:53.237Z",
+      "updateDate": "2026-06-12T15:57:53.237Z"
     },
-    "created": "2026-06-11T13:17:41.472Z",
-    "modified": "2026-06-11T13:17:41.472Z"
+    "created": "2026-06-12T15:57:53.237Z",
+    "modified": "2026-06-12T15:57:53.237Z"
   },
   {
-    "id": "97977d18-e70f-452c-9e27-d84ca83de05c",
+    "id": "12c3b882-fe51-4de4-af4f-64b2aa5f3fa2",
     "name": "BIBFRAME 2.0 Sound Recording-Audio CD",
     "configType": "profile",
     "json": {
@@ -60110,7 +60246,8 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                }
+                },
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/instance-description/title-information.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/partNumber",
@@ -60219,7 +60356,8 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                }
+                },
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/instance-description/title-information.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/partNumber",
@@ -61287,7 +61425,8 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                }
+                },
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/instance-description/title-information.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/partNumber",
@@ -61350,7 +61489,8 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                }
+                },
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/instance-description/provision-activity.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/place",
@@ -61382,7 +61522,8 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                }
+                },
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/instance-description/provision-activity.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bflc/simpleAgent",
@@ -61431,7 +61572,8 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                }
+                },
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/instance-description/provision-activity.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/place",
@@ -61463,7 +61605,8 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                }
+                },
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/instance-description/provision-activity.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bflc/simpleAgent",
@@ -61512,7 +61655,8 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                }
+                },
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/instance-description/provision-activity.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/place",
@@ -61544,7 +61688,8 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                }
+                },
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/instance-description/provision-activity.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bflc/simpleAgent",
@@ -61593,7 +61738,8 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                }
+                },
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/instance-description/provision-activity.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/place",
@@ -61625,7 +61771,8 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                }
+                },
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/instance-description/provision-activity.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bflc/simpleAgent",
@@ -63206,14 +63353,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-06-11T13:17:41.521Z",
-      "updateDate": "2026-06-11T13:17:41.521Z"
+      "createDate": "2026-06-12T15:57:53.255Z",
+      "updateDate": "2026-06-12T15:57:53.255Z"
     },
-    "created": "2026-06-11T13:17:41.521Z",
-    "modified": "2026-06-11T13:17:41.521Z"
+    "created": "2026-06-12T15:57:53.255Z",
+    "modified": "2026-06-12T15:57:53.255Z"
   },
   {
-    "id": "3d4e3ca9-bc35-40d0-91f5-f4d9c6ae3376",
+    "id": "672275d3-9e0c-4ee3-be73-ad8407a69599",
     "name": "BIBFRAME 2.0 Title Information",
     "configType": "profile",
     "json": {
@@ -63254,7 +63401,8 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                }
+                },
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/instance-description/title-information.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/partNumber",
@@ -63429,7 +63577,8 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                }
+                },
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/instance-description/title-information.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/partNumber",
@@ -63538,7 +63687,8 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                }
+                },
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/instance-description/title-information.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/partNumber",
@@ -63781,14 +63931,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-06-11T13:17:41.524Z",
-      "updateDate": "2026-06-11T13:17:41.524Z"
+      "createDate": "2026-06-12T15:57:53.258Z",
+      "updateDate": "2026-06-12T15:57:53.258Z"
     },
-    "created": "2026-06-11T13:17:41.524Z",
-    "modified": "2026-06-11T13:17:41.524Z"
+    "created": "2026-06-12T15:57:53.258Z",
+    "modified": "2026-06-12T15:57:53.258Z"
   },
   {
-    "id": "ca3e2300-f84f-490a-93e9-bb21e6bdfd4c",
+    "id": "51d204b6-5823-4329-8d66-896e2ef1f30a",
     "name": "BIBFRAME 2.0 Topic",
     "configType": "profile",
     "json": {
@@ -66085,14 +66235,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-06-11T13:17:41.554Z",
-      "updateDate": "2026-06-11T13:17:41.554Z"
+      "createDate": "2026-06-12T15:57:53.266Z",
+      "updateDate": "2026-06-12T15:57:53.266Z"
     },
-    "created": "2026-06-11T13:17:41.554Z",
-    "modified": "2026-06-11T13:17:41.554Z"
+    "created": "2026-06-12T15:57:53.266Z",
+    "modified": "2026-06-12T15:57:53.266Z"
   },
   {
-    "id": "5ecabc3b-f1dc-4b1c-ac68-5dc782ca426f",
+    "id": "d0e67cd0-4dda-40f9-afba-0751e6b18289",
     "name": "BIBFRAME 2.0 Agents Primary Contribution",
     "configType": "profile",
     "json": {
@@ -66269,10 +66419,10 @@
       }
     },
     "metadata": {
-      "createDate": "2026-06-11T13:17:41.561Z",
-      "updateDate": "2026-06-11T13:17:41.561Z"
+      "createDate": "2026-06-12T15:57:53.267Z",
+      "updateDate": "2026-06-12T15:57:53.267Z"
     },
-    "created": "2026-06-11T13:17:41.561Z",
-    "modified": "2026-06-11T13:17:41.561Z"
+    "created": "2026-06-12T15:57:53.267Z",
+    "modified": "2026-06-12T15:57:53.267Z"
   }
 ]

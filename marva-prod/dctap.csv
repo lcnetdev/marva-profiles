@@ -384,9 +384,9 @@ lc:RT:bf2:DDC,Dewey Decimal classification,bf:ClassificationDdc,bf:classificatio
 ,,,bf:edition,Dewey full or abridged?,false,true,literal,,,,,,full,,,
 ,,,bf:assigner,Assigner,false,true,,,,http://preprod.id.loc.gov/vocabulary/organizations,IRIstem,,"United States, Library of Congress",http://id.loc.gov/vocabulary/organizations/dlc,bf:Agent,
 lc:RT:bf2:DDCEdNum,Dewey edition number,bf:Source,bf:code,Dewey edition number,false,true,literal,,,,,,23/eng/[$date],,http://id.loc.gov/ontologies/bibframe/Source,
-lc:RT:bf2:DistInfoNew,Distribution,bf:Distribution,bf:date,EDTF date (to/from 008),false,true,literal,,,,,,,,,
+lc:RT:bf2:DistInfoNew,Distribution,bf:Distribution,bf:date,EDTF date (to/from 008),false,true,literal,,,,,,,,,https://bibframe.org/docs/view/documentation-marva-manual/instance-description/provision-activity.md
 ,,,bf:place,Search place of publication (to/from 008),false,true,,,,http://preprod.id.loc.gov/vocabulary/countries,IRIstem,,,,bf:Place,
-,,,bflc:simplePlace,Place (to/from 26X $a),false,true,literal,,,,,,,,,
+,,,bflc:simplePlace,Place (to/from 26X $a),false,true,literal,,,,,,,,,https://bibframe.org/docs/view/documentation-marva-manual/instance-description/provision-activity.md
 ,,,bflc:simpleAgent,Name (to/from 26X $b),false,true,literal,,,,,,,,,
 ,,,bflc:simpleDate,Date (to/from 26X $c),false,true,literal,,,,,,,,,
 lc:RT:bf2:EncFmt,Encoding format,bf:EncodingFormat,bf:EncodingFormat,Lookup,false,true,,,,http://id.loc.gov/vocabulary/mencformat,IRIstem,,,,,
@@ -540,7 +540,7 @@ lc:RT:bf2:Identifiers:VidRecNumber,Video recording number,bf:VideoRecordingNumbe
 lc:RT:bf2:ImmAcqSource,Immediate source of acquisition,bf:ImmediateAcquisition,rdfs:label,Immediate source of acquisition,false,true,literal,,,,,,,,,
 ,,,bflc:applicableInstitution,Applicable institution,false,true,,,,http://id.loc.gov/vocabulary/organizations,IRIstem,,United States. Library of Congress,http://id.loc.gov/vocabulary/organizations/dlc,bf:Organization,
 lc:RT:bf2:InstanceTitle,Instance title,bf:Title,bflc:nonSortNum,Non-sort character count,false,true,literal,,,,,,,,,
-,,,bf:mainTitle,Title,false,false,literal,,,,,,,,,
+,,,bf:mainTitle,Title,false,false,literal,,,,,,,,,https://bibframe.org/docs/view/documentation-marva-manual/instance-description/title-information.md
 ,,,bf:partNumber,Part number,false,true,literal,,,,,,,,,
 ,,,bf:partName,Part name,false,true,literal,,,,,,,,,
 ,,,bf:subtitle,Other title information,false,false,literal,,,,,,,,,
@@ -649,9 +649,9 @@ lc:RT:bf2:MIBluRayDVD:Work,BIBFRAME Work,bf:Work,bf:expressionOf,Expression [sea
 ,,,bf:relation,Input transcribed series,false,true,bnode,,lc:RT:bf2:SeriesHub,,,,,,,"https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates-Series(490,8XX)"
 ,,,bf:hasInstance,Add BIBFRAME Instance,false,true,bnode,,lc:RT:bf2:MIBluRayDVD:Instance,,,,,,,
 lc:RT:bf2:MOPStatement,Medium of performance statement,bf:MusicMedium,rdfs:label,Medium of performance text,false,true,literal,,,,,,,,,
-lc:RT:bf2:ManuInfoNew,Manufacture,bf:Manufacture,bf:date,EDTF date (to/from 008),false,true,literal,,,,,,,,,
+lc:RT:bf2:ManuInfoNew,Manufacture,bf:Manufacture,bf:date,EDTF date (to/from 008),false,true,literal,,,,,,,,,https://bibframe.org/docs/view/documentation-marva-manual/instance-description/provision-activity.md
 ,,,bf:place,Search place of publication (to/from 008),false,true,,,,http://preprod.id.loc.gov/vocabulary/countries,IRIstem,,,,bf:Place,
-,,,bflc:simplePlace,Place (to/from 26X $a),false,true,literal,,,,,,,,,
+,,,bflc:simplePlace,Place (to/from 26X $a),false,true,literal,,,,,,,,,https://bibframe.org/docs/view/documentation-marva-manual/instance-description/provision-activity.md
 ,,,bflc:simpleAgent,Name (to/from 26X $b),false,true,literal,,,,,,,,,
 ,,,bflc:simpleDate,Date (to/from 26X $c),false,true,literal,,,,,,,,,
 lc:RT:bf2:MarcGT,MARC genre terms,bf:GenreForm,owl:sameAs,Search MARC genre terms,false,true,,,,http://id.loc.gov/vocabulary/marcgt,IRIstem,,,,bf:GenreForm,
@@ -800,7 +800,7 @@ lc:RT:bf2:PMOMedPerf:MediumComp,Medium Component,bf:MediumComponent,bf:mediumOfP
 ,,,bf:mediumComponentQualifier,Component qualifier,false,true,,,,http://id.loc.gov/vocabulary/medcompqual,IRIstem,,,,,
 ,,,bf:note,Note,false,true,bnode,,lc:RT:bf2:NoteSimple,,,,,,,
 ,,,bf:numberOfHands,Number of hands,false,true,literal,,,,,,,,,
-lc:RT:bf2:ParallelTitle,Parallel title,bf:ParallelTitle,bf:mainTitle,Parallel title,false,false,literal,,,,,,,,,
+lc:RT:bf2:ParallelTitle,Parallel title,bf:ParallelTitle,bf:mainTitle,Parallel title,false,false,literal,,,,,,,,,https://bibframe.org/docs/view/documentation-marva-manual/instance-description/title-information.md
 ,,,bf:partNumber,Part number,false,true,literal,,,,,,,,,
 ,,,bf:partName,Part name,false,true,literal,,,,,,,,,
 ,,,bf:subtitle,Other title information,false,true,literal,,,,,,,,,
@@ -871,16 +871,16 @@ lc:RT:bf2:PrintPhoto:Work,Work,bf:Work,bf:title,Title,false,true,bnode,,lc:RT:bf
 ,,,bf:relation,Input transcribed series,false,true,bnode,,lc:RT:bf2:SeriesHub,,,,,,,
 ,,,bf:relation,Search related work/series,false,true,bnode,,lc:RT:bf2:RelWorkLookup,,,,,,,
 ,,,bf:hasInstance,Add Instance information,false,true,bnode,,lc:RT:bf2:PrintPhoto:Instance,,,,,,,
-lc:RT:bf2:ProdInfoNew,Production,bf:Production,bf:date,EDTF date (to/from 008),false,true,literal,,,,,,,,,
+lc:RT:bf2:ProdInfoNew,Production,bf:Production,bf:date,EDTF date (to/from 008),false,true,literal,,,,,,,,,https://bibframe.org/docs/view/documentation-marva-manual/instance-description/provision-activity.md
 ,,,bf:place,Search place of publication (to/from 008),false,true,,,,http://preprod.id.loc.gov/vocabulary/countries,IRIstem,,,,bf:Place,
-,,,bflc:simplePlace,Place (to/from 26X $a),false,true,literal,,,,,,,,,
+,,,bflc:simplePlace,Place (to/from 26X $a),false,true,literal,,,,,,,,,https://bibframe.org/docs/view/documentation-marva-manual/instance-description/provision-activity.md
 ,,,bflc:simpleAgent,Name (to/from 26X $b),false,true,literal,,,,,,,,,
 ,,,bflc:simpleDate,Date (to/from 26X $c),false,true,literal,,,,,,,,,
 lc:RT:bf2:ProjFormat,Presentation format,bf:PresentationFormat,bf:PresentationFormat,Lookup,false,false,,,,http://id.loc.gov/vocabulary/mpresformat,IRIstem,,,,,
 lc:RT:bf2:ProjSpeed,Projection speed,bf:ProjectionSpeed,rdfs:label,Projection speed,false,true,literal,,,,,,,,,
-lc:RT:bf2:PubInfoNew,Publication,bf:Publication,bf:date,EDTF date (to/from 008),false,true,literal,,,,,,,,,
+lc:RT:bf2:PubInfoNew,Publication,bf:Publication,bf:date,EDTF date (to/from 008),false,true,literal,,,,,,,,,https://bibframe.org/docs/view/documentation-marva-manual/instance-description/provision-activity.md
 ,,,bf:place,Search place of publication (to/from 008),false,true,,,,http://preprod.id.loc.gov/vocabulary/countries,IRIstem,,,,bf:Place,
-,,,bflc:simplePlace,Place (to/from 26X $a),false,true,literal,,,,,,,,,
+,,,bflc:simplePlace,Place (to/from 26X $a),false,true,literal,,,,,,,,,https://bibframe.org/docs/view/documentation-marva-manual/instance-description/provision-activity.md
 ,,,bflc:simpleAgent,Name (to/from 26X $b),false,true,literal,,,,,,,,,
 ,,,bflc:simpleDate,Date (to/from 26X $c),false,true,literal,,,,,,,,,
 lc:RT:bf2:RareMat:Genre,Genre/Form,bf:GenreForm,owl:sameAs,Genre/Form,false,true,,,,http://id.loc.gov/authorities/genreForms,IRIstem,,,,,
@@ -1220,7 +1220,7 @@ lc:RT:bf2:Title:CollTitle,Collective title,bf:CollectiveTitle,bf:mainTitle,Colle
 lc:RT:bf2:Title:KeyTitle,Key title,bf:KeyTitle,bflc:nonSortNum,Non-sort character count,false,true,literal,,,,,,,,,
 ,,,bf:mainTitle,Key title,false,false,literal,,,,,,,,,
 ,,,bf:qualifier,Qualifying information,false,true,literal,,,,,,,,,
-lc:RT:bf2:Title:VarTitle,Variant title,bf:VariantTitle,bf:mainTitle,Variant title,false,false,literal,,,,,,,,,
+lc:RT:bf2:Title:VarTitle,Variant title,bf:VariantTitle,bf:mainTitle,Variant title,false,false,literal,,,,,,,,,https://bibframe.org/docs/view/documentation-marva-manual/instance-description/title-information.md
 ,,,bf:partNumber,Part number,false,true,literal,,,,,,,,,
 ,,,bf:partName,Part name,false,true,literal,,,,,,,,,
 ,,,bf:subtitle,Other title information,false,false,literal,,,,,,,,,
