@@ -378,7 +378,7 @@ lc:RT:bf2:ContAccess,Accessibility content,bf:ContentAccessibility,rdfs:label,Ac
 lc:RT:bf2:Contents,Contents note,bf:TableOfContents,rdfs:label,Contents note,false,true,literal,,,,,,,,,
 ,,,bf:electronicLocator,URL for Contents note,false,true,bnode,,lc:RT:bf2:URL,,,,,,,
 ,,,bf:status,Partial or incomplete?,false,true,,,,http://preprod-8080.id.loc.gov/vocabulary/mstatus,IRIstem,,,,bf:Status,
-lc:RT:bf2:DDC,Dewey Decimal classification,bf:ClassificationDdc,bf:classificationPortion,Classification number,false,true,literal,,,,,,,,,
+lc:RT:bf2:DDC,Dewey Decimal classification,bf:ClassificationDdc,bf:classificationPortion,Classification number,false,true,literal,,,,,,,,,https://bibframe.org/docs/view/documentation-marva-manual/work-description/classification-numbers.md#dewey-decimal-classification
 ,,,bf:itemPortion,Additional call number information,false,true,literal,,,,,,,,,
 ,,,bf:source,Dewey edition number,false,false,bnode,,lc:RT:bf2:DDCEdNum,,,,23/eng/[$date],,bf:Source,
 ,,,bf:edition,Dewey full or abridged?,false,true,literal,,,,,,full,,,
@@ -565,7 +565,7 @@ lc:RT:bf2:Item:Use,Use or reproduction policy,bf:UsePolicy,rdfs:label,Use or rep
 ,,,bf:electronicLocator,URL,,,bnode,,lc:RT:bf2:URL,,,,,,,
 lc:RT:bf2:KeyMode,Music key and mode,bf:KeyMode,rdfs:label,Music key and mode,,true,literal,,,,,,,,,
 ,,,bflc:appliesTo,Applies to,,true,bnode,,lc:RT:bf2:AppliesTo,,,,,,,
-lc:RT:bf2:LCC,Library of Congress classification,bf:ClassificationLcc,bf:classificationPortion,Classification number,false,true,literal,,,,,,,,,
+lc:RT:bf2:LCC,Library of Congress classification,bf:ClassificationLcc,bf:classificationPortion,Classification number,false,true,literal,,,,,,,,,https://bibframe.org/docs/view/documentation-marva-manual/work-description/classification-numbers.md#library-of-congress-classification
 ,,,bf:itemPortion,Additional call number information,false,true,literal,,,,,,,,,
 ,,,bf:assigner,Assigning agency,false,true,,,,http://preprod.id.loc.gov/vocabulary/organizations,IRIstem,,United States Library of Congress,http://id.loc.gov/vocabulary/organizations/dlc,bf:Agent,
 ,,,bf:status,Used by assigning agency?,false,true,,,,http://preprod.id.loc.gov/vocabulary/mstatus,IRIstem,,used by assigner,http://id.loc.gov/vocabulary/mstatus/uba,bf:Status,
@@ -661,26 +661,26 @@ lc:RT:bf2:Monograph:Dissertation,Dissertation,bf:Dissertation,bf:degree,Degree,f
 ,,,bf:date,Date,false,true,literal,,,,,,,,,
 ,,,bf:note,Dissertation note,false,true,bnode,,lc:RT:bf2:NoteSimple,,,,,,,
 lc:RT:bf2:Monograph:Instance,BIBFRAME Instance,bf:Instance,bf:instanceOf,Instance of,false,false,bnode,,lc:RT:bf2:Monograph:Work,,,,,,,
-,,,bf:title,Title information,true,true,bnode,,lc:RT:bf2:InstanceTitle | lc:RT:bf2:Title:VarTitle | lc:RT:bf2:ParallelTitle,,,,,,,
-,,,bf:responsibilityStatement,Statement of responsibility,false,true,literal,,,,,,,,,
-,,,bf:editionStatement,Edition statement,false,true,literal,,,,,,,,,
-,,,bf:provisionActivity,Provision activity,false,true,bnode,,lc:RT:bf2:PubInfoNew | lc:RT:bf2:DistInfoNew | lc:RT:bf2:ManuInfoNew | lc:RT:bf2:ProdInfoNew,,,,,,,https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates-ProvisionActivity(264)
+,,,bf:title,Title information,true,true,bnode,,lc:RT:bf2:InstanceTitle | lc:RT:bf2:Title:VarTitle | lc:RT:bf2:ParallelTitle,,,,,,,https://bibframe.org/docs/view/documentation-marva-manual/instance-description/title-information.md#title-information
+,,,bf:responsibilityStatement,Statement of responsibility,false,true,literal,,,,,,,,,https://bibframe.org/docs/view/documentation-marva-manual/instance-description/statement-of-responsibility.md#statement-of-responsibility
+,,,bf:editionStatement,Edition statement,false,true,literal,,,,,,,,,https://bibframe.org/docs/view/documentation-marva-manual/instance-description/edition-statement.md#edition-statement
+,,,bf:provisionActivity,Provision activity,false,true,bnode,,lc:RT:bf2:PubInfoNew | lc:RT:bf2:DistInfoNew | lc:RT:bf2:ManuInfoNew | lc:RT:bf2:ProdInfoNew,,,,,,,https://bibframe.org/docs/view/documentation-marva-manual/instance-description/provision-activity.md#provision-activity
 ,,,bf:copyrightDate,Copyright date,false,true,literal,,,,,,,,,
-,,,bf:issuance,Mode of issuance,true,true,,,,http://preprod.id.loc.gov/vocabulary/issuance,IRIstem,,single unit,http://id.loc.gov/vocabulary/issuance/mono,bf:Issuance,
-,,,bf:identifiedBy,Identifiers,false,true,bnode,,lc:RT:bf2:Identifiers:LCCN | lc:RT:bf2:Identifiers:ISBN | lc:RT:bf2:Identifiers:Oclc | lc:RT:bf2:Identifiers:Other | lc:RT:bf2:Identifiers:Local | lc:RT:bf2:Identifiers:EAN | lc:RT:bf2:Identifiers:Nbn | lc:RT:bf2:Identifiers:LCOverseas,,,,,,,
+,,,bf:issuance,Mode of issuance,true,true,,,,http://preprod.id.loc.gov/vocabulary/issuance,IRIstem,,single unit,http://id.loc.gov/vocabulary/issuance/mono,bf:Issuance,https://bibframe.org/docs/view/documentation-marva-manual/instance-description/mode-of-issuance.md#mode-of-issuance
+,,,bf:identifiedBy,Identifiers,false,true,bnode,,lc:RT:bf2:Identifiers:LCCN | lc:RT:bf2:Identifiers:ISBN | lc:RT:bf2:Identifiers:Oclc | lc:RT:bf2:Identifiers:Other | lc:RT:bf2:Identifiers:Local | lc:RT:bf2:Identifiers:EAN | lc:RT:bf2:Identifiers:Nbn | lc:RT:bf2:Identifiers:LCOverseas,,,,,,,https://bibframe.org/docs/view/documentation-marva-manual/instance-description/identifiers.md#identifiers
 ,,,bf:acquisitionSource,Acquisitions identifiers,false,true,bnode,,lc:RT:bf2:AcqSource,,,,,,,
-,,,bf:note,Notes about the Instance,false,true,bnode,,lc:RT:bf2:Note,,,,,,,https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates-Notesonnotes
-,,,bf:supplementaryContent,Supplementary content URL,false,true,bnode,,lc:RT:bf2:SupplContentNote,,,,,,,
-,,,bf:immediateAcquisition,Immediate source of acquisition note,false,true,bnode,,lc:RT:bf2:ImmAcqSource,,,,,,,
-,,,bf:media,Media type,true,true,,,,http://preprod.id.loc.gov/vocabulary/mediaTypes,IRIstem,,unmediated,http://id.loc.gov/vocabulary/mediaTypes/n,bf:Media,
-,,,bf:extent,Physical description,false,true,bnode,,lc:RT:bf2:Extent,,,,,,,
-,,,bf:dimensions,Dimensions,false,true,literal,,,,,,,,,
-,,,bf:carrier,Carrier type,true,true,,,,http://preprod.id.loc.gov/vocabulary/carriers,IRIstem,,volume,http://id.loc.gov/vocabulary/carriers/nc,bf:Carrier,
+,,,bf:note,Notes about the Instance,false,true,bnode,,lc:RT:bf2:Note,,,,,,,https://bibframe.org/docs/view/documentation-marva-manual/instance-description/notes-about-instance.md#notes-about-the-instance
+,,,bf:supplementaryContent,Supplementary content URL,false,true,bnode,,lc:RT:bf2:SupplContentNote,,,,,,,https://bibframe.org/docs/view/documentation-marva-manual/instance-description/supplementary-content-url.md#supplementary-content-url
+,,,bf:immediateAcquisition,Immediate source of acquisition note,false,true,bnode,,lc:RT:bf2:ImmAcqSource,,,,,,,https://bibframe.org/docs/view/documentation-marva-manual/instance-description/acquisition-note.md#immediate-source-of-acquisition-note
+,,,bf:media,Media type,true,true,,,,http://preprod.id.loc.gov/vocabulary/mediaTypes,IRIstem,,unmediated,http://id.loc.gov/vocabulary/mediaTypes/n,bf:Media,https://bibframe.org/docs/view/documentation-marva-manual/instance-description/media-type.md#media-type
+,,,bf:extent,Physical description,false,true,bnode,,lc:RT:bf2:Extent,,,,,,,https://bibframe.org/docs/view/documentation-marva-manual/instance-description/physical-description.md#extent
+,,,bf:dimensions,Dimensions,false,true,literal,,,,,,,,,https://bibframe.org/docs/view/documentation-marva-manual/instance-description/dimensions.md#dimensions
+,,,bf:carrier,Carrier type,true,true,,,,http://preprod.id.loc.gov/vocabulary/carriers,IRIstem,,volume,http://id.loc.gov/vocabulary/carriers/nc,bf:Carrier,https://bibframe.org/docs/view/documentation-marva-manual/instance-description/carrier-type.md#carrier-type
 ,,,bf:systemRequirement,System requirement,,true,bnode,,lc:RT:bf2:SysReq,,,,,,bf:SystemRequirement,
-,,,bf:usageAndAccessPolicy,Access policy,false,true,bnode,,lc:RT:bf2:Item:Access,,,,,,,
+,,,bf:usageAndAccessPolicy,Access policy,false,true,bnode,,lc:RT:bf2:Item:Access,,,,,,,https://bibframe.org/docs/view/documentation-marva-manual/instance-description/access-policy.md#access-policy
 ,,,bf:notation,Braille?,false,true,,,,http://preprod.id.loc.gov/vocabulary/mtactile,IRIstem,,,,bf:TactileNotation,
-,,,bf:electronicLocator,URL of Instance,false,true,bnode,,lc:RT:bf2:URL,,,,,,,
-,,,bflc:projectedProvisionDate,Projected publication date (YYMM),false,false,literal,,,,,,,,,
+,,,bf:electronicLocator,URL of Instance,false,true,bnode,,lc:RT:bf2:URL,,,,,,,https://bibframe.org/docs/view/documentation-marva-manual/instance-description/url-of-instance.md#url-of-instance
+,,,bflc:projectedProvisionDate,Projected publication date (YYMM),false,false,literal,,,,,,,,,https://bibframe.org/docs/view/documentation-marva-manual/instance-description/projected-publication-date.md#projected-publication-date-(yymm)
 ,,,bf:hasItem,Has Item,false,true,bnode,,lc:RT:bf2:Monograph:Item,,,,,,,
 lc:RT:bf2:Monograph:Item,BIBFRAME Item,bf:Item,bf:electronicLocator,URL of Item,false,true,bnode,,lc:RT:bf2:URL,,,,,,,
 ,,,bf:contribution,Collection/contribution,false,true,bnode,,lc:RT:bf2:Agents:bfContribution,,,,,,bf:Contribution,
@@ -688,37 +688,37 @@ lc:RT:bf2:Monograph:Item,BIBFRAME Item,bf:Item,bf:electronicLocator,URL of Item,
 ,,,bf:enumerationAndChronology,Enumeration and chronology of Item,false,true,bnode,,lc:RT:bf2:Item:Enumeration | lc:RT:bf2:Item:Chronology,,,,,,,
 ,,,bf:immediateAcquisition,Immediate source of acquisition,false,true,bnode,,lc:RT:bf2:ImmAcqSource,,,,,,,
 ,,,bf:custodialHistory,Custodial history/Provenance,false,true,literal,,,,,,,,,
-lc:RT:bf2:Monograph:Work,BIBFRAME Work,bf:Work,bf:expressionOf,Expression of [search for a Hub],false,false,,,,https://id.loc.gov/resources/hubs,IRIstem,,,,bf:Hub,https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates-Work/ExpressionTitles
-,,,bf:contribution,Creator of Work,false,true,bnode,,lc:RT:bflc:Agents:PrimaryContribution,,,,,,bf:PrimaryContribution,
-,,,bf:title,Title information,true,true,bnode,,lc:RT:bf2:WorkTitle | lc:RT:bf2:Title:VarTitle | lc:RT:bf2:ParallelTitle,,,,,,,https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates-Work/ExpressionTitles
-,,,bf:contribution,Contributors,false,true,bnode,,lc:RT:bf2:Agents:Contribution,,,,,,bf:Contribution,
-,,,bf:note,Notes about the Work,false,true,bnode,,lc:RT:bf2:Note,,,,,,,
-,,,bf:tableOfContents,Contents,false,true,bnode,,lc:RT:bf2:Contents,,,,,,,
+lc:RT:bf2:Monograph:Work,BIBFRAME Work,bf:Work,bf:expressionOf,Expression of [search for a Hub],false,false,,,,https://id.loc.gov/resources/hubs,IRIstem,,,,bf:Hub,https://bibframe.org/docs/view/documentation-marva-manual/work-description/expression-hub.md
+,,,bf:contribution,Creator of Work,false,true,bnode,,lc:RT:bflc:Agents:PrimaryContribution,,,,,,bf:PrimaryContribution,https://bibframe.org/docs/view/documentation-marva-manual/work-description/creator-of-work.md
+,,,bf:title,Title information,true,true,bnode,,lc:RT:bf2:WorkTitle | lc:RT:bf2:Title:VarTitle | lc:RT:bf2:ParallelTitle,,,,,,,https://bibframe.org/docs/view/documentation-marva-manual/work-description/title-information.md
+,,,bf:contribution,Contributors,false,true,bnode,,lc:RT:bf2:Agents:Contribution,,,,,,bf:Contribution,https://bibframe.org/docs/view/documentation-marva-manual/work-description/contributors.md#contributors
+,,,bf:note,Notes about the Work,false,true,bnode,,lc:RT:bf2:Note,,,,,,,https://bibframe.org/docs/view/documentation-marva-manual/work-description/notes-about-work.md#notes-about-the-work
+,,,bf:tableOfContents,Contents,false,true,bnode,,lc:RT:bf2:Contents,,,,,,,https://bibframe.org/docs/view/documentation-marva-manual/work-description/contents.md#contents
 ,,,bf:summary,Summary,false,true,bnode,,lc:RT:bf2:Summary,,,,,,,
-,,,bf:subject,Subjects,false,true,bnode,,lc:RT:bf2:Components | lc:RT:bf2:Topic:SubjectWork | lc:RT:bf2:Topic:Place:Components | lc:RT:bf2:Topic:Childrens:Components,,,,,,,https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates-Subjects(6XX)
-,,,bf:geographicCoverage,Geographic coverage,false,true,bnode,,lc:RT:bf2:Form:Geog,,,,,,,
-,,,bf:genreForm,Genre/Form,false,true,bnode,,lc:RT:bf2:Form,,,,,,bf:GenreForm,
-,,,bf:classification,Classification numbers,false,true,bnode,,lc:RT:bf2:LCC | lc:RT:bf2:DDC | lc:RT:bf2:NLM | lc:RT:bf2:NAL | lc:RT:bf2:OtherClass,,,,,,,
-,,,bf:intendedAudience,Intended audience,false,true,bnode,,lc:RT:bf2:Audience,,,,,,,https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates-MonographConsiderations(andMARC008)
-,,,bf:content,Content type,true,true,,,,http://preprod.id.loc.gov/vocabulary/contentTypes,IRIstem,,text,http://id.loc.gov/vocabulary/contentTypes/txt,bf:Content,
-,,,bf:language,"Language (008 [1st], 041 $a [others])",false,true,,,,http://preprod.id.loc.gov/vocabulary/languages,IRIstem,,,,bf:Language,https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates-Languages(041)
+,,,bf:subject,Subjects,false,true,bnode,,lc:RT:bf2:Components | lc:RT:bf2:Topic:SubjectWork | lc:RT:bf2:Topic:Place:Components | lc:RT:bf2:Topic:Childrens:Components,,,,,,,https://bibframe.org/docs/view/documentation-marva-manual/work-description/subjects.md
+,,,bf:geographicCoverage,Geographic coverage,false,true,bnode,,lc:RT:bf2:Form:Geog,,,,,,,https://bibframe.org/docs/view/documentation-marva-manual/work-description/geographic-coverage.md#geographic-coverage
+,,,bf:genreForm,Genre/Form,false,true,bnode,,lc:RT:bf2:Form,,,,,,bf:GenreForm,https://bibframe.org/docs/view/documentation-marva-manual/work-description/genre-form.md#genre%2Fform
+,,,bf:classification,Classification numbers,false,true,bnode,,lc:RT:bf2:LCC | lc:RT:bf2:DDC | lc:RT:bf2:NLM | lc:RT:bf2:NAL | lc:RT:bf2:OtherClass,,,,,,,https://bibframe.org/docs/view/documentation-marva-manual/work-description/classification-numbers.md#classification-numbers
+,,,bf:intendedAudience,Intended audience,false,true,bnode,,lc:RT:bf2:Audience,,,,,,,https://bibframe.org/docs/view/documentation-marva-manual/work-description/intended-audience.md#intended-audience
+,,,bf:content,Content type,true,true,,,,http://preprod.id.loc.gov/vocabulary/contentTypes,IRIstem,,text,http://id.loc.gov/vocabulary/contentTypes/txt,bf:Content,https://bibframe.org/docs/view/documentation-marva-manual/work-description/content-type.md#content-type
+,,,bf:language,"Language (008 [1st], 041 $a [others])",false,true,,,,http://preprod.id.loc.gov/vocabulary/languages,IRIstem,,,,bf:Language,https://bibframe.org/docs/view/documentation-marva-manual/work-description/language.md
 ,,,bf:language,ISO 639-3 language (041 $a),,true,,,,http://id.loc.gov/vocabulary/iso639-3,IRIstem,,,,bf:Language,
-,,,bf:accompaniedBy,Language resource (041 $bdefgt),false,true,bnode,,lc:RT:bf2:LangResource,,,,,,,https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates-Languages(041)
-,,,bf:note,Language note (041 $hijkmnpqr or 041 1#),false,true,bnode,,lc:RT:bf2:LangNote,,,,,,,https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates-Languages(041)
+,,,bf:accompaniedBy,Language resource (041 $bdefgt),false,true,bnode,,lc:RT:bf2:LangResource,,,,,,,https://bibframe.org/docs/view/documentation-marva-manual/work-description/language.md
+,,,bf:note,Language note (041 $hijkmnpqr or 041 1#),false,true,bnode,,lc:RT:bf2:LangNote,,,,,,,https://bibframe.org/docs/view/documentation-marva-manual/work-description/language.md
 ,,,bf:notation,Notation note,false,true,bnode,,lc:RT:bf2:Notation,,,,,,,
-,,,bf:illustrativeContent,Illustrative content,false,true,,,,http://preprod.id.loc.gov/vocabulary/millus,IRIstem,,,,bf:Illustration,https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates-MonographConsiderations(andMARC008)
-,,,bf:colorContent,Color content,false,true,,,,http://preprod.id.loc.gov/vocabulary/mcolor,IRIstem,,,,bf:ColorContent,
-,,,bf:supplementaryContent,Supplementary content,false,true,,,,http://preprod.id.loc.gov/vocabulary/msupplcont,IRIstem,,,,bf:SupplementaryContent,https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates-MonographConsiderations(andMARC008)
-,,,bflc:governmentPubType,Government publication,false,true,,,,http://preprod.id.loc.gov/vocabulary/mgovtpubtype,IRIstem,,,,bflc:GovernmentPubType,https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates-MonographConsiderations(andMARC008)
-,,,bf:relation,Search related work/series,false,true,bnode,,lc:RT:bf2:RelWorkLookup,,,,,,,https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates-Hubs(240;X00X10X11with$t;X30)
+,,,bf:illustrativeContent,Illustrative content,false,true,,,,http://preprod.id.loc.gov/vocabulary/millus,IRIstem,,,,bf:Illustration,https://bibframe.org/docs/view/documentation-marva-manual/work-description/illustrative-content.md
+,,,bf:colorContent,Color content,false,true,,,,http://preprod.id.loc.gov/vocabulary/mcolor,IRIstem,,,,bf:ColorContent,https://bibframe.org/docs/view/documentation-marva-manual/work-description/color-content.md
+,,,bf:supplementaryContent,Supplementary content,false,true,,,,http://preprod.id.loc.gov/vocabulary/msupplcont,IRIstem,,,,bf:SupplementaryContent,https://bibframe.org/docs/view/documentation-marva-manual/work-description/supplementary-content.md#supplementary-content
+,,,bflc:governmentPubType,Government publication,false,true,,,,http://preprod.id.loc.gov/vocabulary/mgovtpubtype,IRIstem,,,,bflc:GovernmentPubType,https://bibframe.org/docs/view/documentation-marva-manual/work-description/government-publication.md
+,,,bf:relation,Search related work/series,false,true,bnode,,lc:RT:bf2:RelWorkLookup,,,,,,,https://bibframe.org/docs/view/documentation-marva-manual/work-description/search-related-work.md
 ,,,bf:relation,Input transcribed series,false,true,bnode,,lc:RT:bf2:SeriesHub,,,,,,,
 ,,,bf:relation,Related work not held by LC,false,true,bnode,,lc:RT:bf2:RelWorkInput,,,,,,,
 ,,,bf:capture,Event/Capture,,true,bnode,,lc:RT:bf2:Capture,,,,,,,
-,,,bf:originDate,Date of Work,false,true,literal,,,,,,,,,
-,,,bf:originPlace,Country of origin of the Work,false,true,,,,http://preprod.id.loc.gov/vocabulary/countries,IRIstem,,,,bf:Place,
+,,,bf:originDate,Date of Work,false,true,literal,,,,,,,,,https://bibframe.org/docs/view/documentation-marva-manual/work-description/date-of-work.md
+,,,bf:originPlace,Country of origin of the Work,false,true,,,,http://preprod.id.loc.gov/vocabulary/countries,IRIstem,,,,bf:Place,https://bibframe.org/docs/view/documentation-marva-manual/work-description/country-of-origin.md
 ,,,bf:temporalCoverage,(Time) coverage of the content,false,true,literal,,,,,,,,,
 ,,,bf:contentAccessibility,Accessibility content,false,true,bnode,,lc:RT:bf2:ContAccess,,,,,,,
-,,,bf:dissertation,Dissertation,false,true,bnode,,lc:RT:bf2:Monograph:Dissertation,,,,,,,
+,,,bf:dissertation,Dissertation,false,true,bnode,,lc:RT:bf2:Monograph:Dissertation,,,,,,,https://bibframe.org/docs/view/documentation-marva-manual/work-description/dissertation.md
 ,,,bf:hasInstance,Add BIBFRAME Instance,false,true,bnode,,lc:RT:bf2:Monograph:Instance,,,,,,,
 lc:RT:bf2:NAL,NAL classification,bf:ClassificationNal,bf:classificationPortion,Classification number,false,true,literal,,,,,,,,,
 ,,,bf:itemPortion,Additional call number information,false,true,literal,,,,,,,,,
@@ -956,7 +956,7 @@ lc:RT:bf2:RelWorkInput,Related work not in LC catalog,bf:Relation,bf:relationshi
 lc:RT:bf2:RelWorkInputIsbn,Input ISBN,bf:Isbn,rdf:value,Input ISBN,false,true,literal,,,,,,,,,
 lc:RT:bf2:RelWorkInputNumber,Input OCLC number,bf:OclcNumber,rdf:value,"Input OCLC number (with ""(OCoLC)"")",false,true,literal,,,,,,,,,
 lc:RT:bf2:RelWorkInputTitle,Input title,bf:Title,bf:mainTitle,Input title,false,true,literal,,,,,,,,,
-lc:RT:bf2:RelWorkLookup,Search related works/series,bf:Relation,bf:associatedResource,Search related works/series,false,true,,,,https://preprod-8088.id.loc.gov/resources/works/ | https://preprod-8088.id.loc.gov/resources/hubs/,IRIstem,,,,,
+lc:RT:bf2:RelWorkLookup,Search related works/series,bf:Relation,bf:associatedResource,Search related works/series,false,true,,,,https://preprod-8088.id.loc.gov/resources/works/ | https://preprod-8088.id.loc.gov/resources/hubs/,IRIstem,,,,,https://bibframe.org/docs/view/documentation-marva-manual/work-description/search-related-work.md
 ,,,bf:seriesEnumeration,Series enumeration (if applicable),false,true,literal,,,,,,,,,
 ,,,bf:relationship,Relationship designator,false,true,,,,http://preprod.id.loc.gov/vocabulary/relationship,IRIstem,,,,bf:Relationship,
 lc:RT:bf2:Resolution,Resolution,bf:Resolution,rdfs:label,Resolution,false,true,literal,,,,,,,,,
@@ -1230,18 +1230,18 @@ lc:RT:bf2:Title:VarTitle,Variant title,bf:VariantTitle,bf:mainTitle,Variant titl
 lc:RT:bf2:Topic:Childrens:Components,CYAC subject,bf:Topic,mads:componentList,Search subject components,false,true,bnode,,lc:RT:bf2:Topic:Childrens:Topic | lc:RT:bf2:Topic:madsGeographic | lc:RT:bf2:Topic:madsTemporal | lc:RT:bf2:Topic:madsGenreForm,,,,,,,
 ,,,bf:source,Thesaurus,false,true,,,,http://preprod.id.loc.gov/vocabulary/subjectSchemes,IRIstem,,Children’s and Young Adults’ Cataloging subject headings,http://id.loc.gov/vocabulary/subjectSchemes/cyac,bf:Source,
 lc:RT:bf2:Topic:Childrens:Topic,Children's heading or topical subdivision,mads:Topic,mads:Topic,Search CYAC/LCNAF,false,true,,,,http://id.loc.gov/authorities/childrensSubjects | http://id.loc.gov/authorities/names,IRIstem,,,,,
-lc:RT:bf2:Topic:ChronologyTest,Chronological subdivision test,mads:Temporal,mads:Temporal,Search LCSH,false,true,,,,http://id.loc.gov/authorities/subjects,IRIstem,,,,,
+lc:RT:bf2:Topic:ChronologyTest,Chronological subdivision test,mads:Temporal,mads:Temporal,Search LCSH,false,true,,,,http://id.loc.gov/authorities/subjects,IRIstem,,,,,https://bibframe.org/docs/view/documentation-marva-manual/work-description/subjects.md
 ,,,rdfs:label,Proposed heading,false,true,literal,,,,,,,,,
 lc:RT:bf2:Topic:Place:Components,Geographic subjects,bf:Place,mads:componentList,Search subject components,false,true,bnode,,lc:RT:bf2:Topic:madsGeogHeading | lc:RT:bf2:Topic:madsTopicSubdivision | lc:RT:bf2:Topic:madsTemporal | lc:RT:bf2:Topic:madsGenreForm,,,,,,,
 ,,,bf:source,Thesaurus,false,true,,,,http://preprod.id.loc.gov/vocabulary/subjectSchemes,IRIstem,,Library of Congress subject headings,http://id.loc.gov/vocabulary/subjectSchemes/lcsh,bf:Source,
 lc:RT:bf2:Topic:SubjectNew,Expanded subjects,bf:Topic,mads:componentList,Search subject components,false,true,bnode,,lc:RT:bf2:Topic:madsTopic | lc:RT:bf2:Topic:madsGeographic | lc:RT:bf2:Topic:madsTemporal | lc:RT:bf2:Topic:madsGenreForm,,,,,,mads:ComplexSubject,
 ,,,bf:source,Source,false,true,,,,http://id.loc.gov/vocabulary/subjectSchemes,IRIstem,,LCSH,http://id.loc.gov/vocabulary/subjectSchemes/lcsh,bf:Source,
 lc:RT:bf2:Topic:SubjectWork,Hub as subject,bf:Hub,mads:authoritativeLabel,Search Hubs,false,true,,,,https://preprod-8080.id.loc.gov/resources/hubs/,IRIstem,,,,,
-lc:RT:bf2:Topic:madsGenreForm,Form subdivision,mads:GenreForm,mads:GenreForm,Search LCSH,false,true,,,,http://id.loc.gov/authorities/subjects,IRIstem,,,,,
-lc:RT:bf2:Topic:madsGeogHeading,Geographic heading,mads:Geographic,mads:Geographic,Search LCNAF/LCSH,false,true,,,,http://preprod.id.loc.gov/authorities/names | http://id.loc.gov/authorities/subjects,IRIstem,,,,,
-lc:RT:bf2:Topic:madsGeographic,Geographic subdivision,mads:Geographic,mads:Geographic,Search LCNAF/LCSH,false,true,,,,http://preprod.id.loc.gov/authorities/names | http://id.loc.gov/authorities/subjects,IRIstem,,,,,
+lc:RT:bf2:Topic:madsGenreForm,Form subdivision,mads:GenreForm,mads:GenreForm,Search LCSH,false,true,,,,http://id.loc.gov/authorities/subjects,IRIstem,,,,,https://bibframe.org/docs/view/documentation-marva-manual/work-description/subjects.md
+lc:RT:bf2:Topic:madsGeogHeading,Geographic heading,mads:Geographic,mads:Geographic,Search LCNAF/LCSH,false,true,,,,http://preprod.id.loc.gov/authorities/names | http://id.loc.gov/authorities/subjects,IRIstem,,,,,https://bibframe.org/docs/view/documentation-marva-manual/work-description/subjects.md
+lc:RT:bf2:Topic:madsGeographic,Geographic subdivision,mads:Geographic,mads:Geographic,Search LCNAF/LCSH,false,true,,,,http://preprod.id.loc.gov/authorities/names | http://id.loc.gov/authorities/subjects,IRIstem,,,,,https://bibframe.org/docs/view/documentation-marva-manual/work-description/subjects.md
 lc:RT:bf2:Topic:madsTemporal,Chronological subdivision,mads:Temporal,mads:Temporal,Search LCSH,false,true,,,,http://id.loc.gov/authorities/subjects,IRIstem,,,,,
-lc:RT:bf2:Topic:madsTopic,Heading or topical subdivision,mads:Topic,mads:Topic,Search LCSH/LCNAF,false,true,,,,http://id.loc.gov/authorities/subjects | http://preprod.id.loc.gov/authorities/names,IRIstem,,,,,
+lc:RT:bf2:Topic:madsTopic,Heading or topical subdivision,mads:Topic,mads:Topic,Search LCSH/LCNAF,false,true,,,,http://id.loc.gov/authorities/subjects | http://preprod.id.loc.gov/authorities/names,IRIstem,,,,,https://bibframe.org/docs/view/documentation-marva-manual/work-description/subjects.md
 lc:RT:bf2:Topic:madsTopicSubdivision,Topical subdivision,mads:Topic,mads:Topic,Search LCSH,false,true,,,,http://id.loc.gov/authorities/subjects,IRIstem,,,,,
 lc:RT:bf2:TopicSearch,Search subjects,bf:Topic,mads:authoritativeLabel,Search LCSH/LCNAF,false,true,,,,http://id.loc.gov/authorities/subjects | http://id.loc.gov/authorities/names,IRIstem,,,,,
 lc:RT:bf2:TypeRec,Type of recording (digital),bf:RecordingMethod,bf:RecordingMethod,Lookup,false,false,,,,http://id.loc.gov/vocabulary/mrectype,IRIstem,,digital,http://id.loc.gov/vocabulary/mrectype/digital,,
