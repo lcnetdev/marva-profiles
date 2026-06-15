@@ -539,7 +539,7 @@ lc:RT:bf2:Identifiers:VidRecNumber,Video recording number,bf:VideoRecordingNumbe
 ,,,bf:qualifier,Qualifier,false,true,literal,,,,,,,,,
 lc:RT:bf2:ImmAcqSource,Immediate source of acquisition,bf:ImmediateAcquisition,rdfs:label,Immediate source of acquisition,false,true,literal,,,,,,,,,
 ,,,bflc:applicableInstitution,Applicable institution,false,true,,,,http://id.loc.gov/vocabulary/organizations,IRIstem,,United States. Library of Congress,http://id.loc.gov/vocabulary/organizations/dlc,bf:Organization,
-lc:RT:bf2:InstanceTitle,Instance title,bf:Title,bflc:nonSortNum,Non-sort character count,false,true,literal,,,,,,,,,
+lc:RT:bf2:InstanceTitle,Instance title,bf:Title,bflc:nonSortNum,Non-sort character count,false,true,literal,,,,,,,,,https://bibframe.org/docs/view/documentation-marva-manual/instance-description/title-information.md
 ,,,bf:mainTitle,Title,false,false,literal,,,,,,,,,https://bibframe.org/docs/view/documentation-marva-manual/instance-description/title-information.md
 ,,,bf:partNumber,Part number,false,true,literal,,,,,,,,,
 ,,,bf:partName,Part name,false,true,literal,,,,,,,,,
@@ -1244,15 +1244,10 @@ lc:RT:bf2:TopicSearch,Search subjects,bf:Topic,mads:authoritativeLabel,Search LC
 lc:RT:bf2:TypeRec,Type of recording (digital),bf:RecordingMethod,bf:RecordingMethod,Lookup,false,false,,,,http://id.loc.gov/vocabulary/mrectype,IRIstem,,digital,http://id.loc.gov/vocabulary/mrectype/digital,,
 lc:RT:bf2:TypeRec2,Type of recording (analog),bf:RecordingMethod,bf:RecordingMethod,Lookup,false,false,,,,http://id.loc.gov/vocabulary/mrectype,IRIstem,,analog,http://id.loc.gov/vocabulary/mrectype/analog,,
 lc:RT:bf2:URL,URL,rdfs:Resource,owl:sameAs,URL,false,true,literal,,,,,,,,,
-lc:RT:bf2:WorkTitle,Work title,bf:Title,bflc:nonSortNum,Non-sort character count,false,true,literal,,,,,,,,,
-,,,bf:mainTitle,Preferred title for Work,false,false,literal,,,,,,,,,
+lc:RT:bf2:WorkTitle,Work title,bf:Title,bflc:nonSortNum,Non-sort character count,false,true,literal,,,,,,,,,https://bibframe.org/docs/view/documentation-marva-manual/work-description/title-information.md
+,,,bf:mainTitle,Preferred title for Work,false,false,literal,,,,,,,,,https://bibframe.org/docs/view/documentation-marva-manual/work-description/title-information.md
 lc:RT:bflc:Agents:PrimaryContribution,Primary contribution,bf:PrimaryContribution,bf:agent,Primary contributor,false,false,bnode,,lc:RT:bf2:Agent:bfPerson | lc:RT:bf2:Agent:bfFamily | lc:RT:bf2:Agent:bfCorp | lc:RT:bf2:Agent:bfJurisdiction | lc:RT:bf2:Agent:bfConf,,,,,,bf:PrimaryContribution,https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates
 ,,,bf:role,Relationship designator,false,true,,,,https://preprod.id.loc.gov/vocabulary/relators,IRIstem,,,,bf:Role,https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates-AgentRoles
-lc:RT:bflc:TranscribedTitle,Transliterated title,bflc:TransliteratedTitle,bflc:nonSortNum,Non-sort character count,false,true,literal,,,,,,,,,
-,,,bf:mainTitle,Title,false,false,literal,,,,,,,,,
-,,,bf:partNumber,Part number,false,true,literal,,,,,,,,,
-,,,bf:partName,Part name,false,true,literal,,,,,,,,,
-,,,bf:subtitle,Other title information,false,true,literal,,,,,,,,,
 lc:profile:bf2:35mmFeatureFilm,BIBFRAME 2.0 Moving Image,,dcterms:hasPart,Has Shape,,,bnode,,lc:RT:bf2:35mmFeatureFilm:Work,,,,,,,
 ,,,dcterms:hasPart,Has Shape,,,bnode,,lc:RT:bf2:35mmFeatureFilm:Instance,,,,,,,
 ,,,dcterms:hasPart,Has Shape,,,bnode,,lc:RT:bf2:35mmFeatureFilm:Item,,,,,,,
@@ -1451,7 +1446,6 @@ lc:profile:bf2:SoundRecording,BIBFRAME 2.0 Sound Recording-Audio CD,,dcterms:has
 ,,,dcterms:hasPart,Has Shape,,,bnode,,lc:RT:bf2:SoundRecording:Instance,,,,,,,
 ,,,dcterms:hasPart,Has Shape,,,bnode,,lc:RT:bf2:SoundRecording:Item,,,,,,,
 lc:profile:bf2:Title,BIBFRAME 2.0 Title Information,,dcterms:hasPart,Has Shape,,,bnode,,lc:RT:bf2:InstanceTitle,,,,,,,
-,,,dcterms:hasPart,Has Shape,,,bnode,,lc:RT:bflc:TranscribedTitle,,,,,,,
 ,,,dcterms:hasPart,Has Shape,,,bnode,,lc:RT:bf2:WorkTitle,,,,,,,
 ,,,dcterms:hasPart,Has Shape,,,bnode,,lc:RT:bf2:Title:VarTitle,,,,,,,
 ,,,dcterms:hasPart,Has Shape,,,bnode,,lc:RT:bf2:ParallelTitle,,,,,,,

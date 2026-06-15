@@ -1086,6 +1086,7 @@ lc:RT:NotatedMusicMulti:RelWork,Input related work,bf:Relation,bf:associatedReso
 ,,,bf:keyMode,Key and mode,,TRUE,bnode,,lc:RT:KeyMode,,,,,,,
 ,,,bf:musicFormat,"Format (score, part, etc.)",,TRUE,,,,http://id.loc.gov/vocabulary/mmusicformat,IRIstem,,,,bf:MusicFormat,
 ,,,bf:notation,"Notation (staff, graphic, etc.)",,TRUE,,,,http://id.loc.gov/vocabulary/mmusnotation,IRIstem,,,,bf:MusicNotation,
+,,,bf:capture,Capture,,,bnode,,lc:RT:Capture,,,,,,,
 lc:RT:NotatedMusicMulti:Work,BIBFRAME Work,bf:Work,bf:contribution,Creator,,,bnode,,lc:RT:bflc:Agents:PrimaryContribution,,,,,,bf:PrimaryContribution,
 ,,,bf:title,Title,,TRUE,bnode,,lc:RT:WorkTitle|lc:RT:Title:VarTitle|lc:RT:ParallelTitle,,,,,,,
 ,,,bf:language,"Language (008 [1st], 041 $a [others])",,TRUE,,,,http://id.loc.gov/vocabulary/languages,IRIstem,,,,bf:Language,
