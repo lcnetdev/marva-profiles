@@ -345,7 +345,8 @@ lc:RT:bf2:Cartographic:Item,BIBFRAME Item,bf:Item,bf:classification,"Copy, issue
 lc:RT:bf2:Cartographic:ObjectType,Cartographic object type,bf:CartographicObjectType,rdfs:label,Cartographic object type,false,true,literal,,,,,,,,,
 ,,,bf:count,Object count,false,true,literal,,,,,,,,,
 lc:RT:bf2:Cartographic:ScaleNew,Numeric scale value,bf:Scale,rdf:value,Scale value (ex: 1:100),false,true,literal,,,,,,,,,
-lc:RT:bf2:Cartographic:Work,BIBFRAME Work,bf:Work,bf:contribution,Creator of Work,false,true,bnode,,lc:RT:bflc:Agents:PrimaryContribution,,,,,,bf:PrimaryContribution,
+lc:RT:bf2:Cartographic:Work,BIBFRAME Work,bf:Work,bf:expressionOf,Expression of [search for a Hub],,,,,,https://id.loc.gov/resources/hubs,IRIstem,,,,bf:Hub,https://bibframe.org/docs/view/documentation-marva-manual/work-description/expression-hub.md
+,,,bf:contribution,Creator of Work,false,true,bnode,,lc:RT:bflc:Agents:PrimaryContribution,,,,,,bf:PrimaryContribution,
 ,,,bf:title,Title information,true,true,bnode,,lc:RT:bf2:WorkTitle | lc:RT:bf2:Title:VarTitle | lc:RT:bf2:ParallelTitle,,,,,,,https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates-Work/ExpressionTitles
 ,,,bf:contribution,Contributors,false,true,bnode,,lc:RT:bf2:Agents:Contribution,,,,,,bf:Contribution,
 ,,,bf:note,Notes about the Work,false,true,bnode,,lc:RT:bf2:Note,,,,,,,
@@ -747,7 +748,8 @@ lc:RT:bf2:NotatedMusic:Instance,BIBFRAME Instance,bf:Instance,bf:instanceOf,Inst
 lc:RT:bf2:NotatedMusic:Item,BIBFRAME Item,bf:Item,bf:electronicLocator,URL of Item,false,true,bnode,,lc:RT:bf2:URL,,,,,,,
 ,,,bf:contribution,Collection/contribution,false,true,bnode,,lc:RT:bf2:Agents:bfContribution,,,,,,bf:Contribution,
 ,,,bf:note,Notes about the Item,false,true,bnode,,lc:RT:bf2:NoteLc,,,,,,,
-lc:RT:bf2:NotatedMusic:Work,BIBFRAME Work,bf:Work,bf:contribution,Creator of Work,false,true,bnode,,lc:RT:bflc:Agents:PrimaryContribution,,,,,,bf:PrimaryContribution,
+lc:RT:bf2:NotatedMusic:Work,BIBFRAME Work,bf:Work,bf:expressionOf,Expression of [search for a Hub],,,,,,https://id.loc.gov/resources/hubs,IRIstem,,,,bf:Hub,https://bibframe.org/docs/view/documentation-marva-manual/work-description/expression-hub.md
+,,,bf:contribution,Creator of Work,false,true,bnode,,lc:RT:bflc:Agents:PrimaryContribution,,,,,,bf:PrimaryContribution,
 ,,,bf:title,Title information,true,true,bnode,,lc:RT:bf2:WorkTitle | lc:RT:bf2:Title:VarTitle | lc:RT:bf2:ParallelTitle,,,,,,,https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates-Work/ExpressionTitles
 ,,,bf:genreForm,Genre/Form,false,true,bnode,,lc:RT:bf2:Form,,,,,,bf:GenreForm,
 ,,,bf:originDate,Date of Work,false,true,literal,,,,,,,,,
