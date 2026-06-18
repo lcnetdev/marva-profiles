@@ -429,7 +429,7 @@ lc:RT:Cartographic:Item,BIBFRAME Item,bf:Item,bf:classification,"Copy, issue, of
 ,,,bf:note,Notes about the Item,FALSE,TRUE,bnode,,lc:RT:NoteLc,,,,,,,
 lc:RT:Cartographic:ObjectType,Cartographic object type,bf:CartographicObjectType,rdfs:label,Cartographic object type,FALSE,TRUE,literal,,,,,,,,,
 ,,,bf:count,Object count,FALSE,TRUE,literal,,,,,,,,,
-lc:RT:Cartographic:Polygon,POlygon,http://www.opengis.net/gml/3.2/Polygon,gml:exterior,Exterior,,,,,lc:RT:Cartographic:Exterior,,,,,,,
+lc:RT:Cartographic:Polygon,Polygon,http://www.opengis.net/gml/3.2/Polygon,gml:exterior,Exterior,,,,,lc:RT:Cartographic:Exterior,,,,,,,
 ,,,gml:interior,Interior,,,,,lc:RT:Cartographic:Exterior,,,,,,,
 lc:RT:Cartographic:ScaleNew,Numeric scale value,bf:Scale,rdf:value,Scale value (ex: 1:100),FALSE,TRUE,literal,,,,,,,,,
 lc:RT:Cartographic:Work,BIBFRAME Work,bf:Work,bf:expressionOf,Expression of [Search for a Hub],,,,,,https://id.loc.gov/resources/hubs,IRIstem,,,,bf:Hub,https://bibframe.org/docs/view/documentation-marva-manual/work-description/expression-hub.md
