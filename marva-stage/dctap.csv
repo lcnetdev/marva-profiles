@@ -420,7 +420,8 @@ lc:RT:Cartographic:Instance,BIBFRAME Instance,bf:Instance,bf:instanceOf,Instance
 ,,,bf:digitalCharacteristic,Digital file characteristic,FALSE,TRUE,bnode,,lc:RT:Cartographic:FileType | lc:RT:Cartographic:DataType | lc:RT:Cartographic:ObjectType | lc:RT:Cartographic:EncodingFormat,,,,,,,
 ,,,bf:electronicLocator,URL of Instance,FALSE,TRUE,bnode,,lc:RT:URL,,,,,,,
 ,,,bf:hasItem,Has Item,FALSE,TRUE,bnode,,lc:RT:Cartographic:Item,,,,,,,
-lc:RT:Cartographic:Interior,LinearRing,http://,,,,,,,,,,,,,,
+lc:RT:Cartographic:Interior,LinearRing,http://www.opengis.net/gml/3.2/LinearRing,http://www.opengis.net/gml/3.2/posList,Interior position list,,,literal,,,,,,,,,
+,,,rdfs:label,Note,,,literal,,,,,,,,,
 lc:RT:Cartographic:Item,BIBFRAME Item,bf:Item,bf:classification,"Copy, issue, offprint number",FALSE,TRUE,bnode,,lc:RT:Item:LCC,,,,,,,
 ,,,bf:electronicLocator,URL of Item,FALSE,TRUE,bnode,,lc:RT:URL,,,,,,,
 ,,,bf:contribution,Collection/contribution,FALSE,TRUE,bnode,,lc:RT:Agents:bfContribution,,,,,,bf:Contribution,
@@ -428,7 +429,7 @@ lc:RT:Cartographic:Item,BIBFRAME Item,bf:Item,bf:classification,"Copy, issue, of
 lc:RT:Cartographic:ObjectType,Cartographic object type,bf:CartographicObjectType,rdfs:label,Cartographic object type,FALSE,TRUE,literal,,,,,,,,,
 ,,,bf:count,Object count,FALSE,TRUE,literal,,,,,,,,,
 lc:RT:Cartographic:Polygon,Polygon,http://www.opengis.net/gml/3.2/Polygon,gml:exterior,Exterior,,,,,lc:RT:Cartographic:Exterior,,,,,,,
-,,,gml:interior,Interior,,,,,lc:RT:Cartographic:Exterior,,,,,,,
+,,,gml:interior,Interior,,,,,lc:RT:Cartographic:Interior,,,,,,,
 lc:RT:Cartographic:ScaleNew,Numeric scale value,bf:Scale,rdf:value,Scale value (ex: 1:100),FALSE,TRUE,literal,,,,,,,,,
 lc:RT:Cartographic:Work,BIBFRAME Work,bf:Work,bf:expressionOf,Expression of [Search for a Hub],,,,,,https://id.loc.gov/resources/hubs,IRIstem,,,,bf:Hub,https://bibframe.org/docs/view/documentation-marva-manual/work-description/expression-hub.md
 ,,,bf:contribution,Creator,FALSE,TRUE,bnode,,lc:RT:bflc:Agents:PrimaryContribution,,,,,,bf:PrimaryContribution,
