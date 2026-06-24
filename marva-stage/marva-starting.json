@@ -1,6 +1,6 @@
 [
   {
-    "id": "72119f8c-1b0f-40e5-a54e-39552da1054d",
+    "id": "f5baaf7d-dd46-42d0-bd0e-0d505d0004aa",
     "name": "config",
     "configType": "startingPoints",
     "json": [
@@ -105,7 +105,7 @@
               "http://id.loc.gov/ontologies/bibframe/Instance"
             ],
             "useResourceTemplates": [
-              "lc:RT:SoundRecording:Instance"
+              "lc:RT:SoundCD:Instance"
             ]
           },
           {
@@ -114,7 +114,7 @@
               "http://id.loc.gov/ontologies/bibframe/Work"
             ],
             "useResourceTemplates": [
-              "lc:RT:SoundRecording:Work"
+              "lc:RT:SoundCD:Work"
             ]
           }
         ]
