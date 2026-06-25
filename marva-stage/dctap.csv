@@ -439,7 +439,7 @@ lc:RT:Cartographic:Work,BIBFRAME Work,bf:Work,bf:expressionOf,Expression of [Sea
 ,,,bf:tableOfContents,Contents,FALSE,TRUE,bnode,,lc:RT:Contents,,,,,,,
 ,,,bf:summary,Summary,FALSE,TRUE,bnode,,lc:RT:Summary,,,,,,,
 ,,,bf:subject,Subjects,FALSE,TRUE,bnode,,lc:RT:Components | lc:RT:Topic:Place:Components | lc:RT:Topic:SubjectWork,,,,,,,
-,,,bf:geographicCoverage,Geographic coverage,FALSE,TRUE,bnode,,lc:RT:Form:Geog,,,,,,bf:GeographicCoverage,
+,,,bf:geographicCoverage,Geographic coverage,FALSE,TRUE,bnode,,lc:RT:Cartographic:Geog,,,,,,bf:GeographicCoverage,
 ,,,bf:genreForm,Genre/Form,FALSE,TRUE,bnode,,lc:RT:Form,,,,,,bf:GenreForm,
 ,,,bf:classification,Classification numbers,FALSE,TRUE,bnode,,lc:RT:LCC | lc:RT:DDC | lc:RT:GPOClass,,,,,,,
 ,,,bf:intendedAudience,Intended audience,FALSE,TRUE,bnode,,lc:RT:Audience,,,,,,,
