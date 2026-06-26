@@ -1,6 +1,6 @@
 [
   {
-    "id": "ae4b45db-7b6d-4d53-80bf-cbef822ce8da",
+    "id": "09211885-7dec-48fd-8d2c-9d5cbf05090e",
     "name": "BIBFRAME 2.0 Moving Image",
     "configType": "profile",
     "json": {
@@ -2048,24 +2048,6 @@
                     "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Role"
                   }
                 }
-              },
-              {
-                "propertyURI": "http://id.loc.gov/ontologies/bflc/creatorCharacteristic",
-                "propertyLabel": "Creator characteristics",
-                "mandatory": "false",
-                "repeatable": "true",
-                "type": "lookup",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [],
-                  "useValuesFrom": [
-                    "http://id.loc.gov/authorities/demographicTerms/collection_LCDGT_General"
-                  ],
-                  "defaults": [],
-                  "valueDataType": {
-                    "dataTypeURI": "http://id.loc.gov/ontologies/bflc/CreatorCharacteristic"
-                  }
-                }
               }
             ]
           },
@@ -4106,14 +4088,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-06-25T15:41:31.057Z",
-      "updateDate": "2026-06-25T15:41:31.057Z"
+      "createDate": "2026-06-26T14:04:44.629Z",
+      "updateDate": "2026-06-26T14:04:44.629Z"
     },
-    "created": "2026-06-25T15:41:31.057Z",
-    "modified": "2026-06-25T15:41:31.057Z"
+    "created": "2026-06-26T14:04:44.629Z",
+    "modified": "2026-06-26T14:04:44.629Z"
   },
   {
-    "id": "5ed7e487-4ee1-4897-bac8-291dc94f649f",
+    "id": "45ff13e1-4511-476a-b4e5-3b16b6a39ffa",
     "name": "Three-dimensional object",
     "configType": "profile",
     "json": {
@@ -4853,24 +4835,6 @@
                   "defaults": [],
                   "valueDataType": {
                     "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Role"
-                  }
-                }
-              },
-              {
-                "propertyURI": "http://id.loc.gov/ontologies/bflc/creatorCharacteristic",
-                "propertyLabel": "Creator characteristics",
-                "mandatory": "false",
-                "repeatable": "true",
-                "type": "lookup",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [],
-                  "useValuesFrom": [
-                    "http://id.loc.gov/authorities/demographicTerms/collection_LCDGT_General"
-                  ],
-                  "defaults": [],
-                  "valueDataType": {
-                    "dataTypeURI": "http://id.loc.gov/ontologies/bflc/CreatorCharacteristic"
                   }
                 }
               }
@@ -6001,14 +5965,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-06-25T15:41:31.066Z",
-      "updateDate": "2026-06-25T15:41:31.066Z"
+      "createDate": "2026-06-26T14:04:44.639Z",
+      "updateDate": "2026-06-26T14:04:44.639Z"
     },
-    "created": "2026-06-25T15:41:31.066Z",
-    "modified": "2026-06-25T15:41:31.066Z"
+    "created": "2026-06-26T14:04:44.639Z",
+    "modified": "2026-06-26T14:04:44.639Z"
   },
   {
-    "id": "70032aee-3371-4ce1-b2a6-a4152849cd30",
+    "id": "0bd237e2-f5b2-41ee-b76b-c8b8c58c7d85",
     "name": "BIBFRAME 2.0 Admin Metadata",
     "configType": "profile",
     "json": {
@@ -6565,14 +6529,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-06-25T15:41:31.067Z",
-      "updateDate": "2026-06-25T15:41:31.067Z"
+      "createDate": "2026-06-26T14:04:44.642Z",
+      "updateDate": "2026-06-26T14:04:44.642Z"
     },
-    "created": "2026-06-25T15:41:31.067Z",
-    "modified": "2026-06-25T15:41:31.067Z"
+    "created": "2026-06-26T14:04:44.642Z",
+    "modified": "2026-06-26T14:04:44.642Z"
   },
   {
-    "id": "8e7de53b-0450-4235-b9ed-7ae68ce9c32d",
+    "id": "d01d76da-c156-4ce9-b346-6e2842ab95ae",
     "name": "BIBFRAME 2.0 Agents",
     "configType": "profile",
     "json": {
@@ -9210,14 +9174,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-06-25T15:41:31.079Z",
-      "updateDate": "2026-06-25T15:41:31.079Z"
+      "createDate": "2026-06-26T14:04:44.652Z",
+      "updateDate": "2026-06-26T14:04:44.652Z"
     },
-    "created": "2026-06-25T15:41:31.079Z",
-    "modified": "2026-06-25T15:41:31.079Z"
+    "created": "2026-06-26T14:04:44.652Z",
+    "modified": "2026-06-26T14:04:44.652Z"
   },
   {
-    "id": "9c330ff0-f5cb-4c26-b0e9-cb481f936fbc",
+    "id": "eee70db0-f9ec-42d6-9f08-808c14003007",
     "name": "BIBFRAME 2.0 RWO",
     "configType": "profile",
     "json": {
@@ -10144,14 +10108,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-06-25T15:41:31.082Z",
-      "updateDate": "2026-06-25T15:41:31.082Z"
+      "createDate": "2026-06-26T14:04:44.656Z",
+      "updateDate": "2026-06-26T14:04:44.656Z"
     },
-    "created": "2026-06-25T15:41:31.082Z",
-    "modified": "2026-06-25T15:41:31.082Z"
+    "created": "2026-06-26T14:04:44.656Z",
+    "modified": "2026-06-26T14:04:44.656Z"
   },
   {
-    "id": "92869f76-9ec1-420f-9e60-c0fd6085ad1a",
+    "id": "ce1b3186-3edd-458e-986b-567c29013617",
     "name": "BIBFRAME 2.0 Agents Contribution",
     "configType": "profile",
     "json": {
@@ -10200,24 +10164,6 @@
                   "defaults": [],
                   "valueDataType": {
                     "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Role"
-                  }
-                }
-              },
-              {
-                "propertyURI": "http://id.loc.gov/ontologies/bflc/creatorCharacteristic",
-                "propertyLabel": "Creator characteristics",
-                "mandatory": "false",
-                "repeatable": "true",
-                "type": "lookup",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [],
-                  "useValuesFrom": [
-                    "http://id.loc.gov/authorities/demographicTerms/collection_LCDGT_General"
-                  ],
-                  "defaults": [],
-                  "valueDataType": {
-                    "dataTypeURI": "http://id.loc.gov/ontologies/bflc/CreatorCharacteristic"
                   }
                 }
               }
@@ -10410,14 +10356,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-06-25T15:41:31.083Z",
-      "updateDate": "2026-06-25T15:41:31.083Z"
+      "createDate": "2026-06-26T14:04:44.658Z",
+      "updateDate": "2026-06-26T14:04:44.658Z"
     },
-    "created": "2026-06-25T15:41:31.083Z",
-    "modified": "2026-06-25T15:41:31.083Z"
+    "created": "2026-06-26T14:04:44.658Z",
+    "modified": "2026-06-26T14:04:44.658Z"
   },
   {
-    "id": "38b4e284-c1fe-4ae3-966e-d8e856d66d70",
+    "id": "30513d74-26c5-4c3d-a7fa-6301c3a527a7",
     "name": "BIBFRAME 2.0 Sound Recording-Analog",
     "configType": "profile",
     "json": {
@@ -11733,24 +11679,6 @@
                   "defaults": [],
                   "valueDataType": {
                     "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Role"
-                  }
-                }
-              },
-              {
-                "propertyURI": "http://id.loc.gov/ontologies/bflc/creatorCharacteristic",
-                "propertyLabel": "Creator characteristics",
-                "mandatory": "false",
-                "repeatable": "true",
-                "type": "lookup",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [],
-                  "useValuesFrom": [
-                    "http://id.loc.gov/authorities/demographicTerms/collection_LCDGT_General"
-                  ],
-                  "defaults": [],
-                  "valueDataType": {
-                    "dataTypeURI": "http://id.loc.gov/ontologies/bflc/CreatorCharacteristic"
                   }
                 }
               }
@@ -14609,14 +14537,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-06-25T15:41:31.103Z",
-      "updateDate": "2026-06-25T15:41:31.103Z"
+      "createDate": "2026-06-26T14:04:44.676Z",
+      "updateDate": "2026-06-26T14:04:44.676Z"
     },
-    "created": "2026-06-25T15:41:31.103Z",
-    "modified": "2026-06-25T15:41:31.103Z"
+    "created": "2026-06-26T14:04:44.676Z",
+    "modified": "2026-06-26T14:04:44.676Z"
   },
   {
-    "id": "f6fcc2bb-bc65-4ae8-99f9-d98c98f27271",
+    "id": "1ba56807-e2d3-4236-9997-e3d1a49e59fc",
     "name": "BIBFRAME 2.0 Cartographic",
     "configType": "profile",
     "json": {
@@ -16060,24 +15988,6 @@
                   "defaults": [],
                   "valueDataType": {
                     "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Role"
-                  }
-                }
-              },
-              {
-                "propertyURI": "http://id.loc.gov/ontologies/bflc/creatorCharacteristic",
-                "propertyLabel": "Creator characteristics",
-                "mandatory": "false",
-                "repeatable": "true",
-                "type": "lookup",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [],
-                  "useValuesFrom": [
-                    "http://id.loc.gov/authorities/demographicTerms/collection_LCDGT_General"
-                  ],
-                  "defaults": [],
-                  "valueDataType": {
-                    "dataTypeURI": "http://id.loc.gov/ontologies/bflc/CreatorCharacteristic"
                   }
                 }
               }
@@ -18379,14 +18289,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-06-25T15:41:31.124Z",
-      "updateDate": "2026-06-25T15:41:31.124Z"
+      "createDate": "2026-06-26T14:04:44.694Z",
+      "updateDate": "2026-06-26T14:04:44.694Z"
     },
-    "created": "2026-06-25T15:41:31.124Z",
-    "modified": "2026-06-25T15:41:31.124Z"
+    "created": "2026-06-26T14:04:44.694Z",
+    "modified": "2026-06-26T14:04:44.694Z"
   },
   {
-    "id": "a3afc2a4-33cd-4b24-8abd-af4bc9e7b2c4",
+    "id": "d5cbbfa2-088d-4143-9185-c5dff1dfe781",
     "name": "BIBFRAME 2.0 Classification",
     "configType": "profile",
     "json": {
@@ -18938,14 +18848,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-06-25T15:41:31.128Z",
-      "updateDate": "2026-06-25T15:41:31.128Z"
+      "createDate": "2026-06-26T14:04:44.696Z",
+      "updateDate": "2026-06-26T14:04:44.696Z"
     },
-    "created": "2026-06-25T15:41:31.128Z",
-    "modified": "2026-06-25T15:41:31.128Z"
+    "created": "2026-06-26T14:04:44.696Z",
+    "modified": "2026-06-26T14:04:44.696Z"
   },
   {
-    "id": "a62c4744-018e-45f1-8f84-1b38e2bf279c",
+    "id": "afb98167-4325-4566-b2d5-757c58608bb9",
     "name": "BIBFRAME 2.0 Form",
     "configType": "profile",
     "json": {
@@ -19185,14 +19095,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-06-25T15:41:31.129Z",
-      "updateDate": "2026-06-25T15:41:31.129Z"
+      "createDate": "2026-06-26T14:04:44.697Z",
+      "updateDate": "2026-06-26T14:04:44.697Z"
     },
-    "created": "2026-06-25T15:41:31.129Z",
-    "modified": "2026-06-25T15:41:31.129Z"
+    "created": "2026-06-26T14:04:44.697Z",
+    "modified": "2026-06-26T14:04:44.697Z"
   },
   {
-    "id": "65f04826-28c5-4422-be4f-3e09aedec9c8",
+    "id": "bb5a74dd-d7b9-4431-ab6c-07ac8370f533",
     "name": "GPO Monograph",
     "configType": "profile",
     "json": {
@@ -21217,14 +21127,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-06-25T15:41:31.143Z",
-      "updateDate": "2026-06-25T15:41:31.143Z"
+      "createDate": "2026-06-26T14:04:44.709Z",
+      "updateDate": "2026-06-26T14:04:44.709Z"
     },
-    "created": "2026-06-25T15:41:31.143Z",
-    "modified": "2026-06-25T15:41:31.143Z"
+    "created": "2026-06-26T14:04:44.709Z",
+    "modified": "2026-06-26T14:04:44.709Z"
   },
   {
-    "id": "97237449-fd11-401e-b553-390873ff957c",
+    "id": "841e5e34-366e-453a-9c90-4161e98b2429",
     "name": "GPO Serial",
     "configType": "profile",
     "json": {
@@ -22871,24 +22781,6 @@
                   "defaults": [],
                   "valueDataType": {
                     "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Role"
-                  }
-                }
-              },
-              {
-                "propertyURI": "http://id.loc.gov/ontologies/bflc/creatorCharacteristic",
-                "propertyLabel": "Creator characteristics",
-                "mandatory": "false",
-                "repeatable": "true",
-                "type": "lookup",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [],
-                  "useValuesFrom": [
-                    "http://id.loc.gov/authorities/demographicTerms/collection_LCDGT_General"
-                  ],
-                  "defaults": [],
-                  "valueDataType": {
-                    "dataTypeURI": "http://id.loc.gov/ontologies/bflc/CreatorCharacteristic"
                   }
                 }
               }
@@ -25622,14 +25514,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-06-25T15:41:31.169Z",
-      "updateDate": "2026-06-25T15:41:31.169Z"
+      "createDate": "2026-06-26T14:04:44.735Z",
+      "updateDate": "2026-06-26T14:04:44.735Z"
     },
-    "created": "2026-06-25T15:41:31.169Z",
-    "modified": "2026-06-25T15:41:31.169Z"
+    "created": "2026-06-26T14:04:44.735Z",
+    "modified": "2026-06-26T14:04:44.735Z"
   },
   {
-    "id": "30af8b09-b570-4f51-b2b3-6e4d6a392dd8",
+    "id": "d7a205cf-c70c-4b70-bf06-d2d4afeb0b1a",
     "name": "Test BF hub",
     "configType": "profile",
     "json": {
@@ -26482,14 +26374,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-06-25T15:41:31.173Z",
-      "updateDate": "2026-06-25T15:41:31.173Z"
+      "createDate": "2026-06-26T14:04:44.739Z",
+      "updateDate": "2026-06-26T14:04:44.739Z"
     },
-    "created": "2026-06-25T15:41:31.173Z",
-    "modified": "2026-06-25T15:41:31.173Z"
+    "created": "2026-06-26T14:04:44.739Z",
+    "modified": "2026-06-26T14:04:44.739Z"
   },
   {
-    "id": "f293a6da-d23e-46fa-9b35-99fbbfcac8f9",
+    "id": "0edc948f-2756-4253-ac67-255eede5c03e",
     "name": "BF Hub",
     "configType": "profile",
     "json": {
@@ -27312,14 +27204,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-06-25T15:41:31.178Z",
-      "updateDate": "2026-06-25T15:41:31.178Z"
+      "createDate": "2026-06-26T14:04:44.744Z",
+      "updateDate": "2026-06-26T14:04:44.744Z"
     },
-    "created": "2026-06-25T15:41:31.178Z",
-    "modified": "2026-06-25T15:41:31.178Z"
+    "created": "2026-06-26T14:04:44.744Z",
+    "modified": "2026-06-26T14:04:44.744Z"
   },
   {
-    "id": "c0d11ef0-7893-4f27-894d-e4dbace9ce2d",
+    "id": "bd6d28c0-3b2a-4e26-814a-04613ed57646",
     "name": "IBC description",
     "configType": "profile",
     "json": {
@@ -30995,24 +30887,6 @@
                     "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Role"
                   }
                 }
-              },
-              {
-                "propertyURI": "http://id.loc.gov/ontologies/bflc/creatorCharacteristic",
-                "propertyLabel": "Creator characteristics",
-                "mandatory": "false",
-                "repeatable": "true",
-                "type": "lookup",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [],
-                  "useValuesFrom": [
-                    "http://id.loc.gov/authorities/demographicTerms/collection_LCDGT_General"
-                  ],
-                  "defaults": [],
-                  "valueDataType": {
-                    "dataTypeURI": "http://id.loc.gov/ontologies/bflc/CreatorCharacteristic"
-                  }
-                }
               }
             ]
           },
@@ -32457,14 +32331,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-06-25T15:41:31.202Z",
-      "updateDate": "2026-06-25T15:41:31.202Z"
+      "createDate": "2026-06-26T14:04:44.765Z",
+      "updateDate": "2026-06-26T14:04:44.765Z"
     },
-    "created": "2026-06-25T15:41:31.202Z",
-    "modified": "2026-06-25T15:41:31.202Z"
+    "created": "2026-06-26T14:04:44.765Z",
+    "modified": "2026-06-26T14:04:44.765Z"
   },
   {
-    "id": "e3daa89a-5c75-4f85-8d5e-3259473534cb",
+    "id": "b2fb16ec-a4c1-4955-9c8d-75bad2e8dcc7",
     "name": "BIBFRAME 2.0 Identifiers",
     "configType": "profile",
     "json": {
@@ -34046,14 +33920,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-06-25T15:41:31.213Z",
-      "updateDate": "2026-06-25T15:41:31.213Z"
+      "createDate": "2026-06-26T14:04:44.773Z",
+      "updateDate": "2026-06-26T14:04:44.773Z"
     },
-    "created": "2026-06-25T15:41:31.213Z",
-    "modified": "2026-06-25T15:41:31.213Z"
+    "created": "2026-06-26T14:04:44.773Z",
+    "modified": "2026-06-26T14:04:44.773Z"
   },
   {
-    "id": "7d9f1b24-203f-4a44-acf7-9d728f16d50d",
+    "id": "70073c03-7bde-4a41-8049-27139947e3b8",
     "name": "BIBFRAME 2.0 Item",
     "configType": "profile",
     "json": {
@@ -34575,24 +34449,6 @@
                     "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Role"
                   }
                 }
-              },
-              {
-                "propertyURI": "http://id.loc.gov/ontologies/bflc/creatorCharacteristic",
-                "propertyLabel": "Creator characteristics",
-                "mandatory": "false",
-                "repeatable": "true",
-                "type": "lookup",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [],
-                  "useValuesFrom": [
-                    "http://id.loc.gov/authorities/demographicTerms/collection_LCDGT_General"
-                  ],
-                  "defaults": [],
-                  "valueDataType": {
-                    "dataTypeURI": "http://id.loc.gov/ontologies/bflc/CreatorCharacteristic"
-                  }
-                }
               }
             ]
           },
@@ -34807,14 +34663,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-06-25T15:41:31.217Z",
-      "updateDate": "2026-06-25T15:41:31.217Z"
+      "createDate": "2026-06-26T14:04:44.778Z",
+      "updateDate": "2026-06-26T14:04:44.778Z"
     },
-    "created": "2026-06-25T15:41:31.217Z",
-    "modified": "2026-06-25T15:41:31.217Z"
+    "created": "2026-06-26T14:04:44.778Z",
+    "modified": "2026-06-26T14:04:44.778Z"
   },
   {
-    "id": "106979b1-d7da-429d-989e-e327065c2824",
+    "id": "4c4d2a14-263d-42e2-aa09-b059030f1fca",
     "name": "BIBFRAME 2.0 Language",
     "configType": "profile",
     "json": {
@@ -34938,14 +34794,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-06-25T15:41:31.218Z",
-      "updateDate": "2026-06-25T15:41:31.218Z"
+      "createDate": "2026-06-26T14:04:44.779Z",
+      "updateDate": "2026-06-26T14:04:44.779Z"
     },
-    "created": "2026-06-25T15:41:31.218Z",
-    "modified": "2026-06-25T15:41:31.218Z"
+    "created": "2026-06-26T14:04:44.779Z",
+    "modified": "2026-06-26T14:04:44.779Z"
   },
   {
-    "id": "876bbce0-49ca-4db4-a496-db21901808f7",
+    "id": "b980db62-e8fa-4960-8f8c-e5922b4d1d18",
     "name": "BIBFRAME 2.0 Moving Image-DVD",
     "configType": "profile",
     "json": {
@@ -36739,24 +36595,6 @@
                   "defaults": [],
                   "valueDataType": {
                     "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Role"
-                  }
-                }
-              },
-              {
-                "propertyURI": "http://id.loc.gov/ontologies/bflc/creatorCharacteristic",
-                "propertyLabel": "Creator characteristics",
-                "mandatory": "false",
-                "repeatable": "true",
-                "type": "lookup",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [],
-                  "useValuesFrom": [
-                    "http://id.loc.gov/authorities/demographicTerms/collection_LCDGT_General"
-                  ],
-                  "defaults": [],
-                  "valueDataType": {
-                    "dataTypeURI": "http://id.loc.gov/ontologies/bflc/CreatorCharacteristic"
                   }
                 }
               }
@@ -39431,14 +39269,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-06-25T15:41:31.240Z",
-      "updateDate": "2026-06-25T15:41:31.240Z"
+      "createDate": "2026-06-26T14:04:44.801Z",
+      "updateDate": "2026-06-26T14:04:44.801Z"
     },
-    "created": "2026-06-25T15:41:31.240Z",
-    "modified": "2026-06-25T15:41:31.240Z"
+    "created": "2026-06-26T14:04:44.801Z",
+    "modified": "2026-06-26T14:04:44.801Z"
   },
   {
-    "id": "3fe81dc6-2318-4db2-a00b-d47149b5c7f4",
+    "id": "eeee8583-7d2d-4541-b1bc-223262d60196",
     "name": "Monograph Collection",
     "configType": "profile",
     "json": {
@@ -40355,24 +40193,6 @@
                   "defaults": [],
                   "valueDataType": {
                     "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Role"
-                  }
-                }
-              },
-              {
-                "propertyURI": "http://id.loc.gov/ontologies/bflc/creatorCharacteristic",
-                "propertyLabel": "Creator characteristics",
-                "mandatory": "false",
-                "repeatable": "true",
-                "type": "lookup",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [],
-                  "useValuesFrom": [
-                    "http://id.loc.gov/authorities/demographicTerms/collection_LCDGT_General"
-                  ],
-                  "defaults": [],
-                  "valueDataType": {
-                    "dataTypeURI": "http://id.loc.gov/ontologies/bflc/CreatorCharacteristic"
                   }
                 }
               }
@@ -42367,14 +42187,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-06-25T15:41:31.254Z",
-      "updateDate": "2026-06-25T15:41:31.254Z"
+      "createDate": "2026-06-26T14:04:44.819Z",
+      "updateDate": "2026-06-26T14:04:44.819Z"
     },
-    "created": "2026-06-25T15:41:31.254Z",
-    "modified": "2026-06-25T15:41:31.254Z"
+    "created": "2026-06-26T14:04:44.819Z",
+    "modified": "2026-06-26T14:04:44.819Z"
   },
   {
-    "id": "e040c1b9-4502-4793-86b3-a1e28a73b79a",
+    "id": "52af24f9-0e17-4205-bf21-bcc844039e47",
     "name": "BIBFRAME 2.0 Monograph TEST",
     "configType": "profile",
     "json": {
@@ -43873,24 +43693,6 @@
                   "defaults": [],
                   "valueDataType": {
                     "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Role"
-                  }
-                }
-              },
-              {
-                "propertyURI": "http://id.loc.gov/ontologies/bflc/creatorCharacteristic",
-                "propertyLabel": "Creator characteristics",
-                "mandatory": "false",
-                "repeatable": "true",
-                "type": "lookup",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [],
-                  "useValuesFrom": [
-                    "http://id.loc.gov/authorities/demographicTerms/collection_LCDGT_General"
-                  ],
-                  "defaults": [],
-                  "valueDataType": {
-                    "dataTypeURI": "http://id.loc.gov/ontologies/bflc/CreatorCharacteristic"
                   }
                 }
               }
@@ -46816,14 +46618,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-06-25T15:41:31.274Z",
-      "updateDate": "2026-06-25T15:41:31.274Z"
+      "createDate": "2026-06-26T14:04:44.844Z",
+      "updateDate": "2026-06-26T14:04:44.844Z"
     },
-    "created": "2026-06-25T15:41:31.274Z",
-    "modified": "2026-06-25T15:41:31.274Z"
+    "created": "2026-06-26T14:04:44.844Z",
+    "modified": "2026-06-26T14:04:44.844Z"
   },
   {
-    "id": "ee8a5adf-c874-432d-bf84-78100afb7b6b",
+    "id": "81448bab-a27e-4c1e-854e-94963acc8347",
     "name": "BIBFRAME 2.0 Monograph (Non-Latin)",
     "configType": "profile",
     "json": {
@@ -48139,24 +47941,6 @@
                   "defaults": [],
                   "valueDataType": {
                     "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Role"
-                  }
-                }
-              },
-              {
-                "propertyURI": "http://id.loc.gov/ontologies/bflc/creatorCharacteristic",
-                "propertyLabel": "Creator characteristics",
-                "mandatory": "false",
-                "repeatable": "true",
-                "type": "lookup",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [],
-                  "useValuesFrom": [
-                    "http://id.loc.gov/authorities/demographicTerms/collection_LCDGT_General"
-                  ],
-                  "defaults": [],
-                  "valueDataType": {
-                    "dataTypeURI": "http://id.loc.gov/ontologies/bflc/CreatorCharacteristic"
                   }
                 }
               }
@@ -50083,14 +49867,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-06-25T15:41:31.290Z",
-      "updateDate": "2026-06-25T15:41:31.290Z"
+      "createDate": "2026-06-26T14:04:44.860Z",
+      "updateDate": "2026-06-26T14:04:44.860Z"
     },
-    "created": "2026-06-25T15:41:31.290Z",
-    "modified": "2026-06-25T15:41:31.290Z"
+    "created": "2026-06-26T14:04:44.860Z",
+    "modified": "2026-06-26T14:04:44.860Z"
   },
   {
-    "id": "0b7c7374-57cb-4abc-a9f6-d17eb28d5052",
+    "id": "c2fb8f88-f7d4-4dfd-9dd3-320da4b8da6a",
     "name": "BIBFRAME 2.0 Notated Music",
     "configType": "profile",
     "json": {
@@ -52011,24 +51795,6 @@
                     "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Role"
                   }
                 }
-              },
-              {
-                "propertyURI": "http://id.loc.gov/ontologies/bflc/creatorCharacteristic",
-                "propertyLabel": "Creator characteristics",
-                "mandatory": "false",
-                "repeatable": "true",
-                "type": "lookup",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [],
-                  "useValuesFrom": [
-                    "http://id.loc.gov/authorities/demographicTerms/collection_LCDGT_General"
-                  ],
-                  "defaults": [],
-                  "valueDataType": {
-                    "dataTypeURI": "http://id.loc.gov/ontologies/bflc/CreatorCharacteristic"
-                  }
-                }
               }
             ]
           },
@@ -53927,14 +53693,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-06-25T15:41:31.307Z",
-      "updateDate": "2026-06-25T15:41:31.307Z"
+      "createDate": "2026-06-26T14:04:44.884Z",
+      "updateDate": "2026-06-26T14:04:44.884Z"
     },
-    "created": "2026-06-25T15:41:31.307Z",
-    "modified": "2026-06-25T15:41:31.307Z"
+    "created": "2026-06-26T14:04:44.884Z",
+    "modified": "2026-06-26T14:04:44.884Z"
   },
   {
-    "id": "c0846ec1-9c92-4fef-9740-bbc18eee7003",
+    "id": "69132c7f-9e38-4ada-8f4b-7308a93f3e89",
     "name": "Work, Related Work(s), Instance for Notated Music",
     "configType": "profile",
     "json": {
@@ -57222,24 +56988,6 @@
                     "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Role"
                   }
                 }
-              },
-              {
-                "propertyURI": "http://id.loc.gov/ontologies/bflc/creatorCharacteristic",
-                "propertyLabel": "Creator characteristics",
-                "mandatory": "false",
-                "repeatable": "true",
-                "type": "lookup",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [],
-                  "useValuesFrom": [
-                    "http://id.loc.gov/authorities/demographicTerms/collection_LCDGT_General"
-                  ],
-                  "defaults": [],
-                  "valueDataType": {
-                    "dataTypeURI": "http://id.loc.gov/ontologies/bflc/CreatorCharacteristic"
-                  }
-                }
               }
             ]
           },
@@ -58305,14 +58053,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-06-25T15:41:31.326Z",
-      "updateDate": "2026-06-25T15:41:31.326Z"
+      "createDate": "2026-06-26T14:04:44.911Z",
+      "updateDate": "2026-06-26T14:04:44.911Z"
     },
-    "created": "2026-06-25T15:41:31.326Z",
-    "modified": "2026-06-25T15:41:31.326Z"
+    "created": "2026-06-26T14:04:44.911Z",
+    "modified": "2026-06-26T14:04:44.911Z"
   },
   {
-    "id": "37b88571-9310-4e30-8403-774e0de2a005",
+    "id": "db94f8c6-6bd5-46e2-be4a-bc142734c51f",
     "name": "Notated Music",
     "configType": "profile",
     "json": {
@@ -59493,24 +59241,6 @@
                   "defaults": [],
                   "valueDataType": {
                     "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Role"
-                  }
-                }
-              },
-              {
-                "propertyURI": "http://id.loc.gov/ontologies/bflc/creatorCharacteristic",
-                "propertyLabel": "Creator characteristics",
-                "mandatory": "false",
-                "repeatable": "true",
-                "type": "lookup",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [],
-                  "useValuesFrom": [
-                    "http://id.loc.gov/authorities/demographicTerms/collection_LCDGT_General"
-                  ],
-                  "defaults": [],
-                  "valueDataType": {
-                    "dataTypeURI": "http://id.loc.gov/ontologies/bflc/CreatorCharacteristic"
                   }
                 }
               }
@@ -62215,14 +61945,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-06-25T15:41:31.345Z",
-      "updateDate": "2026-06-25T15:41:31.345Z"
+      "createDate": "2026-06-26T14:04:44.935Z",
+      "updateDate": "2026-06-26T14:04:44.935Z"
     },
-    "created": "2026-06-25T15:41:31.345Z",
-    "modified": "2026-06-25T15:41:31.345Z"
+    "created": "2026-06-26T14:04:44.935Z",
+    "modified": "2026-06-26T14:04:44.935Z"
   },
   {
-    "id": "f66d345a-ee3d-4869-aa33-852b966a6dde",
+    "id": "5c160205-718b-4adb-9fff-84a6813822f3",
     "name": "BIBFRAME 2.0 Note",
     "configType": "profile",
     "json": {
@@ -62593,14 +62323,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-06-25T15:41:31.348Z",
-      "updateDate": "2026-06-25T15:41:31.348Z"
+      "createDate": "2026-06-26T14:04:44.938Z",
+      "updateDate": "2026-06-26T14:04:44.938Z"
     },
-    "created": "2026-06-25T15:41:31.348Z",
-    "modified": "2026-06-25T15:41:31.348Z"
+    "created": "2026-06-26T14:04:44.938Z",
+    "modified": "2026-06-26T14:04:44.938Z"
   },
   {
-    "id": "5e2e033a-4326-494f-a0e8-cd2244973277",
+    "id": "fa54dff3-9422-4efa-b051-7790c27e68e1",
     "name": "BIBFRAME Official RDA Monograph",
     "configType": "profile",
     "json": {
@@ -66803,24 +66533,6 @@
                     "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Role"
                   }
                 }
-              },
-              {
-                "propertyURI": "http://id.loc.gov/ontologies/bflc/creatorCharacteristic",
-                "propertyLabel": "Creator characteristics",
-                "mandatory": "false",
-                "repeatable": "true",
-                "type": "lookup",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [],
-                  "useValuesFrom": [
-                    "http://id.loc.gov/authorities/demographicTerms/collection_LCDGT_General"
-                  ],
-                  "defaults": [],
-                  "valueDataType": {
-                    "dataTypeURI": "http://id.loc.gov/ontologies/bflc/CreatorCharacteristic"
-                  }
-                }
               }
             ]
           },
@@ -68104,14 +67816,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-06-25T15:41:31.369Z",
-      "updateDate": "2026-06-25T15:41:31.369Z"
+      "createDate": "2026-06-26T14:04:44.972Z",
+      "updateDate": "2026-06-26T14:04:44.972Z"
     },
-    "created": "2026-06-25T15:41:31.369Z",
-    "modified": "2026-06-25T15:41:31.369Z"
+    "created": "2026-06-26T14:04:44.972Z",
+    "modified": "2026-06-26T14:04:44.972Z"
   },
   {
-    "id": "53441f65-1821-4bcd-882a-22dc6e770be9",
+    "id": "8b0af883-246d-4f9b-a755-b5ce12d91d07",
     "name": "PMO Medium of Performance",
     "configType": "profile",
     "json": {
@@ -70109,14 +69821,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-06-25T15:41:31.377Z",
-      "updateDate": "2026-06-25T15:41:31.377Z"
+      "createDate": "2026-06-26T14:04:44.987Z",
+      "updateDate": "2026-06-26T14:04:44.987Z"
     },
-    "created": "2026-06-25T15:41:31.377Z",
-    "modified": "2026-06-25T15:41:31.377Z"
+    "created": "2026-06-26T14:04:44.987Z",
+    "modified": "2026-06-26T14:04:44.987Z"
   },
   {
-    "id": "bc46ead5-4b3d-428b-aa52-95c0e51a635e",
+    "id": "5f860f73-ebb5-4081-8341-635687665289",
     "name": "BIBFRAME 2.0 Place",
     "configType": "profile",
     "json": {
@@ -70263,14 +69975,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-06-25T15:41:31.378Z",
-      "updateDate": "2026-06-25T15:41:31.378Z"
+      "createDate": "2026-06-26T14:04:44.988Z",
+      "updateDate": "2026-06-26T14:04:44.988Z"
     },
-    "created": "2026-06-25T15:41:31.378Z",
-    "modified": "2026-06-25T15:41:31.378Z"
+    "created": "2026-06-26T14:04:44.988Z",
+    "modified": "2026-06-26T14:04:44.988Z"
   },
   {
-    "id": "ee1cd7ad-7405-4976-8af8-9d4b2347d798",
+    "id": "61567a3e-41bd-4fe2-a6ee-0d6b758a5952",
     "name": "Prints & Photographs Collection",
     "configType": "profile",
     "json": {
@@ -71704,24 +71416,6 @@
                   "defaults": [],
                   "valueDataType": {
                     "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Role"
-                  }
-                }
-              },
-              {
-                "propertyURI": "http://id.loc.gov/ontologies/bflc/creatorCharacteristic",
-                "propertyLabel": "Creator characteristics",
-                "mandatory": "false",
-                "repeatable": "true",
-                "type": "lookup",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [],
-                  "useValuesFrom": [
-                    "http://id.loc.gov/authorities/demographicTerms/collection_LCDGT_General"
-                  ],
-                  "defaults": [],
-                  "valueDataType": {
-                    "dataTypeURI": "http://id.loc.gov/ontologies/bflc/CreatorCharacteristic"
                   }
                 }
               }
@@ -73580,14 +73274,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-06-25T15:41:31.395Z",
-      "updateDate": "2026-06-25T15:41:31.395Z"
+      "createDate": "2026-06-26T14:04:45.016Z",
+      "updateDate": "2026-06-26T14:04:45.016Z"
     },
-    "created": "2026-06-25T15:41:31.395Z",
-    "modified": "2026-06-25T15:41:31.395Z"
+    "created": "2026-06-26T14:04:45.016Z",
+    "modified": "2026-06-26T14:04:45.016Z"
   },
   {
-    "id": "64a3f455-498d-4f12-8feb-b03ce777dc6a",
+    "id": "15cda6da-9da3-4cbc-89e9-73b06eab45c8",
     "name": "Prints & Photographs",
     "configType": "profile",
     "json": {
@@ -75066,24 +74760,6 @@
                   "defaults": [],
                   "valueDataType": {
                     "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Role"
-                  }
-                }
-              },
-              {
-                "propertyURI": "http://id.loc.gov/ontologies/bflc/creatorCharacteristic",
-                "propertyLabel": "Creator characteristics",
-                "mandatory": "false",
-                "repeatable": "true",
-                "type": "lookup",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [],
-                  "useValuesFrom": [
-                    "http://id.loc.gov/authorities/demographicTerms/collection_LCDGT_General"
-                  ],
-                  "defaults": [],
-                  "valueDataType": {
-                    "dataTypeURI": "http://id.loc.gov/ontologies/bflc/CreatorCharacteristic"
                   }
                 }
               }
@@ -76778,14 +76454,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-06-25T15:41:31.409Z",
-      "updateDate": "2026-06-25T15:41:31.409Z"
+      "createDate": "2026-06-26T14:04:45.030Z",
+      "updateDate": "2026-06-26T14:04:45.030Z"
     },
-    "created": "2026-06-25T15:41:31.409Z",
-    "modified": "2026-06-25T15:41:31.409Z"
+    "created": "2026-06-26T14:04:45.030Z",
+    "modified": "2026-06-26T14:04:45.030Z"
   },
   {
-    "id": "97214015-b867-455e-873d-74cc831abb87",
+    "id": "bf0f14b6-5b7f-455c-aa54-ae4ab57b8d3a",
     "name": "BIBFRAME 2.0 Publication, Distribution, Manufacturer Activity",
     "configType": "profile",
     "json": {
@@ -77129,14 +76805,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-06-25T15:41:31.411Z",
-      "updateDate": "2026-06-25T15:41:31.411Z"
+      "createDate": "2026-06-26T14:04:45.031Z",
+      "updateDate": "2026-06-26T14:04:45.031Z"
     },
-    "created": "2026-06-25T15:41:31.411Z",
-    "modified": "2026-06-25T15:41:31.411Z"
+    "created": "2026-06-26T14:04:45.031Z",
+    "modified": "2026-06-26T14:04:45.031Z"
   },
   {
-    "id": "139f4247-ec02-4bf3-a323-30da6bbfcf96",
+    "id": "d3f58aab-da64-4199-8174-b28c1f0e2eec",
     "name": "BIBFRAME 2.0 Rare Materials",
     "configType": "profile",
     "json": {
@@ -78620,24 +78296,6 @@
                   "defaults": [],
                   "valueDataType": {
                     "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Role"
-                  }
-                }
-              },
-              {
-                "propertyURI": "http://id.loc.gov/ontologies/bflc/creatorCharacteristic",
-                "propertyLabel": "Creator characteristics",
-                "mandatory": "false",
-                "repeatable": "true",
-                "type": "lookup",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [],
-                  "useValuesFrom": [
-                    "http://id.loc.gov/authorities/demographicTerms/collection_LCDGT_General"
-                  ],
-                  "defaults": [],
-                  "valueDataType": {
-                    "dataTypeURI": "http://id.loc.gov/ontologies/bflc/CreatorCharacteristic"
                   }
                 }
               }
@@ -80726,14 +80384,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-06-25T15:41:31.428Z",
-      "updateDate": "2026-06-25T15:41:31.428Z"
+      "createDate": "2026-06-26T14:04:45.049Z",
+      "updateDate": "2026-06-26T14:04:45.049Z"
     },
-    "created": "2026-06-25T15:41:31.428Z",
-    "modified": "2026-06-25T15:41:31.428Z"
+    "created": "2026-06-26T14:04:45.049Z",
+    "modified": "2026-06-26T14:04:45.049Z"
   },
   {
-    "id": "80b62bee-4e76-4ca6-a691-7f8df3ca48c8",
+    "id": "8a40b41f-d54f-4e49-85a7-c5e4057061bd",
     "name": "BIBFRAME 2.0 Related Works and Expressions",
     "configType": "profile",
     "json": {
@@ -81125,14 +80783,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-06-25T15:41:31.430Z",
-      "updateDate": "2026-06-25T15:41:31.430Z"
+      "createDate": "2026-06-26T14:04:45.052Z",
+      "updateDate": "2026-06-26T14:04:45.052Z"
     },
-    "created": "2026-06-25T15:41:31.430Z",
-    "modified": "2026-06-25T15:41:31.430Z"
+    "created": "2026-06-26T14:04:45.052Z",
+    "modified": "2026-06-26T14:04:45.052Z"
   },
   {
-    "id": "89bb96ef-9ac5-43a0-804c-1a96b992fb81",
+    "id": "d0c4dffb-5087-4526-ba4f-ce3222b9ae1d",
     "name": "BIBFRAME 2.0 Serial",
     "configType": "profile",
     "json": {
@@ -83134,24 +82792,6 @@
                   "defaults": [],
                   "valueDataType": {
                     "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Role"
-                  }
-                }
-              },
-              {
-                "propertyURI": "http://id.loc.gov/ontologies/bflc/creatorCharacteristic",
-                "propertyLabel": "Creator characteristics",
-                "mandatory": "false",
-                "repeatable": "true",
-                "type": "lookup",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [],
-                  "useValuesFrom": [
-                    "http://id.loc.gov/authorities/demographicTerms/collection_LCDGT_General"
-                  ],
-                  "defaults": [],
-                  "valueDataType": {
-                    "dataTypeURI": "http://id.loc.gov/ontologies/bflc/CreatorCharacteristic"
                   }
                 }
               }
@@ -85659,14 +85299,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-06-25T15:41:31.447Z",
-      "updateDate": "2026-06-25T15:41:31.447Z"
+      "createDate": "2026-06-26T14:04:45.076Z",
+      "updateDate": "2026-06-26T14:04:45.076Z"
     },
-    "created": "2026-06-25T15:41:31.447Z",
-    "modified": "2026-06-25T15:41:31.447Z"
+    "created": "2026-06-26T14:04:45.076Z",
+    "modified": "2026-06-26T14:04:45.076Z"
   },
   {
-    "id": "8a99d0ec-117f-4926-a6dc-70d211ff1d93",
+    "id": "529af435-8774-4217-b8ed-e43fb546f66c",
     "name": "BIBFRAME 2.0 Series Information",
     "configType": "profile",
     "json": {
@@ -85997,14 +85637,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-06-25T15:41:31.449Z",
-      "updateDate": "2026-06-25T15:41:31.449Z"
+      "createDate": "2026-06-26T14:04:45.078Z",
+      "updateDate": "2026-06-26T14:04:45.078Z"
     },
-    "created": "2026-06-25T15:41:31.449Z",
-    "modified": "2026-06-25T15:41:31.449Z"
+    "created": "2026-06-26T14:04:45.078Z",
+    "modified": "2026-06-26T14:04:45.078Z"
   },
   {
-    "id": "97a552ff-3162-4333-85f8-537c18c6bc25",
+    "id": "48c1123a-a736-4fb6-9029-bbc235f5bdb5",
     "name": "Test Simple Authority",
     "configType": "profile",
     "json": {
@@ -86171,14 +85811,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-06-25T15:41:31.450Z",
-      "updateDate": "2026-06-25T15:41:31.450Z"
+      "createDate": "2026-06-26T14:04:45.079Z",
+      "updateDate": "2026-06-26T14:04:45.079Z"
     },
-    "created": "2026-06-25T15:41:31.450Z",
-    "modified": "2026-06-25T15:41:31.450Z"
+    "created": "2026-06-26T14:04:45.079Z",
+    "modified": "2026-06-26T14:04:45.079Z"
   },
   {
-    "id": "6b8562e5-fa8f-4d2c-a789-cb373d6f82c3",
+    "id": "82e4dc69-008d-45ff-bb4d-280a9d4e290e",
     "name": "BIBFRAME 2.0 Sound Record-Audio CD",
     "configType": "profile",
     "json": {
@@ -87376,24 +87016,6 @@
                   "defaults": [],
                   "valueDataType": {
                     "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Role"
-                  }
-                }
-              },
-              {
-                "propertyURI": "http://id.loc.gov/ontologies/bflc/creatorCharacteristic",
-                "propertyLabel": "Creator characteristics",
-                "mandatory": "false",
-                "repeatable": "true",
-                "type": "lookup",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [],
-                  "useValuesFrom": [
-                    "http://id.loc.gov/authorities/demographicTerms/collection_LCDGT_General"
-                  ],
-                  "defaults": [],
-                  "valueDataType": {
-                    "dataTypeURI": "http://id.loc.gov/ontologies/bflc/CreatorCharacteristic"
                   }
                 }
               }
@@ -90102,14 +89724,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-06-25T15:41:31.468Z",
-      "updateDate": "2026-06-25T15:41:31.468Z"
+      "createDate": "2026-06-26T14:04:45.105Z",
+      "updateDate": "2026-06-26T14:04:45.105Z"
     },
-    "created": "2026-06-25T15:41:31.468Z",
-    "modified": "2026-06-25T15:41:31.468Z"
+    "created": "2026-06-26T14:04:45.105Z",
+    "modified": "2026-06-26T14:04:45.105Z"
   },
   {
-    "id": "a7057576-80ea-4435-8390-7cc46adfff8b",
+    "id": "fbbae498-1e0c-42da-96e9-34ca9643db44",
     "name": "BIBFRAME 2.0 Sound Recording-Audio CD-R",
     "configType": "profile",
     "json": {
@@ -91405,24 +91027,6 @@
                   "defaults": [],
                   "valueDataType": {
                     "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Role"
-                  }
-                }
-              },
-              {
-                "propertyURI": "http://id.loc.gov/ontologies/bflc/creatorCharacteristic",
-                "propertyLabel": "Creator characteristics",
-                "mandatory": "false",
-                "repeatable": "true",
-                "type": "lookup",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [],
-                  "useValuesFrom": [
-                    "http://id.loc.gov/authorities/demographicTerms/collection_LCDGT_General"
-                  ],
-                  "defaults": [],
-                  "valueDataType": {
-                    "dataTypeURI": "http://id.loc.gov/ontologies/bflc/CreatorCharacteristic"
                   }
                 }
               }
@@ -94267,14 +93871,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-06-25T15:41:31.487Z",
-      "updateDate": "2026-06-25T15:41:31.487Z"
+      "createDate": "2026-06-26T14:04:45.125Z",
+      "updateDate": "2026-06-26T14:04:45.125Z"
     },
-    "created": "2026-06-25T15:41:31.487Z",
-    "modified": "2026-06-25T15:41:31.487Z"
+    "created": "2026-06-26T14:04:45.125Z",
+    "modified": "2026-06-26T14:04:45.125Z"
   },
   {
-    "id": "15f12052-82c2-40dc-95a6-edc9c28d8a3c",
+    "id": "8944b74b-395b-4849-a40d-3c52ac003b5d",
     "name": "BIBFRAME 2.0 Sound Recording-Audio Cassette",
     "configType": "profile",
     "json": {
@@ -95531,24 +95135,6 @@
                   "defaults": [],
                   "valueDataType": {
                     "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Role"
-                  }
-                }
-              },
-              {
-                "propertyURI": "http://id.loc.gov/ontologies/bflc/creatorCharacteristic",
-                "propertyLabel": "Creator characteristics",
-                "mandatory": "false",
-                "repeatable": "true",
-                "type": "lookup",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [],
-                  "useValuesFrom": [
-                    "http://id.loc.gov/authorities/demographicTerms/collection_LCDGT_General"
-                  ],
-                  "defaults": [],
-                  "valueDataType": {
-                    "dataTypeURI": "http://id.loc.gov/ontologies/bflc/CreatorCharacteristic"
                   }
                 }
               }
@@ -98326,14 +97912,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-06-25T15:41:31.503Z",
-      "updateDate": "2026-06-25T15:41:31.503Z"
+      "createDate": "2026-06-26T14:04:45.149Z",
+      "updateDate": "2026-06-26T14:04:45.149Z"
     },
-    "created": "2026-06-25T15:41:31.503Z",
-    "modified": "2026-06-25T15:41:31.503Z"
+    "created": "2026-06-26T14:04:45.149Z",
+    "modified": "2026-06-26T14:04:45.149Z"
   },
   {
-    "id": "e93b9abd-a576-436d-b7ad-03f96a395e7e",
+    "id": "2e77771c-b3f9-4053-9157-2eaccdccc203",
     "name": "Subjects",
     "configType": "profile",
     "json": {
@@ -98666,14 +98252,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-06-25T15:41:31.505Z",
-      "updateDate": "2026-06-25T15:41:31.505Z"
+      "createDate": "2026-06-26T14:04:45.152Z",
+      "updateDate": "2026-06-26T14:04:45.152Z"
     },
-    "created": "2026-06-25T15:41:31.505Z",
-    "modified": "2026-06-25T15:41:31.505Z"
+    "created": "2026-06-26T14:04:45.152Z",
+    "modified": "2026-06-26T14:04:45.152Z"
   },
   {
-    "id": "caa9dd2c-cb0b-4ae8-94d0-106aa8ace6d8",
+    "id": "acea0b5b-b384-42bf-9574-5dcf71296d5c",
     "name": "BIBFRAME 2.0 Title Information",
     "configType": "profile",
     "json": {
@@ -99306,14 +98892,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-06-25T15:41:31.508Z",
-      "updateDate": "2026-06-25T15:41:31.508Z"
+      "createDate": "2026-06-26T14:04:45.154Z",
+      "updateDate": "2026-06-26T14:04:45.154Z"
     },
-    "created": "2026-06-25T15:41:31.508Z",
-    "modified": "2026-06-25T15:41:31.508Z"
+    "created": "2026-06-26T14:04:45.154Z",
+    "modified": "2026-06-26T14:04:45.154Z"
   },
   {
-    "id": "ac85b261-b3b8-417f-8cc5-774136cda89a",
+    "id": "5ab22507-5a8a-46fc-8007-a58f920838a5",
     "name": "BIBFRAME 2.0 Topic",
     "configType": "profile",
     "json": {
@@ -99863,14 +99449,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-06-25T15:41:31.511Z",
-      "updateDate": "2026-06-25T15:41:31.511Z"
+      "createDate": "2026-06-26T14:04:45.157Z",
+      "updateDate": "2026-06-26T14:04:45.157Z"
     },
-    "created": "2026-06-25T15:41:31.511Z",
-    "modified": "2026-06-25T15:41:31.511Z"
+    "created": "2026-06-26T14:04:45.157Z",
+    "modified": "2026-06-26T14:04:45.157Z"
   },
   {
-    "id": "33d3085b-297a-45b1-b460-a9936e761ce3",
+    "id": "08ffb0bb-e498-449c-81d6-3bcdbe9db386",
     "name": "BIBFRAME 2.0 Videocassette",
     "configType": "profile",
     "json": {
@@ -101527,24 +101113,6 @@
                   "defaults": [],
                   "valueDataType": {
                     "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Role"
-                  }
-                }
-              },
-              {
-                "propertyURI": "http://id.loc.gov/ontologies/bflc/creatorCharacteristic",
-                "propertyLabel": "Creator characteristics",
-                "mandatory": "false",
-                "repeatable": "true",
-                "type": "lookup",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [],
-                  "useValuesFrom": [
-                    "http://id.loc.gov/authorities/demographicTerms/collection_LCDGT_General"
-                  ],
-                  "defaults": [],
-                  "valueDataType": {
-                    "dataTypeURI": "http://id.loc.gov/ontologies/bflc/CreatorCharacteristic"
                   }
                 }
               }
@@ -104119,14 +103687,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-06-25T15:41:31.530Z",
-      "updateDate": "2026-06-25T15:41:31.530Z"
+      "createDate": "2026-06-26T14:04:45.177Z",
+      "updateDate": "2026-06-26T14:04:45.177Z"
     },
-    "created": "2026-06-25T15:41:31.530Z",
-    "modified": "2026-06-25T15:41:31.530Z"
+    "created": "2026-06-26T14:04:45.177Z",
+    "modified": "2026-06-26T14:04:45.177Z"
   },
   {
-    "id": "1bd963cc-88da-4551-9167-f8ecf0688765",
+    "id": "b00d2e51-c80f-4424-8261-cbf4f6e28a6a",
     "name": "BIBFRAME 2.0 Extra menus",
     "configType": "profile",
     "json": {
@@ -105001,14 +104569,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-06-25T15:41:31.535Z",
-      "updateDate": "2026-06-25T15:41:31.535Z"
+      "createDate": "2026-06-26T14:04:45.183Z",
+      "updateDate": "2026-06-26T14:04:45.183Z"
     },
-    "created": "2026-06-25T15:41:31.535Z",
-    "modified": "2026-06-25T15:41:31.535Z"
+    "created": "2026-06-26T14:04:45.183Z",
+    "modified": "2026-06-26T14:04:45.183Z"
   },
   {
-    "id": "97219f11-4060-441d-b3ca-d90be0277cbb",
+    "id": "22fd9c67-a5a6-493d-a5e7-52f5196c674e",
     "name": "Test Manuscripts (DACS)",
     "configType": "profile",
     "json": {
@@ -105383,24 +104951,6 @@
                   "defaults": [],
                   "valueDataType": {
                     "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Role"
-                  }
-                }
-              },
-              {
-                "propertyURI": "http://id.loc.gov/ontologies/bflc/creatorCharacteristic",
-                "propertyLabel": "Creator characteristics",
-                "mandatory": "false",
-                "repeatable": "true",
-                "type": "lookup",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [],
-                  "useValuesFrom": [
-                    "http://id.loc.gov/authorities/demographicTerms/collection_LCDGT_General"
-                  ],
-                  "defaults": [],
-                  "valueDataType": {
-                    "dataTypeURI": "http://id.loc.gov/ontologies/bflc/CreatorCharacteristic"
                   }
                 }
               }
@@ -106091,14 +105641,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-06-25T15:41:31.540Z",
-      "updateDate": "2026-06-25T15:41:31.540Z"
+      "createDate": "2026-06-26T14:04:45.189Z",
+      "updateDate": "2026-06-26T14:04:45.189Z"
     },
-    "created": "2026-06-25T15:41:31.540Z",
-    "modified": "2026-06-25T15:41:31.540Z"
+    "created": "2026-06-26T14:04:45.189Z",
+    "modified": "2026-06-26T14:04:45.189Z"
   },
   {
-    "id": "2d1200ab-04a8-4c20-9f5a-3b66940bf8fa",
+    "id": "639fda67-f49c-4ab9-9b97-99b8376ecf6e",
     "name": "Test Mixed Materials",
     "configType": "profile",
     "json": {
@@ -108115,24 +107665,6 @@
                   "defaults": [],
                   "valueDataType": {
                     "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Role"
-                  }
-                }
-              },
-              {
-                "propertyURI": "http://id.loc.gov/ontologies/bflc/creatorCharacteristic",
-                "propertyLabel": "Creator characteristics",
-                "mandatory": "false",
-                "repeatable": "true",
-                "type": "lookup",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [],
-                  "useValuesFrom": [
-                    "http://id.loc.gov/authorities/demographicTerms/collection_LCDGT_General"
-                  ],
-                  "defaults": [],
-                  "valueDataType": {
-                    "dataTypeURI": "http://id.loc.gov/ontologies/bflc/CreatorCharacteristic"
                   }
                 }
               }
@@ -110975,14 +110507,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-06-25T15:41:31.560Z",
-      "updateDate": "2026-06-25T15:41:31.560Z"
+      "createDate": "2026-06-26T14:04:45.213Z",
+      "updateDate": "2026-06-26T14:04:45.213Z"
     },
-    "created": "2026-06-25T15:41:31.560Z",
-    "modified": "2026-06-25T15:41:31.560Z"
+    "created": "2026-06-26T14:04:45.213Z",
+    "modified": "2026-06-26T14:04:45.213Z"
   },
   {
-    "id": "127b8834-bcd5-4f6c-9680-86ff4998a155",
+    "id": "5ad60396-8bae-42ed-b38b-249eee491164",
     "name": "Test profile for RDA Work",
     "configType": "profile",
     "json": {
@@ -113745,10 +113277,10 @@
       }
     },
     "metadata": {
-      "createDate": "2026-06-25T15:41:31.566Z",
-      "updateDate": "2026-06-25T15:41:31.566Z"
+      "createDate": "2026-06-26T14:04:45.220Z",
+      "updateDate": "2026-06-26T14:04:45.220Z"
     },
-    "created": "2026-06-25T15:41:31.566Z",
-    "modified": "2026-06-25T15:41:31.566Z"
+    "created": "2026-06-26T14:04:45.220Z",
+    "modified": "2026-06-26T14:04:45.220Z"
   }
 ]

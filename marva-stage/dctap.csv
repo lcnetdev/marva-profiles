@@ -262,7 +262,6 @@ lc:RT:Agents:Addresses:Extended,"Addresses, extended",mads:Address,mads:streetAd
 ,,,mads:postcode,Zip Code or Post Code,FALSE,TRUE,literal,,,,,,,,,
 lc:RT:Agents:Contribution,Contribution,bf:Contribution,bf:agent,Agent,false,true,bnode,,lc:RT:Agent:bfPerson | lc:RT:Agent:bfCorp | lc:RT:Agent:bfConf | lc:RT:Agent:bfJurisdiction | lc:RT:Agent:bfFamily,,,,,,,
 ,,,bf:role,Relationship designator(s),FALSE,true,IRI,,,http://id.loc.gov/vocabulary/relators | https://id.loc.gov/vocabulary/rbmsrel,IRIstem,,,,bf:Role,
-,,,bflc:creatorCharacteristic,Creator characteristics,,true,IRI,,,http://id.loc.gov/authorities/demographicTerms/collection_LCDGT_General,IRIstem,,,,bflc:CreatorCharacteristic,
 lc:RT:Agents:RWO:Affiliation,Affiliation,mads:Affiliation,mads:authoritativeLabel,Search LCNAF,FALSE,TRUE,,,,,,,,,mads:Affiliation,
 ,,,mads:Affiliation,"Input Affiliation (RDA 9.13, RDA 11.5)",FALSE,TRUE,literal,,,,,,,,,
 ,,,mads:affiliationStart,Affiliation Start Date,FALSE,TRUE,literal,,,,,,,,,
