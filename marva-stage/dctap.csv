@@ -3,7 +3,7 @@ lc:OfficialRDA:Monograph:Expression:Work,BIBFRAME Work / RDA Expression,https://
 ,,,bf:title,preferred title of expression,TRUE,TRUE,bnode,,lc:RT:WorkTitle,,,,,,,https://access.rdatoolkit.org/en-US_ala-f0ea4e3a-fbe5-3135-bd95-1b5260f1e69e
 ,,,bf:title,variant title of expression,FALSE,TRUE,bnode,,lc:RT:Title:VarTitle,,,,,,,https://access.rdatoolkit.org/en-US_ala-de257390-c2dd-395e-9c80-262194bd5c58
 ,,,bf:content,content type,TRUE,TRUE,,,,http://id.loc.gov/vocabulary/contentTypes,IRIstem,,text,http://id.loc.gov/vocabulary/contentTypes/txt,bf:Content,https://access.rdatoolkit.org/en-US_ala-1a6a5219-2cd5-3762-87e8-6ee28e327b8b
-,,,bf:language,language of expression,FALSE,TRUE,bnode,,lc:RT:Language2,,,,,,bf:Language,https://access.rdatoolkit.org/en-US_ala-b7de61e2-fe4b-3cc3-a4a2-7a3c4c55b4fc
+,,,bf:language,language of expression,FALSE,TRUE,IRI,,,http://id.loc.gov/vocabulary/languages,IRIstem,,,,bf:Language,https://access.rdatoolkit.org/en-US_ala-b7de61e2-fe4b-3cc3-a4a2-7a3c4c55b4fc
 ,,,https://id.loc.gov/ontologies/bibframe/summary,summarization of content,FALSE,TRUE,bnode,,lc:RT:Summary,,,,,,,https://access.rdatoolkit.org/en-US_ala-96aa1921-45db-31a9-8128-9661f60799dc
 ,,,bf:note,note on expression,FALSE,TRUE,bnode,,lc:RT:Note,,,,,,,https://access.rdatoolkit.org/en-US_ala-9bcdee0a-0051-3aff-bb30-fdce5aa37216
 ,,,bflc:relationship,related expression of expression,FALSE,TRUE,bnode,,lc:RT:RelatedExpression,,,,,,,https://access.rdatoolkit.org/en-US_ala-458a5896-b879-3c9d-a0d7-065110c3968c
@@ -25,7 +25,7 @@ lc:OfficialRDA:Monograph:Hub,BIBFRAME Hub / RDA Work / RDA Representative Expres
 ,,,bf:originDate,date of representative expression,FALSE,TRUE,literal,,,,,,,,,https://access.rdatoolkit.org/en-US_ala-7a8a339d-6f85-3955-a5ee-6626c6eb87a1
 ,,,bf:extent,extent of representative expression,FALSE,TRUE,bnode,,lc:RT:Extent,,,,,,,https://access.rdatoolkit.org/en-US_ala-d95c88e0-1b98-35f4-b997-4e6922c8b51e
 ,,,bf:intendedAudience,intended audience of representative expression,FALSE,TRUE,,,,http://id.loc.gov/vocabulary/maudience,IRIstem,,,,bf:IntendedAudience,https://access.rdatoolkit.org/en-US_ala-d69eefb5-d2bd-3dba-8faf-4090bb26ebf7
-,,,bf:language,language of representative expression,FALSE,TRUE,bnode,,lc:RT:Language2,,,,,,,https://access.rdatoolkit.org/en-US_ala-9dbad164-5722-3594-acc9-ed80b49c9e2b
+,,,bf:language,language of representative expression,FALSE,TRUE,IRI,,,http://id.loc.gov/vocabulary/languages,IRIstem,,,,bf:Language,https://access.rdatoolkit.org/en-US_ala-9dbad164-5722-3594-acc9-ed80b49c9e2b
 ,,,bflc:relationship,related work of work,FALSE,TRUE,bnode,,lc:RT:RelatedWork,,,,,,,https://access.rdatoolkit.org/en-US_ala-6d59d341-e10b-3a49-a076-807d014be546
 ,,,bf:identifiedBy,authorized access point for work,FALSE,TRUE,literal,,,,,,,,,https://access.rdatoolkit.org/en-US_ala-086aad00-3bd2-3cc1-8dd0-52a5353b227b
 lc:RT:35mmFeatureFilm:DigItem,Digital Item,bf:Item,bf:heldBy,Held by,FALSE,FALSE,,,,http://id.loc.gov/vocabulary/organizations,IRIstem,,United States. Library of Congress,http://id.loc.gov/vocabulary/organizations/dlc,bf:Agent,
@@ -764,7 +764,6 @@ lc:RT:LangNote,Language note,bf:Note,rdf:type,Type of resource,FALSE,TRUE,,,,htt
 ,,,bf:language,Language code,FALSE,TRUE,,,,http://id.loc.gov/vocabulary/languages | https://id.loc.gov/vocabulary/iso639-3,IRIstem,,,,bf:Language,
 lc:RT:LangResource,Language resource,bf:Work,rdf:type,Type of resource,FALSE,TRUE,,,,https://id.loc.gov/vocabulary/resourceComponents/suggest2?q=*&memberOf=http://id.loc.gov/vocabulary/resourceComponents/collection_LanguageResource,IRIstem,,,,,
 ,,,bf:language,Language code,FALSE,TRUE,,,,http://id.loc.gov/vocabulary/languages | https://id.loc.gov/vocabulary/iso639-3,IRIstem,,,,bf:Language,
-lc:RT:Language2,Language,bf:Language,owl:sameAs,Language code,FALSE,FALSE,,,,http://id.loc.gov/vocabulary/languages | http://id.loc.gov/vocabulary/iso639-3,IRIstem,,,,,
 lc:RT:LccMlc,MLC class number,bf:ClassificationLcc,bf:classificationPortion,MLC number,FALSE,TRUE,literal,,,,,,,,,
 ,,,bf:assigner,Assigning agency,FALSE,TRUE,,,,http://id.loc.gov/vocabulary/organizations,IRIstem,,United States Library of Congress,http://id.loc.gov/vocabulary/organizations/dlc,bf:Agent,
 ,,,bf:status,Used by assigning agency?,FALSE,TRUE,,,,http://id.loc.gov/vocabulary/mstatus,IRIstem,,used by assigner,http://id.loc.gov/vocabulary/mstatus/uba,bf:Status,
@@ -2084,8 +2083,7 @@ lc:profile:Item,BIBFRAME 2.0 Item,,dcterms:hasPart,Has Shape,,,bnode,,lc:RT:Item
 ,,,dcterms:hasPart,Has Shape,,,bnode,,lc:RT:Item:Location,,,,,,,
 ,,,dcterms:hasPart,Has Shape,,,bnode,,lc:RT:Item:Digital,,,,,,,
 ,,,dcterms:hasPart,Has Shape,,,bnode,,lc:RT:Item:Description,,,,,,,
-lc:profile:Language,BIBFRAME 2.0 Language,,dcterms:hasPart,Has Shape,,,bnode,,lc:RT:Language2,,,,,,,
-,,,dcterms:hasPart,Has Shape,,,bnode,,lc:RT:LangResource,,,,,,,
+lc:profile:Language,BIBFRAME 2.0 Language,,dcterms:hasPart,Has Shape,,,bnode,,lc:RT:LangResource,,,,,,,
 ,,,dcterms:hasPart,Has Shape,,,bnode,,lc:RT:LangNote,,,,,,,
 lc:profile:MIBluRayDVD,BIBFRAME 2.0 Moving Image-DVD,,dcterms:hasPart,Has Shape,,,bnode,,lc:RT:MIBluRayDVD:Work,,,,,,,
 ,,,dcterms:hasPart,Has Shape,,,bnode,,lc:RT:MIBluRayDVD:Instance,,,,,,,
