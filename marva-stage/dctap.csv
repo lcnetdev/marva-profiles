@@ -2294,6 +2294,7 @@ startingpoint:Prints_&_Photographs_test,Prints & Photographs,,dcterms:hasPart,In
 ,,,dcterms:hasPart,Work,,,IRI,,lc:RT:PrintPhoto:Work,http://id.loc.gov/ontologies/bibframe/Work,picklist,,,,,
 startingpoint:Rare_Materials,Rare Materials,,dcterms:hasPart,Instance,,,IRI,,lc:RT:RareMat:Instance,http://id.loc.gov/ontologies/bibframe/Instance,picklist,,,,,
 ,,,dcterms:hasPart,Work,,,IRI,,lc:RT:RareMat:Work,http://id.loc.gov/ontologies/bibframe/Work,picklist,,,,,
+startingpoint:RelatedWork,Music Work-expressions,,dcterms:hasPart,Related Work,,,IRI,,lc:RT:NotatedMusicMulti:RelWork,http://id.loc.gov/ontologies/bibframe/Work,picklist,,,,,
 startingpoint:Serial,Serial,,dcterms:hasPart,Instance,,,IRI,,lc:RT:Serial:Instance,http://id.loc.gov/ontologies/bibframe/Instance,picklist,,,,,
 ,,,dcterms:hasPart,Work,,,IRI,,lc:RT:Serial:Work,http://id.loc.gov/ontologies/bibframe/Work,picklist,,,,,
 startingpoint:Sound_Recording:_Analog,Sound Recording: Analog,,dcterms:hasPart,Instance,,,IRI,,lc:RT:Analog:Instance,http://id.loc.gov/ontologies/bibframe/Instance,picklist,,,,,
