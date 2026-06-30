@@ -1,6 +1,6 @@
 [
   {
-    "id": "2d352db5-cdfd-4d9b-951f-a9ae25730275",
+    "id": "7ae91dd1-f434-48b8-90f8-6857c3b847a8",
     "name": "BIBFRAME 2.0 Moving Image",
     "configType": "profile",
     "json": {
@@ -1772,7 +1772,7 @@
             "resourceLabel": "Intended Audience",
             "propertyTemplates": [
               {
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/IntendedAudience",
+                "propertyURI": "http://www.w3.org/2002/07/owl#sameAs",
                 "propertyLabel": "Lookup",
                 "mandatory": "false",
                 "repeatable": "true",
@@ -3578,7 +3578,7 @@
             "resourceLabel": "Type of recording (analog)",
             "propertyTemplates": [
               {
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/RecordingMethod",
+                "propertyURI": "http://www.w3.org/2002/07/owl#sameAs",
                 "propertyLabel": "Lookup",
                 "mandatory": "false",
                 "repeatable": "false",
@@ -3606,7 +3606,7 @@
             "resourceLabel": "Recording medium (optical)",
             "propertyTemplates": [
               {
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/RecordingMedium",
+                "propertyURI": "http://www.w3.org/2002/07/owl#sameAs",
                 "propertyLabel": "Lookup",
                 "mandatory": "false",
                 "repeatable": "false",
@@ -3634,7 +3634,7 @@
             "resourceLabel": "Playback channels",
             "propertyTemplates": [
               {
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/PlaybackChannels",
+                "propertyURI": "http://www.w3.org/2002/07/owl#sameAs",
                 "propertyLabel": "Lookup",
                 "mandatory": "false",
                 "repeatable": "false",
@@ -3657,7 +3657,7 @@
             "resourceLabel": "Presentation format",
             "propertyTemplates": [
               {
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/PresentationFormat",
+                "propertyURI": "http://www.w3.org/2002/07/owl#sameAs",
                 "propertyLabel": "Lookup",
                 "mandatory": "false",
                 "repeatable": "false",
@@ -3722,7 +3722,7 @@
             "resourceLabel": "File type",
             "propertyTemplates": [
               {
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/FileType",
+                "propertyURI": "http://www.w3.org/2002/07/owl#sameAs",
                 "propertyLabel": "Lookup",
                 "mandatory": "false",
                 "repeatable": "false",
@@ -3745,7 +3745,7 @@
             "resourceLabel": "Encoding format",
             "propertyTemplates": [
               {
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/EncodingFormat",
+                "propertyURI": "http://www.w3.org/2002/07/owl#sameAs",
                 "propertyLabel": "Lookup",
                 "mandatory": "false",
                 "repeatable": "true",
@@ -3849,7 +3849,7 @@
             "resourceLabel": "Sound content",
             "propertyTemplates": [
               {
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/SoundContent",
+                "propertyURI": "http://www.w3.org/2002/07/owl#sameAs",
                 "propertyLabel": "Lookup",
                 "mandatory": "false",
                 "repeatable": "false",
@@ -3872,7 +3872,7 @@
             "resourceLabel": "Type of recording (digital)",
             "propertyTemplates": [
               {
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/RecordingMethod",
+                "propertyURI": "http://www.w3.org/2002/07/owl#sameAs",
                 "propertyLabel": "Lookup",
                 "mandatory": "false",
                 "repeatable": "false",
@@ -4316,14 +4316,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-06-29T19:18:02.541Z",
-      "updateDate": "2026-06-29T19:18:02.541Z"
+      "createDate": "2026-06-30T13:58:18.539Z",
+      "updateDate": "2026-06-30T13:58:18.539Z"
     },
-    "created": "2026-06-29T19:18:02.541Z",
-    "modified": "2026-06-29T19:18:02.541Z"
+    "created": "2026-06-30T13:58:18.539Z",
+    "modified": "2026-06-30T13:58:18.539Z"
   },
   {
-    "id": "0f8211bd-677a-4642-854a-0bfa0356b049",
+    "id": "be8cf7a0-0929-442a-b174-c7c6f9dfadc2",
     "name": "BIBFRAME 2.0 Admin Metadata",
     "configType": "profile",
     "json": {
@@ -4819,14 +4819,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-06-29T19:18:02.543Z",
-      "updateDate": "2026-06-29T19:18:02.543Z"
+      "createDate": "2026-06-30T13:58:18.543Z",
+      "updateDate": "2026-06-30T13:58:18.543Z"
     },
-    "created": "2026-06-29T19:18:02.543Z",
-    "modified": "2026-06-29T19:18:02.543Z"
+    "created": "2026-06-30T13:58:18.543Z",
+    "modified": "2026-06-30T13:58:18.543Z"
   },
   {
-    "id": "465ca0f8-d38f-4c53-864c-543204e993a2",
+    "id": "c3f54510-c3c7-47f3-9af1-f32a19536e43",
     "name": "BIBFRAME 2.0 Agents",
     "configType": "profile",
     "json": {
@@ -7068,14 +7068,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-06-29T19:18:02.551Z",
-      "updateDate": "2026-06-29T19:18:02.551Z"
+      "createDate": "2026-06-30T13:58:18.552Z",
+      "updateDate": "2026-06-30T13:58:18.552Z"
     },
-    "created": "2026-06-29T19:18:02.551Z",
-    "modified": "2026-06-29T19:18:02.551Z"
+    "created": "2026-06-30T13:58:18.552Z",
+    "modified": "2026-06-30T13:58:18.552Z"
   },
   {
-    "id": "344c2582-16f0-4efc-a284-eaac53eb94f0",
+    "id": "b68cee34-6c1c-4635-9c31-894b7af698e8",
     "name": "BIBFRAME 2.0 RWO",
     "configType": "profile",
     "json": {
@@ -8003,14 +8003,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-06-29T19:18:02.556Z",
-      "updateDate": "2026-06-29T19:18:02.556Z"
+      "createDate": "2026-06-30T13:58:18.556Z",
+      "updateDate": "2026-06-30T13:58:18.556Z"
     },
-    "created": "2026-06-29T19:18:02.556Z",
-    "modified": "2026-06-29T19:18:02.556Z"
+    "created": "2026-06-30T13:58:18.556Z",
+    "modified": "2026-06-30T13:58:18.556Z"
   },
   {
-    "id": "122658d3-3761-44a3-93cf-08f1182bbd32",
+    "id": "95f1c054-d653-47bc-b54f-dd85c9f7893b",
     "name": "BIBFRAME 2.0 Agents Contribution",
     "configType": "profile",
     "json": {
@@ -8254,14 +8254,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-06-29T19:18:02.557Z",
-      "updateDate": "2026-06-29T19:18:02.557Z"
+      "createDate": "2026-06-30T13:58:18.557Z",
+      "updateDate": "2026-06-30T13:58:18.557Z"
     },
-    "created": "2026-06-29T19:18:02.557Z",
-    "modified": "2026-06-29T19:18:02.557Z"
+    "created": "2026-06-30T13:58:18.557Z",
+    "modified": "2026-06-30T13:58:18.557Z"
   },
   {
-    "id": "adaa3b20-1fd8-4609-bd3e-7ecab22b342f",
+    "id": "edd5054c-14e6-4df0-9ff8-51c706a805ee",
     "name": "BIBFRAME 2.0 Sound Recording-Analog",
     "configType": "profile",
     "json": {
@@ -9232,7 +9232,7 @@
             "resourceLabel": "Groove characteristic",
             "propertyTemplates": [
               {
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/GrooveCharacteristic",
+                "propertyURI": "http://www.w3.org/2002/07/owl#sameAs",
                 "propertyLabel": "Lookup",
                 "mandatory": "false",
                 "repeatable": "false",
@@ -9255,7 +9255,7 @@
             "resourceLabel": "Playing speed",
             "propertyTemplates": [
               {
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/PlayingSpeed",
+                "propertyURI": "http://www.w3.org/2002/07/owl#sameAs",
                 "propertyLabel": "Lookup",
                 "mandatory": "false",
                 "repeatable": "true",
@@ -10009,7 +10009,7 @@
             "resourceLabel": "Intended Audience",
             "propertyTemplates": [
               {
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/IntendedAudience",
+                "propertyURI": "http://www.w3.org/2002/07/owl#sameAs",
                 "propertyLabel": "Lookup",
                 "mandatory": "false",
                 "repeatable": "true",
@@ -11663,7 +11663,7 @@
             "resourceLabel": "Type of recording (analog)",
             "propertyTemplates": [
               {
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/RecordingMethod",
+                "propertyURI": "http://www.w3.org/2002/07/owl#sameAs",
                 "propertyLabel": "Lookup",
                 "mandatory": "false",
                 "repeatable": "false",
@@ -11691,7 +11691,7 @@
             "resourceLabel": "Recording medium (optical)",
             "propertyTemplates": [
               {
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/RecordingMedium",
+                "propertyURI": "http://www.w3.org/2002/07/owl#sameAs",
                 "propertyLabel": "Lookup",
                 "mandatory": "false",
                 "repeatable": "false",
@@ -11719,7 +11719,7 @@
             "resourceLabel": "Playback channels",
             "propertyTemplates": [
               {
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/PlaybackChannels",
+                "propertyURI": "http://www.w3.org/2002/07/owl#sameAs",
                 "propertyLabel": "Lookup",
                 "mandatory": "false",
                 "repeatable": "false",
@@ -11742,7 +11742,7 @@
             "resourceLabel": "Special playback characteristic",
             "propertyTemplates": [
               {
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/PlaybackCharacteristic",
+                "propertyURI": "http://www.w3.org/2002/07/owl#sameAs",
                 "propertyLabel": "Lookup",
                 "mandatory": "false",
                 "repeatable": "false",
@@ -12482,14 +12482,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-06-29T19:18:02.575Z",
-      "updateDate": "2026-06-29T19:18:02.575Z"
+      "createDate": "2026-06-30T13:58:18.575Z",
+      "updateDate": "2026-06-30T13:58:18.575Z"
     },
-    "created": "2026-06-29T19:18:02.575Z",
-    "modified": "2026-06-29T19:18:02.575Z"
+    "created": "2026-06-30T13:58:18.575Z",
+    "modified": "2026-06-30T13:58:18.575Z"
   },
   {
-    "id": "9565b173-1d58-4eae-9054-447622ac1cf0",
+    "id": "26a1f4c6-9cdd-4386-8de9-d6840a09e2a3",
     "name": "BIBFRAME 2.0 Cartographic TEST",
     "configType": "profile",
     "json": {
@@ -14423,7 +14423,7 @@
             "resourceLabel": "Intended Audience",
             "propertyTemplates": [
               {
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/IntendedAudience",
+                "propertyURI": "http://www.w3.org/2002/07/owl#sameAs",
                 "propertyLabel": "Lookup",
                 "mandatory": "false",
                 "repeatable": "true",
@@ -16020,14 +16020,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-06-29T19:18:02.591Z",
-      "updateDate": "2026-06-29T19:18:02.591Z"
+      "createDate": "2026-06-30T13:58:18.589Z",
+      "updateDate": "2026-06-30T13:58:18.589Z"
     },
-    "created": "2026-06-29T19:18:02.591Z",
-    "modified": "2026-06-29T19:18:02.591Z"
+    "created": "2026-06-30T13:58:18.589Z",
+    "modified": "2026-06-30T13:58:18.589Z"
   },
   {
-    "id": "ac0fb22d-eece-4771-923b-c6cda934937d",
+    "id": "b5a016d6-6b88-4956-b822-856edede7122",
     "name": "BIBFRAME 2.0 Classification",
     "configType": "profile",
     "json": {
@@ -16426,14 +16426,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-06-29T19:18:02.593Z",
-      "updateDate": "2026-06-29T19:18:02.593Z"
+      "createDate": "2026-06-30T13:58:18.590Z",
+      "updateDate": "2026-06-30T13:58:18.590Z"
     },
-    "created": "2026-06-29T19:18:02.593Z",
-    "modified": "2026-06-29T19:18:02.593Z"
+    "created": "2026-06-30T13:58:18.590Z",
+    "modified": "2026-06-30T13:58:18.590Z"
   },
   {
-    "id": "f69fe690-c3e2-44c9-a6d6-9fb25206ff6c",
+    "id": "1b6140da-cc9e-404a-9cbc-fbd33909d455",
     "name": "BIBFRAME 2.0 Form",
     "configType": "profile",
     "json": {
@@ -16560,14 +16560,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-06-29T19:18:02.594Z",
-      "updateDate": "2026-06-29T19:18:02.594Z"
+      "createDate": "2026-06-30T13:58:18.591Z",
+      "updateDate": "2026-06-30T13:58:18.591Z"
     },
-    "created": "2026-06-29T19:18:02.594Z",
-    "modified": "2026-06-29T19:18:02.594Z"
+    "created": "2026-06-30T13:58:18.591Z",
+    "modified": "2026-06-30T13:58:18.591Z"
   },
   {
-    "id": "bf9233fb-07b7-40ed-8446-2cb36f8e36bd",
+    "id": "793fbb5f-9189-4189-ba1c-8fd13dd5225e",
     "name": "Test BF Hub",
     "configType": "profile",
     "json": {
@@ -17316,14 +17316,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-06-29T19:18:02.596Z",
-      "updateDate": "2026-06-29T19:18:02.596Z"
+      "createDate": "2026-06-30T13:58:18.594Z",
+      "updateDate": "2026-06-30T13:58:18.594Z"
     },
-    "created": "2026-06-29T19:18:02.596Z",
-    "modified": "2026-06-29T19:18:02.596Z"
+    "created": "2026-06-30T13:58:18.594Z",
+    "modified": "2026-06-30T13:58:18.594Z"
   },
   {
-    "id": "cf1a4f33-53fc-49b8-acb5-f451c6626a38",
+    "id": "74d69405-ba96-4306-a2cb-37f39afa58ec",
     "name": "BF Hub",
     "configType": "profile",
     "json": {
@@ -18166,14 +18166,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-06-29T19:18:02.600Z",
-      "updateDate": "2026-06-29T19:18:02.600Z"
+      "createDate": "2026-06-30T13:58:18.597Z",
+      "updateDate": "2026-06-30T13:58:18.597Z"
     },
-    "created": "2026-06-29T19:18:02.600Z",
-    "modified": "2026-06-29T19:18:02.600Z"
+    "created": "2026-06-30T13:58:18.597Z",
+    "modified": "2026-06-30T13:58:18.597Z"
   },
   {
-    "id": "91b394f5-efc8-44ed-bdde-d509e98c7fc5",
+    "id": "9f2b0ebb-4edb-4ebb-bdc4-6aa1bd8acfd7",
     "name": "Original BF (origbf)",
     "configType": "profile",
     "json": {
@@ -22505,7 +22505,7 @@
             "resourceLabel": "Intended Audience",
             "propertyTemplates": [
               {
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/IntendedAudience",
+                "propertyURI": "http://www.w3.org/2002/07/owl#sameAs",
                 "propertyLabel": "Lookup",
                 "mandatory": "false",
                 "repeatable": "true",
@@ -23368,14 +23368,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-06-29T19:18:02.621Z",
-      "updateDate": "2026-06-29T19:18:02.621Z"
+      "createDate": "2026-06-30T13:58:18.617Z",
+      "updateDate": "2026-06-30T13:58:18.617Z"
     },
-    "created": "2026-06-29T19:18:02.621Z",
-    "modified": "2026-06-29T19:18:02.621Z"
+    "created": "2026-06-30T13:58:18.617Z",
+    "modified": "2026-06-30T13:58:18.617Z"
   },
   {
-    "id": "5843378f-c036-4e51-a815-98dda056199a",
+    "id": "90b63df0-8816-4007-8dd7-58820a8cd4fa",
     "name": "BIBFRAME 2.0 Item",
     "configType": "profile",
     "json": {
@@ -23849,14 +23849,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-06-29T19:18:02.625Z",
-      "updateDate": "2026-06-29T19:18:02.625Z"
+      "createDate": "2026-06-30T13:58:18.619Z",
+      "updateDate": "2026-06-30T13:58:18.619Z"
     },
-    "created": "2026-06-29T19:18:02.625Z",
-    "modified": "2026-06-29T19:18:02.625Z"
+    "created": "2026-06-30T13:58:18.619Z",
+    "modified": "2026-06-30T13:58:18.619Z"
   },
   {
-    "id": "75beecba-727c-4fad-a4c4-472975bc1cfc",
+    "id": "c978a330-e779-4d4c-84aa-b679bb360ad6",
     "name": "BIBFRAME 2.0 Language",
     "configType": "profile",
     "json": {
@@ -23994,14 +23994,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-06-29T19:18:02.625Z",
-      "updateDate": "2026-06-29T19:18:02.625Z"
+      "createDate": "2026-06-30T13:58:18.620Z",
+      "updateDate": "2026-06-30T13:58:18.620Z"
     },
-    "created": "2026-06-29T19:18:02.625Z",
-    "modified": "2026-06-29T19:18:02.625Z"
+    "created": "2026-06-30T13:58:18.620Z",
+    "modified": "2026-06-30T13:58:18.620Z"
   },
   {
-    "id": "c8060b1a-7108-4c69-901a-9c36618b065c",
+    "id": "d2c6cd3f-172d-4ed6-86a5-cf6ec6395341",
     "name": "BIBFRAME 2.0 Moving Image-DVD",
     "configType": "profile",
     "json": {
@@ -25229,7 +25229,7 @@
             "resourceLabel": "Playback channels",
             "propertyTemplates": [
               {
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/PlaybackChannels",
+                "propertyURI": "http://www.w3.org/2002/07/owl#sameAs",
                 "propertyLabel": "Lookup",
                 "mandatory": "false",
                 "repeatable": "false",
@@ -25635,7 +25635,7 @@
             "resourceLabel": "Intended Audience",
             "propertyTemplates": [
               {
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/IntendedAudience",
+                "propertyURI": "http://www.w3.org/2002/07/owl#sameAs",
                 "propertyLabel": "Lookup",
                 "mandatory": "false",
                 "repeatable": "true",
@@ -27464,7 +27464,7 @@
             "resourceLabel": "Type of recording (digital)",
             "propertyTemplates": [
               {
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/RecordingMethod",
+                "propertyURI": "http://www.w3.org/2002/07/owl#sameAs",
                 "propertyLabel": "Lookup",
                 "mandatory": "false",
                 "repeatable": "false",
@@ -27492,7 +27492,7 @@
             "resourceLabel": "Recording medium (optical)",
             "propertyTemplates": [
               {
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/RecordingMedium",
+                "propertyURI": "http://www.w3.org/2002/07/owl#sameAs",
                 "propertyLabel": "Lookup",
                 "mandatory": "false",
                 "repeatable": "false",
@@ -27520,7 +27520,7 @@
             "resourceLabel": "Special playback characteristic",
             "propertyTemplates": [
               {
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/PlaybackCharacteristic",
+                "propertyURI": "http://www.w3.org/2002/07/owl#sameAs",
                 "propertyLabel": "Lookup",
                 "mandatory": "false",
                 "repeatable": "false",
@@ -27543,7 +27543,7 @@
             "resourceLabel": "File type",
             "propertyTemplates": [
               {
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/FileType",
+                "propertyURI": "http://www.w3.org/2002/07/owl#sameAs",
                 "propertyLabel": "Lookup",
                 "mandatory": "false",
                 "repeatable": "false",
@@ -27566,7 +27566,7 @@
             "resourceLabel": "Regional encoding",
             "propertyTemplates": [
               {
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/RegionalEncoding",
+                "propertyURI": "http://www.w3.org/2002/07/owl#sameAs",
                 "propertyLabel": "Lookup",
                 "mandatory": "false",
                 "repeatable": "false",
@@ -27589,7 +27589,7 @@
             "resourceLabel": "Encoding format",
             "propertyTemplates": [
               {
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/EncodingFormat",
+                "propertyURI": "http://www.w3.org/2002/07/owl#sameAs",
                 "propertyLabel": "Lookup",
                 "mandatory": "false",
                 "repeatable": "true",
@@ -28336,14 +28336,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-06-29T19:18:02.645Z",
-      "updateDate": "2026-06-29T19:18:02.645Z"
+      "createDate": "2026-06-30T13:58:18.638Z",
+      "updateDate": "2026-06-30T13:58:18.638Z"
     },
-    "created": "2026-06-29T19:18:02.645Z",
-    "modified": "2026-06-29T19:18:02.645Z"
+    "created": "2026-06-30T13:58:18.638Z",
+    "modified": "2026-06-30T13:58:18.638Z"
   },
   {
-    "id": "fb9128c6-c6fd-46c2-9da9-01efda41967f",
+    "id": "9abec6b9-892d-4ee1-b237-485bb52592bd",
     "name": "BIBFRAME 2.0 Monograph",
     "configType": "profile",
     "json": {
@@ -30555,7 +30555,7 @@
             "resourceLabel": "Intended Audience",
             "propertyTemplates": [
               {
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/IntendedAudience",
+                "propertyURI": "http://www.w3.org/2002/07/owl#sameAs",
                 "propertyLabel": "Lookup",
                 "mandatory": "false",
                 "repeatable": "true",
@@ -32838,14 +32838,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-06-29T19:18:02.665Z",
-      "updateDate": "2026-06-29T19:18:02.665Z"
+      "createDate": "2026-06-30T13:58:18.655Z",
+      "updateDate": "2026-06-30T13:58:18.655Z"
     },
-    "created": "2026-06-29T19:18:02.665Z",
-    "modified": "2026-06-29T19:18:02.665Z"
+    "created": "2026-06-30T13:58:18.655Z",
+    "modified": "2026-06-30T13:58:18.655Z"
   },
   {
-    "id": "66330201-3c38-419e-aea4-8d99b02d73eb",
+    "id": "f82c5e50-d96e-4adc-a3f8-399197776882",
     "name": "BIBFRAME 2.0 Notated Music",
     "configType": "profile",
     "json": {
@@ -34440,7 +34440,7 @@
             "resourceLabel": "Intended Audience",
             "propertyTemplates": [
               {
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/IntendedAudience",
+                "propertyURI": "http://www.w3.org/2002/07/owl#sameAs",
                 "propertyLabel": "Lookup",
                 "mandatory": "false",
                 "repeatable": "true",
@@ -36839,14 +36839,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-06-29T19:18:02.683Z",
-      "updateDate": "2026-06-29T19:18:02.683Z"
+      "createDate": "2026-06-30T13:58:18.670Z",
+      "updateDate": "2026-06-30T13:58:18.670Z"
     },
-    "created": "2026-06-29T19:18:02.683Z",
-    "modified": "2026-06-29T19:18:02.683Z"
+    "created": "2026-06-30T13:58:18.670Z",
+    "modified": "2026-06-30T13:58:18.670Z"
   },
   {
-    "id": "3aa4647b-e629-4da8-9db2-d93afc66bc04",
+    "id": "fb422125-a8e0-4d7e-bb1c-90d75bcec473",
     "name": "BIBFRAME 2.0 Note",
     "configType": "profile",
     "json": {
@@ -37141,7 +37141,7 @@
             "resourceLabel": "Supplementary content",
             "propertyTemplates": [
               {
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/SupplementaryContent",
+                "propertyURI": "http://www.w3.org/2002/07/owl#sameAs",
                 "propertyLabel": "Lookup",
                 "mandatory": "false",
                 "repeatable": "true",
@@ -37243,14 +37243,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-06-29T19:18:02.684Z",
-      "updateDate": "2026-06-29T19:18:02.684Z"
+      "createDate": "2026-06-30T13:58:18.671Z",
+      "updateDate": "2026-06-30T13:58:18.671Z"
     },
-    "created": "2026-06-29T19:18:02.684Z",
-    "modified": "2026-06-29T19:18:02.684Z"
+    "created": "2026-06-30T13:58:18.671Z",
+    "modified": "2026-06-30T13:58:18.671Z"
   },
   {
-    "id": "36f453aa-9942-4015-8b7e-c169b76bb311",
+    "id": "2359a7cc-02f1-4c98-aa12-21aa19edffc7",
     "name": "Prints & Photographs",
     "configType": "profile",
     "json": {
@@ -40570,14 +40570,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-06-29T19:18:02.699Z",
-      "updateDate": "2026-06-29T19:18:02.699Z"
+      "createDate": "2026-06-30T13:58:18.685Z",
+      "updateDate": "2026-06-30T13:58:18.685Z"
     },
-    "created": "2026-06-29T19:18:02.699Z",
-    "modified": "2026-06-29T19:18:02.699Z"
+    "created": "2026-06-30T13:58:18.685Z",
+    "modified": "2026-06-30T13:58:18.685Z"
   },
   {
-    "id": "d8d103c3-7093-421c-a8d4-a4ae5d59cf66",
+    "id": "326d5fdb-ca25-4560-8f56-639d0ac5193a",
     "name": "BIBFRAME 2.0 Publication, Distribution, Manufacturer Activity",
     "configType": "profile",
     "json": {
@@ -40922,14 +40922,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-06-29T19:18:02.700Z",
-      "updateDate": "2026-06-29T19:18:02.700Z"
+      "createDate": "2026-06-30T13:58:18.686Z",
+      "updateDate": "2026-06-30T13:58:18.686Z"
     },
-    "created": "2026-06-29T19:18:02.700Z",
-    "modified": "2026-06-29T19:18:02.700Z"
+    "created": "2026-06-30T13:58:18.686Z",
+    "modified": "2026-06-30T13:58:18.686Z"
   },
   {
-    "id": "3e1e383c-3f83-4eb2-bfa7-e814dd564334",
+    "id": "27b94c0d-be50-4c97-84c4-69c8a834eb39",
     "name": "BIBFRAME 2.0 Rare Materials",
     "configType": "profile",
     "json": {
@@ -42693,7 +42693,7 @@
             "resourceLabel": "Intended Audience",
             "propertyTemplates": [
               {
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/IntendedAudience",
+                "propertyURI": "http://www.w3.org/2002/07/owl#sameAs",
                 "propertyLabel": "Lookup",
                 "mandatory": "false",
                 "repeatable": "true",
@@ -44457,14 +44457,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-06-29T19:18:02.714Z",
-      "updateDate": "2026-06-29T19:18:02.714Z"
+      "createDate": "2026-06-30T13:58:18.701Z",
+      "updateDate": "2026-06-30T13:58:18.701Z"
     },
-    "created": "2026-06-29T19:18:02.714Z",
-    "modified": "2026-06-29T19:18:02.714Z"
+    "created": "2026-06-30T13:58:18.701Z",
+    "modified": "2026-06-30T13:58:18.701Z"
   },
   {
-    "id": "10fa4fe0-6887-445a-82fc-4e4fbbc76ce1",
+    "id": "f91c9002-f18e-432a-a1e6-72011ceb610f",
     "name": "BIBFRAME 2.0 Related Works and Expressions",
     "configType": "profile",
     "json": {
@@ -44865,14 +44865,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-06-29T19:18:02.716Z",
-      "updateDate": "2026-06-29T19:18:02.716Z"
+      "createDate": "2026-06-30T13:58:18.703Z",
+      "updateDate": "2026-06-30T13:58:18.703Z"
     },
-    "created": "2026-06-29T19:18:02.716Z",
-    "modified": "2026-06-29T19:18:02.716Z"
+    "created": "2026-06-30T13:58:18.703Z",
+    "modified": "2026-06-30T13:58:18.703Z"
   },
   {
-    "id": "487af95b-2c0b-469a-9e89-5e3e467e87db",
+    "id": "7f3a5b71-b160-454d-9e5b-20cfc5a8c64a",
     "name": "BIBFRAME 2.0 Serial",
     "configType": "profile",
     "json": {
@@ -46692,7 +46692,7 @@
             "resourceLabel": "Intended Audience",
             "propertyTemplates": [
               {
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/IntendedAudience",
+                "propertyURI": "http://www.w3.org/2002/07/owl#sameAs",
                 "propertyLabel": "Lookup",
                 "mandatory": "false",
                 "repeatable": "true",
@@ -49396,14 +49396,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-06-29T19:18:02.737Z",
-      "updateDate": "2026-06-29T19:18:02.737Z"
+      "createDate": "2026-06-30T13:58:18.721Z",
+      "updateDate": "2026-06-30T13:58:18.721Z"
     },
-    "created": "2026-06-29T19:18:02.737Z",
-    "modified": "2026-06-29T19:18:02.737Z"
+    "created": "2026-06-30T13:58:18.721Z",
+    "modified": "2026-06-30T13:58:18.721Z"
   },
   {
-    "id": "501a705e-3a69-4439-a264-a2a88a1765dc",
+    "id": "1dab0e83-c79e-4127-bf87-7d98bf3727ab",
     "name": "BIBFRAME 2.0 Series Information",
     "configType": "profile",
     "json": {
@@ -49695,14 +49695,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-06-29T19:18:02.738Z",
-      "updateDate": "2026-06-29T19:18:02.738Z"
+      "createDate": "2026-06-30T13:58:18.722Z",
+      "updateDate": "2026-06-30T13:58:18.722Z"
     },
-    "created": "2026-06-29T19:18:02.738Z",
-    "modified": "2026-06-29T19:18:02.738Z"
+    "created": "2026-06-30T13:58:18.722Z",
+    "modified": "2026-06-30T13:58:18.722Z"
   },
   {
-    "id": "df7a42f6-27ea-426a-a37b-7f2656e21761",
+    "id": "6af6b0d3-bc87-41d9-a6a6-a1c39b157ba5",
     "name": "BIBFRAME 2.0 Sound Recording-Audio CD-R",
     "configType": "profile",
     "json": {
@@ -51409,7 +51409,7 @@
             "resourceLabel": "Intended Audience",
             "propertyTemplates": [
               {
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/IntendedAudience",
+                "propertyURI": "http://www.w3.org/2002/07/owl#sameAs",
                 "propertyLabel": "Lookup",
                 "mandatory": "false",
                 "repeatable": "true",
@@ -53012,7 +53012,7 @@
             "resourceLabel": "Type of recording (digital)",
             "propertyTemplates": [
               {
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/RecordingMethod",
+                "propertyURI": "http://www.w3.org/2002/07/owl#sameAs",
                 "propertyLabel": "Lookup",
                 "mandatory": "false",
                 "repeatable": "false",
@@ -53040,7 +53040,7 @@
             "resourceLabel": "Recording medium (optical)",
             "propertyTemplates": [
               {
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/RecordingMedium",
+                "propertyURI": "http://www.w3.org/2002/07/owl#sameAs",
                 "propertyLabel": "Lookup",
                 "mandatory": "false",
                 "repeatable": "false",
@@ -53093,7 +53093,7 @@
             "resourceLabel": "Playback channels",
             "propertyTemplates": [
               {
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/PlaybackChannels",
+                "propertyURI": "http://www.w3.org/2002/07/owl#sameAs",
                 "propertyLabel": "Lookup",
                 "mandatory": "false",
                 "repeatable": "false",
@@ -53116,7 +53116,7 @@
             "resourceLabel": "Special playback characteristic",
             "propertyTemplates": [
               {
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/PlaybackCharacteristic",
+                "propertyURI": "http://www.w3.org/2002/07/owl#sameAs",
                 "propertyLabel": "Lookup",
                 "mandatory": "false",
                 "repeatable": "false",
@@ -53162,7 +53162,7 @@
             "resourceLabel": "File type",
             "propertyTemplates": [
               {
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/FileType",
+                "propertyURI": "http://www.w3.org/2002/07/owl#sameAs",
                 "propertyLabel": "Lookup",
                 "mandatory": "false",
                 "repeatable": "false",
@@ -53185,7 +53185,7 @@
             "resourceLabel": "Encoding format",
             "propertyTemplates": [
               {
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/EncodingFormat",
+                "propertyURI": "http://www.w3.org/2002/07/owl#sameAs",
                 "propertyLabel": "Lookup",
                 "mandatory": "false",
                 "repeatable": "true",
@@ -53923,14 +53923,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-06-29T19:18:02.758Z",
-      "updateDate": "2026-06-29T19:18:02.758Z"
+      "createDate": "2026-06-30T13:58:18.739Z",
+      "updateDate": "2026-06-30T13:58:18.739Z"
     },
-    "created": "2026-06-29T19:18:02.758Z",
-    "modified": "2026-06-29T19:18:02.758Z"
+    "created": "2026-06-30T13:58:18.739Z",
+    "modified": "2026-06-30T13:58:18.739Z"
   },
   {
-    "id": "9100167f-6552-4403-aa92-f0e5d9887bf6",
+    "id": "2030d858-6993-4525-8df5-6c3e6cb1a2ad",
     "name": "BIBFRAME 2.0 Sound Recording-Audio Cassette",
     "configType": "profile",
     "json": {
@@ -54883,7 +54883,7 @@
             "resourceLabel": "Playing speed",
             "propertyTemplates": [
               {
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/PlayingSpeed",
+                "propertyURI": "http://www.w3.org/2002/07/owl#sameAs",
                 "propertyLabel": "Playing speed",
                 "mandatory": "false",
                 "repeatable": "true",
@@ -55514,7 +55514,7 @@
             "resourceLabel": "Intended Audience",
             "propertyTemplates": [
               {
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/IntendedAudience",
+                "propertyURI": "http://www.w3.org/2002/07/owl#sameAs",
                 "propertyLabel": "Lookup",
                 "mandatory": "false",
                 "repeatable": "true",
@@ -57205,7 +57205,7 @@
             "resourceLabel": "Type of recording (analog)",
             "propertyTemplates": [
               {
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/RecordingMethod",
+                "propertyURI": "http://www.w3.org/2002/07/owl#sameAs",
                 "propertyLabel": "Lookup",
                 "mandatory": "false",
                 "repeatable": "false",
@@ -57233,7 +57233,7 @@
             "resourceLabel": "Recording medium (magnetic)",
             "propertyTemplates": [
               {
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/RecordingMedium",
+                "propertyURI": "http://www.w3.org/2002/07/owl#sameAs",
                 "propertyLabel": "Lookup",
                 "mandatory": "false",
                 "repeatable": "false",
@@ -57261,7 +57261,7 @@
             "resourceLabel": "Playback channels",
             "propertyTemplates": [
               {
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/PlaybackChannels",
+                "propertyURI": "http://www.w3.org/2002/07/owl#sameAs",
                 "propertyLabel": "Lookup",
                 "mandatory": "false",
                 "repeatable": "false",
@@ -57284,7 +57284,7 @@
             "resourceLabel": "Special playback characteristic",
             "propertyTemplates": [
               {
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/PlaybackCharacteristic",
+                "propertyURI": "http://www.w3.org/2002/07/owl#sameAs",
                 "propertyLabel": "Lookup",
                 "mandatory": "false",
                 "repeatable": "false",
@@ -58045,14 +58045,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-06-29T19:18:02.779Z",
-      "updateDate": "2026-06-29T19:18:02.779Z"
+      "createDate": "2026-06-30T13:58:18.755Z",
+      "updateDate": "2026-06-30T13:58:18.755Z"
     },
-    "created": "2026-06-29T19:18:02.779Z",
-    "modified": "2026-06-29T19:18:02.779Z"
+    "created": "2026-06-30T13:58:18.755Z",
+    "modified": "2026-06-30T13:58:18.755Z"
   },
   {
-    "id": "7067026f-921a-41e2-a345-917b60fa8231",
+    "id": "12a686eb-7bca-4d48-a0f7-4d126b987289",
     "name": "BIBFRAME 2.0 Sound Recording-Audio CD",
     "configType": "profile",
     "json": {
@@ -59722,7 +59722,7 @@
             "resourceLabel": "Intended Audience",
             "propertyTemplates": [
               {
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/IntendedAudience",
+                "propertyURI": "http://www.w3.org/2002/07/owl#sameAs",
                 "propertyLabel": "Lookup",
                 "mandatory": "false",
                 "repeatable": "true",
@@ -61325,7 +61325,7 @@
             "resourceLabel": "Type of recording (digital)",
             "propertyTemplates": [
               {
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/RecordingMethod",
+                "propertyURI": "http://www.w3.org/2002/07/owl#sameAs",
                 "propertyLabel": "Lookup",
                 "mandatory": "false",
                 "repeatable": "false",
@@ -61353,7 +61353,7 @@
             "resourceLabel": "Recording medium (optical)",
             "propertyTemplates": [
               {
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/RecordingMedium",
+                "propertyURI": "http://www.w3.org/2002/07/owl#sameAs",
                 "propertyLabel": "Lookup",
                 "mandatory": "false",
                 "repeatable": "false",
@@ -61406,7 +61406,7 @@
             "resourceLabel": "Playback channels",
             "propertyTemplates": [
               {
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/PlaybackChannels",
+                "propertyURI": "http://www.w3.org/2002/07/owl#sameAs",
                 "propertyLabel": "Lookup",
                 "mandatory": "false",
                 "repeatable": "false",
@@ -61429,7 +61429,7 @@
             "resourceLabel": "Special playback characteristic",
             "propertyTemplates": [
               {
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/PlaybackCharacteristic",
+                "propertyURI": "http://www.w3.org/2002/07/owl#sameAs",
                 "propertyLabel": "Lookup",
                 "mandatory": "false",
                 "repeatable": "false",
@@ -61475,7 +61475,7 @@
             "resourceLabel": "File type",
             "propertyTemplates": [
               {
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/FileType",
+                "propertyURI": "http://www.w3.org/2002/07/owl#sameAs",
                 "propertyLabel": "Lookup",
                 "mandatory": "false",
                 "repeatable": "false",
@@ -61498,7 +61498,7 @@
             "resourceLabel": "Encoding format",
             "propertyTemplates": [
               {
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/EncodingFormat",
+                "propertyURI": "http://www.w3.org/2002/07/owl#sameAs",
                 "propertyLabel": "Lookup",
                 "mandatory": "false",
                 "repeatable": "true",
@@ -62236,14 +62236,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-06-29T19:18:02.797Z",
-      "updateDate": "2026-06-29T19:18:02.797Z"
+      "createDate": "2026-06-30T13:58:18.773Z",
+      "updateDate": "2026-06-30T13:58:18.773Z"
     },
-    "created": "2026-06-29T19:18:02.797Z",
-    "modified": "2026-06-29T19:18:02.797Z"
+    "created": "2026-06-30T13:58:18.773Z",
+    "modified": "2026-06-30T13:58:18.773Z"
   },
   {
-    "id": "459852e8-9e9b-4ee2-b992-638d45cc4b15",
+    "id": "c605348c-6629-41bd-b942-5f936e314503",
     "name": "BIBFRAME 2.0 Title Information",
     "configType": "profile",
     "json": {
@@ -62740,14 +62740,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-06-29T19:18:02.800Z",
-      "updateDate": "2026-06-29T19:18:02.800Z"
+      "createDate": "2026-06-30T13:58:18.775Z",
+      "updateDate": "2026-06-30T13:58:18.775Z"
     },
-    "created": "2026-06-29T19:18:02.800Z",
-    "modified": "2026-06-29T19:18:02.800Z"
+    "created": "2026-06-30T13:58:18.775Z",
+    "modified": "2026-06-30T13:58:18.775Z"
   },
   {
-    "id": "8c685a74-a7a1-4254-b7f3-4d477accacff",
+    "id": "d837a50c-17ec-4dcc-a27b-ab83d84f1114",
     "name": "BIBFRAME 2.0 Topic",
     "configType": "profile",
     "json": {
@@ -65049,10 +65049,10 @@
       }
     },
     "metadata": {
-      "createDate": "2026-06-29T19:18:02.810Z",
-      "updateDate": "2026-06-29T19:18:02.810Z"
+      "createDate": "2026-06-30T13:58:18.786Z",
+      "updateDate": "2026-06-30T13:58:18.786Z"
     },
-    "created": "2026-06-29T19:18:02.810Z",
-    "modified": "2026-06-29T19:18:02.810Z"
+    "created": "2026-06-30T13:58:18.786Z",
+    "modified": "2026-06-30T13:58:18.786Z"
   }
 ]
