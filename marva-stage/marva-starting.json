@@ -1,6 +1,6 @@
 [
   {
-    "id": "ed1f74c9-b6df-45d8-8569-391389b828dc",
+    "id": "3da0b03d-6eb0-4c4c-ba4f-a60f1e052a2f",
     "name": "config",
     "configType": "startingPoints",
     "json": [
@@ -346,7 +346,7 @@
           {
             "label": "Work",
             "type": [
-              "http://id.loc.gov/bibframe/Work"
+              "http://id.loc.gov/ontologies/bibframe/Work"
             ],
             "useResourceTemplates": [
               "lc:RT:RelatedWorkExpression"
