@@ -2190,6 +2190,7 @@ lc:profile:RareMat,BIBFRAME 2.0 Rare Materials,,dcterms:hasPart,Has Shape,,,bnod
 ,,,dcterms:hasPart,Has Shape,,,bnode,,lc:RT:RareMat:RefNoteCoverage,,,,,,,
 ,,,dcterms:hasPart,Has Shape,,,bnode,,lc:RT:RareMat:ItemLcc,,,,,,,
 ,,,dcterms:hasPart,Has Shape,,,bnode,,lc:RT:RareMat:Note,,,,,,,
+lc:profile:RelWorkTest,Related Work Test (for music),,dcterms:hasPart,Has Shape,,,bnode,,lc:RT:RelatedWorkExpression,,,,,,,
 lc:profile:RelatedWorkorExpression,BIBFRAME 2.0 Related Works and Expressions,,dcterms:hasPart,Has Shape,,,bnode,,lc:RT:RelWorkLookup,,,,,,,
 ,,,dcterms:hasPart,Has Shape,,,bnode,,lc:RT:RelWorkInput,,,,,,,
 ,,,dcterms:hasPart,Has Shape,,,bnode,,lc:RT:RelWorkInputTitle,,,,,,,
