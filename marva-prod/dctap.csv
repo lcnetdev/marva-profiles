@@ -619,6 +619,8 @@ lc:RT:bf2:MIBluRayDVD:Work,BIBFRAME Work,bf:Work,bf:expressionOf,Expression [sea
 ,,,bf:temporalCoverage,(Time) coverage of the content,false,true,literal,,,,,,,,,https://bibframe.org/view/documentation-marva-manual/work-description/time-coverage.md
 ,,,bf:identifiedBy,Identifiers,false,true,bnode,,lc:RT:bf2:Identifiers:Eidr | lc:RT:bf2:Identifiers:Copyright,,,,,,,
 ,,,bf:intendedAudience,Intended audience,false,true,bnode,,lc:RT:bf2:Audience,,,,,,,https://bibframe.org/view/documentation-marva-manual/work-description/intended-audience.md
+,,,bf:contribution,Creator of Work,,,bnode,,lc:RT:bflc:Agents:PrimaryContribution,,,,,,bf:PrimaryContribution,https://bibframe.org/view/documentation-marva-manual/work-description/creator-of-work.md
+,,,bf:contribution,Contributors,,,bnode,,lc:RT:bf2:Agents:Contribution,,,,,,bf:Contribution,https://bibframe.org/view/documentation-marva-manual/work-description/contributors.md
 ,,,bf:geographicCoverage,Geographic coverage,false,true,bnode,,lc:RT:bf2:Form:Geog,,,,,,,https://bibframe.org/view/documentation-marva-manual/work-description/geographic-coverage.md
 ,,,bf:subject,Subjects,false,true,bnode,,lc:RT:bf2:Components | lc:RT:bf2:Topic:Place:Components | lc:RT:bf2:Topic:SubjectWork,,,,,,,https://bibframe.org/view/documentation-marva-manual/work-description/subjects.md
 ,,,bf:note,Notes about the Work,false,true,bnode,,lc:RT:bf2:Note,,,,,,,https://bibframe.org/view/documentation-marva-manual/work-description/notes-about-work.md
