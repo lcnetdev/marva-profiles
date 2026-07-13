@@ -1,6 +1,6 @@
 [
   {
-    "id": "c282aca3-a574-4992-a0f8-ed437b5f61a2",
+    "id": "09cd06ed-3ab9-4618-a115-7d5558bec28d",
     "name": "BIBFRAME 2.0 Moving Image",
     "configType": "profile",
     "json": {
@@ -30,7 +30,8 @@
                   "valueDataType": {
                     "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Hub"
                   }
-                }
+                },
+                "remark": "https://bibframe.org/view/documentation-marva-manual/work-description/expression-hub.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/title",
@@ -49,7 +50,7 @@
                   "defaults": [],
                   "valueDataType": {}
                 },
-                "remark": "https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates-Work/ExpressionTitles"
+                "remark": "https://bibframe.org/view/documentation-marva-manual/work-description/title-information.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/originPlace",
@@ -67,7 +68,8 @@
                   "valueDataType": {
                     "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Place"
                   }
-                }
+                },
+                "remark": "https://bibframe.org/view/documentation-marva-manual/work-description/country-of-origin.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/originDate",
@@ -81,21 +83,8 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                }
-              },
-              {
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/historyOfWork",
-                "propertyLabel": "History of the Work",
-                "mandatory": "false",
-                "repeatable": "true",
-                "type": "literal",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [],
-                  "useValuesFrom": [],
-                  "defaults": [],
-                  "valueDataType": {}
-                }
+                },
+                "remark": "https://bibframe.org/view/documentation-marva-manual/work-description/date-of-work.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/temporalCoverage",
@@ -109,7 +98,8 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                }
+                },
+                "remark": "https://bibframe.org/view/documentation-marva-manual/work-description/time-coverage.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/identifiedBy",
@@ -143,7 +133,8 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                }
+                },
+                "remark": "https://bibframe.org/view/documentation-marva-manual/work-description/intended-audience.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/note",
@@ -159,7 +150,8 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                }
+                },
+                "remark": "https://bibframe.org/view/documentation-marva-manual/work-description/notes-about-work.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/tableOfContents",
@@ -175,7 +167,8 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                }
+                },
+                "remark": "https://bibframe.org/view/documentation-marva-manual/work-description/contents.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/summary",
@@ -191,7 +184,8 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                }
+                },
+                "remark": "https://bibframe.org/view/documentation-marva-manual/work-description/summary.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/genreForm",
@@ -207,7 +201,8 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                }
+                },
+                "remark": "https://bibframe.org/view/documentation-marva-manual/work-description/genre-form.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/geographicCoverage",
@@ -223,7 +218,8 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                }
+                },
+                "remark": "https://bibframe.org/view/documentation-marva-manual/work-description/geographic-coverage.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/subject",
@@ -241,11 +237,12 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                }
+                },
+                "remark": "https://bibframe.org/view/documentation-marva-manual/work-description/subjects.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/contribution",
-                "propertyLabel": "Contribution",
+                "propertyLabel": "Contributors",
                 "mandatory": "false",
                 "repeatable": "true",
                 "type": "resource",
@@ -259,7 +256,8 @@
                   "valueDataType": {
                     "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Contribution"
                   }
-                }
+                },
+                "remark": "https://bibframe.org/view/documentation-marva-manual/work-description/contributors.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/contribution",
@@ -277,7 +275,8 @@
                   "valueDataType": {
                     "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/PrimaryContribution"
                   }
-                }
+                },
+                "remark": "https://bibframe.org/view/documentation-marva-manual/work-description/creator-of-work.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/content",
@@ -300,7 +299,8 @@
                   "valueDataType": {
                     "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Content"
                   }
-                }
+                },
+                "remark": "https://bibframe.org/view/documentation-marva-manual/work-description/content-type.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/language",
@@ -319,7 +319,7 @@
                     "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Language"
                   }
                 },
-                "remark": "https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates-Languages(041)"
+                "remark": "https://bibframe.org/view/documentation-marva-manual/work-description/language.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/language",
@@ -354,7 +354,7 @@
                   "defaults": [],
                   "valueDataType": {}
                 },
-                "remark": "https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates-Languages(041)"
+                "remark": "https://bibframe.org/view/documentation-marva-manual/work-description/language.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/note",
@@ -371,7 +371,7 @@
                   "defaults": [],
                   "valueDataType": {}
                 },
-                "remark": "https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates-Languages(041)"
+                "remark": "https://bibframe.org/view/documentation-marva-manual/work-description/language.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/colorContent",
@@ -389,7 +389,8 @@
                   "valueDataType": {
                     "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/ColorContent"
                   }
-                }
+                },
+                "remark": "https://bibframe.org/view/documentation-marva-manual/work-description/color-content.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/soundContent",
@@ -488,7 +489,7 @@
                   "defaults": [],
                   "valueDataType": {}
                 },
-                "remark": "https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates-Hubs(240;X00X10X11with$t;X30)"
+                "remark": "https://bibframe.org/view/documentation-marva-manual/work-description/search-related-work.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/relation",
@@ -505,7 +506,7 @@
                   "defaults": [],
                   "valueDataType": {}
                 },
-                "remark": "https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates-Series(490,8XX)"
+                "remark": "https://bibframe.org/view/documentation-marva-manual/work-description/input-transcribed-series.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/hasInstance",
@@ -562,7 +563,8 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                }
+                },
+                "remark": "https://bibframe.org/view/documentation-marva-manual/instance-description/title-information.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/responsibilityStatement",
@@ -576,7 +578,8 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                }
+                },
+                "remark": "https://bibframe.org/view/documentation-marva-manual/instance-description/statement-of-responsibility.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/editionStatement",
@@ -590,7 +593,8 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                }
+                },
+                "remark": "https://bibframe.org/view/documentation-marva-manual/instance-description/edition-statement.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/provisionActivity",
@@ -610,7 +614,7 @@
                   "defaults": [],
                   "valueDataType": {}
                 },
-                "remark": "https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates-ProvisionActivity(264)"
+                "remark": "https://bibframe.org/view/documentation-marva-manual/instance-description/provision-activity.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/copyrightDate",
@@ -624,7 +628,8 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                }
+                },
+                "remark": "https://bibframe.org/view/documentation-marva-manual/instance-description/copyright-date.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/originPlace",
@@ -665,7 +670,8 @@
                   "valueDataType": {
                     "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Issuance"
                   }
-                }
+                },
+                "remark": "https://bibframe.org/view/documentation-marva-manual/instance-description/mode-of-issuance.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/identifiedBy",
@@ -686,7 +692,8 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                }
+                },
+                "remark": "https://bibframe.org/view/documentation-marva-manual/instance-description/identifiers.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/note",
@@ -702,7 +709,8 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                }
+                },
+                "remark": "https://bibframe.org/view/documentation-marva-manual/instance-description/notes-about-instance.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/supplementaryContent",
@@ -718,7 +726,8 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                }
+                },
+                "remark": "https://bibframe.org/view/documentation-marva-manual/instance-description/supplementary-content-url.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/media",
@@ -741,7 +750,8 @@
                   "valueDataType": {
                     "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Media"
                   }
-                }
+                },
+                "remark": "https://bibframe.org/view/documentation-marva-manual/instance-description/media-type.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/carrier",
@@ -764,7 +774,8 @@
                   "valueDataType": {
                     "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Carrier"
                   }
-                }
+                },
+                "remark": "https://bibframe.org/view/documentation-marva-manual/instance-description/carrier-type.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/extent",
@@ -780,7 +791,8 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                }
+                },
+                "remark": "https://bibframe.org/view/documentation-marva-manual/instance-description/physical-description.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/dimensions",
@@ -794,7 +806,8 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                }
+                },
+                "remark": "https://bibframe.org/view/documentation-marva-manual/instance-description/dimensions.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/electronicLocator",
@@ -810,7 +823,8 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                }
+                },
+                "remark": "https://bibframe.org/view/documentation-marva-manual/instance-description/url-of-instance.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/hasItem",
@@ -4316,14 +4330,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-07-09T17:21:57.145Z",
-      "updateDate": "2026-07-09T17:21:57.145Z"
+      "createDate": "2026-07-13T16:00:04.012Z",
+      "updateDate": "2026-07-13T16:00:04.012Z"
     },
-    "created": "2026-07-09T17:21:57.145Z",
-    "modified": "2026-07-09T17:21:57.145Z"
+    "created": "2026-07-13T16:00:04.012Z",
+    "modified": "2026-07-13T16:00:04.012Z"
   },
   {
-    "id": "8d3f8e76-1b3a-4f64-9c3d-2a9279cfee10",
+    "id": "e2dba167-3fb5-4f6e-86fd-0cb7005aebb1",
     "name": "BIBFRAME 2.0 Admin Metadata",
     "configType": "profile",
     "json": {
@@ -4819,14 +4833,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-07-09T17:21:57.147Z",
-      "updateDate": "2026-07-09T17:21:57.147Z"
+      "createDate": "2026-07-13T16:00:04.013Z",
+      "updateDate": "2026-07-13T16:00:04.013Z"
     },
-    "created": "2026-07-09T17:21:57.147Z",
-    "modified": "2026-07-09T17:21:57.147Z"
+    "created": "2026-07-13T16:00:04.013Z",
+    "modified": "2026-07-13T16:00:04.013Z"
   },
   {
-    "id": "d714d2ad-ba8a-40c8-bfd3-f0d6029ababa",
+    "id": "ab8f2fd9-0abc-49aa-bd54-370319d497c5",
     "name": "BIBFRAME 2.0 Agents",
     "configType": "profile",
     "json": {
@@ -7068,14 +7082,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-07-09T17:21:57.157Z",
-      "updateDate": "2026-07-09T17:21:57.157Z"
+      "createDate": "2026-07-13T16:00:04.022Z",
+      "updateDate": "2026-07-13T16:00:04.022Z"
     },
-    "created": "2026-07-09T17:21:57.157Z",
-    "modified": "2026-07-09T17:21:57.157Z"
+    "created": "2026-07-13T16:00:04.022Z",
+    "modified": "2026-07-13T16:00:04.022Z"
   },
   {
-    "id": "10f32ec7-f3cf-46cc-b2ca-055a2428c25f",
+    "id": "e53bc120-830c-4502-a969-b49664da2ae7",
     "name": "BIBFRAME 2.0 RWO",
     "configType": "profile",
     "json": {
@@ -8003,14 +8017,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-07-09T17:21:57.161Z",
-      "updateDate": "2026-07-09T17:21:57.161Z"
+      "createDate": "2026-07-13T16:00:04.026Z",
+      "updateDate": "2026-07-13T16:00:04.026Z"
     },
-    "created": "2026-07-09T17:21:57.161Z",
-    "modified": "2026-07-09T17:21:57.161Z"
+    "created": "2026-07-13T16:00:04.026Z",
+    "modified": "2026-07-13T16:00:04.026Z"
   },
   {
-    "id": "645b4c28-1876-419f-949b-162348894c95",
+    "id": "e1a00bd0-5dad-4f67-ac11-98333fdd1057",
     "name": "BIBFRAME 2.0 Agents Contribution",
     "configType": "profile",
     "json": {
@@ -8254,14 +8268,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-07-09T17:21:57.163Z",
-      "updateDate": "2026-07-09T17:21:57.163Z"
+      "createDate": "2026-07-13T16:00:04.028Z",
+      "updateDate": "2026-07-13T16:00:04.028Z"
     },
-    "created": "2026-07-09T17:21:57.163Z",
-    "modified": "2026-07-09T17:21:57.163Z"
+    "created": "2026-07-13T16:00:04.028Z",
+    "modified": "2026-07-13T16:00:04.028Z"
   },
   {
-    "id": "746a9cba-dd22-41a0-8655-02cc2ca90313",
+    "id": "c4b70435-ae98-4281-b76d-c3971d082000",
     "name": "BIBFRAME 2.0 Sound Recording-Analog",
     "configType": "profile",
     "json": {
@@ -12482,14 +12496,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-07-09T17:21:57.191Z",
-      "updateDate": "2026-07-09T17:21:57.191Z"
+      "createDate": "2026-07-13T16:00:04.072Z",
+      "updateDate": "2026-07-13T16:00:04.072Z"
     },
-    "created": "2026-07-09T17:21:57.191Z",
-    "modified": "2026-07-09T17:21:57.191Z"
+    "created": "2026-07-13T16:00:04.072Z",
+    "modified": "2026-07-13T16:00:04.072Z"
   },
   {
-    "id": "c905179e-adcb-43b3-91b9-7b00434efe20",
+    "id": "24c25827-de0d-401d-91a3-8b58e972fba8",
     "name": "BIBFRAME 2.0 Cartographic TEST",
     "configType": "profile",
     "json": {
@@ -16020,14 +16034,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-07-09T17:21:57.218Z",
-      "updateDate": "2026-07-09T17:21:57.218Z"
+      "createDate": "2026-07-13T16:00:04.108Z",
+      "updateDate": "2026-07-13T16:00:04.108Z"
     },
-    "created": "2026-07-09T17:21:57.218Z",
-    "modified": "2026-07-09T17:21:57.218Z"
+    "created": "2026-07-13T16:00:04.108Z",
+    "modified": "2026-07-13T16:00:04.108Z"
   },
   {
-    "id": "8c526400-1dd4-4238-88cb-0babcb6c1f6d",
+    "id": "77e6e14e-cef8-4300-8863-99afce0a5576",
     "name": "BIBFRAME 2.0 Classification",
     "configType": "profile",
     "json": {
@@ -16426,14 +16440,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-07-09T17:21:57.220Z",
-      "updateDate": "2026-07-09T17:21:57.220Z"
+      "createDate": "2026-07-13T16:00:04.111Z",
+      "updateDate": "2026-07-13T16:00:04.111Z"
     },
-    "created": "2026-07-09T17:21:57.220Z",
-    "modified": "2026-07-09T17:21:57.220Z"
+    "created": "2026-07-13T16:00:04.111Z",
+    "modified": "2026-07-13T16:00:04.111Z"
   },
   {
-    "id": "af6c6890-2e7d-488d-9bbd-474515acb0a5",
+    "id": "203f17eb-0ee4-4cb4-8cac-34d34b986718",
     "name": "BIBFRAME 2.0 Form",
     "configType": "profile",
     "json": {
@@ -16560,14 +16574,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-07-09T17:21:57.221Z",
-      "updateDate": "2026-07-09T17:21:57.221Z"
+      "createDate": "2026-07-13T16:00:04.113Z",
+      "updateDate": "2026-07-13T16:00:04.113Z"
     },
-    "created": "2026-07-09T17:21:57.221Z",
-    "modified": "2026-07-09T17:21:57.221Z"
+    "created": "2026-07-13T16:00:04.113Z",
+    "modified": "2026-07-13T16:00:04.113Z"
   },
   {
-    "id": "b5dcb37c-87ab-436c-9cb0-1126a4c190f7",
+    "id": "90f73441-401b-459a-8f67-b9cf56c01ecf",
     "name": "Test BF Hub",
     "configType": "profile",
     "json": {
@@ -17316,14 +17330,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-07-09T17:21:57.225Z",
-      "updateDate": "2026-07-09T17:21:57.225Z"
+      "createDate": "2026-07-13T16:00:04.118Z",
+      "updateDate": "2026-07-13T16:00:04.118Z"
     },
-    "created": "2026-07-09T17:21:57.225Z",
-    "modified": "2026-07-09T17:21:57.225Z"
+    "created": "2026-07-13T16:00:04.118Z",
+    "modified": "2026-07-13T16:00:04.118Z"
   },
   {
-    "id": "92d5e311-bf56-47bb-a809-cdb24999dc46",
+    "id": "f5f44862-acae-45cd-a77e-3944c3bb8131",
     "name": "BF Hub",
     "configType": "profile",
     "json": {
@@ -18166,14 +18180,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-07-09T17:21:57.232Z",
-      "updateDate": "2026-07-09T17:21:57.232Z"
+      "createDate": "2026-07-13T16:00:04.131Z",
+      "updateDate": "2026-07-13T16:00:04.131Z"
     },
-    "created": "2026-07-09T17:21:57.232Z",
-    "modified": "2026-07-09T17:21:57.232Z"
+    "created": "2026-07-13T16:00:04.131Z",
+    "modified": "2026-07-13T16:00:04.131Z"
   },
   {
-    "id": "43c5567d-a59c-4cfe-9f2c-e702b955e329",
+    "id": "d0ac4d8e-688a-4971-bf76-e84ca68a7160",
     "name": "Original BF (origbf)",
     "configType": "profile",
     "json": {
@@ -23369,14 +23383,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-07-09T17:21:57.262Z",
-      "updateDate": "2026-07-09T17:21:57.262Z"
+      "createDate": "2026-07-13T16:00:04.175Z",
+      "updateDate": "2026-07-13T16:00:04.175Z"
     },
-    "created": "2026-07-09T17:21:57.262Z",
-    "modified": "2026-07-09T17:21:57.262Z"
+    "created": "2026-07-13T16:00:04.175Z",
+    "modified": "2026-07-13T16:00:04.175Z"
   },
   {
-    "id": "8966a559-bdc4-4f13-b6fe-28131b0baa5e",
+    "id": "01b81196-1ae1-4076-89cb-9b2a8621a300",
     "name": "BIBFRAME 2.0 Item",
     "configType": "profile",
     "json": {
@@ -23850,14 +23864,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-07-09T17:21:57.266Z",
-      "updateDate": "2026-07-09T17:21:57.266Z"
+      "createDate": "2026-07-13T16:00:04.179Z",
+      "updateDate": "2026-07-13T16:00:04.179Z"
     },
-    "created": "2026-07-09T17:21:57.266Z",
-    "modified": "2026-07-09T17:21:57.266Z"
+    "created": "2026-07-13T16:00:04.179Z",
+    "modified": "2026-07-13T16:00:04.179Z"
   },
   {
-    "id": "eda97e5f-e005-46be-a395-6f77c825eee4",
+    "id": "092ac298-2788-4cc5-b461-287acc7db0a4",
     "name": "BIBFRAME 2.0 Language",
     "configType": "profile",
     "json": {
@@ -23958,14 +23972,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-07-09T17:21:57.266Z",
-      "updateDate": "2026-07-09T17:21:57.266Z"
+      "createDate": "2026-07-13T16:00:04.179Z",
+      "updateDate": "2026-07-13T16:00:04.179Z"
     },
-    "created": "2026-07-09T17:21:57.266Z",
-    "modified": "2026-07-09T17:21:57.266Z"
+    "created": "2026-07-13T16:00:04.179Z",
+    "modified": "2026-07-13T16:00:04.179Z"
   },
   {
-    "id": "02cd4be5-adba-4aa5-9d89-c4abb7a10354",
+    "id": "2efdc860-9241-4e9e-af25-28f44c89b541",
     "name": "BIBFRAME 2.0 Moving Image-DVD",
     "configType": "profile",
     "json": {
@@ -23995,7 +24009,8 @@
                   "valueDataType": {
                     "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Hub"
                   }
-                }
+                },
+                "remark": "https://bibframe.org/view/documentation-marva-manual/work-description/expression-hub.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/title",
@@ -24014,7 +24029,7 @@
                   "defaults": [],
                   "valueDataType": {}
                 },
-                "remark": "https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates-Work/ExpressionTitles"
+                "remark": "https://bibframe.org/view/documentation-marva-manual/work-description/title-information.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/genreForm",
@@ -24032,7 +24047,8 @@
                   "valueDataType": {
                     "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/GenreForm"
                   }
-                }
+                },
+                "remark": "https://bibframe.org/view/documentation-marva-manual/work-description/genre-form.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/originDate",
@@ -24048,7 +24064,8 @@
                   "valueDataType": {
                     "dataTypeURI": "http://www.loc.gov/standards/datetime/pre-submission.html"
                   }
-                }
+                },
+                "remark": "https://bibframe.org/view/documentation-marva-manual/work-description/date-of-work.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/originPlace",
@@ -24066,21 +24083,8 @@
                   "valueDataType": {
                     "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Place"
                   }
-                }
-              },
-              {
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/historyOfWork",
-                "propertyLabel": "History of the Work",
-                "mandatory": "false",
-                "repeatable": "true",
-                "type": "literal",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [],
-                  "useValuesFrom": [],
-                  "defaults": [],
-                  "valueDataType": {}
-                }
+                },
+                "remark": "https://bibframe.org/view/documentation-marva-manual/work-description/country-of-origin.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/temporalCoverage",
@@ -24094,7 +24098,8 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                }
+                },
+                "remark": "https://bibframe.org/view/documentation-marva-manual/work-description/time-coverage.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/identifiedBy",
@@ -24127,25 +24132,8 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                }
-              },
-              {
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/contribution",
-                "propertyLabel": "Contribution",
-                "mandatory": "false",
-                "repeatable": "true",
-                "type": "resource",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [
-                    "lc:RT:bf2:Agents:Contribution"
-                  ],
-                  "useValuesFrom": [],
-                  "defaults": [],
-                  "valueDataType": {
-                    "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Contribution"
-                  }
-                }
+                },
+                "remark": "https://bibframe.org/view/documentation-marva-manual/work-description/intended-audience.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/geographicCoverage",
@@ -24161,7 +24149,8 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                }
+                },
+                "remark": "https://bibframe.org/view/documentation-marva-manual/work-description/geographic-coverage.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/subject",
@@ -24179,7 +24168,8 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                }
+                },
+                "remark": "https://bibframe.org/view/documentation-marva-manual/work-description/subjects.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/note",
@@ -24195,7 +24185,8 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                }
+                },
+                "remark": "https://bibframe.org/view/documentation-marva-manual/work-description/notes-about-work.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/tableOfContents",
@@ -24211,7 +24202,8 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                }
+                },
+                "remark": "https://bibframe.org/view/documentation-marva-manual/work-description/contents.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/summary",
@@ -24227,7 +24219,8 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {}
-                }
+                },
+                "remark": "https://bibframe.org/view/documentation-marva-manual/work-description/summary.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/content",
@@ -24250,7 +24243,8 @@
                   "valueDataType": {
                     "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Content"
                   }
-                }
+                },
+                "remark": "https://bibframe.org/view/documentation-marva-manual/work-description/content-type.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/language",
@@ -24269,7 +24263,7 @@
                     "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Language"
                   }
                 },
-                "remark": "https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates-Languages(041)"
+                "remark": "https://bibframe.org/view/documentation-marva-manual/work-description/language.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/language",
@@ -24304,7 +24298,7 @@
                   "defaults": [],
                   "valueDataType": {}
                 },
-                "remark": "https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates-Languages(041)"
+                "remark": "https://bibframe.org/view/documentation-marva-manual/work-description/language.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/note",
@@ -24321,7 +24315,7 @@
                   "defaults": [],
                   "valueDataType": {}
                 },
-                "remark": "https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates-Languages(041)"
+                "remark": "https://bibframe.org/view/documentation-marva-manual/work-description/language.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/capture",
@@ -24387,7 +24381,8 @@
                   "valueDataType": {
                     "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/SupplementaryContent"
                   }
-                }
+                },
+                "remark": "https://bibframe.org/view/documentation-marva-manual/work-description/supplementary-content.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/colorContent",
@@ -24405,7 +24400,8 @@
                   "valueDataType": {
                     "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/ColorContent"
                   }
-                }
+                },
+                "remark": "https://bibframe.org/view/documentation-marva-manual/work-description/color-content.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/soundContent",
@@ -24529,7 +24525,7 @@
                   "defaults": [],
                   "valueDataType": {}
                 },
-                "remark": "https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates-Hubs(240;X00,X10,X11with$t;X30)"
+                "remark": "https://bibframe.org/view/documentation-marva-manual/work-description/search-related-work.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/relation",
@@ -24546,7 +24542,7 @@
                   "defaults": [],
                   "valueDataType": {}
                 },
-                "remark": "https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates-Series(490,8XX)"
+                "remark": "https://bibframe.org/view/documentation-marva-manual/work-description/input-transcribed-series.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/hasInstance",
@@ -25636,52 +25632,6 @@
                     "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Source"
                   }
                 }
-              }
-            ]
-          },
-          {
-            "id": "lc:RT:bf2:Agents:Contribution",
-            "resourceURI": "http://id.loc.gov/ontologies/bibframe/Contribution",
-            "resourceLabel": "Contribution",
-            "propertyTemplates": [
-              {
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/agent",
-                "propertyLabel": "Agent",
-                "mandatory": "false",
-                "repeatable": "true",
-                "type": "resource",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [
-                    "lc:RT:bf2:Agent:bfPerson",
-                    "lc:RT:bf2:Agent:bfFamily",
-                    "lc:RT:bf2:Agent:bfCorp",
-                    "lc:RT:bf2:Agent:bfJurisdiction",
-                    "lc:RT:bf2:Agent:bfConf"
-                  ],
-                  "useValuesFrom": [],
-                  "defaults": [],
-                  "valueDataType": {}
-                },
-                "remark": "https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates-Contributors(1XX,6XX,7XX)"
-              },
-              {
-                "propertyURI": "http://id.loc.gov/ontologies/bibframe/role",
-                "propertyLabel": "Relationship designator(s)",
-                "mandatory": "false",
-                "repeatable": "true",
-                "type": "lookup",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [],
-                  "useValuesFrom": [
-                    "http://id.loc.gov/vocabulary/relators",
-                    "https://id.loc.gov/vocabulary/rbmsrel"
-                  ],
-                  "defaults": [],
-                  "valueDataType": {}
-                },
-                "remark": "https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates-AgentRolesMarva+cataloging+updates#Marvacatalogingupdates-AgentRoles"
               }
             ]
           },
@@ -27850,121 +27800,6 @@
             ]
           },
           {
-            "id": "lc:RT:bf2:Agent:bfPerson",
-            "resourceURI": "http://id.loc.gov/ontologies/bibframe/Person",
-            "resourceLabel": "Person",
-            "propertyTemplates": [
-              {
-                "propertyURI": "http://www.w3.org/2002/07/owl#sameAs",
-                "propertyLabel": "Search LCNAF",
-                "mandatory": "false",
-                "repeatable": "true",
-                "type": "lookup",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [],
-                  "useValuesFrom": [
-                    "http://preprod.id.loc.gov/authorities/names"
-                  ],
-                  "defaults": [],
-                  "valueDataType": {}
-                }
-              }
-            ]
-          },
-          {
-            "id": "lc:RT:bf2:Agent:bfFamily",
-            "resourceURI": "http://id.loc.gov/ontologies/bibframe/Family",
-            "resourceLabel": "Family",
-            "propertyTemplates": [
-              {
-                "propertyURI": "http://www.w3.org/2002/07/owl#sameAs",
-                "propertyLabel": "Search LCNAF",
-                "mandatory": "false",
-                "repeatable": "true",
-                "type": "lookup",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [],
-                  "useValuesFrom": [
-                    "http://preprod.id.loc.gov/authorities/names"
-                  ],
-                  "defaults": [],
-                  "valueDataType": {}
-                }
-              }
-            ]
-          },
-          {
-            "id": "lc:RT:bf2:Agent:bfCorp",
-            "resourceURI": "http://id.loc.gov/ontologies/bibframe/Organization",
-            "resourceLabel": "Corporate body",
-            "propertyTemplates": [
-              {
-                "propertyURI": "http://www.w3.org/2002/07/owl#sameAs",
-                "propertyLabel": "Search LCNAF",
-                "mandatory": "false",
-                "repeatable": "true",
-                "type": "lookup",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [],
-                  "useValuesFrom": [
-                    "http://preprod.id.loc.gov/authorities/names"
-                  ],
-                  "defaults": [],
-                  "valueDataType": {}
-                }
-              }
-            ]
-          },
-          {
-            "id": "lc:RT:bf2:Agent:bfJurisdiction",
-            "resourceURI": "http://id.loc.gov/ontologies/bibframe/Jurisdiction",
-            "resourceLabel": "Jurisdiction",
-            "propertyTemplates": [
-              {
-                "propertyURI": "http://www.w3.org/2002/07/owl#sameAs",
-                "propertyLabel": "Search LCNAF",
-                "mandatory": "false",
-                "repeatable": "true",
-                "type": "lookup",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [],
-                  "useValuesFrom": [
-                    "http://preprod.id.loc.gov/authorities/names"
-                  ],
-                  "defaults": [],
-                  "valueDataType": {}
-                }
-              }
-            ]
-          },
-          {
-            "id": "lc:RT:bf2:Agent:bfConf",
-            "resourceURI": "http://id.loc.gov/ontologies/bibframe/Meeting",
-            "resourceLabel": "Conference",
-            "propertyTemplates": [
-              {
-                "propertyURI": "http://www.w3.org/2002/07/owl#sameAs",
-                "propertyLabel": "Search LCNAF",
-                "mandatory": "false",
-                "repeatable": "true",
-                "type": "lookup",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [],
-                  "useValuesFrom": [
-                    "http://preprod.id.loc.gov/authorities/names"
-                  ],
-                  "defaults": [],
-                  "valueDataType": {}
-                }
-              }
-            ]
-          },
-          {
             "id": "lc:RT:bf2:Topic:madsTopic",
             "resourceURI": "http://www.loc.gov/mads/rdf/v1#Topic",
             "resourceLabel": "Heading or topical subdivision",
@@ -28241,6 +28076,121 @@
             ]
           },
           {
+            "id": "lc:RT:bf2:Agent:bfPerson",
+            "resourceURI": "http://id.loc.gov/ontologies/bibframe/Person",
+            "resourceLabel": "Person",
+            "propertyTemplates": [
+              {
+                "propertyURI": "http://www.w3.org/2002/07/owl#sameAs",
+                "propertyLabel": "Search LCNAF",
+                "mandatory": "false",
+                "repeatable": "true",
+                "type": "lookup",
+                "resourceTemplates": [],
+                "valueConstraint": {
+                  "valueTemplateRefs": [],
+                  "useValuesFrom": [
+                    "http://preprod.id.loc.gov/authorities/names"
+                  ],
+                  "defaults": [],
+                  "valueDataType": {}
+                }
+              }
+            ]
+          },
+          {
+            "id": "lc:RT:bf2:Agent:bfCorp",
+            "resourceURI": "http://id.loc.gov/ontologies/bibframe/Organization",
+            "resourceLabel": "Corporate body",
+            "propertyTemplates": [
+              {
+                "propertyURI": "http://www.w3.org/2002/07/owl#sameAs",
+                "propertyLabel": "Search LCNAF",
+                "mandatory": "false",
+                "repeatable": "true",
+                "type": "lookup",
+                "resourceTemplates": [],
+                "valueConstraint": {
+                  "valueTemplateRefs": [],
+                  "useValuesFrom": [
+                    "http://preprod.id.loc.gov/authorities/names"
+                  ],
+                  "defaults": [],
+                  "valueDataType": {}
+                }
+              }
+            ]
+          },
+          {
+            "id": "lc:RT:bf2:Agent:bfConf",
+            "resourceURI": "http://id.loc.gov/ontologies/bibframe/Meeting",
+            "resourceLabel": "Conference",
+            "propertyTemplates": [
+              {
+                "propertyURI": "http://www.w3.org/2002/07/owl#sameAs",
+                "propertyLabel": "Search LCNAF",
+                "mandatory": "false",
+                "repeatable": "true",
+                "type": "lookup",
+                "resourceTemplates": [],
+                "valueConstraint": {
+                  "valueTemplateRefs": [],
+                  "useValuesFrom": [
+                    "http://preprod.id.loc.gov/authorities/names"
+                  ],
+                  "defaults": [],
+                  "valueDataType": {}
+                }
+              }
+            ]
+          },
+          {
+            "id": "lc:RT:bf2:Agent:bfFamily",
+            "resourceURI": "http://id.loc.gov/ontologies/bibframe/Family",
+            "resourceLabel": "Family",
+            "propertyTemplates": [
+              {
+                "propertyURI": "http://www.w3.org/2002/07/owl#sameAs",
+                "propertyLabel": "Search LCNAF",
+                "mandatory": "false",
+                "repeatable": "true",
+                "type": "lookup",
+                "resourceTemplates": [],
+                "valueConstraint": {
+                  "valueTemplateRefs": [],
+                  "useValuesFrom": [
+                    "http://preprod.id.loc.gov/authorities/names"
+                  ],
+                  "defaults": [],
+                  "valueDataType": {}
+                }
+              }
+            ]
+          },
+          {
+            "id": "lc:RT:bf2:Agent:bfJurisdiction",
+            "resourceURI": "http://id.loc.gov/ontologies/bibframe/Jurisdiction",
+            "resourceLabel": "Jurisdiction",
+            "propertyTemplates": [
+              {
+                "propertyURI": "http://www.w3.org/2002/07/owl#sameAs",
+                "propertyLabel": "Search LCNAF",
+                "mandatory": "false",
+                "repeatable": "true",
+                "type": "lookup",
+                "resourceTemplates": [],
+                "valueConstraint": {
+                  "valueTemplateRefs": [],
+                  "useValuesFrom": [
+                    "http://preprod.id.loc.gov/authorities/names"
+                  ],
+                  "defaults": [],
+                  "valueDataType": {}
+                }
+              }
+            ]
+          },
+          {
             "id": "lc:RT:bf2:SeriesHubTitle",
             "resourceURI": "http://id.loc.gov/ontologies/bibframe/Title",
             "resourceLabel": "Series Hub title",
@@ -28300,14 +28250,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-07-09T17:21:57.290Z",
-      "updateDate": "2026-07-09T17:21:57.290Z"
+      "createDate": "2026-07-13T16:00:04.213Z",
+      "updateDate": "2026-07-13T16:00:04.213Z"
     },
-    "created": "2026-07-09T17:21:57.290Z",
-    "modified": "2026-07-09T17:21:57.290Z"
+    "created": "2026-07-13T16:00:04.213Z",
+    "modified": "2026-07-13T16:00:04.213Z"
   },
   {
-    "id": "a4341d1c-b6ae-491e-9901-7d20282aef6b",
+    "id": "7ab8c0c6-effc-4e0e-beab-ff27da08ddac",
     "name": "BIBFRAME 2.0 Monograph",
     "configType": "profile",
     "json": {
@@ -32803,14 +32753,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-07-09T17:21:57.309Z",
-      "updateDate": "2026-07-09T17:21:57.309Z"
+      "createDate": "2026-07-13T16:00:04.241Z",
+      "updateDate": "2026-07-13T16:00:04.241Z"
     },
-    "created": "2026-07-09T17:21:57.309Z",
-    "modified": "2026-07-09T17:21:57.309Z"
+    "created": "2026-07-13T16:00:04.241Z",
+    "modified": "2026-07-13T16:00:04.241Z"
   },
   {
-    "id": "7c47f57f-f22a-4ce2-bda0-c895d2270a27",
+    "id": "f4dc164e-3bbc-4576-aa32-bf28684b4b5a",
     "name": "BIBFRAME 2.0 Notated Music",
     "configType": "profile",
     "json": {
@@ -36804,14 +36754,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-07-09T17:21:57.329Z",
-      "updateDate": "2026-07-09T17:21:57.329Z"
+      "createDate": "2026-07-13T16:00:04.277Z",
+      "updateDate": "2026-07-13T16:00:04.277Z"
     },
-    "created": "2026-07-09T17:21:57.329Z",
-    "modified": "2026-07-09T17:21:57.329Z"
+    "created": "2026-07-13T16:00:04.277Z",
+    "modified": "2026-07-13T16:00:04.277Z"
   },
   {
-    "id": "bb948cac-85c5-4895-b666-122e64650ca1",
+    "id": "7d596485-64c5-47d0-bc29-eb2a2455eaea",
     "name": "BIBFRAME 2.0 Note",
     "configType": "profile",
     "json": {
@@ -37208,14 +37158,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-07-09T17:21:57.332Z",
-      "updateDate": "2026-07-09T17:21:57.332Z"
+      "createDate": "2026-07-13T16:00:04.281Z",
+      "updateDate": "2026-07-13T16:00:04.281Z"
     },
-    "created": "2026-07-09T17:21:57.332Z",
-    "modified": "2026-07-09T17:21:57.332Z"
+    "created": "2026-07-13T16:00:04.281Z",
+    "modified": "2026-07-13T16:00:04.281Z"
   },
   {
-    "id": "2cd36b49-a2be-456b-b3da-2ebcedc064fb",
+    "id": "33a799b4-c44e-4e64-9a9a-7ede22db56b5",
     "name": "Prints & Photographs",
     "configType": "profile",
     "json": {
@@ -40535,14 +40485,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-07-09T17:21:57.351Z",
-      "updateDate": "2026-07-09T17:21:57.351Z"
+      "createDate": "2026-07-13T16:00:04.299Z",
+      "updateDate": "2026-07-13T16:00:04.299Z"
     },
-    "created": "2026-07-09T17:21:57.351Z",
-    "modified": "2026-07-09T17:21:57.351Z"
+    "created": "2026-07-13T16:00:04.299Z",
+    "modified": "2026-07-13T16:00:04.299Z"
   },
   {
-    "id": "f8281a93-c383-494a-8cd0-aa5842b87b7a",
+    "id": "113f4b51-f1b3-4507-9b9f-418aba14642c",
     "name": "BIBFRAME 2.0 Publication, Distribution, Manufacturer Activity",
     "configType": "profile",
     "json": {
@@ -40887,14 +40837,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-07-09T17:21:57.352Z",
-      "updateDate": "2026-07-09T17:21:57.352Z"
+      "createDate": "2026-07-13T16:00:04.307Z",
+      "updateDate": "2026-07-13T16:00:04.307Z"
     },
-    "created": "2026-07-09T17:21:57.352Z",
-    "modified": "2026-07-09T17:21:57.352Z"
+    "created": "2026-07-13T16:00:04.307Z",
+    "modified": "2026-07-13T16:00:04.307Z"
   },
   {
-    "id": "9d963917-6692-426a-a4e8-27fd94764348",
+    "id": "c92f0642-c955-45a8-ab86-06284c0aa43c",
     "name": "BIBFRAME 2.0 Rare Materials",
     "configType": "profile",
     "json": {
@@ -44448,14 +44398,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-07-09T17:21:57.373Z",
-      "updateDate": "2026-07-09T17:21:57.373Z"
+      "createDate": "2026-07-13T16:00:04.341Z",
+      "updateDate": "2026-07-13T16:00:04.341Z"
     },
-    "created": "2026-07-09T17:21:57.373Z",
-    "modified": "2026-07-09T17:21:57.373Z"
+    "created": "2026-07-13T16:00:04.341Z",
+    "modified": "2026-07-13T16:00:04.341Z"
   },
   {
-    "id": "e03d2b1a-99d7-43ac-aa14-9119a5de5d89",
+    "id": "1d6a1ef8-6096-4047-9396-101891dca49c",
     "name": "BIBFRAME 2.0 Related Works and Expressions",
     "configType": "profile",
     "json": {
@@ -44856,14 +44806,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-07-09T17:21:57.376Z",
-      "updateDate": "2026-07-09T17:21:57.376Z"
+      "createDate": "2026-07-13T16:00:04.344Z",
+      "updateDate": "2026-07-13T16:00:04.344Z"
     },
-    "created": "2026-07-09T17:21:57.376Z",
-    "modified": "2026-07-09T17:21:57.376Z"
+    "created": "2026-07-13T16:00:04.344Z",
+    "modified": "2026-07-13T16:00:04.344Z"
   },
   {
-    "id": "629b6d33-61ee-4a71-8d79-f7c9a03eb7e2",
+    "id": "fbe3cd76-80f1-4a5b-9c6c-14b94cb1bcb7",
     "name": "BIBFRAME 2.0 Serial",
     "configType": "profile",
     "json": {
@@ -49387,14 +49337,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-07-09T17:21:57.406Z",
-      "updateDate": "2026-07-09T17:21:57.406Z"
+      "createDate": "2026-07-13T16:00:04.366Z",
+      "updateDate": "2026-07-13T16:00:04.366Z"
     },
-    "created": "2026-07-09T17:21:57.406Z",
-    "modified": "2026-07-09T17:21:57.406Z"
+    "created": "2026-07-13T16:00:04.366Z",
+    "modified": "2026-07-13T16:00:04.366Z"
   },
   {
-    "id": "a1b64675-485c-4e2c-81c1-2092a474133f",
+    "id": "92a5edd8-0b0a-465a-a702-596982376131",
     "name": "BIBFRAME 2.0 Series Information",
     "configType": "profile",
     "json": {
@@ -49686,14 +49636,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-07-09T17:21:57.408Z",
-      "updateDate": "2026-07-09T17:21:57.408Z"
+      "createDate": "2026-07-13T16:00:04.368Z",
+      "updateDate": "2026-07-13T16:00:04.368Z"
     },
-    "created": "2026-07-09T17:21:57.408Z",
-    "modified": "2026-07-09T17:21:57.408Z"
+    "created": "2026-07-13T16:00:04.368Z",
+    "modified": "2026-07-13T16:00:04.368Z"
   },
   {
-    "id": "174b7aae-f67d-46a3-86a7-34ad6127b495",
+    "id": "0306f4c8-187b-41f2-8675-b6da0a400f7e",
     "name": "BIBFRAME 2.0 Sound Recording-Audio CD-R",
     "configType": "profile",
     "json": {
@@ -53914,14 +53864,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-07-09T17:21:57.434Z",
-      "updateDate": "2026-07-09T17:21:57.434Z"
+      "createDate": "2026-07-13T16:00:04.393Z",
+      "updateDate": "2026-07-13T16:00:04.393Z"
     },
-    "created": "2026-07-09T17:21:57.434Z",
-    "modified": "2026-07-09T17:21:57.434Z"
+    "created": "2026-07-13T16:00:04.393Z",
+    "modified": "2026-07-13T16:00:04.393Z"
   },
   {
-    "id": "c0666213-0f1b-4a8f-94b2-a239c1f569c6",
+    "id": "bf5ac4fe-2486-471e-9275-0ee68226e375",
     "name": "BIBFRAME 2.0 Sound Recording-Audio Cassette",
     "configType": "profile",
     "json": {
@@ -58036,14 +57986,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-07-09T17:21:57.458Z",
-      "updateDate": "2026-07-09T17:21:57.458Z"
+      "createDate": "2026-07-13T16:00:04.431Z",
+      "updateDate": "2026-07-13T16:00:04.431Z"
     },
-    "created": "2026-07-09T17:21:57.458Z",
-    "modified": "2026-07-09T17:21:57.458Z"
+    "created": "2026-07-13T16:00:04.431Z",
+    "modified": "2026-07-13T16:00:04.431Z"
   },
   {
-    "id": "754aa3f7-c762-4236-ade2-c725787e38f0",
+    "id": "450f534d-defb-48e1-b75f-100c105fadb2",
     "name": "BIBFRAME 2.0 Sound Recording-Audio CD",
     "configType": "profile",
     "json": {
@@ -62227,14 +62177,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-07-09T17:21:57.485Z",
-      "updateDate": "2026-07-09T17:21:57.485Z"
+      "createDate": "2026-07-13T16:00:04.470Z",
+      "updateDate": "2026-07-13T16:00:04.470Z"
     },
-    "created": "2026-07-09T17:21:57.485Z",
-    "modified": "2026-07-09T17:21:57.485Z"
+    "created": "2026-07-13T16:00:04.470Z",
+    "modified": "2026-07-13T16:00:04.470Z"
   },
   {
-    "id": "9c7215bf-f0ae-4969-a16e-73ba61eb26c2",
+    "id": "ec7ec664-a1cf-4cd0-8279-3fb1813d9cdf",
     "name": "BIBFRAME 2.0 Title Information",
     "configType": "profile",
     "json": {
@@ -62731,14 +62681,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-07-09T17:21:57.488Z",
-      "updateDate": "2026-07-09T17:21:57.488Z"
+      "createDate": "2026-07-13T16:00:04.473Z",
+      "updateDate": "2026-07-13T16:00:04.473Z"
     },
-    "created": "2026-07-09T17:21:57.488Z",
-    "modified": "2026-07-09T17:21:57.488Z"
+    "created": "2026-07-13T16:00:04.473Z",
+    "modified": "2026-07-13T16:00:04.473Z"
   },
   {
-    "id": "ce8321aa-8484-40bc-a554-683b7d1e51b8",
+    "id": "e73e5f0a-0384-4e2d-98f0-256559483eb4",
     "name": "BIBFRAME 2.0 Topic",
     "configType": "profile",
     "json": {
@@ -65040,10 +64990,10 @@
       }
     },
     "metadata": {
-      "createDate": "2026-07-09T17:21:57.502Z",
-      "updateDate": "2026-07-09T17:21:57.502Z"
+      "createDate": "2026-07-13T16:00:04.485Z",
+      "updateDate": "2026-07-13T16:00:04.485Z"
     },
-    "created": "2026-07-09T17:21:57.502Z",
-    "modified": "2026-07-09T17:21:57.502Z"
+    "created": "2026-07-13T16:00:04.485Z",
+    "modified": "2026-07-13T16:00:04.485Z"
   }
 ]
