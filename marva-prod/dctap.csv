@@ -579,30 +579,30 @@ lc:RT:bf2:MIBluRayDVD:Event,Event,bf:Event,rdfs:label,Event,false,true,literal,,
 ,,,bf:date,Date of event,false,true,literal,,,,,,,,,
 lc:RT:bf2:MIBluRayDVD:FileType,File type,bf:FileType,owl:sameAs,Lookup,false,false,,,,http://id.loc.gov/vocabulary/mfiletype,IRIstem,,,,,
 lc:RT:bf2:MIBluRayDVD:Instance,BIBFRAME Instance,bf:Instance,bf:instanceOf,Instance of,false,false,bnode,,lc:RT:bf2:MIBluRayDVD:Work,,,,,,,
-,,,bf:title,Title information,true,true,bnode,,lc:RT:bf2:InstanceTitle | lc:RT:bf2:Title:VarTitle | lc:RT:bf2:ParallelTitle,,,,,,,
-,,,bf:responsibilityStatement,Statement of responsibility,false,true,literal,,,,,,,,,
-,,,bf:editionStatement,Edition statement,false,true,literal,,,,,,,,,
-,,,bf:provisionActivity,Provision activity,false,true,bnode,,lc:RT:bf2:PubInfoNew | lc:RT:bf2:DistInfoNew | lc:RT:bf2:ManuInfoNew | lc:RT:bf2:ProdInfoNew,,,,,,,https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates-ProvisionActivity(264)
-,,,bf:copyrightDate,Copyright date,false,true,literal,,,,,,,,,
+,,,bf:title,Title information,true,true,bnode,,lc:RT:bf2:InstanceTitle | lc:RT:bf2:Title:VarTitle | lc:RT:bf2:ParallelTitle,,,,,,,https://bibframe.org/view/documentation-marva-manual/instance-description/title-information.md
+,,,bf:responsibilityStatement,Statement of responsibility,false,true,literal,,,,,,,,,https://bibframe.org/view/documentation-marva-manual/instance-description/statement-of-responsibility.md
+,,,bf:editionStatement,Edition statement,false,true,literal,,,,,,,,,https://bibframe.org/view/documentation-marva-manual/instance-description/edition-statement.md
+,,,bf:provisionActivity,Provision activity,false,true,bnode,,lc:RT:bf2:PubInfoNew | lc:RT:bf2:DistInfoNew | lc:RT:bf2:ManuInfoNew | lc:RT:bf2:ProdInfoNew,,,,,,,https://bibframe.org/view/documentation-marva-manual/instance-description/provision-activity.md
+,,,bf:copyrightDate,Copyright date,false,true,literal,,,,,,,,,https://bibframe.org/view/documentation-marva-manual/instance-description/copyright-date.md
 ,,,bf:originPlace,Place of origin,false,true,,,,http://id.loc.gov/authorities/names,IRIstem,,,,bf:Place,
-,,,bf:issuance,Mode of issuance,false,true,,,,http://id.loc.gov/vocabulary/issuance,IRIstem,,single unit,http://id.loc.gov/vocabulary/issuance/mono,bf:Issuance,
-,,,bf:identifiedBy,Identifiers,false,true,bnode,,lc:RT:bf2:Identifiers:LCCN | lc:RT:bf2:Identifiers:Copyright | lc:RT:bf2:Identifiers:UPC | lc:RT:bf2:Identifiers:ISBN | lc:RT:bf2:Identifiers:PubNumber | lc:RT:bf2:Identifiers:EAN | lc:RT:bf2:Identifiers:Oclc | lc:RT:bf2:Identifiers:Other | lc:RT:bf2:Identifiers:Local | lc:RT:bf2:Identifiers:Gtin14 | lc:RT:bf2:Identifiers:VidRecNumber,,,,,,,
-,,,bf:note,Notes about the Instance,false,true,bnode,,lc:RT:bf2:Note,,,,,,,
-,,,bf:media,Media type,false,true,,,,http://id.loc.gov/vocabulary/mediaTypes,IRIstem,,video,http://id.loc.gov/vocabulary/mediaTypes/v,bf:Media,
-,,,bf:carrier,Carrier type,false,true,,,,http://id.loc.gov/vocabulary/carriers,IRIstem,,videodisc,http://id.loc.gov/vocabulary/carriers/vd,bf:Carrier,
-,,,bf:extent,Physical description,false,true,bnode,,lc:RT:bf2:ExtentExtra,,,,,,,
-,,,bf:dimensions,Dimensions,false,true,literal,,,,,,,,,
+,,,bf:issuance,Mode of issuance,false,true,,,,http://id.loc.gov/vocabulary/issuance,IRIstem,,single unit,http://id.loc.gov/vocabulary/issuance/mono,bf:Issuance,https://bibframe.org/view/documentation-marva-manual/instance-description/mode-of-issuance.md
+,,,bf:identifiedBy,Identifiers,false,true,bnode,,lc:RT:bf2:Identifiers:LCCN | lc:RT:bf2:Identifiers:Copyright | lc:RT:bf2:Identifiers:UPC | lc:RT:bf2:Identifiers:ISBN | lc:RT:bf2:Identifiers:PubNumber | lc:RT:bf2:Identifiers:EAN | lc:RT:bf2:Identifiers:Oclc | lc:RT:bf2:Identifiers:Other | lc:RT:bf2:Identifiers:Local | lc:RT:bf2:Identifiers:Gtin14 | lc:RT:bf2:Identifiers:VidRecNumber,,,,,,,https://bibframe.org/view/documentation-marva-manual/instance-description/identifiers.md
+,,,bf:note,Notes about the Instance,false,true,bnode,,lc:RT:bf2:Note,,,,,,,https://bibframe.org/view/documentation-marva-manual/instance-description/notes-about-instance.md
+,,,bf:media,Media type,false,true,,,,http://id.loc.gov/vocabulary/mediaTypes,IRIstem,,video,http://id.loc.gov/vocabulary/mediaTypes/v,bf:Media,https://bibframe.org/view/documentation-marva-manual/instance-description/media-type.md
+,,,bf:carrier,Carrier type,false,true,,,,http://id.loc.gov/vocabulary/carriers,IRIstem,,videodisc,http://id.loc.gov/vocabulary/carriers/vd,bf:Carrier,https://bibframe.org/view/documentation-marva-manual/instance-description/carrier-type.md
+,,,bf:extent,Physical description,false,true,bnode,,lc:RT:bf2:ExtentExtra,,,,,,,https://bibframe.org/view/documentation-marva-manual/instance-description/physical-description.md
+,,,bf:dimensions,Dimensions,false,true,literal,,,,,,,,,https://bibframe.org/view/documentation-marva-manual/instance-description/dimensions.md
 ,,,bf:duration,Duration,false,true,literal,,,,,,,,,
 ,,,bf:contentAccessibility,"Accessibility content (Closed captions, etc.)",false,true,bnode,,lc:RT:bf2:ContAccess,,,,,,,
 ,,,bf:genreForm,LCGFT accessibility term (Video recordings for ... ),false,true,bnode,,lc:RT:bf2:Form,,,,,,,
-,,,bf:supplementaryContent,Supplementary content URL,false,true,bnode,,lc:RT:bf2:SupplContentNote,,,,,,,
+,,,bf:supplementaryContent,Supplementary content URL,false,true,bnode,,lc:RT:bf2:SupplContentNote,,,,,,,https://bibframe.org/view/documentation-marva-manual/instance-description/supplementary-content-url.md
 ,,,bf:aspectRatio,Aspect ratio,false,true,,,,http://id.loc.gov/vocabulary/maspect,IRIstem,,,,bf:AspectRatio,
 ,,,bf:aspectRatio,Aspect ratio (numeric),false,true,bnode,,lc:RT:bf2:MIBluRayDVD:Aspect,,,,,,,
 ,,,bf:soundCharacteristic,Sound characteristics,false,true,bnode,,lc:RT:bf2:TypeRec | lc:RT:bf2:RecMedium | lc:RT:bf2:MIBluRayDVD:Playback | lc:RT:bf2:SpecPlayback,,,,,,,
 ,,,bf:videoCharacteristic,Video characteristics/Broadcast standard,false,true,,,,http://id.loc.gov/vocabulary/mbroadstd,IRIstem,,,,bf:BroadcastStandard,
 ,,,bf:digitalCharacteristic,Digital file characteristics,false,true,bnode,,lc:RT:bf2:MIBluRayDVD:FileType | lc:RT:bf2:RegEncoding | lc:RT:bf2:MIBluRayDVD:EncFmt | lc:RT:bf2:Resolution,,,,,,,
 ,,,bf:systemRequirement,System requirements,false,true,bnode,,lc:RT:bf2:SysReq,,,,,,,
-,,,bf:electronicLocator,URL of Instance,false,true,bnode,,lc:RT:bf2:URL,,,,,,,
+,,,bf:electronicLocator,URL of Instance,false,true,bnode,,lc:RT:bf2:URL,,,,,,,https://bibframe.org/view/documentation-marva-manual/instance-description/url-of-instance.md
 ,,,bf:hasItem,Has Item,false,true,bnode,,lc:RT:bf2:MIBluRayDVD:Item,,,,,,,
 lc:RT:bf2:MIBluRayDVD:Item,BIBFRAME Item,bf:Item,bf:electronicLocator,URL of Item,false,true,bnode,,lc:RT:bf2:URL,,,,,,,
 ,,,bf:contribution,Collection/contribution,false,true,bnode,,lc:RT:bf2:Agents:bfContribution,,,,,,bf:Contribution,

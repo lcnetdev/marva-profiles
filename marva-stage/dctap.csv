@@ -1449,7 +1449,7 @@ lc:RT:RelWorkInputTitle,Input title,bf:Title,bflc:nonSortNum,Non-sort character 
 lc:RT:RelWorkLookup,Search related work/series,bf:Relation,bf:associatedResource,Search related works/series,FALSE,TRUE,,,,https://preprod-8088.id.loc.gov/resources/works/ | https://preprod-8088.id.loc.gov/resources/hubs/,IRIstem,,,,,
 ,,,bf:seriesEnumeration,Series enumeration (if applicable),FALSE,TRUE,literal,,,,,,,,,
 ,,,bf:relationship,Relationship designator,FALSE,TRUE,,,,http://id.loc.gov/vocabulary/relationship,IRIstem,,,,bf:Relationship,
-lc:RT:RelatedWorkExpression,Related Work-expression,bf:Work,bf:expressionOf,Expression of [search for a Hub],,,,,,http://id.loc.gov/resources/hubs,IRIstem,,,,bf:Hub,
+lc:RT:RelatedWorkExpression,Related Work-expression,bf:Work,bf:expressionOf,Expression of [search for a Hub],,,IRI,,,http://id.loc.gov/resources/hubs,IRIstem,,,,bf:Hub,
 ,,,bf:relationship,Relationship designator,,,,,,http://id.loc.gov/vocabulary/relationship,IRIstem,,,,bf:Relationship,
 ,,,bf:title,Title,,,bnode,,lc:RT:WorkTitle|lc:RT:Title:VarTitle|lc:RT:ParallelTitle,,,,,,,
 ,,,bf:contribution,Contributors,,,bnode,,lc:RT:Agents:Contribution,,,,,,bf:Contribution,
