@@ -944,7 +944,7 @@ lc:RT:Monograph:Work,BIBFRAME Work,bf:Work,bf:expressionOf,Expression of [search
 ,,,bflc:governmentPubType,Government publication,FALSE,TRUE,IRI,,,http://id.loc.gov/vocabulary/mgovtpubtype,IRIstem,,,,bflc:GovernmentPubType,https://bibframe.org/docs/view/documentation-marva-manual/work-description/government-publication.md
 ,,,bf:relation,Search related work/series,FALSE,TRUE,bnode,,lc:RT:RelWorkLookup,,,,,,,https://bibframe.org/docs/view/documentation-marva-manual/work-description/search-related-work.md
 ,,,bf:relation,Input transcribed series,FALSE,TRUE,bnode,,lc:RT:SeriesHub,,,,,,bf:Relation,https://bibframe.org/docs/view/documentation-marva-manual/work-description/input-transcribed-series.md
-,,,bf:relation,Related work not held by LC,FALSE,TRUE,bnode,,lc:RT:RelWorkInput,,,,,,,
+,,,bf:relation,Related work not held by LC,FALSE,TRUE,bnode,,lc:RT:RelWork,,,,,,,
 ,,,bf:originDate,Date of Work,FALSE,TRUE,literal,,,,,,,,,https://bibframe.org/docs/view/documentation-marva-manual/work-description/date-of-work.md
 ,,,bf:originPlace,Country of origin of the Work,FALSE,TRUE,IRI,,,http://id.loc.gov/vocabulary/countries,IRIstem,,,,bf:Place,https://bibframe.org/docs/view/documentation-marva-manual/work-description/country-of-origin.md
 ,,,bf:temporalCoverage,(Time) coverage of the content,FALSE,TRUE,literal,,,,,,,,,https://bibframe.org/docs/view/documentation-marva-manual/work-description/time-coverage.md
@@ -1444,8 +1444,6 @@ lc:RT:RelWorkInput,Related work not in LC catalog,bf:Hub,bf:title,Title,FALSE,TR
 ,,,bf:contribution,Contributor,FALSE,TRUE,bnode,,lc:RT:Agent:bfPerson | lc:RT:Agent:bfCorp | lc:RT:Agent:bfConf | lc:RT:Agent:bfFamily | lc:RT:Agent:bfJurisdiction,,,,,,bf:Contribution,
 ,,,bf:identifiedBy,Identifiers,FALSE,TRUE,bnode,,lc:RT:RelWorkInputNumber,,,,,,,
 ,,,bf:note,Note,FALSE,TRUE,bnode,,lc:RT:NoteSimple,,,,,,,
-,,,bflc:appliesTo,Applies to,FALSE,TRUE,bnode,,lc:RT:AppliesTo,,,,,,,
-,,,bf:relationship,Relationship designator,FALSE,TRUE,,,,http://id.loc.gov/vocabulary/relationship,IRIstem,,,,bf:Relationship,
 lc:RT:RelWorkInputNumber,Input OCLC number,bf:OclcNumber,rdf:value,Input OCLC number,FALSE,TRUE,literal,,,,,,,,,
 lc:RT:RelWorkInputTitle,Input title,bf:Title,bflc:nonSortNum,Non-sort character count,FALSE,TRUE,literal,,,,,,,,,
 ,,,bf:mainTitle,Input title,FALSE,TRUE,literal,,,,,,,,,
