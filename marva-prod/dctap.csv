@@ -897,6 +897,7 @@ lc:RT:bf2:RareMat:Instance,BIBFRAME Instance,bf:Instance,bf:instanceOf,Instance 
 ,,,bf:dimensions,Dimensions,false,true,literal,,,,,,,,,https://bibframe.org/view/documentation-marva-manual/instance-description/dimensions.md
 ,,,bf:bookFormat,Book format,false,true,,,,http://id.loc.gov/vocabulary/bookformat,IRIstem,,,,bf:BookFormat,
 ,,,bf:hasItem,Has Item,false,true,bnode,,lc:RT:bf2:RareMat:Item,,,,,,,
+,,,bf:note,References/Citation note,,true,bnode,,lc:RT:bf2:RareMat:RefWorkNote,,,,,,,
 lc:RT:bf2:RareMat:Item,BIBFRAME Item,bf:Item,bf:classification,Classification number,false,true,bnode,,lc:RT:bf2:RareMat:ItemLcc,,,,,,,
 ,,,bf:contribution,Agents/collections associated with Item,false,true,bnode,,lc:RT:bf2:Agents:bfContribution,,,,,,bf:Contribution,
 ,,,bf:custodialHistory,Custodial history/Provenance,false,true,literal,,,,,,,,,
@@ -911,12 +912,16 @@ lc:RT:bf2:RareMat:ItemLcc,Library of Congress classification,bf:ClassificationLc
 lc:RT:bf2:RareMat:RefWork,Related Works,bf:Relation,bf:title,Title,false,false,bnode,,lc:RT:bf2:RareMat:RefWorkTitle,,,,,,,
 ,,,bf:note,Location of citation,false,true,bnode,,lc:RT:bf2:RareMat:RefWorkNote,,,,,,,
 ,,,rdf:value,URL for reference,false,true,bnode,,lc:RT:bf2:URL,,,,,,,
-,,,bf:relationship,Relationship,false,true,,,,http://id.loc.gov/vocabulary/relationship,IRIstem,,references,http://id.loc.gov/vocabulary/relationship/references,bf:Relationship,
-lc:RT:bf2:RareMat:RefWorkNote,References note,bf:Note,rdfs:label,Location,false,true,literal,,,,,,,,,
-,,,rdf:type,Note type,false,true,,,,http://id.loc.gov/vocabulary/mnotetype,IRIstem,,location,http://id.loc.gov/vocabulary/mnotetype/loc,,
+,,,bf:relationship,Relationship,,,IRI,,,http://id.loc.gov/vocabulary/relationship,IRIstem,,indexed in,http://id.loc.gov/vocabulary/relationship/indexedin,,
+lc:RT:bf2:RareMat:RefWorkNote,References/Citation note,bf:Note,rdfs:label,Note/name of source,false,false,literal,,,,,,,,,
+,,,rdf:type,Note type,false,false,,,,http://id.loc.gov/vocabulary/mnotetype,IRIstem,,reference citation,http://id.loc.gov/vocabulary/mnotetype/refcitation,,
+,,,bflc:citation,Location within source,,,literal,,,,,,,,,
+,,,bf:electronicLocator,URL,,,bnode,,lc:RT:bf2:URL,,,,,,,
+,,,bflc:appliesTo,Applies to,,,bnode,,lc:RT:bf2:AppliesTo,,,,,,,
+,,,bflc:applicableInstitution,Applicable institution,,,,,,http://id.loc.gov/vocabulary/organizations,IRIstem,,,,,
 lc:RT:bf2:RareMat:RefWorkTitle,References title,bf:Title,bf:mainTitle,Title,false,true,literal,,,,,,,,,
 lc:RT:bf2:RareMat:Work,BIBFRAME Work,bf:Work,bf:expressionOf,Expression of [search for a Hub],false,true,,,,https://id.loc.gov/resources/hubs,IRIstem,,,,bf:Hub,https://bibframe.org/view/documentation-marva-manual/work-description/expression-hub.md
-,,,bf:contribution,Creator of Work,false,true,bnode,,lc:RT:bflc:Agents:PrimaryContribution,,,,,,bf:PrimaryContribution,
+,,,bf:contribution,Creator of Work,false,true,bnode,,lc:RT:bflc:Agents:PrimaryContribution,,,,,,bf:PrimaryContribution,https://bibframe.org/docs/view/documentation-marva-manual/work-description/creator-of-work.md
 ,,,bf:title,Title information,true,true,bnode,,lc:RT:bf2:WorkTitle | lc:RT:bf2:Title:VarTitle | lc:RT:bf2:ParallelTitle,,,,,,,https://bibframe.org/view/documentation-marva-manual/work-description/title-information.md
 ,,,bf:contribution,Contribution,false,true,bnode,,lc:RT:bf2:Agents:Contribution,,,,,,bf:Contribution,https://bibframe.org/view/documentation-marva-manual/work-description/contributors.md
 ,,,bf:subject,Subjects,false,true,bnode,,lc:RT:bf2:Components | lc:RT:bf2:Topic:SubjectWork,,,,,,,https://bibframe.org/view/documentation-marva-manual/work-description/subjects.md
@@ -935,7 +940,7 @@ lc:RT:bf2:RareMat:Work,BIBFRAME Work,bf:Work,bf:expressionOf,Expression of [sear
 ,,,bf:supplementaryContent,Supplementary content,false,true,,,,http://id.loc.gov/vocabulary/msupplcont,IRIstem,,,,bf:SupplementaryContent,https://bibframe.org/view/documentation-marva-manual/work-description/supplementary-content.md
 ,,,bf:illustrativeContent,Illustrative content,false,false,,,,http://id.loc.gov/vocabulary/millus,IRIstem,,,,bf:Illustration,https://bibframe.org/view/documentation-marva-manual/work-description/illustrative-content.md
 ,,,bf:colorContent,Color content,false,true,,,,http://id.loc.gov/vocabulary/mcolor,IRIstem,,,,bf:ColorContent,https://bibframe.org/view/documentation-marva-manual/work-description/color-content.md
-,,,bf:relation,References/Related Works,false,true,bnode,,lc:RT:bf2:RareMat:RefWork,,,,,,,"https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates-Hubs(240;X00,X10,X11with$t;X30)"
+,,,bf:relation,Search related work/series,,true,bnode,,lc:RT:bf2:RelWorkLookup,,,,,,,https://bibframe.org/docs/view/documentation-marva-manual/work-description/search-related-work.md
 ,,,bf:relation,Input transcribed series,false,true,bnode,,lc:RT:bf2:SeriesHub,,,,,,,https://bibframe.org/view/documentation-marva-manual/work-description/input-transcribed-series.md
 ,,,bf:hasInstance,Add BIBFRAME Instance,false,true,bnode,,lc:RT:bf2:RareMat:Instance,,,,,,,
 lc:RT:bf2:RecGen,Recording generation,bf:Generation,owl:sameAs,Lookup,false,false,,,,http://id.loc.gov/vocabulary/mgeneration,IRIstem,,,,,
