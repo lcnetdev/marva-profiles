@@ -431,6 +431,7 @@ lc:RT:Cartographic:Polygon,Polygon,http://www.opengis.net/gml/3.2/Polygon,gml:ex
 ,,,gml:interior,Interior,,,,,lc:RT:Cartographic:Interior,,,,,,,
 lc:RT:Cartographic:ScaleNew,Numeric scale value,bf:Scale,rdf:value,Scale value (ex: 1:100),FALSE,TRUE,literal,,,,,,,,,
 lc:RT:Cartographic:Work,BIBFRAME Work,bf:Work,bf:expressionOf,Expression of [Search for a Hub],,,,,,https://id.loc.gov/resources/hubs,IRIstem,,,,bf:Hub,https://bibframe.org/docs/view/documentation-marva-manual/work-description/expression-hub.md
+,,,rdf:type,Work Type,,,IRI,,,bf:Cartography|bf:Manuscript|bf:Object,picklist,,,,,
 ,,,bf:contribution,Creator,FALSE,TRUE,bnode,,lc:RT:bflc:Agents:PrimaryContribution,,,,,,bf:PrimaryContribution,
 ,,,bf:title,Title information,TRUE,TRUE,bnode,,lc:RT:WorkTitle | lc:RT:Title:VarTitle | lc:RT:ParallelTitle,,,,,,,
 ,,,bf:contribution,Contributors,FALSE,TRUE,bnode,,lc:RT:Agents:Contribution,,,,,,bf:Contribution,
