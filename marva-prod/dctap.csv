@@ -490,7 +490,7 @@ lc:RT:bf2:Identifiers:ISSNL,ISSN-L,bf:IssnL,rdf:value,ISSN-L,false,false,literal
 lc:RT:bf2:Identifiers:LC,LC item call number,bf:ShelfMarkLcc,rdfs:label,Item call number,false,true,literal,,,,,,,,,
 lc:RT:bf2:Identifiers:LCCN,LCCN,bf:Lccn,rdf:value,LCCN,false,false,literal,,,,,,,,,
 ,,,bf:status,Invalid/canceled?,false,true,,,,http://preprod.id.loc.gov/vocabulary/mstatus,IRIstem,,,,bf:Status,
-lc:RT:bf2:Identifiers:LCOverseas,LcOverseasAcq,bf:LcOverseasAcq,rdf:value,Identifier,false,true,literal,,,,,,,,,
+lc:RT:bf2:Identifiers:LCOverseas,LC Overseas Acq,bf:LcOverseasAcq,rdf:value,Identifier,false,true,literal,,,,,,,,,
 ,,,bf:status,Invalid/Canceled,false,true,,,,http://preprod.id.loc.gov/vocabulary/mstatus,IRIstem,,,,bf:Status,
 lc:RT:bf2:Identifiers:Local,Local system number,bf:Local,rdf:value,Local system number,false,false,literal,,,,,,,,,
 ,,,bf:source,Source of number,false,true,,,,http://preprod.id.loc.gov/vocabulary/organizations,IRIstem,,,,bf:Source,
@@ -664,7 +664,7 @@ lc:RT:bf2:Monograph:Instance,BIBFRAME Instance,bf:Instance,bf:instanceOf,Instanc
 ,,,bf:provisionActivity,Provision activity,false,true,bnode,,lc:RT:bf2:PubInfoNew | lc:RT:bf2:DistInfoNew | lc:RT:bf2:ManuInfoNew | lc:RT:bf2:ProdInfoNew,,,,,,,https://bibframe.org/docs/view/documentation-marva-manual/instance-description/provision-activity.md#provision-activity
 ,,,bf:copyrightDate,Copyright date,false,true,literal,,,,,,,,,
 ,,,bf:issuance,Mode of issuance,true,true,,,,http://preprod.id.loc.gov/vocabulary/issuance,IRIstem,,single unit,http://id.loc.gov/vocabulary/issuance/mono,bf:Issuance,https://bibframe.org/docs/view/documentation-marva-manual/instance-description/mode-of-issuance.md#mode-of-issuance
-,,,bf:identifiedBy,Identifiers,false,true,bnode,,lc:RT:bf2:Identifiers:LCCN | lc:RT:bf2:Identifiers:ISBN | lc:RT:bf2:Identifiers:Oclc | lc:RT:bf2:Identifiers:Other | lc:RT:bf2:Identifiers:Local | lc:RT:bf2:Identifiers:EAN | lc:RT:bf2:Identifiers:Nbn | lc:RT:bf2:Identifiers:LCOverseas,,,,,,,https://bibframe.org/docs/view/documentation-marva-manual/instance-description/identifiers.md#identifiers
+,,,bf:identifiedBy,Identifiers,false,true,bnode,,lc:RT:bf2:Identifiers:LCCN|lc:RT:bf2:Identifiers:ISBN|lc:RT:bf2:Identifiers:Oclc|lc:RT:bf2:Identifiers:Other|lc:RT:bf2:Identifiers:Local|lc:RT:bf2:Identifiers:EAN|lc:RT:bf2:Identifiers:Nbn|lc:RT:bf2:Identifiers:LCOverseas|lc:RT:bf2:Identifiers:UPC,,,,,,,https://bibframe.org/docs/view/documentation-marva-manual/instance-description/identifiers.md#identifiers
 ,,,bf:acquisitionSource,Acquisitions identifiers,false,true,bnode,,lc:RT:bf2:AcqSource,,,,,,,
 ,,,bf:note,Notes about the Instance,false,true,bnode,,lc:RT:bf2:Note,,,,,,,https://bibframe.org/docs/view/documentation-marva-manual/instance-description/notes-about-instance.md#notes-about-the-instance
 ,,,bf:supplementaryContent,Supplementary content URL,false,true,bnode,,lc:RT:bf2:SupplContentNote,,,,,,,https://bibframe.org/docs/view/documentation-marva-manual/instance-description/supplementary-content-url.md#supplementary-content-url
