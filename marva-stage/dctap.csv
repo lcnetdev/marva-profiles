@@ -1093,6 +1093,7 @@ lc:RT:NotatedMusicMulti:RelWork,Input related work,bf:Relation,bf:associatedReso
 ,,,bf:note,Note,,,bnode,,lc:RT:Note,,,,,,,
 ,,,bf:identifiedBy,Identifiers,,TRUE,bnode,,lc:RT:Identifiers:OpusNumber|lc:RT:Identifiers:ThematicCatalog|lc:RT:Identifiers:SerialNumber,,,,,,,
 lc:RT:NotatedMusicMulti:Work,BIBFRAME Work,bf:Work,bf:expressionOf,Expression of [search for a Hub],,,,,,https://id.loc.gov/resources/hubs,IRIstem,,,,bf:Hub,https://bibframe.org/docs/view/documentation-marva-manual/work-description/expression-hub.md
+,,,rdf:type,Work Type,,,IRI,,,bf:NotatedMusic|bf:NotatedMovement,picklist,,,,,
 ,,,bf:contribution,Creator,,,bnode,,lc:RT:bflc:Agents:PrimaryContribution,,,,,,bf:PrimaryContribution,
 ,,,bf:title,Title,,TRUE,bnode,,lc:RT:WorkTitle|lc:RT:Title:VarTitle|lc:RT:ParallelTitle,,,,,,,
 ,,,bf:language,"Language (008 [1st], 041 $a [others])",,TRUE,,,,http://id.loc.gov/vocabulary/languages,IRIstem,,,,bf:Language,
