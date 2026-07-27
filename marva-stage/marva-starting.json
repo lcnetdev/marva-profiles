@@ -1,6 +1,6 @@
 [
   {
-    "id": "4591e55e-39e4-40a8-9711-2bd8dd91425b",
+    "id": "704db873-f96d-4973-9f68-e234c2da762e",
     "name": "config",
     "configType": "startingPoints",
     "json": [
@@ -28,7 +28,7 @@
         ]
       },
       {
-        "menuGroup": "Notated Music: Multi",
+        "menuGroup": "Notated Music",
         "menuItems": [
           {
             "label": "Work",
@@ -341,7 +341,7 @@
         ]
       },
       {
-        "menuGroup": "Related WorkExpression",
+        "menuGroup": "Music Related Work",
         "menuItems": [
           {
             "label": "Work",
