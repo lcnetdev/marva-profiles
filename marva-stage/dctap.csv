@@ -1102,6 +1102,7 @@ lc:RT:NotatedMusicMulti:Work,BIBFRAME Work,bf:Work,bf:expressionOf,Expression of
 ,,,bf:note,Language note (041 $hijkmnpqr),,,bnode,,lc:RT:LangNote,,,,,,,
 ,,,bf:classification,Classification numbers,,TRUE,bnode,,lc:RT:LCC,,,,,,,
 ,,,bf:content,Content type,,FALSE,,,,http://id.loc.gov/vocabulary/contentTypes,IRIstem,,notated music,http://id.loc.gov/vocabulary/contentTypes/ntm,,
+,,,bf:geographicCoverage,Geographic coverage,,,bnode,,lc:RT:Form:Geog,,,,,,,
 ,,,bf:genreForm,Genre/Form,,TRUE,bnode,,lc:RT:Form,,,,,,bf:GenreForm,
 ,,,bf:subject,Subjects,,TRUE,bnode,,lc:RT:Components|lc:RT:Topic:Place:Components|lc:RT:Topic:SubjectWork,,,,,,,
 ,,,bf:note,Notes about the Work,,TRUE,bnode,,lc:RT:Note,,,,,,,
