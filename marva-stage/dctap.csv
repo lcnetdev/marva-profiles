@@ -1396,7 +1396,7 @@ lc:RT:RegEncoding,Regional encoding,bf:RegionalEncoding,owl:sameAs,Lookup,FALSE,
 lc:RT:RelWork,Related work not in LC catalog,bf:Relation,bf:associatedResource,Related work not in LC catalog,,,bnode,,lc:RT:RelWorkInput,,,,,,bf:Hub,
 ,,,bflc:appliesTo,Applies to,,,bnode,,lc:RT:AppliesTo,,,,,,,
 ,,,bf:relationship,Relationship,,,,,,http://id.loc.gov/vocabulary/relationship,IRIstem,,,,bf:Relationship,
-lc:RT:RelWorkExpressionLookup,Search related work/series,bf:Relation,bf:associatedResource,Search related work,FALSE,TRUE,,,,https://preprod-8088.id.loc.gov/resources/works/ | https://preprod-8088.id.loc.gov/resources/hubs/,IRIstem,,,,,https://bibframe.org/docs/view/documentation-marva-manual/work-description/search-related-work.md
+lc:RT:RelWorkExpressionLookup,Search related work/series,bf:Relation,bf:associatedResource,Search related work,FALSE,TRUE,,,,https://preprod-8299.id.loc.gov/resources/music-related-works/,IRIstem,,,,,https://bibframe.org/docs/view/documentation-marva-manual/work-description/search-related-work.md
 ,,,bf:relationship,Relationship designator,FALSE,TRUE,,,,http://id.loc.gov/vocabulary/relationship,IRIstem,,,,bf:Relationship,
 lc:RT:RelWorkInput,Related work not in LC catalog,bf:Hub,bf:title,Title,FALSE,TRUE,bnode,,lc:RT:RelWorkInputTitle,,,,,,,
 ,,,bf:contribution,Contributor,FALSE,TRUE,bnode,,lc:RT:Agent:bfPerson | lc:RT:Agent:bfCorp | lc:RT:Agent:bfConf | lc:RT:Agent:bfFamily | lc:RT:Agent:bfJurisdiction,,,,,,bf:Contribution,
