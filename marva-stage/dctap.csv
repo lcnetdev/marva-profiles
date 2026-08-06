@@ -396,6 +396,8 @@ lc:RT:CaptureStorage,Capture and storage,bf:CaptureStorage,owl:sameAs,Lookup,FAL
 lc:RT:Cartographic:Attributes,Cartographic attributes,bf:Cartographic,bf:coordinates,Coordinates,FALSE,TRUE,literal,,,,,,,,,
 ,,,bf:projection,Projection,FALSE,TRUE,,,,http://id.loc.gov/vocabulary/mprojection,IRIstem,,,,bf:Projection,
 ,,,bf:relief,Relief,FALSE,TRUE,,,,http://id.loc.gov/vocabulary/mrelief,IRIstem,,,,bf:Relief,
+,,,bf:outerGRing,Outer G-ring,,,literal,,,,,,,,,
+,,,bf:exclusionGRing,Exclusion G-ring,,,literal,,,,,,,,,
 lc:RT:Cartographic:DataType,Cartographic data type,bf:CartographicDataType,rdfs:label,Cartographic data type,FALSE,TRUE,literal,,,,,,,,,
 lc:RT:Cartographic:EncodingFormat,Encoding format,bf:EncodingFormat,owl:sameAs,Digital image format,FALSE,TRUE,,,,http://id.loc.gov/vocabulary/mencformat,IRIstem,,,,,
 lc:RT:Cartographic:FileType,File type,bf:FileType,owl:sameAs,File type,FALSE,TRUE,,,,http://id.loc.gov/vocabulary/mfiletype,IRIstem,,,,,
