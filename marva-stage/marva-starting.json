@@ -1,6 +1,6 @@
 [
   {
-    "id": "3abe5a1b-d3a8-41ad-b61b-3ed7a8605747",
+    "id": "df70228e-9032-481a-877a-422d9be6641c",
     "name": "config",
     "configType": "startingPoints",
     "json": [
@@ -36,7 +36,7 @@
               "http://id.loc.gov/ontologies/bibframe/Work"
             ],
             "useResourceTemplates": [
-              "lc:RT:NotatedMusicMulti:Work"
+              "lc:RT:NotatedMusic:Work"
             ]
           },
           {
@@ -45,7 +45,16 @@
               "http://id.loc.gov/ontologies/bibframe/Instance"
             ],
             "useResourceTemplates": [
-              "lc:RT:NotatedMusicNew:Instance"
+              "lc:RT:NotatedMusic:Instance"
+            ]
+          },
+          {
+            "label": "Item",
+            "type": [
+              "http://id.loc.gov/ontologies/bibframe/Item"
+            ],
+            "useResourceTemplates": [
+              "lc:RT:NotatedMusic:Item"
             ]
           }
         ]
