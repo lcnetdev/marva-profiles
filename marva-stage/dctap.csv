@@ -1049,7 +1049,7 @@ lc:RT:NotatedMusic:Instance,BIBFRAME Instance,bf:Instance,bf:instanceOf,Instance
 lc:RT:NotatedMusic:Item,BIBFRAME Item,bf:Item,bf:electronicLocator,URL of Item,FALSE,TRUE,bnode,,lc:RT:URL,,,,,,,
 ,,,bf:contribution,Collection/contribution,FALSE,TRUE,bnode,,lc:RT:Agents:bfContribution,,,,,,bf:Contribution,
 ,,,bf:note,Notes about the Item,FALSE,TRUE,bnode,,lc:RT:NoteLc,,,,,,,
-lc:RT:NotatedMusic:Work,BIBFRAME Work,bf:Work,bf:expressionOf,Expression of [Search for a Hub],,,,,,https://id.loc.gov/resources/hubs,IRIstem,,,,bf:Hub,
+lc:RT:NotatedMusic:WorkRef,BIBFRAME Work,bf:Work,bf:expressionOf,Expression of [Search for a Hub],,,,,,https://id.loc.gov/resources/hubs,IRIstem,,,,bf:Hub,
 ,,,rdf:type,Work type,,,IRI,,,bf:NotatedMusic|bf:Manuscript,picklist,,,,,
 ,,,bf:contribution,Creator of Work,FALSE,TRUE,bnode,,lc:RT:bflc:Agents:PrimaryContribution,,,,,,bf:PrimaryContribution,
 ,,,bf:title,Title information,TRUE,TRUE,bnode,,lc:RT:WorkTitle | lc:RT:Title:VarTitle | lc:RT:ParallelTitle,,,,,,,
