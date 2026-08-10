@@ -262,7 +262,7 @@ lc:RT:Agents:Addresses:Extended,"Addresses, extended",mads:Address,mads:streetAd
 ,,,mads:state,State,FALSE,TRUE,literal,,,,,,,,,
 ,,,mads:country,Country,FALSE,TRUE,literal,,,,,,,,,
 ,,,mads:postcode,Zip Code or Post Code,FALSE,TRUE,literal,,,,,,,,,
-lc:RT:Agents:Contribution,Contribution,bf:Contribution,bf:agent,Agent,false,false,bnode,,lc:RT:Agent:bfPerson | lc:RT:Agent:bfCorp | lc:RT:Agent:bfConf | lc:RT:Agent:bfJurisdiction | lc:RT:Agent:bfFamily,,,,,,,
+lc:RT:Agents:Contribution,Contribution,bf:Contribution,bf:agent,Agent,false,false,bnode,,lc:RT:Agent:bfPerson | lc:RT:Agent:bfCorp | lc:RT:Agent:bfConf | lc:RT:Agent:bfJurisdiction | lc:RT:Agent:bfFamily,,,,,,,https://bibframe.org/view/documentation-marva-manual/work-description/contributors.md
 ,,,bf:role,Relationship designator(s),FALSE,true,IRI,,,http://id.loc.gov/vocabulary/relators | https://id.loc.gov/vocabulary/rbmsrel,IRIstem,,,,bf:Role,
 lc:RT:Agents:RWO:Affiliation,Affiliation,mads:Affiliation,mads:authoritativeLabel,Search LCNAF,FALSE,TRUE,,,,,,,,,mads:Affiliation,
 ,,,mads:Affiliation,"Input Affiliation (RDA 9.13, RDA 11.5)",FALSE,TRUE,literal,,,,,,,,,
@@ -1028,19 +1028,19 @@ lc:RT:NLM,National Library of Medicine classification,bf:ClassificationNlm,bf:cl
 ,,,bf:assigner,Assigning agency,FALSE,TRUE,,,,http://id.loc.gov/vocabulary/organizations,IRIstem,,United States National Library of Medicine,http://id.loc.gov/vocabulary/organizations/dnlm,bf:Agent,
 ,,,bf:status,Used by assigning agency?,FALSE,TRUE,,,,https://id.loc.gov/vocabulary/mstatus,IRIstem,,used by assigner,http://id.loc.gov/vocabulary/mstatus/uba,bf:Status,
 lc:RT:NotatedMusic:Instance,BIBFRAME Instance,bf:Instance,bf:instanceOf,Instance of,FALSE,TRUE,bnode,,lc:RT:NotatedMusicNew:Work,,,,,,,
-,,,bf:title,Title,FALSE,TRUE,bnode,,lc:RT:InstanceTitle | lc:RT:Title:VarTitle | lc:RT:ParallelTitle | lc:RT:Title:CollTitle,,,,,,,
-,,,bf:responsibilityStatement,Statement of responsibility,FALSE,TRUE,literal,,,,,,,,,
-,,,bf:editionStatement,Edition statement,FALSE,TRUE,literal,,,,,,,,,
-,,,bf:provisionActivity,Provision activity,FALSE,TRUE,bnode,,lc:RT:PubInfoNew | lc:RT:DistInfoNew | lc:RT:ManuInfoNew | lc:RT:ProdInfoNew,,,,,,,
-,,,bf:copyrightDate,Copyright date,FALSE,TRUE,literal,,,,,,,,,
-,,,bf:issuance,Mode of issuance,FALSE,TRUE,,,,http://id.loc.gov/vocabulary/issuance,IRIstem,,single unit,http://id.loc.gov/vocabulary/issuance/mono,bf:Issuance,
-,,,bf:identifiedBy,Identifiers,FALSE,TRUE,bnode,,lc:RT:Identifiers:LCCN | lc:RT:Identifiers:ISBN | lc:RT:Identifiers:ISMN | lc:RT:Identifiers:UPC | lc:RT:Identifiers:Distributor | lc:RT:Identifiers:MusicPlate | lc:RT:Identifiers:MusicPub | lc:RT:Identifiers:Oclc | lc:RT:Identifiers:Other | lc:RT:Identifiers:Local | lc:RT:Identifiers:Copyright,,,,,,,
+,,,bf:title,Title,FALSE,TRUE,bnode,,lc:RT:InstanceTitle | lc:RT:Title:VarTitle | lc:RT:ParallelTitle | lc:RT:Title:CollTitle,,,,,,,https://bibframe.org/view/documentation-marva-manual/instance-description/title-information.md
+,,,bf:responsibilityStatement,Statement of responsibility,FALSE,TRUE,literal,,,,,,,,,https://bibframe.org/view/documentation-marva-manual/instance-description/statement-of-responsibility.md
+,,,bf:editionStatement,Edition statement,FALSE,TRUE,literal,,,,,,,,,https://bibframe.org/view/documentation-marva-manual/instance-description/edition-statement.md
+,,,bf:provisionActivity,Provision activity,FALSE,TRUE,bnode,,lc:RT:PubInfoNew | lc:RT:DistInfoNew | lc:RT:ManuInfoNew | lc:RT:ProdInfoNew,,,,,,,https://bibframe.org/view/documentation-marva-manual/instance-description/provision-activity.md
+,,,bf:copyrightDate,Copyright date,FALSE,TRUE,literal,,,,,,,,,https://bibframe.org/view/documentation-marva-manual/instance-description/copyright-date.md
+,,,bf:issuance,Mode of issuance,FALSE,TRUE,,,,http://id.loc.gov/vocabulary/issuance,IRIstem,,single unit,http://id.loc.gov/vocabulary/issuance/mono,bf:Issuance,https://bibframe.org/view/documentation-marva-manual/instance-description/mode-of-issuance.md
+,,,bf:identifiedBy,Identifiers,FALSE,TRUE,bnode,,lc:RT:Identifiers:LCCN | lc:RT:Identifiers:ISBN | lc:RT:Identifiers:ISMN | lc:RT:Identifiers:UPC | lc:RT:Identifiers:Distributor | lc:RT:Identifiers:MusicPlate | lc:RT:Identifiers:MusicPub | lc:RT:Identifiers:Oclc | lc:RT:Identifiers:Other | lc:RT:Identifiers:Local | lc:RT:Identifiers:Copyright,,,,,,,https://bibframe.org/view/documentation-marva-manual/instance-description/identifiers.md
 ,,,bf:note,Notes about the Instance,FALSE,TRUE,bnode,,lc:RT:Note,,,,,,,
-,,,bf:supplementaryContent,Supplementary content URL,FALSE,TRUE,bnode,,lc:RT:SupplContentNote,,,,,,,
-,,,bf:media,Media type,FALSE,TRUE,,,,http://id.loc.gov/vocabulary/mediaTypes,IRIstem,,unmediated,http://id.loc.gov/vocabulary/mediaTypes/n,bf:Media,
-,,,bf:carrier,Carrier type,FALSE,TRUE,,,,http://id.loc.gov/vocabulary/carriers,IRIstem,,volume,http://id.loc.gov/vocabulary/carriers/nc,bf:Carrier,
-,,,bf:extent,Physical description,FALSE,TRUE,bnode,,lc:RT:Extent,,,,,,,
-,,,bf:dimensions,Dimensions,FALSE,TRUE,literal,,,,,,,,,
+,,,bf:supplementaryContent,Supplementary content URL,FALSE,TRUE,bnode,,lc:RT:SupplContentNote,,,,,,,https://bibframe.org/view/documentation-marva-manual/instance-description/supplementary-content-url.md
+,,,bf:media,Media type,FALSE,TRUE,,,,http://id.loc.gov/vocabulary/mediaTypes,IRIstem,,unmediated,http://id.loc.gov/vocabulary/mediaTypes/n,bf:Media,https://bibframe.org/view/documentation-marva-manual/instance-description/media-type.md
+,,,bf:carrier,Carrier type,FALSE,TRUE,,,,http://id.loc.gov/vocabulary/carriers,IRIstem,,volume,http://id.loc.gov/vocabulary/carriers/nc,bf:Carrier,https://bibframe.org/view/documentation-marva-manual/instance-description/carrier-type.md
+,,,bf:extent,Physical description,FALSE,TRUE,bnode,,lc:RT:Extent,,,,,,,https://bibframe.org/view/documentation-marva-manual/instance-description/physical-description.md
+,,,bf:dimensions,Dimensions,FALSE,TRUE,literal,,,,,,,,,https://bibframe.org/view/documentation-marva-manual/instance-description/dimensions.md
 ,,,bf:duration,Duration,FALSE,TRUE,literal,,,,,,,,,
 ,,,bf:electronicLocator,URL of Instance,FALSE,TRUE,bnode,,lc:RT:URL,,,,,,,
 ,,,bf:hasItem,Has Item,FALSE,TRUE,bnode,,lc:RT:NotatedMusic:Item,,,,,,,
@@ -1049,22 +1049,23 @@ lc:RT:NotatedMusic:Item,BIBFRAME Item,bf:Item,bf:electronicLocator,URL of Item,F
 ,,,bf:note,Notes about the Item,FALSE,TRUE,bnode,,lc:RT:NoteLc,,,,,,,
 lc:RT:NotatedMusic:Work,BIBFRAME Work,bf:Work,bf:expressionOf,Expression of [search for a Hub],,,,,,https://id.loc.gov/resources/hubs,IRIstem,,,,bf:Hub,https://bibframe.org/docs/view/documentation-marva-manual/work-description/expression-hub.md
 ,,,rdf:type,Work Type,,,IRI,,,bf:NotatedMusic|bf:Manuscript,picklist,,,,,
-,,,bf:contribution,Creator,,,bnode,,lc:RT:bflc:Agents:PrimaryContribution,,,,,,bf:PrimaryContribution,
-,,,bf:title,Title,,TRUE,bnode,,lc:RT:WorkTitle|lc:RT:Title:VarTitle|lc:RT:ParallelTitle,,,,,,,
-,,,bf:contribution,Contributors,,,bnode,,lc:RT:Agents:Contribution,,,,,,bf:Contribution,
-,,,bf:language,"Language (008 [1st], 041 $a [others])",,TRUE,,,,http://id.loc.gov/vocabulary/languages,IRIstem,,,,bf:Language,
-,,,bf:accompaniedBy,Language resource (041 $bdefgt),,,bnode,,lc:RT:LangResource,,,,,,,
-,,,bf:note,Language note (041 $hijkmnpqr),,,bnode,,lc:RT:LangNote,,,,,,,
-,,,bf:classification,Classification numbers,,TRUE,bnode,,lc:RT:LCC|lc:RT:DDC,,,,,,,
-,,,bf:content,Content type,,FALSE,IRI,,,http://id.loc.gov/vocabulary/contentTypes,IRIstem,,notated music,http://id.loc.gov/vocabulary/contentTypes/ntm,bf:Content,
-,,,bf:geographicCoverage,Geographic coverage,,,bnode,,lc:RT:Form:Geog,,,,,,,
-,,,bf:genreForm,Genre/Form,,TRUE,bnode,,lc:RT:Form,,,,,,bf:GenreForm,
-,,,bf:subject,Subjects,,TRUE,bnode,,lc:RT:Components|lc:RT:Topic:Place:Components|lc:RT:Topic:SubjectWork,,,,,,,
-,,,bf:note,Notes about the Work,,TRUE,bnode,,lc:RT:Note,,,,,,,
-,,,bf:tableOfContents,Contents,,TRUE,bnode,,lc:RT:Contents,,,,,,,
-,,,bf:summary,Summary,,TRUE,bnode,,lc:RT:Summary,,,,,,,
-,,,bf:relation,Input transcribed series,,,bnode,,lc:RT:SeriesHub,,,,,,,
-,,,bf:relation,Search related work/series,,TRUE,bnode,,lc:RT:RelWorkLookup,,,,,,,
+,,,bf:contribution,Creator,,,bnode,,lc:RT:bflc:Agents:PrimaryContribution,,,,,,bf:PrimaryContribution,https://bibframe.org/view/documentation-marva-manual/work-description/creator-of-work.md
+,,,bf:title,Title,,TRUE,bnode,,lc:RT:WorkTitle|lc:RT:Title:VarTitle|lc:RT:ParallelTitle,,,,,,,https://bibframe.org/view/documentation-marva-manual/work-description/title-information.md
+,,,bf:contribution,Contributors,,,bnode,,lc:RT:Agents:Contribution,,,,,,bf:Contribution,https://bibframe.org/view/documentation-marva-manual/work-description/contributors.md
+,,,bf:language,"Language (008 [1st], 041 $a [others])",,TRUE,,,,http://id.loc.gov/vocabulary/languages,IRIstem,,,,bf:Language,https://bibframe.org/view/documentation-marva-manual/work-description/language.md
+,,,bf:language,ISO 639-3 language (041 $a),,,,,,http://id.loc.gov/vocabulary/iso639-3,IRIstem,,,,bf:Language,
+,,,bf:accompaniedBy,Language resource (041 $bdefgt),,,bnode,,lc:RT:LangResource,,,,,,,https://bibframe.org/view/documentation-marva-manual/work-description/language.md
+,,,bf:note,Language note (041 $hijkmnpqr),,,bnode,,lc:RT:LangNote,,,,,,,https://bibframe.org/view/documentation-marva-manual/work-description/language.md
+,,,bf:classification,Classification numbers,,TRUE,bnode,,lc:RT:LCC|lc:RT:DDC,,,,,,,https://bibframe.org/view/documentation-marva-manual/work-description/classification-numbers.md
+,,,bf:content,Content type,,FALSE,IRI,,,http://id.loc.gov/vocabulary/contentTypes,IRIstem,,notated music,http://id.loc.gov/vocabulary/contentTypes/ntm,bf:Content,https://bibframe.org/view/documentation-marva-manual/work-description/content-type.md
+,,,bf:geographicCoverage,Geographic coverage,,,bnode,,lc:RT:Form:Geog,,,,,,,https://bibframe.org/view/documentation-marva-manual/work-description/geographic-coverage.md
+,,,bf:genreForm,Genre/Form,,TRUE,bnode,,lc:RT:Form,,,,,,bf:GenreForm,https://bibframe.org/view/documentation-marva-manual/work-description/genre-form.md
+,,,bf:subject,Subjects,,TRUE,bnode,,lc:RT:Components|lc:RT:Topic:Place:Components|lc:RT:Topic:SubjectWork,,,,,,,https://bibframe.org/view/documentation-marva-manual/work-description/subjects.md
+,,,bf:note,Notes about the Work,,TRUE,bnode,,lc:RT:Note,,,,,,,https://bibframe.org/view/documentation-marva-manual/work-description/notes-about-work.md
+,,,bf:tableOfContents,Contents,,TRUE,bnode,,lc:RT:Contents,,,,,,,https://bibframe.org/view/documentation-marva-manual/work-description/contents.md
+,,,bf:summary,Summary,,TRUE,bnode,,lc:RT:Summary,,,,,,,https://bibframe.org/view/documentation-marva-manual/work-description/summary.md
+,,,bf:relation,Input transcribed series,,,bnode,,lc:RT:SeriesHub,,,,,,,https://bibframe.org/view/documentation-marva-manual/work-description/input-transcribed-series.md
+,,,bf:relation,Search related work/series,,TRUE,bnode,,lc:RT:RelWorkLookup,,,,,,,https://bibframe.org/view/documentation-marva-manual/work-description/search-related-work.md
 ,,,bf:relation,Add Music related work,,,bnode,,lc:RT:RelWorkExpressionLookup,,,,,,,
 ,,,bf:hasInstance,Add BIBFRAME Instance,,TRUE,bnode,,lc:RT:NotatedMusic:Instance,,,,,,,
 lc:RT:NotatedMusic:WorkRef,BIBFRAME Work,bf:Work,bf:expressionOf,Expression of [search for a Hub],FALSE,TRUE,,,,https://id.loc.gov/resources/hubs,IRIstem,,,,bf:Hub,
@@ -1853,7 +1854,7 @@ lc:RT:VideoCassette:Work,BIBFRAME Work,bf:Work,bf:expressionOf,Expression of [se
 ,,,bf:hasInstance,Add BIBFRAME Instance,FALSE,TRUE,bnode,,lc:RT:VideoCassette:Instance,,,,,,,
 lc:RT:WorkTitle,Work title,bf:Title,bflc:nonSortNum,Non-sort character count,FALSE,TRUE,literal,,,,,,,,,
 ,,,bf:mainTitle,Title,FALSE,FALSE,literal,,,,,,,,,https://bibframe.org/docs/view/documentation-marva-manual/work-description/title-information.md
-lc:RT:bflc:Agents:PrimaryContribution,Primary contribution,bf:PrimaryContribution,bf:agent,Primary contributor,FALSE,false,bnode,,lc:RT:Agent:bfPerson | lc:RT:Agent:bfCorp | lc:RT:Agent:bfConf | lc:RT:Agent:bfJurisdiction | lc:RT:Agent:bfFamily,,,,,,bf:PrimaryContribution,
+lc:RT:bflc:Agents:PrimaryContribution,Primary contribution,bf:PrimaryContribution,bf:agent,Primary contributor,FALSE,false,bnode,,lc:RT:Agent:bfPerson | lc:RT:Agent:bfCorp | lc:RT:Agent:bfConf | lc:RT:Agent:bfJurisdiction | lc:RT:Agent:bfFamily,,,,,,bf:PrimaryContribution,https://bibframe.org/docs/view/documentation-marva-manual/work-description/contributors.md
 ,,,bf:role,Relationship designator,FALSE,true,IRI,,,http://id.loc.gov/vocabulary/relators | https://id.loc.gov/vocabulary/rbmsrel,IRIstem,,,,bf:Role,
 lc:RT:bflc:TranscribedTitle,Transliterated title,bf:TransliteratedTitle,bflc:nonSortNum,Non-sort character count,FALSE,TRUE,literal,,,,,,,,,
 ,,,bf:mainTitle,Title,FALSE,FALSE,literal,,,,,,,,,

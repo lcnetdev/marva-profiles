@@ -1,6 +1,6 @@
 [
   {
-    "id": "4d2946dd-4627-45bf-aa09-e783479cbc7e",
+    "id": "ebe980c4-cdf2-43f4-9849-090d2eb7783a",
     "name": "BIBFRAME 2.0 Moving Image",
     "configType": "profile",
     "json": {
@@ -2157,7 +2157,8 @@
                   "defaults": [],
                   "valueDataType": {},
                   "picklist": []
-                }
+                },
+                "remark": "https://bibframe.org/view/documentation-marva-manual/work-description/contributors.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/role",
@@ -2207,7 +2208,8 @@
                     "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/PrimaryContribution"
                   },
                   "picklist": []
-                }
+                },
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/work-description/contributors.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/role",
@@ -4322,14 +4324,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-08-07T20:43:52.862Z",
-      "updateDate": "2026-08-07T20:43:52.862Z"
+      "createDate": "2026-08-10T15:00:01.630Z",
+      "updateDate": "2026-08-10T15:00:01.630Z"
     },
-    "created": "2026-08-07T20:43:52.862Z",
-    "modified": "2026-08-07T20:43:52.862Z"
+    "created": "2026-08-10T15:00:01.630Z",
+    "modified": "2026-08-10T15:00:01.630Z"
   },
   {
-    "id": "ba87109c-e44a-436f-901e-cc193adb1653",
+    "id": "e876f4c2-f14a-4833-b804-1715725f5668",
     "name": "Three-dimensional object",
     "configType": "profile",
     "json": {
@@ -5060,7 +5062,8 @@
                     "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/PrimaryContribution"
                   },
                   "picklist": []
-                }
+                },
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/work-description/contributors.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/role",
@@ -5108,7 +5111,8 @@
                   "defaults": [],
                   "valueDataType": {},
                   "picklist": []
-                }
+                },
+                "remark": "https://bibframe.org/view/documentation-marva-manual/work-description/contributors.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/role",
@@ -6315,14 +6319,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-08-07T20:43:52.869Z",
-      "updateDate": "2026-08-07T20:43:52.869Z"
+      "createDate": "2026-08-10T15:00:01.638Z",
+      "updateDate": "2026-08-10T15:00:01.638Z"
     },
-    "created": "2026-08-07T20:43:52.869Z",
-    "modified": "2026-08-07T20:43:52.869Z"
+    "created": "2026-08-10T15:00:01.638Z",
+    "modified": "2026-08-10T15:00:01.638Z"
   },
   {
-    "id": "2622a0fb-f589-4422-a062-c5072296fb30",
+    "id": "a31356de-6004-4a6f-a658-bcc1b9957e16",
     "name": "BIBFRAME 2.0 Admin Metadata",
     "configType": "profile",
     "json": {
@@ -6907,14 +6911,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-08-07T20:43:52.871Z",
-      "updateDate": "2026-08-07T20:43:52.871Z"
+      "createDate": "2026-08-10T15:00:01.640Z",
+      "updateDate": "2026-08-10T15:00:01.640Z"
     },
-    "created": "2026-08-07T20:43:52.871Z",
-    "modified": "2026-08-07T20:43:52.871Z"
+    "created": "2026-08-10T15:00:01.640Z",
+    "modified": "2026-08-10T15:00:01.640Z"
   },
   {
-    "id": "35c3b803-b553-498a-b30d-8df96812f58d",
+    "id": "1d872a1b-6f02-41a6-ac91-8d027236ca0e",
     "name": "BIBFRAME 2.0 Agents",
     "configType": "profile",
     "json": {
@@ -9709,14 +9713,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-08-07T20:43:52.880Z",
-      "updateDate": "2026-08-07T20:43:52.880Z"
+      "createDate": "2026-08-10T15:00:01.650Z",
+      "updateDate": "2026-08-10T15:00:01.650Z"
     },
-    "created": "2026-08-07T20:43:52.880Z",
-    "modified": "2026-08-07T20:43:52.880Z"
+    "created": "2026-08-10T15:00:01.650Z",
+    "modified": "2026-08-10T15:00:01.650Z"
   },
   {
-    "id": "7056c6d7-bf6c-4f1d-8891-24121a94d06c",
+    "id": "ef96a73a-dba5-4f43-9761-deb74f41e99e",
     "name": "BIBFRAME 2.0 RWO",
     "configType": "profile",
     "json": {
@@ -10697,14 +10701,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-08-07T20:43:52.884Z",
-      "updateDate": "2026-08-07T20:43:52.884Z"
+      "createDate": "2026-08-10T15:00:01.653Z",
+      "updateDate": "2026-08-10T15:00:01.653Z"
     },
-    "created": "2026-08-07T20:43:52.884Z",
-    "modified": "2026-08-07T20:43:52.884Z"
+    "created": "2026-08-10T15:00:01.653Z",
+    "modified": "2026-08-10T15:00:01.653Z"
   },
   {
-    "id": "5a62d4a1-1ead-4773-8d6b-78759f412390",
+    "id": "636f617d-a715-464f-8385-cd6d36245e34",
     "name": "BIBFRAME 2.0 Agents Contribution",
     "configType": "profile",
     "json": {
@@ -10736,7 +10740,8 @@
                   "defaults": [],
                   "valueDataType": {},
                   "picklist": []
-                }
+                },
+                "remark": "https://bibframe.org/view/documentation-marva-manual/work-description/contributors.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/role",
@@ -10955,14 +10960,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-08-07T20:43:52.885Z",
-      "updateDate": "2026-08-07T20:43:52.885Z"
+      "createDate": "2026-08-10T15:00:01.654Z",
+      "updateDate": "2026-08-10T15:00:01.654Z"
     },
-    "created": "2026-08-07T20:43:52.885Z",
-    "modified": "2026-08-07T20:43:52.885Z"
+    "created": "2026-08-10T15:00:01.654Z",
+    "modified": "2026-08-10T15:00:01.654Z"
   },
   {
-    "id": "31f6a937-8ed3-418f-9cc3-11c4a8a57f9c",
+    "id": "82792485-1ea3-4fd5-a8aa-30ce691e5b3d",
     "name": "BIBFRAME 2.0 Sound Recording-Analog",
     "configType": "profile",
     "json": {
@@ -12062,7 +12067,8 @@
                     "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/PrimaryContribution"
                   },
                   "picklist": []
-                }
+                },
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/work-description/contributors.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/role",
@@ -12350,7 +12356,8 @@
                   "defaults": [],
                   "valueDataType": {},
                   "picklist": []
-                }
+                },
+                "remark": "https://bibframe.org/view/documentation-marva-manual/work-description/contributors.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/role",
@@ -15376,14 +15383,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-08-07T20:43:52.902Z",
-      "updateDate": "2026-08-07T20:43:52.902Z"
+      "createDate": "2026-08-10T15:00:01.671Z",
+      "updateDate": "2026-08-10T15:00:01.671Z"
     },
-    "created": "2026-08-07T20:43:52.902Z",
-    "modified": "2026-08-07T20:43:52.902Z"
+    "created": "2026-08-10T15:00:01.671Z",
+    "modified": "2026-08-10T15:00:01.671Z"
   },
   {
-    "id": "cde90e92-efe7-477c-a446-f2fecf9ff1bb",
+    "id": "a024bacd-6bda-414d-a1cc-58f4abaafb75",
     "name": "BIBFRAME 2.0 Cartographic",
     "configType": "profile",
     "json": {
@@ -16632,7 +16639,8 @@
                     "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/PrimaryContribution"
                   },
                   "picklist": []
-                }
+                },
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/work-description/contributors.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/role",
@@ -16920,7 +16928,8 @@
                   "defaults": [],
                   "valueDataType": {},
                   "picklist": []
-                }
+                },
+                "remark": "https://bibframe.org/view/documentation-marva-manual/work-description/contributors.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/role",
@@ -19243,14 +19252,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-08-07T20:43:52.915Z",
-      "updateDate": "2026-08-07T20:43:52.915Z"
+      "createDate": "2026-08-10T15:00:01.685Z",
+      "updateDate": "2026-08-10T15:00:01.685Z"
     },
-    "created": "2026-08-07T20:43:52.915Z",
-    "modified": "2026-08-07T20:43:52.915Z"
+    "created": "2026-08-10T15:00:01.685Z",
+    "modified": "2026-08-10T15:00:01.685Z"
   },
   {
-    "id": "ecb4ee6c-8cce-4dad-b2e9-5b7a652eed18",
+    "id": "5906188e-7c28-4ab8-979f-138f5f3f2085",
     "name": "BIBFRAME 2.0 Classification",
     "configType": "profile",
     "json": {
@@ -19829,14 +19838,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-08-07T20:43:52.917Z",
-      "updateDate": "2026-08-07T20:43:52.917Z"
+      "createDate": "2026-08-10T15:00:01.687Z",
+      "updateDate": "2026-08-10T15:00:01.687Z"
     },
-    "created": "2026-08-07T20:43:52.917Z",
-    "modified": "2026-08-07T20:43:52.917Z"
+    "created": "2026-08-10T15:00:01.687Z",
+    "modified": "2026-08-10T15:00:01.687Z"
   },
   {
-    "id": "14716478-0534-406a-8345-34de55192759",
+    "id": "6479abfa-2935-4634-a5cb-cb174b6721f0",
     "name": "BIBFRAME 2.0 Form",
     "configType": "profile",
     "json": {
@@ -20086,14 +20095,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-08-07T20:43:52.919Z",
-      "updateDate": "2026-08-07T20:43:52.919Z"
+      "createDate": "2026-08-10T15:00:01.688Z",
+      "updateDate": "2026-08-10T15:00:01.688Z"
     },
-    "created": "2026-08-07T20:43:52.919Z",
-    "modified": "2026-08-07T20:43:52.919Z"
+    "created": "2026-08-10T15:00:01.688Z",
+    "modified": "2026-08-10T15:00:01.688Z"
   },
   {
-    "id": "69b73711-f4cc-430b-a704-86c0b85327f2",
+    "id": "942a60a5-9357-4bfc-94ca-81e6e22a40c2",
     "name": "GPO Monograph",
     "configType": "profile",
     "json": {
@@ -20510,7 +20519,8 @@
                     "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/PrimaryContribution"
                   },
                   "picklist": []
-                }
+                },
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/work-description/contributors.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/role",
@@ -22226,14 +22236,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-08-07T20:43:52.926Z",
-      "updateDate": "2026-08-07T20:43:52.926Z"
+      "createDate": "2026-08-10T15:00:01.696Z",
+      "updateDate": "2026-08-10T15:00:01.696Z"
     },
-    "created": "2026-08-07T20:43:52.926Z",
-    "modified": "2026-08-07T20:43:52.926Z"
+    "created": "2026-08-10T15:00:01.696Z",
+    "modified": "2026-08-10T15:00:01.696Z"
   },
   {
-    "id": "2a6ae29b-3eac-4c31-a19b-0e372ac6e6af",
+    "id": "5c78328b-4196-427f-88fb-6fc04a5b90ba",
     "name": "GPO Serial",
     "configType": "profile",
     "json": {
@@ -23346,7 +23356,8 @@
                     "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/PrimaryContribution"
                   },
                   "picklist": []
-                }
+                },
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/work-description/contributors.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/role",
@@ -23953,7 +23964,8 @@
                   "defaults": [],
                   "valueDataType": {},
                   "picklist": []
-                }
+                },
+                "remark": "https://bibframe.org/view/documentation-marva-manual/work-description/contributors.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/role",
@@ -26810,14 +26822,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-08-07T20:43:52.942Z",
-      "updateDate": "2026-08-07T20:43:52.942Z"
+      "createDate": "2026-08-10T15:00:01.718Z",
+      "updateDate": "2026-08-10T15:00:01.718Z"
     },
-    "created": "2026-08-07T20:43:52.942Z",
-    "modified": "2026-08-07T20:43:52.942Z"
+    "created": "2026-08-10T15:00:01.718Z",
+    "modified": "2026-08-10T15:00:01.718Z"
   },
   {
-    "id": "4de3c80e-c6e6-416c-be46-5951d1d64306",
+    "id": "efe630e3-f61e-48f8-80d6-07b4df621a27",
     "name": "Test BF hub",
     "configType": "profile",
     "json": {
@@ -27718,14 +27730,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-08-07T20:43:52.947Z",
-      "updateDate": "2026-08-07T20:43:52.947Z"
+      "createDate": "2026-08-10T15:00:01.721Z",
+      "updateDate": "2026-08-10T15:00:01.721Z"
     },
-    "created": "2026-08-07T20:43:52.947Z",
-    "modified": "2026-08-07T20:43:52.947Z"
+    "created": "2026-08-10T15:00:01.721Z",
+    "modified": "2026-08-10T15:00:01.721Z"
   },
   {
-    "id": "3fa75415-9901-4f9d-9f55-b9a09ba8a855",
+    "id": "0fbee801-3dc5-4464-951c-8995b8d12dc2",
     "name": "BF Hub",
     "configType": "profile",
     "json": {
@@ -27941,7 +27953,8 @@
                     "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/PrimaryContribution"
                   },
                   "picklist": []
-                }
+                },
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/work-description/contributors.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/role",
@@ -28593,14 +28606,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-08-07T20:43:52.950Z",
-      "updateDate": "2026-08-07T20:43:52.950Z"
+      "createDate": "2026-08-10T15:00:01.729Z",
+      "updateDate": "2026-08-10T15:00:01.729Z"
     },
-    "created": "2026-08-07T20:43:52.950Z",
-    "modified": "2026-08-07T20:43:52.950Z"
+    "created": "2026-08-10T15:00:01.729Z",
+    "modified": "2026-08-10T15:00:01.729Z"
   },
   {
-    "id": "992852cd-6431-4b5c-8a9d-92d7d97baa70",
+    "id": "72bcc4f4-036c-4e24-ba47-fffad46a6c68",
     "name": "IBC description",
     "configType": "profile",
     "json": {
@@ -29111,7 +29124,8 @@
                     "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/PrimaryContribution"
                   },
                   "picklist": []
-                }
+                },
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/work-description/contributors.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/role",
@@ -32526,7 +32540,8 @@
                   "defaults": [],
                   "valueDataType": {},
                   "picklist": []
-                }
+                },
+                "remark": "https://bibframe.org/view/documentation-marva-manual/work-description/contributors.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/role",
@@ -34089,14 +34104,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-08-07T20:43:52.967Z",
-      "updateDate": "2026-08-07T20:43:52.967Z"
+      "createDate": "2026-08-10T15:00:01.751Z",
+      "updateDate": "2026-08-10T15:00:01.751Z"
     },
-    "created": "2026-08-07T20:43:52.967Z",
-    "modified": "2026-08-07T20:43:52.967Z"
+    "created": "2026-08-10T15:00:01.751Z",
+    "modified": "2026-08-10T15:00:01.751Z"
   },
   {
-    "id": "c168c543-686c-43c1-b3a5-eab25d789cce",
+    "id": "226da204-8e4d-4539-8ef6-183e023afaf5",
     "name": "BIBFRAME 2.0 Identifiers",
     "configType": "profile",
     "json": {
@@ -35763,14 +35778,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-08-07T20:43:52.976Z",
-      "updateDate": "2026-08-07T20:43:52.976Z"
+      "createDate": "2026-08-10T15:00:01.759Z",
+      "updateDate": "2026-08-10T15:00:01.759Z"
     },
-    "created": "2026-08-07T20:43:52.976Z",
-    "modified": "2026-08-07T20:43:52.976Z"
+    "created": "2026-08-10T15:00:01.759Z",
+    "modified": "2026-08-10T15:00:01.759Z"
   },
   {
-    "id": "f9dc18e6-4a3c-4a14-8ff9-337b6f0d1a52",
+    "id": "a68faec6-44ce-4b09-99ef-b290991a8315",
     "name": "BIBFRAME 2.0 Item",
     "configType": "profile",
     "json": {
@@ -36298,7 +36313,8 @@
                   "defaults": [],
                   "valueDataType": {},
                   "picklist": []
-                }
+                },
+                "remark": "https://bibframe.org/view/documentation-marva-manual/work-description/contributors.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/role",
@@ -36542,14 +36558,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-08-07T20:43:52.980Z",
-      "updateDate": "2026-08-07T20:43:52.980Z"
+      "createDate": "2026-08-10T15:00:01.763Z",
+      "updateDate": "2026-08-10T15:00:01.763Z"
     },
-    "created": "2026-08-07T20:43:52.980Z",
-    "modified": "2026-08-07T20:43:52.980Z"
+    "created": "2026-08-10T15:00:01.763Z",
+    "modified": "2026-08-10T15:00:01.763Z"
   },
   {
-    "id": "f7d773ef-a071-42f8-ae8c-53438e17e7e3",
+    "id": "4671b702-ba1a-4a46-8970-5dd3c987922d",
     "name": "BIBFRAME 2.0 Language",
     "configType": "profile",
     "json": {
@@ -36653,14 +36669,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-08-07T20:43:52.980Z",
-      "updateDate": "2026-08-07T20:43:52.980Z"
+      "createDate": "2026-08-10T15:00:01.763Z",
+      "updateDate": "2026-08-10T15:00:01.763Z"
     },
-    "created": "2026-08-07T20:43:52.980Z",
-    "modified": "2026-08-07T20:43:52.980Z"
+    "created": "2026-08-10T15:00:01.763Z",
+    "modified": "2026-08-10T15:00:01.763Z"
   },
   {
-    "id": "68769634-952a-43dc-9b2a-62eeffa9e3cb",
+    "id": "6b38d9c2-dcb3-4cb3-9a70-9e2f8a9cba16",
     "name": "BIBFRAME 2.0 Moving Image-DVD",
     "configType": "profile",
     "json": {
@@ -38489,7 +38505,8 @@
                     "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/PrimaryContribution"
                   },
                   "picklist": []
-                }
+                },
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/work-description/contributors.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/role",
@@ -38537,7 +38554,8 @@
                   "defaults": [],
                   "valueDataType": {},
                   "picklist": []
-                }
+                },
+                "remark": "https://bibframe.org/view/documentation-marva-manual/work-description/contributors.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/role",
@@ -41367,14 +41385,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-08-07T20:43:52.997Z",
-      "updateDate": "2026-08-07T20:43:52.997Z"
+      "createDate": "2026-08-10T15:00:01.782Z",
+      "updateDate": "2026-08-10T15:00:01.782Z"
     },
-    "created": "2026-08-07T20:43:52.997Z",
-    "modified": "2026-08-07T20:43:52.997Z"
+    "created": "2026-08-10T15:00:01.782Z",
+    "modified": "2026-08-10T15:00:01.782Z"
   },
   {
-    "id": "42b2e337-9756-4868-8037-320a4d8b8b25",
+    "id": "7546a067-7efa-4a79-ab98-5477ae9b8e01",
     "name": "Monograph Collection",
     "configType": "profile",
     "json": {
@@ -42341,7 +42359,8 @@
                   "defaults": [],
                   "valueDataType": {},
                   "picklist": []
-                }
+                },
+                "remark": "https://bibframe.org/view/documentation-marva-manual/work-description/contributors.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/role",
@@ -44456,14 +44475,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-08-07T20:43:53.010Z",
-      "updateDate": "2026-08-07T20:43:53.010Z"
+      "createDate": "2026-08-10T15:00:01.794Z",
+      "updateDate": "2026-08-10T15:00:01.794Z"
     },
-    "created": "2026-08-07T20:43:53.010Z",
-    "modified": "2026-08-07T20:43:53.010Z"
+    "created": "2026-08-10T15:00:01.794Z",
+    "modified": "2026-08-10T15:00:01.794Z"
   },
   {
-    "id": "77790fb9-ecc6-4f79-a42d-b60f1078e4bf",
+    "id": "6858b5a9-7d9e-4345-82cb-ee755548e9f8",
     "name": "BIBFRAME 2.0 Monograph TEST",
     "configType": "profile",
     "json": {
@@ -45757,7 +45776,8 @@
                     "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/PrimaryContribution"
                   },
                   "picklist": []
-                }
+                },
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/work-description/contributors.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/role",
@@ -46045,7 +46065,8 @@
                   "defaults": [],
                   "valueDataType": {},
                   "picklist": []
-                }
+                },
+                "remark": "https://bibframe.org/view/documentation-marva-manual/work-description/contributors.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/role",
@@ -49202,14 +49223,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-08-07T20:43:53.026Z",
-      "updateDate": "2026-08-07T20:43:53.026Z"
+      "createDate": "2026-08-10T15:00:01.811Z",
+      "updateDate": "2026-08-10T15:00:01.811Z"
     },
-    "created": "2026-08-07T20:43:53.026Z",
-    "modified": "2026-08-07T20:43:53.026Z"
+    "created": "2026-08-10T15:00:01.811Z",
+    "modified": "2026-08-10T15:00:01.811Z"
   },
   {
-    "id": "0494fa21-0190-4d30-9548-8e92423d33d3",
+    "id": "c8f9fa28-f887-4815-b269-0441a41fda7d",
     "name": "BIBFRAME 2.0 Monograph (Non-Latin)",
     "configType": "profile",
     "json": {
@@ -50243,7 +50264,8 @@
                     "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/PrimaryContribution"
                   },
                   "picklist": []
-                }
+                },
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/work-description/contributors.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/role",
@@ -50579,7 +50601,8 @@
                   "defaults": [],
                   "valueDataType": {},
                   "picklist": []
-                }
+                },
+                "remark": "https://bibframe.org/view/documentation-marva-manual/work-description/contributors.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/role",
@@ -52627,14 +52650,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-08-07T20:43:53.038Z",
-      "updateDate": "2026-08-07T20:43:53.038Z"
+      "createDate": "2026-08-10T15:00:01.830Z",
+      "updateDate": "2026-08-10T15:00:01.830Z"
     },
-    "created": "2026-08-07T20:43:53.038Z",
-    "modified": "2026-08-07T20:43:53.038Z"
+    "created": "2026-08-10T15:00:01.830Z",
+    "modified": "2026-08-10T15:00:01.830Z"
   },
   {
-    "id": "c9aaa1c3-dda5-4a75-ba19-3f81715004b4",
+    "id": "ed0cdfc1-f236-4dca-881a-b48bea0c89e5",
     "name": "BIBFRAME 2.0 Notated Music",
     "configType": "profile",
     "json": {
@@ -52702,7 +52725,8 @@
                     "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/PrimaryContribution"
                   },
                   "picklist": []
-                }
+                },
+                "remark": "https://bibframe.org/view/documentation-marva-manual/work-description/creator-of-work.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/title",
@@ -52721,7 +52745,8 @@
                   "defaults": [],
                   "valueDataType": {},
                   "picklist": []
-                }
+                },
+                "remark": "https://bibframe.org/view/documentation-marva-manual/work-description/title-information.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/contribution",
@@ -52740,7 +52765,8 @@
                     "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Contribution"
                   },
                   "picklist": []
-                }
+                },
+                "remark": "https://bibframe.org/view/documentation-marva-manual/work-description/contributors.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/language",
@@ -52753,6 +52779,26 @@
                   "valueTemplateRefs": [],
                   "useValuesFrom": [
                     "http://id.loc.gov/vocabulary/languages"
+                  ],
+                  "defaults": [],
+                  "valueDataType": {
+                    "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Language"
+                  },
+                  "picklist": []
+                },
+                "remark": "https://bibframe.org/view/documentation-marva-manual/work-description/language.md"
+              },
+              {
+                "propertyURI": "http://id.loc.gov/ontologies/bibframe/language",
+                "propertyLabel": "ISO 639-3 language (041 $a)",
+                "mandatory": "false",
+                "repeatable": "false",
+                "type": "lookup",
+                "resourceTemplates": [],
+                "valueConstraint": {
+                  "valueTemplateRefs": [],
+                  "useValuesFrom": [
+                    "http://id.loc.gov/vocabulary/iso639-3"
                   ],
                   "defaults": [],
                   "valueDataType": {
@@ -52776,7 +52822,8 @@
                   "defaults": [],
                   "valueDataType": {},
                   "picklist": []
-                }
+                },
+                "remark": "https://bibframe.org/view/documentation-marva-manual/work-description/language.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/note",
@@ -52793,7 +52840,8 @@
                   "defaults": [],
                   "valueDataType": {},
                   "picklist": []
-                }
+                },
+                "remark": "https://bibframe.org/view/documentation-marva-manual/work-description/language.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/classification",
@@ -52811,7 +52859,8 @@
                   "defaults": [],
                   "valueDataType": {},
                   "picklist": []
-                }
+                },
+                "remark": "https://bibframe.org/view/documentation-marva-manual/work-description/classification-numbers.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/content",
@@ -52835,7 +52884,8 @@
                     "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Content"
                   },
                   "picklist": []
-                }
+                },
+                "remark": "https://bibframe.org/view/documentation-marva-manual/work-description/content-type.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/geographicCoverage",
@@ -52852,7 +52902,8 @@
                   "defaults": [],
                   "valueDataType": {},
                   "picklist": []
-                }
+                },
+                "remark": "https://bibframe.org/view/documentation-marva-manual/work-description/geographic-coverage.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/genreForm",
@@ -52871,7 +52922,8 @@
                     "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/GenreForm"
                   },
                   "picklist": []
-                }
+                },
+                "remark": "https://bibframe.org/view/documentation-marva-manual/work-description/genre-form.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/subject",
@@ -52890,7 +52942,8 @@
                   "defaults": [],
                   "valueDataType": {},
                   "picklist": []
-                }
+                },
+                "remark": "https://bibframe.org/view/documentation-marva-manual/work-description/subjects.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/note",
@@ -52907,7 +52960,8 @@
                   "defaults": [],
                   "valueDataType": {},
                   "picklist": []
-                }
+                },
+                "remark": "https://bibframe.org/view/documentation-marva-manual/work-description/notes-about-work.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/tableOfContents",
@@ -52924,7 +52978,8 @@
                   "defaults": [],
                   "valueDataType": {},
                   "picklist": []
-                }
+                },
+                "remark": "https://bibframe.org/view/documentation-marva-manual/work-description/contents.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/summary",
@@ -52941,7 +52996,8 @@
                   "defaults": [],
                   "valueDataType": {},
                   "picklist": []
-                }
+                },
+                "remark": "https://bibframe.org/view/documentation-marva-manual/work-description/summary.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/relation",
@@ -52958,7 +53014,8 @@
                   "defaults": [],
                   "valueDataType": {},
                   "picklist": []
-                }
+                },
+                "remark": "https://bibframe.org/view/documentation-marva-manual/work-description/input-transcribed-series.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/relation",
@@ -52975,7 +53032,8 @@
                   "defaults": [],
                   "valueDataType": {},
                   "picklist": []
-                }
+                },
+                "remark": "https://bibframe.org/view/documentation-marva-manual/work-description/search-related-work.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/relation",
@@ -53053,7 +53111,8 @@
                   "defaults": [],
                   "valueDataType": {},
                   "picklist": []
-                }
+                },
+                "remark": "https://bibframe.org/view/documentation-marva-manual/instance-description/title-information.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/responsibilityStatement",
@@ -53068,7 +53127,8 @@
                   "defaults": [],
                   "valueDataType": {},
                   "picklist": []
-                }
+                },
+                "remark": "https://bibframe.org/view/documentation-marva-manual/instance-description/statement-of-responsibility.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/editionStatement",
@@ -53083,7 +53143,8 @@
                   "defaults": [],
                   "valueDataType": {},
                   "picklist": []
-                }
+                },
+                "remark": "https://bibframe.org/view/documentation-marva-manual/instance-description/edition-statement.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/provisionActivity",
@@ -53103,7 +53164,8 @@
                   "defaults": [],
                   "valueDataType": {},
                   "picklist": []
-                }
+                },
+                "remark": "https://bibframe.org/view/documentation-marva-manual/instance-description/provision-activity.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/copyrightDate",
@@ -53118,7 +53180,8 @@
                   "defaults": [],
                   "valueDataType": {},
                   "picklist": []
-                }
+                },
+                "remark": "https://bibframe.org/view/documentation-marva-manual/instance-description/copyright-date.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/issuance",
@@ -53142,7 +53205,8 @@
                     "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Issuance"
                   },
                   "picklist": []
-                }
+                },
+                "remark": "https://bibframe.org/view/documentation-marva-manual/instance-description/mode-of-issuance.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/identifiedBy",
@@ -53169,7 +53233,8 @@
                   "defaults": [],
                   "valueDataType": {},
                   "picklist": []
-                }
+                },
+                "remark": "https://bibframe.org/view/documentation-marva-manual/instance-description/identifiers.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/note",
@@ -53203,7 +53268,8 @@
                   "defaults": [],
                   "valueDataType": {},
                   "picklist": []
-                }
+                },
+                "remark": "https://bibframe.org/view/documentation-marva-manual/instance-description/supplementary-content-url.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/media",
@@ -53227,7 +53293,8 @@
                     "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Media"
                   },
                   "picklist": []
-                }
+                },
+                "remark": "https://bibframe.org/view/documentation-marva-manual/instance-description/media-type.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/carrier",
@@ -53251,7 +53318,8 @@
                     "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Carrier"
                   },
                   "picklist": []
-                }
+                },
+                "remark": "https://bibframe.org/view/documentation-marva-manual/instance-description/carrier-type.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/extent",
@@ -53268,7 +53336,8 @@
                   "defaults": [],
                   "valueDataType": {},
                   "picklist": []
-                }
+                },
+                "remark": "https://bibframe.org/view/documentation-marva-manual/instance-description/physical-description.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/dimensions",
@@ -53283,7 +53352,8 @@
                   "defaults": [],
                   "valueDataType": {},
                   "picklist": []
-                }
+                },
+                "remark": "https://bibframe.org/view/documentation-marva-manual/instance-description/dimensions.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/duration",
@@ -53422,7 +53492,8 @@
                     "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/PrimaryContribution"
                   },
                   "picklist": []
-                }
+                },
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/work-description/contributors.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/role",
@@ -53710,7 +53781,8 @@
                   "defaults": [],
                   "valueDataType": {},
                   "picklist": []
-                }
+                },
+                "remark": "https://bibframe.org/view/documentation-marva-manual/work-description/contributors.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/role",
@@ -56210,14 +56282,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-08-07T20:43:53.051Z",
-      "updateDate": "2026-08-07T20:43:53.051Z"
+      "createDate": "2026-08-10T15:00:01.844Z",
+      "updateDate": "2026-08-10T15:00:01.844Z"
     },
-    "created": "2026-08-07T20:43:53.051Z",
-    "modified": "2026-08-07T20:43:53.051Z"
+    "created": "2026-08-10T15:00:01.844Z",
+    "modified": "2026-08-10T15:00:01.844Z"
   },
   {
-    "id": "2b12d9e7-5ab0-4303-bf4d-4be9288bc9f5",
+    "id": "fb58007e-44f2-486f-8cf7-0224a93c04fd",
     "name": "BIBFRAME 2.0 Note",
     "configType": "profile",
     "json": {
@@ -56606,14 +56678,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-08-07T20:43:53.052Z",
-      "updateDate": "2026-08-07T20:43:53.052Z"
+      "createDate": "2026-08-10T15:00:01.847Z",
+      "updateDate": "2026-08-10T15:00:01.847Z"
     },
-    "created": "2026-08-07T20:43:53.052Z",
-    "modified": "2026-08-07T20:43:53.052Z"
+    "created": "2026-08-10T15:00:01.847Z",
+    "modified": "2026-08-10T15:00:01.847Z"
   },
   {
-    "id": "6e0db1f7-b8e3-422f-9aad-2d7d72382fd8",
+    "id": "0e1ea055-5948-44f5-8411-f45c336071be",
     "name": "BIBFRAME Official RDA Monograph",
     "configType": "profile",
     "json": {
@@ -57624,7 +57696,8 @@
                     "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/PrimaryContribution"
                   },
                   "picklist": []
-                }
+                },
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/work-description/contributors.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/role",
@@ -61054,7 +61127,8 @@
                   "defaults": [],
                   "valueDataType": {},
                   "picklist": []
-                }
+                },
+                "remark": "https://bibframe.org/view/documentation-marva-manual/work-description/contributors.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/role",
@@ -62448,14 +62522,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-08-07T20:43:53.075Z",
-      "updateDate": "2026-08-07T20:43:53.075Z"
+      "createDate": "2026-08-10T15:00:01.873Z",
+      "updateDate": "2026-08-10T15:00:01.873Z"
     },
-    "created": "2026-08-07T20:43:53.075Z",
-    "modified": "2026-08-07T20:43:53.075Z"
+    "created": "2026-08-10T15:00:01.873Z",
+    "modified": "2026-08-10T15:00:01.873Z"
   },
   {
-    "id": "446b4fe6-0f04-4c79-b991-6a84534b091d",
+    "id": "1afab7ea-4322-48b6-893e-144c5c1e756f",
     "name": "PMO Medium of Performance",
     "configType": "profile",
     "json": {
@@ -64568,14 +64642,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-08-07T20:43:53.083Z",
-      "updateDate": "2026-08-07T20:43:53.083Z"
+      "createDate": "2026-08-10T15:00:01.882Z",
+      "updateDate": "2026-08-10T15:00:01.882Z"
     },
-    "created": "2026-08-07T20:43:53.083Z",
-    "modified": "2026-08-07T20:43:53.083Z"
+    "created": "2026-08-10T15:00:01.882Z",
+    "modified": "2026-08-10T15:00:01.882Z"
   },
   {
-    "id": "af7e56d0-8f65-4f96-9b07-ebc883e3b6c4",
+    "id": "6213204d-1ba7-4458-9808-c260d288fa76",
     "name": "BIBFRAME 2.0 Place",
     "configType": "profile",
     "json": {
@@ -64729,14 +64803,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-08-07T20:43:53.085Z",
-      "updateDate": "2026-08-07T20:43:53.085Z"
+      "createDate": "2026-08-10T15:00:01.883Z",
+      "updateDate": "2026-08-10T15:00:01.883Z"
     },
-    "created": "2026-08-07T20:43:53.085Z",
-    "modified": "2026-08-07T20:43:53.085Z"
+    "created": "2026-08-10T15:00:01.883Z",
+    "modified": "2026-08-10T15:00:01.883Z"
   },
   {
-    "id": "91017f32-2aa8-44e9-a596-7f2408b63809",
+    "id": "386036d8-479e-4145-b15c-a2af486285af",
     "name": "Prints & Photographs",
     "configType": "profile",
     "json": {
@@ -66247,7 +66321,8 @@
                     "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/PrimaryContribution"
                   },
                   "picklist": []
-                }
+                },
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/work-description/contributors.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/role",
@@ -66295,7 +66370,8 @@
                   "defaults": [],
                   "valueDataType": {},
                   "picklist": []
-                }
+                },
+                "remark": "https://bibframe.org/view/documentation-marva-manual/work-description/contributors.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/role",
@@ -68093,14 +68169,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-08-07T20:43:53.096Z",
-      "updateDate": "2026-08-07T20:43:53.096Z"
+      "createDate": "2026-08-10T15:00:01.895Z",
+      "updateDate": "2026-08-10T15:00:01.895Z"
     },
-    "created": "2026-08-07T20:43:53.096Z",
-    "modified": "2026-08-07T20:43:53.096Z"
+    "created": "2026-08-10T15:00:01.895Z",
+    "modified": "2026-08-10T15:00:01.895Z"
   },
   {
-    "id": "f3191fc0-29a6-44e7-a8c2-166c83687bce",
+    "id": "2457dfba-a51e-4215-b425-5572f64ced6a",
     "name": "BIBFRAME 2.0 Publication, Distribution, Manufacturer Activity",
     "configType": "profile",
     "json": {
@@ -68464,14 +68540,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-08-07T20:43:53.099Z",
-      "updateDate": "2026-08-07T20:43:53.099Z"
+      "createDate": "2026-08-10T15:00:01.896Z",
+      "updateDate": "2026-08-10T15:00:01.896Z"
     },
-    "created": "2026-08-07T20:43:53.099Z",
-    "modified": "2026-08-07T20:43:53.099Z"
+    "created": "2026-08-10T15:00:01.896Z",
+    "modified": "2026-08-10T15:00:01.896Z"
   },
   {
-    "id": "a5e1041b-7ea9-46e1-978a-824efc128340",
+    "id": "5126e611-c5de-43f2-8a62-ab4cbfbe7f5e",
     "name": "BIBFRAME 2.0 Rare Materials",
     "configType": "profile",
     "json": {
@@ -69750,7 +69826,8 @@
                     "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/PrimaryContribution"
                   },
                   "picklist": []
-                }
+                },
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/work-description/contributors.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/role",
@@ -70038,7 +70115,8 @@
                   "defaults": [],
                   "valueDataType": {},
                   "picklist": []
-                }
+                },
+                "remark": "https://bibframe.org/view/documentation-marva-manual/work-description/contributors.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/role",
@@ -72252,14 +72330,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-08-07T20:43:53.114Z",
-      "updateDate": "2026-08-07T20:43:53.114Z"
+      "createDate": "2026-08-10T15:00:01.916Z",
+      "updateDate": "2026-08-10T15:00:01.916Z"
     },
-    "created": "2026-08-07T20:43:53.114Z",
-    "modified": "2026-08-07T20:43:53.114Z"
+    "created": "2026-08-10T15:00:01.916Z",
+    "modified": "2026-08-10T15:00:01.916Z"
   },
   {
-    "id": "48fbd673-d425-4a62-8b7f-50d75c0d3e24",
+    "id": "001b3a82-71d9-497d-bbb8-90e0a1a17da8",
     "name": "Music Related Work",
     "configType": "profile",
     "json": {
@@ -72753,7 +72831,8 @@
                   "defaults": [],
                   "valueDataType": {},
                   "picklist": []
-                }
+                },
+                "remark": "https://bibframe.org/view/documentation-marva-manual/work-description/contributors.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/role",
@@ -73310,14 +73389,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-08-07T20:43:53.118Z",
-      "updateDate": "2026-08-07T20:43:53.118Z"
+      "createDate": "2026-08-10T15:00:01.922Z",
+      "updateDate": "2026-08-10T15:00:01.922Z"
     },
-    "created": "2026-08-07T20:43:53.118Z",
-    "modified": "2026-08-07T20:43:53.118Z"
+    "created": "2026-08-10T15:00:01.922Z",
+    "modified": "2026-08-10T15:00:01.922Z"
   },
   {
-    "id": "cc9d7a45-0068-4af2-82f5-b26b1d924655",
+    "id": "30c72c36-f9a1-4564-91f5-497d2eba018d",
     "name": "BIBFRAME 2.0 Related Works and Expressions",
     "configType": "profile",
     "json": {
@@ -73671,14 +73750,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-08-07T20:43:53.119Z",
-      "updateDate": "2026-08-07T20:43:53.119Z"
+      "createDate": "2026-08-10T15:00:01.923Z",
+      "updateDate": "2026-08-10T15:00:01.923Z"
     },
-    "created": "2026-08-07T20:43:53.119Z",
-    "modified": "2026-08-07T20:43:53.119Z"
+    "created": "2026-08-10T15:00:01.923Z",
+    "modified": "2026-08-10T15:00:01.923Z"
   },
   {
-    "id": "2d743f65-a4cc-40a9-a648-3aba15b3803c",
+    "id": "0c1dd415-748d-4595-a0af-17ae4d13da03",
     "name": "BIBFRAME 2.0 Serial",
     "configType": "profile",
     "json": {
@@ -75532,7 +75611,8 @@
                     "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/PrimaryContribution"
                   },
                   "picklist": []
-                }
+                },
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/work-description/contributors.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/role",
@@ -75793,7 +75873,8 @@
                   "defaults": [],
                   "valueDataType": {},
                   "picklist": []
-                }
+                },
+                "remark": "https://bibframe.org/view/documentation-marva-manual/work-description/contributors.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/role",
@@ -78412,14 +78493,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-08-07T20:43:53.136Z",
-      "updateDate": "2026-08-07T20:43:53.136Z"
+      "createDate": "2026-08-10T15:00:01.944Z",
+      "updateDate": "2026-08-10T15:00:01.944Z"
     },
-    "created": "2026-08-07T20:43:53.136Z",
-    "modified": "2026-08-07T20:43:53.136Z"
+    "created": "2026-08-10T15:00:01.944Z",
+    "modified": "2026-08-10T15:00:01.944Z"
   },
   {
-    "id": "14311511-3ea3-4fa9-8341-eeb26ec3b280",
+    "id": "f14e8c94-1ee5-42cb-bef2-d306a838e287",
     "name": "BIBFRAME 2.0 Series Information",
     "configType": "profile",
     "json": {
@@ -78765,14 +78846,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-08-07T20:43:53.137Z",
-      "updateDate": "2026-08-07T20:43:53.137Z"
+      "createDate": "2026-08-10T15:00:01.946Z",
+      "updateDate": "2026-08-10T15:00:01.946Z"
     },
-    "created": "2026-08-07T20:43:53.137Z",
-    "modified": "2026-08-07T20:43:53.137Z"
+    "created": "2026-08-10T15:00:01.946Z",
+    "modified": "2026-08-10T15:00:01.946Z"
   },
   {
-    "id": "b6237634-2272-44fd-9b20-2732faa39faf",
+    "id": "a24e360e-af47-4340-b145-bb233ae32a39",
     "name": "Test Simple Authority",
     "configType": "profile",
     "json": {
@@ -78948,14 +79029,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-08-07T20:43:53.137Z",
-      "updateDate": "2026-08-07T20:43:53.137Z"
+      "createDate": "2026-08-10T15:00:01.946Z",
+      "updateDate": "2026-08-10T15:00:01.946Z"
     },
-    "created": "2026-08-07T20:43:53.137Z",
-    "modified": "2026-08-07T20:43:53.137Z"
+    "created": "2026-08-10T15:00:01.946Z",
+    "modified": "2026-08-10T15:00:01.946Z"
   },
   {
-    "id": "6aec239b-b692-401f-93a1-8de9e2a86aa7",
+    "id": "2c912640-9760-479d-ae37-5d9da3010fb1",
     "name": "BIBFRAME 2.0 Sound Record-Audio CD",
     "configType": "profile",
     "json": {
@@ -79948,7 +80029,8 @@
                     "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/PrimaryContribution"
                   },
                   "picklist": []
-                }
+                },
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/work-description/contributors.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/role",
@@ -80236,7 +80318,8 @@
                   "defaults": [],
                   "valueDataType": {},
                   "picklist": []
-                }
+                },
+                "remark": "https://bibframe.org/view/documentation-marva-manual/work-description/contributors.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/role",
@@ -83018,14 +83101,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-08-07T20:43:53.155Z",
-      "updateDate": "2026-08-07T20:43:53.155Z"
+      "createDate": "2026-08-10T15:00:01.963Z",
+      "updateDate": "2026-08-10T15:00:01.963Z"
     },
-    "created": "2026-08-07T20:43:53.155Z",
-    "modified": "2026-08-07T20:43:53.155Z"
+    "created": "2026-08-10T15:00:01.963Z",
+    "modified": "2026-08-10T15:00:01.963Z"
   },
   {
-    "id": "5803ecb4-2f8f-439a-bfcc-b43b3ebf13fa",
+    "id": "b68c8d83-7369-4bb6-9506-c960ea3e364d",
     "name": "BIBFRAME 2.0 Sound Recording-Audio CD-R",
     "configType": "profile",
     "json": {
@@ -84104,7 +84187,8 @@
                     "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/PrimaryContribution"
                   },
                   "picklist": []
-                }
+                },
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/work-description/contributors.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/role",
@@ -84392,7 +84476,8 @@
                   "defaults": [],
                   "valueDataType": {},
                   "picklist": []
-                }
+                },
+                "remark": "https://bibframe.org/view/documentation-marva-manual/work-description/contributors.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/role",
@@ -87402,14 +87487,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-08-07T20:43:53.175Z",
-      "updateDate": "2026-08-07T20:43:53.175Z"
+      "createDate": "2026-08-10T15:00:01.983Z",
+      "updateDate": "2026-08-10T15:00:01.983Z"
     },
-    "created": "2026-08-07T20:43:53.175Z",
-    "modified": "2026-08-07T20:43:53.175Z"
+    "created": "2026-08-10T15:00:01.983Z",
+    "modified": "2026-08-10T15:00:01.983Z"
   },
   {
-    "id": "c5939ce9-e14f-46e2-a2fb-e5dad4af8e81",
+    "id": "0eab7df1-9414-4ed4-a49d-f4c184aadc4e",
     "name": "BIBFRAME 2.0 Sound Recording-Audio Cassette",
     "configType": "profile",
     "json": {
@@ -88447,7 +88532,8 @@
                     "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/PrimaryContribution"
                   },
                   "picklist": []
-                }
+                },
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/work-description/contributors.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/role",
@@ -88735,7 +88821,8 @@
                   "defaults": [],
                   "valueDataType": {},
                   "picklist": []
-                }
+                },
+                "remark": "https://bibframe.org/view/documentation-marva-manual/work-description/contributors.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/role",
@@ -91675,14 +91762,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-08-07T20:43:53.205Z",
-      "updateDate": "2026-08-07T20:43:53.205Z"
+      "createDate": "2026-08-10T15:00:02.002Z",
+      "updateDate": "2026-08-10T15:00:02.002Z"
     },
-    "created": "2026-08-07T20:43:53.205Z",
-    "modified": "2026-08-07T20:43:53.205Z"
+    "created": "2026-08-10T15:00:02.002Z",
+    "modified": "2026-08-10T15:00:02.002Z"
   },
   {
-    "id": "d7e1cd07-48aa-47e8-b437-301869b8abb0",
+    "id": "3bf6f14c-5ab8-426b-b656-7830b77fe128",
     "name": "Subjects",
     "configType": "profile",
     "json": {
@@ -92028,14 +92115,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-08-07T20:43:53.207Z",
-      "updateDate": "2026-08-07T20:43:53.207Z"
+      "createDate": "2026-08-10T15:00:02.004Z",
+      "updateDate": "2026-08-10T15:00:02.004Z"
     },
-    "created": "2026-08-07T20:43:53.207Z",
-    "modified": "2026-08-07T20:43:53.207Z"
+    "created": "2026-08-10T15:00:02.004Z",
+    "modified": "2026-08-10T15:00:02.004Z"
   },
   {
-    "id": "af0a8b6d-e6bf-4b0b-93e4-99c8777c9831",
+    "id": "cadcba1b-d03f-4778-ac6c-05e68b8da847",
     "name": "BIBFRAME 2.0 Title Information",
     "configType": "profile",
     "json": {
@@ -92706,14 +92793,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-08-07T20:43:53.210Z",
-      "updateDate": "2026-08-07T20:43:53.210Z"
+      "createDate": "2026-08-10T15:00:02.007Z",
+      "updateDate": "2026-08-10T15:00:02.007Z"
     },
-    "created": "2026-08-07T20:43:53.210Z",
-    "modified": "2026-08-07T20:43:53.210Z"
+    "created": "2026-08-10T15:00:02.007Z",
+    "modified": "2026-08-10T15:00:02.007Z"
   },
   {
-    "id": "4614763e-3286-4606-8a64-3ec2b2d43f4d",
+    "id": "c46e6b00-65bc-4b52-9501-ef8a841b857a",
     "name": "BIBFRAME 2.0 Topic",
     "configType": "profile",
     "json": {
@@ -93286,14 +93373,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-08-07T20:43:53.212Z",
-      "updateDate": "2026-08-07T20:43:53.212Z"
+      "createDate": "2026-08-10T15:00:02.011Z",
+      "updateDate": "2026-08-10T15:00:02.011Z"
     },
-    "created": "2026-08-07T20:43:53.212Z",
-    "modified": "2026-08-07T20:43:53.212Z"
+    "created": "2026-08-10T15:00:02.011Z",
+    "modified": "2026-08-10T15:00:02.011Z"
   },
   {
-    "id": "eddd3f13-bf07-4982-9b44-fa5bf985e3e3",
+    "id": "b0e43644-be76-4f3d-9f08-1f0256083a59",
     "name": "BIBFRAME 2.0 Videocassette",
     "configType": "profile",
     "json": {
@@ -95041,7 +95128,8 @@
                   "defaults": [],
                   "valueDataType": {},
                   "picklist": []
-                }
+                },
+                "remark": "https://bibframe.org/view/documentation-marva-manual/work-description/contributors.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/role",
@@ -97766,14 +97854,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-08-07T20:43:53.229Z",
-      "updateDate": "2026-08-07T20:43:53.229Z"
+      "createDate": "2026-08-10T15:00:02.029Z",
+      "updateDate": "2026-08-10T15:00:02.029Z"
     },
-    "created": "2026-08-07T20:43:53.229Z",
-    "modified": "2026-08-07T20:43:53.229Z"
+    "created": "2026-08-10T15:00:02.029Z",
+    "modified": "2026-08-10T15:00:02.029Z"
   },
   {
-    "id": "fe72c1c1-20d8-4132-915c-3da5280634c9",
+    "id": "cb0363df-452a-4b47-8b14-42400afe3d07",
     "name": "BIBFRAME 2.0 Extra menus",
     "configType": "profile",
     "json": {
@@ -98689,14 +98777,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-08-07T20:43:53.234Z",
-      "updateDate": "2026-08-07T20:43:53.234Z"
+      "createDate": "2026-08-10T15:00:02.034Z",
+      "updateDate": "2026-08-10T15:00:02.034Z"
     },
-    "created": "2026-08-07T20:43:53.234Z",
-    "modified": "2026-08-07T20:43:53.234Z"
+    "created": "2026-08-10T15:00:02.034Z",
+    "modified": "2026-08-10T15:00:02.034Z"
   },
   {
-    "id": "68c9ff43-177b-4772-b71f-f0b139cbb72d",
+    "id": "675bb1b7-4611-4cc0-8561-4ec2bbfb1152",
     "name": "Test Manuscripts (DACS)",
     "configType": "profile",
     "json": {
@@ -99071,7 +99159,8 @@
                   "defaults": [],
                   "valueDataType": {},
                   "picklist": []
-                }
+                },
+                "remark": "https://bibframe.org/view/documentation-marva-manual/work-description/contributors.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/role",
@@ -99814,14 +99903,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-08-07T20:43:53.238Z",
-      "updateDate": "2026-08-07T20:43:53.238Z"
+      "createDate": "2026-08-10T15:00:02.040Z",
+      "updateDate": "2026-08-10T15:00:02.040Z"
     },
-    "created": "2026-08-07T20:43:53.238Z",
-    "modified": "2026-08-07T20:43:53.238Z"
+    "created": "2026-08-10T15:00:02.040Z",
+    "modified": "2026-08-10T15:00:02.040Z"
   },
   {
-    "id": "582b8a7e-7cf1-47a7-bc0d-79f1fb5dd320",
+    "id": "d1aca80a-a5f3-49dd-b117-dd67061de41d",
     "name": "Test Mixed Materials",
     "configType": "profile",
     "json": {
@@ -101546,7 +101635,8 @@
                     "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/PrimaryContribution"
                   },
                   "picklist": []
-                }
+                },
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/work-description/contributors.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/role",
@@ -101931,7 +102021,8 @@
                   "defaults": [],
                   "valueDataType": {},
                   "picklist": []
-                }
+                },
+                "remark": "https://bibframe.org/view/documentation-marva-manual/work-description/contributors.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/role",
@@ -104937,14 +105028,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-08-07T20:43:53.258Z",
-      "updateDate": "2026-08-07T20:43:53.258Z"
+      "createDate": "2026-08-10T15:00:02.058Z",
+      "updateDate": "2026-08-10T15:00:02.058Z"
     },
-    "created": "2026-08-07T20:43:53.258Z",
-    "modified": "2026-08-07T20:43:53.258Z"
+    "created": "2026-08-10T15:00:02.058Z",
+    "modified": "2026-08-10T15:00:02.058Z"
   },
   {
-    "id": "e776980a-e45c-4c1a-bf14-fee172050e1b",
+    "id": "1c0b378f-834e-4971-b8b8-b9c18ef67e9a",
     "name": "Test profile for RDA Work",
     "configType": "profile",
     "json": {
@@ -107871,10 +107962,10 @@
       }
     },
     "metadata": {
-      "createDate": "2026-08-07T20:43:53.263Z",
-      "updateDate": "2026-08-07T20:43:53.263Z"
+      "createDate": "2026-08-10T15:00:02.066Z",
+      "updateDate": "2026-08-10T15:00:02.066Z"
     },
-    "created": "2026-08-07T20:43:53.263Z",
-    "modified": "2026-08-07T20:43:53.263Z"
+    "created": "2026-08-10T15:00:02.066Z",
+    "modified": "2026-08-10T15:00:02.066Z"
   }
 ]
