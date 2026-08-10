@@ -63,7 +63,7 @@ lc:RT:bf2:35mmFeatureFilm:Work,BIBFRAME Work,bf:Work,bf:expressionOf,Expression 
 ,,,bf:geographicCoverage,Geographic coverage,false,true,bnode,,lc:RT:bf2:Form:Geog,,,,,,,https://bibframe.org/view/documentation-marva-manual/work-description/geographic-coverage.md
 ,,,bf:subject,Subjects,false,true,bnode,,lc:RT:bf2:Components | lc:RT:bf2:Topic:Place:Components | lc:RT:bf2:Topic:SubjectWork,,,,,,,https://bibframe.org/view/documentation-marva-manual/work-description/subjects.md
 ,,,bf:contribution,Contributors,false,true,bnode,,lc:RT:bf2:Agents:Contribution,,,,,,bf:Contribution,https://bibframe.org/view/documentation-marva-manual/work-description/contributors.md
-,,,bf:contribution,Creator of Work,false,true,bnode,,lc:RT:bflc:Agents:PrimaryContribution,,,,,,bf:PrimaryContribution,https://bibframe.org/view/documentation-marva-manual/work-description/creator-of-work.md
+,,,bf:contribution,Creator of Work,false,true,bnode,,lc:RT:bflc:Agents:PrimaryContribution,,,,,,bf:PrimaryContribution,https://bibframe.org/view/documentation-marva-manual/work-description/contributors.md
 ,,,bf:content,Content type,false,true,,,,http://id.loc.gov/vocabulary/contentTypes,IRIstem,,two-dimensional moving image,http://id.loc.gov/vocabulary/contentTypes/tdi,bf:Content,https://bibframe.org/view/documentation-marva-manual/work-description/content-type.md
 ,,,bf:language,"Language (008 [1st], 041 $a [others])",false,true,,,,http://id.loc.gov/vocabulary/languages,IRIstem,,,,bf:Language,https://bibframe.org/view/documentation-marva-manual/work-description/language.md
 ,,,bf:language,ISO 639-3 language (041 $a),,true,,,,http://id.loc.gov/vocabulary/iso639-3,IRIstem,,,,bf:Language,
@@ -182,8 +182,8 @@ lc:RT:bf2:Agents:Addresses:Extended,"Addresses, extended",mads:Address,mads:stre
 ,,,mads:state,State,false,true,literal,,,,,,,,,
 ,,,mads:country,Country,false,true,literal,,,,,,,,,
 ,,,mads:postcode,Zip Code or Post Code,false,true,literal,,,,,,,,,
-lc:RT:bf2:Agents:Contribution,Contribution,bf:Contribution,bf:agent,Agent,false,true,bnode,,lc:RT:bf2:Agent:bfPerson | lc:RT:bf2:Agent:bfFamily | lc:RT:bf2:Agent:bfCorp | lc:RT:bf2:Agent:bfJurisdiction | lc:RT:bf2:Agent:bfConf,,,,,,,"https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates-Contributors(1XX,6XX,7XX)"
-,,,bf:role,Relationship designator(s),false,true,,,,http://id.loc.gov/vocabulary/relators | https://id.loc.gov/vocabulary/rbmsrel,IRIstem,,,,,https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates-AgentRolesMarva+cataloging+updates#Marvacatalogingupdates-AgentRoles
+lc:RT:bf2:Agents:Contribution,Contribution,bf:Contribution,bf:agent,Agent,false,true,bnode,,lc:RT:bf2:Agent:bfPerson | lc:RT:bf2:Agent:bfFamily | lc:RT:bf2:Agent:bfCorp | lc:RT:bf2:Agent:bfJurisdiction | lc:RT:bf2:Agent:bfConf,,,,,,,https://bibframe.org/view/documentation-marva-manual/work-description/contributors.md
+,,,bf:role,Relationship designator(s),false,true,,,,http://id.loc.gov/vocabulary/relators | https://id.loc.gov/vocabulary/rbmsrel,IRIstem,,,,,
 lc:RT:bf2:Agents:RWO:Affiliation,Affiliation,mads:Affiliation,mads:authoritativeLabel,Search LCNAF,false,true,,,,,,,,,mads:Affiliation,
 ,,,mads:Affiliation,"Input Affiliation (RDA 9.13, RDA 11.5)",false,true,literal,,,,,,,,,
 ,,,mads:affiliationStart,Affiliation Start Date,false,true,literal,,,,,,,,,
@@ -275,7 +275,7 @@ lc:RT:bf2:Analog:Item,BIBFRAME Item,bf:Item,bf:electronicLocator,URL of Item,fal
 lc:RT:bf2:Analog:PlayingSpeed,Playing speed,bf:PlayingSpeed,owl:sameAs,Lookup,false,true,,,,http://id.loc.gov/vocabulary/mplayspeed,IRIstem,,,,,
 lc:RT:bf2:Analog:Sound6,Groove characteristic,bf:GrooveCharacteristic,owl:sameAs,Lookup,false,false,,,,http://id.loc.gov/vocabulary/mgroove,IRIstem,,,,,
 lc:RT:bf2:Analog:Work,BIBFRAME Work,bf:Work,bf:expressionOf,Expression of [search for a Hub],,,,,,https://id.loc.gov/resources/hubs,IRIstem,,,,bf:Hub,https://bibframe.org/view/documentation-marva-manual/work-description/expression-hub.md
-,,,bf:contribution,Creator,false,true,bnode,,lc:RT:bflc:Agents:PrimaryContribution,,,,,,bf:PrimaryContribution,https://bibframe.org/view/documentation-marva-manual/work-description/creator-of-work.md
+,,,bf:contribution,Creator,false,true,bnode,,lc:RT:bflc:Agents:PrimaryContribution,,,,,,bf:PrimaryContribution,https://bibframe.org/view/documentation-marva-manual/work-description/contributors.md
 ,,,bf:title,Title,true,true,bnode,,lc:RT:bf2:WorkTitle | lc:RT:bf2:Title:VarTitle | lc:RT:bf2:ParallelTitle,,,,,,,https://bibframe.org/view/documentation-marva-manual/work-description/title-information.md
 ,,,bf:contribution,Contributors,false,true,bnode,,lc:RT:bf2:Agents:Contribution,,,,,,bf:Contribution,https://bibframe.org/view/documentation-marva-manual/work-description/contributors.md
 ,,,bf:language,"Language (008 [1st], 041 $a [others])",false,true,,,,http://id.loc.gov/vocabulary/languages,IRIstem,,,,bf:Language,https://bibframe.org/view/documentation-marva-manual/work-description/language.md
@@ -344,9 +344,9 @@ lc:RT:bf2:Cartographic:ObjectType,Cartographic object type,bf:CartographicObject
 ,,,bf:count,Object count,false,true,literal,,,,,,,,,
 lc:RT:bf2:Cartographic:ScaleNew,Numeric scale value,bf:Scale,rdf:value,Scale value (ex: 1:100),false,true,literal,,,,,,,,,
 lc:RT:bf2:Cartographic:Work,BIBFRAME Work,bf:Work,bf:expressionOf,Expression of [search for a Hub],,,,,,https://id.loc.gov/resources/hubs,IRIstem,,,,bf:Hub,https://bibframe.org/docs/view/documentation-marva-manual/work-description/expression-hub.md
-,,,bf:contribution,Creator of Work,false,true,bnode,,lc:RT:bflc:Agents:PrimaryContribution,,,,,,bf:PrimaryContribution,
+,,,bf:contribution,Creator of Work,false,true,bnode,,lc:RT:bflc:Agents:PrimaryContribution,,,,,,bf:PrimaryContribution,https://bibframe.org/view/documentation-marva-manual/work-description/contributors.md
 ,,,bf:title,Title information,true,true,bnode,,lc:RT:bf2:WorkTitle | lc:RT:bf2:Title:VarTitle | lc:RT:bf2:ParallelTitle,,,,,,,https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates-Work/ExpressionTitles
-,,,bf:contribution,Contributors,false,true,bnode,,lc:RT:bf2:Agents:Contribution,,,,,,bf:Contribution,
+,,,bf:contribution,Contributors,false,true,bnode,,lc:RT:bf2:Agents:Contribution,,,,,,bf:Contribution,https://bibframe.org/view/documentation-marva-manual/work-description/contributors.md
 ,,,bf:note,Notes about the Work,false,true,bnode,,lc:RT:bf2:Note,,,,,,,
 ,,,bf:tableOfContents,Contents,false,true,bnode,,lc:RT:bf2:Contents,,,,,,,
 ,,,bf:summary,Summary,false,true,bnode,,lc:RT:bf2:Summary,,,,,,,
@@ -427,7 +427,7 @@ lc:RT:bf2:HubBasic:Hub,Hub,bf:Hub,bf:contribution,Primary contributor,false,fals
 ,,,bf:originDate,Date work created,false,false,literal,,,,,,,,,
 ,,,rdf:type,Type,false,true,,,,http://id.loc.gov/vocabulary/resourceTypes | http://id.loc.gov/vocabulary/bflcTypes | http://id.loc.gov/vocabulary/bfTypes,IRIstem,,,,,
 ,,,bf:language,Language,false,true,,,,http://id.loc.gov/vocabulary/languages,IRIstem,,,,bf:Language,
-,,,bf:relation,Search related work,false,true,bnode,,lc:RT:bf2:RelWorkLookup,,,,,,,"https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates-Hubs(240;X00,X10,X11with$t;X30)"
+,,,bf:relation,Search related work,false,true,bnode,,lc:RT:bf2:RelWorkLookup,,,,,,,
 ,,,bf:note,Note,false,true,bnode,,lc:RT:bf2:Note,,,,,,,
 ,,,bf:identifiedBy,Identifiers,false,true,bnode,,lc:RT:bf2:Identifiers:Other | lc:RT:bf2:Identifiers:LCCN | lc:RT:bf2:Identifiers:Oclc | lc:RT:bf2:Identifiers:Local,,,,,,,
 ,,,bflc:marcKey,MARC label,false,true,literal,,,,,,,,,
@@ -448,7 +448,7 @@ lc:RT:bf2:Ibc:Item,BIBFRAME Item,bf:Item,bf:electronicLocator,URL of Item,false,
 ,,,bf:contribution,Collection/contribution,false,true,bnode,,lc:RT:bf2:Agents:bfContribution,,,,,,bf:Contribution,
 ,,,bf:note,Notes about the Item,false,true,bnode,,lc:RT:bf2:NoteLc,,,,,,,
 ,,,bf:enumerationAndChronology,Enumeration and chronology of Item,false,true,bnode,,lc:RT:bf2:Item:Enumeration | lc:RT:bf2:Item:Chronology,,,,,,,
-lc:RT:bf2:Ibc:Work,BIBFRAME Work,bf:Work,bf:contribution,Creator of Work,false,true,bnode,,lc:RT:bflc:Agents:PrimaryContribution,,,,,,bf:PrimaryContribution,
+lc:RT:bf2:Ibc:Work,BIBFRAME Work,bf:Work,bf:contribution,Creator of Work,false,true,bnode,,lc:RT:bflc:Agents:PrimaryContribution,,,,,,bf:PrimaryContribution,https://bibframe.org/view/documentation-marva-manual/work-description/contributors.md
 ,,,bf:title,Title information,true,true,bnode,,lc:RT:bf2:WorkTitle | lc:RT:bf2:Title:VarTitle | lc:RT:bf2:ParallelTitle,,,,,,,https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates-Work/ExpressionTitles
 ,,,bf:content,Content type,true,true,,,,http://id.loc.gov/vocabulary/contentTypes,IRIstem,,text,http://id.loc.gov/vocabulary/contentTypes/txt,bf:Content,
 ,,,bf:language,"Language (008 [1st], 041 $a [others])",false,true,,,,http://id.loc.gov/vocabulary/languages,IRIstem,,,,bf:Language,https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates-Languages(041)
@@ -619,7 +619,7 @@ lc:RT:bf2:MIBluRayDVD:Work,BIBFRAME Work,bf:Work,bf:expressionOf,Expression [sea
 ,,,bf:temporalCoverage,(Time) coverage of the content,false,true,literal,,,,,,,,,https://bibframe.org/view/documentation-marva-manual/work-description/time-coverage.md
 ,,,bf:identifiedBy,Identifiers,false,true,bnode,,lc:RT:bf2:Identifiers:Eidr | lc:RT:bf2:Identifiers:Copyright,,,,,,,
 ,,,bf:intendedAudience,Intended audience,false,true,bnode,,lc:RT:bf2:Audience,,,,,,,https://bibframe.org/view/documentation-marva-manual/work-description/intended-audience.md
-,,,bf:contribution,Creator of Work,,,bnode,,lc:RT:bflc:Agents:PrimaryContribution,,,,,,bf:PrimaryContribution,https://bibframe.org/view/documentation-marva-manual/work-description/creator-of-work.md
+,,,bf:contribution,Creator of Work,,,bnode,,lc:RT:bflc:Agents:PrimaryContribution,,,,,,bf:PrimaryContribution,https://bibframe.org/view/documentation-marva-manual/work-description/contributors.md
 ,,,bf:contribution,Contributors,,,bnode,,lc:RT:bf2:Agents:Contribution,,,,,,bf:Contribution,https://bibframe.org/view/documentation-marva-manual/work-description/contributors.md
 ,,,bf:geographicCoverage,Geographic coverage,false,true,bnode,,lc:RT:bf2:Form:Geog,,,,,,,https://bibframe.org/view/documentation-marva-manual/work-description/geographic-coverage.md
 ,,,bf:subject,Subjects,false,true,bnode,,lc:RT:bf2:Components | lc:RT:bf2:Topic:Place:Components | lc:RT:bf2:Topic:SubjectWork,,,,,,,https://bibframe.org/view/documentation-marva-manual/work-description/subjects.md
@@ -686,7 +686,7 @@ lc:RT:bf2:Monograph:Item,BIBFRAME Item,bf:Item,bf:electronicLocator,URL of Item,
 ,,,bf:immediateAcquisition,Immediate source of acquisition,false,true,bnode,,lc:RT:bf2:ImmAcqSource,,,,,,,
 ,,,bf:custodialHistory,Custodial history/Provenance,false,true,literal,,,,,,,,,
 lc:RT:bf2:Monograph:Work,BIBFRAME Work,bf:Work,bf:expressionOf,Expression of [search for a Hub],false,false,,,,https://id.loc.gov/resources/hubs,IRIstem,,,,bf:Hub,https://bibframe.org/docs/view/documentation-marva-manual/work-description/expression-hub.md
-,,,bf:contribution,Creator of Work,false,true,bnode,,lc:RT:bflc:Agents:PrimaryContribution,,,,,,bf:PrimaryContribution,https://bibframe.org/docs/view/documentation-marva-manual/work-description/creator-of-work.md
+,,,bf:contribution,Creator of Work,false,true,bnode,,lc:RT:bflc:Agents:PrimaryContribution,,,,,,bf:PrimaryContribution,https://bibframe.org/view/documentation-marva-manual/work-description/contributors.md
 ,,,bf:title,Title information,true,true,bnode,,lc:RT:bf2:WorkTitle | lc:RT:bf2:Title:VarTitle | lc:RT:bf2:ParallelTitle,,,,,,,https://bibframe.org/docs/view/documentation-marva-manual/work-description/title-information.md
 ,,,bf:contribution,Contributors,false,true,bnode,,lc:RT:bf2:Agents:Contribution,,,,,,bf:Contribution,https://bibframe.org/docs/view/documentation-marva-manual/work-description/contributors.md#contributors
 ,,,bf:note,Notes about the Work,false,true,bnode,,lc:RT:bf2:Note,,,,,,,https://bibframe.org/docs/view/documentation-marva-manual/work-description/notes-about-work.md#notes-about-the-work
@@ -845,8 +845,8 @@ lc:RT:bf2:PrintPhoto:TGMSubject,TGM Subject,bf:Topic,mads:componentList,Search T
 ,,,bf:source,Source of term,false,false,,,,http://id.loc.gov/vocabulary/subjectSchemes,IRIstem,,lctgm,http://id.loc.gov/vocabulary/subjectSchemes/lctgm,bf:Source,
 lc:RT:bf2:PrintPhoto:TGMTemporal,Chronological subdivision,mads:Temporal,rdfs:label,Chronological subdivision,false,true,literal,,,,,,,,,
 lc:RT:bf2:PrintPhoto:Work,Work,bf:Work,bf:title,Title,false,true,bnode,,lc:RT:bf2:WorkTitle | lc:RT:bf2:Title:VarTitle | lc:RT:bf2:ParallelTitle,,,,,,,https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates-Work/ExpressionTitles
-,,,bf:contribution,Creator,false,true,bnode,,lc:RT:bflc:Agents:PrimaryContribution,,,,,,bf:PrimaryContribution,
-,,,bf:contribution,Contributor(s),false,true,bnode,,lc:RT:bf2:Agents:Contribution,,,,,,bf:Contribution,
+,,,bf:contribution,Creator,false,true,bnode,,lc:RT:bflc:Agents:PrimaryContribution,,,,,,bf:PrimaryContribution,https://bibframe.org/view/documentation-marva-manual/work-description/contributors.md
+,,,bf:contribution,Contributor(s),false,true,bnode,,lc:RT:bf2:Agents:Contribution,,,,,,bf:Contribution,https://bibframe.org/view/documentation-marva-manual/work-description/contributors.md
 ,,,bf:genreForm,Genre/Form,false,true,bnode,,lc:RT:bf2:Form | lc:RT:bf2:PrintPhoto:TGMGenre,,,,,,bf:GenreForm,
 ,,,bf:subject,Subjects,false,true,bnode,,lc:RT:bf2:PrintPhoto:TGMSubject | lc:RT:bf2:Components | lc:RT:bf2:Topic:Place:Components | lc:RT:bf2:Topic:SubjectWork,,,,,,,
 ,,,bf:geographicCoverage,Geographic coverage,false,true,bnode,,lc:RT:bf2:Form:Geog,,,,,,,
@@ -921,7 +921,7 @@ lc:RT:bf2:RareMat:RefWorkNote,References/Citation note,bf:Note,rdfs:label,Note/n
 ,,,bflc:applicableInstitution,Applicable institution,,,,,,http://id.loc.gov/vocabulary/organizations,IRIstem,,,,,
 lc:RT:bf2:RareMat:RefWorkTitle,References title,bf:Title,bf:mainTitle,Title,false,true,literal,,,,,,,,,
 lc:RT:bf2:RareMat:Work,BIBFRAME Work,bf:Work,bf:expressionOf,Expression of [search for a Hub],false,true,,,,https://id.loc.gov/resources/hubs,IRIstem,,,,bf:Hub,https://bibframe.org/view/documentation-marva-manual/work-description/expression-hub.md
-,,,bf:contribution,Creator of Work,false,true,bnode,,lc:RT:bflc:Agents:PrimaryContribution,,,,,,bf:PrimaryContribution,https://bibframe.org/docs/view/documentation-marva-manual/work-description/creator-of-work.md
+,,,bf:contribution,Creator of Work,false,true,bnode,,lc:RT:bflc:Agents:PrimaryContribution,,,,,,bf:PrimaryContribution,https://bibframe.org/view/documentation-marva-manual/work-description/contributors.md
 ,,,bf:title,Title information,true,true,bnode,,lc:RT:bf2:WorkTitle | lc:RT:bf2:Title:VarTitle | lc:RT:bf2:ParallelTitle,,,,,,,https://bibframe.org/view/documentation-marva-manual/work-description/title-information.md
 ,,,bf:contribution,Contributors,false,true,bnode,,lc:RT:bf2:Agents:Contribution,,,,,,bf:Contribution,https://bibframe.org/view/documentation-marva-manual/work-description/contributors.md
 ,,,bf:subject,Subjects,false,true,bnode,,lc:RT:bf2:Components | lc:RT:bf2:Topic:SubjectWork,,,,,,,https://bibframe.org/view/documentation-marva-manual/work-description/subjects.md
@@ -1002,7 +1002,7 @@ lc:RT:bf2:Serial:PubInfoNew,Publication,bf:Publication,bf:date,EDTF date (to/fro
 ,,,bflc:simpleDate,Date (to/from 26X $c),false,true,literal,,,,,,,,,
 ,,,bflc:appliesTo,Applies to (to/from 26X $3),false,true,literal,,,,,,,,,
 ,,,bf:status,Status,false,true,,,,https://id.loc.gov/vocabulary/mstatus,IRIstem,,,,bf:Status,
-lc:RT:bf2:Serial:Work,BIBFRAME Work,bf:Work,bf:contribution,Creator of Work,false,true,bnode,,lc:RT:bflc:Agents:PrimaryContribution,,,,,,bf:PrimaryContribution,
+lc:RT:bf2:Serial:Work,BIBFRAME Work,bf:Work,bf:contribution,Creator of Work,false,true,bnode,,lc:RT:bflc:Agents:PrimaryContribution,,,,,,bf:PrimaryContribution,https://bibframe.org/view/documentation-marva-manual/work-description/contributors.md
 ,,,bf:title,Title information,true,true,bnode,,lc:RT:bf2:WorkTitle | lc:RT:bf2:Title:VarTitle | lc:RT:bf2:Title:KeyTitle | lc:RT:bf2:Title:AbbrTitle | lc:RT:bf2:ParallelTitle,,,,,,,https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates-Work/ExpressionTitles
 ,,,bf:genreForm,Genre/Form,false,true,bnode,,lc:RT:bf2:Form,,,,,,,
 ,,,bflc:serialPubType,Type of continuing resource,false,false,,,,https://id.loc.gov/vocabulary/mserialpubtype,IRIstem,,,,bflc:SerialPubType,
@@ -1012,7 +1012,7 @@ lc:RT:bf2:Serial:Work,BIBFRAME Work,bf:Work,bf:contribution,Creator of Work,fals
 ,,,bf:temporalCoverage,(Time) coverage of the content,false,true,literal,,,,,,,,,
 ,,,bf:identifiedBy,Identifiers,false,true,bnode,,lc:RT:bf2:Identifiers:ISSN | lc:RT:bf2:Identifiers:ISSNL,,,,,,,
 ,,,bf:intendedAudience,Intended audience,false,true,bnode,,lc:RT:bf2:Audience,,,,,,,
-,,,bf:contribution,Contribution,false,true,bnode,,lc:RT:bf2:Agents:Contribution,,,,,,bf:Contribution,
+,,,bf:contribution,Contribution,false,true,bnode,,lc:RT:bf2:Agents:Contribution,,,,,,bf:Contribution,https://bibframe.org/view/documentation-marva-manual/work-description/contributors.md
 ,,,bf:geographicCoverage,Geographic coverage,false,true,bnode,,lc:RT:bf2:Form:Geog,,,,,,,
 ,,,bf:subject,Subjects,false,true,bnode,,lc:RT:bf2:Components | lc:RT:bf2:Topic:Place:Components | lc:RT:bf2:Topic:SubjectWork,,,,,,,
 ,,,bf:classification,Classification numbers,false,true,bnode,,lc:RT:bf2:LCC | lc:RT:bf2:DDC | lc:RT:bf2:NLM | lc:RT:bf2:OtherClass,,,,,,,
@@ -1073,7 +1073,7 @@ lc:RT:bf2:SoundCDR:Item,BIBFRAME Item,bf:Item,bf:electronicLocator,URL of Item,f
 ,,,bf:contribution,Collection/contribution,false,true,bnode,,lc:RT:bf2:Agents:bfContribution,,,,,,bf:Contribution,
 ,,,bf:note,Notes about the Item,false,true,bnode,,lc:RT:bf2:NoteLc,,,,,,,
 lc:RT:bf2:SoundCDR:Work,BIBFRAME Work,bf:Work,bf:expressionOf,Expression of [search for a Hub],,,,,,https://id.loc.gov/resources/hubs,IRIstem,,,,bf:Hub,https://bibframe.org/view/documentation-marva-manual/work-description/expression-hub.md
-,,,bf:contribution,Creator,false,true,bnode,,lc:RT:bflc:Agents:PrimaryContribution,,,,,,bf:PrimaryContribution,https://bibframe.org/view/documentation-marva-manual/work-description/creator-of-work.md
+,,,bf:contribution,Creator,false,true,bnode,,lc:RT:bflc:Agents:PrimaryContribution,,,,,,bf:PrimaryContribution,https://bibframe.org/view/documentation-marva-manual/work-description/contributors.md
 ,,,bf:title,Title,true,true,bnode,,lc:RT:bf2:WorkTitle | lc:RT:bf2:Title:VarTitle | lc:RT:bf2:ParallelTitle,,,,,,,https://bibframe.org/view/documentation-marva-manual/work-description/title-information.md
 ,,,bf:contribution,Contributors,false,true,bnode,,lc:RT:bf2:Agents:Contribution,,,,,,bf:Contribution,https://bibframe.org/view/documentation-marva-manual/work-description/contributors.md
 ,,,bf:language,"Language (008 [1st], 041 $a [others])",false,true,,,,http://id.loc.gov/vocabulary/languages,IRIstem,,,,bf:Language,https://bibframe.org/view/documentation-marva-manual/work-description/language.md
@@ -1125,7 +1125,7 @@ lc:RT:bf2:SoundCassette:Item,BIBFRAME Item,bf:Item,bf:electronicLocator,URL of I
 ,,,bf:note,Notes about the Item,false,true,bnode,,lc:RT:bf2:NoteLc,,,,,,,
 lc:RT:bf2:SoundCassette:PlaySpeed,Playing speed,bf:PlayingSpeed,owl:sameAs,Playing speed,false,true,,,,http://id.loc.gov/vocabulary/mplayspeed,IRIstem,,,,,
 lc:RT:bf2:SoundCassette:Work,BIBFRAME Work,bf:Work,bf:hasExpression,Expression of [search for a Hub],,false,,,,https://id.loc.gov/resources/hubs,IRIstem,,,,bf:Hub,https://bibframe.org/docs/view/documentation-marva-manual/work-description/expression-hub.md
-,,,bf:contribution,Creator,false,true,bnode,,lc:RT:bflc:Agents:PrimaryContribution,,,,,,bf:PrimaryContribution,https://bibframe.org/view/documentation-marva-manual/work-description/creator-of-work.md
+,,,bf:contribution,Creator,false,true,bnode,,lc:RT:bflc:Agents:PrimaryContribution,,,,,,bf:PrimaryContribution,https://bibframe.org/view/documentation-marva-manual/work-description/contributors.md
 ,,,bf:title,Title,true,true,bnode,,lc:RT:bf2:WorkTitle | lc:RT:bf2:Title:VarTitle | lc:RT:bf2:ParallelTitle,,,,,,,https://bibframe.org/view/documentation-marva-manual/work-description/title-information.md
 ,,,bf:contribution,Contributors,false,true,bnode,,lc:RT:bf2:Agents:Contribution,,,,,,bf:Contribution,https://bibframe.org/view/documentation-marva-manual/work-description/contributors.md
 ,,,bf:musicMedium,Medium of performance statement,false,true,bnode,,lc:RT:bf2:MOPStatement,,,,,,,
@@ -1178,7 +1178,7 @@ lc:RT:bf2:SoundRecording:Item,BIBFRAME Item,bf:Item,bf:electronicLocator,URL of 
 ,,,bf:contribution,Collection/contribution,false,true,bnode,,lc:RT:bf2:Agents:bfContribution,,,,,,bf:Contribution,
 ,,,bf:note,Notes about the Item,false,true,bnode,,lc:RT:bf2:NoteLc,,,,,,,
 lc:RT:bf2:SoundRecording:Work,BIBFRAME Work,bf:Work,bf:expressionOf,Expression of [search for a Hub],,,,,,https://id.loc.gov/resources/hubs,IRIstem,,,,bf:Hub,https://bibframe.org/view/documentation-marva-manual/work-description/expression-hub.md
-,,,bf:contribution,Creator,false,false,bnode,,lc:RT:bflc:Agents:PrimaryContribution,,,,,,bf:PrimaryContribution,https://bibframe.org/view/documentation-marva-manual/work-description/creator-of-work.md
+,,,bf:contribution,Creator,false,false,bnode,,lc:RT:bflc:Agents:PrimaryContribution,,,,,,bf:PrimaryContribution,https://bibframe.org/view/documentation-marva-manual/work-description/contributors.md
 ,,,bf:title,Title,true,true,bnode,,lc:RT:bf2:WorkTitle | lc:RT:bf2:Title:VarTitle | lc:RT:bf2:ParallelTitle,,,,,,,https://bibframe.org/view/documentation-marva-manual/work-description/title-information.md
 ,,,bf:contribution,Contributors,false,true,bnode,,lc:RT:bf2:Agents:Contribution,,,,,,bf:Contribution,https://bibframe.org/view/documentation-marva-manual/work-description/contributors.md
 ,,,bf:language,"Language (008 [1st], 041 $a [others])",false,true,,,,http://id.loc.gov/vocabulary/languages,IRIstem,,,,bf:Language,https://bibframe.org/view/documentation-marva-manual/work-description/language.md
@@ -1249,7 +1249,7 @@ lc:RT:bf2:TypeRec2,Type of recording (analog),bf:RecordingMethod,owl:sameAs,Look
 lc:RT:bf2:URL,URL,rdfs:Resource,owl:sameAs,URL,false,true,literal,,,,,,,,,
 lc:RT:bf2:WorkTitle,Work title,bf:Title,bflc:nonSortNum,Non-sort character count,false,true,literal,,,,,,,,,https://bibframe.org/docs/view/documentation-marva-manual/work-description/title-information.md
 ,,,bf:mainTitle,Preferred title for Work,false,false,literal,,,,,,,,,https://bibframe.org/docs/view/documentation-marva-manual/work-description/title-information.md
-lc:RT:bflc:Agents:PrimaryContribution,Primary contribution,bf:PrimaryContribution,bf:agent,Primary contributor,false,false,bnode,,lc:RT:bf2:Agent:bfPerson | lc:RT:bf2:Agent:bfFamily | lc:RT:bf2:Agent:bfCorp | lc:RT:bf2:Agent:bfJurisdiction | lc:RT:bf2:Agent:bfConf,,,,,,bf:PrimaryContribution,https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates
+lc:RT:bflc:Agents:PrimaryContribution,Primary contribution,bf:PrimaryContribution,bf:agent,Primary contributor,false,false,bnode,,lc:RT:bf2:Agent:bfPerson | lc:RT:bf2:Agent:bfFamily | lc:RT:bf2:Agent:bfCorp | lc:RT:bf2:Agent:bfJurisdiction | lc:RT:bf2:Agent:bfConf,,,,,,bf:PrimaryContribution,https://bibframe.org/view/documentation-marva-manual/work-description/contributors.md
 ,,,bf:role,Relationship designator,false,true,,,,https://preprod.id.loc.gov/vocabulary/relators,IRIstem,,,,bf:Role,https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates-AgentRoles
 lc:profile:bf2:35mmFeatureFilm,BIBFRAME 2.0 Moving Image,,dcterms:hasPart,Has Shape,,,bnode,,lc:RT:bf2:35mmFeatureFilm:Work,,,,,,,
 ,,,dcterms:hasPart,Has Shape,,,bnode,,lc:RT:bf2:35mmFeatureFilm:Instance,,,,,,,
