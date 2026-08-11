@@ -1068,7 +1068,7 @@ lc:RT:NotatedMusic:Work,BIBFRAME Work,bf:Work,bf:expressionOf,Expression of [sea
 ,,,bf:summary,Summary,,TRUE,bnode,,lc:RT:Summary,,,,,,,https://bibframe.org/view/documentation-marva-manual/work-description/summary.md
 ,,,bf:relation,Input transcribed series,,,bnode,,lc:RT:SeriesHub,,,,,,,https://bibframe.org/view/documentation-marva-manual/work-description/input-transcribed-series.md
 ,,,bf:relation,Search related work/series,,TRUE,bnode,,lc:RT:RelWorkLookup,,,,,,,https://bibframe.org/view/documentation-marva-manual/work-description/search-related-work.md
-,,,bf:relation,Add Music related work,,,bnode,,lc:RT:RelWorkExpressionLookup,,,,,,,
+,,,bf:relation,Add Music related work,,,bnode,,lc:RT:RelWorkExpressionLookup,,,,,,,https://bibframe.org/docs/edit/documentation-marva-manual/hidden/related-music-work.md
 ,,,bf:hasInstance,Add BIBFRAME Instance,,TRUE,bnode,,lc:RT:NotatedMusic:Instance,,,,,,,
 lc:RT:NotatedMusic:WorkRef,BIBFRAME Work,bf:Work,bf:expressionOf,Expression of [search for a Hub],FALSE,TRUE,,,,https://id.loc.gov/resources/hubs,IRIstem,,,,bf:Hub,
 ,,,rdf:type,Work type,,,IRI,,,bf:NotatedMusic|bf:Manuscript,picklist,,,,,
@@ -1341,7 +1341,7 @@ lc:RT:RegEncoding,Regional encoding,bf:RegionalEncoding,owl:sameAs,Lookup,FALSE,
 lc:RT:RelWork,Related work not in LC catalog,bf:Relation,bf:associatedResource,Related work not in LC catalog,,,bnode,,lc:RT:RelWorkInput,,,,,,bf:Hub,
 ,,,bflc:appliesTo,Applies to,,,bnode,,lc:RT:AppliesTo,,,,,,,
 ,,,bf:relationship,Relationship,,,,,,http://id.loc.gov/vocabulary/relationship,IRIstem,,,,bf:Relationship,
-lc:RT:RelWorkExpressionLookup,Search related music work,bf:Relation,bf:associatedResource,Search related work,FALSE,TRUE,,,,https://preprod-8299.id.loc.gov/resources/music-related-works/,IRIstem,,,,,https://bibframe.org/docs/view/documentation-marva-manual/work-description/search-related-work.md
+lc:RT:RelWorkExpressionLookup,Search related music work,bf:Relation,bf:associatedResource,Search related work,FALSE,TRUE,,,,https://preprod-8299.id.loc.gov/resources/music-related-works/,IRIstem,,,,,https://bibframe.org/docs/edit/documentation-marva-manual/hidden/related-music-work.md
 ,,,bf:relationship,Relationship designator,FALSE,TRUE,,,,http://id.loc.gov/vocabulary/relationship,IRIstem,,,,bf:Relationship,
 lc:RT:RelWorkInput,Related work not in LC catalog,bf:Hub,bf:title,Title,FALSE,TRUE,bnode,,lc:RT:RelWorkInputTitle,,,,,,,
 ,,,bf:contribution,Contributor,FALSE,TRUE,bnode,,lc:RT:Agent:bfPerson | lc:RT:Agent:bfCorp | lc:RT:Agent:bfConf | lc:RT:Agent:bfFamily | lc:RT:Agent:bfJurisdiction,,,,,,bf:Contribution,
