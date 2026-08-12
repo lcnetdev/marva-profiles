@@ -725,57 +725,55 @@ lc:RT:bf2:NLM,National Library of Medicine classification,bf:ClassificationNlm,b
 ,,,bf:assigner,Assigner,false,true,,,,http://preprod.id.loc.gov/vocabulary/organizations/,IRIstem,,"United States, National Library of Medicine",http://id.loc.gov/vocabulary/organizations/dnlm,bf:Agent,
 lc:RT:bf2:NotatedMusic:Instance,BIBFRAME Instance,bf:Instance,bf:instanceOf,Instance of,false,false,bnode,,lc:RT:bf2:NotatedMusic:Work,,,,,,,
 ,,,bf:title,Title information,true,true,bnode,,lc:RT:bf2:InstanceTitle | lc:RT:bf2:Title:VarTitle | lc:RT:bf2:ParallelTitle | lc:RT:bf2:Title:CollTitle,,,,,,,
-,,,bf:responsibilityStatement,Statement of responsibility,false,true,literal,,,,,,,,,
-,,,bf:editionStatement,Edition statement,false,true,literal,,,,,,,,,
-,,,bf:provisionActivity,Provision activity,false,true,bnode,,lc:RT:bf2:PubInfoNew | lc:RT:bf2:DistInfoNew | lc:RT:bf2:ManuInfoNew | lc:RT:bf2:ProdInfoNew,,,,,,,https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates-ProvisionActivity(264)
-,,,bf:copyrightDate,Copyright date,false,true,literal,,,,,,,,,
-,,,bf:issuance,Mode of issuance,false,true,,,,http://id.loc.gov/vocabulary/issuance,IRIstem,,single unit,http://id.loc.gov/vocabulary/issuance/mono,bf:Issuance,
-,,,bf:identifiedBy,Identifiers,false,true,bnode,,lc:RT:bf2:Identifiers:LCCN | lc:RT:bf2:Identifiers:ISBN | lc:RT:bf2:Identifiers:ISMN | lc:RT:bf2:Identifiers:UPC | lc:RT:bf2:Identifiers:Distributor | lc:RT:bf2:Identifiers:MusicPlate | lc:RT:bf2:Identifiers:MusicPub | lc:RT:bf2:Identifiers:Oclc | lc:RT:bf2:Identifiers:Other | lc:RT:bf2:Identifiers:Local | lc:RT:bf2:Identifiers:Copyright,,,,,,,
-,,,bf:note,Notes about the Instance,false,true,bnode,,lc:RT:bf2:Note,,,,,,,
-,,,bf:supplementaryContent,Supplementary content note,false,true,bnode,,lc:RT:bf2:SupplContentNote,,,,,,,
-,,,bf:media,Media type,false,true,,,,http://id.loc.gov/vocabulary/mediaTypes,IRIstem,,unmediated,http://id.loc.gov/vocabulary/mediaTypes/n,bf:Media,
-,,,bf:carrier,Carrier type,false,true,,,,http://id.loc.gov/vocabulary/carriers,IRIstem,,volume,http://id.loc.gov/vocabulary/carriers/nc,bf:Carrier,
-,,,bf:extent,Physical description,false,true,bnode,,lc:RT:bf2:Extent,,,,,,,
-,,,bf:dimensions,Dimensions,false,true,literal,,,,,,,,,
-,,,bf:baseMaterial,Base material,false,true,,,,,,,,,bf:BaseMaterial,
-,,,bf:productionMethod,Production method,false,true,,,,http://id.loc.gov/vocabulary/mproduction,IRIstem,,,,bf:ProductionMethod,
-,,,bf:electronicLocator,URL of Instance,false,true,bnode,,lc:RT:bf2:URL,,,,,,,
+,,,bf:responsibilityStatement,Statement of responsibility,false,true,literal,,,,,,,,,https://bibframe.org/view/documentation-marva-manual/instance-description/statement-of-responsibility.md
+,,,bf:editionStatement,Edition statement,false,true,literal,,,,,,,,,https://bibframe.org/view/documentation-marva-manual/instance-description/edition-statement.md
+,,,bf:provisionActivity,Provision activity,false,true,bnode,,lc:RT:bf2:PubInfoNew | lc:RT:bf2:DistInfoNew | lc:RT:bf2:ManuInfoNew | lc:RT:bf2:ProdInfoNew,,,,,,,https://bibframe.org/view/documentation-marva-manual/instance-description/provision-activity.md
+,,,bf:copyrightDate,Copyright date,false,true,literal,,,,,,,,,https://bibframe.org/view/documentation-marva-manual/instance-description/copyright-date.md
+,,,bf:issuance,Mode of issuance,false,true,,,,http://id.loc.gov/vocabulary/issuance,IRIstem,,single unit,http://id.loc.gov/vocabulary/issuance/mono,bf:Issuance,https://bibframe.org/view/documentation-marva-manual/instance-description/mode-of-issuance.md
+,,,bf:identifiedBy,Identifiers,false,true,bnode,,lc:RT:bf2:Identifiers:LCCN | lc:RT:bf2:Identifiers:ISBN | lc:RT:bf2:Identifiers:ISMN | lc:RT:bf2:Identifiers:UPC | lc:RT:bf2:Identifiers:Distributor | lc:RT:bf2:Identifiers:MusicPlate | lc:RT:bf2:Identifiers:MusicPub | lc:RT:bf2:Identifiers:Oclc | lc:RT:bf2:Identifiers:Other | lc:RT:bf2:Identifiers:Local | lc:RT:bf2:Identifiers:Copyright,,,,,,,https://bibframe.org/view/documentation-marva-manual/instance-description/identifiers.md
+,,,bf:note,Notes about the Instance,false,true,bnode,,lc:RT:bf2:Note,,,,,,,https://bibframe.org/view/documentation-marva-manual/instance-description/notes-about-instance.md
+,,,bf:supplementaryContent,Supplementary content note,false,true,bnode,,lc:RT:bf2:SupplContentNote,,,,,,,https://bibframe.org/view/documentation-marva-manual/instance-description/supplementary-content-url.md
+,,,bf:media,Media type,false,true,,,,http://id.loc.gov/vocabulary/mediaTypes,IRIstem,,unmediated,http://id.loc.gov/vocabulary/mediaTypes/n,bf:Media,https://bibframe.org/view/documentation-marva-manual/instance-description/media-type.md
+,,,bf:carrier,Carrier type,false,true,,,,http://id.loc.gov/vocabulary/carriers,IRIstem,,volume,http://id.loc.gov/vocabulary/carriers/nc,bf:Carrier,https://bibframe.org/view/documentation-marva-manual/instance-description/carrier-type.md
+,,,bf:extent,Physical description,false,true,bnode,,lc:RT:bf2:Extent,,,,,,,https://bibframe.org/view/documentation-marva-manual/instance-description/physical-description.md
+,,,bf:dimensions,Dimensions,false,true,literal,,,,,,,,,https://bibframe.org/view/documentation-marva-manual/instance-description/dimensions.md
+,,,bf:electronicLocator,URL of Instance,false,true,bnode,,lc:RT:bf2:URL,,,,,,,https://bibframe.org/view/documentation-marva-manual/instance-description/url-of-instance.md
 ,,,bf:hasItem,Has Item,false,true,bnode,,lc:RT:bf2:NotatedMusic:Item,,,,,,,
 lc:RT:bf2:NotatedMusic:Item,BIBFRAME Item,bf:Item,bf:electronicLocator,URL of Item,false,true,bnode,,lc:RT:bf2:URL,,,,,,,
 ,,,bf:contribution,Collection/contribution,false,true,bnode,,lc:RT:bf2:Agents:bfContribution,,,,,,bf:Contribution,
 ,,,bf:note,Notes about the Item,false,true,bnode,,lc:RT:bf2:NoteLc,,,,,,,
 lc:RT:bf2:NotatedMusic:Work,BIBFRAME Work,bf:Work,bf:expressionOf,Expression of [search for a Hub],,,,,,https://id.loc.gov/resources/hubs,IRIstem,,,,bf:Hub,https://bibframe.org/docs/view/documentation-marva-manual/work-description/expression-hub.md
-,,,bf:contribution,Creator of Work,false,true,bnode,,lc:RT:bflc:Agents:PrimaryContribution,,,,,,bf:PrimaryContribution,
-,,,bf:title,Title information,true,true,bnode,,lc:RT:bf2:WorkTitle | lc:RT:bf2:Title:VarTitle | lc:RT:bf2:ParallelTitle,,,,,,,https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates-Work/ExpressionTitles
-,,,bf:genreForm,Genre/Form,false,true,bnode,,lc:RT:bf2:Form,,,,,,bf:GenreForm,
-,,,bf:originDate,Date of Work,false,true,literal,,,,,,,,,
-,,,bf:originPlace,Place of origin of the Work,false,true,,,,http://id.loc.gov/vocabulary/countries,IRIstem,,,,bf:Place,
+,,,bf:contribution,Creator of Work,false,true,bnode,,lc:RT:bflc:Agents:PrimaryContribution,,,,,,bf:PrimaryContribution,https://bibframe.org/view/documentation-marva-manual/work-description/contributors.md
+,,,bf:title,Title information,true,true,bnode,,lc:RT:bf2:WorkTitle | lc:RT:bf2:Title:VarTitle | lc:RT:bf2:ParallelTitle,,,,,,,https://bibframe.org/view/documentation-marva-manual/work-description/title-information.md
+,,,bf:contribution,Contribution,false,true,bnode,,lc:RT:bf2:Agents:Contribution,,,,,,bf:Contribution,https://bibframe.org/view/documentation-marva-manual/work-description/contributors.md
 ,,,bf:musicMedium,Medium of performance statement,false,true,bnode,,lc:RT:bf2:MOPStatement,,,,,,,
 ,,,bf:ensembleSize,Ensemble size,false,true,,,,http://id.loc.gov/vocabulary/ensemblesize,IRIstem,,,,bf:EnsembleSize,
 ,,,bf:mediumComponent,Medium component,false,true,bnode,,lc:RT:bf2:PMOMedPerf:MediumComp,,,,,,,
 ,,,bf:identifiedBy,Identifiers,false,true,bnode,,lc:RT:bf2:Identifiers:OpusNumber|lc:RT:bf2:Identifiers:ThematicCatalog|lc:RT:bf2:Identifiers:SerialNumber,,,,,,,
 ,,,bf:keyMode,Key and mode,false,true,bnode,,lc:RT:bf2:KeyMode,,,,,,,
-,,,bf:intendedAudience,Intended audience,false,true,bnode,,lc:RT:bf2:Audience,,,,,,,
-,,,bf:contribution,Contribution,false,true,bnode,,lc:RT:bf2:Agents:Contribution,,,,,,bf:Contribution,
-,,,bf:classification,Classification numbers,false,true,bnode,,lc:RT:bf2:LCC | lc:RT:bf2:DDC,,,,,,,
-,,,bf:subject,Subjects,false,true,bnode,,lc:RT:bf2:Components | lc:RT:bf2:Topic:Place:Components | lc:RT:bf2:Topic:SubjectWork,,,,,,,
-,,,bf:note,Notes about the Work,false,true,bnode,,lc:RT:bf2:Note,,,,,,,
-,,,bf:tableOfContents,Contents,false,true,bnode,,lc:RT:bf2:Contents,,,,,,,
-,,,bf:content,Content type,false,true,,,,http://id.loc.gov/vocabulary/contentTypes,IRIstem,,Notated music,http://id.loc.gov/vocabulary/contentTypes/ntm,bf:Content,
-,,,bf:language,"Language (008 [1st], 041 $a [others])",false,true,,,,http://id.loc.gov/vocabulary/languages,IRIstem,,,,bf:Language,https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates-Languages(041)
-,,,bf:language,ISO 639-3 language (041 $a),,true,,,,http://id.loc.gov/vocabulary/iso639-3,IRIstem,,,,bf:Language,
-,,,bf:accompaniedBy,Language resource (041 $bdefgt),false,true,bnode,,lc:RT:bf2:LangResource,,,,,,,https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates-Languages(041)
-,,,bf:note,Language note (041 $hijkmnpqr),false,true,bnode,,lc:RT:bf2:LangNote,,,,,,,https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates-Languages(041)
-,,,bf:summary,Summary,false,true,bnode,,lc:RT:bf2:Summary,,,,,,,
 ,,,bf:musicFormat,"Format (score, part, etc.)",false,true,,,,http://id.loc.gov/vocabulary/mmusicformat,IRIstem,,,,bf:MusicFormat,
 ,,,bf:notation,"Notation (staff, graphic, etc.)",false,true,,,,http://id.loc.gov/vocabulary/mmusnotation,IRIstem,,,,bf:MusicNotation,
+,,,bf:intendedAudience,Intended audience,false,true,bnode,,lc:RT:bf2:Audience,,,,,,,https://bibframe.org/view/documentation-marva-manual/work-description/intended-audience.md
+,,,bf:classification,Classification numbers,false,true,bnode,,lc:RT:bf2:LCC | lc:RT:bf2:DDC,,,,,,,https://bibframe.org/view/documentation-marva-manual/work-description/classification-numbers.md
+,,,bf:genreForm,Genre/Form,false,true,bnode,,lc:RT:bf2:Form,,,,,,bf:GenreForm,https://bibframe.org/view/documentation-marva-manual/work-description/genre-form.md
+,,,bf:subject,Subjects,false,true,bnode,,lc:RT:bf2:Components | lc:RT:bf2:Topic:Place:Components | lc:RT:bf2:Topic:SubjectWork,,,,,,,https://bibframe.org/view/documentation-marva-manual/work-description/subjects.md
+,,,bf:note,Notes about the Work,false,true,bnode,,lc:RT:bf2:Note,,,,,,,https://bibframe.org/view/documentation-marva-manual/work-description/notes-about-work.md
+,,,bf:tableOfContents,Contents,false,true,bnode,,lc:RT:bf2:Contents,,,,,,,https://bibframe.org/view/documentation-marva-manual/work-description/contents.md
+,,,bf:summary,Summary,false,true,bnode,,lc:RT:bf2:Summary,,,,,,,https://bibframe.org/view/documentation-marva-manual/work-description/summary.md
+,,,bf:content,Content type,false,true,,,,http://id.loc.gov/vocabulary/contentTypes,IRIstem,,Notated music,http://id.loc.gov/vocabulary/contentTypes/ntm,bf:Content,https://bibframe.org/view/documentation-marva-manual/work-description/content-type.md
+,,,bf:language,"Language (008 [1st], 041 $a [others])",false,true,,,,http://id.loc.gov/vocabulary/languages,IRIstem,,,,bf:Language,https://bibframe.org/view/documentation-marva-manual/work-description/language.md
+,,,bf:language,ISO 639-3 language (041 $a),,true,,,,http://id.loc.gov/vocabulary/iso639-3,IRIstem,,,,bf:Language,
+,,,bf:accompaniedBy,Language resource (041 $bdefgt),false,true,bnode,,lc:RT:bf2:LangResource,,,,,,,https://bibframe.org/view/documentation-marva-manual/work-description/language.md
+,,,bf:note,Language note (041 $hijkmnpqr),false,true,bnode,,lc:RT:bf2:LangNote,,,,,,,https://bibframe.org/view/documentation-marva-manual/work-description/language.md
 ,,,bf:notation,Script,false,true,,,,http://id.loc.gov/vocabulary/mscript,IRIstem,,,,bf:Script,
-,,,bf:illustrativeContent,Illustrative content,false,true,,,,http://id.loc.gov/vocabulary/millus,IRIstem,,,,bf:Illustration,
-,,,bf:supplementaryContent,Supplementary content,false,true,,,,http://id.loc.gov/vocabulary/msupplcont,IRIstem,,,,bf:SupplementaryContent,
-,,,bf:colorContent,Color content,false,true,,,,http://id.loc.gov/vocabulary/mcolor,IRIstem,,,,bf:ColorContent,
+,,,bf:illustrativeContent,Illustrative content,false,true,,,,http://id.loc.gov/vocabulary/millus,IRIstem,,,,bf:Illustration,https://bibframe.org/view/documentation-marva-manual/work-description/illustrative-content.md
+,,,bf:supplementaryContent,Supplementary content,false,true,,,,http://id.loc.gov/vocabulary/msupplcont,IRIstem,,,,bf:SupplementaryContent,https://bibframe.org/view/documentation-marva-manual/work-description/supplementary-content.md
+,,,bf:colorContent,Color content,false,true,,,,http://id.loc.gov/vocabulary/mcolor,IRIstem,,,,bf:ColorContent,https://bibframe.org/view/documentation-marva-manual/work-description/color-content.md
 ,,,bf:duration,Duration,false,true,literal,,,,,,,,,
-,,,bf:relation,Search related work/series,false,true,bnode,,lc:RT:bf2:RelWorkLookup,,,,,,,"https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates-Hubs(240;X00,X10,X11with$t;X30)"
-,,,bf:relation,Input transcribed series,false,true,bnode,,lc:RT:bf2:SeriesHub,,,,,,,"https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates-Series(490,8XX)"
+,,,bf:originDate,Date of Work,false,true,literal,,,,,,,,,https://bibframe.org/view/documentation-marva-manual/work-description/date-of-work.md
+,,,bf:originPlace,Place of origin of the Work,false,true,,,,http://id.loc.gov/vocabulary/countries,IRIstem,,,,bf:Place,https://bibframe.org/view/documentation-marva-manual/work-description/country-of-origin.md
+,,,bf:relation,Input transcribed series,false,true,bnode,,lc:RT:bf2:SeriesHub,,,,,,,https://bibframe.org/view/documentation-marva-manual/work-description/input-transcribed-series.md
+,,,bf:relation,Search related work/series,false,true,bnode,,lc:RT:bf2:RelWorkLookup,,,,,,,https://bibframe.org/view/documentation-marva-manual/work-description/search-related-work.md
 ,,,bf:hasInstance,Add BIBFRAME Instance,false,true,bnode,,lc:RT:bf2:NotatedMusic:Instance,,,,,,,
 lc:RT:bf2:Notation,Notation note,bf:Notation,rdfs:label,Notation note,false,true,literal,,,,,,,,,
 lc:RT:bf2:Note,Note,bf:Note,rdfs:label,Note,false,false,literal,,,,,,,,,
