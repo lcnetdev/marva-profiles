@@ -136,7 +136,7 @@ lc:RT:AcqSource,Acquisition source,bf:AcquisitionSource,bf:identifiedBy,Stock nu
 lc:RT:AdminMetadata,BIBFRAME 2.0 Admin Metadata,bf:AdminMetadata,bflc:catalogerId,Your cataloger ID (Windows ID),FALSE,TRUE,literal,,,,,,,,,
 ,,,bflc:encodingLevel,Encoding level,TRUE,FALSE,,,,http://id.loc.gov/vocabulary/menclvl,IRIstem,,,,bflc:EncodingLevel,
 ,,,bf:status,Status (new/changed/deleted),FALSE,FALSE,,,,http://id.loc.gov/vocabulary/mstatus,IRIstem,,,,bf:Status,
-,,,bf:assigner,Assigning agency,FALSE,FALSE,,,,http://id.loc.gov/vocabulary/organizations,IRIstem,,DLC,http://id.loc.gov/vocabulary/organizations/dlc,bf:Agent,
+,,,bf:agent,Assigning agency,FALSE,FALSE,,,,http://id.loc.gov/vocabulary/organizations,IRIstem,,DLC,http://id.loc.gov/vocabulary/organizations/dlc,bf:Agent,
 ,,,bf:descriptionAuthentication,Description authentication,TRUE,TRUE,,,,http://id.loc.gov/vocabulary/marcauthen,IRIstem,,pcc,http://id.loc.gov/vocabulary/marcauthen/pcc,bf:DescriptionAuthentication,
 ,,,bf:descriptionConventions,Description conventions,TRUE,TRUE,,,,http://id.loc.gov/vocabulary/descriptionConventions,IRIstem,,rda,http://id.loc.gov/vocabulary/descriptionConventions/rda,bf:DescriptionConventions,
 ,,,bf:descriptionLanguage,Description language,TRUE,FALSE,,,,http://id.loc.gov/vocabulary/languages,IRIstem,,English,http://id.loc.gov/vocabulary/languages/eng,bf:Language,
