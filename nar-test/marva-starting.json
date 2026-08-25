@@ -1,0 +1,23 @@
+[
+  {
+    "id": "0bc6479a-7a29-4567-80fa-276b201fe1f0",
+    "name": "config",
+    "configType": "startingPoints",
+    "json": [
+      {
+        "menuGroup": "Name Authority",
+        "menuItems": [
+          {
+            "label": "Name Authority",
+            "type": [
+              "http://www.loc.gov/mads/rdf/v1#Authority"
+            ],
+            "useResourceTemplates": [
+              "lc:RT:mads:NAR:NameAuthority"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

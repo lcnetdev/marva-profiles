@@ -1,0 +1,875 @@
+[
+  {
+    "id": "ac1a5434-a5fa-4311-8709-51b073aedc73",
+    "name": "nar-test",
+    "configType": "profile",
+    "json": {
+      "Profile": {
+        "id": "lc:profile:nar-test",
+        "title": "nar-test",
+        "resourceTemplates": [
+          {
+            "id": "lc:RT:mads:NAR:Affiliation",
+            "resourceURI": "http://www.loc.gov/mads/rdf/v1#Affiliation",
+            "resourceLabel": "Affiliation",
+            "propertyTemplates": [
+              {
+                "propertyURI": "http://www.loc.gov/mads/rdf/v1#organization",
+                "propertyLabel": "Search LCNAF for the organization",
+                "mandatory": "true",
+                "repeatable": "false",
+                "type": "lookup",
+                "resourceTemplates": [],
+                "valueConstraint": {
+                  "valueTemplateRefs": [],
+                  "useValuesFrom": [
+                    "https://id.loc.gov/authorities/names"
+                  ],
+                  "defaults": [],
+                  "valueDataType": {
+                    "dataTypeURI": "http://www.loc.gov/mads/rdf/v1#Organization"
+                  },
+                  "picklist": []
+                }
+              },
+              {
+                "propertyURI": "http://www.loc.gov/mads/rdf/v1#affiliationStart",
+                "propertyLabel": "Affiliation Start Date (MARC 373 $s)",
+                "mandatory": "false",
+                "repeatable": "false",
+                "type": "literal",
+                "resourceTemplates": [],
+                "valueConstraint": {
+                  "valueTemplateRefs": [],
+                  "useValuesFrom": [],
+                  "defaults": [],
+                  "valueDataType": {},
+                  "picklist": []
+                }
+              },
+              {
+                "propertyURI": "http://www.loc.gov/mads/rdf/v1#affiliationEnd",
+                "propertyLabel": "Affiliation End Date (MARC 373 $t)",
+                "mandatory": "false",
+                "repeatable": "false",
+                "type": "literal",
+                "resourceTemplates": [],
+                "valueConstraint": {
+                  "valueTemplateRefs": [],
+                  "useValuesFrom": [],
+                  "defaults": [],
+                  "valueDataType": {},
+                  "picklist": []
+                }
+              }
+            ]
+          },
+          {
+            "id": "lc:RT:mads:NAR:FieldOfActivity",
+            "resourceURI": "http://www.loc.gov/mads/rdf/v1#Topic",
+            "resourceLabel": "Field of activity",
+            "propertyTemplates": [
+              {
+                "propertyURI": "http://www.loc.gov/mads/rdf/v1#authoritativeLabel",
+                "propertyLabel": "Search LCSH",
+                "mandatory": "false",
+                "repeatable": "false",
+                "type": "lookup",
+                "resourceTemplates": [],
+                "valueConstraint": {
+                  "valueTemplateRefs": [],
+                  "useValuesFrom": [
+                    "https://id.loc.gov/authorities/subjects"
+                  ],
+                  "defaults": [],
+                  "valueDataType": {
+                    "dataTypeURI": "http://www.loc.gov/mads/rdf/v1#Topic"
+                  },
+                  "picklist": []
+                }
+              },
+              {
+                "propertyURI": "http://www.w3.org/2000/01/rdf-schema#label",
+                "propertyLabel": "Or input an uncontrolled term",
+                "mandatory": "false",
+                "repeatable": "false",
+                "type": "literal",
+                "resourceTemplates": [],
+                "valueConstraint": {
+                  "valueTemplateRefs": [],
+                  "useValuesFrom": [],
+                  "defaults": [],
+                  "valueDataType": {},
+                  "picklist": []
+                }
+              }
+            ]
+          },
+          {
+            "id": "lc:RT:mads:NAR:FullerName",
+            "resourceURI": "http://www.loc.gov/mads/rdf/v1#PersonalName",
+            "resourceLabel": "Fuller form of name",
+            "propertyTemplates": [
+              {
+                "propertyURI": "http://www.w3.org/2000/01/rdf-schema#label",
+                "propertyLabel": "Fuller Form (MARC 378 $q)",
+                "mandatory": "true",
+                "repeatable": "false",
+                "type": "literal",
+                "resourceTemplates": [],
+                "valueConstraint": {
+                  "valueTemplateRefs": [],
+                  "useValuesFrom": [],
+                  "defaults": [],
+                  "valueDataType": {},
+                  "picklist": []
+                }
+              }
+            ]
+          },
+          {
+            "id": "lc:RT:mads:NAR:NameAuthority",
+            "resourceURI": "http://www.loc.gov/mads/rdf/v1#Authority",
+            "resourceLabel": "Create name authority",
+            "propertyTemplates": [
+              {
+                "propertyURI": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+                "propertyLabel": "Entity Type",
+                "mandatory": "true",
+                "repeatable": "false",
+                "type": "literal",
+                "resourceTemplates": [],
+                "valueConstraint": {
+                  "valueTemplateRefs": [],
+                  "useValuesFrom": [],
+                  "defaults": [],
+                  "valueDataType": {},
+                  "picklist": [
+                    "madsrdf:PersonalName",
+                    "madsrdf:CorporateName",
+                    "madsrdf:ConferenceName",
+                    "madsrdf:Geographic",
+                    "madsrdf:FamilyName"
+                  ]
+                }
+              },
+              {
+                "propertyURI": "http://www.loc.gov/mads/rdf/v1#authoritativeLabel",
+                "propertyLabel": "Authorized Access Point (MARC 1XX)",
+                "mandatory": "true",
+                "repeatable": "false",
+                "type": "literal",
+                "resourceTemplates": [],
+                "valueConstraint": {
+                  "valueTemplateRefs": [],
+                  "useValuesFrom": [],
+                  "defaults": [],
+                  "valueDataType": {},
+                  "picklist": []
+                }
+              },
+              {
+                "propertyURI": "http://id.loc.gov/ontologies/bflc/marcKey",
+                "propertyLabel": "MARC key for the 1XX",
+                "mandatory": "true",
+                "repeatable": "false",
+                "type": "literal",
+                "resourceTemplates": [],
+                "valueConstraint": {
+                  "valueTemplateRefs": [],
+                  "useValuesFrom": [],
+                  "defaults": [],
+                  "valueDataType": {},
+                  "picklist": []
+                }
+              },
+              {
+                "propertyURI": "http://id.loc.gov/vocabulary/identifiers/lccn",
+                "propertyLabel": "LCCN (MARC 010)",
+                "mandatory": "true",
+                "repeatable": "false",
+                "type": "literal",
+                "resourceTemplates": [],
+                "valueConstraint": {
+                  "valueTemplateRefs": [],
+                  "useValuesFrom": [],
+                  "defaults": [],
+                  "valueDataType": {},
+                  "picklist": []
+                }
+              },
+              {
+                "propertyURI": "http://www.loc.gov/mads/rdf/v1#fullerName",
+                "propertyLabel": "Fuller Form of Name (RDA 9.5 / MARC 378)",
+                "mandatory": "false",
+                "repeatable": "false",
+                "type": "resource",
+                "resourceTemplates": [],
+                "valueConstraint": {
+                  "valueTemplateRefs": [
+                    "lc:RT:mads:NAR:FullerName"
+                  ],
+                  "useValuesFrom": [],
+                  "defaults": [],
+                  "valueDataType": {},
+                  "picklist": []
+                }
+              },
+              {
+                "propertyURI": "http://www.loc.gov/mads/rdf/v1#hasVariant",
+                "propertyLabel": "Variant Access Point (MARC 4XX)",
+                "mandatory": "false",
+                "repeatable": "true",
+                "type": "resource",
+                "resourceTemplates": [],
+                "valueConstraint": {
+                  "valueTemplateRefs": [
+                    "lc:RT:mads:NAR:Variant"
+                  ],
+                  "useValuesFrom": [],
+                  "defaults": [],
+                  "valueDataType": {},
+                  "picklist": []
+                }
+              },
+              {
+                "propertyURI": "http://www.loc.gov/mads/rdf/v1#identifiesRWO",
+                "propertyLabel": "Attributes of the entity (RWO)",
+                "mandatory": "false",
+                "repeatable": "false",
+                "type": "resource",
+                "resourceTemplates": [],
+                "valueConstraint": {
+                  "valueTemplateRefs": [
+                    "lc:RT:mads:NAR:RWO"
+                  ],
+                  "useValuesFrom": [],
+                  "defaults": [],
+                  "valueDataType": {},
+                  "picklist": []
+                }
+              },
+              {
+                "propertyURI": "http://www.loc.gov/mads/rdf/v1#hasRelatedAuthority",
+                "propertyLabel": "Related Authority (RDA ch. 30 / MARC 5XX)",
+                "mandatory": "false",
+                "repeatable": "true",
+                "type": "resource",
+                "resourceTemplates": [],
+                "valueConstraint": {
+                  "valueTemplateRefs": [
+                    "lc:RT:mads:NAR:RelatedAuthority"
+                  ],
+                  "useValuesFrom": [],
+                  "defaults": [],
+                  "valueDataType": {},
+                  "picklist": []
+                }
+              },
+              {
+                "propertyURI": "http://www.loc.gov/mads/rdf/v1#hasSource",
+                "propertyLabel": "Source Consulted (RDA 8.12 / MARC 670)",
+                "mandatory": "true",
+                "repeatable": "true",
+                "type": "resource",
+                "resourceTemplates": [],
+                "valueConstraint": {
+                  "valueTemplateRefs": [
+                    "lc:RT:mads:NAR:Source"
+                  ],
+                  "useValuesFrom": [],
+                  "defaults": [],
+                  "valueDataType": {},
+                  "picklist": []
+                }
+              },
+              {
+                "propertyURI": "http://www.loc.gov/mads/rdf/v1#editorialNote",
+                "propertyLabel": "Cataloger's Note (RDA 8.13 / MARC 667)",
+                "mandatory": "false",
+                "repeatable": "true",
+                "type": "literal",
+                "resourceTemplates": [],
+                "valueConstraint": {
+                  "valueTemplateRefs": [],
+                  "useValuesFrom": [],
+                  "defaults": [],
+                  "valueDataType": {},
+                  "picklist": []
+                }
+              },
+              {
+                "propertyURI": "http://www.loc.gov/mads/rdf/v1#isMemberOfMADSScheme",
+                "propertyLabel": "MADS Scheme",
+                "mandatory": "true",
+                "repeatable": "false",
+                "type": "literal",
+                "resourceTemplates": [],
+                "valueConstraint": {
+                  "valueTemplateRefs": [],
+                  "useValuesFrom": [],
+                  "defaults": [
+                    {
+                      "defaultURI": "http://id.loc.gov/authorities/names"
+                    }
+                  ],
+                  "valueDataType": {},
+                  "picklist": []
+                }
+              },
+              {
+                "propertyURI": "http://www.loc.gov/mads/rdf/v1#isMemberOfMADSCollection",
+                "propertyLabel": "MADS Collection",
+                "mandatory": "true",
+                "repeatable": "true",
+                "type": "literal",
+                "resourceTemplates": [],
+                "valueConstraint": {
+                  "valueTemplateRefs": [],
+                  "useValuesFrom": [],
+                  "defaults": [
+                    {
+                      "defaultURI": "http://id.loc.gov/authorities/names/collection_LCNAF"
+                    }
+                  ],
+                  "valueDataType": {},
+                  "picklist": []
+                }
+              },
+              {
+                "propertyURI": "http://www.loc.gov/mads/rdf/v1#adminMetadata",
+                "propertyLabel": "Record administration",
+                "mandatory": "true",
+                "repeatable": "false",
+                "type": "resource",
+                "resourceTemplates": [],
+                "valueConstraint": {
+                  "valueTemplateRefs": [
+                    "lc:RT:mads:NAR:RecordInfo"
+                  ],
+                  "useValuesFrom": [],
+                  "defaults": [],
+                  "valueDataType": {},
+                  "picklist": []
+                }
+              }
+            ]
+          },
+          {
+            "id": "lc:RT:mads:NAR:Occupation",
+            "resourceURI": "http://www.loc.gov/mads/rdf/v1#Occupation",
+            "resourceLabel": "Occupation",
+            "propertyTemplates": [
+              {
+                "propertyURI": "http://www.loc.gov/mads/rdf/v1#authoritativeLabel",
+                "propertyLabel": "Search LCDGT",
+                "mandatory": "false",
+                "repeatable": "false",
+                "type": "lookup",
+                "resourceTemplates": [],
+                "valueConstraint": {
+                  "valueTemplateRefs": [],
+                  "useValuesFrom": [
+                    "https://id.loc.gov/authorities/demographicTerms"
+                  ],
+                  "defaults": [],
+                  "valueDataType": {
+                    "dataTypeURI": "http://www.loc.gov/mads/rdf/v1#Occupation"
+                  },
+                  "picklist": []
+                }
+              },
+              {
+                "propertyURI": "http://www.w3.org/2000/01/rdf-schema#label",
+                "propertyLabel": "Or input an uncontrolled occupation",
+                "mandatory": "false",
+                "repeatable": "false",
+                "type": "literal",
+                "resourceTemplates": [],
+                "valueConstraint": {
+                  "valueTemplateRefs": [],
+                  "useValuesFrom": [],
+                  "defaults": [],
+                  "valueDataType": {},
+                  "picklist": []
+                }
+              }
+            ]
+          },
+          {
+            "id": "lc:RT:mads:NAR:Place",
+            "resourceURI": "http://www.loc.gov/mads/rdf/v1#Geographic",
+            "resourceLabel": "Place",
+            "propertyTemplates": [
+              {
+                "propertyURI": "http://www.loc.gov/mads/rdf/v1#authoritativeLabel",
+                "propertyLabel": "Search LCNAF",
+                "mandatory": "false",
+                "repeatable": "false",
+                "type": "lookup",
+                "resourceTemplates": [],
+                "valueConstraint": {
+                  "valueTemplateRefs": [],
+                  "useValuesFrom": [
+                    "https://id.loc.gov/authorities/names"
+                  ],
+                  "defaults": [],
+                  "valueDataType": {
+                    "dataTypeURI": "http://www.loc.gov/mads/rdf/v1#Geographic"
+                  },
+                  "picklist": []
+                }
+              },
+              {
+                "propertyURI": "http://www.w3.org/2000/01/rdf-schema#label",
+                "propertyLabel": "Or input an uncontrolled place name",
+                "mandatory": "false",
+                "repeatable": "false",
+                "type": "literal",
+                "resourceTemplates": [],
+                "valueConstraint": {
+                  "valueTemplateRefs": [],
+                  "useValuesFrom": [],
+                  "defaults": [],
+                  "valueDataType": {},
+                  "picklist": []
+                }
+              }
+            ]
+          },
+          {
+            "id": "lc:RT:mads:NAR:RWO",
+            "resourceURI": "http://www.loc.gov/mads/rdf/v1#RWO",
+            "resourceLabel": "Entity attributes",
+            "propertyTemplates": [
+              {
+                "propertyURI": "http://www.loc.gov/mads/rdf/v1#birthDate",
+                "propertyLabel": "Date of Birth (RDA 9.3.2 / MARC 046 $f)",
+                "mandatory": "false",
+                "repeatable": "false",
+                "type": "literal",
+                "resourceTemplates": [],
+                "valueConstraint": {
+                  "valueTemplateRefs": [],
+                  "useValuesFrom": [],
+                  "defaults": [],
+                  "valueDataType": {},
+                  "picklist": []
+                }
+              },
+              {
+                "propertyURI": "http://www.loc.gov/mads/rdf/v1#deathDate",
+                "propertyLabel": "Date of Death (RDA 9.3.3 / MARC 046 $g)",
+                "mandatory": "false",
+                "repeatable": "false",
+                "type": "literal",
+                "resourceTemplates": [],
+                "valueConstraint": {
+                  "valueTemplateRefs": [],
+                  "useValuesFrom": [],
+                  "defaults": [],
+                  "valueDataType": {},
+                  "picklist": []
+                }
+              },
+              {
+                "propertyURI": "http://www.loc.gov/mads/rdf/v1#establishDate",
+                "propertyLabel": "Date of Establishment (RDA 11.4.3 / MARC 046 $q)",
+                "mandatory": "false",
+                "repeatable": "false",
+                "type": "literal",
+                "resourceTemplates": [],
+                "valueConstraint": {
+                  "valueTemplateRefs": [],
+                  "useValuesFrom": [],
+                  "defaults": [],
+                  "valueDataType": {},
+                  "picklist": []
+                }
+              },
+              {
+                "propertyURI": "http://www.loc.gov/mads/rdf/v1#terminateDate",
+                "propertyLabel": "Date of Termination (RDA 11.4.4 / MARC 046 $r)",
+                "mandatory": "false",
+                "repeatable": "false",
+                "type": "literal",
+                "resourceTemplates": [],
+                "valueConstraint": {
+                  "valueTemplateRefs": [],
+                  "useValuesFrom": [],
+                  "defaults": [],
+                  "valueDataType": {},
+                  "picklist": []
+                }
+              },
+              {
+                "propertyURI": "http://www.loc.gov/mads/rdf/v1#birthPlace",
+                "propertyLabel": "Place of Birth (RDA 9.8 / MARC 370 $a)",
+                "mandatory": "false",
+                "repeatable": "false",
+                "type": "resource",
+                "resourceTemplates": [],
+                "valueConstraint": {
+                  "valueTemplateRefs": [
+                    "lc:RT:mads:NAR:Place"
+                  ],
+                  "useValuesFrom": [],
+                  "defaults": [],
+                  "valueDataType": {},
+                  "picklist": []
+                }
+              },
+              {
+                "propertyURI": "http://www.loc.gov/mads/rdf/v1#associatedLocale",
+                "propertyLabel": "Associated Place / Residence (MARC 370 $c $e $f)",
+                "mandatory": "false",
+                "repeatable": "true",
+                "type": "resource",
+                "resourceTemplates": [],
+                "valueConstraint": {
+                  "valueTemplateRefs": [
+                    "lc:RT:mads:NAR:Place"
+                  ],
+                  "useValuesFrom": [],
+                  "defaults": [],
+                  "valueDataType": {},
+                  "picklist": []
+                }
+              },
+              {
+                "propertyURI": "http://www.loc.gov/mads/rdf/v1#occupation",
+                "propertyLabel": "Occupation (RDA 9.16 / MARC 374)",
+                "mandatory": "false",
+                "repeatable": "true",
+                "type": "resource",
+                "resourceTemplates": [],
+                "valueConstraint": {
+                  "valueTemplateRefs": [
+                    "lc:RT:mads:NAR:Occupation"
+                  ],
+                  "useValuesFrom": [],
+                  "defaults": [],
+                  "valueDataType": {},
+                  "picklist": []
+                }
+              },
+              {
+                "propertyURI": "http://www.loc.gov/mads/rdf/v1#fieldOfActivity",
+                "propertyLabel": "Field of Activity (RDA 9.15 / MARC 372)",
+                "mandatory": "false",
+                "repeatable": "true",
+                "type": "resource",
+                "resourceTemplates": [],
+                "valueConstraint": {
+                  "valueTemplateRefs": [
+                    "lc:RT:mads:NAR:FieldOfActivity"
+                  ],
+                  "useValuesFrom": [],
+                  "defaults": [],
+                  "valueDataType": {},
+                  "picklist": []
+                }
+              },
+              {
+                "propertyURI": "http://www.loc.gov/mads/rdf/v1#hasAffiliation",
+                "propertyLabel": "Affiliation (RDA 9.13 / MARC 373)",
+                "mandatory": "false",
+                "repeatable": "true",
+                "type": "resource",
+                "resourceTemplates": [],
+                "valueConstraint": {
+                  "valueTemplateRefs": [
+                    "lc:RT:mads:NAR:Affiliation"
+                  ],
+                  "useValuesFrom": [],
+                  "defaults": [],
+                  "valueDataType": {},
+                  "picklist": []
+                }
+              },
+              {
+                "propertyURI": "http://www.loc.gov/mads/rdf/v1#entityDescriptor",
+                "propertyLabel": "Other Designation (RDA 11.7 / MARC 368)",
+                "mandatory": "false",
+                "repeatable": "true",
+                "type": "literal",
+                "resourceTemplates": [],
+                "valueConstraint": {
+                  "valueTemplateRefs": [],
+                  "useValuesFrom": [],
+                  "defaults": [],
+                  "valueDataType": {},
+                  "picklist": []
+                }
+              },
+              {
+                "propertyURI": "http://www.loc.gov/mads/rdf/v1#associatedLanguage",
+                "propertyLabel": "Associated Language (MARC 377)",
+                "mandatory": "false",
+                "repeatable": "true",
+                "type": "lookup",
+                "resourceTemplates": [],
+                "valueConstraint": {
+                  "valueTemplateRefs": [],
+                  "useValuesFrom": [
+                    "http://id.loc.gov/vocabulary/languages"
+                  ],
+                  "defaults": [],
+                  "valueDataType": {
+                    "dataTypeURI": "http://www.loc.gov/mads/rdf/v1#Language"
+                  },
+                  "picklist": []
+                }
+              }
+            ]
+          },
+          {
+            "id": "lc:RT:mads:NAR:RecordInfo",
+            "resourceURI": "http://id.loc.gov/ontologies/RecordInfo#RecordInfo",
+            "resourceLabel": "Record administration",
+            "propertyTemplates": [
+              {
+                "propertyURI": "http://id.loc.gov/ontologies/RecordInfo#recordStatus",
+                "propertyLabel": "Record Status",
+                "mandatory": "true",
+                "repeatable": "false",
+                "type": "literal",
+                "resourceTemplates": [],
+                "valueConstraint": {
+                  "valueTemplateRefs": [],
+                  "useValuesFrom": [],
+                  "defaults": [
+                    {
+                      "defaultLiteral": "new"
+                    }
+                  ],
+                  "valueDataType": {},
+                  "picklist": [
+                    "new",
+                    "revised",
+                    "deprecated"
+                  ]
+                }
+              },
+              {
+                "propertyURI": "http://id.loc.gov/ontologies/RecordInfo#recordChangeDate",
+                "propertyLabel": "Record Change Date",
+                "mandatory": "true",
+                "repeatable": "true",
+                "type": "literal",
+                "resourceTemplates": [],
+                "valueConstraint": {
+                  "valueTemplateRefs": [],
+                  "useValuesFrom": [],
+                  "defaults": [],
+                  "valueDataType": {},
+                  "picklist": []
+                }
+              },
+              {
+                "propertyURI": "http://id.loc.gov/ontologies/RecordInfo#recordContentSource",
+                "propertyLabel": "Cataloging Agency (MARC 040 $a)",
+                "mandatory": "true",
+                "repeatable": "false",
+                "type": "lookup",
+                "resourceTemplates": [],
+                "valueConstraint": {
+                  "valueTemplateRefs": [],
+                  "useValuesFrom": [
+                    "http://id.loc.gov/vocabulary/organizations"
+                  ],
+                  "defaults": [
+                    {
+                      "defaultURI": "http://id.loc.gov/vocabulary/organizations/dlc"
+                    }
+                  ],
+                  "valueDataType": {},
+                  "picklist": []
+                }
+              },
+              {
+                "propertyURI": "http://id.loc.gov/ontologies/RecordInfo#languageOfCataloging",
+                "propertyLabel": "Language of Cataloging (MARC 040 $b)",
+                "mandatory": "true",
+                "repeatable": "false",
+                "type": "lookup",
+                "resourceTemplates": [],
+                "valueConstraint": {
+                  "valueTemplateRefs": [],
+                  "useValuesFrom": [
+                    "http://id.loc.gov/vocabulary/iso639-2"
+                  ],
+                  "defaults": [
+                    {
+                      "defaultURI": "http://id.loc.gov/vocabulary/iso639-2/eng"
+                    }
+                  ],
+                  "valueDataType": {},
+                  "picklist": []
+                }
+              }
+            ]
+          },
+          {
+            "id": "lc:RT:mads:NAR:RelatedAuthority",
+            "resourceURI": "http://www.loc.gov/mads/rdf/v1#Authority",
+            "resourceLabel": "Related authority",
+            "propertyTemplates": [
+              {
+                "propertyURI": "http://www.loc.gov/mads/rdf/v1#authoritativeLabel",
+                "propertyLabel": "Search LCNAF",
+                "mandatory": "true",
+                "repeatable": "false",
+                "type": "lookup",
+                "resourceTemplates": [],
+                "valueConstraint": {
+                  "valueTemplateRefs": [],
+                  "useValuesFrom": [
+                    "https://id.loc.gov/authorities/names"
+                  ],
+                  "defaults": [],
+                  "valueDataType": {
+                    "dataTypeURI": "http://www.loc.gov/mads/rdf/v1#Authority"
+                  },
+                  "picklist": []
+                }
+              },
+              {
+                "propertyURI": "http://id.loc.gov/ontologies/bflc/marcKey",
+                "propertyLabel": "MARC key of the related heading",
+                "mandatory": "true",
+                "repeatable": "false",
+                "type": "literal",
+                "resourceTemplates": [],
+                "valueConstraint": {
+                  "valueTemplateRefs": [],
+                  "useValuesFrom": [],
+                  "defaults": [],
+                  "valueDataType": {},
+                  "picklist": []
+                }
+              }
+            ]
+          },
+          {
+            "id": "lc:RT:mads:NAR:Source",
+            "resourceURI": "http://www.loc.gov/mads/rdf/v1#Source",
+            "resourceLabel": "Source consulted",
+            "propertyTemplates": [
+              {
+                "propertyURI": "http://www.loc.gov/mads/rdf/v1#citationStatus",
+                "propertyLabel": "Citation Status",
+                "mandatory": "true",
+                "repeatable": "false",
+                "type": "literal",
+                "resourceTemplates": [],
+                "valueConstraint": {
+                  "valueTemplateRefs": [],
+                  "useValuesFrom": [],
+                  "defaults": [
+                    {
+                      "defaultLiteral": "found"
+                    }
+                  ],
+                  "valueDataType": {},
+                  "picklist": [
+                    "found",
+                    "notfound"
+                  ]
+                }
+              },
+              {
+                "propertyURI": "http://www.loc.gov/mads/rdf/v1#citationSource",
+                "propertyLabel": "Source Citation (MARC 670 $a / 675 $a)",
+                "mandatory": "true",
+                "repeatable": "false",
+                "type": "literal",
+                "resourceTemplates": [],
+                "valueConstraint": {
+                  "valueTemplateRefs": [],
+                  "useValuesFrom": [],
+                  "defaults": [],
+                  "valueDataType": {},
+                  "picklist": []
+                }
+              },
+              {
+                "propertyURI": "http://www.loc.gov/mads/rdf/v1#citationNote",
+                "propertyLabel": "Location Within Source (MARC 670 $b)",
+                "mandatory": "false",
+                "repeatable": "false",
+                "type": "literal",
+                "resourceTemplates": [],
+                "valueConstraint": {
+                  "valueTemplateRefs": [],
+                  "useValuesFrom": [],
+                  "defaults": [],
+                  "valueDataType": {},
+                  "picklist": []
+                }
+              },
+              {
+                "propertyURI": "http://www.loc.gov/mads/rdf/v1#citationSource",
+                "propertyLabel": "Link to Source Resource (MARC 670 $u)",
+                "mandatory": "false",
+                "repeatable": "true",
+                "type": "literal",
+                "resourceTemplates": [],
+                "valueConstraint": {
+                  "valueTemplateRefs": [],
+                  "useValuesFrom": [],
+                  "defaults": [],
+                  "valueDataType": {},
+                  "picklist": []
+                }
+              }
+            ]
+          },
+          {
+            "id": "lc:RT:mads:NAR:Variant",
+            "resourceURI": "http://www.loc.gov/mads/rdf/v1#Variant",
+            "resourceLabel": "Variant access point",
+            "propertyTemplates": [
+              {
+                "propertyURI": "http://www.loc.gov/mads/rdf/v1#variantLabel",
+                "propertyLabel": "Variant Access Point",
+                "mandatory": "true",
+                "repeatable": "false",
+                "type": "literal",
+                "resourceTemplates": [],
+                "valueConstraint": {
+                  "valueTemplateRefs": [],
+                  "useValuesFrom": [],
+                  "defaults": [],
+                  "valueDataType": {},
+                  "picklist": []
+                }
+              },
+              {
+                "propertyURI": "http://id.loc.gov/ontologies/bflc/marcKey",
+                "propertyLabel": "MARC key for the 4XX",
+                "mandatory": "false",
+                "repeatable": "false",
+                "type": "literal",
+                "resourceTemplates": [],
+                "valueConstraint": {
+                  "valueTemplateRefs": [],
+                  "useValuesFrom": [],
+                  "defaults": [],
+                  "valueDataType": {},
+                  "picklist": []
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "metadata": {
+      "createDate": "2026-08-25T14:04:21.115Z",
+      "updateDate": "2026-08-25T14:04:21.115Z"
+    },
+    "created": "2026-08-25T14:04:21.115Z",
+    "modified": "2026-08-25T14:04:21.115Z"
+  }
+]
