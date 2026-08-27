@@ -1779,7 +1779,7 @@ lc:RT:Topic:madsTopicSubdivision,Topical subdivision,mads:Topic,owl:sameAs,Searc
 lc:RT:TopicSearch,Search subjects,bf:Topic,mads:authoritativeLabel,Search LCSH/LCNAF,FALSE,TRUE,,,,http://id.loc.gov/authorities/subjects | http://id.loc.gov/authorities/names,IRIstem,,,,,
 lc:RT:TypeRec,Type of recording (digital),bf:RecordingMethod,owl:sameAs,Lookup,FALSE,FALSE,,,,http://id.loc.gov/vocabulary/mrectype,IRIstem,,,,,
 lc:RT:TypeRec2,Type of recording (analog),bf:RecordingMethod,owl:sameAs,Lookup,FALSE,FALSE,,,,http://id.loc.gov/vocabulary/mrectype,IRIstem,,,,,
-lc:RT:URL,URL,rdfs:Resource,owl:sameAs,URL,FALSE,TRUE,literal,,,,,,,,,
+lc:RT:URL,URL,rdfs:Resource,owl:sameAs,URL,FALSE,TRUE,,,,,,,,,,
 lc:RT:VidFormat,Video format,bf:VideoFormat,owl:sameAs,Lookup,FALSE,TRUE,,,,http://id.loc.gov/vocabulary/mvidformat,IRIstem,,,,,
 lc:RT:VideoCassette:Aspect,Aspect ratio (numeric),bf:AspectRatio,rdf:value,Numerical values of Aspect ratio,FALSE,TRUE,literal,,,,,,,,,
 lc:RT:VideoCassette:Event,Event,bf:Event,rdfs:label,Event,FALSE,TRUE,literal,,,,,,,,,
