@@ -1461,7 +1461,7 @@ startingpoint:Sound_Recording:_Audio_CD-R,Sound Recording: Audio CD-R,,dcterms:h
 startingpoint:Sound_Recording:_Cassette,Sound Recording: Cassette,,dcterms:hasPart,Instance,,,IRI,,lc:RT:bf2:SoundCassette:Instance,http://id.loc.gov/ontologies/bibframe/Instance,picklist,,,,,
 ,,,dcterms:hasPart,Work,,,IRI,,lc:RT:bf2:SoundCassette:Work,http://id.loc.gov/ontologies/bibframe/Work,picklist,,,,,
 startingpoint:index,Starting Point Index,,dcterms:hasPart,Monograph,,,,,startingpoint:Monograph,,,,,,,
-,,,dcterms:hasPart,Original BF,,,,,startingpoint:Original_BF,,,,,,,
+,,,dcterms:hasPart,MLC Monograph,,,,,startingpoint:Original_BF,,,,,,,
 ,,,dcterms:hasPart,Notated Music,,,,,startingpoint:Notated_Music,,,,,,,
 ,,,dcterms:hasPart,Serial,,,,,startingpoint:Serial,,,,,,,
 ,,,dcterms:hasPart,Cartographic,,,,,startingpoint:Cartographic,,,,,,,
