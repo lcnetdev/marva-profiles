@@ -692,6 +692,7 @@ lc:RT:bf2:Monograph:Item,BIBFRAME Item,bf:Item,bf:electronicLocator,URL of Item,
 ,,,bf:immediateAcquisition,Immediate source of acquisition,false,true,bnode,,lc:RT:bf2:ImmAcqSource,,,,,,,
 ,,,bf:custodialHistory,Custodial history/Provenance,false,true,literal,,,,,,,,,
 lc:RT:bf2:Monograph:Work,BIBFRAME Work,bf:Work,bf:expressionOf,Expression of [search for a Hub],false,false,,,,https://id.loc.gov/resources/hubs,IRIstem,,,,bf:Hub,https://bibframe.org/docs/view/documentation-marva-manual/work-description/expression-hub.md
+,,,rdf:type,Work type,,,IRI,,,bf:Monograph,picklist,,,,,
 ,,,bf:contribution,Creator of Work,false,true,bnode,,lc:RT:bflc:Agents:PrimaryContribution,,,,,,bf:PrimaryContribution,https://bibframe.org/view/documentation-marva-manual/work-description/contributors.md
 ,,,bf:title,Title information,true,true,bnode,,lc:RT:bf2:WorkTitle | lc:RT:bf2:Title:VarTitle | lc:RT:bf2:ParallelTitle,,,,,,,https://bibframe.org/docs/view/documentation-marva-manual/work-description/title-information.md
 ,,,bf:contribution,Contributors,false,true,bnode,,lc:RT:bf2:Agents:Contribution,,,,,,bf:Contribution,https://bibframe.org/docs/view/documentation-marva-manual/work-description/contributors.md#contributors
@@ -927,6 +928,7 @@ lc:RT:bf2:RareMat:RefWorkNote,References/Citation note,bf:Note,rdfs:label,Note/n
 ,,,bflc:applicableInstitution,Applicable institution,,,,,,http://id.loc.gov/vocabulary/organizations,IRIstem,,,,,
 lc:RT:bf2:RareMat:RefWorkTitle,References title,bf:Title,bf:mainTitle,Title,false,true,literal,,,,,,,,,
 lc:RT:bf2:RareMat:Work,BIBFRAME Work,bf:Work,bf:expressionOf,Expression of [search for a Hub],false,true,,,,https://id.loc.gov/resources/hubs,IRIstem,,,,bf:Hub,https://bibframe.org/view/documentation-marva-manual/work-description/expression-hub.md
+,,,rdf:type,Work type,,,IRI,,,bf:Monograph|bf:Manuscript,picklist,,,,,
 ,,,bf:contribution,Creator of Work,false,true,bnode,,lc:RT:bflc:Agents:PrimaryContribution,,,,,,bf:PrimaryContribution,https://bibframe.org/view/documentation-marva-manual/work-description/contributors.md
 ,,,bf:title,Title information,true,true,bnode,,lc:RT:bf2:WorkTitle | lc:RT:bf2:Title:VarTitle | lc:RT:bf2:ParallelTitle,,,,,,,https://bibframe.org/view/documentation-marva-manual/work-description/title-information.md
 ,,,bf:contribution,Contributors,false,true,bnode,,lc:RT:bf2:Agents:Contribution,,,,,,bf:Contribution,https://bibframe.org/view/documentation-marva-manual/work-description/contributors.md
