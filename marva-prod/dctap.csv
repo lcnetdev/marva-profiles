@@ -399,9 +399,9 @@ lc:RT:bf2:ExtentExtra,Extent and Applies to,bf:Extent,rdfs:label,Extent,,true,li
 ,,,bflc:appliesTo,Applies to,,,bnode,,lc:RT:bf2:AppliesTo,,,,,,,
 lc:RT:bf2:FileSize,File size,bf:FileSize,rdfs:label,File size,false,true,literal,,,,,,,,,
 lc:RT:bf2:FileType,File type,bf:FileType,owl:sameAs,Lookup,false,false,,,,http://id.loc.gov/vocabulary/mfiletype,IRIstem,,,,,
-lc:RT:bf2:Form,Genre/Form,bf:GenreForm,owl:sameAs,Search LCGFT,false,false,,,,http://id.loc.gov/authorities/genreForms,IRIstem,,,,,"https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates-GenreForm(655,some008values)"
+lc:RT:bf2:Form,Genre/Form,bf:GenreForm,owl:sameAs,Search LCGFT,false,false,,,,http://id.loc.gov/authorities/genreForms,IRIstem,,,,,
 ,,,bf:source,Thesaurus (if not LCGFT),false,true,,,,http://preprod.id.loc.gov/vocabulary/genreFormSchemes,IRIstem,,,,bf:Source,
-lc:RT:bf2:Form:Geog,Geographic coverage,bf:GeographicCoverage,owl:sameAs,Search LCNAF or LCSH,false,true,,,,http://id.loc.gov/authorities/geographics,IRIstem,,,,,https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates-GeographicCoverage(043)
+lc:RT:bf2:Form:Geog,Geographic coverage,bf:GeographicCoverage,owl:sameAs,Search LCNAF or LCSH,false,true,,,,http://id.loc.gov/authorities/geographics,IRIstem,,,,,
 lc:RT:bf2:Hub:Contribution,Contributor,bf:Contribution,bf:agent,Contributor,true,false,bnode,,lc:RT:bf2:Agent:bfPerson | lc:RT:bf2:Agent:bfCorp | lc:RT:bf2:Agent:bfConf,,,,,,,
 ,,,bf:role,Role,true,false,,,,,,,,,bf:Role,
 lc:RT:bf2:Hub:Hub,Hub,bf:Hub,bf:contribution,Primary Contributor,false,true,bnode,,lc:RT:bf2:Hub:PrimaryContribution,,,,,,bf:PrimaryContribution,

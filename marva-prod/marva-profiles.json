@@ -1,6 +1,6 @@
 [
   {
-    "id": "25fe83c3-1616-4544-90d4-8c92875fc004",
+    "id": "822f71c0-521c-4dfc-bc4e-cc3850424a78",
     "name": "BIBFRAME 2.0 Moving Image",
     "configType": "profile",
     "json": {
@@ -2085,8 +2085,7 @@
                   "defaults": [],
                   "valueDataType": {},
                   "picklist": []
-                },
-                "remark": "https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates-GenreForm(655,some008values)"
+                }
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/source",
@@ -2129,8 +2128,7 @@
                   "defaults": [],
                   "valueDataType": {},
                   "picklist": []
-                },
-                "remark": "https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates-GeographicCoverage(043)"
+                }
               }
             ]
           },
@@ -4574,14 +4572,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-10-15T16:16:18.288Z",
-      "updateDate": "2026-10-15T16:16:18.288Z"
+      "createDate": "2026-10-21T15:41:18.070Z",
+      "updateDate": "2026-10-21T15:41:18.070Z"
     },
-    "created": "2026-10-15T16:16:18.288Z",
-    "modified": "2026-10-15T16:16:18.288Z"
+    "created": "2026-10-21T15:41:18.070Z",
+    "modified": "2026-10-21T15:41:18.070Z"
   },
   {
-    "id": "0b577597-8d29-45ce-b380-61999627c2b8",
+    "id": "92d31cea-021e-4c4d-ad06-fc4be2aa2b16",
     "name": "BIBFRAME 2.0 Admin Metadata",
     "configType": "profile",
     "json": {
@@ -5110,14 +5108,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-10-15T16:16:18.291Z",
-      "updateDate": "2026-10-15T16:16:18.291Z"
+      "createDate": "2026-10-21T15:41:18.071Z",
+      "updateDate": "2026-10-21T15:41:18.071Z"
     },
-    "created": "2026-10-15T16:16:18.291Z",
-    "modified": "2026-10-15T16:16:18.291Z"
+    "created": "2026-10-21T15:41:18.071Z",
+    "modified": "2026-10-21T15:41:18.071Z"
   },
   {
-    "id": "5a28eb41-1e02-438b-9112-f4d3a73c5821",
+    "id": "c6bcb7d0-0621-41e7-8e91-0788809bfe54",
     "name": "BIBFRAME 2.0 Agents",
     "configType": "profile",
     "json": {
@@ -7492,14 +7490,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-10-15T16:16:18.306Z",
-      "updateDate": "2026-10-15T16:16:18.306Z"
+      "createDate": "2026-10-21T15:41:18.082Z",
+      "updateDate": "2026-10-21T15:41:18.082Z"
     },
-    "created": "2026-10-15T16:16:18.306Z",
-    "modified": "2026-10-15T16:16:18.306Z"
+    "created": "2026-10-21T15:41:18.082Z",
+    "modified": "2026-10-21T15:41:18.082Z"
   },
   {
-    "id": "68e8c64c-273b-4da0-8933-9ce5c9c36057",
+    "id": "f3ea7600-e135-4013-be3a-7134fb12520b",
     "name": "BIBFRAME 2.0 RWO",
     "configType": "profile",
     "json": {
@@ -8481,14 +8479,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-10-15T16:16:18.310Z",
-      "updateDate": "2026-10-15T16:16:18.310Z"
+      "createDate": "2026-10-21T15:41:18.085Z",
+      "updateDate": "2026-10-21T15:41:18.085Z"
     },
-    "created": "2026-10-15T16:16:18.310Z",
-    "modified": "2026-10-15T16:16:18.310Z"
+    "created": "2026-10-21T15:41:18.085Z",
+    "modified": "2026-10-21T15:41:18.085Z"
   },
   {
-    "id": "1d5614d4-495d-4051-86d9-b3cc16910647",
+    "id": "79310fce-bf6b-4803-9dab-e083d7263f61",
     "name": "BIBFRAME 2.0 Agents Contribution",
     "configType": "profile",
     "json": {
@@ -8741,14 +8739,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-10-15T16:16:18.311Z",
-      "updateDate": "2026-10-15T16:16:18.311Z"
+      "createDate": "2026-10-21T15:41:18.087Z",
+      "updateDate": "2026-10-21T15:41:18.087Z"
     },
-    "created": "2026-10-15T16:16:18.311Z",
-    "modified": "2026-10-15T16:16:18.311Z"
+    "created": "2026-10-21T15:41:18.087Z",
+    "modified": "2026-10-21T15:41:18.087Z"
   },
   {
-    "id": "ba2d0de7-5e2b-45fa-9b65-73a9c28a00e2",
+    "id": "9de7e19e-bc44-4379-8625-7d74ca784350",
     "name": "BIBFRAME 2.0 Sound Recording-Analog",
     "configType": "profile",
     "json": {
@@ -10670,8 +10668,7 @@
                   "defaults": [],
                   "valueDataType": {},
                   "picklist": []
-                },
-                "remark": "https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates-GeographicCoverage(043)"
+                }
               }
             ]
           },
@@ -10695,8 +10692,7 @@
                   "defaults": [],
                   "valueDataType": {},
                   "picklist": []
-                },
-                "remark": "https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates-GenreForm(655,some008values)"
+                }
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/source",
@@ -13209,14 +13205,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-10-15T16:16:18.332Z",
-      "updateDate": "2026-10-15T16:16:18.332Z"
+      "createDate": "2026-10-21T15:41:18.107Z",
+      "updateDate": "2026-10-21T15:41:18.107Z"
     },
-    "created": "2026-10-15T16:16:18.332Z",
-    "modified": "2026-10-15T16:16:18.332Z"
+    "created": "2026-10-21T15:41:18.107Z",
+    "modified": "2026-10-21T15:41:18.107Z"
   },
   {
-    "id": "1b9f197e-1cd2-4c0c-b5c9-034009cef87d",
+    "id": "4f2a5ebb-b457-46b8-a28a-fc89040b451a",
     "name": "BIBFRAME 2.0 Cartographic TEST",
     "configType": "profile",
     "json": {
@@ -15057,8 +15053,7 @@
                   "defaults": [],
                   "valueDataType": {},
                   "picklist": []
-                },
-                "remark": "https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates-GeographicCoverage(043)"
+                }
               }
             ]
           },
@@ -15082,8 +15077,7 @@
                   "defaults": [],
                   "valueDataType": {},
                   "picklist": []
-                },
-                "remark": "https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates-GenreForm(655,some008values)"
+                }
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/source",
@@ -16982,14 +16976,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-10-15T16:16:18.350Z",
-      "updateDate": "2026-10-15T16:16:18.350Z"
+      "createDate": "2026-10-21T15:41:18.123Z",
+      "updateDate": "2026-10-21T15:41:18.123Z"
     },
-    "created": "2026-10-15T16:16:18.350Z",
-    "modified": "2026-10-15T16:16:18.350Z"
+    "created": "2026-10-21T15:41:18.123Z",
+    "modified": "2026-10-21T15:41:18.123Z"
   },
   {
-    "id": "4aedc26d-d66a-48eb-a70d-ed79e8a23b1a",
+    "id": "23d63b1f-9ee9-424e-9787-a713cfac79f9",
     "name": "BIBFRAME 2.0 Classification",
     "configType": "profile",
     "json": {
@@ -17407,14 +17401,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-10-15T16:16:18.352Z",
-      "updateDate": "2026-10-15T16:16:18.352Z"
+      "createDate": "2026-10-21T15:41:18.124Z",
+      "updateDate": "2026-10-21T15:41:18.124Z"
     },
-    "created": "2026-10-15T16:16:18.352Z",
-    "modified": "2026-10-15T16:16:18.352Z"
+    "created": "2026-10-21T15:41:18.124Z",
+    "modified": "2026-10-21T15:41:18.124Z"
   },
   {
-    "id": "cc91f6a1-e3be-4594-9269-0752eb36eb45",
+    "id": "5a4bcd46-079f-4d01-a41c-a4a65e9614e3",
     "name": "BIBFRAME 2.0 Form",
     "configType": "profile",
     "json": {
@@ -17443,8 +17437,7 @@
                   "defaults": [],
                   "valueDataType": {},
                   "picklist": []
-                },
-                "remark": "https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates-GenreForm(655,some008values)"
+                }
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/source",
@@ -17487,8 +17480,7 @@
                   "defaults": [],
                   "valueDataType": {},
                   "picklist": []
-                },
-                "remark": "https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates-GeographicCoverage(043)"
+                }
               }
             ]
           },
@@ -17546,14 +17538,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-10-15T16:16:18.353Z",
-      "updateDate": "2026-10-15T16:16:18.353Z"
+      "createDate": "2026-10-21T15:41:18.125Z",
+      "updateDate": "2026-10-21T15:41:18.125Z"
     },
-    "created": "2026-10-15T16:16:18.353Z",
-    "modified": "2026-10-15T16:16:18.353Z"
+    "created": "2026-10-21T15:41:18.125Z",
+    "modified": "2026-10-21T15:41:18.125Z"
   },
   {
-    "id": "dd75a898-fa24-40eb-921e-17220faa6c78",
+    "id": "16e231ca-a77e-460e-84b7-d72db8d18576",
     "name": "Test BF Hub",
     "configType": "profile",
     "json": {
@@ -18347,14 +18339,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-10-15T16:16:18.358Z",
-      "updateDate": "2026-10-15T16:16:18.358Z"
+      "createDate": "2026-10-21T15:41:18.127Z",
+      "updateDate": "2026-10-21T15:41:18.127Z"
     },
-    "created": "2026-10-15T16:16:18.358Z",
-    "modified": "2026-10-15T16:16:18.358Z"
+    "created": "2026-10-21T15:41:18.127Z",
+    "modified": "2026-10-21T15:41:18.127Z"
   },
   {
-    "id": "2643bfe8-9a5c-4a15-b41a-34239456a25a",
+    "id": "6aee8180-1f37-4e43-8d64-b0e80dbb621e",
     "name": "BF Hub",
     "configType": "profile",
     "json": {
@@ -19241,14 +19233,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-10-15T16:16:18.361Z",
-      "updateDate": "2026-10-15T16:16:18.361Z"
+      "createDate": "2026-10-21T15:41:18.131Z",
+      "updateDate": "2026-10-21T15:41:18.131Z"
     },
-    "created": "2026-10-15T16:16:18.361Z",
-    "modified": "2026-10-15T16:16:18.361Z"
+    "created": "2026-10-21T15:41:18.131Z",
+    "modified": "2026-10-21T15:41:18.131Z"
   },
   {
-    "id": "a0e7492b-ff49-459a-b4d1-78be9b1509bf",
+    "id": "d8408ade-5c98-46b4-a188-738ef393da6a",
     "name": "Original BF (origbf)",
     "configType": "profile",
     "json": {
@@ -23543,8 +23535,7 @@
                   "defaults": [],
                   "valueDataType": {},
                   "picklist": []
-                },
-                "remark": "https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates-GeographicCoverage(043)"
+                }
               }
             ]
           },
@@ -23568,8 +23559,7 @@
                   "defaults": [],
                   "valueDataType": {},
                   "picklist": []
-                },
-                "remark": "https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates-GenreForm(655,some008values)"
+                }
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/source",
@@ -24809,14 +24799,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-10-15T16:16:18.393Z",
-      "updateDate": "2026-10-15T16:16:18.393Z"
+      "createDate": "2026-10-21T15:41:18.155Z",
+      "updateDate": "2026-10-21T15:41:18.155Z"
     },
-    "created": "2026-10-15T16:16:18.393Z",
-    "modified": "2026-10-15T16:16:18.393Z"
+    "created": "2026-10-21T15:41:18.155Z",
+    "modified": "2026-10-21T15:41:18.155Z"
   },
   {
-    "id": "9cac2640-895c-45ee-9cac-eb77b2a8b38a",
+    "id": "51c3fa9c-3e40-4c17-b991-695ada2f802c",
     "name": "BIBFRAME 2.0 Item",
     "configType": "profile",
     "json": {
@@ -25314,14 +25304,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-10-15T16:16:18.397Z",
-      "updateDate": "2026-10-15T16:16:18.397Z"
+      "createDate": "2026-10-21T15:41:18.158Z",
+      "updateDate": "2026-10-21T15:41:18.158Z"
     },
-    "created": "2026-10-15T16:16:18.397Z",
-    "modified": "2026-10-15T16:16:18.397Z"
+    "created": "2026-10-21T15:41:18.158Z",
+    "modified": "2026-10-21T15:41:18.158Z"
   },
   {
-    "id": "c6024ff1-d443-4790-9205-34ea7883e492",
+    "id": "aca1ba38-544e-4391-ae8a-0161a8e7118a",
     "name": "BIBFRAME 2.0 Language",
     "configType": "profile",
     "json": {
@@ -25426,14 +25416,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-10-15T16:16:18.398Z",
-      "updateDate": "2026-10-15T16:16:18.398Z"
+      "createDate": "2026-10-21T15:41:18.158Z",
+      "updateDate": "2026-10-21T15:41:18.158Z"
     },
-    "created": "2026-10-15T16:16:18.398Z",
-    "modified": "2026-10-15T16:16:18.398Z"
+    "created": "2026-10-21T15:41:18.158Z",
+    "modified": "2026-10-21T15:41:18.158Z"
   },
   {
-    "id": "7fff65c9-2105-465c-bbd4-ce038176aef0",
+    "id": "07611e4d-dfe4-4fea-a4b6-e12a8e86771f",
     "name": "BIBFRAME 2.0 Moving Image-DVD",
     "configType": "profile",
     "json": {
@@ -27097,8 +27087,7 @@
                   "defaults": [],
                   "valueDataType": {},
                   "picklist": []
-                },
-                "remark": "https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates-GenreForm(655,some008values)"
+                }
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/source",
@@ -27370,8 +27359,7 @@
                   "defaults": [],
                   "valueDataType": {},
                   "picklist": []
-                },
-                "remark": "https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates-GeographicCoverage(043)"
+                }
               }
             ]
           },
@@ -30097,14 +30085,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-10-15T16:16:18.424Z",
-      "updateDate": "2026-10-15T16:16:18.424Z"
+      "createDate": "2026-10-21T15:41:18.178Z",
+      "updateDate": "2026-10-21T15:41:18.178Z"
     },
-    "created": "2026-10-15T16:16:18.424Z",
-    "modified": "2026-10-15T16:16:18.424Z"
+    "created": "2026-10-21T15:41:18.178Z",
+    "modified": "2026-10-21T15:41:18.178Z"
   },
   {
-    "id": "cce99a8e-8379-4277-990a-3f731bbbab75",
+    "id": "4c1cccbd-5194-444c-9e2c-258bc7e61fbc",
     "name": "BIBFRAME 2.0 Monograph",
     "configType": "profile",
     "json": {
@@ -32035,8 +32023,7 @@
                   "defaults": [],
                   "valueDataType": {},
                   "picklist": []
-                },
-                "remark": "https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates-GeographicCoverage(043)"
+                }
               }
             ]
           },
@@ -32060,8 +32047,7 @@
                   "defaults": [],
                   "valueDataType": {},
                   "picklist": []
-                },
-                "remark": "https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates-GenreForm(655,some008values)"
+                }
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/source",
@@ -34905,14 +34891,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-10-15T16:16:18.447Z",
-      "updateDate": "2026-10-15T16:16:18.447Z"
+      "createDate": "2026-10-21T15:41:18.200Z",
+      "updateDate": "2026-10-21T15:41:18.200Z"
     },
-    "created": "2026-10-15T16:16:18.447Z",
-    "modified": "2026-10-15T16:16:18.447Z"
+    "created": "2026-10-21T15:41:18.200Z",
+    "modified": "2026-10-21T15:41:18.200Z"
   },
   {
-    "id": "0af85ebe-2796-4325-b6ac-d5f0b6396f8e",
+    "id": "33174b5e-1c69-4dd5-9bb5-e3913da41fa5",
     "name": "BIBFRAME 2.0 Notated Music",
     "configType": "profile",
     "json": {
@@ -36861,8 +36847,7 @@
                   "defaults": [],
                   "valueDataType": {},
                   "picklist": []
-                },
-                "remark": "https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates-GenreForm(655,some008values)"
+                }
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/source",
@@ -39127,14 +39112,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-10-15T16:16:18.468Z",
-      "updateDate": "2026-10-15T16:16:18.468Z"
+      "createDate": "2026-10-21T15:41:18.220Z",
+      "updateDate": "2026-10-21T15:41:18.220Z"
     },
-    "created": "2026-10-15T16:16:18.468Z",
-    "modified": "2026-10-15T16:16:18.468Z"
+    "created": "2026-10-21T15:41:18.220Z",
+    "modified": "2026-10-21T15:41:18.220Z"
   },
   {
-    "id": "252c9082-fc5a-4937-b16c-6745205407a7",
+    "id": "57d19069-be64-4b06-a469-b496a5fd4339",
     "name": "BIBFRAME 2.0 Note",
     "configType": "profile",
     "json": {
@@ -39550,14 +39535,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-10-15T16:16:18.470Z",
-      "updateDate": "2026-10-15T16:16:18.470Z"
+      "createDate": "2026-10-21T15:41:18.222Z",
+      "updateDate": "2026-10-21T15:41:18.222Z"
     },
-    "created": "2026-10-15T16:16:18.470Z",
-    "modified": "2026-10-15T16:16:18.470Z"
+    "created": "2026-10-21T15:41:18.222Z",
+    "modified": "2026-10-21T15:41:18.222Z"
   },
   {
-    "id": "cee1d6ff-fd19-4a7a-a7d0-2d176b3f5cd3",
+    "id": "e2658b53-3567-434d-8d68-53edb8392593",
     "name": "Prints & Photographs",
     "configType": "profile",
     "json": {
@@ -41184,8 +41169,7 @@
                   "defaults": [],
                   "valueDataType": {},
                   "picklist": []
-                },
-                "remark": "https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates-GenreForm(655,some008values)"
+                }
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/source",
@@ -41356,8 +41340,7 @@
                   "defaults": [],
                   "valueDataType": {},
                   "picklist": []
-                },
-                "remark": "https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates-GeographicCoverage(043)"
+                }
               }
             ]
           },
@@ -43068,14 +43051,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-10-15T16:16:18.486Z",
-      "updateDate": "2026-10-15T16:16:18.486Z"
+      "createDate": "2026-10-21T15:41:18.237Z",
+      "updateDate": "2026-10-21T15:41:18.237Z"
     },
-    "created": "2026-10-15T16:16:18.486Z",
-    "modified": "2026-10-15T16:16:18.486Z"
+    "created": "2026-10-21T15:41:18.237Z",
+    "modified": "2026-10-21T15:41:18.237Z"
   },
   {
-    "id": "b92e2de8-41cb-4512-b07c-25550ce64a38",
+    "id": "9fb68adf-2797-4659-b2df-e4438441dbcf",
     "name": "BIBFRAME 2.0 Publication, Distribution, Manufacturer Activity",
     "configType": "profile",
     "json": {
@@ -43440,14 +43423,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-10-15T16:16:18.487Z",
-      "updateDate": "2026-10-15T16:16:18.487Z"
+      "createDate": "2026-10-21T15:41:18.238Z",
+      "updateDate": "2026-10-21T15:41:18.238Z"
     },
-    "created": "2026-10-15T16:16:18.487Z",
-    "modified": "2026-10-15T16:16:18.487Z"
+    "created": "2026-10-21T15:41:18.238Z",
+    "modified": "2026-10-21T15:41:18.238Z"
   },
   {
-    "id": "c8bc9613-e026-4c51-a879-7fcd3b8a953d",
+    "id": "5cd10123-d12b-4b2c-81dc-5a34b6bc11bf",
     "name": "BIBFRAME 2.0 Rare Materials",
     "configType": "profile",
     "json": {
@@ -45186,8 +45169,7 @@
                   "defaults": [],
                   "valueDataType": {},
                   "picklist": []
-                },
-                "remark": "https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates-GeographicCoverage(043)"
+                }
               }
             ]
           },
@@ -45211,8 +45193,7 @@
                   "defaults": [],
                   "valueDataType": {},
                   "picklist": []
-                },
-                "remark": "https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates-GenreForm(655,some008values)"
+                }
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/source",
@@ -47346,14 +47327,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-10-15T16:16:18.504Z",
-      "updateDate": "2026-10-15T16:16:18.504Z"
+      "createDate": "2026-10-21T15:41:18.253Z",
+      "updateDate": "2026-10-21T15:41:18.253Z"
     },
-    "created": "2026-10-15T16:16:18.504Z",
-    "modified": "2026-10-15T16:16:18.504Z"
+    "created": "2026-10-21T15:41:18.253Z",
+    "modified": "2026-10-21T15:41:18.253Z"
   },
   {
-    "id": "09526bcf-4abe-4cd6-a97d-8be1a230b994",
+    "id": "52ed425d-085c-4ba6-95be-b40d2fa94dc9",
     "name": "BIBFRAME 2.0 Related Works and Expressions",
     "configType": "profile",
     "json": {
@@ -47773,14 +47754,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-10-15T16:16:18.507Z",
-      "updateDate": "2026-10-15T16:16:18.507Z"
+      "createDate": "2026-10-21T15:41:18.255Z",
+      "updateDate": "2026-10-21T15:41:18.255Z"
     },
-    "created": "2026-10-15T16:16:18.507Z",
-    "modified": "2026-10-15T16:16:18.507Z"
+    "created": "2026-10-21T15:41:18.255Z",
+    "modified": "2026-10-21T15:41:18.255Z"
   },
   {
-    "id": "c3e49cc3-0d24-40cd-a293-4307846902f4",
+    "id": "32e8075e-8f3c-41e5-8847-cf6bbc687164",
     "name": "BIBFRAME 2.0 Serial",
     "configType": "profile",
     "json": {
@@ -49579,8 +49560,7 @@
                   "defaults": [],
                   "valueDataType": {},
                   "picklist": []
-                },
-                "remark": "https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates-GenreForm(655,some008values)"
+                }
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/source",
@@ -49834,8 +49814,7 @@
                   "defaults": [],
                   "valueDataType": {},
                   "picklist": []
-                },
-                "remark": "https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates-GeographicCoverage(043)"
+                }
               }
             ]
           },
@@ -52565,14 +52544,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-10-15T16:16:18.527Z",
-      "updateDate": "2026-10-15T16:16:18.527Z"
+      "createDate": "2026-10-21T15:41:18.274Z",
+      "updateDate": "2026-10-21T15:41:18.274Z"
     },
-    "created": "2026-10-15T16:16:18.527Z",
-    "modified": "2026-10-15T16:16:18.527Z"
+    "created": "2026-10-21T15:41:18.274Z",
+    "modified": "2026-10-21T15:41:18.274Z"
   },
   {
-    "id": "a94821b3-5f72-435a-8c41-1f0ea183f8fc",
+    "id": "7cdd31a9-3d88-4529-84bc-81e867792040",
     "name": "BIBFRAME 2.0 Series Information",
     "configType": "profile",
     "json": {
@@ -52878,14 +52857,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-10-15T16:16:18.529Z",
-      "updateDate": "2026-10-15T16:16:18.529Z"
+      "createDate": "2026-10-21T15:41:18.275Z",
+      "updateDate": "2026-10-21T15:41:18.275Z"
     },
-    "created": "2026-10-15T16:16:18.529Z",
-    "modified": "2026-10-15T16:16:18.529Z"
+    "created": "2026-10-21T15:41:18.275Z",
+    "modified": "2026-10-21T15:41:18.275Z"
   },
   {
-    "id": "0e46f5aa-e029-4453-bc9e-959336414ed5",
+    "id": "d2795938-86f3-4bee-9e67-0e6a396efa85",
     "name": "BIBFRAME 2.0 Sound Recording-Audio CD-R",
     "configType": "profile",
     "json": {
@@ -54764,8 +54743,7 @@
                   "defaults": [],
                   "valueDataType": {},
                   "picklist": []
-                },
-                "remark": "https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates-GeographicCoverage(043)"
+                }
               }
             ]
           },
@@ -54789,8 +54767,7 @@
                   "defaults": [],
                   "valueDataType": {},
                   "picklist": []
-                },
-                "remark": "https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates-GenreForm(655,some008values)"
+                }
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/source",
@@ -57345,14 +57322,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-10-15T16:16:18.553Z",
-      "updateDate": "2026-10-15T16:16:18.553Z"
+      "createDate": "2026-10-21T15:41:18.300Z",
+      "updateDate": "2026-10-21T15:41:18.300Z"
     },
-    "created": "2026-10-15T16:16:18.553Z",
-    "modified": "2026-10-15T16:16:18.553Z"
+    "created": "2026-10-21T15:41:18.300Z",
+    "modified": "2026-10-21T15:41:18.300Z"
   },
   {
-    "id": "8acb20b7-af50-4417-9469-6a8ec3635221",
+    "id": "9329869e-740a-46a8-ae81-23a7c0c154d4",
     "name": "BIBFRAME 2.0 Sound Recording-Audio Cassette",
     "configType": "profile",
     "json": {
@@ -59102,8 +59079,7 @@
                   "defaults": [],
                   "valueDataType": {},
                   "picklist": []
-                },
-                "remark": "https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates-GeographicCoverage(043)"
+                }
               }
             ]
           },
@@ -59127,8 +59103,7 @@
                   "defaults": [],
                   "valueDataType": {},
                   "picklist": []
-                },
-                "remark": "https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates-GenreForm(655,some008values)"
+                }
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/source",
@@ -61701,14 +61676,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-10-15T16:16:18.571Z",
-      "updateDate": "2026-10-15T16:16:18.571Z"
+      "createDate": "2026-10-21T15:41:18.320Z",
+      "updateDate": "2026-10-21T15:41:18.320Z"
     },
-    "created": "2026-10-15T16:16:18.571Z",
-    "modified": "2026-10-15T16:16:18.571Z"
+    "created": "2026-10-21T15:41:18.320Z",
+    "modified": "2026-10-21T15:41:18.320Z"
   },
   {
-    "id": "64884461-dc94-469e-83df-6cb01ee669c9",
+    "id": "e938b91b-5d5f-4c17-ad83-31b5dc465a53",
     "name": "BIBFRAME 2.0 Sound Recording-Audio CD",
     "configType": "profile",
     "json": {
@@ -63548,8 +63523,7 @@
                   "defaults": [],
                   "valueDataType": {},
                   "picklist": []
-                },
-                "remark": "https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates-GeographicCoverage(043)"
+                }
               }
             ]
           },
@@ -63573,8 +63547,7 @@
                   "defaults": [],
                   "valueDataType": {},
                   "picklist": []
-                },
-                "remark": "https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates-GenreForm(655,some008values)"
+                }
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/source",
@@ -66129,14 +66102,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-10-15T16:16:18.591Z",
-      "updateDate": "2026-10-15T16:16:18.591Z"
+      "createDate": "2026-10-21T15:41:18.338Z",
+      "updateDate": "2026-10-21T15:41:18.338Z"
     },
-    "created": "2026-10-15T16:16:18.591Z",
-    "modified": "2026-10-15T16:16:18.591Z"
+    "created": "2026-10-21T15:41:18.338Z",
+    "modified": "2026-10-21T15:41:18.338Z"
   },
   {
-    "id": "8ade9b4a-3ade-4a1b-a91a-4a9cf1f97262",
+    "id": "88b55ca5-4b6d-4343-847b-6de1e40ad766",
     "name": "BIBFRAME 2.0 Title Information",
     "configType": "profile",
     "json": {
@@ -66662,14 +66635,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-10-15T16:16:18.593Z",
-      "updateDate": "2026-10-15T16:16:18.593Z"
+      "createDate": "2026-10-21T15:41:18.341Z",
+      "updateDate": "2026-10-21T15:41:18.341Z"
     },
-    "created": "2026-10-15T16:16:18.593Z",
-    "modified": "2026-10-15T16:16:18.593Z"
+    "created": "2026-10-21T15:41:18.341Z",
+    "modified": "2026-10-21T15:41:18.341Z"
   },
   {
-    "id": "9c708c26-ab8d-49a7-b59c-ece846b44cae",
+    "id": "20380eba-e872-48b1-81fd-43a272779898",
     "name": "BIBFRAME 2.0 Topic",
     "configType": "profile",
     "json": {
@@ -69100,10 +69073,10 @@
       }
     },
     "metadata": {
-      "createDate": "2026-10-15T16:16:18.603Z",
-      "updateDate": "2026-10-15T16:16:18.603Z"
+      "createDate": "2026-10-21T15:41:18.352Z",
+      "updateDate": "2026-10-21T15:41:18.352Z"
     },
-    "created": "2026-10-15T16:16:18.603Z",
-    "modified": "2026-10-15T16:16:18.603Z"
+    "created": "2026-10-21T15:41:18.352Z",
+    "modified": "2026-10-21T15:41:18.352Z"
   }
 ]
