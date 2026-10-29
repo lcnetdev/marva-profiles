@@ -54,7 +54,6 @@ lc:RT:bf2:35mmFeatureFilm:Work,BIBFRAME Work,bf:Work,bf:expressionOf,Expression 
 ,,,bf:title,Title information,true,true,bnode,,lc:RT:bf2:WorkTitle | lc:RT:bf2:Title:VarTitle | lc:RT:bf2:ParallelTitle,,,,,,,https://bibframe.org/view/documentation-marva-manual/work-description/title-information.md
 ,,,bf:originPlace,Place of origin of the Work,false,true,,,,http://id.loc.gov/authorities/names,IRIstem,,,,bf:Place,https://bibframe.org/view/documentation-marva-manual/work-description/country-of-origin.md
 ,,,bf:originDate,Date of Work,false,true,literal,,,,,,,,,https://bibframe.org/view/documentation-marva-manual/work-description/date-of-work.md
-,,,bf:temporalCoverage,(Time) coverage of the content,false,true,literal,,,,,,,,,https://bibframe.org/view/documentation-marva-manual/work-description/time-coverage.md
 ,,,bf:identifiedBy,Identifiers,false,true,bnode,,lc:RT:bf2:Identifiers:Eidr | lc:RT:bf2:Identifiers:Copyright | lc:RT:bf2:Identifiers:LCCN,,,,,,,
 ,,,bf:intendedAudience,Intended audience,false,true,bnode,,lc:RT:bf2:Audience,,,,,,,https://bibframe.org/view/documentation-marva-manual/work-description/intended-audience.md
 ,,,bf:note,Notes about the Work,false,true,bnode,,lc:RT:bf2:Note,,,,,,,https://bibframe.org/view/documentation-marva-manual/work-description/notes-about-work.md
@@ -289,7 +288,6 @@ lc:RT:bf2:Analog:Work,BIBFRAME Work,bf:Work,bf:expressionOf,Expression of [searc
 ,,,bf:identifiedBy,Identifiers,false,true,bnode,,lc:RT:bf2:Identifiers:OpusNumber|lc:RT:bf2:Identifiers:ThematicCatalog|lc:RT:bf2:Identifiers:SerialNumber|lc:RT:bf2:Identifiers:Matrix,,,,,,,
 ,,,bf:keyMode,Key and mode,false,true,bnode,,lc:RT:bf2:KeyMode,,,,,,,
 ,,,bf:intendedAudience,Intended audience,false,true,bnode,,lc:RT:bf2:Audience,,,,,,,https://bibframe.org/view/documentation-marva-manual/work-description/intended-audience.md
-,,,bf:temporalCoverage,(Time) coverage of the content,false,true,literal,,,,,,,,,https://bibframe.org/view/documentation-marva-manual/work-description/time-coverage.md
 ,,,bf:geographicCoverage,Geographic coverage,false,true,bnode,,lc:RT:bf2:Form:Geog,,,,,,,https://bibframe.org/view/documentation-marva-manual/work-description/geographic-coverage.md
 ,,,bf:genreForm,Genre/Form,false,true,bnode,,lc:RT:bf2:Form,,,,,,bf:GenreForm,https://bibframe.org/view/documentation-marva-manual/work-description/genre-form.md
 ,,,bf:subject,Subjects,false,true,bnode,,lc:RT:bf2:Components | lc:RT:bf2:Topic:Place:Components | lc:RT:bf2:Topic:SubjectWork,,,,,,,https://bibframe.org/view/documentation-marva-manual/work-description/subjects.md
@@ -370,7 +368,6 @@ lc:RT:bf2:Cartographic:Work,BIBFRAME Work,bf:Work,bf:expressionOf,Expression of 
 ,,,bf:scale,Search scale term,false,true,,,,http://id.loc.gov/vocabulary/mscale,IRIstem,,,,bf:Scale,
 ,,,bf:scale,Numeric scale value,false,true,bnode,,lc:RT:bf2:Cartographic:ScaleNew,,,,,,,
 ,,,bf:notation,Script,false,true,,,,http://id.loc.gov/vocabulary/mscript,IRIstem,,,,bf:Script,https://bibframe.org/view/documentation-marva-manual/work-description/script.md
-,,,bf:temporalCoverage,(Time) coverage of the content,false,true,literal,,,,,,,,,https://bibframe.org/view/documentation-marva-manual/work-description/time-coverage.md
 ,,,bf:relation,Search related work/series,false,true,bnode,,lc:RT:bf2:RelWorkLookup,,,,,,,https://bibframe.org/view/documentation-marva-manual/work-description/search-related-work.md
 ,,,bf:relation,Input transcribed series,false,true,bnode,,lc:RT:bf2:SeriesHub,,,,,,,https://bibframe.org/view/documentation-marva-manual/work-description/input-transcribed-series.md
 ,,,bf:hasInstance,Add BIBFRAME Instance,false,true,bnode,,lc:RT:bf2:Cartographic:Instance,,,,,,,
@@ -621,7 +618,6 @@ lc:RT:bf2:MIBluRayDVD:Work,BIBFRAME Work,bf:Work,bf:expressionOf,Expression [sea
 ,,,bf:genreForm,Genre/Form,false,true,bnode,,lc:RT:bf2:Form,,,,,,bf:GenreForm,https://bibframe.org/view/documentation-marva-manual/work-description/genre-form.md
 ,,,bf:originDate,Date of Work,false,true,literal,,,,,,,,http://www.loc.gov/standards/datetime/pre-submission.html,https://bibframe.org/view/documentation-marva-manual/work-description/date-of-work.md
 ,,,bf:originPlace,Place of origin of the Work,false,true,,,,http://id.loc.gov/authorities/names,IRIstem,,,,bf:Place,https://bibframe.org/view/documentation-marva-manual/work-description/country-of-origin.md
-,,,bf:temporalCoverage,(Time) coverage of the content,false,true,literal,,,,,,,,,https://bibframe.org/view/documentation-marva-manual/work-description/time-coverage.md
 ,,,bf:identifiedBy,Identifiers,false,true,bnode,,lc:RT:bf2:Identifiers:Eidr | lc:RT:bf2:Identifiers:Copyright,,,,,,,
 ,,,bf:intendedAudience,Intended audience,false,true,bnode,,lc:RT:bf2:Audience,,,,,,,https://bibframe.org/view/documentation-marva-manual/work-description/intended-audience.md
 ,,,bf:contribution,Creator of Work,,,bnode,,lc:RT:bflc:Agents:PrimaryContribution,,,,,,bf:PrimaryContribution,https://bibframe.org/view/documentation-marva-manual/work-description/contributors.md
@@ -720,7 +716,6 @@ lc:RT:bf2:Monograph:Work,BIBFRAME Work,bf:Work,bf:expressionOf,Expression of [se
 ,,,bf:capture,Event/Capture,,true,bnode,,lc:RT:bf2:Capture,,,,,,,
 ,,,bf:originDate,Date of Work,false,true,literal,,,,,,,,,https://bibframe.org/docs/view/documentation-marva-manual/work-description/date-of-work.md
 ,,,bf:originPlace,Country of origin of the Work,false,true,,,,http://preprod.id.loc.gov/vocabulary/countries,IRIstem,,,,bf:Place,https://bibframe.org/docs/view/documentation-marva-manual/work-description/country-of-origin.md
-,,,bf:temporalCoverage,(Time) coverage of the content,false,true,literal,,,,,,,,,
 ,,,bf:contentAccessibility,Accessibility content,false,true,bnode,,lc:RT:bf2:ContAccess,,,,,,,
 ,,,bf:dissertation,Dissertation,false,true,bnode,,lc:RT:bf2:Monograph:Dissertation,,,,,,,https://bibframe.org/docs/view/documentation-marva-manual/work-description/dissertation.md
 ,,,bf:hasInstance,Add BIBFRAME Instance,false,true,bnode,,lc:RT:bf2:Monograph:Instance,,,,,,,
@@ -857,7 +852,6 @@ lc:RT:bf2:PrintPhoto:Work,Work,bf:Work,rdf:type,Work type,,,IRI,,,bf:StillImage|
 ,,,bf:genreForm,Genre/Form,false,true,bnode,,lc:RT:bf2:Form | lc:RT:bf2:PrintPhoto:TGMGenre,,,,,,bf:GenreForm,
 ,,,bf:subject,Subjects,false,true,bnode,,lc:RT:bf2:PrintPhoto:TGMSubject | lc:RT:bf2:Components | lc:RT:bf2:Topic:Place:Components | lc:RT:bf2:Topic:SubjectWork,,,,,,,
 ,,,bf:geographicCoverage,Geographic coverage,false,true,bnode,,lc:RT:bf2:Form:Geog,,,,,,,
-,,,bf:temporalCoverage,Time coverage of the Work,false,true,literal,,,,,,,,,
 ,,,bf:originPlace,Place associated with the Work,false,true,,,,http://id.loc.gov/vocabulary/countries,IRIstem,,,,bf:Place,
 ,,,bf:content,Content type,false,true,,,,http://id.loc.gov/vocabulary/contentTypes,IRIstem,,still image,http://id.loc.gov/vocabulary/contentTypes/sti,bf:Content,
 ,,,bf:note,Notes about the Work,false,true,bnode,,lc:RT:bf2:PrintPhoto:Note,,,,,,,
@@ -1018,7 +1012,6 @@ lc:RT:bf2:Serial:Work,BIBFRAME Work,bf:Work,rdf:type,Work type,,,IRI,,,bf:Serial
 ,,,bflc:governmentPubType,Government publication,false,false,,,,http://id.loc.gov/vocabulary/mgovtpubtype,IRIstem,,,,bflc:GovernmentPubType,
 ,,,bf:originDate,Date of Work,false,true,literal,,,,,,,,,
 ,,,bf:originPlace,Place of origin of the Work,false,true,,,,http://id.loc.gov/vocabulary/countries,IRIstem,,,,bf:Place,
-,,,bf:temporalCoverage,(Time) coverage of the content,false,true,literal,,,,,,,,,
 ,,,bf:identifiedBy,Identifiers,false,true,bnode,,lc:RT:bf2:Identifiers:ISSN | lc:RT:bf2:Identifiers:ISSNL,,,,,,,
 ,,,bf:intendedAudience,Intended audience,false,true,bnode,,lc:RT:bf2:Audience,,,,,,,
 ,,,bf:contribution,Contribution,false,true,bnode,,lc:RT:bf2:Agents:Contribution,,,,,,bf:Contribution,https://bibframe.org/view/documentation-marva-manual/work-description/contributors.md
@@ -1095,7 +1088,6 @@ lc:RT:bf2:SoundCDR:Work,BIBFRAME Work,bf:Work,bf:expressionOf,Expression of [sea
 ,,,bf:identifiedBy,Identifiers,false,true,bnode,,lc:RT:bf2:Identifiers:OpusNumber|lc:RT:bf2:Identifiers:ThematicCatalog|lc:RT:bf2:Identifiers:SerialNumber,,,,,,,
 ,,,bf:keyMode,Key and mode,false,true,bnode,,lc:RT:bf2:KeyMode,,,,,,,
 ,,,bf:intendedAudience,Intended audience,false,true,bnode,,lc:RT:bf2:Audience,,,,,,,https://bibframe.org/view/documentation-marva-manual/work-description/intended-audience.md
-,,,bf:temporalCoverage,(Time) coverage of the content,false,true,literal,,,,,,,,,https://bibframe.org/view/documentation-marva-manual/work-description/time-coverage.md
 ,,,bf:geographicCoverage,Geographic coverage,false,true,bnode,,lc:RT:bf2:Form:Geog,,,,,,,https://bibframe.org/view/documentation-marva-manual/work-description/geographic-coverage.md
 ,,,bf:genreForm,Genre/Form,false,true,bnode,,lc:RT:bf2:Form,,,,,,bf:GenreForm,https://bibframe.org/view/documentation-marva-manual/work-description/genre-form.md
 ,,,bf:subject,Subjects,false,true,bnode,,lc:RT:bf2:Components | lc:RT:bf2:Topic:Place:Components | lc:RT:bf2:Topic:SubjectWork,,,,,,,https://bibframe.org/view/documentation-marva-manual/work-description/subjects.md
@@ -1144,7 +1136,6 @@ lc:RT:bf2:SoundCassette:Work,BIBFRAME Work,bf:Work,bf:hasExpression,Expression o
 ,,,bf:identifiedBy,Identifiers,false,true,bnode,,lc:RT:bf2:Identifiers:OpusNumber|lc:RT:bf2:Identifiers:ThematicCatalog|lc:RT:bf2:Identifiers:SerialNumber,,,,,,,
 ,,,bf:keyMode,Key and mode,false,true,bnode,,lc:RT:bf2:KeyMode,,,,,,,
 ,,,bf:intendedAudience,Intended audience,false,true,bnode,,lc:RT:bf2:Audience,,,,,,,https://bibframe.org/view/documentation-marva-manual/work-description/intended-audience.md
-,,,bf:temporalCoverage,(Time) coverage of the content,false,true,literal,,,,,,,,,https://bibframe.org/view/documentation-marva-manual/work-description/time-coverage.md
 ,,,bf:geographicCoverage,Geographic coverage,false,true,bnode,,lc:RT:bf2:Form:Geog,,,,,,,https://bibframe.org/view/documentation-marva-manual/work-description/geographic-coverage.md
 ,,,bf:genreForm,Genre/Form,false,true,bnode,,lc:RT:bf2:Form,,,,,,bf:GenreForm,
 ,,,bf:subject,Subjects,false,true,bnode,,lc:RT:bf2:Components | lc:RT:bf2:Topic:Place:Components | lc:RT:bf2:Topic:SubjectWork,,,,,,,https://bibframe.org/view/documentation-marva-manual/work-description/subjects.md
@@ -1202,7 +1193,6 @@ lc:RT:bf2:SoundRecording:Work,BIBFRAME Work,bf:Work,bf:expressionOf,Expression o
 ,,,bf:identifiedBy,Identifiers,false,true,bnode,,lc:RT:bf2:Identifiers:OpusNumber|lc:RT:bf2:Identifiers:ThematicCatalog|lc:RT:bf2:Identifiers:SerialNumber,,,,,,,
 ,,,bf:keyMode,Key and mode,false,true,bnode,,lc:RT:bf2:KeyMode,,,,,,,
 ,,,bf:intendedAudience,Intended audience,false,true,bnode,,lc:RT:bf2:Audience,,,,,,,
-,,,bf:temporalCoverage,(Time) coverage of the content,false,true,literal,,,,,,,,,https://bibframe.org/view/documentation-marva-manual/work-description/time-coverage.md
 ,,,bf:geographicCoverage,Geographic coverage,false,true,bnode,,lc:RT:bf2:Form:Geog,,,,,,,https://bibframe.org/view/documentation-marva-manual/work-description/geographic-coverage.md
 ,,,bf:genreForm,Genre/Form,false,true,bnode,,lc:RT:bf2:Form,,,,,,bf:GenreForm,https://bibframe.org/view/documentation-marva-manual/work-description/genre-form.md
 ,,,bf:subject,Subjects,false,true,bnode,,lc:RT:bf2:Components | lc:RT:bf2:Topic:Place:Components | lc:RT:bf2:Topic:SubjectWork,,,,,,,https://bibframe.org/view/documentation-marva-manual/work-description/subjects.md

@@ -368,7 +368,6 @@ lc:RT:Analog:Work,BIBFRAME Work,bf:Work,bf:expressionOf,Expression of [search fo
 ,,,bf:identifiedBy,Identifiers,FALSE,TRUE,bnode,,lc:RT:Identifiers:OpusNumber|lc:RT:Identifiers:ThematicCatalog|lc:RT:Identifiers:SerialNumber|lc:RT:Identifiers:Matrix,,,,,,,
 ,,,bf:keyMode,Key and mode,FALSE,TRUE,bnode,,lc:RT:KeyMode,,,,,,,
 ,,,bf:intendedAudience,Intended audience,FALSE,TRUE,bnode,,lc:RT:Audience,,,,,,,
-,,,bf:temporalCoverage,(Time) coverage of the content,FALSE,TRUE,literal,,,,,,,,,
 ,,,bf:geographicCoverage,Geographic coverage,FALSE,TRUE,bnode,,lc:RT:Form:Geog,,,,,,,
 ,,,bf:genreForm,Genre/Form,FALSE,TRUE,bnode,,lc:RT:Form,,,,,,bf:GenreForm,
 ,,,bf:subject,Subjects,FALSE,TRUE,bnode,,lc:RT:Components | lc:RT:Topic:Place:Components | lc:RT:Topic:SubjectWork,,,,,,,
@@ -453,7 +452,6 @@ lc:RT:Cartographic:Work,BIBFRAME Work,bf:Work,bf:expressionOf,Expression of [Sea
 ,,,bf:scale,Search scale term,FALSE,TRUE,,,,http://id.loc.gov/vocabulary/mscale,IRIstem,,,,bf:Scale,
 ,,,bf:scale,Numeric scale value,FALSE,TRUE,bnode,,lc:RT:Cartographic:ScaleNew,,,,,,,
 ,,,bf:notation,Script,FALSE,TRUE,,,,http://id.loc.gov/vocabulary/mscript,IRIstem,,,,bf:Script,https://bibframe.org/view/documentation-marva-manual/work-description/script.md
-,,,bf:temporalCoverage,(Time) coverage of the content,FALSE,TRUE,literal,,,,,,,,,
 ,,,bf:relation,Search related work/series,FALSE,TRUE,bnode,,lc:RT:RelWorkLookup,,,,,,,https://bibframe.org/view/documentation-marva-manual/work-description/search-related-work.md
 ,,,bf:relation,Input transcribed series,FALSE,TRUE,bnode,,lc:RT:SeriesHub,,,,,,bf:Relation,https://bibframe.org/view/documentation-marva-manual/work-description/input-transcribed-series.md
 ,,,bf:hasInstance,Add BIBFRAME Instance,FALSE,TRUE,bnode,,lc:RT:Cartographic:Instance,,,,,,,
@@ -821,7 +819,6 @@ lc:RT:MIBluRayDVD:Work,BIBFRAME Work,bf:Work,bf:expressionOf,Expression of [sear
 ,,,bf:genreForm,Genre/Form,FALSE,TRUE,bnode,,lc:RT:Form,,,,,,bf:GenreForm,
 ,,,bf:originDate,Date of Work,FALSE,TRUE,literal,,,,,,,,http://www.loc.gov/standards/datetime/pre-submission.html,
 ,,,bf:originPlace,Place of origin of the Work,FALSE,TRUE,,,,http://id.loc.gov/authorities/names,IRIstem,,,,bf:Place,
-,,,bf:temporalCoverage,(Time) coverage of the content,FALSE,TRUE,literal,,,,,,,,,
 ,,,bf:identifiedBy,Identifiers,FALSE,TRUE,bnode,,lc:RT:Identifiers:Eidr | lc:RT:Identifiers:Copyright,,,,,,,
 ,,,bf:intendedAudience,Intended audience,FALSE,TRUE,bnode,,lc:RT:Audience,,,,,,,
 ,,,bf:contribution,Creator,FALSE,TRUE,bnode,,lc:RT:bflc:Agents:PrimaryContribution,,,,,,bf:PrimaryContribution,
@@ -955,7 +952,6 @@ lc:RT:Monograph:Work,BIBFRAME Work,bf:Work,bf:expressionOf,Expression of [search
 ,,,bf:relation,Related work not held by LC,FALSE,TRUE,bnode,,lc:RT:RelWork,,,,,,,
 ,,,bf:originDate,Date of Work,FALSE,TRUE,literal,,,,,,,,,https://bibframe.org/docs/view/documentation-marva-manual/work-description/date-of-work.md
 ,,,bf:originPlace,Country of origin of the Work,FALSE,TRUE,IRI,,,http://id.loc.gov/vocabulary/countries,IRIstem,,,,bf:Place,https://bibframe.org/docs/view/documentation-marva-manual/work-description/country-of-origin.md
-,,,bf:temporalCoverage,(Time) coverage of the content,FALSE,TRUE,literal,,,,,,,,,https://bibframe.org/docs/view/documentation-marva-manual/work-description/time-coverage.md
 ,,,bf:contentAccessibility,Accessibility content,FALSE,TRUE,bnode,,lc:RT:ContAccess,,,,,,,
 ,,,bf:capture,Event/Capture,,,bnode,,lc:RT:Capture,,,,,,,
 ,,,bf:dissertation,Dissertation,FALSE,TRUE,bnode,,lc:RT:Monograph:Dissertation,,,,,,,https://bibframe.org/docs/view/documentation-marva-manual/work-description/dissertation.md
@@ -1236,7 +1232,6 @@ lc:RT:PrintPhoto:Work,Work,bf:Work,bf:title,Title,FALSE,TRUE,bnode,,lc:RT:WorkTi
 ,,,bf:genreForm,Genre/Form,FALSE,TRUE,bnode,,lc:RT:PrintPhoto:TGMGenre,,,,,,,
 ,,,bf:subject,Subjects,FALSE,TRUE,bnode,,lc:RT:PrintPhoto:TGMSubject | lc:RT:Components | lc:RT:Topic:Place:Components | lc:RT:Topic:SubjectWork,,,,,,,
 ,,,bf:originPlace,Place associated with the Work,FALSE,TRUE,,,,http://id.loc.gov/vocabulary/countries,IRIstem,,,,bf:Place,
-,,,bf:temporalCoverage,Time coverage of the Work,FALSE,TRUE,literal,,,,,,,,,
 ,,,bf:content,Content type,FALSE,TRUE,,,,http://id.loc.gov/vocabulary/contentTypes,IRIstem,,still image,http://id.loc.gov/vocabulary/contentTypes/sti,bf:Content,
 ,,,bf:note,Notes about the Work,FALSE,TRUE,bnode,,lc:RT:PrintPhoto:Note,,,,,,,
 ,,,bf:tableOfContents,Contents,FALSE,TRUE,bnode,,lc:RT:Contents,,,,,,,
@@ -1307,9 +1302,9 @@ lc:RT:RareMat:RefNote,References/Citation note,bf:Note,rdfs:label,Note/name of s
 ,,,bflc:appliesTo,Applies to,FALSE,TRUE,bnode,,lc:RT:AppliesTo,,,,,,,
 lc:RT:RareMat:RefNoteCoverage,Coverage of source,bf:EnumerationAndChronology,rdfs:label,Coverage of source,FALSE,TRUE,literal,,,,,,,,,
 lc:RT:RareMat:Work,BIBFRAME Work,bf:Work,bf:expressionOf,Expression of [search for a Hub],FALSE,TRUE,,,,https://id.loc.gov/resources/hubs,IRIstem,,,,bf:Hub,
+,,,rdf:type,Work type,,,IRI,,,bf:Monograph|bf:Manuscript|bf:Text,picklist,,,,,
 ,,,bf:contribution,Creator,FALSE,TRUE,bnode,,lc:RT:bflc:Agents:PrimaryContribution,,,,,,bf:PrimaryContribution,
 ,,,bf:title,Title information,TRUE,TRUE,bnode,,lc:RT:WorkTitle | lc:RT:Title:VarTitle | lc:RT:ParallelTitle,,,,,,,
-,,,rdf:type,Work type,,,IRI,,,bf:Monograph|bf:Manuscript|bf:Text,picklist,,,,,
 ,,,bf:contribution,Contributors,FALSE,TRUE,bnode,,lc:RT:Agents:Contribution,,,,,,bf:Contribution,
 ,,,bf:subject,Subjects,FALSE,TRUE,bnode,,lc:RT:Components | lc:RT:Topic:SubjectWork,,,,,,,
 ,,,bf:geographicCoverage,Geographic coverage,FALSE,TRUE,bnode,,lc:RT:Form:Geog,,,,,,,
@@ -1419,7 +1414,6 @@ lc:RT:Serial:Work,BIBFRAME Work,bf:Work,rdf:type,Work type,,,IRI,,,bf:Serial|bf:
 ,,,bflc:governmentPubType,Government publication,FALSE,TRUE,,,,http://id.loc.gov/vocabulary/mgovtpubtype,IRIstem,,,,bflc:GovernmentPubType,
 ,,,bf:originDate,Date of Work,FALSE,TRUE,literal,,,,,,,,,
 ,,,bf:originPlace,Place of origin of the Work,FALSE,TRUE,,,,http://id.loc.gov/vocabulary/countries,IRIstem,,,,bf:Place,
-,,,bf:temporalCoverage,(Time) coverage of the content,FALSE,TRUE,literal,,,,,,,,,
 ,,,bf:identifiedBy,Identifiers,FALSE,TRUE,bnode,,lc:RT:Identifiers:ISSN | lc:RT:Identifiers:ISSNL,,,,,,,
 ,,,bf:intendedAudience,Intended audience,FALSE,TRUE,bnode,,lc:RT:Audience,,,,,,,
 ,,,bf:contribution,Contributors,FALSE,TRUE,bnode,,lc:RT:Agents:Contribution,,,,,,bf:Contribution,
@@ -1516,7 +1510,6 @@ lc:RT:SoundCD:Work,BIBFRAME Work,bf:Work,bf:expressionOf,Expression of [search f
 ,,,bf:identifiedBy,Identifiers,FALSE,TRUE,bnode,,lc:RT:Identifiers:OpusNumber|lc:RT:Identifiers:ThematicCatalog|lc:RT:Identifiers:SerialNumber,,,,,,,
 ,,,bf:keyMode,Key and mode,FALSE,TRUE,bnode,,lc:RT:KeyMode,,,,,,,
 ,,,bf:intendedAudience,Intended audience,FALSE,TRUE,bnode,,lc:RT:Audience,,,,,,,
-,,,bf:temporalCoverage,(Time) coverage of the content,FALSE,TRUE,literal,,,,,,,,,
 ,,,bf:geographicCoverage,Geographic coverage,FALSE,TRUE,bnode,,lc:RT:Form:Geog,,,,,,,
 ,,,bf:genreForm,Genre/Form,FALSE,TRUE,bnode,,lc:RT:Form,,,,,,bf:GenreForm,
 ,,,bf:subject,Subjects,FALSE,TRUE,bnode,,lc:RT:Components | lc:RT:Topic:Place:Components | lc:RT:Topic:SubjectWork,,,,,,,
@@ -1570,7 +1563,6 @@ lc:RT:SoundCDR:Work,BIBFRAME Work,bf:Work,bf:expressionOf,Expression of [search 
 ,,,bf:identifiedBy,Identifiers,FALSE,TRUE,bnode,,lc:RT:Identifiers:OpusNumber|lc:RT:Identifiers:ThematicCatalog|lc:RT:Identifiers:SerialNumber,,,,,,,
 ,,,bf:keyMode,Key and mode,FALSE,TRUE,bnode,,lc:RT:KeyMode,,,,,,,
 ,,,bf:intendedAudience,Intended audience,FALSE,TRUE,bnode,,lc:RT:Audience,,,,,,,
-,,,bf:temporalCoverage,(Time) coverage of the content,FALSE,TRUE,literal,,,,,,,,,
 ,,,bf:geographicCoverage,Geographic coverage,FALSE,TRUE,bnode,,lc:RT:Form:Geog,,,,,,,
 ,,,bf:genreForm,Genre/Form,FALSE,TRUE,bnode,,lc:RT:Form,,,,,,bf:GenreForm,
 ,,,bf:subject,Subjects,FALSE,TRUE,bnode,,lc:RT:Components | lc:RT:Topic:Place:Components | lc:RT:Topic:SubjectWork,,,,,,,
@@ -1623,7 +1615,6 @@ lc:RT:SoundCassette:Work,BIBFRAME Work,bf:Work,bf:expressionOf,Expression of [se
 ,,,bf:identifiedBy,Identifiers,FALSE,TRUE,bnode,,lc:RT:Identifiers:OpusNumber|lc:RT:Identifiers:ThematicCatalog|lc:RT:Identifiers:SerialNumber,,,,,,,
 ,,,bf:keyMode,Key and mode,FALSE,TRUE,bnode,,lc:RT:KeyMode,,,,,,,
 ,,,bf:intendedAudience,Intended audience,FALSE,TRUE,bnode,,lc:RT:Audience,,,,,,,
-,,,bf:temporalCoverage,(Time) coverage of the content,FALSE,TRUE,literal,,,,,,,,,
 ,,,bf:geographicCoverage,Geographic coverage,FALSE,TRUE,bnode,,lc:RT:Form:Geog,,,,,,,
 ,,,bf:genreForm,Genre/Form,FALSE,TRUE,bnode,,lc:RT:Form,,,,,,bf:GenreForm,
 ,,,bf:subject,Subjects,FALSE,TRUE,bnode,,lc:RT:Components | lc:RT:Topic:Place:Components | lc:RT:Topic:SubjectWork,,,,,,,
@@ -1823,7 +1814,6 @@ lc:RT:VideoCassette:Work,BIBFRAME Work,bf:Work,bf:expressionOf,Expression of [se
 ,,,bf:genreForm,Genre/Form,FALSE,TRUE,bnode,,lc:RT:Form,,,,,,bf:GenreForm,
 ,,,bf:originDate,Date of Work,FALSE,TRUE,literal,,,,,,,,http://www.loc.gov/standards/datetime/pre-submission.html,
 ,,,bf:originPlace,Place of origin of the Work,FALSE,TRUE,,,,http://id.loc.gov/authorities/names,IRIstem,,,,bf:Place,
-,,,bf:temporalCoverage,(Time) coverage of the content,FALSE,TRUE,literal,,,,,,,,,
 ,,,bf:identifiedBy,Identifiers,FALSE,TRUE,bnode,,lc:RT:Identifiers:Eidr | lc:RT:Identifiers:Copyright,,,,,,,
 ,,,bf:intendedAudience,Intended audience,FALSE,TRUE,bnode,,lc:RT:Audience,,,,,,,
 ,,,bf:contribution,Contributors,FALSE,TRUE,bnode,,lc:RT:Agents:Contribution,,,,,,bf:Contribution,
