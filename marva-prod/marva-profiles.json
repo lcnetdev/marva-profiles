@@ -1,6 +1,6 @@
 [
   {
-    "id": "8dd72a95-fe7f-4da7-8c71-c77b8fee76bf",
+    "id": "88d89e6c-7252-48f3-b070-02e4f9888664",
     "name": "BIBFRAME 2.0 Moving Image",
     "configType": "profile",
     "json": {
@@ -898,6 +898,25 @@
             "resourceURI": "http://id.loc.gov/ontologies/bibframe/Item",
             "resourceLabel": "BIBFRAME Item",
             "propertyTemplates": [
+              {
+                "propertyURI": "http://id.loc.gov/ontologies/bibframe/heldBy",
+                "propertyLabel": "Held by",
+                "mandatory": "true",
+                "repeatable": "false",
+                "type": "lookup",
+                "resourceTemplates": [],
+                "valueConstraint": {
+                  "valueTemplateRefs": [],
+                  "useValuesFrom": [
+                    "http://id.loc.gov/vocabulary/organizations"
+                  ],
+                  "defaults": [],
+                  "valueDataType": {
+                    "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Organization"
+                  },
+                  "picklist": []
+                }
+              },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/classification",
                 "propertyLabel": "Call numbers",
@@ -3517,30 +3536,6 @@
                   },
                   "picklist": []
                 }
-              },
-              {
-                "propertyURI": "http://id.loc.gov/ontologies/bflc/applicableInstitution",
-                "propertyLabel": "Applicable institution",
-                "mandatory": "false",
-                "repeatable": "true",
-                "type": "lookup",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [],
-                  "useValuesFrom": [
-                    "http://preprod.id.loc.gov/vocabulary/organizations"
-                  ],
-                  "defaults": [
-                    {
-                      "defaultLiteral": "DLC",
-                      "defaultURI": "http://id.loc.gov/vocabulary/organizations/dlc"
-                    }
-                  ],
-                  "valueDataType": {
-                    "dataTypeURI": "http://id.loc.gov/ontologies/bflc/Agent"
-                  },
-                  "picklist": []
-                }
               }
             ]
           },
@@ -3578,30 +3573,6 @@
                   ],
                   "defaults": [],
                   "valueDataType": {},
-                  "picklist": []
-                }
-              },
-              {
-                "propertyURI": "http://id.loc.gov/ontologies/bflc/applicableInstitution",
-                "propertyLabel": "Applicable institution",
-                "mandatory": "false",
-                "repeatable": "true",
-                "type": "lookup",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [],
-                  "useValuesFrom": [
-                    "http://id.loc.gov/vocabulary/organizations"
-                  ],
-                  "defaults": [
-                    {
-                      "defaultLiteral": "DLC",
-                      "defaultURI": "http://id.loc.gov/vocabulary/organizations/dlc"
-                    }
-                  ],
-                  "valueDataType": {
-                    "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Agent"
-                  },
                   "picklist": []
                 }
               }
@@ -3750,30 +3721,6 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {},
-                  "picklist": []
-                }
-              },
-              {
-                "propertyURI": "http://id.loc.gov/ontologies/bflc/applicableInstitution",
-                "propertyLabel": "Applicable institution",
-                "mandatory": "false",
-                "repeatable": "true",
-                "type": "lookup",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [],
-                  "useValuesFrom": [
-                    "http://id.loc.gov/vocabulary/organizations"
-                  ],
-                  "defaults": [
-                    {
-                      "defaultLiteral": "United States. Library of Congress",
-                      "defaultURI": "http://id.loc.gov/vocabulary/organizations/dlc"
-                    }
-                  ],
-                  "valueDataType": {
-                    "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Organization"
-                  },
                   "picklist": []
                 }
               }
@@ -4556,14 +4503,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-10-29T18:45:55.811Z",
-      "updateDate": "2026-10-29T18:45:55.811Z"
+      "createDate": "2026-10-30T16:00:01.381Z",
+      "updateDate": "2026-10-30T16:00:01.381Z"
     },
-    "created": "2026-10-29T18:45:55.811Z",
-    "modified": "2026-10-29T18:45:55.811Z"
+    "created": "2026-10-30T16:00:01.381Z",
+    "modified": "2026-10-30T16:00:01.381Z"
   },
   {
-    "id": "9776b005-a71c-4b59-af32-66e3f739a527",
+    "id": "c39158a5-0e62-4e07-ae0d-c3d57198345a",
     "name": "BIBFRAME 2.0 Admin Metadata",
     "configType": "profile",
     "json": {
@@ -5092,14 +5039,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-10-29T18:45:55.812Z",
-      "updateDate": "2026-10-29T18:45:55.812Z"
+      "createDate": "2026-10-30T16:00:01.382Z",
+      "updateDate": "2026-10-30T16:00:01.382Z"
     },
-    "created": "2026-10-29T18:45:55.812Z",
-    "modified": "2026-10-29T18:45:55.812Z"
+    "created": "2026-10-30T16:00:01.382Z",
+    "modified": "2026-10-30T16:00:01.382Z"
   },
   {
-    "id": "c15c053e-9033-4f84-a93e-20a4123db83f",
+    "id": "b02bd59a-6fbf-48ef-9c6b-5536d3c3679b",
     "name": "BIBFRAME 2.0 Agents",
     "configType": "profile",
     "json": {
@@ -7474,14 +7421,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-10-29T18:45:55.822Z",
-      "updateDate": "2026-10-29T18:45:55.822Z"
+      "createDate": "2026-10-30T16:00:01.390Z",
+      "updateDate": "2026-10-30T16:00:01.390Z"
     },
-    "created": "2026-10-29T18:45:55.822Z",
-    "modified": "2026-10-29T18:45:55.822Z"
+    "created": "2026-10-30T16:00:01.390Z",
+    "modified": "2026-10-30T16:00:01.390Z"
   },
   {
-    "id": "9d2435c6-2644-423d-a339-d68b6b79ad5e",
+    "id": "149332ed-eded-4a10-84a2-587e8cb2c0af",
     "name": "BIBFRAME 2.0 RWO",
     "configType": "profile",
     "json": {
@@ -8463,14 +8410,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-10-29T18:45:55.828Z",
-      "updateDate": "2026-10-29T18:45:55.828Z"
+      "createDate": "2026-10-30T16:00:01.395Z",
+      "updateDate": "2026-10-30T16:00:01.395Z"
     },
-    "created": "2026-10-29T18:45:55.828Z",
-    "modified": "2026-10-29T18:45:55.828Z"
+    "created": "2026-10-30T16:00:01.395Z",
+    "modified": "2026-10-30T16:00:01.395Z"
   },
   {
-    "id": "ffc8a972-a4aa-41b9-ae03-42ca08a089f5",
+    "id": "3d697db6-313d-43cf-904d-68093922d369",
     "name": "BIBFRAME 2.0 Agents Contribution",
     "configType": "profile",
     "json": {
@@ -8569,30 +8516,6 @@
                   "defaults": [],
                   "valueDataType": {
                     "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Role"
-                  },
-                  "picklist": []
-                }
-              },
-              {
-                "propertyURI": "http://id.loc.gov/ontologies/bflc/applicableInstitution",
-                "propertyLabel": "Applicable institution",
-                "mandatory": "false",
-                "repeatable": "true",
-                "type": "lookup",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [],
-                  "useValuesFrom": [
-                    "http://preprod.id.loc.gov/vocabulary/organizations"
-                  ],
-                  "defaults": [
-                    {
-                      "defaultLiteral": "DLC",
-                      "defaultURI": "http://id.loc.gov/vocabulary/organizations/dlc"
-                    }
-                  ],
-                  "valueDataType": {
-                    "dataTypeURI": "http://id.loc.gov/ontologies/bflc/Agent"
                   },
                   "picklist": []
                 }
@@ -8723,14 +8646,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-10-29T18:45:55.830Z",
-      "updateDate": "2026-10-29T18:45:55.830Z"
+      "createDate": "2026-10-30T16:00:01.396Z",
+      "updateDate": "2026-10-30T16:00:01.396Z"
     },
-    "created": "2026-10-29T18:45:55.830Z",
-    "modified": "2026-10-29T18:45:55.830Z"
+    "created": "2026-10-30T16:00:01.396Z",
+    "modified": "2026-10-30T16:00:01.396Z"
   },
   {
-    "id": "bfbb862d-c63d-4147-bc82-2a401c81f24b",
+    "id": "a51c9fb2-9880-4056-8812-1a892ccc3f83",
     "name": "BIBFRAME 2.0 Sound Recording-Analog",
     "configType": "profile",
     "json": {
@@ -9695,6 +9618,25 @@
             "resourceURI": "http://id.loc.gov/ontologies/bibframe/Item",
             "resourceLabel": "BIBFRAME Item",
             "propertyTemplates": [
+              {
+                "propertyURI": "http://id.loc.gov/ontologies/bibframe/heldBy",
+                "propertyLabel": "Held by",
+                "mandatory": "true",
+                "repeatable": "false",
+                "type": "lookup",
+                "resourceTemplates": [],
+                "valueConstraint": {
+                  "valueTemplateRefs": [],
+                  "useValuesFrom": [
+                    "http://id.loc.gov/vocabulary/organizations"
+                  ],
+                  "defaults": [],
+                  "valueDataType": {
+                    "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Organization"
+                  },
+                  "picklist": []
+                }
+              },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/electronicLocator",
                 "propertyLabel": "URL of Item",
@@ -12508,30 +12450,6 @@
                   },
                   "picklist": []
                 }
-              },
-              {
-                "propertyURI": "http://id.loc.gov/ontologies/bflc/applicableInstitution",
-                "propertyLabel": "Applicable institution",
-                "mandatory": "false",
-                "repeatable": "true",
-                "type": "lookup",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [],
-                  "useValuesFrom": [
-                    "http://preprod.id.loc.gov/vocabulary/organizations"
-                  ],
-                  "defaults": [
-                    {
-                      "defaultLiteral": "DLC",
-                      "defaultURI": "http://id.loc.gov/vocabulary/organizations/dlc"
-                    }
-                  ],
-                  "valueDataType": {
-                    "dataTypeURI": "http://id.loc.gov/ontologies/bflc/Agent"
-                  },
-                  "picklist": []
-                }
               }
             ]
           },
@@ -12569,30 +12487,6 @@
                   ],
                   "defaults": [],
                   "valueDataType": {},
-                  "picklist": []
-                }
-              },
-              {
-                "propertyURI": "http://id.loc.gov/ontologies/bflc/applicableInstitution",
-                "propertyLabel": "Applicable institution",
-                "mandatory": "false",
-                "repeatable": "true",
-                "type": "lookup",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [],
-                  "useValuesFrom": [
-                    "http://id.loc.gov/vocabulary/organizations"
-                  ],
-                  "defaults": [
-                    {
-                      "defaultLiteral": "DLC",
-                      "defaultURI": "http://id.loc.gov/vocabulary/organizations/dlc"
-                    }
-                  ],
-                  "valueDataType": {
-                    "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Agent"
-                  },
                   "picklist": []
                 }
               }
@@ -13173,14 +13067,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-10-29T18:45:55.853Z",
-      "updateDate": "2026-10-29T18:45:55.853Z"
+      "createDate": "2026-10-30T16:00:01.419Z",
+      "updateDate": "2026-10-30T16:00:01.419Z"
     },
-    "created": "2026-10-29T18:45:55.853Z",
-    "modified": "2026-10-29T18:45:55.853Z"
+    "created": "2026-10-30T16:00:01.419Z",
+    "modified": "2026-10-30T16:00:01.419Z"
   },
   {
-    "id": "a9176bc3-d8e9-4e96-9152-d13b788f113d",
+    "id": "4fcdb04a-428c-45f0-a627-5462bc45321a",
     "name": "BIBFRAME 2.0 Cartographic TEST",
     "configType": "profile",
     "json": {
@@ -14123,6 +14017,25 @@
             "resourceURI": "http://id.loc.gov/ontologies/bibframe/Item",
             "resourceLabel": "BIBFRAME Item",
             "propertyTemplates": [
+              {
+                "propertyURI": "http://id.loc.gov/ontologies/bibframe/heldBy",
+                "propertyLabel": "Held by",
+                "mandatory": "true",
+                "repeatable": "false",
+                "type": "lookup",
+                "resourceTemplates": [],
+                "valueConstraint": {
+                  "valueTemplateRefs": [],
+                  "useValuesFrom": [
+                    "http://id.loc.gov/vocabulary/organizations"
+                  ],
+                  "defaults": [],
+                  "valueDataType": {
+                    "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Organization"
+                  },
+                  "picklist": []
+                }
+              },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/classification",
                 "propertyLabel": "Copy, issue, offprint number",
@@ -16367,30 +16280,6 @@
                   },
                   "picklist": []
                 }
-              },
-              {
-                "propertyURI": "http://id.loc.gov/ontologies/bflc/applicableInstitution",
-                "propertyLabel": "Applicable institution",
-                "mandatory": "false",
-                "repeatable": "true",
-                "type": "lookup",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [],
-                  "useValuesFrom": [
-                    "http://preprod.id.loc.gov/vocabulary/organizations"
-                  ],
-                  "defaults": [
-                    {
-                      "defaultLiteral": "DLC",
-                      "defaultURI": "http://id.loc.gov/vocabulary/organizations/dlc"
-                    }
-                  ],
-                  "valueDataType": {
-                    "dataTypeURI": "http://id.loc.gov/ontologies/bflc/Agent"
-                  },
-                  "picklist": []
-                }
               }
             ]
           },
@@ -16428,30 +16317,6 @@
                   ],
                   "defaults": [],
                   "valueDataType": {},
-                  "picklist": []
-                }
-              },
-              {
-                "propertyURI": "http://id.loc.gov/ontologies/bflc/applicableInstitution",
-                "propertyLabel": "Applicable institution",
-                "mandatory": "false",
-                "repeatable": "true",
-                "type": "lookup",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [],
-                  "useValuesFrom": [
-                    "http://id.loc.gov/vocabulary/organizations"
-                  ],
-                  "defaults": [
-                    {
-                      "defaultLiteral": "DLC",
-                      "defaultURI": "http://id.loc.gov/vocabulary/organizations/dlc"
-                    }
-                  ],
-                  "valueDataType": {
-                    "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Agent"
-                  },
                   "picklist": []
                 }
               }
@@ -16928,14 +16793,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-10-29T18:45:55.872Z",
-      "updateDate": "2026-10-29T18:45:55.872Z"
+      "createDate": "2026-10-30T16:00:01.434Z",
+      "updateDate": "2026-10-30T16:00:01.434Z"
     },
-    "created": "2026-10-29T18:45:55.872Z",
-    "modified": "2026-10-29T18:45:55.872Z"
+    "created": "2026-10-30T16:00:01.434Z",
+    "modified": "2026-10-30T16:00:01.434Z"
   },
   {
-    "id": "8a696934-4953-4b84-9b6d-05a6686e8c0a",
+    "id": "cb0d56cf-d297-4dff-a49b-eb2641499d15",
     "name": "BIBFRAME 2.0 Classification",
     "configType": "profile",
     "json": {
@@ -17353,14 +17218,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-10-29T18:45:55.874Z",
-      "updateDate": "2026-10-29T18:45:55.874Z"
+      "createDate": "2026-10-30T16:00:01.436Z",
+      "updateDate": "2026-10-30T16:00:01.436Z"
     },
-    "created": "2026-10-29T18:45:55.874Z",
-    "modified": "2026-10-29T18:45:55.874Z"
+    "created": "2026-10-30T16:00:01.436Z",
+    "modified": "2026-10-30T16:00:01.436Z"
   },
   {
-    "id": "defa4535-809f-46cf-ac0d-5f172d321c37",
+    "id": "d4c85291-23d9-4811-a0aa-c841cf54383e",
     "name": "BIBFRAME 2.0 Form",
     "configType": "profile",
     "json": {
@@ -17490,14 +17355,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-10-29T18:45:55.875Z",
-      "updateDate": "2026-10-29T18:45:55.875Z"
+      "createDate": "2026-10-30T16:00:01.436Z",
+      "updateDate": "2026-10-30T16:00:01.436Z"
     },
-    "created": "2026-10-29T18:45:55.875Z",
-    "modified": "2026-10-29T18:45:55.875Z"
+    "created": "2026-10-30T16:00:01.436Z",
+    "modified": "2026-10-30T16:00:01.436Z"
   },
   {
-    "id": "bf96a4d2-51ac-426d-92c0-94da82805a11",
+    "id": "9b994f00-0cc2-4e37-a3bd-d135790ab33b",
     "name": "Test BF Hub",
     "configType": "profile",
     "json": {
@@ -18291,14 +18156,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-10-29T18:45:55.878Z",
-      "updateDate": "2026-10-29T18:45:55.878Z"
+      "createDate": "2026-10-30T16:00:01.439Z",
+      "updateDate": "2026-10-30T16:00:01.439Z"
     },
-    "created": "2026-10-29T18:45:55.878Z",
-    "modified": "2026-10-29T18:45:55.878Z"
+    "created": "2026-10-30T16:00:01.439Z",
+    "modified": "2026-10-30T16:00:01.439Z"
   },
   {
-    "id": "d646e049-ac61-4f86-b317-350844998b48",
+    "id": "0eb1f606-3026-4b46-9f86-d5b64fc82d3e",
     "name": "BF Hub",
     "configType": "profile",
     "json": {
@@ -19185,14 +19050,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-10-29T18:45:55.883Z",
-      "updateDate": "2026-10-29T18:45:55.883Z"
+      "createDate": "2026-10-30T16:00:01.444Z",
+      "updateDate": "2026-10-30T16:00:01.444Z"
     },
-    "created": "2026-10-29T18:45:55.883Z",
-    "modified": "2026-10-29T18:45:55.883Z"
+    "created": "2026-10-30T16:00:01.444Z",
+    "modified": "2026-10-30T16:00:01.444Z"
   },
   {
-    "id": "87d39b27-7552-4f34-9136-d675f8f9b9a1",
+    "id": "92cbc023-1a95-47c6-953d-ffc4653fdfc4",
     "name": "Original BF (origbf)",
     "configType": "profile",
     "json": {
@@ -19611,6 +19476,25 @@
             "resourceURI": "http://id.loc.gov/ontologies/bibframe/Item",
             "resourceLabel": "BIBFRAME Item",
             "propertyTemplates": [
+              {
+                "propertyURI": "http://id.loc.gov/ontologies/bibframe/heldBy",
+                "propertyLabel": "Held by",
+                "mandatory": "true",
+                "repeatable": "false",
+                "type": "lookup",
+                "resourceTemplates": [],
+                "valueConstraint": {
+                  "valueTemplateRefs": [],
+                  "useValuesFrom": [
+                    "http://id.loc.gov/vocabulary/organizations"
+                  ],
+                  "defaults": [],
+                  "valueDataType": {
+                    "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Organization"
+                  },
+                  "picklist": []
+                }
+              },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/electronicLocator",
                 "propertyLabel": "URL of Item",
@@ -22107,6 +21991,25 @@
             "resourceLabel": "BIBFRAME Item",
             "propertyTemplates": [
               {
+                "propertyURI": "http://id.loc.gov/ontologies/bibframe/heldBy",
+                "propertyLabel": "Held by",
+                "mandatory": "true",
+                "repeatable": "false",
+                "type": "lookup",
+                "resourceTemplates": [],
+                "valueConstraint": {
+                  "valueTemplateRefs": [],
+                  "useValuesFrom": [
+                    "http://id.loc.gov/vocabulary/organizations"
+                  ],
+                  "defaults": [],
+                  "valueDataType": {
+                    "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Organization"
+                  },
+                  "picklist": []
+                }
+              },
+              {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/electronicLocator",
                 "propertyLabel": "URL of Item",
                 "mandatory": "false",
@@ -22279,30 +22182,6 @@
                   },
                   "picklist": []
                 }
-              },
-              {
-                "propertyURI": "http://id.loc.gov/ontologies/bflc/applicableInstitution",
-                "propertyLabel": "Applicable institution",
-                "mandatory": "false",
-                "repeatable": "true",
-                "type": "lookup",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [],
-                  "useValuesFrom": [
-                    "http://preprod.id.loc.gov/vocabulary/organizations"
-                  ],
-                  "defaults": [
-                    {
-                      "defaultLiteral": "DLC",
-                      "defaultURI": "http://id.loc.gov/vocabulary/organizations/dlc"
-                    }
-                  ],
-                  "valueDataType": {
-                    "dataTypeURI": "http://id.loc.gov/ontologies/bflc/Agent"
-                  },
-                  "picklist": []
-                }
               }
             ]
           },
@@ -22340,30 +22219,6 @@
                   ],
                   "defaults": [],
                   "valueDataType": {},
-                  "picklist": []
-                }
-              },
-              {
-                "propertyURI": "http://id.loc.gov/ontologies/bflc/applicableInstitution",
-                "propertyLabel": "Applicable institution",
-                "mandatory": "false",
-                "repeatable": "true",
-                "type": "lookup",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [],
-                  "useValuesFrom": [
-                    "http://id.loc.gov/vocabulary/organizations"
-                  ],
-                  "defaults": [
-                    {
-                      "defaultLiteral": "DLC",
-                      "defaultURI": "http://id.loc.gov/vocabulary/organizations/dlc"
-                    }
-                  ],
-                  "valueDataType": {
-                    "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Agent"
-                  },
                   "picklist": []
                 }
               }
@@ -23056,30 +22911,6 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {},
-                  "picklist": []
-                }
-              },
-              {
-                "propertyURI": "http://id.loc.gov/ontologies/bflc/applicableInstitution",
-                "propertyLabel": "Applicable institution",
-                "mandatory": "false",
-                "repeatable": "true",
-                "type": "lookup",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [],
-                  "useValuesFrom": [
-                    "http://id.loc.gov/vocabulary/organizations"
-                  ],
-                  "defaults": [
-                    {
-                      "defaultLiteral": "United States. Library of Congress",
-                      "defaultURI": "http://id.loc.gov/vocabulary/organizations/dlc"
-                    }
-                  ],
-                  "valueDataType": {
-                    "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Organization"
-                  },
                   "picklist": []
                 }
               }
@@ -24736,14 +24567,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-10-29T18:45:55.910Z",
-      "updateDate": "2026-10-29T18:45:55.910Z"
+      "createDate": "2026-10-30T16:00:01.467Z",
+      "updateDate": "2026-10-30T16:00:01.467Z"
     },
-    "created": "2026-10-29T18:45:55.910Z",
-    "modified": "2026-10-29T18:45:55.910Z"
+    "created": "2026-10-30T16:00:01.467Z",
+    "modified": "2026-10-30T16:00:01.467Z"
   },
   {
-    "id": "2e199128-34e8-45ab-9aa8-30a6d6c3aa15",
+    "id": "bad674ea-cdab-4f1d-90a7-62a7bcfa5c15",
     "name": "BIBFRAME 2.0 Item",
     "configType": "profile",
     "json": {
@@ -25241,14 +25072,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-10-29T18:45:55.914Z",
-      "updateDate": "2026-10-29T18:45:55.914Z"
+      "createDate": "2026-10-30T16:00:01.470Z",
+      "updateDate": "2026-10-30T16:00:01.470Z"
     },
-    "created": "2026-10-29T18:45:55.914Z",
-    "modified": "2026-10-29T18:45:55.914Z"
+    "created": "2026-10-30T16:00:01.470Z",
+    "modified": "2026-10-30T16:00:01.470Z"
   },
   {
-    "id": "eadb17a2-d725-4e57-bf67-61e96ae32001",
+    "id": "e372bc15-721f-4ec4-8a5a-5562e2974a6d",
     "name": "BIBFRAME 2.0 Language",
     "configType": "profile",
     "json": {
@@ -25353,14 +25184,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-10-29T18:45:55.914Z",
-      "updateDate": "2026-10-29T18:45:55.914Z"
+      "createDate": "2026-10-30T16:00:01.470Z",
+      "updateDate": "2026-10-30T16:00:01.470Z"
     },
-    "created": "2026-10-29T18:45:55.914Z",
-    "modified": "2026-10-29T18:45:55.914Z"
+    "created": "2026-10-30T16:00:01.470Z",
+    "modified": "2026-10-30T16:00:01.470Z"
   },
   {
-    "id": "d454e038-5c4c-41cd-9079-5f2c49890654",
+    "id": "a26dee63-e97c-4ce6-a6d6-3d3484cd736e",
     "name": "BIBFRAME 2.0 Moving Image-DVD",
     "configType": "profile",
     "json": {
@@ -26523,6 +26354,25 @@
             "resourceURI": "http://id.loc.gov/ontologies/bibframe/Item",
             "resourceLabel": "BIBFRAME Item",
             "propertyTemplates": [
+              {
+                "propertyURI": "http://id.loc.gov/ontologies/bibframe/heldBy",
+                "propertyLabel": "Held by",
+                "mandatory": "true",
+                "repeatable": "false",
+                "type": "lookup",
+                "resourceTemplates": [],
+                "valueConstraint": {
+                  "valueTemplateRefs": [],
+                  "useValuesFrom": [
+                    "http://id.loc.gov/vocabulary/organizations"
+                  ],
+                  "defaults": [],
+                  "valueDataType": {
+                    "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Organization"
+                  },
+                  "picklist": []
+                }
+              },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/electronicLocator",
                 "propertyLabel": "URL of Item",
@@ -29355,30 +29205,6 @@
                   },
                   "picklist": []
                 }
-              },
-              {
-                "propertyURI": "http://id.loc.gov/ontologies/bflc/applicableInstitution",
-                "propertyLabel": "Applicable institution",
-                "mandatory": "false",
-                "repeatable": "true",
-                "type": "lookup",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [],
-                  "useValuesFrom": [
-                    "http://preprod.id.loc.gov/vocabulary/organizations"
-                  ],
-                  "defaults": [
-                    {
-                      "defaultLiteral": "DLC",
-                      "defaultURI": "http://id.loc.gov/vocabulary/organizations/dlc"
-                    }
-                  ],
-                  "valueDataType": {
-                    "dataTypeURI": "http://id.loc.gov/ontologies/bflc/Agent"
-                  },
-                  "picklist": []
-                }
               }
             ]
           },
@@ -29416,30 +29242,6 @@
                   ],
                   "defaults": [],
                   "valueDataType": {},
-                  "picklist": []
-                }
-              },
-              {
-                "propertyURI": "http://id.loc.gov/ontologies/bflc/applicableInstitution",
-                "propertyLabel": "Applicable institution",
-                "mandatory": "false",
-                "repeatable": "true",
-                "type": "lookup",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [],
-                  "useValuesFrom": [
-                    "http://id.loc.gov/vocabulary/organizations"
-                  ],
-                  "defaults": [
-                    {
-                      "defaultLiteral": "DLC",
-                      "defaultURI": "http://id.loc.gov/vocabulary/organizations/dlc"
-                    }
-                  ],
-                  "valueDataType": {
-                    "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Agent"
-                  },
                   "picklist": []
                 }
               }
@@ -29484,30 +29286,6 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {},
-                  "picklist": []
-                }
-              },
-              {
-                "propertyURI": "http://id.loc.gov/ontologies/bflc/applicableInstitution",
-                "propertyLabel": "Applicable institution",
-                "mandatory": "false",
-                "repeatable": "true",
-                "type": "lookup",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [],
-                  "useValuesFrom": [
-                    "http://id.loc.gov/vocabulary/organizations"
-                  ],
-                  "defaults": [
-                    {
-                      "defaultLiteral": "United States. Library of Congress",
-                      "defaultURI": "http://id.loc.gov/vocabulary/organizations/dlc"
-                    }
-                  ],
-                  "valueDataType": {
-                    "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Organization"
-                  },
                   "picklist": []
                 }
               }
@@ -30006,14 +29784,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-10-29T18:45:55.938Z",
-      "updateDate": "2026-10-29T18:45:55.938Z"
+      "createDate": "2026-10-30T16:00:01.493Z",
+      "updateDate": "2026-10-30T16:00:01.493Z"
     },
-    "created": "2026-10-29T18:45:55.938Z",
-    "modified": "2026-10-29T18:45:55.938Z"
+    "created": "2026-10-30T16:00:01.493Z",
+    "modified": "2026-10-30T16:00:01.493Z"
   },
   {
-    "id": "d3fb8168-a8d4-44dd-bda4-0479b3cdd88b",
+    "id": "a9358586-9810-4ee7-a39f-823deddda255",
     "name": "BIBFRAME 2.0 Monograph",
     "configType": "profile",
     "json": {
@@ -31064,6 +30842,25 @@
             "resourceURI": "http://id.loc.gov/ontologies/bibframe/Item",
             "resourceLabel": "BIBFRAME Item",
             "propertyTemplates": [
+              {
+                "propertyURI": "http://id.loc.gov/ontologies/bibframe/heldBy",
+                "propertyLabel": "Held by",
+                "mandatory": "true",
+                "repeatable": "false",
+                "type": "lookup",
+                "resourceTemplates": [],
+                "valueConstraint": {
+                  "valueTemplateRefs": [],
+                  "useValuesFrom": [
+                    "http://id.loc.gov/vocabulary/organizations"
+                  ],
+                  "defaults": [],
+                  "valueDataType": {
+                    "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Organization"
+                  },
+                  "picklist": []
+                }
+              },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/electronicLocator",
                 "propertyLabel": "URL of Item",
@@ -33882,30 +33679,6 @@
                   "valueDataType": {},
                   "picklist": []
                 }
-              },
-              {
-                "propertyURI": "http://id.loc.gov/ontologies/bflc/applicableInstitution",
-                "propertyLabel": "Applicable institution",
-                "mandatory": "false",
-                "repeatable": "true",
-                "type": "lookup",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [],
-                  "useValuesFrom": [
-                    "http://id.loc.gov/vocabulary/organizations"
-                  ],
-                  "defaults": [
-                    {
-                      "defaultLiteral": "United States. Library of Congress",
-                      "defaultURI": "http://id.loc.gov/vocabulary/organizations/dlc"
-                    }
-                  ],
-                  "valueDataType": {
-                    "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Organization"
-                  },
-                  "picklist": []
-                }
               }
             ]
           },
@@ -34077,30 +33850,6 @@
                   },
                   "picklist": []
                 }
-              },
-              {
-                "propertyURI": "http://id.loc.gov/ontologies/bflc/applicableInstitution",
-                "propertyLabel": "Applicable institution",
-                "mandatory": "false",
-                "repeatable": "true",
-                "type": "lookup",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [],
-                  "useValuesFrom": [
-                    "http://preprod.id.loc.gov/vocabulary/organizations"
-                  ],
-                  "defaults": [
-                    {
-                      "defaultLiteral": "DLC",
-                      "defaultURI": "http://id.loc.gov/vocabulary/organizations/dlc"
-                    }
-                  ],
-                  "valueDataType": {
-                    "dataTypeURI": "http://id.loc.gov/ontologies/bflc/Agent"
-                  },
-                  "picklist": []
-                }
               }
             ]
           },
@@ -34138,30 +33887,6 @@
                   ],
                   "defaults": [],
                   "valueDataType": {},
-                  "picklist": []
-                }
-              },
-              {
-                "propertyURI": "http://id.loc.gov/ontologies/bflc/applicableInstitution",
-                "propertyLabel": "Applicable institution",
-                "mandatory": "false",
-                "repeatable": "true",
-                "type": "lookup",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [],
-                  "useValuesFrom": [
-                    "http://id.loc.gov/vocabulary/organizations"
-                  ],
-                  "defaults": [
-                    {
-                      "defaultLiteral": "DLC",
-                      "defaultURI": "http://id.loc.gov/vocabulary/organizations/dlc"
-                    }
-                  ],
-                  "valueDataType": {
-                    "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Agent"
-                  },
                   "picklist": []
                 }
               }
@@ -34797,14 +34522,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-10-29T18:45:55.961Z",
-      "updateDate": "2026-10-29T18:45:55.961Z"
+      "createDate": "2026-10-30T16:00:01.514Z",
+      "updateDate": "2026-10-30T16:00:01.514Z"
     },
-    "created": "2026-10-29T18:45:55.961Z",
-    "modified": "2026-10-29T18:45:55.961Z"
+    "created": "2026-10-30T16:00:01.514Z",
+    "modified": "2026-10-30T16:00:01.514Z"
   },
   {
-    "id": "c66f2504-d88a-490d-a5bf-208dba3e2832",
+    "id": "8bb02ad8-6fd5-4cc0-97cf-d91d4dd49e24",
     "name": "BIBFRAME 2.0 Notated Music",
     "configType": "profile",
     "json": {
@@ -35786,6 +35511,25 @@
             "resourceURI": "http://id.loc.gov/ontologies/bibframe/Item",
             "resourceLabel": "BIBFRAME Item",
             "propertyTemplates": [
+              {
+                "propertyURI": "http://id.loc.gov/ontologies/bibframe/heldBy",
+                "propertyLabel": "Held by",
+                "mandatory": "true",
+                "repeatable": "false",
+                "type": "lookup",
+                "resourceTemplates": [],
+                "valueConstraint": {
+                  "valueTemplateRefs": [],
+                  "useValuesFrom": [
+                    "http://id.loc.gov/vocabulary/organizations"
+                  ],
+                  "defaults": [],
+                  "valueDataType": {
+                    "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Organization"
+                  },
+                  "picklist": []
+                }
+              },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/electronicLocator",
                 "propertyLabel": "URL of Item",
@@ -38413,30 +38157,6 @@
                   },
                   "picklist": []
                 }
-              },
-              {
-                "propertyURI": "http://id.loc.gov/ontologies/bflc/applicableInstitution",
-                "propertyLabel": "Applicable institution",
-                "mandatory": "false",
-                "repeatable": "true",
-                "type": "lookup",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [],
-                  "useValuesFrom": [
-                    "http://preprod.id.loc.gov/vocabulary/organizations"
-                  ],
-                  "defaults": [
-                    {
-                      "defaultLiteral": "DLC",
-                      "defaultURI": "http://id.loc.gov/vocabulary/organizations/dlc"
-                    }
-                  ],
-                  "valueDataType": {
-                    "dataTypeURI": "http://id.loc.gov/ontologies/bflc/Agent"
-                  },
-                  "picklist": []
-                }
               }
             ]
           },
@@ -38474,30 +38194,6 @@
                   ],
                   "defaults": [],
                   "valueDataType": {},
-                  "picklist": []
-                }
-              },
-              {
-                "propertyURI": "http://id.loc.gov/ontologies/bflc/applicableInstitution",
-                "propertyLabel": "Applicable institution",
-                "mandatory": "false",
-                "repeatable": "true",
-                "type": "lookup",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [],
-                  "useValuesFrom": [
-                    "http://id.loc.gov/vocabulary/organizations"
-                  ],
-                  "defaults": [
-                    {
-                      "defaultLiteral": "DLC",
-                      "defaultURI": "http://id.loc.gov/vocabulary/organizations/dlc"
-                    }
-                  ],
-                  "valueDataType": {
-                    "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Agent"
-                  },
                   "picklist": []
                 }
               }
@@ -39018,14 +38714,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-10-29T18:45:55.982Z",
-      "updateDate": "2026-10-29T18:45:55.982Z"
+      "createDate": "2026-10-30T16:00:01.531Z",
+      "updateDate": "2026-10-30T16:00:01.531Z"
     },
-    "created": "2026-10-29T18:45:55.982Z",
-    "modified": "2026-10-29T18:45:55.982Z"
+    "created": "2026-10-30T16:00:01.531Z",
+    "modified": "2026-10-30T16:00:01.531Z"
   },
   {
-    "id": "8b6b1f1a-6122-4bbe-92e7-38407770a074",
+    "id": "37db2312-1824-40fb-9232-44d895e8035f",
     "name": "BIBFRAME 2.0 Note",
     "configType": "profile",
     "json": {
@@ -39133,30 +38829,6 @@
                   "valueDataType": {},
                   "picklist": []
                 }
-              },
-              {
-                "propertyURI": "http://id.loc.gov/ontologies/bflc/applicableInstitution",
-                "propertyLabel": "Applicable institution",
-                "mandatory": "false",
-                "repeatable": "true",
-                "type": "lookup",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [],
-                  "useValuesFrom": [
-                    "http://id.loc.gov/vocabulary/organizations"
-                  ],
-                  "defaults": [
-                    {
-                      "defaultLiteral": "United States. Library of Congress",
-                      "defaultURI": "http://id.loc.gov/vocabulary/organizations/dlc"
-                    }
-                  ],
-                  "valueDataType": {
-                    "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Organization"
-                  },
-                  "picklist": []
-                }
               }
             ]
           },
@@ -39255,30 +38927,6 @@
                   ],
                   "defaults": [],
                   "valueDataType": {},
-                  "picklist": []
-                }
-              },
-              {
-                "propertyURI": "http://id.loc.gov/ontologies/bflc/applicableInstitution",
-                "propertyLabel": "Applicable institution",
-                "mandatory": "false",
-                "repeatable": "true",
-                "type": "lookup",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [],
-                  "useValuesFrom": [
-                    "http://id.loc.gov/vocabulary/organizations"
-                  ],
-                  "defaults": [
-                    {
-                      "defaultLiteral": "DLC",
-                      "defaultURI": "http://id.loc.gov/vocabulary/organizations/dlc"
-                    }
-                  ],
-                  "valueDataType": {
-                    "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Agent"
-                  },
                   "picklist": []
                 }
               }
@@ -39441,14 +39089,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-10-29T18:45:55.986Z",
-      "updateDate": "2026-10-29T18:45:55.986Z"
+      "createDate": "2026-10-30T16:00:01.533Z",
+      "updateDate": "2026-10-30T16:00:01.533Z"
     },
-    "created": "2026-10-29T18:45:55.986Z",
-    "modified": "2026-10-29T18:45:55.986Z"
+    "created": "2026-10-30T16:00:01.533Z",
+    "modified": "2026-10-30T16:00:01.533Z"
   },
   {
-    "id": "3c0e52b9-04e7-4fff-bd4a-08cdc51c2cf5",
+    "id": "0944baca-97a2-4297-84e4-5db3d25b951e",
     "name": "Prints & Photographs",
     "configType": "profile",
     "json": {
@@ -40225,6 +39873,25 @@
             "resourceLabel": "Item",
             "propertyTemplates": [
               {
+                "propertyURI": "http://id.loc.gov/ontologies/bibframe/heldBy",
+                "propertyLabel": "Held by",
+                "mandatory": "true",
+                "repeatable": "false",
+                "type": "lookup",
+                "resourceTemplates": [],
+                "valueConstraint": {
+                  "valueTemplateRefs": [],
+                  "useValuesFrom": [
+                    "http://id.loc.gov/vocabulary/organizations"
+                  ],
+                  "defaults": [],
+                  "valueDataType": {
+                    "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Organization"
+                  },
+                  "picklist": []
+                }
+              },
+              {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/acquisitionSource",
                 "propertyLabel": "Local copy identifier",
                 "mandatory": "false",
@@ -40457,30 +40124,6 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {},
-                  "picklist": []
-                }
-              },
-              {
-                "propertyURI": "http://id.loc.gov/ontologies/bflc/applicableInstitution",
-                "propertyLabel": "Applicable institution",
-                "mandatory": "false",
-                "repeatable": "true",
-                "type": "lookup",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [],
-                  "useValuesFrom": [
-                    "http://id.loc.gov/vocabulary/organizations"
-                  ],
-                  "defaults": [
-                    {
-                      "defaultLiteral": "DLC",
-                      "defaultURI": "http://id.loc.gov/vocabulary/organizations/dlc"
-                    }
-                  ],
-                  "valueDataType": {
-                    "dataTypeURI": "http://id.loc.gov/ontologies/bflc/ApplicableInstitution"
-                  },
                   "picklist": []
                 }
               }
@@ -42317,30 +41960,6 @@
                   },
                   "picklist": []
                 }
-              },
-              {
-                "propertyURI": "http://id.loc.gov/ontologies/bflc/applicableInstitution",
-                "propertyLabel": "Applicable institution",
-                "mandatory": "false",
-                "repeatable": "true",
-                "type": "lookup",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [],
-                  "useValuesFrom": [
-                    "http://preprod.id.loc.gov/vocabulary/organizations"
-                  ],
-                  "defaults": [
-                    {
-                      "defaultLiteral": "DLC",
-                      "defaultURI": "http://id.loc.gov/vocabulary/organizations/dlc"
-                    }
-                  ],
-                  "valueDataType": {
-                    "dataTypeURI": "http://id.loc.gov/ontologies/bflc/Agent"
-                  },
-                  "picklist": []
-                }
               }
             ]
           },
@@ -42385,30 +42004,6 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {},
-                  "picklist": []
-                }
-              },
-              {
-                "propertyURI": "http://id.loc.gov/ontologies/bflc/applicableInstitution",
-                "propertyLabel": "Applicable institution",
-                "mandatory": "false",
-                "repeatable": "true",
-                "type": "lookup",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [],
-                  "useValuesFrom": [
-                    "http://id.loc.gov/vocabulary/organizations"
-                  ],
-                  "defaults": [
-                    {
-                      "defaultLiteral": "United States. Library of Congress",
-                      "defaultURI": "http://id.loc.gov/vocabulary/organizations/dlc"
-                    }
-                  ],
-                  "valueDataType": {
-                    "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Organization"
-                  },
                   "picklist": []
                 }
               }
@@ -42942,14 +42537,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-10-29T18:45:56.003Z",
-      "updateDate": "2026-10-29T18:45:56.003Z"
+      "createDate": "2026-10-30T16:00:01.550Z",
+      "updateDate": "2026-10-30T16:00:01.550Z"
     },
-    "created": "2026-10-29T18:45:56.003Z",
-    "modified": "2026-10-29T18:45:56.003Z"
+    "created": "2026-10-30T16:00:01.550Z",
+    "modified": "2026-10-30T16:00:01.550Z"
   },
   {
-    "id": "d59c15df-8a01-4402-b50e-c581bd203069",
+    "id": "b19d8726-752b-404f-b4d8-2715cf1c78ec",
     "name": "BIBFRAME 2.0 Publication, Distribution, Manufacturer Activity",
     "configType": "profile",
     "json": {
@@ -43314,14 +42909,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-10-29T18:45:56.006Z",
-      "updateDate": "2026-10-29T18:45:56.006Z"
+      "createDate": "2026-10-30T16:00:01.551Z",
+      "updateDate": "2026-10-30T16:00:01.551Z"
     },
-    "created": "2026-10-29T18:45:56.006Z",
-    "modified": "2026-10-29T18:45:56.006Z"
+    "created": "2026-10-30T16:00:01.551Z",
+    "modified": "2026-10-30T16:00:01.551Z"
   },
   {
-    "id": "5a4e1a8c-c109-4fb2-83a3-0daad83e518e",
+    "id": "76e853dd-5bd6-4832-b28c-8a8f3b9fd4d7",
     "name": "BIBFRAME 2.0 Rare Materials",
     "configType": "profile",
     "json": {
@@ -44156,6 +43751,25 @@
             "resourceLabel": "BIBFRAME Item",
             "propertyTemplates": [
               {
+                "propertyURI": "http://id.loc.gov/ontologies/bibframe/heldBy",
+                "propertyLabel": "Held by",
+                "mandatory": "true",
+                "repeatable": "false",
+                "type": "lookup",
+                "resourceTemplates": [],
+                "valueConstraint": {
+                  "valueTemplateRefs": [],
+                  "useValuesFrom": [
+                    "http://id.loc.gov/vocabulary/organizations"
+                  ],
+                  "defaults": [],
+                  "valueDataType": {
+                    "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Organization"
+                  },
+                  "picklist": []
+                }
+              },
+              {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/classification",
                 "propertyLabel": "Classification number",
                 "mandatory": "false",
@@ -44314,30 +43928,6 @@
                   ],
                   "defaults": [],
                   "valueDataType": {},
-                  "picklist": []
-                }
-              },
-              {
-                "propertyURI": "http://id.loc.gov/ontologies/bflc/applicableInstitution",
-                "propertyLabel": "Applicable institution",
-                "mandatory": "false",
-                "repeatable": "true",
-                "type": "lookup",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [],
-                  "useValuesFrom": [
-                    "http://id.loc.gov/vocabulary/organizations"
-                  ],
-                  "defaults": [
-                    {
-                      "defaultLiteral": "DLC",
-                      "defaultURI": "http://id.loc.gov/vocabulary/organizations/dlc"
-                    }
-                  ],
-                  "valueDataType": {
-                    "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Agent"
-                  },
                   "picklist": []
                 }
               }
@@ -44531,23 +44121,6 @@
                     "lc:RT:bf2:AppliesTo"
                   ],
                   "useValuesFrom": [],
-                  "defaults": [],
-                  "valueDataType": {},
-                  "picklist": []
-                }
-              },
-              {
-                "propertyURI": "http://id.loc.gov/ontologies/bflc/applicableInstitution",
-                "propertyLabel": "Applicable institution",
-                "mandatory": "false",
-                "repeatable": "false",
-                "type": "lookup",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [],
-                  "useValuesFrom": [
-                    "http://id.loc.gov/vocabulary/organizations"
-                  ],
                   "defaults": [],
                   "valueDataType": {},
                   "picklist": []
@@ -46535,30 +46108,6 @@
                   },
                   "picklist": []
                 }
-              },
-              {
-                "propertyURI": "http://id.loc.gov/ontologies/bflc/applicableInstitution",
-                "propertyLabel": "Applicable institution",
-                "mandatory": "false",
-                "repeatable": "true",
-                "type": "lookup",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [],
-                  "useValuesFrom": [
-                    "http://preprod.id.loc.gov/vocabulary/organizations"
-                  ],
-                  "defaults": [
-                    {
-                      "defaultLiteral": "DLC",
-                      "defaultURI": "http://id.loc.gov/vocabulary/organizations/dlc"
-                    }
-                  ],
-                  "valueDataType": {
-                    "dataTypeURI": "http://id.loc.gov/ontologies/bflc/Agent"
-                  },
-                  "picklist": []
-                }
               }
             ]
           },
@@ -46579,30 +46128,6 @@
                   "useValuesFrom": [],
                   "defaults": [],
                   "valueDataType": {},
-                  "picklist": []
-                }
-              },
-              {
-                "propertyURI": "http://id.loc.gov/ontologies/bflc/applicableInstitution",
-                "propertyLabel": "Applicable institution",
-                "mandatory": "false",
-                "repeatable": "true",
-                "type": "lookup",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [],
-                  "useValuesFrom": [
-                    "http://id.loc.gov/vocabulary/organizations"
-                  ],
-                  "defaults": [
-                    {
-                      "defaultLiteral": "United States. Library of Congress",
-                      "defaultURI": "http://id.loc.gov/vocabulary/organizations/dlc"
-                    }
-                  ],
-                  "valueDataType": {
-                    "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Organization"
-                  },
                   "picklist": []
                 }
               }
@@ -46642,30 +46167,6 @@
                   ],
                   "defaults": [],
                   "valueDataType": {},
-                  "picklist": []
-                }
-              },
-              {
-                "propertyURI": "http://id.loc.gov/ontologies/bflc/applicableInstitution",
-                "propertyLabel": "Applicable institution",
-                "mandatory": "false",
-                "repeatable": "true",
-                "type": "lookup",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [],
-                  "useValuesFrom": [
-                    "http://id.loc.gov/vocabulary/organizations"
-                  ],
-                  "defaults": [
-                    {
-                      "defaultLiteral": "DLC",
-                      "defaultURI": "http://id.loc.gov/vocabulary/organizations/dlc"
-                    }
-                  ],
-                  "valueDataType": {
-                    "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Agent"
-                  },
                   "picklist": []
                 }
               }
@@ -47218,14 +46719,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-10-29T18:45:56.027Z",
-      "updateDate": "2026-10-29T18:45:56.027Z"
+      "createDate": "2026-10-30T16:00:01.567Z",
+      "updateDate": "2026-10-30T16:00:01.567Z"
     },
-    "created": "2026-10-29T18:45:56.027Z",
-    "modified": "2026-10-29T18:45:56.027Z"
+    "created": "2026-10-30T16:00:01.567Z",
+    "modified": "2026-10-30T16:00:01.567Z"
   },
   {
-    "id": "2e0bd6f9-d8b2-4ddd-ab7a-b7dc7d9d51f5",
+    "id": "c49baab7-d73e-4bf4-a749-988c0e80c9d0",
     "name": "BIBFRAME 2.0 Related Works and Expressions",
     "configType": "profile",
     "json": {
@@ -47645,14 +47146,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-10-29T18:45:56.029Z",
-      "updateDate": "2026-10-29T18:45:56.029Z"
+      "createDate": "2026-10-30T16:00:01.569Z",
+      "updateDate": "2026-10-30T16:00:01.569Z"
     },
-    "created": "2026-10-29T18:45:56.029Z",
-    "modified": "2026-10-29T18:45:56.029Z"
+    "created": "2026-10-30T16:00:01.569Z",
+    "modified": "2026-10-30T16:00:01.569Z"
   },
   {
-    "id": "a4f1cffc-528d-4ea4-94b6-fbd68e641412",
+    "id": "432c8ef1-c794-41b9-baeb-f08328b2c8c8",
     "name": "BIBFRAME 2.0 Serial",
     "configType": "profile",
     "json": {
@@ -48634,6 +48135,25 @@
             "resourceURI": "http://id.loc.gov/ontologies/bibframe/Item",
             "resourceLabel": "BIBFRAME Item",
             "propertyTemplates": [
+              {
+                "propertyURI": "http://id.loc.gov/ontologies/bibframe/heldBy",
+                "propertyLabel": "Held by",
+                "mandatory": "true",
+                "repeatable": "false",
+                "type": "lookup",
+                "resourceTemplates": [],
+                "valueConstraint": {
+                  "valueTemplateRefs": [],
+                  "useValuesFrom": [
+                    "http://id.loc.gov/vocabulary/organizations"
+                  ],
+                  "defaults": [],
+                  "valueDataType": {
+                    "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Organization"
+                  },
+                  "picklist": []
+                }
+              },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/electronicLocator",
                 "propertyLabel": "URL of Item",
@@ -51681,30 +51201,6 @@
                   },
                   "picklist": []
                 }
-              },
-              {
-                "propertyURI": "http://id.loc.gov/ontologies/bflc/applicableInstitution",
-                "propertyLabel": "Applicable institution",
-                "mandatory": "false",
-                "repeatable": "true",
-                "type": "lookup",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [],
-                  "useValuesFrom": [
-                    "http://preprod.id.loc.gov/vocabulary/organizations"
-                  ],
-                  "defaults": [
-                    {
-                      "defaultLiteral": "DLC",
-                      "defaultURI": "http://id.loc.gov/vocabulary/organizations/dlc"
-                    }
-                  ],
-                  "valueDataType": {
-                    "dataTypeURI": "http://id.loc.gov/ontologies/bflc/Agent"
-                  },
-                  "picklist": []
-                }
               }
             ]
           },
@@ -51742,30 +51238,6 @@
                   ],
                   "defaults": [],
                   "valueDataType": {},
-                  "picklist": []
-                }
-              },
-              {
-                "propertyURI": "http://id.loc.gov/ontologies/bflc/applicableInstitution",
-                "propertyLabel": "Applicable institution",
-                "mandatory": "false",
-                "repeatable": "true",
-                "type": "lookup",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [],
-                  "useValuesFrom": [
-                    "http://id.loc.gov/vocabulary/organizations"
-                  ],
-                  "defaults": [
-                    {
-                      "defaultLiteral": "DLC",
-                      "defaultURI": "http://id.loc.gov/vocabulary/organizations/dlc"
-                    }
-                  ],
-                  "valueDataType": {
-                    "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Agent"
-                  },
                   "picklist": []
                 }
               }
@@ -52420,14 +51892,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-10-29T18:45:56.053Z",
-      "updateDate": "2026-10-29T18:45:56.053Z"
+      "createDate": "2026-10-30T16:00:01.589Z",
+      "updateDate": "2026-10-30T16:00:01.589Z"
     },
-    "created": "2026-10-29T18:45:56.053Z",
-    "modified": "2026-10-29T18:45:56.053Z"
+    "created": "2026-10-30T16:00:01.589Z",
+    "modified": "2026-10-30T16:00:01.589Z"
   },
   {
-    "id": "9ecc69b9-8692-4dd6-9e3b-9db323975cc2",
+    "id": "d060f53f-5eb8-405e-9965-6f0cc450714e",
     "name": "BIBFRAME 2.0 Series Information",
     "configType": "profile",
     "json": {
@@ -52733,14 +52205,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-10-29T18:45:56.054Z",
-      "updateDate": "2026-10-29T18:45:56.054Z"
+      "createDate": "2026-10-30T16:00:01.590Z",
+      "updateDate": "2026-10-30T16:00:01.590Z"
     },
-    "created": "2026-10-29T18:45:56.054Z",
-    "modified": "2026-10-29T18:45:56.054Z"
+    "created": "2026-10-30T16:00:01.590Z",
+    "modified": "2026-10-30T16:00:01.590Z"
   },
   {
-    "id": "2ebcf7a9-1d14-406f-b215-cc184ef7ad15",
+    "id": "8583c08d-fe87-4965-a4cb-fdfd22535584",
     "name": "BIBFRAME 2.0 Sound Recording-Audio CD-R",
     "configType": "profile",
     "json": {
@@ -53747,6 +53219,25 @@
             "resourceURI": "http://id.loc.gov/ontologies/bibframe/Item",
             "resourceLabel": "BIBFRAME Item",
             "propertyTemplates": [
+              {
+                "propertyURI": "http://id.loc.gov/ontologies/bibframe/heldBy",
+                "propertyLabel": "Held by",
+                "mandatory": "true",
+                "repeatable": "false",
+                "type": "lookup",
+                "resourceTemplates": [],
+                "valueConstraint": {
+                  "valueTemplateRefs": [],
+                  "useValuesFrom": [
+                    "http://id.loc.gov/vocabulary/organizations"
+                  ],
+                  "defaults": [],
+                  "valueDataType": {
+                    "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Organization"
+                  },
+                  "picklist": []
+                }
+              },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/electronicLocator",
                 "propertyLabel": "URL of Item",
@@ -56517,30 +56008,6 @@
                   },
                   "picklist": []
                 }
-              },
-              {
-                "propertyURI": "http://id.loc.gov/ontologies/bflc/applicableInstitution",
-                "propertyLabel": "Applicable institution",
-                "mandatory": "false",
-                "repeatable": "true",
-                "type": "lookup",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [],
-                  "useValuesFrom": [
-                    "http://preprod.id.loc.gov/vocabulary/organizations"
-                  ],
-                  "defaults": [
-                    {
-                      "defaultLiteral": "DLC",
-                      "defaultURI": "http://id.loc.gov/vocabulary/organizations/dlc"
-                    }
-                  ],
-                  "valueDataType": {
-                    "dataTypeURI": "http://id.loc.gov/ontologies/bflc/Agent"
-                  },
-                  "picklist": []
-                }
               }
             ]
           },
@@ -56578,30 +56045,6 @@
                   ],
                   "defaults": [],
                   "valueDataType": {},
-                  "picklist": []
-                }
-              },
-              {
-                "propertyURI": "http://id.loc.gov/ontologies/bflc/applicableInstitution",
-                "propertyLabel": "Applicable institution",
-                "mandatory": "false",
-                "repeatable": "true",
-                "type": "lookup",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [],
-                  "useValuesFrom": [
-                    "http://id.loc.gov/vocabulary/organizations"
-                  ],
-                  "defaults": [
-                    {
-                      "defaultLiteral": "DLC",
-                      "defaultURI": "http://id.loc.gov/vocabulary/organizations/dlc"
-                    }
-                  ],
-                  "valueDataType": {
-                    "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Agent"
-                  },
                   "picklist": []
                 }
               }
@@ -57182,14 +56625,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-10-29T18:45:56.079Z",
-      "updateDate": "2026-10-29T18:45:56.079Z"
+      "createDate": "2026-10-30T16:00:01.610Z",
+      "updateDate": "2026-10-30T16:00:01.610Z"
     },
-    "created": "2026-10-29T18:45:56.079Z",
-    "modified": "2026-10-29T18:45:56.079Z"
+    "created": "2026-10-30T16:00:01.610Z",
+    "modified": "2026-10-30T16:00:01.610Z"
   },
   {
-    "id": "305dc0e4-75d9-4556-b887-a76c843ec10a",
+    "id": "10364909-4f3f-43b6-887a-e180bed929f7",
     "name": "BIBFRAME 2.0 Sound Recording-Audio Cassette",
     "configType": "profile",
     "json": {
@@ -58135,6 +57578,25 @@
             "resourceURI": "http://id.loc.gov/ontologies/bibframe/Item",
             "resourceLabel": "BIBFRAME Item",
             "propertyTemplates": [
+              {
+                "propertyURI": "http://id.loc.gov/ontologies/bibframe/heldBy",
+                "propertyLabel": "Held by",
+                "mandatory": "true",
+                "repeatable": "false",
+                "type": "lookup",
+                "resourceTemplates": [],
+                "valueConstraint": {
+                  "valueTemplateRefs": [],
+                  "useValuesFrom": [
+                    "http://id.loc.gov/vocabulary/organizations"
+                  ],
+                  "defaults": [],
+                  "valueDataType": {
+                    "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Organization"
+                  },
+                  "picklist": []
+                }
+              },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/electronicLocator",
                 "propertyLabel": "URL of Item",
@@ -60855,30 +60317,6 @@
                   },
                   "picklist": []
                 }
-              },
-              {
-                "propertyURI": "http://id.loc.gov/ontologies/bflc/applicableInstitution",
-                "propertyLabel": "Applicable institution",
-                "mandatory": "false",
-                "repeatable": "true",
-                "type": "lookup",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [],
-                  "useValuesFrom": [
-                    "http://preprod.id.loc.gov/vocabulary/organizations"
-                  ],
-                  "defaults": [
-                    {
-                      "defaultLiteral": "DLC",
-                      "defaultURI": "http://id.loc.gov/vocabulary/organizations/dlc"
-                    }
-                  ],
-                  "valueDataType": {
-                    "dataTypeURI": "http://id.loc.gov/ontologies/bflc/Agent"
-                  },
-                  "picklist": []
-                }
               }
             ]
           },
@@ -60916,30 +60354,6 @@
                   ],
                   "defaults": [],
                   "valueDataType": {},
-                  "picklist": []
-                }
-              },
-              {
-                "propertyURI": "http://id.loc.gov/ontologies/bflc/applicableInstitution",
-                "propertyLabel": "Applicable institution",
-                "mandatory": "false",
-                "repeatable": "true",
-                "type": "lookup",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [],
-                  "useValuesFrom": [
-                    "http://id.loc.gov/vocabulary/organizations"
-                  ],
-                  "defaults": [
-                    {
-                      "defaultLiteral": "DLC",
-                      "defaultURI": "http://id.loc.gov/vocabulary/organizations/dlc"
-                    }
-                  ],
-                  "valueDataType": {
-                    "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Agent"
-                  },
                   "picklist": []
                 }
               }
@@ -61520,14 +60934,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-10-29T18:45:56.100Z",
-      "updateDate": "2026-10-29T18:45:56.100Z"
+      "createDate": "2026-10-30T16:00:01.627Z",
+      "updateDate": "2026-10-30T16:00:01.627Z"
     },
-    "created": "2026-10-29T18:45:56.100Z",
-    "modified": "2026-10-29T18:45:56.100Z"
+    "created": "2026-10-30T16:00:01.627Z",
+    "modified": "2026-10-30T16:00:01.627Z"
   },
   {
-    "id": "0a183128-da80-40ca-a021-ef5720e59a80",
+    "id": "6153acb0-cded-4929-85cc-b829d8294536",
     "name": "BIBFRAME 2.0 Sound Recording-Audio CD",
     "configType": "profile",
     "json": {
@@ -62495,6 +61909,25 @@
             "resourceURI": "http://id.loc.gov/ontologies/bibframe/Item",
             "resourceLabel": "BIBFRAME Item",
             "propertyTemplates": [
+              {
+                "propertyURI": "http://id.loc.gov/ontologies/bibframe/heldBy",
+                "propertyLabel": "Held by",
+                "mandatory": "true",
+                "repeatable": "false",
+                "type": "lookup",
+                "resourceTemplates": [],
+                "valueConstraint": {
+                  "valueTemplateRefs": [],
+                  "useValuesFrom": [
+                    "http://id.loc.gov/vocabulary/organizations"
+                  ],
+                  "defaults": [],
+                  "valueDataType": {
+                    "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Organization"
+                  },
+                  "picklist": []
+                }
+              },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/electronicLocator",
                 "propertyLabel": "URL of Item",
@@ -65265,30 +64698,6 @@
                   },
                   "picklist": []
                 }
-              },
-              {
-                "propertyURI": "http://id.loc.gov/ontologies/bflc/applicableInstitution",
-                "propertyLabel": "Applicable institution",
-                "mandatory": "false",
-                "repeatable": "true",
-                "type": "lookup",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [],
-                  "useValuesFrom": [
-                    "http://preprod.id.loc.gov/vocabulary/organizations"
-                  ],
-                  "defaults": [
-                    {
-                      "defaultLiteral": "DLC",
-                      "defaultURI": "http://id.loc.gov/vocabulary/organizations/dlc"
-                    }
-                  ],
-                  "valueDataType": {
-                    "dataTypeURI": "http://id.loc.gov/ontologies/bflc/Agent"
-                  },
-                  "picklist": []
-                }
               }
             ]
           },
@@ -65326,30 +64735,6 @@
                   ],
                   "defaults": [],
                   "valueDataType": {},
-                  "picklist": []
-                }
-              },
-              {
-                "propertyURI": "http://id.loc.gov/ontologies/bflc/applicableInstitution",
-                "propertyLabel": "Applicable institution",
-                "mandatory": "false",
-                "repeatable": "true",
-                "type": "lookup",
-                "resourceTemplates": [],
-                "valueConstraint": {
-                  "valueTemplateRefs": [],
-                  "useValuesFrom": [
-                    "http://id.loc.gov/vocabulary/organizations"
-                  ],
-                  "defaults": [
-                    {
-                      "defaultLiteral": "DLC",
-                      "defaultURI": "http://id.loc.gov/vocabulary/organizations/dlc"
-                    }
-                  ],
-                  "valueDataType": {
-                    "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Agent"
-                  },
                   "picklist": []
                 }
               }
@@ -65930,14 +65315,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-10-29T18:45:56.124Z",
-      "updateDate": "2026-10-29T18:45:56.124Z"
+      "createDate": "2026-10-30T16:00:01.645Z",
+      "updateDate": "2026-10-30T16:00:01.645Z"
     },
-    "created": "2026-10-29T18:45:56.124Z",
-    "modified": "2026-10-29T18:45:56.124Z"
+    "created": "2026-10-30T16:00:01.645Z",
+    "modified": "2026-10-30T16:00:01.645Z"
   },
   {
-    "id": "95b0f515-6499-46aa-aac3-f5d0ac6b6ba2",
+    "id": "f692c470-4743-4348-818e-5cd17cddf3f2",
     "name": "BIBFRAME 2.0 Title Information",
     "configType": "profile",
     "json": {
@@ -66463,14 +65848,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-10-29T18:45:56.126Z",
-      "updateDate": "2026-10-29T18:45:56.126Z"
+      "createDate": "2026-10-30T16:00:01.646Z",
+      "updateDate": "2026-10-30T16:00:01.646Z"
     },
-    "created": "2026-10-29T18:45:56.126Z",
-    "modified": "2026-10-29T18:45:56.126Z"
+    "created": "2026-10-30T16:00:01.646Z",
+    "modified": "2026-10-30T16:00:01.646Z"
   },
   {
-    "id": "1caeac64-8f94-472b-bfe6-ce9df1ccf838",
+    "id": "3c869e3c-aff3-4068-9276-3c1a98c9b487",
     "name": "BIBFRAME 2.0 Topic",
     "configType": "profile",
     "json": {
@@ -68901,10 +68286,10 @@
       }
     },
     "metadata": {
-      "createDate": "2026-10-29T18:45:56.137Z",
-      "updateDate": "2026-10-29T18:45:56.137Z"
+      "createDate": "2026-10-30T16:00:01.656Z",
+      "updateDate": "2026-10-30T16:00:01.656Z"
     },
-    "created": "2026-10-29T18:45:56.137Z",
-    "modified": "2026-10-29T18:45:56.137Z"
+    "created": "2026-10-30T16:00:01.656Z",
+    "modified": "2026-10-30T16:00:01.656Z"
   }
 ]

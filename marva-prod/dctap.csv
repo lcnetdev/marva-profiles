@@ -28,7 +28,8 @@ lc:RT:bf2:35mmFeatureFilm:Instance,BIBFRAME Instance,bf:Instance,bf:instanceOf,I
 ,,,bf:dimensions,Dimensions,false,true,literal,,,,,,,,,https://bibframe.org/view/documentation-marva-manual/instance-description/dimensions.md
 ,,,bf:electronicLocator,URL of Instance,false,true,bnode,,lc:RT:bf2:URL,,,,,,,https://bibframe.org/view/documentation-marva-manual/instance-description/url-of-instance.md
 ,,,bf:hasItem,Has Item,false,true,bnode,,lc:RT:bf2:35mmFeatureFilm:Item | lc:RT:bf2:35mmFeatureFilm:DigItem,,,,,,,
-lc:RT:bf2:35mmFeatureFilm:Item,BIBFRAME Item,bf:Item,bf:classification,Call numbers,false,true,bnode,,lc:RT:bf2:Item:LCC,,,,,,,
+lc:RT:bf2:35mmFeatureFilm:Item,BIBFRAME Item,bf:Item,bf:heldBy,Held by,true,,IRI,,,http://id.loc.gov/vocabulary/organizations,IRIstem,,,,bf:Organization,
+,,,bf:classification,Call numbers,false,true,bnode,,lc:RT:bf2:Item:LCC,,,,,,,
 ,,,bf:contribution,Collection/contribution,false,true,bnode,,lc:RT:bf2:Agents:bfContribution,,,,,,bf:Contribution,
 ,,,bf:electronicLocator,URL of Item,false,true,bnode,,lc:RT:bf2:URL,,,,,,,
 ,,,bf:note,Notes about the Item,false,true,bnode,,lc:RT:bf2:NoteLc,,,,,,,
@@ -246,7 +247,6 @@ lc:RT:bf2:Agents:Source,Sources consulted and cataloger's notes,mads:Source,mads
 lc:RT:bf2:Agents:VariantAgents,Variant access points representing agents,mads:hasVariant,mads:hasVariant,Variant Access Point Representing an Agent,false,true,literal,,,,,,,,,
 lc:RT:bf2:Agents:bfContribution,Collection/contribution,bf:Contribution,bf:agent,Search LCNAF,false,true,bnode,,lc:RT:bf2:Agent:bfPerson | lc:RT:bf2:Agent:bfCorp | lc:RT:bf2:Agent:bfConf | lc:RT:bf2:Agent:bfFamily | lc:RT:bf2:Agent:bfJurisdiction,,,,,,,"https://staff.loc.gov/wikis/display/BP2/Marva+cataloging+updates#Marvacatalogingupdates-Contributors(1XX,6XX,7XX)"
 ,,,bf:role,Relationship designator(s),false,true,,,,http://preprod.id.loc.gov/vocabulary/relators,IRIstem,,,,bf:Role,
-,,,bflc:applicableInstitution,Applicable institution,false,true,,,,http://preprod.id.loc.gov/vocabulary/organizations,IRIstem,,DLC,http://id.loc.gov/vocabulary/organizations/dlc,bflc:Agent,
 lc:RT:bf2:Agents:skosConcept,Concept,skos:Concept,rdfs:label,Label,false,true,literal,,,,,,,,,
 lc:RT:bf2:Analog:Instance,BIBFRAME Instance,bf:Instance,bf:instanceOf,Instance of,false,false,bnode,,lc:RT:bf2:Analog:Work,,,,,,,
 ,,,bf:title,Title information,true,true,bnode,,lc:RT:bf2:InstanceTitle | lc:RT:bf2:Title:VarTitle | lc:RT:bf2:ParallelTitle,,,,,,,
@@ -269,7 +269,8 @@ lc:RT:bf2:Analog:Instance,BIBFRAME Instance,bf:Instance,bf:instanceOf,Instance o
 ,,,bf:soundCharacteristic,Sound characteristics,false,true,bnode,,lc:RT:bf2:TypeRec2 | lc:RT:bf2:RecMedium | lc:RT:bf2:Analog:PlayingSpeed | lc:RT:bf2:Analog:Sound6 | lc:RT:bf2:Playback | lc:RT:bf2:SpecPlayback | lc:RT:bf2:CaptureStorage,,,,,,,
 ,,,bf:electronicLocator,URL of Instance,false,true,bnode,,lc:RT:bf2:URL,,,,,,,https://bibframe.org/view/documentation-marva-manual/instance-description/url-of-instance.md
 ,,,bf:hasItem,Has Item,false,true,bnode,,lc:RT:bf2:Analog:Item,,,,,,,
-lc:RT:bf2:Analog:Item,BIBFRAME Item,bf:Item,bf:electronicLocator,URL of Item,false,true,bnode,,lc:RT:bf2:URL,,,,,,,
+lc:RT:bf2:Analog:Item,BIBFRAME Item,bf:Item,bf:heldBy,Held by,true,,IRI,,,http://id.loc.gov/vocabulary/organizations,IRIstem,,,,bf:Organization,
+,,,bf:electronicLocator,URL of Item,false,true,bnode,,lc:RT:bf2:URL,,,,,,,
 ,,,bf:contribution,Collection/contribution,false,true,bnode,,lc:RT:bf2:Agents:bfContribution,,,,,,bf:Contribution,
 ,,,bf:note,Notes about the Item,false,true,bnode,,lc:RT:bf2:NoteLc,,,,,,,
 lc:RT:bf2:Analog:PlayingSpeed,Playing speed,bf:PlayingSpeed,owl:sameAs,Lookup,false,true,,,,http://id.loc.gov/vocabulary/mplayspeed,IRIstem,,,,,
@@ -336,7 +337,8 @@ lc:RT:bf2:Cartographic:Instance,BIBFRAME Instance,bf:Instance,bf:instanceOf,Inst
 ,,,bf:digitalCharacteristic,Digital file characteristic,false,true,bnode,,lc:RT:bf2:Cartographic:FileType | lc:RT:bf2:Cartographic:DataType | lc:RT:bf2:Cartographic:ObjectType | lc:RT:bf2:Cartographic:EncodingFormat,,,,,,,
 ,,,bf:electronicLocator,URL of Instance,false,true,bnode,,lc:RT:bf2:URL,,,,,,,https://bibframe.org/view/documentation-marva-manual/instance-description/url-of-instance.md
 ,,,bf:hasItem,Has Item,false,true,bnode,,lc:RT:bf2:Cartographic:Item,,,,,,,
-lc:RT:bf2:Cartographic:Item,BIBFRAME Item,bf:Item,bf:classification,"Copy, issue, offprint number",false,true,bnode,,lc:RT:bf2:Item:LCC,,,,,,,
+lc:RT:bf2:Cartographic:Item,BIBFRAME Item,bf:Item,bf:heldBy,Held by,true,,IRI,,,http://id.loc.gov/vocabulary/organizations,IRIstem,,,,bf:Organization,
+,,,bf:classification,"Copy, issue, offprint number",false,true,bnode,,lc:RT:bf2:Item:LCC,,,,,,,
 ,,,bf:electronicLocator,URL of Item,false,true,bnode,,lc:RT:bf2:URL,,,,,,,
 ,,,bf:contribution,Collection/contribution,false,true,bnode,,lc:RT:bf2:Agents:bfContribution,,,,,,bf:Contribution,
 ,,,bf:note,Notes about the Item,false,true,bnode,,lc:RT:bf2:NoteLc,,,,,,,
@@ -444,7 +446,8 @@ lc:RT:bf2:Ibc:Instance,BIBFRAME Instance,bf:Instance,bf:instanceOf,Instance of,f
 ,,,bf:note,Note,false,true,bnode,,lc:RT:bf2:Note,,,,,,,
 ,,,bf:adminMetadata,Admin Metadata,false,true,bnode,,lc:RT:bf2:AdminMetadata,,,,,,,
 ,,,bf:hasItem,Has Item,false,true,bnode,,lc:RT:bf2:Monograph:Item,,,,,,,
-lc:RT:bf2:Ibc:Item,BIBFRAME Item,bf:Item,bf:electronicLocator,URL of Item,false,true,bnode,,lc:RT:bf2:URL,,,,,,,
+lc:RT:bf2:Ibc:Item,BIBFRAME Item,bf:Item,bf:heldBy,Held by,true,,IRI,,,http://id.loc.gov/vocabulary/organizations,IRIstem,,,,bf:Organization,
+,,,bf:electronicLocator,URL of Item,false,true,bnode,,lc:RT:bf2:URL,,,,,,,
 ,,,bf:contribution,Collection/contribution,false,true,bnode,,lc:RT:bf2:Agents:bfContribution,,,,,,bf:Contribution,
 ,,,bf:note,Notes about the Item,false,true,bnode,,lc:RT:bf2:NoteLc,,,,,,,
 ,,,bf:enumerationAndChronology,Enumeration and chronology of Item,false,true,bnode,,lc:RT:bf2:Item:Enumeration | lc:RT:bf2:Item:Chronology,,,,,,,
@@ -538,7 +541,6 @@ lc:RT:bf2:Identifiers:VidRecNumber,Video recording number,bf:VideoRecordingNumbe
 ,,,bf:assigner,Label name,false,true,bnode,,lc:RT:bf2:Identifiers:Agent,,,,,,,
 ,,,bf:qualifier,Qualifier,false,true,literal,,,,,,,,,
 lc:RT:bf2:ImmAcqSource,Immediate source of acquisition,bf:ImmediateAcquisition,rdfs:label,Immediate source of acquisition,false,true,literal,,,,,,,,,
-,,,bflc:applicableInstitution,Applicable institution,false,true,,,,http://id.loc.gov/vocabulary/organizations,IRIstem,,United States. Library of Congress,http://id.loc.gov/vocabulary/organizations/dlc,bf:Organization,
 lc:RT:bf2:InstanceTitle,Instance title,bf:Title,bflc:nonSortNum,Non-sort character count,false,true,literal,,,,,,,,,https://bibframe.org/docs/view/documentation-marva-manual/instance-description/title-information.md
 ,,,bf:mainTitle,Title,false,false,literal,,,,,,,,,https://bibframe.org/docs/view/documentation-marva-manual/instance-description/title-information.md
 ,,,bf:partNumber,Part number,false,true,literal,,,,,,,,,
@@ -605,7 +607,8 @@ lc:RT:bf2:MIBluRayDVD:Instance,BIBFRAME Instance,bf:Instance,bf:instanceOf,Insta
 ,,,bf:systemRequirement,System requirements,false,true,bnode,,lc:RT:bf2:SysReq,,,,,,,
 ,,,bf:electronicLocator,URL of Instance,false,true,bnode,,lc:RT:bf2:URL,,,,,,,https://bibframe.org/view/documentation-marva-manual/instance-description/url-of-instance.md
 ,,,bf:hasItem,Has Item,false,true,bnode,,lc:RT:bf2:MIBluRayDVD:Item,,,,,,,
-lc:RT:bf2:MIBluRayDVD:Item,BIBFRAME Item,bf:Item,bf:electronicLocator,URL of Item,false,true,bnode,,lc:RT:bf2:URL,,,,,,,
+lc:RT:bf2:MIBluRayDVD:Item,BIBFRAME Item,bf:Item,bf:heldBy,Held by,true,,IRI,,,http://id.loc.gov/vocabulary/organizations,IRIstem,,,,bf:Organization,
+,,,bf:electronicLocator,URL of Item,false,true,bnode,,lc:RT:bf2:URL,,,,,,,
 ,,,bf:contribution,Collection/contribution,false,true,bnode,,lc:RT:bf2:Agents:bfContribution,,,,,,bf:Contribution,
 ,,,bf:note,Notes on the Item,false,true,bnode,,lc:RT:bf2:NoteLc,,,,,,,
 ,,,bf:enumerationAndChronology,Enumeration,false,true,bnode,,lc:RT:bf2:Item:Enumeration,,,,,,,
@@ -681,7 +684,8 @@ lc:RT:bf2:Monograph:Instance,BIBFRAME Instance,bf:Instance,bf:instanceOf,Instanc
 ,,,bf:electronicLocator,URL of Instance,false,true,bnode,,lc:RT:bf2:URL,,,,,,,https://bibframe.org/docs/view/documentation-marva-manual/instance-description/url-of-instance.md#url-of-instance
 ,,,bflc:projectedProvisionDate,Projected publication date (YYMM),false,false,literal,,,,,,,,,https://bibframe.org/docs/view/documentation-marva-manual/instance-description/projected-publication-date.md#projected-publication-date-(yymm)
 ,,,bf:hasItem,Has Item,false,true,bnode,,lc:RT:bf2:Monograph:Item,,,,,,,
-lc:RT:bf2:Monograph:Item,BIBFRAME Item,bf:Item,bf:electronicLocator,URL of Item,false,true,bnode,,lc:RT:bf2:URL,,,,,,,
+lc:RT:bf2:Monograph:Item,BIBFRAME Item,bf:Item,bf:heldBy,Held by,true,,IRI,,,http://id.loc.gov/vocabulary/organizations,IRIstem,,,,bf:Organization,
+,,,bf:electronicLocator,URL of Item,false,true,bnode,,lc:RT:bf2:URL,,,,,,,
 ,,,bf:contribution,Collection/contribution,false,true,bnode,,lc:RT:bf2:Agents:bfContribution,,,,,,bf:Contribution,
 ,,,bf:note,Notes about the Item,false,true,bnode,,lc:RT:bf2:NoteLc,,,,,,,
 ,,,bf:enumerationAndChronology,Enumeration and chronology of Item,false,true,bnode,,lc:RT:bf2:Item:Enumeration | lc:RT:bf2:Item:Chronology,,,,,,,
@@ -741,7 +745,8 @@ lc:RT:bf2:NotatedMusic:Instance,BIBFRAME Instance,bf:Instance,bf:instanceOf,Inst
 ,,,bf:dimensions,Dimensions,false,true,literal,,,,,,,,,https://bibframe.org/view/documentation-marva-manual/instance-description/dimensions.md
 ,,,bf:electronicLocator,URL of Instance,false,true,bnode,,lc:RT:bf2:URL,,,,,,,https://bibframe.org/view/documentation-marva-manual/instance-description/url-of-instance.md
 ,,,bf:hasItem,Has Item,false,true,bnode,,lc:RT:bf2:NotatedMusic:Item,,,,,,,
-lc:RT:bf2:NotatedMusic:Item,BIBFRAME Item,bf:Item,bf:electronicLocator,URL of Item,false,true,bnode,,lc:RT:bf2:URL,,,,,,,
+lc:RT:bf2:NotatedMusic:Item,BIBFRAME Item,bf:Item,bf:heldBy,Held by,true,,IRI,,,http://id.loc.gov/vocabulary/organizations,IRIstem,,,,bf:Organization,
+,,,bf:electronicLocator,URL of Item,false,true,bnode,,lc:RT:bf2:URL,,,,,,,
 ,,,bf:contribution,Collection/contribution,false,true,bnode,,lc:RT:bf2:Agents:bfContribution,,,,,,bf:Contribution,
 ,,,bf:note,Notes about the Item,false,true,bnode,,lc:RT:bf2:NoteLc,,,,,,,
 lc:RT:bf2:NotatedMusic:Work,BIBFRAME Work,bf:Work,bf:expressionOf,Expression of [search for a Hub],,,,,,https://id.loc.gov/resources/hubs,IRIstem,,,,bf:Hub,https://bibframe.org/docs/view/documentation-marva-manual/work-description/expression-hub.md
@@ -783,7 +788,6 @@ lc:RT:bf2:Note,Note,bf:Note,rdfs:label,Note,false,false,literal,,,,,,,,,
 ,,,rdf:type,Note type,false,true,,,,http://preprod-8080.id.loc.gov/vocabulary/mnotetype,IRIstem,,,,,
 lc:RT:bf2:NoteLc,LC-specific note,bf:Note,rdfs:label,Note,false,true,literal,,,,,,,,,
 ,,,rdf:type,Note type,false,true,,,,http://id.loc.gov/vocabulary/mnotetype,IRIstem,,,,,
-,,,bflc:applicableInstitution,Applicable institution,false,true,,,,http://id.loc.gov/vocabulary/organizations,IRIstem,,DLC,http://id.loc.gov/vocabulary/organizations/dlc,bf:Agent,
 lc:RT:bf2:NoteSimple,Simple note,bf:Note,rdfs:label,Note,false,true,literal,,,,,,,,,
 lc:RT:bf2:OtherClass,Other classification number,bf:Classification,bf:classificationPortion,Other classification number,false,true,literal,,,,,,,,,
 ,,,bf:itemPortion,Additional call number information,false,true,literal,,,,,,,,,
@@ -827,7 +831,8 @@ lc:RT:bf2:PrintPhoto:Instance,Instance,bf:Instance,bf:instanceOf,Instance of,fal
 ,,,bf:digitalCharacteristic,File type,false,true,,,,http://id.loc.gov/vocabulary/mfiletype,IRIstem,,image file,http://id.loc.gov/vocabulary/mfiletype/image,bf:FileType,
 ,,,bf:usageAndAccessPolicy,Usage and access policies,false,true,bnode,,lc:RT:bf2:Item:Access | lc:RT:bf2:Item:Use,,,,,,,
 ,,,bf:hasItem,Add Item information,false,true,bnode,,lc:RT:bf2:PrintPhoto:Item,,,,,,,
-lc:RT:bf2:PrintPhoto:Item,Item,bf:Item,bf:acquisitionSource,Local copy identifier,false,true,bnode,,lc:RT:bf2:PrintPhoto:AcqSource,,,,,,,
+lc:RT:bf2:PrintPhoto:Item,Item,bf:Item,bf:heldBy,Held by,true,,IRI,,,http://id.loc.gov/vocabulary/organizations,IRIstem,,,,bf:Organization,
+,,,bf:acquisitionSource,Local copy identifier,false,true,bnode,,lc:RT:bf2:PrintPhoto:AcqSource,,,,,,,
 ,,,bf:electronicLocation,URL of digital item,false,true,bnode,,lc:RT:bf2:URL,,,,,,,
 ,,,bf:contribution,Collection/contribution,false,true,bnode,,lc:RT:bf2:Agents:bfContribution,,,,,,bf:Contribution,
 ,,,bf:note,Notes about the Item,false,true,bnode,,lc:RT:bf2:PrintPhoto:Note,,,,,,,
@@ -837,7 +842,6 @@ lc:RT:bf2:PrintPhoto:Item,Item,bf:Item,bf:acquisitionSource,Local copy identifie
 lc:RT:bf2:PrintPhoto:Note,Note,bf:Note,rdfs:label,Note,false,true,literal,,,,,,,,,
 ,,,bf:noteType,Note type,false,true,,,,https://id.loc.gov/vocabulary/mnotetype,IRIstem,,,,,
 ,,,rdf:value,URL related to Note,false,true,literal,,,,,,,,,
-,,,bflc:applicableInstitution,Applicable institution,false,true,,,,http://id.loc.gov/vocabulary/organizations,IRIstem,,DLC,http://id.loc.gov/vocabulary/organizations/dlc,bflc:ApplicableInstitution,
 lc:RT:bf2:PrintPhoto:TGMGenre,TGM Genre,bf:GenreForm,mads:componentList,Search TGM,false,true,bnode,,lc:RT:bf2:PrintPhoto:TGMGenreSearch | lc:RT:bf2:PrintPhoto:TGMTemporal,,,,,,mads:ComponentList,
 ,,,bf:source,Source of term,false,false,,,,http://id.loc.gov/vocabulary/genreFormSchemes,IRIstem,,gmgpc,http://id.loc.gov/vocabulary/genreFormSchemes/gmgpc,bf:Source,
 lc:RT:bf2:PrintPhoto:TGMGenreSearch,Search TGM (Genre),mads:GenreForm,owl:sameAs,Search TGM,false,true,,,,http://id.loc.gov/vocabulary/graphicMaterials,IRIstem,,,,mads:GenreForm,
@@ -880,7 +884,6 @@ lc:RT:bf2:PubInfoNew,Publication,bf:Publication,bf:date,EDTF date (to/from 008),
 ,,,bflc:simpleAgent,Name (to/from 26X $b),false,true,literal,,,,,,,,,
 ,,,bflc:simpleDate,Date (to/from 26X $c),false,true,literal,,,,,,,,,
 lc:RT:bf2:RareMat:Genre,Genre/Form,bf:GenreForm,owl:sameAs,Genre/Form,false,true,,,,http://id.loc.gov/authorities/genreForms,IRIstem,,,,,
-,,,bflc:applicableInstitution,Applicable institution,false,true,,,,http://id.loc.gov/vocabulary/organizations,IRIstem,,DLC,http://id.loc.gov/vocabulary/organizations/dlc,bf:Agent,
 lc:RT:bf2:RareMat:Instance,BIBFRAME Instance,bf:Instance,bf:instanceOf,Instance of,false,false,bnode,,lc:RT:bf2:RareMat:Work,,,,,,,
 ,,,bf:title,Title information,true,true,bnode,,lc:RT:bf2:InstanceTitle | lc:RT:bf2:Title:VarTitle | lc:RT:bf2:ParallelTitle | lc:RT:bf2:Title:CollTitle,,,,,,,https://bibframe.org/view/documentation-marva-manual/instance-description/title-information.md
 ,,,bf:responsibilityStatement,Statement of responsiblity,false,true,literal,,,,,,,,,https://bibframe.org/view/documentation-marva-manual/instance-description/statement-of-responsibility.md
@@ -899,7 +902,8 @@ lc:RT:bf2:RareMat:Instance,BIBFRAME Instance,bf:Instance,bf:instanceOf,Instance 
 ,,,bf:bookFormat,Book format,false,true,,,,http://id.loc.gov/vocabulary/bookformat,IRIstem,,,,bf:BookFormat,
 ,,,bf:hasItem,Has Item,false,true,bnode,,lc:RT:bf2:RareMat:Item,,,,,,,
 ,,,bf:note,References/Citation note,,true,bnode,,lc:RT:bf2:RareMat:RefWorkNote,,,,,,,
-lc:RT:bf2:RareMat:Item,BIBFRAME Item,bf:Item,bf:classification,Classification number,false,true,bnode,,lc:RT:bf2:RareMat:ItemLcc,,,,,,,
+lc:RT:bf2:RareMat:Item,BIBFRAME Item,bf:Item,bf:heldBy,Held by,true,,IRI,,,http://id.loc.gov/vocabulary/organizations,IRIstem,,,,bf:Organization,
+,,,bf:classification,Classification number,false,true,bnode,,lc:RT:bf2:RareMat:ItemLcc,,,,,,,
 ,,,bf:contribution,Agents/collections associated with Item,false,true,bnode,,lc:RT:bf2:Agents:bfContribution,,,,,,bf:Contribution,
 ,,,bf:custodialHistory,Custodial history/Provenance,false,true,literal,,,,,,,,,
 ,,,bf:immediateAcquisition,Immediate source of acquisition,false,true,bnode,,lc:RT:bf2:ImmAcqSource,,,,,,,
@@ -919,7 +923,6 @@ lc:RT:bf2:RareMat:RefWorkNote,References/Citation note,bf:Note,rdfs:label,Note/n
 ,,,bflc:citation,Location within source,,,literal,,,,,,,,,
 ,,,bf:electronicLocator,URL,,,bnode,,lc:RT:bf2:URL,,,,,,,
 ,,,bflc:appliesTo,Applies to,,,bnode,,lc:RT:bf2:AppliesTo,,,,,,,
-,,,bflc:applicableInstitution,Applicable institution,,,,,,http://id.loc.gov/vocabulary/organizations,IRIstem,,,,,
 lc:RT:bf2:RareMat:RefWorkTitle,References title,bf:Title,bf:mainTitle,Title,false,true,literal,,,,,,,,,
 lc:RT:bf2:RareMat:Work,BIBFRAME Work,bf:Work,bf:expressionOf,Expression of [search for a Hub],false,true,,,,https://id.loc.gov/resources/hubs,IRIstem,,,,bf:Hub,https://bibframe.org/view/documentation-marva-manual/work-description/expression-hub.md
 ,,,rdf:type,Work type,,,IRI,,,bf:Monograph|bf:Manuscript,picklist,,,,,https://bibframe.org/docs/view/documentation-marva-manual/work-description/work-type.md
@@ -991,7 +994,8 @@ lc:RT:bf2:Serial:Instance,BIBFRAME Instance,bf:Instance,bf:instanceOf,Instance o
 ,,,bf:electronicLocator,URL of Instance,false,true,bnode,,lc:RT:bf2:URL,,,,,,,
 ,,,bflc:projectedProvisionDate,Projected publication date (YYMM),false,false,literal,,,,,,,,,
 ,,,bf:hasItem,Has Item,false,true,bnode,,lc:RT:bf2:Serial:Item,,,,,,,
-lc:RT:bf2:Serial:Item,BIBFRAME Item,bf:Item,bf:electronicLocator,URL of Item,false,true,bnode,,lc:RT:bf2:URL,,,,,,,
+lc:RT:bf2:Serial:Item,BIBFRAME Item,bf:Item,bf:heldBy,Held by,true,,IRI,,,http://id.loc.gov/vocabulary/organizations,IRIstem,,,,bf:Organization,
+,,,bf:electronicLocator,URL of Item,false,true,bnode,,lc:RT:bf2:URL,,,,,,,
 ,,,bf:classification,"Copy, issue, offprint number",false,true,bnode,,lc:RT:bf2:Item:LCC,,,,,,,
 ,,,bf:contribution,Collection/contribution,false,true,bnode,,lc:RT:bf2:Agents:bfContribution,,,,,,bf:Contribution,
 ,,,bf:note,Notes about the Item,false,true,bnode,,lc:RT:bf2:NoteLc,,,,,,,
@@ -1071,7 +1075,8 @@ lc:RT:bf2:SoundCDR:Instance,BIBFRAME Instance,bf:Instance,bf:instanceOf,Instance
 ,,,bf:systemRequirement,System requirement,false,true,bnode,,lc:RT:bf2:SysReq,,,,,,,
 ,,,bf:electronicLocator,URL of Instance,false,true,bnode,,lc:RT:bf2:URL,,,,,,,https://bibframe.org/view/documentation-marva-manual/instance-description/url-of-instance.md
 ,,,bf:hasItem,Has Item,false,true,bnode,,lc:RT:bf2:SoundCDR:Item,,,,,,,
-lc:RT:bf2:SoundCDR:Item,BIBFRAME Item,bf:Item,bf:electronicLocator,URL of Item,false,true,bnode,,lc:RT:bf2:URL,,,,,,,
+lc:RT:bf2:SoundCDR:Item,BIBFRAME Item,bf:Item,bf:heldBy,Held by,true,,IRI,,,http://id.loc.gov/vocabulary/organizations,IRIstem,,,,bf:Organization,
+,,,bf:electronicLocator,URL of Item,false,true,bnode,,lc:RT:bf2:URL,,,,,,,
 ,,,bf:contribution,Collection/contribution,false,true,bnode,,lc:RT:bf2:Agents:bfContribution,,,,,,bf:Contribution,
 ,,,bf:note,Notes about the Item,false,true,bnode,,lc:RT:bf2:NoteLc,,,,,,,
 lc:RT:bf2:SoundCDR:Work,BIBFRAME Work,bf:Work,bf:expressionOf,Expression of [search for a Hub],,,,,,https://id.loc.gov/resources/hubs,IRIstem,,,,bf:Hub,https://bibframe.org/view/documentation-marva-manual/work-description/expression-hub.md
@@ -1122,7 +1127,8 @@ lc:RT:bf2:SoundCassette:Instance,BIBFRAME Instance,bf:Instance,bf:instanceOf,Ins
 ,,,bf:systemRequirement,System requirement,false,true,bnode,,lc:RT:bf2:SysReq,,,,,,,
 ,,,bf:electronicLocator,URL of Instance,false,true,bnode,,lc:RT:bf2:URL,,,,,,,https://bibframe.org/view/documentation-marva-manual/instance-description/url-of-instance.md
 ,,,bf:hasItem,Has Item,false,true,bnode,,lc:RT:bf2:SoundCassette:Item,,,,,,,
-lc:RT:bf2:SoundCassette:Item,BIBFRAME Item,bf:Item,bf:electronicLocator,URL of Item,false,true,bnode,,lc:RT:bf2:URL,,,,,,,
+lc:RT:bf2:SoundCassette:Item,BIBFRAME Item,bf:Item,bf:heldBy,Held by,true,,IRI,,,http://id.loc.gov/vocabulary/organizations,IRIstem,,,,bf:Organization,
+,,,bf:electronicLocator,URL of Item,false,true,bnode,,lc:RT:bf2:URL,,,,,,,
 ,,,bf:contribution,Collection/contribution,false,true,bnode,,lc:RT:bf2:Agents:bfContribution,,,,,,bf:Contribution,
 ,,,bf:note,Notes about the Item,false,true,bnode,,lc:RT:bf2:NoteLc,,,,,,,
 lc:RT:bf2:SoundCassette:PlaySpeed,Playing speed,bf:PlayingSpeed,owl:sameAs,Playing speed,false,true,,,,http://id.loc.gov/vocabulary/mplayspeed,IRIstem,,,,,
@@ -1176,7 +1182,8 @@ lc:RT:bf2:SoundRecording:Instance,BIBFRAME Instance,bf:Instance,bf:instanceOf,In
 ,,,bf:systemRequirement,System requirement,false,true,bnode,,lc:RT:bf2:SysReq,,,,,,,
 ,,,bf:electronicLocator,URL of Instance,false,true,bnode,,lc:RT:bf2:URL,,,,,,,https://bibframe.org/view/documentation-marva-manual/instance-description/url-of-instance.md
 ,,,bf:hasItem,Has Item,false,true,bnode,,lc:RT:bf2:SoundRecording:Item,,,,,,,
-lc:RT:bf2:SoundRecording:Item,BIBFRAME Item,bf:Item,bf:electronicLocator,URL of Item,false,true,bnode,,lc:RT:bf2:URL,,,,,,,
+lc:RT:bf2:SoundRecording:Item,BIBFRAME Item,bf:Item,bf:heldBy,Held by,true,,IRI,,,http://id.loc.gov/vocabulary/organizations,IRIstem,,,,bf:Organization,
+,,,bf:electronicLocator,URL of Item,false,true,bnode,,lc:RT:bf2:URL,,,,,,,
 ,,,bf:contribution,Collection/contribution,false,true,bnode,,lc:RT:bf2:Agents:bfContribution,,,,,,bf:Contribution,
 ,,,bf:note,Notes about the Item,false,true,bnode,,lc:RT:bf2:NoteLc,,,,,,,
 lc:RT:bf2:SoundRecording:Work,BIBFRAME Work,bf:Work,bf:expressionOf,Expression of [search for a Hub],,,,,,https://id.loc.gov/resources/hubs,IRIstem,,,,bf:Hub,https://bibframe.org/view/documentation-marva-manual/work-description/expression-hub.md
