@@ -1,6 +1,6 @@
 [
   {
-    "id": "88d89e6c-7252-48f3-b070-02e4f9888664",
+    "id": "7ddcea60-c98c-421f-8247-125daeea2844",
     "name": "BIBFRAME 2.0 Moving Image",
     "configType": "profile",
     "json": {
@@ -32,7 +32,7 @@
                   },
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/work-description/expression-hub.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/work-description/expression-hub.md"
               },
               {
                 "propertyURI": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
@@ -70,7 +70,7 @@
                   "valueDataType": {},
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/work-description/title-information.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/work-description/title-information.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/originPlace",
@@ -90,7 +90,7 @@
                   },
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/work-description/country-of-origin.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/work-description/country-of-origin.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/originDate",
@@ -106,7 +106,7 @@
                   "valueDataType": {},
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/work-description/date-of-work.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/work-description/date-of-work.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/identifiedBy",
@@ -143,7 +143,7 @@
                   "valueDataType": {},
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/work-description/intended-audience.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/work-description/intended-audience.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/note",
@@ -161,7 +161,7 @@
                   "valueDataType": {},
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/work-description/notes-about-work.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/work-description/notes-about-work.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/tableOfContents",
@@ -179,7 +179,7 @@
                   "valueDataType": {},
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/work-description/contents.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/work-description/contents.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/summary",
@@ -197,7 +197,7 @@
                   "valueDataType": {},
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/work-description/summary.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/work-description/summary.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/genreForm",
@@ -215,7 +215,7 @@
                   "valueDataType": {},
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/work-description/genre-form.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/work-description/genre-form.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/geographicCoverage",
@@ -233,7 +233,7 @@
                   "valueDataType": {},
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/work-description/geographic-coverage.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/work-description/geographic-coverage.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/subject",
@@ -253,7 +253,7 @@
                   "valueDataType": {},
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/work-description/subjects.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/work-description/subjects.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/contribution",
@@ -273,7 +273,7 @@
                   },
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/work-description/contributors.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/work-description/contributors.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/contribution",
@@ -293,7 +293,7 @@
                   },
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/work-description/contributors.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/work-description/contributors.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/content",
@@ -318,7 +318,7 @@
                   },
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/work-description/content-type.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/work-description/content-type.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/language",
@@ -338,7 +338,7 @@
                   },
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/work-description/language.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/work-description/language.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/language",
@@ -375,7 +375,7 @@
                   "valueDataType": {},
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/work-description/language.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/work-description/language.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/note",
@@ -393,7 +393,7 @@
                   "valueDataType": {},
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/work-description/language.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/work-description/language.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/colorContent",
@@ -413,7 +413,7 @@
                   },
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/work-description/color-content.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/work-description/color-content.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/soundContent",
@@ -518,7 +518,7 @@
                   "valueDataType": {},
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/work-description/search-related-work.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/work-description/search-related-work.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/relation",
@@ -536,7 +536,7 @@
                   "valueDataType": {},
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/work-description/input-transcribed-series.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/work-description/input-transcribed-series.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/hasInstance",
@@ -597,7 +597,7 @@
                   "valueDataType": {},
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/instance-description/title-information.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/instance-description/title-information.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/responsibilityStatement",
@@ -613,7 +613,7 @@
                   "valueDataType": {},
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/instance-description/statement-of-responsibility.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/instance-description/statement-of-responsibility.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/editionStatement",
@@ -629,7 +629,7 @@
                   "valueDataType": {},
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/instance-description/edition-statement.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/instance-description/edition-statement.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/provisionActivity",
@@ -650,7 +650,7 @@
                   "valueDataType": {},
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/instance-description/provision-activity.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/instance-description/provision-activity.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/copyrightDate",
@@ -666,7 +666,7 @@
                   "valueDataType": {},
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/instance-description/copyright-date.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/instance-description/copyright-date.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/originPlace",
@@ -710,7 +710,7 @@
                   },
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/instance-description/mode-of-issuance.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/instance-description/mode-of-issuance.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/identifiedBy",
@@ -733,7 +733,7 @@
                   "valueDataType": {},
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/instance-description/identifiers.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/instance-description/identifiers.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/note",
@@ -751,7 +751,7 @@
                   "valueDataType": {},
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/instance-description/notes-about-instance.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/instance-description/notes-about-instance.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/supplementaryContent",
@@ -769,7 +769,7 @@
                   "valueDataType": {},
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/instance-description/supplementary-content-url.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/instance-description/supplementary-content-url.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/media",
@@ -794,7 +794,7 @@
                   },
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/instance-description/media-type.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/instance-description/media-type.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/carrier",
@@ -819,7 +819,7 @@
                   },
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/instance-description/carrier-type.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/instance-description/carrier-type.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/extent",
@@ -837,7 +837,7 @@
                   "valueDataType": {},
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/instance-description/physical-description.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/instance-description/physical-description.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/dimensions",
@@ -853,7 +853,7 @@
                   "valueDataType": {},
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/instance-description/dimensions.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/instance-description/dimensions.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/electronicLocator",
@@ -871,7 +871,7 @@
                   "valueDataType": {},
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/instance-description/url-of-instance.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/instance-description/url-of-instance.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/hasItem",
@@ -2288,7 +2288,7 @@
                   "valueDataType": {},
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/work-description/contributors.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/work-description/contributors.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/role",
@@ -2337,7 +2337,7 @@
                   },
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/work-description/contributors.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/work-description/contributors.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/role",
@@ -4503,14 +4503,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-10-30T16:00:01.381Z",
-      "updateDate": "2026-10-30T16:00:01.381Z"
+      "createDate": "2026-11-03T20:38:45.253Z",
+      "updateDate": "2026-11-03T20:38:45.253Z"
     },
-    "created": "2026-10-30T16:00:01.381Z",
-    "modified": "2026-10-30T16:00:01.381Z"
+    "created": "2026-11-03T20:38:45.253Z",
+    "modified": "2026-11-03T20:38:45.253Z"
   },
   {
-    "id": "c39158a5-0e62-4e07-ae0d-c3d57198345a",
+    "id": "cfe5df5c-38df-4f66-8af8-648ddd163f7d",
     "name": "BIBFRAME 2.0 Admin Metadata",
     "configType": "profile",
     "json": {
@@ -5039,14 +5039,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-10-30T16:00:01.382Z",
-      "updateDate": "2026-10-30T16:00:01.382Z"
+      "createDate": "2026-11-03T20:38:45.255Z",
+      "updateDate": "2026-11-03T20:38:45.255Z"
     },
-    "created": "2026-10-30T16:00:01.382Z",
-    "modified": "2026-10-30T16:00:01.382Z"
+    "created": "2026-11-03T20:38:45.255Z",
+    "modified": "2026-11-03T20:38:45.255Z"
   },
   {
-    "id": "b02bd59a-6fbf-48ef-9c6b-5536d3c3679b",
+    "id": "29c2d6b6-3aed-4304-a48d-75039bce6bef",
     "name": "BIBFRAME 2.0 Agents",
     "configType": "profile",
     "json": {
@@ -7421,14 +7421,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-10-30T16:00:01.390Z",
-      "updateDate": "2026-10-30T16:00:01.390Z"
+      "createDate": "2026-11-03T20:38:45.266Z",
+      "updateDate": "2026-11-03T20:38:45.266Z"
     },
-    "created": "2026-10-30T16:00:01.390Z",
-    "modified": "2026-10-30T16:00:01.390Z"
+    "created": "2026-11-03T20:38:45.266Z",
+    "modified": "2026-11-03T20:38:45.266Z"
   },
   {
-    "id": "149332ed-eded-4a10-84a2-587e8cb2c0af",
+    "id": "b367afb2-a13e-477f-a4d8-89f8685bf520",
     "name": "BIBFRAME 2.0 RWO",
     "configType": "profile",
     "json": {
@@ -8410,14 +8410,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-10-30T16:00:01.395Z",
-      "updateDate": "2026-10-30T16:00:01.395Z"
+      "createDate": "2026-11-03T20:38:45.271Z",
+      "updateDate": "2026-11-03T20:38:45.271Z"
     },
-    "created": "2026-10-30T16:00:01.395Z",
-    "modified": "2026-10-30T16:00:01.395Z"
+    "created": "2026-11-03T20:38:45.271Z",
+    "modified": "2026-11-03T20:38:45.271Z"
   },
   {
-    "id": "3d697db6-313d-43cf-904d-68093922d369",
+    "id": "267b5780-8649-4d1a-a77e-42f40f4e17df",
     "name": "BIBFRAME 2.0 Agents Contribution",
     "configType": "profile",
     "json": {
@@ -8451,7 +8451,7 @@
                   "valueDataType": {},
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/work-description/contributors.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/work-description/contributors.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/role",
@@ -8646,14 +8646,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-10-30T16:00:01.396Z",
-      "updateDate": "2026-10-30T16:00:01.396Z"
+      "createDate": "2026-11-03T20:38:45.272Z",
+      "updateDate": "2026-11-03T20:38:45.272Z"
     },
-    "created": "2026-10-30T16:00:01.396Z",
-    "modified": "2026-10-30T16:00:01.396Z"
+    "created": "2026-11-03T20:38:45.272Z",
+    "modified": "2026-11-03T20:38:45.272Z"
   },
   {
-    "id": "a51c9fb2-9880-4056-8812-1a892ccc3f83",
+    "id": "4a7cb692-b455-4a41-8dea-e3d6a0f97fa9",
     "name": "BIBFRAME 2.0 Sound Recording-Analog",
     "configType": "profile",
     "json": {
@@ -8685,7 +8685,7 @@
                   },
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/work-description/expression-hub.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/work-description/expression-hub.md"
               },
               {
                 "propertyURI": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
@@ -8724,7 +8724,7 @@
                   },
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/work-description/contributors.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/work-description/contributors.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/title",
@@ -8744,7 +8744,7 @@
                   "valueDataType": {},
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/work-description/title-information.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/work-description/title-information.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/contribution",
@@ -8764,7 +8764,7 @@
                   },
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/work-description/contributors.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/work-description/contributors.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/language",
@@ -8784,7 +8784,7 @@
                   },
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/work-description/language.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/work-description/language.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/language",
@@ -8821,7 +8821,7 @@
                   "valueDataType": {},
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/work-description/language.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/work-description/language.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/note",
@@ -8839,7 +8839,7 @@
                   "valueDataType": {},
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/work-description/language.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/work-description/language.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/musicMedium",
@@ -8928,7 +8928,7 @@
                   "valueDataType": {},
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/work-description/intended-audience.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/work-description/intended-audience.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/geographicCoverage",
@@ -8946,7 +8946,7 @@
                   "valueDataType": {},
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/work-description/geographic-coverage.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/work-description/geographic-coverage.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/genreForm",
@@ -8966,7 +8966,7 @@
                   },
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/work-description/genre-form.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/work-description/genre-form.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/subject",
@@ -8986,7 +8986,7 @@
                   "valueDataType": {},
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/work-description/subjects.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/work-description/subjects.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/note",
@@ -9004,7 +9004,7 @@
                   "valueDataType": {},
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/work-description/notes-about-work.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/work-description/notes-about-work.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/tableOfContents",
@@ -9022,7 +9022,7 @@
                   "valueDataType": {},
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/work-description/contents.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/work-description/contents.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/summary",
@@ -9040,7 +9040,7 @@
                   "valueDataType": {},
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/work-description/summary.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/work-description/summary.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/content",
@@ -9065,7 +9065,7 @@
                   },
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/work-description/content-type.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/work-description/content-type.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/capture",
@@ -9102,7 +9102,7 @@
                   },
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/work-description/supplementary-content.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/work-description/supplementary-content.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/originDate",
@@ -9118,7 +9118,7 @@
                   "valueDataType": {},
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/work-description/date-of-work.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/work-description/date-of-work.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/originPlace",
@@ -9138,7 +9138,7 @@
                   },
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/work-description/country-of-origin.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/work-description/country-of-origin.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/relation",
@@ -9156,7 +9156,7 @@
                   "valueDataType": {},
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/work-description/search-related-work.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/work-description/search-related-work.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/relation",
@@ -9174,7 +9174,7 @@
                   "valueDataType": {},
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/work-description/input-transcribed-series.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/work-description/input-transcribed-series.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/hasInstance",
@@ -9250,7 +9250,7 @@
                   "valueDataType": {},
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/instance-description/statement-of-responsibility.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/instance-description/statement-of-responsibility.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/editionStatement",
@@ -9266,7 +9266,7 @@
                   "valueDataType": {},
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/instance-description/edition-statement.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/instance-description/edition-statement.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/provisionActivity",
@@ -9287,7 +9287,7 @@
                   "valueDataType": {},
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/instance-description/provision-activity.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/instance-description/provision-activity.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/copyrightDate",
@@ -9303,7 +9303,7 @@
                   "valueDataType": {},
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/instance-description/copyright-date.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/instance-description/copyright-date.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/issuance",
@@ -9328,7 +9328,7 @@
                   },
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/instance-description/mode-of-issuance.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/instance-description/mode-of-issuance.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/identifiedBy",
@@ -9377,7 +9377,7 @@
                   "valueDataType": {},
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/instance-description/notes-about-instance.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/instance-description/notes-about-instance.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/supplementaryContent",
@@ -9395,7 +9395,7 @@
                   "valueDataType": {},
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/instance-description/supplementary-content-url.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/instance-description/supplementary-content-url.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/media",
@@ -9420,7 +9420,7 @@
                   },
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/instance-description/media-type.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/instance-description/media-type.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/carrier",
@@ -9445,7 +9445,7 @@
                   },
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/instance-description/carrier-type.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/instance-description/carrier-type.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/extent",
@@ -9463,7 +9463,7 @@
                   "valueDataType": {},
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/instance-description/physical-description.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/instance-description/physical-description.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/dimensions",
@@ -9479,7 +9479,7 @@
                   "valueDataType": {},
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/instance-description/dimensions.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/instance-description/dimensions.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/duration",
@@ -9592,7 +9592,7 @@
                   "valueDataType": {},
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/instance-description/url-of-instance.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/instance-description/url-of-instance.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/hasItem",
@@ -9767,7 +9767,7 @@
                   },
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/work-description/contributors.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/work-description/contributors.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/role",
@@ -10072,7 +10072,7 @@
                   "valueDataType": {},
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/work-description/contributors.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/work-description/contributors.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/role",
@@ -13067,14 +13067,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-10-30T16:00:01.419Z",
-      "updateDate": "2026-10-30T16:00:01.419Z"
+      "createDate": "2026-11-03T20:38:45.290Z",
+      "updateDate": "2026-11-03T20:38:45.290Z"
     },
-    "created": "2026-10-30T16:00:01.419Z",
-    "modified": "2026-10-30T16:00:01.419Z"
+    "created": "2026-11-03T20:38:45.290Z",
+    "modified": "2026-11-03T20:38:45.290Z"
   },
   {
-    "id": "4fcdb04a-428c-45f0-a627-5462bc45321a",
+    "id": "b52e35b4-7f18-4a27-a08a-0a9976a4827e",
     "name": "BIBFRAME 2.0 Cartographic TEST",
     "configType": "profile",
     "json": {
@@ -14324,7 +14324,7 @@
                   },
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/work-description/contributors.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/work-description/contributors.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/role",
@@ -14629,7 +14629,7 @@
                   "valueDataType": {},
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/work-description/contributors.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/work-description/contributors.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/role",
@@ -16793,14 +16793,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-10-30T16:00:01.434Z",
-      "updateDate": "2026-10-30T16:00:01.434Z"
+      "createDate": "2026-11-03T20:38:45.308Z",
+      "updateDate": "2026-11-03T20:38:45.308Z"
     },
-    "created": "2026-10-30T16:00:01.434Z",
-    "modified": "2026-10-30T16:00:01.434Z"
+    "created": "2026-11-03T20:38:45.308Z",
+    "modified": "2026-11-03T20:38:45.308Z"
   },
   {
-    "id": "cb0d56cf-d297-4dff-a49b-eb2641499d15",
+    "id": "bc5b66c4-d805-44b3-b49d-98e8f2720937",
     "name": "BIBFRAME 2.0 Classification",
     "configType": "profile",
     "json": {
@@ -17218,14 +17218,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-10-30T16:00:01.436Z",
-      "updateDate": "2026-10-30T16:00:01.436Z"
+      "createDate": "2026-11-03T20:38:45.311Z",
+      "updateDate": "2026-11-03T20:38:45.311Z"
     },
-    "created": "2026-10-30T16:00:01.436Z",
-    "modified": "2026-10-30T16:00:01.436Z"
+    "created": "2026-11-03T20:38:45.311Z",
+    "modified": "2026-11-03T20:38:45.311Z"
   },
   {
-    "id": "d4c85291-23d9-4811-a0aa-c841cf54383e",
+    "id": "0e4a99a9-9fae-4d2c-9424-532231386a34",
     "name": "BIBFRAME 2.0 Form",
     "configType": "profile",
     "json": {
@@ -17355,14 +17355,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-10-30T16:00:01.436Z",
-      "updateDate": "2026-10-30T16:00:01.436Z"
+      "createDate": "2026-11-03T20:38:45.311Z",
+      "updateDate": "2026-11-03T20:38:45.311Z"
     },
-    "created": "2026-10-30T16:00:01.436Z",
-    "modified": "2026-10-30T16:00:01.436Z"
+    "created": "2026-11-03T20:38:45.311Z",
+    "modified": "2026-11-03T20:38:45.311Z"
   },
   {
-    "id": "9b994f00-0cc2-4e37-a3bd-d135790ab33b",
+    "id": "48a10d95-e846-4650-b127-f2b9a5045f39",
     "name": "Test BF Hub",
     "configType": "profile",
     "json": {
@@ -18156,14 +18156,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-10-30T16:00:01.439Z",
-      "updateDate": "2026-10-30T16:00:01.439Z"
+      "createDate": "2026-11-03T20:38:45.313Z",
+      "updateDate": "2026-11-03T20:38:45.313Z"
     },
-    "created": "2026-10-30T16:00:01.439Z",
-    "modified": "2026-10-30T16:00:01.439Z"
+    "created": "2026-11-03T20:38:45.313Z",
+    "modified": "2026-11-03T20:38:45.313Z"
   },
   {
-    "id": "0eb1f606-3026-4b46-9f86-d5b64fc82d3e",
+    "id": "360ff976-c6cf-4df5-bc4c-0394cac9386d",
     "name": "BF Hub",
     "configType": "profile",
     "json": {
@@ -18381,7 +18381,7 @@
                   },
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/work-description/contributors.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/work-description/contributors.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/role",
@@ -19050,14 +19050,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-10-30T16:00:01.444Z",
-      "updateDate": "2026-10-30T16:00:01.444Z"
+      "createDate": "2026-11-03T20:38:45.318Z",
+      "updateDate": "2026-11-03T20:38:45.318Z"
     },
-    "created": "2026-10-30T16:00:01.444Z",
-    "modified": "2026-10-30T16:00:01.444Z"
+    "created": "2026-11-03T20:38:45.318Z",
+    "modified": "2026-11-03T20:38:45.318Z"
   },
   {
-    "id": "92cbc023-1a95-47c6-953d-ffc4653fdfc4",
+    "id": "4e478c2b-6f4f-42f5-b837-f3f2c0f00bfe",
     "name": "Original BF (origbf)",
     "configType": "profile",
     "json": {
@@ -19089,7 +19089,7 @@
                   },
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/work-description/contributors.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/work-description/contributors.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/title",
@@ -19595,7 +19595,7 @@
                   },
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/work-description/contributors.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/work-description/contributors.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/role",
@@ -20529,7 +20529,7 @@
                   },
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/work-description/contributors.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/work-description/contributors.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/title",
@@ -23002,7 +23002,7 @@
                   "valueDataType": {},
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/work-description/contributors.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/work-description/contributors.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/role",
@@ -24567,14 +24567,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-10-30T16:00:01.467Z",
-      "updateDate": "2026-10-30T16:00:01.467Z"
+      "createDate": "2026-11-03T20:38:45.339Z",
+      "updateDate": "2026-11-03T20:38:45.339Z"
     },
-    "created": "2026-10-30T16:00:01.467Z",
-    "modified": "2026-10-30T16:00:01.467Z"
+    "created": "2026-11-03T20:38:45.339Z",
+    "modified": "2026-11-03T20:38:45.339Z"
   },
   {
-    "id": "bad674ea-cdab-4f1d-90a7-62a7bcfa5c15",
+    "id": "d55591d2-dba1-4541-acb8-441ac1287abd",
     "name": "BIBFRAME 2.0 Item",
     "configType": "profile",
     "json": {
@@ -25072,14 +25072,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-10-30T16:00:01.470Z",
-      "updateDate": "2026-10-30T16:00:01.470Z"
+      "createDate": "2026-11-03T20:38:45.342Z",
+      "updateDate": "2026-11-03T20:38:45.342Z"
     },
-    "created": "2026-10-30T16:00:01.470Z",
-    "modified": "2026-10-30T16:00:01.470Z"
+    "created": "2026-11-03T20:38:45.342Z",
+    "modified": "2026-11-03T20:38:45.342Z"
   },
   {
-    "id": "e372bc15-721f-4ec4-8a5a-5562e2974a6d",
+    "id": "921c1186-5a9a-43cd-b8ac-6cd3ec8bc7b9",
     "name": "BIBFRAME 2.0 Language",
     "configType": "profile",
     "json": {
@@ -25184,14 +25184,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-10-30T16:00:01.470Z",
-      "updateDate": "2026-10-30T16:00:01.470Z"
+      "createDate": "2026-11-03T20:38:45.342Z",
+      "updateDate": "2026-11-03T20:38:45.342Z"
     },
-    "created": "2026-10-30T16:00:01.470Z",
-    "modified": "2026-10-30T16:00:01.470Z"
+    "created": "2026-11-03T20:38:45.342Z",
+    "modified": "2026-11-03T20:38:45.342Z"
   },
   {
-    "id": "a26dee63-e97c-4ce6-a6d6-3d3484cd736e",
+    "id": "2aa8637f-a748-4d75-bb12-a1080588d484",
     "name": "BIBFRAME 2.0 Moving Image-DVD",
     "configType": "profile",
     "json": {
@@ -25223,7 +25223,7 @@
                   },
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/work-description/expression-hub.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/work-description/expression-hub.md"
               },
               {
                 "propertyURI": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
@@ -25261,7 +25261,7 @@
                   "valueDataType": {},
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/work-description/title-information.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/work-description/title-information.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/genreForm",
@@ -25281,7 +25281,7 @@
                   },
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/work-description/genre-form.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/work-description/genre-form.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/originDate",
@@ -25299,7 +25299,7 @@
                   },
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/work-description/date-of-work.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/work-description/date-of-work.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/originPlace",
@@ -25319,7 +25319,7 @@
                   },
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/work-description/country-of-origin.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/work-description/country-of-origin.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/identifiedBy",
@@ -25355,7 +25355,7 @@
                   "valueDataType": {},
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/work-description/intended-audience.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/work-description/intended-audience.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/contribution",
@@ -25375,7 +25375,7 @@
                   },
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/work-description/contributors.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/work-description/contributors.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/contribution",
@@ -25395,7 +25395,7 @@
                   },
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/work-description/contributors.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/work-description/contributors.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/geographicCoverage",
@@ -25413,7 +25413,7 @@
                   "valueDataType": {},
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/work-description/geographic-coverage.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/work-description/geographic-coverage.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/subject",
@@ -25433,7 +25433,7 @@
                   "valueDataType": {},
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/work-description/subjects.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/work-description/subjects.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/note",
@@ -25451,7 +25451,7 @@
                   "valueDataType": {},
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/work-description/notes-about-work.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/work-description/notes-about-work.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/tableOfContents",
@@ -25469,7 +25469,7 @@
                   "valueDataType": {},
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/work-description/contents.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/work-description/contents.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/summary",
@@ -25487,7 +25487,7 @@
                   "valueDataType": {},
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/work-description/summary.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/work-description/summary.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/content",
@@ -25512,7 +25512,7 @@
                   },
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/work-description/content-type.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/work-description/content-type.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/language",
@@ -25532,7 +25532,7 @@
                   },
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/work-description/language.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/work-description/language.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/language",
@@ -25569,7 +25569,7 @@
                   "valueDataType": {},
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/work-description/language.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/work-description/language.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/note",
@@ -25587,7 +25587,7 @@
                   "valueDataType": {},
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/work-description/language.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/work-description/language.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/capture",
@@ -25888,7 +25888,7 @@
                   "valueDataType": {},
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/instance-description/title-information.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/instance-description/title-information.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/responsibilityStatement",
@@ -25904,7 +25904,7 @@
                   "valueDataType": {},
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/instance-description/statement-of-responsibility.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/instance-description/statement-of-responsibility.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/editionStatement",
@@ -25920,7 +25920,7 @@
                   "valueDataType": {},
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/instance-description/edition-statement.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/instance-description/edition-statement.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/provisionActivity",
@@ -25941,7 +25941,7 @@
                   "valueDataType": {},
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/instance-description/provision-activity.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/instance-description/provision-activity.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/copyrightDate",
@@ -25957,7 +25957,7 @@
                   "valueDataType": {},
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/instance-description/copyright-date.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/instance-description/copyright-date.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/originPlace",
@@ -26001,7 +26001,7 @@
                   },
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/instance-description/mode-of-issuance.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/instance-description/mode-of-issuance.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/identifiedBy",
@@ -26029,7 +26029,7 @@
                   "valueDataType": {},
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/instance-description/identifiers.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/instance-description/identifiers.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/note",
@@ -26047,7 +26047,7 @@
                   "valueDataType": {},
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/instance-description/notes-about-instance.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/instance-description/notes-about-instance.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/media",
@@ -26072,7 +26072,7 @@
                   },
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/instance-description/media-type.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/instance-description/media-type.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/carrier",
@@ -26097,7 +26097,7 @@
                   },
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/instance-description/carrier-type.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/instance-description/carrier-type.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/extent",
@@ -26115,7 +26115,7 @@
                   "valueDataType": {},
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/instance-description/physical-description.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/instance-description/physical-description.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/dimensions",
@@ -26131,7 +26131,7 @@
                   "valueDataType": {},
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/instance-description/dimensions.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/instance-description/dimensions.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/duration",
@@ -27039,7 +27039,7 @@
                   },
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/work-description/contributors.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/work-description/contributors.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/role",
@@ -27088,7 +27088,7 @@
                   "valueDataType": {},
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/work-description/contributors.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/work-description/contributors.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/role",
@@ -29784,14 +29784,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-10-30T16:00:01.493Z",
-      "updateDate": "2026-10-30T16:00:01.493Z"
+      "createDate": "2026-11-03T20:38:45.360Z",
+      "updateDate": "2026-11-03T20:38:45.360Z"
     },
-    "created": "2026-10-30T16:00:01.493Z",
-    "modified": "2026-10-30T16:00:01.493Z"
+    "created": "2026-11-03T20:38:45.360Z",
+    "modified": "2026-11-03T20:38:45.360Z"
   },
   {
-    "id": "a9358586-9810-4ee7-a39f-823deddda255",
+    "id": "f3a5a15e-2efd-4f8c-98e8-688484541fae",
     "name": "BIBFRAME 2.0 Monograph",
     "configType": "profile",
     "json": {
@@ -29861,7 +29861,7 @@
                   },
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/work-description/contributors.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/work-description/contributors.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/title",
@@ -31081,7 +31081,7 @@
                   },
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/work-description/contributors.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/work-description/contributors.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/role",
@@ -31386,7 +31386,7 @@
                   "valueDataType": {},
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/work-description/contributors.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/work-description/contributors.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/role",
@@ -34522,14 +34522,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-10-30T16:00:01.514Z",
-      "updateDate": "2026-10-30T16:00:01.514Z"
+      "createDate": "2026-11-03T20:38:45.379Z",
+      "updateDate": "2026-11-03T20:38:45.379Z"
     },
-    "created": "2026-10-30T16:00:01.514Z",
-    "modified": "2026-10-30T16:00:01.514Z"
+    "created": "2026-11-03T20:38:45.379Z",
+    "modified": "2026-11-03T20:38:45.379Z"
   },
   {
-    "id": "8bb02ad8-6fd5-4cc0-97cf-d91d4dd49e24",
+    "id": "736e29cb-8448-4136-9816-df8a6aeaba55",
     "name": "BIBFRAME 2.0 Notated Music",
     "configType": "profile",
     "json": {
@@ -34600,7 +34600,7 @@
                   },
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/work-description/contributors.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/work-description/contributors.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/title",
@@ -34620,7 +34620,7 @@
                   "valueDataType": {},
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/work-description/title-information.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/work-description/title-information.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/contribution",
@@ -34640,7 +34640,7 @@
                   },
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/work-description/contributors.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/work-description/contributors.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/musicMedium",
@@ -34785,7 +34785,7 @@
                   "valueDataType": {},
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/work-description/intended-audience.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/work-description/intended-audience.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/classification",
@@ -34804,7 +34804,7 @@
                   "valueDataType": {},
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/work-description/classification-numbers.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/work-description/classification-numbers.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/genreForm",
@@ -34824,7 +34824,7 @@
                   },
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/work-description/genre-form.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/work-description/genre-form.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/subject",
@@ -34844,7 +34844,7 @@
                   "valueDataType": {},
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/work-description/subjects.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/work-description/subjects.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/note",
@@ -34862,7 +34862,7 @@
                   "valueDataType": {},
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/work-description/notes-about-work.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/work-description/notes-about-work.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/tableOfContents",
@@ -34880,7 +34880,7 @@
                   "valueDataType": {},
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/work-description/contents.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/work-description/contents.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/summary",
@@ -34898,7 +34898,7 @@
                   "valueDataType": {},
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/work-description/summary.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/work-description/summary.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/content",
@@ -34923,7 +34923,7 @@
                   },
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/work-description/content-type.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/work-description/content-type.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/language",
@@ -34943,7 +34943,7 @@
                   },
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/work-description/language.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/work-description/language.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/language",
@@ -34980,7 +34980,7 @@
                   "valueDataType": {},
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/work-description/language.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/work-description/language.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/note",
@@ -34998,7 +34998,7 @@
                   "valueDataType": {},
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/work-description/language.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/work-description/language.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/notation",
@@ -35037,7 +35037,7 @@
                   },
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/work-description/illustrative-content.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/work-description/illustrative-content.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/supplementaryContent",
@@ -35057,7 +35057,7 @@
                   },
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/work-description/supplementary-content.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/work-description/supplementary-content.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/colorContent",
@@ -35077,7 +35077,7 @@
                   },
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/work-description/color-content.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/work-description/color-content.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/duration",
@@ -35108,7 +35108,7 @@
                   "valueDataType": {},
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/work-description/date-of-work.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/work-description/date-of-work.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/originPlace",
@@ -35128,7 +35128,7 @@
                   },
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/work-description/country-of-origin.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/work-description/country-of-origin.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/relation",
@@ -35146,7 +35146,7 @@
                   "valueDataType": {},
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/work-description/input-transcribed-series.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/work-description/input-transcribed-series.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/relation",
@@ -35164,7 +35164,7 @@
                   "valueDataType": {},
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/work-description/search-related-work.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/work-description/search-related-work.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/hasInstance",
@@ -35241,7 +35241,7 @@
                   "valueDataType": {},
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/instance-description/statement-of-responsibility.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/instance-description/statement-of-responsibility.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/editionStatement",
@@ -35257,7 +35257,7 @@
                   "valueDataType": {},
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/instance-description/edition-statement.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/instance-description/edition-statement.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/provisionActivity",
@@ -35278,7 +35278,7 @@
                   "valueDataType": {},
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/instance-description/provision-activity.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/instance-description/provision-activity.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/copyrightDate",
@@ -35294,7 +35294,7 @@
                   "valueDataType": {},
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/instance-description/copyright-date.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/instance-description/copyright-date.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/issuance",
@@ -35319,7 +35319,7 @@
                   },
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/instance-description/mode-of-issuance.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/instance-description/mode-of-issuance.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/identifiedBy",
@@ -35347,7 +35347,7 @@
                   "valueDataType": {},
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/instance-description/identifiers.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/instance-description/identifiers.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/note",
@@ -35365,7 +35365,7 @@
                   "valueDataType": {},
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/instance-description/notes-about-instance.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/instance-description/notes-about-instance.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/supplementaryContent",
@@ -35383,7 +35383,7 @@
                   "valueDataType": {},
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/instance-description/supplementary-content-url.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/instance-description/supplementary-content-url.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/media",
@@ -35408,7 +35408,7 @@
                   },
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/instance-description/media-type.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/instance-description/media-type.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/carrier",
@@ -35433,7 +35433,7 @@
                   },
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/instance-description/carrier-type.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/instance-description/carrier-type.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/extent",
@@ -35451,7 +35451,7 @@
                   "valueDataType": {},
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/instance-description/physical-description.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/instance-description/physical-description.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/dimensions",
@@ -35467,7 +35467,7 @@
                   "valueDataType": {},
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/instance-description/dimensions.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/instance-description/dimensions.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/electronicLocator",
@@ -35485,7 +35485,7 @@
                   "valueDataType": {},
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/instance-description/url-of-instance.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/instance-description/url-of-instance.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/hasItem",
@@ -35612,7 +35612,7 @@
                   },
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/work-description/contributors.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/work-description/contributors.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/role",
@@ -35917,7 +35917,7 @@
                   "valueDataType": {},
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/work-description/contributors.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/work-description/contributors.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/role",
@@ -38714,14 +38714,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-10-30T16:00:01.531Z",
-      "updateDate": "2026-10-30T16:00:01.531Z"
+      "createDate": "2026-11-03T20:38:45.397Z",
+      "updateDate": "2026-11-03T20:38:45.397Z"
     },
-    "created": "2026-10-30T16:00:01.531Z",
-    "modified": "2026-10-30T16:00:01.531Z"
+    "created": "2026-11-03T20:38:45.397Z",
+    "modified": "2026-11-03T20:38:45.397Z"
   },
   {
-    "id": "37db2312-1824-40fb-9232-44d895e8035f",
+    "id": "ae86b0bc-5004-4a98-b94f-2f394e1109c1",
     "name": "BIBFRAME 2.0 Note",
     "configType": "profile",
     "json": {
@@ -39089,14 +39089,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-10-30T16:00:01.533Z",
-      "updateDate": "2026-10-30T16:00:01.533Z"
+      "createDate": "2026-11-03T20:38:45.400Z",
+      "updateDate": "2026-11-03T20:38:45.400Z"
     },
-    "created": "2026-10-30T16:00:01.533Z",
-    "modified": "2026-10-30T16:00:01.533Z"
+    "created": "2026-11-03T20:38:45.400Z",
+    "modified": "2026-11-03T20:38:45.400Z"
   },
   {
-    "id": "0944baca-97a2-4297-84e4-5db3d25b951e",
+    "id": "e5d22843-3b2f-40a2-a46e-1b195134a8de",
     "name": "Prints & Photographs",
     "configType": "profile",
     "json": {
@@ -39167,7 +39167,7 @@
                   },
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/work-description/contributors.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/work-description/contributors.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/contribution",
@@ -39187,7 +39187,7 @@
                   },
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/work-description/contributors.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/work-description/contributors.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/genreForm",
@@ -40612,7 +40612,7 @@
                   },
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/work-description/contributors.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/work-description/contributors.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/role",
@@ -40661,7 +40661,7 @@
                   "valueDataType": {},
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/work-description/contributors.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/work-description/contributors.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/role",
@@ -42537,14 +42537,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-10-30T16:00:01.550Z",
-      "updateDate": "2026-10-30T16:00:01.550Z"
+      "createDate": "2026-11-03T20:38:45.415Z",
+      "updateDate": "2026-11-03T20:38:45.415Z"
     },
-    "created": "2026-10-30T16:00:01.550Z",
-    "modified": "2026-10-30T16:00:01.550Z"
+    "created": "2026-11-03T20:38:45.415Z",
+    "modified": "2026-11-03T20:38:45.415Z"
   },
   {
-    "id": "b19d8726-752b-404f-b4d8-2715cf1c78ec",
+    "id": "535125cf-f192-4d4e-a1a5-d8fee968ba5a",
     "name": "BIBFRAME 2.0 Publication, Distribution, Manufacturer Activity",
     "configType": "profile",
     "json": {
@@ -42909,14 +42909,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-10-30T16:00:01.551Z",
-      "updateDate": "2026-10-30T16:00:01.551Z"
+      "createDate": "2026-11-03T20:38:45.416Z",
+      "updateDate": "2026-11-03T20:38:45.416Z"
     },
-    "created": "2026-10-30T16:00:01.551Z",
-    "modified": "2026-10-30T16:00:01.551Z"
+    "created": "2026-11-03T20:38:45.416Z",
+    "modified": "2026-11-03T20:38:45.416Z"
   },
   {
-    "id": "76e853dd-5bd6-4832-b28c-8a8f3b9fd4d7",
+    "id": "7c9ce8bd-382e-4e1b-976f-205e7756c999",
     "name": "BIBFRAME 2.0 Rare Materials",
     "configType": "profile",
     "json": {
@@ -42948,7 +42948,7 @@
                   },
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/work-description/expression-hub.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/work-description/expression-hub.md"
               },
               {
                 "propertyURI": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
@@ -42987,7 +42987,7 @@
                   },
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/work-description/contributors.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/work-description/contributors.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/title",
@@ -43007,7 +43007,7 @@
                   "valueDataType": {},
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/work-description/title-information.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/work-description/title-information.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/contribution",
@@ -43027,7 +43027,7 @@
                   },
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/work-description/contributors.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/work-description/contributors.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/subject",
@@ -43046,7 +43046,7 @@
                   "valueDataType": {},
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/work-description/subjects.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/work-description/subjects.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/geographicCoverage",
@@ -43064,7 +43064,7 @@
                   "valueDataType": {},
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/work-description/geographic-coverage.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/work-description/geographic-coverage.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/genreForm",
@@ -43084,7 +43084,7 @@
                   },
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/work-description/genre-form.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/work-description/genre-form.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/classification",
@@ -43103,7 +43103,7 @@
                   "valueDataType": {},
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/work-description/classification-numbers.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/work-description/classification-numbers.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/intendedAudience",
@@ -43121,7 +43121,7 @@
                   "valueDataType": {},
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/work-description/intended-audience.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/work-description/intended-audience.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/content",
@@ -43146,7 +43146,7 @@
                   },
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/work-description/content-type.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/work-description/content-type.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/note",
@@ -43164,7 +43164,7 @@
                   "valueDataType": {},
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/work-description/notes-about-work.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/work-description/notes-about-work.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/tableOfContents",
@@ -43182,7 +43182,7 @@
                   "valueDataType": {},
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/work-description/contents.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/work-description/contents.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/summary",
@@ -43200,7 +43200,7 @@
                   "valueDataType": {},
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/work-description/summary.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/work-description/summary.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/language",
@@ -43220,7 +43220,7 @@
                   },
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/work-description/language.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/work-description/language.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/language",
@@ -43257,7 +43257,7 @@
                   "valueDataType": {},
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/work-description/language.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/work-description/language.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/note",
@@ -43275,7 +43275,7 @@
                   "valueDataType": {},
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/work-description/language.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/work-description/language.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/supplementaryContent",
@@ -43295,7 +43295,7 @@
                   },
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/work-description/supplementary-content.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/work-description/supplementary-content.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/illustrativeContent",
@@ -43315,7 +43315,7 @@
                   },
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/work-description/illustrative-content.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/work-description/illustrative-content.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/colorContent",
@@ -43335,7 +43335,7 @@
                   },
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/work-description/color-content.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/work-description/color-content.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/relation",
@@ -43371,7 +43371,7 @@
                   "valueDataType": {},
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/work-description/input-transcribed-series.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/work-description/input-transcribed-series.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/hasInstance",
@@ -43433,7 +43433,7 @@
                   "valueDataType": {},
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/instance-description/title-information.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/instance-description/title-information.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/responsibilityStatement",
@@ -43449,7 +43449,7 @@
                   "valueDataType": {},
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/instance-description/statement-of-responsibility.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/instance-description/statement-of-responsibility.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/editionStatement",
@@ -43465,7 +43465,7 @@
                   "valueDataType": {},
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/instance-description/edition-statement.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/instance-description/edition-statement.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/provisionActivity",
@@ -43486,7 +43486,7 @@
                   "valueDataType": {},
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/instance-description/provision-activity.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/instance-description/provision-activity.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/copyrightDate",
@@ -43502,7 +43502,7 @@
                   "valueDataType": {},
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/instance-description/copyright-date.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/instance-description/copyright-date.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/genreForm",
@@ -43543,7 +43543,7 @@
                   "valueDataType": {},
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/instance-description/identifiers.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/instance-description/identifiers.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/note",
@@ -43561,7 +43561,7 @@
                   "valueDataType": {},
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/instance-description/notes-about-instance.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/instance-description/notes-about-instance.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/supplementaryContent",
@@ -43579,7 +43579,7 @@
                   "valueDataType": {},
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/instance-description/supplementary-content-url.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/instance-description/supplementary-content-url.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/issuance",
@@ -43604,7 +43604,7 @@
                   },
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/instance-description/mode-of-issuance.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/instance-description/mode-of-issuance.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/media",
@@ -43629,7 +43629,7 @@
                   },
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/instance-description/media-type.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/instance-description/media-type.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/carrier",
@@ -43654,7 +43654,7 @@
                   },
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/instance-description/carrier-type.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/instance-description/carrier-type.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/extent",
@@ -43672,7 +43672,7 @@
                   "valueDataType": {},
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/instance-description/physical-description.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/instance-description/physical-description.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/dimensions",
@@ -43688,7 +43688,7 @@
                   "valueDataType": {},
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/instance-description/dimensions.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/instance-description/dimensions.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/bookFormat",
@@ -44209,7 +44209,7 @@
                   },
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/work-description/contributors.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/work-description/contributors.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/role",
@@ -44514,7 +44514,7 @@
                   "valueDataType": {},
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/work-description/contributors.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/work-description/contributors.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/role",
@@ -46719,14 +46719,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-10-30T16:00:01.567Z",
-      "updateDate": "2026-10-30T16:00:01.567Z"
+      "createDate": "2026-11-03T20:38:45.432Z",
+      "updateDate": "2026-11-03T20:38:45.432Z"
     },
-    "created": "2026-10-30T16:00:01.567Z",
-    "modified": "2026-10-30T16:00:01.567Z"
+    "created": "2026-11-03T20:38:45.432Z",
+    "modified": "2026-11-03T20:38:45.432Z"
   },
   {
-    "id": "c49baab7-d73e-4bf4-a749-988c0e80c9d0",
+    "id": "860ad54f-47a0-49e6-8278-cfeeb8aeb9ea",
     "name": "BIBFRAME 2.0 Related Works and Expressions",
     "configType": "profile",
     "json": {
@@ -47146,14 +47146,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-10-30T16:00:01.569Z",
-      "updateDate": "2026-10-30T16:00:01.569Z"
+      "createDate": "2026-11-03T20:38:45.434Z",
+      "updateDate": "2026-11-03T20:38:45.434Z"
     },
-    "created": "2026-10-30T16:00:01.569Z",
-    "modified": "2026-10-30T16:00:01.569Z"
+    "created": "2026-11-03T20:38:45.434Z",
+    "modified": "2026-11-03T20:38:45.434Z"
   },
   {
-    "id": "432c8ef1-c794-41b9-baeb-f08328b2c8c8",
+    "id": "d4623912-ac77-47e7-be18-821720294a40",
     "name": "BIBFRAME 2.0 Serial",
     "configType": "profile",
     "json": {
@@ -47226,7 +47226,7 @@
                   },
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/work-description/contributors.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/work-description/contributors.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/genreForm",
@@ -47370,7 +47370,7 @@
                   },
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/work-description/contributors.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/work-description/contributors.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/geographicCoverage",
@@ -48912,7 +48912,7 @@
                   },
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/work-description/contributors.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/work-description/contributors.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/role",
@@ -49168,7 +49168,7 @@
                   "valueDataType": {},
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/work-description/contributors.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/work-description/contributors.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/role",
@@ -51892,14 +51892,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-10-30T16:00:01.589Z",
-      "updateDate": "2026-10-30T16:00:01.589Z"
+      "createDate": "2026-11-03T20:38:45.458Z",
+      "updateDate": "2026-11-03T20:38:45.458Z"
     },
-    "created": "2026-10-30T16:00:01.589Z",
-    "modified": "2026-10-30T16:00:01.589Z"
+    "created": "2026-11-03T20:38:45.458Z",
+    "modified": "2026-11-03T20:38:45.458Z"
   },
   {
-    "id": "d060f53f-5eb8-405e-9965-6f0cc450714e",
+    "id": "748be178-1713-40a4-aa3d-0d8857dc3c2a",
     "name": "BIBFRAME 2.0 Series Information",
     "configType": "profile",
     "json": {
@@ -52205,14 +52205,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-10-30T16:00:01.590Z",
-      "updateDate": "2026-10-30T16:00:01.590Z"
+      "createDate": "2026-11-03T20:38:45.459Z",
+      "updateDate": "2026-11-03T20:38:45.459Z"
     },
-    "created": "2026-10-30T16:00:01.590Z",
-    "modified": "2026-10-30T16:00:01.590Z"
+    "created": "2026-11-03T20:38:45.459Z",
+    "modified": "2026-11-03T20:38:45.459Z"
   },
   {
-    "id": "8583c08d-fe87-4965-a4cb-fdfd22535584",
+    "id": "2a782516-67ea-4cca-8460-d43f4d3438a7",
     "name": "BIBFRAME 2.0 Sound Recording-Audio CD-R",
     "configType": "profile",
     "json": {
@@ -52244,7 +52244,7 @@
                   },
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/work-description/expression-hub.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/work-description/expression-hub.md"
               },
               {
                 "propertyURI": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
@@ -52283,7 +52283,7 @@
                   },
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/work-description/contributors.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/work-description/contributors.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/title",
@@ -52303,7 +52303,7 @@
                   "valueDataType": {},
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/work-description/title-information.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/work-description/title-information.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/contribution",
@@ -52323,7 +52323,7 @@
                   },
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/work-description/contributors.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/work-description/contributors.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/language",
@@ -52343,7 +52343,7 @@
                   },
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/work-description/language.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/work-description/language.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/language",
@@ -52380,7 +52380,7 @@
                   "valueDataType": {},
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/work-description/language.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/work-description/language.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/note",
@@ -52398,7 +52398,7 @@
                   "valueDataType": {},
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/work-description/language.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/work-description/language.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/musicMedium",
@@ -52486,7 +52486,7 @@
                   "valueDataType": {},
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/work-description/intended-audience.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/work-description/intended-audience.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/geographicCoverage",
@@ -52504,7 +52504,7 @@
                   "valueDataType": {},
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/work-description/geographic-coverage.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/work-description/geographic-coverage.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/genreForm",
@@ -52524,7 +52524,7 @@
                   },
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/work-description/genre-form.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/work-description/genre-form.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/subject",
@@ -52544,7 +52544,7 @@
                   "valueDataType": {},
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/work-description/subjects.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/work-description/subjects.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/note",
@@ -52562,7 +52562,7 @@
                   "valueDataType": {},
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/work-description/notes-about-work.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/work-description/notes-about-work.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/tableOfContents",
@@ -52580,7 +52580,7 @@
                   "valueDataType": {},
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/work-description/contents.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/work-description/contents.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/summary",
@@ -52598,7 +52598,7 @@
                   "valueDataType": {},
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/work-description/summary.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/work-description/summary.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/content",
@@ -52623,7 +52623,7 @@
                   },
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/work-description/content-type.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/work-description/content-type.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/capture",
@@ -52660,7 +52660,7 @@
                   },
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/work-description/supplementary-content.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/work-description/supplementary-content.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/originDate",
@@ -52676,7 +52676,7 @@
                   "valueDataType": {},
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/work-description/date-of-work.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/work-description/date-of-work.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/originPlace",
@@ -52696,7 +52696,7 @@
                   },
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/work-description/country-of-origin.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/work-description/country-of-origin.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/relation",
@@ -52714,7 +52714,7 @@
                   "valueDataType": {},
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/work-description/search-related-work.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/work-description/search-related-work.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/relation",
@@ -52732,7 +52732,7 @@
                   "valueDataType": {},
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/work-description/input-transcribed-series.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/work-description/input-transcribed-series.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/hasInstance",
@@ -52793,7 +52793,7 @@
                   "valueDataType": {},
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/instance-description/title-information.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/instance-description/title-information.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/responsibilityStatement",
@@ -52809,7 +52809,7 @@
                   "valueDataType": {},
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/instance-description/statement-of-responsibility.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/instance-description/statement-of-responsibility.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/editionStatement",
@@ -52825,7 +52825,7 @@
                   "valueDataType": {},
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/instance-description/edition-statement.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/instance-description/edition-statement.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/provisionActivity",
@@ -52846,7 +52846,7 @@
                   "valueDataType": {},
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/instance-description/provision-activity.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/instance-description/provision-activity.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/copyrightDate",
@@ -52862,7 +52862,7 @@
                   "valueDataType": {},
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/instance-description/copyright-date.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/instance-description/copyright-date.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/issuance",
@@ -52887,7 +52887,7 @@
                   },
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/instance-description/mode-of-issuance.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/instance-description/mode-of-issuance.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/identifiedBy",
@@ -52917,7 +52917,7 @@
                   "valueDataType": {},
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/instance-description/identifiers.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/instance-description/identifiers.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/note",
@@ -52935,7 +52935,7 @@
                   "valueDataType": {},
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/instance-description/notes-about-instance.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/instance-description/notes-about-instance.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/supplementaryContent",
@@ -52953,7 +52953,7 @@
                   "valueDataType": {},
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/instance-description/supplementary-content-url.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/instance-description/supplementary-content-url.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/media",
@@ -53002,7 +53002,7 @@
                   },
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/instance-description/carrier-type.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/instance-description/carrier-type.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/extent",
@@ -53020,7 +53020,7 @@
                   "valueDataType": {},
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/instance-description/physical-description.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/instance-description/physical-description.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/dimensions",
@@ -53036,7 +53036,7 @@
                   "valueDataType": {},
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/instance-description/dimensions.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/instance-description/dimensions.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/duration",
@@ -53193,7 +53193,7 @@
                   "valueDataType": {},
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/instance-description/url-of-instance.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/instance-description/url-of-instance.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/hasItem",
@@ -53320,7 +53320,7 @@
                   },
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/work-description/contributors.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/work-description/contributors.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/role",
@@ -53625,7 +53625,7 @@
                   "valueDataType": {},
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/work-description/contributors.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/work-description/contributors.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/role",
@@ -56625,14 +56625,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-10-30T16:00:01.610Z",
-      "updateDate": "2026-10-30T16:00:01.610Z"
+      "createDate": "2026-11-03T20:38:45.481Z",
+      "updateDate": "2026-11-03T20:38:45.481Z"
     },
-    "created": "2026-10-30T16:00:01.610Z",
-    "modified": "2026-10-30T16:00:01.610Z"
+    "created": "2026-11-03T20:38:45.481Z",
+    "modified": "2026-11-03T20:38:45.481Z"
   },
   {
-    "id": "10364909-4f3f-43b6-887a-e180bed929f7",
+    "id": "7fd10ea2-987c-4f46-a25a-e23111dcf269",
     "name": "BIBFRAME 2.0 Sound Recording-Audio Cassette",
     "configType": "profile",
     "json": {
@@ -56703,7 +56703,7 @@
                   },
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/work-description/contributors.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/work-description/contributors.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/title",
@@ -56723,7 +56723,7 @@
                   "valueDataType": {},
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/work-description/title-information.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/work-description/title-information.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/contribution",
@@ -56743,7 +56743,7 @@
                   },
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/work-description/contributors.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/work-description/contributors.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/musicMedium",
@@ -56831,7 +56831,7 @@
                   "valueDataType": {},
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/work-description/intended-audience.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/work-description/intended-audience.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/geographicCoverage",
@@ -56849,7 +56849,7 @@
                   "valueDataType": {},
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/work-description/geographic-coverage.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/work-description/geographic-coverage.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/genreForm",
@@ -56888,7 +56888,7 @@
                   "valueDataType": {},
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/work-description/subjects.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/work-description/subjects.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/note",
@@ -56906,7 +56906,7 @@
                   "valueDataType": {},
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/work-description/notes-about-work.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/work-description/notes-about-work.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/tableOfContents",
@@ -56924,7 +56924,7 @@
                   "valueDataType": {},
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/work-description/contents.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/work-description/contents.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/summary",
@@ -56942,7 +56942,7 @@
                   "valueDataType": {},
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/work-description/summary.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/work-description/summary.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/content",
@@ -56967,7 +56967,7 @@
                   },
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/work-description/content-type.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/work-description/content-type.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/language",
@@ -56987,7 +56987,7 @@
                   },
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/work-description/language.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/work-description/language.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/language",
@@ -57024,7 +57024,7 @@
                   "valueDataType": {},
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/work-description/language.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/work-description/language.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/note",
@@ -57042,7 +57042,7 @@
                   "valueDataType": {},
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/work-description/language.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/work-description/language.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/capture",
@@ -57079,7 +57079,7 @@
                   },
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/work-description/supplementary-content.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/work-description/supplementary-content.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/originDate",
@@ -57095,7 +57095,7 @@
                   "valueDataType": {},
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/work-description/date-of-work.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/work-description/date-of-work.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/originPlace",
@@ -57115,7 +57115,7 @@
                   },
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/work-description/country-of-origin.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/work-description/country-of-origin.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/relation",
@@ -57133,7 +57133,7 @@
                   "valueDataType": {},
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/work-description/search-related-work.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/work-description/search-related-work.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/relation",
@@ -57151,7 +57151,7 @@
                   "valueDataType": {},
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/work-description/input-transcribed-series.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/work-description/input-transcribed-series.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/hasInstance",
@@ -57212,7 +57212,7 @@
                   "valueDataType": {},
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/instance-description/title-information.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/instance-description/title-information.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/responsibilityStatement",
@@ -57228,7 +57228,7 @@
                   "valueDataType": {},
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/instance-description/statement-of-responsibility.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/instance-description/statement-of-responsibility.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/editionStatement",
@@ -57244,7 +57244,7 @@
                   "valueDataType": {},
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/instance-description/edition-statement.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/instance-description/edition-statement.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/provisionActivity",
@@ -57265,7 +57265,7 @@
                   "valueDataType": {},
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/instance-description/provision-activity.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/instance-description/provision-activity.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/copyrightDate",
@@ -57281,7 +57281,7 @@
                   "valueDataType": {},
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/instance-description/copyright-date.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/instance-description/copyright-date.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/issuance",
@@ -57306,7 +57306,7 @@
                   },
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/instance-description/mode-of-issuance.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/instance-description/mode-of-issuance.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/identifiedBy",
@@ -57336,7 +57336,7 @@
                   "valueDataType": {},
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/instance-description/identifiers.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/instance-description/identifiers.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/note",
@@ -57354,7 +57354,7 @@
                   "valueDataType": {},
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/instance-description/notes-about-instance.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/instance-description/notes-about-instance.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/supplementaryContent",
@@ -57372,7 +57372,7 @@
                   "valueDataType": {},
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/instance-description/supplementary-content-url.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/instance-description/supplementary-content-url.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/media",
@@ -57397,7 +57397,7 @@
                   },
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/instance-description/media-type.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/instance-description/media-type.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/carrier",
@@ -57422,7 +57422,7 @@
                   },
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/instance-description/carrier-type.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/instance-description/carrier-type.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/extent",
@@ -57440,7 +57440,7 @@
                   "valueDataType": {},
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/instance-description/physical-description.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/instance-description/physical-description.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/dimensions",
@@ -57456,7 +57456,7 @@
                   "valueDataType": {},
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/instance-description/dimensions.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/instance-description/dimensions.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/duration",
@@ -57552,7 +57552,7 @@
                   "valueDataType": {},
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/instance-description/url-of-instance.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/instance-description/url-of-instance.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/hasItem",
@@ -57703,7 +57703,7 @@
                   },
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/work-description/contributors.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/work-description/contributors.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/role",
@@ -58008,7 +58008,7 @@
                   "valueDataType": {},
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/work-description/contributors.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/work-description/contributors.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/role",
@@ -60934,14 +60934,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-10-30T16:00:01.627Z",
-      "updateDate": "2026-10-30T16:00:01.627Z"
+      "createDate": "2026-11-03T20:38:45.502Z",
+      "updateDate": "2026-11-03T20:38:45.502Z"
     },
-    "created": "2026-10-30T16:00:01.627Z",
-    "modified": "2026-10-30T16:00:01.627Z"
+    "created": "2026-11-03T20:38:45.502Z",
+    "modified": "2026-11-03T20:38:45.502Z"
   },
   {
-    "id": "6153acb0-cded-4929-85cc-b829d8294536",
+    "id": "b21649fe-a45d-4978-a0d8-62b937507dfe",
     "name": "BIBFRAME 2.0 Sound Recording-Audio CD",
     "configType": "profile",
     "json": {
@@ -60973,7 +60973,7 @@
                   },
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/work-description/expression-hub.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/work-description/expression-hub.md"
               },
               {
                 "propertyURI": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
@@ -61012,7 +61012,7 @@
                   },
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/work-description/contributors.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/work-description/contributors.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/title",
@@ -61032,7 +61032,7 @@
                   "valueDataType": {},
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/work-description/title-information.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/work-description/title-information.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/contribution",
@@ -61052,7 +61052,7 @@
                   },
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/work-description/contributors.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/work-description/contributors.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/language",
@@ -61072,7 +61072,7 @@
                   },
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/work-description/language.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/work-description/language.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/language",
@@ -61111,7 +61111,7 @@
                   },
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/work-description/language.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/work-description/language.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/note",
@@ -61129,7 +61129,7 @@
                   "valueDataType": {},
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/work-description/language.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/work-description/language.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/musicMedium",
@@ -61234,7 +61234,7 @@
                   "valueDataType": {},
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/work-description/geographic-coverage.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/work-description/geographic-coverage.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/genreForm",
@@ -61254,7 +61254,7 @@
                   },
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/work-description/genre-form.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/work-description/genre-form.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/subject",
@@ -61274,7 +61274,7 @@
                   "valueDataType": {},
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/work-description/subjects.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/work-description/subjects.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/note",
@@ -61292,7 +61292,7 @@
                   "valueDataType": {},
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/work-description/notes-about-work.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/work-description/notes-about-work.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/tableOfContents",
@@ -61310,7 +61310,7 @@
                   "valueDataType": {},
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/work-description/contents.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/work-description/contents.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/summary",
@@ -61328,7 +61328,7 @@
                   "valueDataType": {},
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/work-description/summary.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/work-description/summary.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/content",
@@ -61353,7 +61353,7 @@
                   },
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/work-description/content-type.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/work-description/content-type.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/capture",
@@ -61390,7 +61390,7 @@
                   },
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/work-description/supplementary-content.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/work-description/supplementary-content.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/originDate",
@@ -61406,7 +61406,7 @@
                   "valueDataType": {},
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/work-description/date-of-work.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/work-description/date-of-work.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/originPlace",
@@ -61426,7 +61426,7 @@
                   },
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/work-description/country-of-origin.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/work-description/country-of-origin.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/relation",
@@ -61444,7 +61444,7 @@
                   "valueDataType": {},
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/work-description/search-related-work.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/work-description/search-related-work.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/relation",
@@ -61462,7 +61462,7 @@
                   "valueDataType": {},
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/work-description/input-transcribed-series.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/work-description/input-transcribed-series.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/hasInstance",
@@ -61525,7 +61525,7 @@
                   "valueDataType": {},
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/instance-description/title-information.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/instance-description/title-information.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/responsibilityStatement",
@@ -61541,7 +61541,7 @@
                   "valueDataType": {},
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/instance-description/statement-of-responsibility.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/instance-description/statement-of-responsibility.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/editionStatement",
@@ -61557,7 +61557,7 @@
                   "valueDataType": {},
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/instance-description/edition-statement.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/instance-description/edition-statement.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/provisionActivity",
@@ -61578,7 +61578,7 @@
                   "valueDataType": {},
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/instance-description/provision-activity.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/instance-description/provision-activity.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/copyrightDate",
@@ -61594,7 +61594,7 @@
                   "valueDataType": {},
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/instance-description/copyright-date.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/instance-description/copyright-date.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/issuance",
@@ -61619,7 +61619,7 @@
                   },
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/instance-description/mode-of-issuance.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/instance-description/mode-of-issuance.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/identifiedBy",
@@ -61649,7 +61649,7 @@
                   "valueDataType": {},
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/instance-description/identifiers.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/instance-description/identifiers.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/note",
@@ -61667,7 +61667,7 @@
                   "valueDataType": {},
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/instance-description/notes-about-instance.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/instance-description/notes-about-instance.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/supplementaryContent",
@@ -61685,7 +61685,7 @@
                   "valueDataType": {},
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/instance-description/supplementary-content-url.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/instance-description/supplementary-content-url.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/media",
@@ -61735,7 +61735,7 @@
                   },
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/instance-description/carrier-type.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/instance-description/carrier-type.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/extent",
@@ -61753,7 +61753,7 @@
                   "valueDataType": {},
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/instance-description/physical-description.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/instance-description/physical-description.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/dimensions",
@@ -61769,7 +61769,7 @@
                   "valueDataType": {},
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/instance-description/dimensions.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/instance-description/dimensions.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/duration",
@@ -61883,7 +61883,7 @@
                   "valueDataType": {},
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/instance-description/url-of-instance.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/instance-description/url-of-instance.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/hasItem",
@@ -62010,7 +62010,7 @@
                   },
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/work-description/contributors.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/work-description/contributors.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/role",
@@ -62315,7 +62315,7 @@
                   "valueDataType": {},
                   "picklist": []
                 },
-                "remark": "https://bibframe.org/view/documentation-marva-manual/work-description/contributors.md"
+                "remark": "https://bibframe.org/docs/view/documentation-marva-manual/work-description/contributors.md"
               },
               {
                 "propertyURI": "http://id.loc.gov/ontologies/bibframe/role",
@@ -65315,14 +65315,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-10-30T16:00:01.645Z",
-      "updateDate": "2026-10-30T16:00:01.645Z"
+      "createDate": "2026-11-03T20:38:45.525Z",
+      "updateDate": "2026-11-03T20:38:45.525Z"
     },
-    "created": "2026-10-30T16:00:01.645Z",
-    "modified": "2026-10-30T16:00:01.645Z"
+    "created": "2026-11-03T20:38:45.525Z",
+    "modified": "2026-11-03T20:38:45.525Z"
   },
   {
-    "id": "f692c470-4743-4348-818e-5cd17cddf3f2",
+    "id": "5d38517d-42d4-4cd3-9531-4b9ebfba885d",
     "name": "BIBFRAME 2.0 Title Information",
     "configType": "profile",
     "json": {
@@ -65848,14 +65848,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-10-30T16:00:01.646Z",
-      "updateDate": "2026-10-30T16:00:01.646Z"
+      "createDate": "2026-11-03T20:38:45.528Z",
+      "updateDate": "2026-11-03T20:38:45.528Z"
     },
-    "created": "2026-10-30T16:00:01.646Z",
-    "modified": "2026-10-30T16:00:01.646Z"
+    "created": "2026-11-03T20:38:45.528Z",
+    "modified": "2026-11-03T20:38:45.528Z"
   },
   {
-    "id": "3c869e3c-aff3-4068-9276-3c1a98c9b487",
+    "id": "f4665aa3-472d-4385-b652-9c2e0bbe4296",
     "name": "BIBFRAME 2.0 Topic",
     "configType": "profile",
     "json": {
@@ -68286,10 +68286,10 @@
       }
     },
     "metadata": {
-      "createDate": "2026-10-30T16:00:01.656Z",
-      "updateDate": "2026-10-30T16:00:01.656Z"
+      "createDate": "2026-11-03T20:38:45.540Z",
+      "updateDate": "2026-11-03T20:38:45.540Z"
     },
-    "created": "2026-10-30T16:00:01.656Z",
-    "modified": "2026-10-30T16:00:01.656Z"
+    "created": "2026-11-03T20:38:45.540Z",
+    "modified": "2026-11-03T20:38:45.540Z"
   }
 ]
