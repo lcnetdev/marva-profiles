@@ -1,6 +1,6 @@
 [
   {
-    "id": "3cdb71d5-cd4d-4a00-b53b-6c054d751ea9",
+    "id": "b1840e0a-3ed1-453c-88d3-4f5c2223d126",
     "name": "BIBFRAME 2.0 Moving Image",
     "configType": "profile",
     "json": {
@@ -4271,14 +4271,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-10-30T16:00:03.261Z",
-      "updateDate": "2026-10-30T16:00:03.261Z"
+      "createDate": "2026-11-04T19:13:35.091Z",
+      "updateDate": "2026-11-04T19:13:35.091Z"
     },
-    "created": "2026-10-30T16:00:03.261Z",
-    "modified": "2026-10-30T16:00:03.261Z"
+    "created": "2026-11-04T19:13:35.091Z",
+    "modified": "2026-11-04T19:13:35.091Z"
   },
   {
-    "id": "204f3f87-43e1-44aa-96ad-b67f046157df",
+    "id": "e327f17b-9dee-4eae-b0f8-15b8b9100471",
     "name": "Three-dimensional object",
     "configType": "profile",
     "json": {
@@ -4468,7 +4468,8 @@
                 "resourceTemplates": [],
                 "valueConstraint": {
                   "valueTemplateRefs": [
-                    "lc:RT:Form"
+                    "lc:RT:Form",
+                    "lc:RT:MarcGT"
                   ],
                   "useValuesFrom": [],
                   "defaults": [],
@@ -4738,6 +4739,23 @@
                   "valueDataType": {
                     "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Issuance"
                   },
+                  "picklist": []
+                }
+              },
+              {
+                "propertyURI": "http://id.loc.gov/ontologies/bibframe/hasItem",
+                "propertyLabel": "Has Item",
+                "mandatory": "false",
+                "repeatable": "true",
+                "type": "resource",
+                "resourceTemplates": [],
+                "valueConstraint": {
+                  "valueTemplateRefs": [
+                    "lc:RT:3DObject:Item"
+                  ],
+                  "useValuesFrom": [],
+                  "defaults": [],
+                  "valueDataType": {},
                   "picklist": []
                 }
               }
@@ -5399,6 +5417,54 @@
             ]
           },
           {
+            "id": "lc:RT:MarcGT",
+            "resourceURI": "http://id.loc.gov/ontologies/bibframe/GenreForm",
+            "resourceLabel": "TGM Terms",
+            "propertyTemplates": [
+              {
+                "propertyURI": "http://www.w3.org/2002/07/owl#sameAs",
+                "propertyLabel": "Search TGM",
+                "mandatory": "FALSE",
+                "repeatable": "TRUE",
+                "type": "lookup",
+                "resourceTemplates": [],
+                "valueConstraint": {
+                  "valueTemplateRefs": [],
+                  "useValuesFrom": [
+                    "http://id.loc.gov/vocabulary/graphicMaterials"
+                  ],
+                  "defaults": [],
+                  "valueDataType": {
+                    "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/GenreForm"
+                  },
+                  "picklist": []
+                }
+              },
+              {
+                "propertyURI": "http://id.loc.gov/ontologies/bibframe/source",
+                "propertyLabel": "Source",
+                "mandatory": "FALSE",
+                "repeatable": "FALSE",
+                "type": "literal",
+                "resourceTemplates": [],
+                "valueConstraint": {
+                  "valueTemplateRefs": [],
+                  "useValuesFrom": [],
+                  "defaults": [
+                    {
+                      "defaultLiteral": "Thesaurus for graphic materials: TGM II",
+                      "defaultURI": "http://id.loc.gov/vocabulary/genreFormSchemes/gmgpc"
+                    }
+                  ],
+                  "valueDataType": {
+                    "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Source"
+                  },
+                  "picklist": []
+                }
+              }
+            ]
+          },
+          {
             "id": "lc:RT:Form:Geog",
             "resourceURI": "http://id.loc.gov/ontologies/bibframe/GeographicCoverage",
             "resourceLabel": "Geographic coverage",
@@ -5998,6 +6064,66 @@
             ]
           },
           {
+            "id": "lc:RT:3DObject:Item",
+            "resourceURI": "http://id.loc.gov/ontologies/bibframe/Item",
+            "resourceLabel": "BIBFRAME Item",
+            "propertyTemplates": [
+              {
+                "propertyURI": "http://id.loc.gov/ontologies/bibframe/heldBy",
+                "propertyLabel": "Held by",
+                "mandatory": "true",
+                "repeatable": "false",
+                "type": "lookup",
+                "resourceTemplates": [],
+                "valueConstraint": {
+                  "valueTemplateRefs": [],
+                  "useValuesFrom": [
+                    "http://id.loc.gov/vocabulary/organizations"
+                  ],
+                  "defaults": [],
+                  "valueDataType": {
+                    "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Organization"
+                  },
+                  "picklist": []
+                }
+              },
+              {
+                "propertyURI": "http://id.loc.gov/ontologies/bibframe/contribution",
+                "propertyLabel": "Agents/collections associated with Item",
+                "mandatory": "false",
+                "repeatable": "true",
+                "type": "resource",
+                "resourceTemplates": [],
+                "valueConstraint": {
+                  "valueTemplateRefs": [
+                    "lc:RT:Agents:bfContribution"
+                  ],
+                  "useValuesFrom": [],
+                  "defaults": [],
+                  "valueDataType": {},
+                  "picklist": []
+                }
+              },
+              {
+                "propertyURI": "http://id.loc.gov/ontologies/bibframe/note",
+                "propertyLabel": "Notes about the Item",
+                "mandatory": "false",
+                "repeatable": "true",
+                "type": "resource",
+                "resourceTemplates": [],
+                "valueConstraint": {
+                  "valueTemplateRefs": [
+                    "lc:RT:NoteLc"
+                  ],
+                  "useValuesFrom": [],
+                  "defaults": [],
+                  "valueDataType": {},
+                  "picklist": []
+                }
+              }
+            ]
+          },
+          {
             "id": "lc:RT:NoteSimple",
             "resourceURI": "http://id.loc.gov/ontologies/bibframe/Note",
             "resourceLabel": "Simple note",
@@ -6261,19 +6387,105 @@
                 }
               }
             ]
+          },
+          {
+            "id": "lc:RT:Agents:bfContribution",
+            "resourceURI": "http://id.loc.gov/ontologies/bibframe/Contribution",
+            "resourceLabel": "Collection/contribution",
+            "propertyTemplates": [
+              {
+                "propertyURI": "http://id.loc.gov/ontologies/bibframe/agent",
+                "propertyLabel": "Search LCNAF",
+                "mandatory": "FALSE",
+                "repeatable": "TRUE",
+                "type": "resource",
+                "resourceTemplates": [],
+                "valueConstraint": {
+                  "valueTemplateRefs": [
+                    "lc:RT:Agent:bfPerson",
+                    "lc:RT:Agent:bfCorp",
+                    "lc:RT:Agent:bfConf",
+                    "lc:RT:Agent:bfFamily",
+                    "lc:RT:Agent:bfJurisdiction"
+                  ],
+                  "useValuesFrom": [],
+                  "defaults": [],
+                  "valueDataType": {},
+                  "picklist": []
+                }
+              },
+              {
+                "propertyURI": "http://id.loc.gov/ontologies/bibframe/role",
+                "propertyLabel": "Relationship designator(s)",
+                "mandatory": "FALSE",
+                "repeatable": "TRUE",
+                "type": "lookup",
+                "resourceTemplates": [],
+                "valueConstraint": {
+                  "valueTemplateRefs": [],
+                  "useValuesFrom": [
+                    "http://id.loc.gov/vocabulary/relators"
+                  ],
+                  "defaults": [],
+                  "valueDataType": {
+                    "dataTypeURI": "http://id.loc.gov/ontologies/bibframe/Role"
+                  },
+                  "picklist": []
+                }
+              }
+            ]
+          },
+          {
+            "id": "lc:RT:NoteLc",
+            "resourceURI": "http://id.loc.gov/ontologies/bibframe/Note",
+            "resourceLabel": "LC-specific note",
+            "propertyTemplates": [
+              {
+                "propertyURI": "http://www.w3.org/2000/01/rdf-schema#label",
+                "propertyLabel": "Note",
+                "mandatory": "FALSE",
+                "repeatable": "TRUE",
+                "type": "literal",
+                "resourceTemplates": [],
+                "valueConstraint": {
+                  "valueTemplateRefs": [],
+                  "useValuesFrom": [],
+                  "defaults": [],
+                  "valueDataType": {},
+                  "picklist": []
+                }
+              },
+              {
+                "propertyURI": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+                "propertyLabel": "Note type",
+                "mandatory": "FALSE",
+                "repeatable": "TRUE",
+                "type": "lookup",
+                "resourceTemplates": [],
+                "valueConstraint": {
+                  "valueTemplateRefs": [],
+                  "useValuesFrom": [
+                    "http://id.loc.gov/vocabulary/mnotetype"
+                  ],
+                  "defaults": [],
+                  "valueDataType": {},
+                  "picklist": []
+                }
+              }
+            ]
           }
         ]
       }
     },
     "metadata": {
-      "createDate": "2026-10-30T16:00:03.270Z",
-      "updateDate": "2026-10-30T16:00:03.270Z"
+      "createDate": "2026-11-04T19:13:35.099Z",
+      "updateDate": "2026-11-04T19:13:35.099Z"
     },
-    "created": "2026-10-30T16:00:03.270Z",
-    "modified": "2026-10-30T16:00:03.270Z"
+    "created": "2026-11-04T19:13:35.099Z",
+    "modified": "2026-11-04T19:13:35.099Z"
   },
   {
-    "id": "f87865b2-d05b-4b7d-9ee4-418fcf524b37",
+    "id": "07b42733-d544-4858-b3f7-f01de01a77ae",
     "name": "BIBFRAME 2.0 Admin Metadata",
     "configType": "profile",
     "json": {
@@ -6866,14 +7078,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-10-30T16:00:03.271Z",
-      "updateDate": "2026-10-30T16:00:03.271Z"
+      "createDate": "2026-11-04T19:13:35.101Z",
+      "updateDate": "2026-11-04T19:13:35.101Z"
     },
-    "created": "2026-10-30T16:00:03.271Z",
-    "modified": "2026-10-30T16:00:03.271Z"
+    "created": "2026-11-04T19:13:35.101Z",
+    "modified": "2026-11-04T19:13:35.101Z"
   },
   {
-    "id": "31a5cb2c-e8dd-4dec-8860-d7a56e4ce45b",
+    "id": "a6ca9b66-af60-4024-969b-3a2d419abadc",
     "name": "BIBFRAME 2.0 Agents",
     "configType": "profile",
     "json": {
@@ -9668,14 +9880,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-10-30T16:00:03.281Z",
-      "updateDate": "2026-10-30T16:00:03.281Z"
+      "createDate": "2026-11-04T19:13:35.113Z",
+      "updateDate": "2026-11-04T19:13:35.113Z"
     },
-    "created": "2026-10-30T16:00:03.281Z",
-    "modified": "2026-10-30T16:00:03.281Z"
+    "created": "2026-11-04T19:13:35.113Z",
+    "modified": "2026-11-04T19:13:35.113Z"
   },
   {
-    "id": "73fae7ff-cbe6-4f1b-a87a-a401f4a90c5a",
+    "id": "9bce06a4-e1e9-40d2-aa46-5e9942db9f58",
     "name": "BIBFRAME 2.0 RWO",
     "configType": "profile",
     "json": {
@@ -10656,14 +10868,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-10-30T16:00:03.285Z",
-      "updateDate": "2026-10-30T16:00:03.285Z"
+      "createDate": "2026-11-04T19:13:35.116Z",
+      "updateDate": "2026-11-04T19:13:35.116Z"
     },
-    "created": "2026-10-30T16:00:03.285Z",
-    "modified": "2026-10-30T16:00:03.285Z"
+    "created": "2026-11-04T19:13:35.116Z",
+    "modified": "2026-11-04T19:13:35.116Z"
   },
   {
-    "id": "78a77c73-9864-444d-a2fa-ab39cdc08ec5",
+    "id": "8a6cae65-200b-40ba-a30a-e14bc006bd3e",
     "name": "BIBFRAME 2.0 Agents Contribution",
     "configType": "profile",
     "json": {
@@ -10891,14 +11103,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-10-30T16:00:03.286Z",
-      "updateDate": "2026-10-30T16:00:03.286Z"
+      "createDate": "2026-11-04T19:13:35.117Z",
+      "updateDate": "2026-11-04T19:13:35.117Z"
     },
-    "created": "2026-10-30T16:00:03.286Z",
-    "modified": "2026-10-30T16:00:03.286Z"
+    "created": "2026-11-04T19:13:35.117Z",
+    "modified": "2026-11-04T19:13:35.117Z"
   },
   {
-    "id": "3cac69cd-6ad6-4217-97ff-7aa29a0cdcf7",
+    "id": "bd13a8f0-487c-4c49-95bd-38ff693a5991",
     "name": "BIBFRAME 2.0 Sound Recording-Analog",
     "configType": "profile",
     "json": {
@@ -15202,14 +15414,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-10-30T16:00:03.306Z",
-      "updateDate": "2026-10-30T16:00:03.306Z"
+      "createDate": "2026-11-04T19:13:35.138Z",
+      "updateDate": "2026-11-04T19:13:35.138Z"
     },
-    "created": "2026-10-30T16:00:03.306Z",
-    "modified": "2026-10-30T16:00:03.306Z"
+    "created": "2026-11-04T19:13:35.138Z",
+    "modified": "2026-11-04T19:13:35.138Z"
   },
   {
-    "id": "f2079aed-5bd9-4789-97a2-7316092789e6",
+    "id": "394b93d2-6d4c-4c1b-b2ef-c1df2d1efcf4",
     "name": "BIBFRAME 2.0 Cartographic",
     "configType": "profile",
     "json": {
@@ -19059,14 +19271,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-10-30T16:00:03.320Z",
-      "updateDate": "2026-10-30T16:00:03.320Z"
+      "createDate": "2026-11-04T19:13:35.153Z",
+      "updateDate": "2026-11-04T19:13:35.153Z"
     },
-    "created": "2026-10-30T16:00:03.320Z",
-    "modified": "2026-10-30T16:00:03.320Z"
+    "created": "2026-11-04T19:13:35.153Z",
+    "modified": "2026-11-04T19:13:35.153Z"
   },
   {
-    "id": "37d287ce-43cc-4d47-a65e-9715495a9d80",
+    "id": "90d89088-b29e-45fa-8fdb-152a4f9524a1",
     "name": "BIBFRAME 2.0 Classification",
     "configType": "profile",
     "json": {
@@ -19645,14 +19857,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-10-30T16:00:03.323Z",
-      "updateDate": "2026-10-30T16:00:03.323Z"
+      "createDate": "2026-11-04T19:13:35.155Z",
+      "updateDate": "2026-11-04T19:13:35.155Z"
     },
-    "created": "2026-10-30T16:00:03.323Z",
-    "modified": "2026-10-30T16:00:03.323Z"
+    "created": "2026-11-04T19:13:35.155Z",
+    "modified": "2026-11-04T19:13:35.155Z"
   },
   {
-    "id": "766e379d-4c3b-44a3-b78e-07f4ff82b968",
+    "id": "263f92f7-d970-4f20-9009-99d91c28c872",
     "name": "BIBFRAME 2.0 Form",
     "configType": "profile",
     "json": {
@@ -19902,14 +20114,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-10-30T16:00:03.324Z",
-      "updateDate": "2026-10-30T16:00:03.324Z"
+      "createDate": "2026-11-04T19:13:35.156Z",
+      "updateDate": "2026-11-04T19:13:35.156Z"
     },
-    "created": "2026-10-30T16:00:03.324Z",
-    "modified": "2026-10-30T16:00:03.324Z"
+    "created": "2026-11-04T19:13:35.156Z",
+    "modified": "2026-11-04T19:13:35.156Z"
   },
   {
-    "id": "1636f501-fad0-4a99-804a-906a37018527",
+    "id": "2a91bd60-0779-4bc0-a3ec-8f6e25365a4d",
     "name": "GPO Monograph",
     "configType": "profile",
     "json": {
@@ -21995,14 +22207,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-10-30T16:00:03.335Z",
-      "updateDate": "2026-10-30T16:00:03.335Z"
+      "createDate": "2026-11-04T19:13:35.163Z",
+      "updateDate": "2026-11-04T19:13:35.163Z"
     },
-    "created": "2026-10-30T16:00:03.335Z",
-    "modified": "2026-10-30T16:00:03.335Z"
+    "created": "2026-11-04T19:13:35.163Z",
+    "modified": "2026-11-04T19:13:35.163Z"
   },
   {
-    "id": "12c1a071-aa80-44a5-96c4-4b53853085b3",
+    "id": "fcf74046-58eb-4548-8f72-5d47edd5fcff",
     "name": "GPO Serial",
     "configType": "profile",
     "json": {
@@ -26552,14 +26764,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-10-30T16:00:03.354Z",
-      "updateDate": "2026-10-30T16:00:03.354Z"
+      "createDate": "2026-11-04T19:13:35.182Z",
+      "updateDate": "2026-11-04T19:13:35.182Z"
     },
-    "created": "2026-10-30T16:00:03.354Z",
-    "modified": "2026-10-30T16:00:03.354Z"
+    "created": "2026-11-04T19:13:35.182Z",
+    "modified": "2026-11-04T19:13:35.182Z"
   },
   {
-    "id": "694c6519-b4bd-4d64-8c2b-b36a3e5457e4",
+    "id": "b5e5eaed-f5cc-49f7-98b4-71fc2b76cc23",
     "name": "Test BF hub",
     "configType": "profile",
     "json": {
@@ -27460,14 +27672,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-10-30T16:00:03.359Z",
-      "updateDate": "2026-10-30T16:00:03.359Z"
+      "createDate": "2026-11-04T19:13:35.184Z",
+      "updateDate": "2026-11-04T19:13:35.184Z"
     },
-    "created": "2026-10-30T16:00:03.359Z",
-    "modified": "2026-10-30T16:00:03.359Z"
+    "created": "2026-11-04T19:13:35.184Z",
+    "modified": "2026-11-04T19:13:35.184Z"
   },
   {
-    "id": "a1d6c39e-267b-428b-a178-3c69f302903f",
+    "id": "352e6a37-0254-4df3-be37-55fa5ec72245",
     "name": "BF Hub",
     "configType": "profile",
     "json": {
@@ -28336,14 +28548,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-10-30T16:00:03.364Z",
-      "updateDate": "2026-10-30T16:00:03.364Z"
+      "createDate": "2026-11-04T19:13:35.187Z",
+      "updateDate": "2026-11-04T19:13:35.187Z"
     },
-    "created": "2026-10-30T16:00:03.364Z",
-    "modified": "2026-10-30T16:00:03.364Z"
+    "created": "2026-11-04T19:13:35.187Z",
+    "modified": "2026-11-04T19:13:35.187Z"
   },
   {
-    "id": "2c820472-b13f-4438-826e-e1adac3727aa",
+    "id": "bb634e30-373c-405a-a63f-ac8a44248396",
     "name": "IBC description",
     "configType": "profile",
     "json": {
@@ -33803,14 +34015,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-10-30T16:00:03.383Z",
-      "updateDate": "2026-10-30T16:00:03.383Z"
+      "createDate": "2026-11-04T19:13:35.210Z",
+      "updateDate": "2026-11-04T19:13:35.210Z"
     },
-    "created": "2026-10-30T16:00:03.383Z",
-    "modified": "2026-10-30T16:00:03.383Z"
+    "created": "2026-11-04T19:13:35.210Z",
+    "modified": "2026-11-04T19:13:35.210Z"
   },
   {
-    "id": "049da36d-7f1d-4571-b39a-fe79f17b14b5",
+    "id": "f3a9eae8-a4f1-4d4b-a63f-15b821f89d4a",
     "name": "BIBFRAME 2.0 Identifiers",
     "configType": "profile",
     "json": {
@@ -35404,14 +35616,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-10-30T16:00:03.392Z",
-      "updateDate": "2026-10-30T16:00:03.392Z"
+      "createDate": "2026-11-04T19:13:35.216Z",
+      "updateDate": "2026-11-04T19:13:35.216Z"
     },
-    "created": "2026-10-30T16:00:03.392Z",
-    "modified": "2026-10-30T16:00:03.392Z"
+    "created": "2026-11-04T19:13:35.216Z",
+    "modified": "2026-11-04T19:13:35.216Z"
   },
   {
-    "id": "9516da41-18ee-4b66-be56-7944e056bdaf",
+    "id": "a13fcdf6-6d55-40a2-afaf-46c1fbb9758f",
     "name": "BIBFRAME 2.0 Item",
     "configType": "profile",
     "json": {
@@ -36184,14 +36396,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-10-30T16:00:03.396Z",
-      "updateDate": "2026-10-30T16:00:03.396Z"
+      "createDate": "2026-11-04T19:13:35.222Z",
+      "updateDate": "2026-11-04T19:13:35.222Z"
     },
-    "created": "2026-10-30T16:00:03.396Z",
-    "modified": "2026-10-30T16:00:03.396Z"
+    "created": "2026-11-04T19:13:35.222Z",
+    "modified": "2026-11-04T19:13:35.222Z"
   },
   {
-    "id": "406d71fd-3058-4017-bbc6-f884d8b75637",
+    "id": "24dae607-5a55-4813-beb9-3133d9389b4b",
     "name": "BIBFRAME 2.0 Language",
     "configType": "profile",
     "json": {
@@ -36295,14 +36507,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-10-30T16:00:03.397Z",
-      "updateDate": "2026-10-30T16:00:03.397Z"
+      "createDate": "2026-11-04T19:13:35.223Z",
+      "updateDate": "2026-11-04T19:13:35.223Z"
     },
-    "created": "2026-10-30T16:00:03.397Z",
-    "modified": "2026-10-30T16:00:03.397Z"
+    "created": "2026-11-04T19:13:35.223Z",
+    "modified": "2026-11-04T19:13:35.223Z"
   },
   {
-    "id": "9746afd6-6d90-43a1-8dea-d44e26193af8",
+    "id": "242500ec-b5c0-453b-b4a2-77ea9d430008",
     "name": "BIBFRAME 2.0 Moving Image-DVD",
     "configType": "profile",
     "json": {
@@ -40960,14 +41172,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-10-30T16:00:03.414Z",
-      "updateDate": "2026-10-30T16:00:03.414Z"
+      "createDate": "2026-11-04T19:13:35.242Z",
+      "updateDate": "2026-11-04T19:13:35.242Z"
     },
-    "created": "2026-10-30T16:00:03.414Z",
-    "modified": "2026-10-30T16:00:03.414Z"
+    "created": "2026-11-04T19:13:35.242Z",
+    "modified": "2026-11-04T19:13:35.242Z"
   },
   {
-    "id": "52ce4537-0fb1-4b77-8ee1-21ee6a62eedc",
+    "id": "9125767c-ebb3-43ea-ac6c-6c22cbd23118",
     "name": "Monograph Collection",
     "configType": "profile",
     "json": {
@@ -43997,14 +44209,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-10-30T16:00:03.428Z",
-      "updateDate": "2026-10-30T16:00:03.428Z"
+      "createDate": "2026-11-04T19:13:35.256Z",
+      "updateDate": "2026-11-04T19:13:35.256Z"
     },
-    "created": "2026-10-30T16:00:03.428Z",
-    "modified": "2026-10-30T16:00:03.428Z"
+    "created": "2026-11-04T19:13:35.256Z",
+    "modified": "2026-11-04T19:13:35.256Z"
   },
   {
-    "id": "78028cd3-2555-477d-bafe-f3d30db7bbdd",
+    "id": "a66ecc55-9819-49b6-ac8f-0fac856dccc1",
     "name": "BIBFRAME 2.0 Monograph TEST",
     "configType": "profile",
     "json": {
@@ -48691,14 +48903,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-10-30T16:00:03.447Z",
-      "updateDate": "2026-10-30T16:00:03.447Z"
+      "createDate": "2026-11-04T19:13:35.280Z",
+      "updateDate": "2026-11-04T19:13:35.280Z"
     },
-    "created": "2026-10-30T16:00:03.447Z",
-    "modified": "2026-10-30T16:00:03.447Z"
+    "created": "2026-11-04T19:13:35.280Z",
+    "modified": "2026-11-04T19:13:35.280Z"
   },
   {
-    "id": "14ed9845-d928-41a6-b8df-1ba58e8022f0",
+    "id": "c5f8c026-17f7-438a-8537-7cbbaefdcaa4",
     "name": "BIBFRAME 2.0 Monograph (Non-Latin)",
     "configType": "profile",
     "json": {
@@ -52070,14 +52282,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-10-30T16:00:03.463Z",
-      "updateDate": "2026-10-30T16:00:03.463Z"
+      "createDate": "2026-11-04T19:13:35.292Z",
+      "updateDate": "2026-11-04T19:13:35.292Z"
     },
-    "created": "2026-10-30T16:00:03.463Z",
-    "modified": "2026-10-30T16:00:03.463Z"
+    "created": "2026-11-04T19:13:35.292Z",
+    "modified": "2026-11-04T19:13:35.292Z"
   },
   {
-    "id": "5e67634c-066a-4188-b7c6-7331221fcad0",
+    "id": "f67da860-f1ac-4c2f-8a8b-b91f98ab3f0e",
     "name": "BIBFRAME 2.0 Notated Music",
     "configType": "profile",
     "json": {
@@ -55674,14 +55886,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-10-30T16:00:03.478Z",
-      "updateDate": "2026-10-30T16:00:03.478Z"
+      "createDate": "2026-11-04T19:13:35.307Z",
+      "updateDate": "2026-11-04T19:13:35.307Z"
     },
-    "created": "2026-10-30T16:00:03.478Z",
-    "modified": "2026-10-30T16:00:03.478Z"
+    "created": "2026-11-04T19:13:35.307Z",
+    "modified": "2026-11-04T19:13:35.307Z"
   },
   {
-    "id": "c2a8eaa2-d106-4b78-a867-c05c3830656a",
+    "id": "9e676f8a-6d4d-403c-86ee-26181b22413a",
     "name": "BIBFRAME 2.0 Note",
     "configType": "profile",
     "json": {
@@ -56022,14 +56234,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-10-30T16:00:03.480Z",
-      "updateDate": "2026-10-30T16:00:03.480Z"
+      "createDate": "2026-11-04T19:13:35.310Z",
+      "updateDate": "2026-11-04T19:13:35.310Z"
     },
-    "created": "2026-10-30T16:00:03.480Z",
-    "modified": "2026-10-30T16:00:03.480Z"
+    "created": "2026-11-04T19:13:35.310Z",
+    "modified": "2026-11-04T19:13:35.310Z"
   },
   {
-    "id": "ab8d72ab-3667-4ed8-b90d-015584cf03a8",
+    "id": "da6ff03c-7f83-4983-a9b2-4aa0743c7dee",
     "name": "BIBFRAME Official RDA Monograph",
     "configType": "profile",
     "json": {
@@ -61812,14 +62024,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-10-30T16:00:03.501Z",
-      "updateDate": "2026-10-30T16:00:03.501Z"
+      "createDate": "2026-11-04T19:13:35.332Z",
+      "updateDate": "2026-11-04T19:13:35.332Z"
     },
-    "created": "2026-10-30T16:00:03.501Z",
-    "modified": "2026-10-30T16:00:03.501Z"
+    "created": "2026-11-04T19:13:35.332Z",
+    "modified": "2026-11-04T19:13:35.332Z"
   },
   {
-    "id": "29bb4a30-c3ea-4c37-9363-18a2f0d42748",
+    "id": "d662575a-2f6e-423e-b172-1287ec36a433",
     "name": "PMO Medium of Performance",
     "configType": "profile",
     "json": {
@@ -63932,14 +64144,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-10-30T16:00:03.508Z",
-      "updateDate": "2026-10-30T16:00:03.508Z"
+      "createDate": "2026-11-04T19:13:35.342Z",
+      "updateDate": "2026-11-04T19:13:35.342Z"
     },
-    "created": "2026-10-30T16:00:03.508Z",
-    "modified": "2026-10-30T16:00:03.508Z"
+    "created": "2026-11-04T19:13:35.342Z",
+    "modified": "2026-11-04T19:13:35.342Z"
   },
   {
-    "id": "c8ada707-d1c5-47d8-831c-8f0efe68c876",
+    "id": "3ce8cb5a-1442-4ad1-837d-43a80176ab02",
     "name": "BIBFRAME 2.0 Place",
     "configType": "profile",
     "json": {
@@ -64093,14 +64305,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-10-30T16:00:03.509Z",
-      "updateDate": "2026-10-30T16:00:03.509Z"
+      "createDate": "2026-11-04T19:13:35.343Z",
+      "updateDate": "2026-11-04T19:13:35.343Z"
     },
-    "created": "2026-10-30T16:00:03.509Z",
-    "modified": "2026-10-30T16:00:03.509Z"
+    "created": "2026-11-04T19:13:35.343Z",
+    "modified": "2026-11-04T19:13:35.343Z"
   },
   {
-    "id": "edec4dc0-a9f2-4900-bed8-d363ce53d74e",
+    "id": "e37f9185-95e3-4e37-980d-11f0f7561a8f",
     "name": "Prints & Photographs",
     "configType": "profile",
     "json": {
@@ -67391,14 +67603,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-10-30T16:00:03.525Z",
-      "updateDate": "2026-10-30T16:00:03.525Z"
+      "createDate": "2026-11-04T19:13:35.357Z",
+      "updateDate": "2026-11-04T19:13:35.357Z"
     },
-    "created": "2026-10-30T16:00:03.525Z",
-    "modified": "2026-10-30T16:00:03.525Z"
+    "created": "2026-11-04T19:13:35.357Z",
+    "modified": "2026-11-04T19:13:35.357Z"
   },
   {
-    "id": "9ac021d0-b43b-4760-b23e-9542fc3c83c9",
+    "id": "b1509da0-e503-452b-82e0-b6c829de5a20",
     "name": "BIBFRAME 2.0 Publication, Distribution, Manufacturer Activity",
     "configType": "profile",
     "json": {
@@ -67762,14 +67974,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-10-30T16:00:03.526Z",
-      "updateDate": "2026-10-30T16:00:03.526Z"
+      "createDate": "2026-11-04T19:13:35.358Z",
+      "updateDate": "2026-11-04T19:13:35.358Z"
     },
-    "created": "2026-10-30T16:00:03.526Z",
-    "modified": "2026-10-30T16:00:03.526Z"
+    "created": "2026-11-04T19:13:35.358Z",
+    "modified": "2026-11-04T19:13:35.358Z"
   },
   {
-    "id": "d672e6d1-cf27-436f-9d9e-d0cbe107a98a",
+    "id": "f985067a-12f5-49f5-b9f5-9d03424c2890",
     "name": "BIBFRAME 2.0 Rare Materials",
     "configType": "profile",
     "json": {
@@ -71460,14 +71672,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-10-30T16:00:03.540Z",
-      "updateDate": "2026-10-30T16:00:03.540Z"
+      "createDate": "2026-11-04T19:13:35.373Z",
+      "updateDate": "2026-11-04T19:13:35.373Z"
     },
-    "created": "2026-10-30T16:00:03.540Z",
-    "modified": "2026-10-30T16:00:03.540Z"
+    "created": "2026-11-04T19:13:35.373Z",
+    "modified": "2026-11-04T19:13:35.373Z"
   },
   {
-    "id": "af9bcb98-1181-4d92-8343-0a27f3c4f73e",
+    "id": "8bf85791-3c0b-4b68-8faf-d6768393079b",
     "name": "Music Related Work",
     "configType": "profile",
     "json": {
@@ -72457,14 +72669,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-10-30T16:00:03.556Z",
-      "updateDate": "2026-10-30T16:00:03.556Z"
+      "createDate": "2026-11-04T19:13:35.377Z",
+      "updateDate": "2026-11-04T19:13:35.377Z"
     },
-    "created": "2026-10-30T16:00:03.556Z",
-    "modified": "2026-10-30T16:00:03.556Z"
+    "created": "2026-11-04T19:13:35.377Z",
+    "modified": "2026-11-04T19:13:35.377Z"
   },
   {
-    "id": "1ed149e2-2102-4b8e-a57d-0f7035801d77",
+    "id": "cf06889e-9ee1-4b84-8565-653301a94033",
     "name": "BIBFRAME 2.0 Related Works and Expressions",
     "configType": "profile",
     "json": {
@@ -72818,14 +73030,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-10-30T16:00:03.559Z",
-      "updateDate": "2026-10-30T16:00:03.559Z"
+      "createDate": "2026-11-04T19:13:35.379Z",
+      "updateDate": "2026-11-04T19:13:35.379Z"
     },
-    "created": "2026-10-30T16:00:03.559Z",
-    "modified": "2026-10-30T16:00:03.559Z"
+    "created": "2026-11-04T19:13:35.379Z",
+    "modified": "2026-11-04T19:13:35.379Z"
   },
   {
-    "id": "3dd517d7-abd2-4267-8cae-03d88c8d0a29",
+    "id": "e1213639-590e-4e33-b209-923de574afcb",
     "name": "BIBFRAME 2.0 Serial",
     "configType": "profile",
     "json": {
@@ -77517,14 +77729,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-10-30T16:00:03.583Z",
-      "updateDate": "2026-10-30T16:00:03.583Z"
+      "createDate": "2026-11-04T19:13:35.396Z",
+      "updateDate": "2026-11-04T19:13:35.396Z"
     },
-    "created": "2026-10-30T16:00:03.583Z",
-    "modified": "2026-10-30T16:00:03.583Z"
+    "created": "2026-11-04T19:13:35.396Z",
+    "modified": "2026-11-04T19:13:35.396Z"
   },
   {
-    "id": "f22bfc91-5fe6-4d65-a345-cf5e56619ca5",
+    "id": "56c65240-f033-4cbc-97c3-150b98a37b19",
     "name": "BIBFRAME 2.0 Series Information",
     "configType": "profile",
     "json": {
@@ -77870,14 +78082,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-10-30T16:00:03.585Z",
-      "updateDate": "2026-10-30T16:00:03.585Z"
+      "createDate": "2026-11-04T19:13:35.397Z",
+      "updateDate": "2026-11-04T19:13:35.397Z"
     },
-    "created": "2026-10-30T16:00:03.585Z",
-    "modified": "2026-10-30T16:00:03.585Z"
+    "created": "2026-11-04T19:13:35.397Z",
+    "modified": "2026-11-04T19:13:35.397Z"
   },
   {
-    "id": "8c1c5891-3afa-48d7-a791-c8ebd83b3d08",
+    "id": "11f29b73-9399-4a09-9702-54683efd86c0",
     "name": "Test Simple Authority",
     "configType": "profile",
     "json": {
@@ -78053,14 +78265,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-10-30T16:00:03.586Z",
-      "updateDate": "2026-10-30T16:00:03.586Z"
+      "createDate": "2026-11-04T19:13:35.398Z",
+      "updateDate": "2026-11-04T19:13:35.398Z"
     },
-    "created": "2026-10-30T16:00:03.586Z",
-    "modified": "2026-10-30T16:00:03.586Z"
+    "created": "2026-11-04T19:13:35.398Z",
+    "modified": "2026-11-04T19:13:35.398Z"
   },
   {
-    "id": "a619d6b6-9a68-4a35-ba11-c62f63685b95",
+    "id": "2e70ff38-8403-45dd-8164-1f3539a5486c",
     "name": "BIBFRAME 2.0 Sound Record-Audio CD",
     "configType": "profile",
     "json": {
@@ -82044,14 +82256,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-10-30T16:00:03.610Z",
-      "updateDate": "2026-10-30T16:00:03.610Z"
+      "createDate": "2026-11-04T19:13:35.413Z",
+      "updateDate": "2026-11-04T19:13:35.413Z"
     },
-    "created": "2026-10-30T16:00:03.610Z",
-    "modified": "2026-10-30T16:00:03.610Z"
+    "created": "2026-11-04T19:13:35.413Z",
+    "modified": "2026-11-04T19:13:35.413Z"
   },
   {
-    "id": "1da08dab-21a1-4d69-bc21-252ff521540b",
+    "id": "fa5659ee-569e-4f97-a0bf-5ea348070f31",
     "name": "BIBFRAME 2.0 Sound Recording-Audio CD-R",
     "configType": "profile",
     "json": {
@@ -86318,14 +86530,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-10-30T16:00:03.633Z",
-      "updateDate": "2026-10-30T16:00:03.633Z"
+      "createDate": "2026-11-04T19:13:35.436Z",
+      "updateDate": "2026-11-04T19:13:35.436Z"
     },
-    "created": "2026-10-30T16:00:03.633Z",
-    "modified": "2026-10-30T16:00:03.633Z"
+    "created": "2026-11-04T19:13:35.436Z",
+    "modified": "2026-11-04T19:13:35.436Z"
   },
   {
-    "id": "5238fe8d-ac2e-4b0e-90cf-407da2b97629",
+    "id": "74016770-304a-4452-87de-3d4ae592b287",
     "name": "BIBFRAME 2.0 Sound Recording-Audio Cassette",
     "configType": "profile",
     "json": {
@@ -90481,14 +90693,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-10-30T16:00:03.654Z",
-      "updateDate": "2026-10-30T16:00:03.654Z"
+      "createDate": "2026-11-04T19:13:35.455Z",
+      "updateDate": "2026-11-04T19:13:35.455Z"
     },
-    "created": "2026-10-30T16:00:03.654Z",
-    "modified": "2026-10-30T16:00:03.654Z"
+    "created": "2026-11-04T19:13:35.455Z",
+    "modified": "2026-11-04T19:13:35.455Z"
   },
   {
-    "id": "f6bb24f9-bcc9-4f5e-85c9-9e643061ae3d",
+    "id": "811f08af-0894-4f75-9be9-a8fa098ed1e5",
     "name": "Subjects",
     "configType": "profile",
     "json": {
@@ -90834,14 +91046,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-10-30T16:00:03.656Z",
-      "updateDate": "2026-10-30T16:00:03.656Z"
+      "createDate": "2026-11-04T19:13:35.457Z",
+      "updateDate": "2026-11-04T19:13:35.457Z"
     },
-    "created": "2026-10-30T16:00:03.656Z",
-    "modified": "2026-10-30T16:00:03.656Z"
+    "created": "2026-11-04T19:13:35.457Z",
+    "modified": "2026-11-04T19:13:35.457Z"
   },
   {
-    "id": "b8a56d4e-6457-47a2-b7aa-18cdf0730fe5",
+    "id": "b11f2d5a-8e24-446c-83de-0546332aa90f",
     "name": "BIBFRAME 2.0 Title Information",
     "configType": "profile",
     "json": {
@@ -91512,14 +91724,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-10-30T16:00:03.660Z",
-      "updateDate": "2026-10-30T16:00:03.660Z"
+      "createDate": "2026-11-04T19:13:35.459Z",
+      "updateDate": "2026-11-04T19:13:35.459Z"
     },
-    "created": "2026-10-30T16:00:03.660Z",
-    "modified": "2026-10-30T16:00:03.660Z"
+    "created": "2026-11-04T19:13:35.459Z",
+    "modified": "2026-11-04T19:13:35.459Z"
   },
   {
-    "id": "90fac748-3fc2-49be-96a4-5a00190effa3",
+    "id": "6ff46c25-00d1-4d84-8b62-e02889184532",
     "name": "BIBFRAME 2.0 Topic",
     "configType": "profile",
     "json": {
@@ -92092,14 +92304,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-10-30T16:00:03.665Z",
-      "updateDate": "2026-10-30T16:00:03.665Z"
+      "createDate": "2026-11-04T19:13:35.463Z",
+      "updateDate": "2026-11-04T19:13:35.463Z"
     },
-    "created": "2026-10-30T16:00:03.665Z",
-    "modified": "2026-10-30T16:00:03.665Z"
+    "created": "2026-11-04T19:13:35.463Z",
+    "modified": "2026-11-04T19:13:35.463Z"
   },
   {
-    "id": "514ce87f-ab68-4a3b-9ecf-52783a6cf58b",
+    "id": "f1651b8f-ec71-48df-9079-a5632b2024fc",
     "name": "BIBFRAME 2.0 Videocassette",
     "configType": "profile",
     "json": {
@@ -96505,14 +96717,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-10-30T16:00:03.688Z",
-      "updateDate": "2026-10-30T16:00:03.688Z"
+      "createDate": "2026-11-04T19:13:35.480Z",
+      "updateDate": "2026-11-04T19:13:35.480Z"
     },
-    "created": "2026-10-30T16:00:03.688Z",
-    "modified": "2026-10-30T16:00:03.688Z"
+    "created": "2026-11-04T19:13:35.480Z",
+    "modified": "2026-11-04T19:13:35.480Z"
   },
   {
-    "id": "a0da477a-1244-4246-b646-2d32a73ecd79",
+    "id": "218a0191-fe3b-4829-81fa-90fbabe31144",
     "name": "BIBFRAME 2.0 Extra menus",
     "configType": "profile",
     "json": {
@@ -97411,14 +97623,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-10-30T16:00:03.694Z",
-      "updateDate": "2026-10-30T16:00:03.694Z"
+      "createDate": "2026-11-04T19:13:35.487Z",
+      "updateDate": "2026-11-04T19:13:35.487Z"
     },
-    "created": "2026-10-30T16:00:03.694Z",
-    "modified": "2026-10-30T16:00:03.694Z"
+    "created": "2026-11-04T19:13:35.487Z",
+    "modified": "2026-11-04T19:13:35.487Z"
   },
   {
-    "id": "caf9ccaa-11b5-443a-88cb-42e182cf58bf",
+    "id": "e4cf2d05-2633-420b-8654-cf025d32ac37",
     "name": "Test Manuscripts (DACS)",
     "configType": "profile",
     "json": {
@@ -98537,14 +98749,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-10-30T16:00:03.699Z",
-      "updateDate": "2026-10-30T16:00:03.699Z"
+      "createDate": "2026-11-04T19:13:35.491Z",
+      "updateDate": "2026-11-04T19:13:35.491Z"
     },
-    "created": "2026-10-30T16:00:03.699Z",
-    "modified": "2026-10-30T16:00:03.699Z"
+    "created": "2026-11-04T19:13:35.491Z",
+    "modified": "2026-11-04T19:13:35.491Z"
   },
   {
-    "id": "48ac8b01-3510-4dd1-9d8b-869f4f976799",
+    "id": "92d6eaf7-c8e8-4ebc-b8da-ee13b97b13d6",
     "name": "Test Mixed Materials",
     "configType": "profile",
     "json": {
@@ -103614,14 +103826,14 @@
       }
     },
     "metadata": {
-      "createDate": "2026-10-30T16:00:03.720Z",
-      "updateDate": "2026-10-30T16:00:03.720Z"
+      "createDate": "2026-11-04T19:13:35.509Z",
+      "updateDate": "2026-11-04T19:13:35.509Z"
     },
-    "created": "2026-10-30T16:00:03.720Z",
-    "modified": "2026-10-30T16:00:03.720Z"
+    "created": "2026-11-04T19:13:35.509Z",
+    "modified": "2026-11-04T19:13:35.509Z"
   },
   {
-    "id": "8663bb1e-2251-4073-810c-a30bb3482fbb",
+    "id": "6589c908-3cd0-47f1-aef0-a2419db4e10a",
     "name": "Test profile for RDA Work",
     "configType": "profile",
     "json": {
@@ -106552,10 +106764,10 @@
       }
     },
     "metadata": {
-      "createDate": "2026-10-30T16:00:03.728Z",
-      "updateDate": "2026-10-30T16:00:03.728Z"
+      "createDate": "2026-11-04T19:13:35.518Z",
+      "updateDate": "2026-11-04T19:13:35.518Z"
     },
-    "created": "2026-10-30T16:00:03.728Z",
-    "modified": "2026-10-30T16:00:03.728Z"
+    "created": "2026-11-04T19:13:35.518Z",
+    "modified": "2026-11-04T19:13:35.518Z"
   }
 ]
