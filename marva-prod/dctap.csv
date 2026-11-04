@@ -641,7 +641,7 @@ lc:RT:bf2:MIBluRayDVD:Work,BIBFRAME Work,bf:Work,bf:expressionOf,Expression [sea
 ,,,bf:supplementaryContent,Supplementary content,false,true,,,,http://id.loc.gov/vocabulary/msupplcont,IRIstem,,,,bf:SupplementaryContent,https://bibframe.org/docs/view/documentation-marva-manual/work-description/supplementary-content.md
 ,,,bf:colorContent,Color content,false,true,,,,http://id.loc.gov/vocabulary/mcolor,IRIstem,,,,bf:ColorContent,https://bibframe.org/docs/view/documentation-marva-manual/work-description/color-content.md
 ,,,bf:soundContent,Sound content,false,true,,,,http://id.loc.gov/vocabulary/msoundcontent,IRIstem,,sound,http://id.loc.gov/vocabulary/msoundcontent/sound,bf:SoundContent,
-,,,bflc:movingImageTechnique,Moving image technique,false,true,,,,http://id.loc.gov/vocabulary/mtechnique,IRIstem,,,,bflc:MovingImageTechnique,
+,,,bflc:movingImageTechnique,Moving image technique,false,true,,,,bf:,IRIstem,,,,bflc:MovingImageTechnique,
 ,,,bf:aspectRatio,Aspect ratio,false,true,,,,http://id.loc.gov/vocabulary/maspect,IRIstem,,,,bf:AspectRatio,
 ,,,bf:aspectRatio,Aspect ratio (numeric),false,true,bnode,,lc:RT:bf2:MIBluRayDVD:Aspect,,,,,,,
 ,,,bf:duration,Duration,false,true,literal,,,,,,,,,

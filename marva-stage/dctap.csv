@@ -134,6 +134,7 @@ lc:RT:3DObject:Work,BIBFRAME Work,bf:Work,bf:title,Title,FALSE,TRUE,bnode,,lc:RT
 ,,,bf:genreForm,Genre/Form,,true,bnode,,lc:RT:Form|lc:RT:MarcGT,,,,,,,
 ,,,bf:geographicCoverage,Geographic coverage,,true,bnode,,lc:RT:Form:Geog,,,,,,,
 ,,,bf:originDate,Date of Work,,,literal,,,,,,,,,
+,,,bflc:movingImageTechnique,Visual technique,,,IRI,,,http://id.loc.gov/vocabulary/mtechnique,IRIstem,,,,bflc:MovingImageTechnique,
 ,,,bf:hasInstance,Add BIBFRAME Instance,,true,bnode,,lc:RT:3DObject:Instance,,,,,,,
 lc:RT:AcqSource,Acquisition source,bf:AcquisitionSource,bf:identifiedBy,Stock number,FALSE,TRUE,bnode,,lc:RT:Identifiers:StockNumber,,,,,,,
 ,,,rdfs:label,Source of acquisition,FALSE,TRUE,literal,,,,,,,,,
@@ -1355,7 +1356,8 @@ lc:RT:RelWorkInputTitle,Input title,bf:Title,bflc:nonSortNum,Non-sort character 
 lc:RT:RelWorkLookup,Search related work/series,bf:Relation,bf:associatedResource,Search related works/series,FALSE,TRUE,,,,https://preprod-8088.id.loc.gov/resources/works/ | https://preprod-8088.id.loc.gov/resources/hubs/,IRIstem,,,,,https://bibframe.org/docs/view/documentation-marva-manual/work-description/search-related-work.md
 ,,,bf:seriesEnumeration,Series enumeration (if applicable),FALSE,TRUE,literal,,,,,,,,,
 ,,,bf:relationship,Relationship designator,FALSE,TRUE,,,,http://id.loc.gov/vocabulary/relationship,IRIstem,,,,bf:Relationship,
-lc:RT:RelatedWorkExpression,Music Related Work,bf:Work,rdf:type,Work Type,,,IRI,,,bf:NotatedMusic|bf:Manuscript,picklist,,,,,
+lc:RT:RelatedWorkExpression,Music Related Work,bf:Work,bf:expressionOf,Expression [search for a Hub],,,IRI,,,https://preprod-8080.id.loc.gov/resources/hubs/,IRIstem,,,,bf:Hub,
+,,,rdf:type,Work Type,,,IRI,,,bf:NotatedMusic|bf:Manuscript,picklist,,,,,
 ,,,bf:title,Title,,,bnode,,lc:RT:WorkTitle|lc:RT:Title:VarTitle|lc:RT:ParallelTitle,,,,,,,
 ,,,bf:contribution,Contributors,,,bnode,,lc:RT:Agents:Contribution,,,,,,bf:Contribution,
 ,,,bf:originDate,Date of Work,,,literal,,,,,,,,,
