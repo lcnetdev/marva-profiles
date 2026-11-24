@@ -1073,12 +1073,18 @@ lc:RT:NotatedMusic:Work,BIBFRAME Work,bf:Work,bf:expressionOf,Expression of [sea
 ,,,bf:tableOfContents,Contents,,TRUE,bnode,,lc:RT:Contents,,,,,,,https://bibframe.org/view/documentation-marva-manual/work-description/contents.md
 ,,,bf:summary,Summary,,TRUE,bnode,,lc:RT:Summary,,,,,,,https://bibframe.org/view/documentation-marva-manual/work-description/summary.md
 ,,,bf:duration,Duration,,,literal,,,,,,,,,
+,,,bf:originDate,Date of work,,,literal,,,,,,,,,
+,,,bf:ensembleSize,Ensemble size,,,,,,http://id.loc.gov/vocabulary/ensemblesize,IRIstem,,,,bf:EnsembleSize,
+,,,bf:mediumComponent,Medium component,,,bnode,,lc:RT:PMOMedPerf:MediumComp,,,,,,,
+,,,bf:musicMedium,Medium of performance statement,,,bnode,,lc:RT:MOPStatement,,,,,,,
+,,,bf:musicFormat,"Format (score, part, etc.)",,,,,,http://id.loc.gov/vocabulary/mmusicformat,IRIstem,,,,bf:MusicFormat,
+,,,bf:notation,"Notation (staff, graphic, etc.)",,,,,,http://id.loc.gov/vocabulary/mmusnotation,IRIstem,,,,bf:MusicNotation,
+,,,bf:keyMode,Key and mode,,,bnode,,lc:RT:KeyMode,,,,,,,
+,,,bf:identifiedBy,Identifiers,,,bnode,,lc:RT:Identifiers:OpusNumber|lc:RT:Identifiers:ThematicCatalog|lc:RT:Identifiers:SerialNumber,,,,,,,
 ,,,bf:relation,Input transcribed series,,,bnode,,lc:RT:SeriesHub,,,,,,,https://bibframe.org/view/documentation-marva-manual/work-description/input-transcribed-series.md
 ,,,bf:relation,Search related work/series,,TRUE,bnode,,lc:RT:RelWorkLookup,,,,,,,https://bibframe.org/view/documentation-marva-manual/work-description/search-related-work.md
 ,,,bf:relation,Add Music related work,,,bnode,,lc:RT:RelWorkExpressionLookup,,,,,,,https://bibframe.org/docs/view/documentation-marva-manual/work-description/related-music-work.md
 ,,,bf:hasInstance,Add BIBFRAME Instance,,TRUE,bnode,,lc:RT:NotatedMusic:Instance,,,,,,,
-,,,bf:originDate,Date of work,,,literal,,,,,,,,,
-,,,bf:ensembleSize,Ensemble size,,,,,,http://id.loc.gov/vocabulary/ensemblesize,,,,,,
 lc:RT:NotatedMusic:WorkRef,BIBFRAME Work,bf:Work,bf:expressionOf,Expression of [search for a Hub],FALSE,TRUE,,,,https://id.loc.gov/resources/hubs,IRIstem,,,,bf:Hub,
 ,,,rdf:type,Work type,,,IRI,,,bf:NotatedMusic|bf:Manuscript,picklist,,,,,
 ,,,bf:contribution,Creator,FALSE,TRUE,bnode,,lc:RT:bflc:Agents:PrimaryContribution,,,,,,bf:PrimaryContribution,
